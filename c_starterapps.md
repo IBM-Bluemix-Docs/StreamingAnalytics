@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Using the {{site.data.keyword.streaminganalyticsshort}} starter applications
+# Using the Streaming Analytics starter applications
 {: #starterapps}
 
 Deploy and modify the starter applications and quickly learn how to use the {{site.data.keyword.streaminganalyticsshort}} service:

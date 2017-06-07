@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Deploying the starter applications on {{site.data.keyword.Bluemix_short}}
+# Deploying the starter applications on Bluemix
 {: #starterapps_deploy}
 
 You can push and deploy one of the {{site.data.keyword.streaminganalyticsshort}} starter applications to the {{site.data.keyword.Bluemix_short}} cloud.

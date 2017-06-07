@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Other operators
+# Other operators
 {: #c_other_operators}
 
 Other operators, including those toolkit operators that you have developed for your own needs, can be compatible with {{site.data.keyword.streaminganalyticsshort}}.

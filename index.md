@@ -14,7 +14,7 @@ lastupdated: "2017-04-13"
 {:pre: .pre}
 
 
-# Getting started with {{site.data.keyword.streaminganalyticsshort}}
+# Getting started with Streaming Analytics
 {: #gettingstarted}
 
 {{site.data.keyword.streaminganalyticsshort}} is powered by {{site.data.keyword.streamsshort}}, an advanced analytic platform that you can use to ingest, analyze, and correlate information as it arrives from different types of data sources in real time. When you create an instance of the {{site.data.keyword.streaminganalyticsshort}} service, you get your own instance of {{site.data.keyword.streamsshort}} running in the {{site.data.keyword.Bluemix_short}} cloud, ready to run your {{site.data.keyword.streamsshort}} applications.
@@ -37,7 +37,7 @@ If you already have an SPL application that you run on premise, you must [get yo
 
 **Note:** You must compile your applications in Red Hat Enterprise Linux (RHEL) 6.5 or an equivalent CentOS version, using Intel processors.
 
-## {{site.data.keyword.streamsshort}} Python apps for {{site.data.keyword.streaminganalyticsshort}}
+## Streams Python apps for Streaming Analytics
 {: #gettingstarted_py notoc}
 
 You can now create Streams apps in a Python environment, such as IBM Data Science Experience (DSX), and submit these apps to the {{site.data.keyword.streaminganalyticsshort}} instance to be deployed in the Bluemix cloud. You no longer need to install {{site.data.keyword.streamsshort}} locally to compile and deploy a Streams Python app.
