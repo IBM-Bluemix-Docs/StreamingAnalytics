@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Deploying your Streams applications on Bluemix
+#Deploying your {{site.data.keyword.streamsshort}} applications on {{site.data.keyword.Bluemix_short}}
 {: #c_getting_app_bluemix}
 
 

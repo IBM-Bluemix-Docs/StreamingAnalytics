@@ -39,7 +39,7 @@ To create and deploy Python applications without a {{site.data.keyword.streamssh
 
 The {{site.data.keyword.streamsshort}} operators in the [{{site.data.keyword.streamsshort}} Processing Language (SPL) standard toolkit should all be compatible](/docs/services/StreamingAnalytics/c_beta_adapters.html) with {{site.data.keyword.streaminganalyticsshort}}.
 
-## Streaming Analytics responsibilities
+## {{site.data.keyword.streaminganalyticsfull}} responsibilities
 {: #responsibilities notoc}
 
 ### Client responsibilities

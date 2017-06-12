@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Tutorials to integrate with other Bluemix services
+#Tutorials to integrate with other {{site.data.keyword.Bluemix_short}} services
 {: #tutorials}
 
 

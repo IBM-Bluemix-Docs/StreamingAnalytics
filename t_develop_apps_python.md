@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Developing Python applications for Streaming Analytics
+# Developing Python applications for {{site.data.keyword.streaminganalyticsshort}}
 {: #t_develop_apps_python}
 
 You can now develop Python applications in IBM Data Science Experience (DSX) or in your local Python development environment and deploy these applications in {{site.data.keyword.streaminganalyticsshort}}.
