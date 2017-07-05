@@ -25,9 +25,9 @@ Entwickeln Sie Python-Anwendungen und stellen Sie sie in der {{site.data.keyword
 ## Streams-Python-Anwendungen in DSX entwickeln
 {: #t_develop_python_dsx}
 
-Wenn Sie nicht über eine Python-Entwicklungsumgebung verfügen, besteht der einfachste Einstieg darin, dass Sie die Notebooks in DSX verwenden und Python-Beispielanwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service erstellen. Mit diesen Notebooks stehen die Schritte und Codebeispiele zur Verfügung, mit denen einfache Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service innerhalb der DSX-Python-Umgebung erstellt und bereitgestellt werden können. 
+Wenn Sie nicht über eine Python-Entwicklungsumgebung verfügen, besteht der einfachste Einstieg darin, dass Sie die Notebooks in DSX verwenden und Python-Beispielanwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service erstellen. Mit diesen Notebooks stehen die Schritte und Codebeispiele zur Verfügung, mit denen einfache Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service innerhalb der DSX-Python-Umgebung erstellt und bereitgestellt werden können.
 
-* [Hello World!](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Erstellen Sie als ersten Schritt eine einfache 'Hello World!'-Anwendung und stellen Sie dann die Anwendung in einer Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service bereit. 
+* [Hello World!](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Erstellen Sie als ersten Schritt eine einfache 'Hello World!'- Anwendung und stellen Sie dann die Anwendung in einer Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service bereit.
 
 * [Demo über Gesundheitswesen](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6): Erstellen Sie eine Anwendung, die Streaming-Daten aus einem Feed aufnimmt und analysiert und dann die Daten im Notebook visualisiert. Schließlich übergeben Sie diese Anwendung an die {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz.
 

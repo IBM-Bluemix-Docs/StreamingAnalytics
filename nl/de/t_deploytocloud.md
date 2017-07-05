@@ -36,7 +36,8 @@ Gehen Sie wie folgt vor, um Ihre {{site.data.keyword.streamsshort}}-Anwendungen 
 
 2. Entwickeln Sie Ihre Streaming-Anwendung in Ihrer Entwicklungsumgebung. In der {{site.data.keyword.streamsshort}}-Entwicklungsumgebung können Sie Streams Studio oder die Befehlszeilentools verwenden, um Ihre Anwendung zu entwickeln.
 
-3. Stellen Sie sicher, dass Ihre Streaming-Anwendung in Ihrer Entwicklungsumgebung ordnungsgemäß ausgeführt wird.**Anmerkung:** Sie müssen Ihre Anwendung unter einem Red Hat Enterprise Linux (RHEL) 6.5-Betriebssystem oder einer entsprechenden CentOS-Version mit Intel-Prozessoren kompilieren. 
+3. Stellen Sie sicher, dass Ihre Streaming-Anwendung in Ihrer Entwicklungsumgebung ordnungsgemäß ausgeführt wird.
+**Anmerkung:** Sie müssen Ihre Anwendung unter einem Red Hat Enterprise Linux (RHEL) 6.5-Betriebssystem oder einer entsprechenden CentOS-Version mit Intel-Prozessoren kompilieren.
 
 4. Übergeben Sie das Anwendungsbundle (die Datei mit der Erweiterung .sab), die Ihrer SPL-, Java-, Scala- oder Python-Anwendung zugeordnet ist, an die Serviceinstanz in der Cloud. Verwenden Sie dazu eine der folgenden Methoden:
 	* Verwenden Sie die {{site.data.keyword.streaminganalyticsshort}}-Konsole, um das Anwendungsbundle zu übergeben.
@@ -49,7 +50,8 @@ Ihre Anwendung wurde jetzt in der Cloud bereitgestellt. Sie können Ihre Anwendu
 ## {{site.data.keyword.streamsshort}}-Python-Anwendungen in der Cloud bereitstellen
 {: #t_deploypython}
 
-Stellen Sie Ihre {{site.data.keyword.streamsshort}}-Python-Anwendungen für einen {{site.data.keyword.streaminganalyticsshort}}-Service bereit, der in der {{site.data.keyword.Bluemix_short}}-Cloud ausgeführt wird. Sie benötigen dafür keine {{site.data.keyword.streamsshort}}-Installation.{:shortdesc}
+Stellen Sie Ihre {{site.data.keyword.streamsshort}}-Python-Anwendungen für einen {{site.data.keyword.streaminganalyticsshort}}-Service bereit, der in der {{site.data.keyword.Bluemix_short}}-Cloud ausgeführt wird. Sie benötigen dafür keine {{site.data.keyword.streamsshort}}-Installation.
+{:shortdesc}
 
 Mit der [{{site.data.keyword.streamsshort}}-Python-Anwendungs-API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), die im Lieferumfang des 'streamsx'-Pakets enthalten ist, können Sie Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service bereitstellen. Im Lernprogramm [Entwicklung für den {{site.data.keyword.streaminganalyticsshort}}-Service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) wird anhand eines Beispiels veranschaulicht, wie eine einfache Python-Anwendung für den {{site.data.keyword.streaminganalyticsshort}}-Service erstellt und bereitgestellt werden kann.
 

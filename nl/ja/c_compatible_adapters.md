@@ -3,6 +3,7 @@
 copyright:
   years: 2015, 2017
 lastupdated: "2017-04-13"
+
 ---
 
 <!-- Attribute definitions -->
@@ -29,7 +30,7 @@ Internet Toolkit (com.ibm.streamsx.inet) では、一般的なインターネッ
 
 | ***互換性のあるオペレーター*** | 							           |
 | ---------------------------| ----------------------- |
-| `FTPCommand` 	   		 	     |	`HTTPJSONInjection`*   | 	 	 	
+| `FTPCommand` 	   		 	     |	`HTTPJSONInjection`*| 	 	 	
 |  `FTPPutFile`				       |	`HTTPTupleInjection`*	 |
 | `FTPReader`    	 		       | 	`HTTPTupleView`*		   |
 | `HTTPGetStream`			       | 	`HTTPXMLInjection`*		 |

@@ -19,7 +19,29 @@ lastupdated: "2017-04-13"
 Implemente e modifique os aplicativos iniciadores e aprenda rapidamente como usar o serviço {{site.data.keyword.streaminganalyticsshort}}:
 {:shortdesc}
 
-<table summary="Esta tabela descreve, na primeira linha, o aplicativo de amostra Event Detection. A tabela inclui na segunda linha: 1. Na primeira coluna, um link para instruções sobre como implementar o aplicativo iniciador Event Detection. 2. Na segunda coluna, um link para tutoriais sobre como usar o aplicativo iniciador Event Detection. 3. Na terceira coluna, um link para fazer download diretamente do aplicativo iniciador Event Detection.">
+<table summary="Na primeira linha, essa tabela descreve o aplicativo iniciador do Stock Trades. A tabela inclui na segunda linha:
+1. Na primeira coluna, um link para um vídeo sobre como implementar o aplicativo iniciador do Stock Trades. 2. Na segunda coluna, um link para fazer download diretamente do aplicativo iniciador do Stock Trades.
+ ">
+  <tr>
+    <th colspan="3">Aplicativo de amostra do Stock Trades<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">Esse aplicativo analisa um fluxo de cotações de estoque e produz uma média do balanço dos preços usando o operador <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate</a>.
+É possível executar o aplicativo iniciador sem modificação. Se você desejar experimentar mais com o serviço, também será possível modificar o código e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}. A fonte completa para o aplicativo iniciador está <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">disponível no GitHub</a>.</p>
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">IMPLEMENTAR O APP</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">FAZER O DOWNLOAD</a></td>
+  </tr>
+</table>
+
+*Tabela 1. App de amostra do Stock Trades*
+
+
+<table summary="Esta tabela descreve, na primeira linha, o aplicativo de amostra Event Detection. A tabela inclui na segunda linha:
+1. Na primeira coluna, um link para instruções sobre como implementar o aplicativo iniciador Event Detection. 2. Na segunda coluna, um link para tutoriais sobre como usar o aplicativo iniciador Event Detection. 3. Na terceira coluna, um link para fazer download diretamente do aplicativo iniciador Event Detection.
+ ">
   <tr>
     <th colspan="3">App de amostra Event Detection<br></th>
   </tr>
@@ -38,17 +60,16 @@ Se você desejar experimentar mais com o serviço, também será possível modif
   </tr>
 </table>
 
-*Tabela 1. App de amostra de detecção de eventos*
+*Tabela 2. App de amostra de detecção de eventos*
 
-<table summary="Esta tabela descreve, na primeira linha, o aplicativo de amostra New York Traffic. A tabela inclui na segunda linha: 1. Na primeira coluna, um link para instruções sobre como implementar o aplicativo de amostra New York Traffic. 2. Na segunda coluna, um link para tutoriais sobre como usar o aplicativo de amostra New York Traffic. 3. Na terceira coluna, um link para fazer download diretamente do aplicativo de amostra New York Traffic.">
+<table summary="Esta tabela descreve, na primeira linha, o aplicativo de amostra New York Traffic. A tabela inclui na segunda linha:
+1. Na primeira coluna, um link para instruções sobre como implementar o aplicativo de amostra New York Traffic. 2. Na segunda coluna, um link para tutoriais sobre como usar o aplicativo de amostra New York Traffic. 3. Na terceira coluna, um link para fazer download diretamente do aplicativo de amostra New York Traffic.">
   <tr>
     <th colspan="3">App de amostra NYC Traffic<br></th>
   </tr>
   <tr>
-    <td colspan="3">O app iniciador NYC Traffic é um aplicativo {{site.data.keyword.Bluemix_short}} que é gravado no Liberty for Java. Ele contém um aplicativo {{site.data.keyword.streamsshort}} que recupera dados públicos
-dos sensores de tráfego da cidade de Nova York, calcula estatísticas agregadas e envia os resultados de volta para o aplicativo Liberty.
-<p>É possível executar o aplicativo
-iniciador sem modificação. Se você desejar experimentar mais com o serviço, também será possível modificar o código e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}.</p>
+    <td colspan="3">O app iniciador NYC Traffic é um aplicativo {{site.data.keyword.Bluemix_short}} que é gravado no Liberty for Java. Ele contém um aplicativo {{site.data.keyword.streamsshort}} que recupera dados públicos dos sensores de tráfego da cidade de Nova York, calcula estatísticas agregadas e envia os resultados de volta para o aplicativo Liberty.
+<p>É possível executar o aplicativo iniciador sem modificação. Se você desejar experimentar mais com o serviço, também será possível modificar o código e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}.</p>
 </td>
   </tr>
   <tr>
@@ -58,4 +79,4 @@ iniciador sem modificação. Se você desejar experimentar mais com o serviço, 
   </tr>
 </table>
 
-*Tabela 2. App de amostra de tráfego de NYC*
+*Tabela 3. App de amostra de tráfego NYC*

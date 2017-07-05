@@ -19,6 +19,27 @@ lastupdated: "2017-04-13"
 Distribuisci e modifica le applicazioni starter e impara velocemente come utilizzare il servizio {{site.data.keyword.streaminganalyticsshort}}:
 {:shortdesc}
 
+<table summary="Questa tabella descrive, nella prima riga, l'applicazione starter Stock Trades. La tabella include nella seconda riga:
+1. Nella prima colonna, un link a un video su come distribuire l'applicazione starter Stock Trades. 2. Nella seconda colonna, un link per scaricare direttamente l'applicazione starter Stock Trades.
+ ">
+  <tr>
+    <th colspan="3">Applicazione di esempio Stock Trades<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">Questa applicazione analizza un flusso di quotazioni titolo e produce un media mobile dei prezzi utilizzando l'operatore <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate</a>.
+Puoi eseguire l'applicazione starter senza alcuna modifica. Se vuoi provare con un altro servizio, puoi anche modificare
+il codice e rimandare le tue modifiche all'ambiente {{site.data.keyword.Bluemix_short}} . L'origine completa dell'applicazione starter è <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">disponibile in GitHub</a>.</p>
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">DISTRIBUISCI L'APPLICAZIONE</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">SCARICA</a></td>
+  </tr>
+</table>
+
+*Tabella 1. Applicazione di esempio Stock Trades*
+
+
 <table summary="Questa tabella descrive, nella prima riga, l'applicazione di esempio Event Detection. Nella seconda riga, la tabella include:
 1. Nella prima colonna, un link alle istruzioni su come distribuire l'applicazione starter Event Detection. 2. Nella seconda colonna, un link alle esercitazioni su come utilizzare l'applicazione starter Event Detection. 3. Nella terza colonna, un link per scaricare direttamente l'applicazione starter Event Detection.
  ">
@@ -45,7 +66,7 @@ il codice e rimandare le tue modifiche all'ambiente {{site.data.keyword.Bluemix_
   </tr>
 </table>
 
-*Tabella 1. Applicazione di esempio Event Detection*
+*Tabella 2. Applicazione di esempio Event Detection*
 
 <table summary="Questa tabella descrive, nella prima riga, l'applicazione di esempio New York Traffic. Nella seconda riga, la tabella include:
 1. Nella prima colonna, un link alle istruzioni su come distribuire l'applicazione di esempio New York Traffic. 2. Nella seconda colonna, un link alle esercitazioni su come utilizzare l'applicazione di esempio New York Traffic. 3. Nella terza colonna, un link per scaricare direttamente l'applicazione di esempio New York Traffic.">
@@ -67,4 +88,4 @@ il codice e rimandare le tue modifiche all'ambiente {{site.data.keyword.Bluemix_
   </tr>
 </table>
 
-*Tabella 2. Applicazione di esempio NYC Traffic*
+*Tabella 3. Applicazione di esempio NYC Traffic*

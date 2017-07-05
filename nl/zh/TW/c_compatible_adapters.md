@@ -29,7 +29,7 @@ Internet Toolkit (com.ibm.streamsx.inet) 支援一般網際網路通訊協定。
 
 | ***相容的運算子*** | 							           |
 | ---------------------------| ----------------------- |
-| `FTPCommand` 	   		 	     |	`HTTPJSONInjection`*   | 	 	 	
+| `FTPCommand` 	   		 	     |	`HTTPJSONInjection`*| 	 	 	
 |  `FTPPutFile`				       |	`HTTPTupleInjection`*	 |
 | `FTPReader`    	 		       | 	`HTTPTupleView`*		   |
 | `HTTPGetStream`			       | 	`HTTPXMLInjection`*		 |
@@ -83,7 +83,7 @@ Messaging Toolkit (com.ibm.streamsx.messaging) 專案是開放程式碼 {{site.d
 
 | ***相容的運算子*** 		    | 						       |
 | ---------------------------------	| ------------------ |
-| `JMSSink（含 Apache ActiveMQ）`   	|	`MQTTSource`  	   | 	 	 	
+| `JMSSink with Apache ActiveMQ`   	|	`MQTTSource`  	   | 	 	 	
 | `JMSSource`		 	 			            |	`RabbitMQSink`		 |
 | `KafkaConsumer`	 				          | `RabbitMQSource`	 |
 | `KafkaProducer`	 	 			          | `XMSSource`	       |

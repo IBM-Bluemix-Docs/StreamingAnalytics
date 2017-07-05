@@ -19,6 +19,26 @@ lastupdated: "2017-04-13"
 スターター・アプリケーションをデプロイして変更すると、{{site.data.keyword.streaminganalyticsshort}} サービスの使用法がすぐに分かります。
 {:shortdesc}
 
+<table summary="この表では、最初の行で Stock Trades スターター・アプリケーションについて説明しています。この表の 2 行目には、以下が含まれています。
+1. 最初の列には、Stock Trades スターター・アプリケーションのデプロイ方法のビデオへのリンクが含まれています。 2. 2 列目には、Stock Trades スターター・アプリケーションを直接ダウンロードするためのリンクが含まれています。
+ ">
+  <tr>
+    <th colspan="3">Stock Trades サンプル・アプリケーション<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">このアプリケーションは、株価の流れを分析し、<a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate</a> オペレーターを使用して価格の移動平均を生成します。
+スターター・アプリケーションは、変更せずに実行できます。さらにサービスを試してみたい場合は、コードを変更し、変更内容をプッシュして {{site.data.keyword.Bluemix_short}} 環境に戻すこともできます。スターター・アプリケーションの全ソースは、<a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">GitHub で入手可能です</a>。</p>
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">アプリケーションのデプロイ</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">ダウンロード</a></td>
+  </tr>
+</table>
+
+*表 1. Stock Trades サンプル・アプリケーション*
+
+
 <table summary="この表では、最初の行で Event Detection サンプル・アプリケーションについて説明しています。この表の 2 行目には、以下が含まれています。
 1. 最初の列には、Event Detection スターター・アプリケーションをデプロイする方法に関する説明へのリンクが含まれています。2. 2 列目には、Event Detection スターター・アプリケーションを使用する方法に関するチュートリアルへのリンクが含まれています。3. 3 列目には、Event Detection スターター・アプリケーションを直接ダウンロードするためのリンクが含まれています。
  ">
@@ -37,7 +57,7 @@ lastupdated: "2017-04-13"
   </tr>
 </table>
 
-*表 1. Event Detection サンプル・アプリケーション*
+*表 2. Event Detection サンプル・アプリケーション*
 
 <table summary="この表では、最初の行で New York traffic サンプル・アプリケーションについて説明しています。この表の 2 行目には、以下が含まれています。
 1. 最初の列には、New York traffic サンプル・アプリケーションをデプロイする方法に関する説明へのリンクが含まれています。2. 2 列目には、New York traffic サンプル・アプリケーションを使用する方法に関するチュートリアルへのリンクが含まれています。3. 3 列目には、New York traffic サンプル・アプリケーションを直接ダウンロードするためのリンクが含まれています。">
@@ -55,4 +75,4 @@ lastupdated: "2017-04-13"
   </tr>
 </table>
 
-*表 2. NYC Traffic サンプル・アプリケーション*
+*表 3. NYC Traffic サンプル・アプリケーション*

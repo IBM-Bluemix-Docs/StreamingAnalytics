@@ -16,13 +16,15 @@ lastupdated: "2017-04-13"
 # Implementando aplicativos {{site.data.keyword.streamsshort}} na nuvem
 {: #t_deploytocloud}
 
-É possível implementar os seus aplicativos {{site.data.keyword.streamsshort}} em uma instância do {{site.data.keyword.streaminganalyticsshort}} que estiver em execução na nuvem do {{site.data.keyword.Bluemix_short}}.
+É possível implementar os seus aplicativos {{site.data.keyword.streamsshort}} em uma instância do {{site.data.keyword.streaminganalyticsshort}}
+que estiver em execução na nuvem do {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 Os aplicativos {{site.data.keyword.streamsshort}} são gravados em {{site.data.keyword.streamsshort}} Processing Language (SPL), SPL, Java, Scala ou Python em um ambiente {{site.data.keyword.streamsshort}}. Agora é possível desenvolver aplicativos Streams Python sem um ambiente {{site.data.keyword.streamsshort}}. Consulte [Implementando aplicativos {{site.data.keyword.streamsshort}} Python para a nuvem](docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)
 
 
-O {{site.data.keyword.streaminganalyticsshort}} não inclui um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}} na nuvem, mas é possível implementar localmente na nuvem os aplicativos que você desenvolve.
+O {{site.data.keyword.streaminganalyticsshort}} não inclui um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}} na nuvem, mas é
+possível implementar localmente na nuvem os aplicativos que você desenvolve.
 
 Antes de iniciar, desative o bloqueador de pop-up de seu navegador para exibir o console do {{site.data.keyword.streaminganalyticsshort}}.
 
@@ -42,9 +44,11 @@ e clique em **Download da instalação de software nativo**.
 	* Use o console do {{site.data.keyword.streaminganalyticsshort}} para enviar o pacote configurável do aplicativo.
   * Crie um aplicativo {{site.data.keyword.Bluemix_short}} e inclua o aplicativo {{site.data.keyword.streamsshort}} nele. Controle-o usando a API REST do {{site.data.keyword.streaminganalyticsshort}}.
 
-Agora seu aplicativo está implementado na nuvem. É possível monitorar seu aplicativo usando o serviço {{site.data.keyword.streaminganalyticsshort}}. Também é possível enviar mais de um aplicativo (arquivos .sab) para sua instância de serviço. Quantas você quiser.
+Agora seu aplicativo está implementado na nuvem. É possível monitorar seu aplicativo usando o serviço {{site.data.keyword.streaminganalyticsshort}}. Também é possível enviar mais de um aplicativo (arquivos .sab) para sua instância de serviço. Quantas
+você quiser.
 
-O {{site.data.keyword.streamsshort}} também suporta vários Java™ Development Kits que podem ser usados para desenvolver os seus aplicativos. Para obter mais informações sobre o suporte a Java no {{site.data.keyword.streamsshort}}, veja [Java Development Kits suportados para desenvolvimento de aplicativos](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
+O {{site.data.keyword.streamsshort}} também suporta vários Java™ Development Kits que podem ser usados
+para desenvolver os seus aplicativos. Para obter mais informações sobre o suporte a Java no {{site.data.keyword.streamsshort}}, veja [Java Development Kits suportados para desenvolvimento de aplicativos](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
 
 ## Implementando aplicativos {{site.data.keyword.streamsshort}} Python para a nuvem
 {: #t_deploypython}

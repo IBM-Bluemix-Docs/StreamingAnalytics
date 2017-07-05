@@ -13,48 +13,67 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Utilisation des applications de démarrage {{site.data.keyword.streaminganalyticsshort}}
+#{{site.data.keyword.streaminganalyticsshort}}-Starteranwendungen verwenden
 {: #starterapps}
 
-Déployez et modifiez les applications de démarrage et apprenez rapidement comment utiliser le service {{site.data.keyword.streaminganalyticsshort}} :
+Sie können Starteranwendungen bereitstellen und modifizieren und Sie können in kürzester Zeit lernen, wie der {{site.data.keyword.streaminganalyticsshort}}-Service verwendet wird:
 {:shortdesc}
 
-<table summary="Ce tableau décrit, sur la première ligne, l'application exemple de détection d'événements. Il inclut, sur la deuxième ligne, les éléments suivants : 1. Dans la première colonne, un lien vers les instructions de déploiement de l'application de démarrage. 2. Dans la deuxième colonne, un lien vers les tutoriels sur l'utilisation de l'application de démarrage. 3. Dans la troisième colonne, un lien pour le téléchargement direct de l'application de démarrage de détection d'événements.">
+<table summary="Die erste Zeile dieser Tabelle enthält eine Beschreibung der Starteranwendung 'Stock Trades'. In der zweiten Zeile der Tabelle ist Folgendes enthalten:
+1. In der ersten Spalte ein Link zu einem Video mit einer Beschreibung zur Bereitstellung der Starteranwendung 'Stock Trades'. 2. In der zweiten Spalte ein Link zum direkten Download der Starteranwendung 'Stock Trades'.
+ ">
   <tr>
-    <th colspan="3">Application exemple relative à la détection d'événements<br></th>
+    <th colspan="3">Beispiel-App 'Stock Trades'<br></th>
   </tr>
   <tr>
-    <td colspan="3">L'application de détection d'événements est implémentée via la phase d'exécution <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}}</a>.
-Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
-L'application Node.js est liée à une instance du service {{site.data.keyword.streaminganalyticsshort}}. L'application contrôle le service via l'interface API REST {{site.data.keyword.streaminganalyticsshort}}.
-<p>Vous pouvez exécuter l'application de démarrage sans modification.
-Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}.</p>
+    <td colspan="3">Diese Anwendung analysiert einen Datenstrom mit Börsennotierungen und generiert einen gleitenden Durchschnittswert der Preise mithilfe des Operators für die <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregierung</a>.
+Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen. Die vollständige Quelle für die Starteranwendung ist <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">auf GitHub verfügbar</a>.</p>
 </td>
   </tr>
   <tr>
-    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOYER_L'APPLICATION</a><br></td>
-    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">TUTORIEL</a></td>
-    <td><a href="https://hub.jazz.net/git/streamscloud/EventDetection/" target="_blank">TELECHARGER</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">DOWNLOAD</a></td>
   </tr>
 </table>
 
-*Tableau 1. Application exemple relative à la détection d'événements
-*
+*Tabelle 1. Beispiel-App 'Stock Trades'*
 
-<table summary="Ce tableau décrit, sur la première ligne, l'application exemple relative au trafic new-yorkais. Il inclut, sur la deuxième ligne, les éléments suivants : 1. Dans la première colonne, un lien vers les instructions de déploiement de l'application exemple. 2. Dans la deuxième colonne, un lien vers les tutoriels sur l'utilisation de l'application exemple. 3. Dans la troisième colonne, un lien pour le téléchargement direct de l'application exemple relative au trafic new-yorkais.">
+
+<table summary="In dieser Tabelle wird in der ersten Zeile die Beispielanwendung 'Event Detection' beschrieben. Die zweite Zeile der Tabelle enthält Folgendes: 1. In der ersten Spalte einen Link zu Anweisungen für die Bereitstellung der Starteranwendung 'Event Detection'. 2. In der zweiten Spalte einen Link zu Lernprogrammen für die Verwendung der Starteranwendung 'Event Detection'. 3. In der dritten Spalte einen Link zum direkten Download der Starteranwendung 'Event Detection'.">
   <tr>
-    <th colspan="3">Application exemple relative au trafic new-yorkais<br></th>
+    <th colspan="3">Beispiel-App 'Event Detection'<br></th>
   </tr>
   <tr>
-    <td colspan="3">L'application exemple relative au trafic new-yorkais est une application {{site.data.keyword.Bluemix_short}} écrite dans Liberty for Java. Elle contient une application {{site.data.keyword.streamsshort}} qui extrait des données publiques à partir des détecteurs de trafic de la ville de New York, calcule des statistiques d'agrégat et renvoie les résultats à l'application Liberty.
-<p>Vous pouvez exécuter l'application de démarrage sans modification. Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}.</p>
+    <td colspan="3">Die App 'Event Detection' wird über die Laufzeitumgebung <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}}</a> implementiert.
+Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
+Die Node.js-App ist an eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service gebunden. Die App steuert den Service über die {{site.data.keyword.streaminganalyticsshort}}-REST-API.
+<p>Sie können die Starteranwendung unverändert ausführen.
+Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen.</p>
 </td>
   </tr>
   <tr>
-    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOYER_L'APPLICATION</a><br></td>
-    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">TUTORIEL</a></td>
-    <td><a href="https://hub.jazz.net/git/streamscloud/NYCTraffic/" target="_blank">TELECHARGER</a></td>
+    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">LERNPROGRAMM</a></td>
+    <td><a href="https://hub.jazz.net/git/streamscloud/EventDetection/" target="_blank">DOWNLOAD</a></td>
   </tr>
 </table>
 
-*Tableau 2. Application exemple relative au trafic new-yorkais*
+*Tabelle 2. Beispiel-App 'Event Detection'*
+
+<table summary="In dieser Tabelle wird in der ersten Zeile die Beispielanwendung 'New York Traffic' beschrieben. Die zweite Zeile der Tabelle enthält Folgendes: 1. In der ersten Spalte einen Link zu Anweisungen für die Bereitstellung der Beispielanwendung 'New York Traffic'. 2. In der zweiten Spalte einen Link zu Lernprogrammen für die Verwendung der Beispielanwendung 'New York Traffic'. 3. In der dritten Spalte einen Link zum direkten Download der Beispielanwendung 'New York Traffic'.">
+  <tr>
+    <th colspan="3">Beispiel-App 'NYC Traffic'<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">Die Starter-App 'NYC Traffic' ist eine {{site.data.keyword.Bluemix_short}}-Anwendung, die in Liberty for Java geschrieben ist. Sie enthält eine {{site.data.keyword.streamsshort}}-Anwendung, die öffentliche Daten von Verkehrssensoren in New York City abruft, kumulierte Statistikdaten berechnet und die Ergebnisse an die Liberty-Anwendung zurücksendet.
+<p>Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen.</p>
+</td>
+  </tr>
+  <tr>
+    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">LERNPROGRAMM</a></td>
+    <td><a href="https://hub.jazz.net/git/streamscloud/NYCTraffic/" target="_blank">DOWNLOAD</a></td>
+  </tr>
+</table>
+
+*Tabelle 3. Beispiel-App 'NYC Traffic'*

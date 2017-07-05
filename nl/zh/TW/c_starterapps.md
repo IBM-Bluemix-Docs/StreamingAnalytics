@@ -19,6 +19,26 @@ lastupdated: "2017-04-13"
 部署並修改入門範本應用程式，以及快速瞭解如何使用 {{site.data.keyword.streaminganalyticsshort}} 服務：
 {:shortdesc}
 
+<table summary="此表格的第一列說明 Stock Trades 入門範本應用程式。表格包含第二列：
+1. 在第一欄，有鏈結連往如何部署 Stock Trades 入門範本應用程式的視訊。2. 在第二欄，有鏈結可直接下載 Stock Trades 入門範本應用程式。
+ ">
+  <tr>
+    <th colspan="3">Stock Trades 範例應用程式<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">此應用程式會分析股票報價的串流，並使用 <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate</a> 運算子產生價格的滾動平均值。
+您可以執行入門範本應用程式，而不需要進行修改。如果您要進一步實驗服務，也可以修改程式碼，並將變更推送回 {{site.data.keyword.Bluemix_short}} 環境。入門範本應用程式的完整原始檔<a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">提供於 GitHub</a>。</p>
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">部署應用程式</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">下載</a></td>
+  </tr>
+</table>
+
+*表 1. Stock Trades 範例應用程式*
+
+
 <table summary="此表格的第一列說明 Event Detection 範例應用程式。表格第二列包含：
 1. 在第一欄中，如何部署 Event Detection 入門範本應用程式的指示鏈結。2. 在第二欄中，如何使用 Event Detection 入門範本應用程式的指導教學鏈結。3. 在第三欄中，直接下載 Event Detection 入門範本應用程式的鏈結。">
   <tr>
@@ -36,7 +56,7 @@ lastupdated: "2017-04-13"
   </tr>
 </table>
 
-*表 1. Event Detection 範例應用程式*
+*表 2. Event Detection 範例應用程式*
 
 <table summary="此表格的第一列說明 New York Traffic 範例應用程式。表格第二列包含：
 1. 在第一欄中，如何部署 New York Traffic 範例應用程式的指示鏈結。2. 在第二欄中，如何使用 New York Traffic 範例應用程式的指導教學鏈結。3. 在第三欄中，直接下載 New York Traffic 範例應用程式的鏈結。">
@@ -54,4 +74,4 @@ lastupdated: "2017-04-13"
   </tr>
 </table>
 
-*表 2. NYC Traffic 範例應用程式*
+*表 3. NYC Traffic 範例應用程式*

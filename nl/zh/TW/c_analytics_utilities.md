@@ -72,7 +72,7 @@ TimeSeries Toolkit (com.ibm.streams.timeseries) 中的運算子和函數可設�
 | `Distribution`      			 |	`PSAX`		 				           |
 | `FFT` 	   	 			         |	`RLSFilter`		 		        	 | 	
 | `FMPFilter`    	 		       |	`ReSample`		         			 |
-| `GAMLearner`		 	 	       |	`STD2`			           			 |
+| `GAMLearner `		 	 	       |	`STD2`			           			 |
 | `GAMScorer` 	   			     |	`TSWindowing`	        	 		 |
 | `GMM`     	 			         | 	`VAR2`			 	          		 |
 
@@ -179,10 +179,10 @@ Mining Toolkit (com.ibm.streams.mining) 所包括的運算子可用來透過套�
 
 | ***相容的運算子*** |
 | ---------------------------|
-| `關聯` 		      	 |
-| `分類`       	 	 |
-| `叢集作業`			       	 |
-| `回歸`			       	 |
+| `Associations` 		      	 |
+| `Classification`       	 	 |
+| `Clustering`			       	 |
+| `Regression`			       	 |
 
 *表 6. 與 Mining Toolkit 相容的運算子*
 

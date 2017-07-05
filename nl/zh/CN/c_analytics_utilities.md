@@ -78,7 +78,7 @@ TimeSeries Toolkit (com.ibm.streams.timeseries) 中的操作程序和功能可�
 | `Distribution`      			 |	`PSAX`		 				           |
 | `FFT` 	   	 			         |	`RLSFilter`		 		        	 | 	
 | `FMPFilter`    	 		       |	`ReSample`		         			 |
-| `GAMLearner`		 	 	       |	`STD2`			           			 |
+| `GAMLearner `		 	 	       |	`STD2`			           			 |
 | `GAMScorer` 	   			     |	`TSWindowing`	        	 		 |
 | `GMM`     	 			         | 	`VAR2`			 	          		 |
 

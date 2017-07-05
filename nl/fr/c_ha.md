@@ -13,8 +13,8 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Haute disponibilité {{site.data.keyword.streaminganalyticsshort}}
+#{{site.data.keyword.streaminganalyticsshort}} für hohe Verfügbarkeit
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} permet une haute disponibilité dans vos applications. Si un problème est détecté sur l'un de vos noeuds d'application (ressources {{site.data.keyword.streamsshort}}), le noeud est automatiquement remplacé et tous les noeuds s'exécutant sur ce noeud sont migrés. Les travaux ne sont migrés et redémarrés que si l'instance comporte des noeuds d'applications multiples. Vous pouvez redimensionner l'instance en utilisant le [tableau de bord du service](/docs/services/StreamingAnalytics/r_service_dashboard.html) ou l'[API REST {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220){:new_window}.
+{{site.data.keyword.streaminganalyticsshort}} ermöglicht eine hohe Verfügbarkeit Ihrer Anwendungen. Wenn bei einem Ihrer Anwendungsknoten ({{site.data.keyword.streamsshort}}-Ressourcen) ein Problem festgestellt wird, wird der Knoten automatisch ersetzt und alle auf dem Knoten ausgeführten Jobs werden migriert. Jobs werden nur dann migriert und neu gestartet, wenn die Instanz mehrere Anwendungsknoten aufweist. Sie können die Größe der Instanz mithilfe des 	[Service-Dashboards](/docs/services/StreamingAnalytics/r_service_dashboard.html) oder der [{{site.data.keyword.streaminganalyticsshort}}-REST-API](https://console.ng.bluemix.net/apidocs/220){:new_window} ändern.
 {:shortdesc}

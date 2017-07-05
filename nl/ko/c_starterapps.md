@@ -19,6 +19,26 @@ lastupdated: "2017-04-13"
 스타터 애플리케이션을 배치 및 수정하고 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하는 방법을 빠르게 배웁니다.
 {:shortdesc}
 
+<table summary="이 표의 첫 번째 행에는 Stock Trades 스타터 애플리케이션 설명이 들어 있습니다. 표의 두 번째 행에는 다음이 포함됩니다.
+1. 첫 번째 열에는 Stock Trades 스타터 애플리케이션을 배치하는 방법에 대한 비디오 링크가 있습니다. 2. 두 번째 열에는 Stock Trades 스타터 애플리케이션을 직접 다운로드할 수 있는 링크가 있습니다.
+ ">
+  <tr>
+    <th colspan="3">Stock Trades 샘플 앱<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">이 애플리케이션은 주식 시세의 흐름을 분석하고 <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">집계</a> 연산자를 사용하여 가격의 평균을 산출합니다.
+수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다. 서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다. 스타터 애플리케이션에 대한 전체 소스는 <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">GitHub에서 사용 가능</a>합니다.</p>
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">앱 배치</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">다운로드</a></td>
+  </tr>
+</table>
+
+*표 1. Stock Trades 샘플 앱*
+
+
 <table summary="이 표의 첫 번째 행에는 Event Detection 샘플 애플리케이션에 대한 설명이 있습니다. 표의 두 번째 행에는 다음 내용이 있습니다.
 1. 첫 번째 행에는 Event Detection 스타터 애플리케이션 배치 방법에 대한 지시사항 링크가 있습니다. 2. 두 번째 행에는 Event Detection 스타터 애플리케이션 사용 방법에 대한 튜토리얼 링크가 있습니다.">
   <tr>
@@ -36,7 +56,7 @@ lastupdated: "2017-04-13"
   </tr>
 </table>
 
-*표 1. Event Detection 샘플 앱*
+*표 2. Event Detection 샘플 앱*
 
 <table summary="이 표의 첫 번째 행에는 뉴욕 트래픽 샘플 애플리케이션에 대한 설명이 있습니다. 표의 두 번째 행에는 다음 내용이 있습니다.
 1. 첫 번째 행에는 뉴욕 트래픽 샘플 애플리케이션 배치 방법에 대한 지시사항 링크가 있습니다. 2. 두 번째 행에는 뉴욕 트래픽 샘플 애플리케이션 사용 방법에 대한 튜토리얼 링크가 있습니다.">
@@ -55,4 +75,4 @@ lastupdated: "2017-04-13"
   </tr>
 </table>
 
-*표 2. NYC Traffic 샘플 앱*
+*표 3. NYC Traffic 샘플 앱*

@@ -13,14 +13,15 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Environnement et outils de développement
+#Entwicklungstools und Entwicklungsumgebung
 {: #c_beta_tooling}
 
 
-Les considérations ci-dessous s'appliquent aux outils et à l'environnement que vous utilisez pour développer vos applications pour {{site.data.keyword.streaminganalyticsshort}}.
+Die folgenden Überlegungen beziehen sich auf die Tools und die Umgebung, die Sie
+zur Entwicklung Ihrer {{site.data.keyword.streaminganalyticsshort}}-Anwendungen verwenden.
 {:shortdesc}
 
 
-* {{site.data.keyword.streaminganalyticsshort}} n'inclut pas d'environnement de développement {{site.data.keyword.streamsshort}} dans le cloud ou Streams Studio dans le cloud. Développez vos applications dans un environnement {{site.data.keyword.streamsshort}} installé localement et soumettez-les en tant que bundle d'applications. Si vous n'avez pas d'environnement de développement, vous pouvez télécharger gratuitement {{site.data.keyword.streamsshort}} Quick Start Edition, depuis la [page de produit {{site.data.keyword.streamsshort}}](https://www.ibm.com/analytics/us/en/technology/stream-computing/#products).
-* Compilez le bundle d'applications dans un environnement Red Hat Enterprise Linux 6.5, ou une version CentOS équivalente, afin de garantir la compatibilité.
-* Dans votre environnement de développement {{site.data.keyword.streamsshort}}, définissez la variable d'environnement `JAVA_HOME` sur $STREAMS_INSTALL/java.
+* {{site.data.keyword.streaminganalyticsshort}} enthält keine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung oder Streams Studio in der Cloud. Entwickeln Sie Ihre Anwendungen in einer lokal installierten {{site.data.keyword.streamsshort}}-Umgebung und übergeben Sie sie als Anwendungsbundles. Wenn Sie nicht über die Entwicklungsumgebung verfügen, können Sie die {{site.data.keyword.streamsshort}} Quick Start Edition gebührenfrei von der [{{site.data.keyword.streamsshort}}-Produktseite](https://www.ibm.com/analytics/us/en/technology/stream-computing/#products) herunterladen.
+* Kompilieren Sie das Anwendungsbundle in einer Red Hat Enterprise Linux 6.5-Umgebung oder einer funktional entsprechenden CentOS-Version, um die Kompatibilität sicherzustellen.
+* Legen Sie in Ihrer {{site.data.keyword.streamsshort}}-Entwicklungsumgebung die Umgebungsvariable `JAVA_HOME` auf $STREAMS_INSTALL/java fest.

@@ -13,13 +13,14 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Autres opérateurs
+#Weitere Operatoren
 {: #c_other_operators}
 
-D'autres opérateurs, dont les opérateurs de kit d'outils que vous avez développés pour vos propres besoins, peuvent être compatibles avec {{site.data.keyword.streaminganalyticsshort}}.
+Auch andere Operatoren - wie z. B. die Toolkitoperatoren, die Sie für Ihre eigenen Anforderungen
+entwickelt haben, können mit {{site.data.keyword.streaminganalyticsshort}} kompatibel sein.
 {:shortdesc}
 
-Les kits d'outils doivent répondre aux critères suivants pour être compatibles avec {{site.data.keyword.streaminganalyticsshort}} :
+Toolkits müssen die folgenden Kriterien erfüllen, um mit {{site.data.keyword.streaminganalyticsshort}} kompatibel zu sein:
 
-1. Aucune préinstallation de logiciel supplémentaire n'est requise sur les noeuds d'application de votre instance de service.
-2. Toutes les informations de configuration requises par le kit d'outils peuvent être incluses dans le bundle d'applications à l'aide du kit d'outils.
+1. Sie setzen keine zusätzlich vorinstallierte Software auf den Anwendungsknoten Ihrer Serviceinstanz voraus.
+2. Alle Konfigurationsinformationen, die für das Toolkit benötigt werden, können mithilfe des Toolkits in das Anwendungsbundle integriert werden.

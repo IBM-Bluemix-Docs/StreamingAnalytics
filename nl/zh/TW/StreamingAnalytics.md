@@ -37,7 +37,7 @@ lastupdated: "2017-04-13"
 
 **與 {{site.data.keyword.streamsshort}} 運算子的相容性：**
 
-[{{site.data.keyword.streamsshort}} Processing Language (SPL) 標準工具箱中的 {{site.data.keyword.streamsshort}} 運算子](/docs/services/StreamingAnalytics/c_beta_adapters.html)應該全部與 {{site.data.keyword.streaminganalyticsshort}} 相容。
+[{{site.data.keyword.streamsshort}} Processing Language (SPL) 標準工具箱中的 [{{site.data.keyword.streamsshort}} 運算子應該全部與 {{site.data.keyword.streaminganalyticsshort}} 相容](/docs/services/StreamingAnalytics/c_beta_adapters.html)(/docs/services/StreamingAnalytics/c_beta_adapters.html)]。
 
 ## {{site.data.keyword.streaminganalyticsfull}} 責任
 {: #responsibilities notoc}

@@ -75,7 +75,7 @@ TimeSeries Toolkit (com.ibm.streams.timeseries) のオペレーターおよび�
 | `Distribution`      			 |	`PSAX`		 				           |
 | `FFT` 	   	 			         |	`RLSFilter`		 		        	 | 	
 | `FMPFilter`    	 		       |	`ReSample`		         			 |
-| `GAMLearner`		 	 	       |	`STD2`			           			 |
+| `GAMLearner `		 	 	       |	`STD2`			           			 |
 | `GAMScorer` 	   			     |	`TSWindowing`	        	 		 |
 | `GMM`     	 			         | 	`VAR2`			 	          		 |
 

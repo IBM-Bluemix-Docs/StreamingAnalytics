@@ -17,7 +17,10 @@ lastupdated: "2017-04-13"
 # Introdução ao {{site.data.keyword.streaminganalyticsshort}}
 {: #gettingstarted}
 
-O {{site.data.keyword.streaminganalyticsshort}} foi desenvolvido com o {{site.data.keyword.streamsshort}}, uma plataforma analítica avançada que pode ser usada para alimentar, analisar e correlacionar informações assim que chegam de diferentes tipos de origens de dados em tempo real. Ao criar uma instância do serviço {{site.data.keyword.streaminganalyticsshort}}, você obtém sua própria instância do {{site.data.keyword.streamsshort}} em execução na nuvem do {{site.data.keyword.Bluemix_short}}, pronta para executar seus aplicativos {{site.data.keyword.streamsshort}}.
+O {{site.data.keyword.streaminganalyticsshort}} foi desenvolvido com o {{site.data.keyword.streamsshort}}, uma plataforma analítica avançada que
+pode ser usada para alimentar, analisar e correlacionar informações assim que chegam de diferentes tipos de origens de dados em tempo real. Ao criar uma instância do
+serviço {{site.data.keyword.streaminganalyticsshort}}, você obtém sua própria instância do {{site.data.keyword.streamsshort}} em execução na nuvem do
+{{site.data.keyword.Bluemix_short}}, pronta para executar seus aplicativos {{site.data.keyword.streamsshort}}.
 {:shortdesc}
 
 Inicie o {{site.data.keyword.streaminganalyticsshort}} imediatamente executando os [aplicativos iniciadores](/docs/services/StreamingAnalytics/c_starterapps.html){:new_window}.
@@ -30,11 +33,18 @@ a API de REST do [{{site.data.keyword.streaminganalyticsshort}}](https://console
 
 Use o {{site.data.keyword.streaminganalyticsshort}} com outros serviços do {{site.data.keyword.Bluemix_short}}, incluindo o {{site.data.keyword.cloudant}} e o {{site.data.keyword.messagehub}}. Veja os [Tutoriais para se integrar com outros serviços do {{site.data.keyword.Bluemix_short}}](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window} para obter exemplos de funcionamento.
 
-Se você deseja ir além com seus próprios aplicativos, é possível obter um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}} e deve-se deixar seu aplicativo pronto para a nuvem. Caso você não tenha um ambiente do {{site.data.keyword.streamsshort}}, é possível fazer download do {{site.data.keyword.streamsshort}} Quick Start Edition, gratuitamente, na página de produto do [{{site.data.keyword.streamsshort}}.](https://www.ibm.com/analytics/us/en/technology/stream-computing/#products)
+Se você deseja ir além com seus próprios aplicativos, é possível obter um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}} e deve-se deixar seu aplicativo pronto para a nuvem. Caso
+você não tenha um ambiente do {{site.data.keyword.streamsshort}}, é possível fazer download do {{site.data.keyword.streamsshort}} Quick Start Edition, gratuitamente, na página de produto do [{{site.data.keyword.streamsshort}}.](https://www.ibm.com/analytics/us/en/technology/stream-computing/#products)
 
-Se você não estiver familiarizado com o desenvolvimento de aplicativo do {{site.data.keyword.streamsshort}}, haverá recursos para ajudá-lo a aprender. Para obter mais informações, veja o [{{site.data.keyword.streamsshort}} Knowledge Center.](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
+Se você não estiver familiarizado com o desenvolvimento de
+aplicativo do
+{{site.data.keyword.streamsshort}},
+haverá recursos para ajudá-lo a aprender. Para obter mais informações, veja o
+[{{site.data.keyword.streamsshort}} Knowledge Center.](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
 
-Se você já tiver um aplicativo SPL que será executado no local, deverá [deixar o seu aplicativo pronto para a nuvem.](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
+Se você já tiver um aplicativo SPL que será executado no local, deverá
+[deixar
+o seu aplicativo pronto para a nuvem.](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
 
 **Observação:** deve-se compilar seus aplicativos no Red Hat Enterprise Linux (RHEL) 6.5 ou em uma versão equivalente do CentOS usando processadores Intel.
 

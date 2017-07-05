@@ -19,6 +19,25 @@ lastupdated: "2017-04-13"
 部署并修改入门模板应用程序，并快速了解如何使用 {{site.data.keyword.streaminganalyticsshort}} 服务：
 {:shortdesc}
 
+<table summary="此表在第一行描述“股票交易”入门模板应用程序。该表在第二行包含：
+1. 在第一列中，如何部署“股票交易”入门模板应用程序的视频链接。2. 在第二列中，直接下载“股票交易”入门模板应用程序的链接。">
+  <tr>
+    <th colspan="3">股票交易样本应用程序<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">此应用程序对股票报价流进行分析，并使用<a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">聚合</a>运算符生成价格的滚动平均值。
+您可以运行入门模板应用程序，而不进行修改。如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。入门模板应用程序的完整来源<a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">在 GitHub 上提供</a>。</p>
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">部署应用程序</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">下载</a></td>
+  </tr>
+</table>
+
+*表 1. 股票交易样本应用程序*
+
+
 <table summary="此表在第一行描述“事件检测”样本应用程序。该表的第二行包括：
 1. 在第一列上，是指向如何部署“事件检测”入门模板应用程序指示信息的链接。2. 在第二列中，是指向如何使用“事件检测”入门模板应用程序教程的链接。3. 在第三列中，是用于直接下载“事件检测”入门模板应用程序的链接。
  ">
@@ -38,7 +57,7 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
   </tr>
 </table>
 
-*表 1. 事件检测样本应用程序*
+*表 2. 事件检测样本应用程序*
 
 <table summary="此表在第一行描述“纽约交通”样本应用程序。该表的第二行包括：
 1. 在第一列上，是指向如何部署“纽约交通”样本应用程序指示信息的链接。2. 在第二列中，是指向如何使用“纽约交通”样本应用程序教程的链接。3. 在第三列中，是用于直接下载“纽约交通”样本应用程序的链接。">
@@ -57,4 +76,4 @@ for Java 编写的 {{site.data.keyword.Bluemix_short}} 应用程序。它包含 
   </tr>
 </table>
 
-*表 2. NYC 交通样本应用程序*
+*表 3. NYC 交通样本应用程序*

@@ -41,7 +41,7 @@ können Sie sich hierüber anhand der zur Verfügung stehenden Ressourcen inform
 
 Wenn Sie bereits über eine SPL-Anwendung verfügen, die Sie lokal (on premise) ausführen, müssen Sie [Ihre Anwendung für die Cloud vorbereiten.](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
 
-**Anmerkung:** Sie müssen Ihre Anwendungen unter Red Hat Enterprise Linux (RHEL) 6.5 oder einer entsprechenden CentOS-Version mit Intel-Prozessoren kompilieren. 
+**Anmerkung:** Sie müssen Ihre Anwendungen unter Red Hat Enterprise Linux (RHEL) 6.5 oder einer entsprechenden CentOS-Version mit Intel-Prozessoren kompilieren.
 
 ## {{site.data.keyword.streamsshort}}-Python-Apps für {{site.data.keyword.streaminganalyticsshort}}
 {: #gettingstarted_py notoc}

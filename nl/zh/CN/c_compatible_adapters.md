@@ -30,7 +30,7 @@ Internet Toolkit (com.ibm.streamsx.inet) 提供常用因特网协议的支持。
 
 | ***兼容的操作程序*** | 							           |
 | ---------------------------| ----------------------- |
-| `FTPCommand` 	   		 	     |	`HTTPJSONInjection`*   | 	 	 	
+| `FTPCommand` 	   		 	     |	`HTTPJSONInjection`*| 	 	 	
 |  `FTPPutFile`				       |	`HTTPTupleInjection`*	 |
 | `FTPReader`    	 		       | 	`HTTPTupleView`*		   |
 | `HTTPGetStream`			       | 	`HTTPXMLInjection`*		 |
@@ -87,7 +87,7 @@ Messaging Toolkit (com.ibm.streamsx.messaging) 项目是开放式源代码 {{sit
 
 | ***兼容的操作程序*** 		    | 						       |
 | ---------------------------------	| ------------------ |
-| `具有 Apache ActiveMQ 的 JMSSink`   	|	`MQTTSource`  	   | 	 	 	
+| `具有 Apache ActiveMQ 的 JMSSink` |	`MQTTSource`  	   | 	 	 	
 | `JMSSource`		 	 			            |	`RabbitMQSink`		 |
 | `KafkaConsumer`	 				          | `RabbitMQSource`	 |
 | `KafkaProducer`	 	 			          | `XMSSource`	       |

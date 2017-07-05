@@ -37,7 +37,7 @@ SPL로 애플리케이션을 작성하려면 {{site.data.keyword.streamsfull}} P
 
 **{{site.data.keyword.streamsshort}} 연산자와의 호환성:**
 
-{{site.data.keyword.streamsshort}} 연산자([{{site.data.keyword.streamsshort}} Processing Language(SPL) 표준 툴킷)는 모두 다음과 호환 가능](/docs/services/StreamingAnalytics/c_beta_adapters.html)해야 합니다. {{site.data.keyword.streaminganalyticsshort}}
+{{site.data.keyword.streamsshort}} 연산자([{{site.data.keyword.streamsshort}} Processing Language(SPL) 표준 툴킷)는 모두 다음과 호환 가능](/docs/services/StreamingAnalytics/c_beta_adapters.html)해야 합니다: {{site.data.keyword.streaminganalyticsshort}}
 
 ## {{site.data.keyword.streaminganalyticsfull}} 책임
 {: #responsibilities notoc}

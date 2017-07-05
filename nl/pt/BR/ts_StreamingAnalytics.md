@@ -19,7 +19,8 @@ lastupdated: "2017-04-13"
 #{{site.data.keyword.streaminganalyticsshort}} resolução de problemas
 {: #ts_StreamingAnalytics}
 
-É possível localizar as respostas a perguntas comuns sobre como usar o {{site.data.keyword.streaminganalyticsshort}} no {{site.data.keyword.Bluemix_short}}.
+É possível localizar as respostas a perguntas comuns sobre como usar o {{site.data.keyword.streaminganalyticsshort}} no
+{{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 ##Ao ativar o serviço, sou solicitado por credenciais para efetuar login no console
@@ -28,10 +29,12 @@ lastupdated: "2017-04-13"
 Ao ativar o {{site.data.keyword.streaminganalyticsshort}}, você é solicitado por credenciais para efetuar login no console de serviço.
 {:shortdesc}
 
-Você ativa um serviço do {{site.data.keyword.streaminganalyticsshort}} que criou anteriormente e, em vez de acessar diretamente o console de serviço, verá uma página de login na qual serão solicitadas as credenciais.
+Você ativa um serviço do {{site.data.keyword.streaminganalyticsshort}} que criou anteriormente e, em vez de acessar diretamente o console de serviço,
+verá uma página de login na qual serão solicitadas as credenciais.
 {: tsSymptoms}
 
-A infraestrutura de serviço foi atualizada e o cache do navegador está impedindo o serviço de coletar a atualização.
+A infraestrutura de serviço foi atualizada e o cache do navegador está impedindo o
+serviço de coletar a atualização.
 {: tsCauses}
 
 Limpe o cache do navegador para certificar-se de obter a versão mais recente do console de serviço.
@@ -43,7 +46,7 @@ Limpe o cache do navegador para certificar-se de obter a versão mais recente do
 Não é possível executar seu aplicativo corretamente e o status de funcionamento é `unhealthy`.
 {:shortdesc}
 
-Você envia um aplicativo para a instância de serviço, o aplicativo é iniciado, mas falha imediatamente e o status de funcionamento é `unhealthy`.O erro a seguir aparece no arquivo de log: `/lib64/libc.so.6: version GLIBC_2.14 not found`.
+Você envia um aplicativo para a instância de serviço, o aplicativo é iniciado, mas falha imediatamente e o status de funcionamento é `unhealthy`. O erro a seguir aparece no arquivo de log: `/lib64/libc.so.6: version GLIBC_2.14 not found`.
 {: tsSymptoms}
 
 Você não compilou o aplicativo usando um sistema operacional RHEL 6.5 ou uma versão equivalente do CentOS.

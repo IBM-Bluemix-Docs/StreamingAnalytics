@@ -13,20 +13,24 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Console {{site.data.keyword.streaminganalyticsshort}}
+# {{site.data.keyword.streaminganalyticsshort}}-Konsole
 {: #console}
 
-Sur la console {{site.data.keyword.streaminganalyticsshort}}, vous pouvez soumettre vos applications {{site.data.keyword.streamsshort}} directement dans l'instance de service {{site.data.keyword.streaminganalyticsshort}}.
+Über die {{site.data.keyword.streaminganalyticsshort}}-Konsole können Sie Ihre {{site.data.keyword.streamsshort}}-Anwendungen direkt an die {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz übergeben.
 {:shortdesc}
 
-Utilisez la console {{site.data.keyword.streaminganalyticsshort}} pour surveiller vos travaux. Vous pouvez générer des tableaux de bord pour obtenir une vue détaillée de la santé des travaux que vous soumettez. La console {{site.data.keyword.streaminganalyticsshort}} propose les fonctionnalités suivantes pour gérer vos applications :
+Mit der {{site.data.keyword.streaminganalyticsshort}}-Konsole können Sie Ihre Jobs überwachen. Sie können Dashboards erstellen, um eine detaillierte Ansicht des ordnungsgemäßen Status (Health)
+der von Ihnen übergebenen Jobs zu erhalten. Die {{site.data.keyword.streaminganalyticsshort}}-Konsole
+bietet die folgenden Funktionen zur Überwachung Ihrer Anwendungen:
 
-* Création de requêtes pour vous concentrer sur les données qui vous intéressent
-* Affichage des résultats d'une requête dans une carte. Une carte vous permet de visualiser les données importantes relatives à votre application en vous servant d'outils, comme des graphiques en temps réel, des tableaux ou des diagrammes.
-* Création de mesures dérivées pour analyser plus en profondeur vos données
-* Création de filtres pour affiner les données qui sont affichées dans vos tableaux de bord et journaux sans changer vos requêtes
-* Affichage de vos journaux d'instance reposant sur les variables d'environnement que vous avez définies
+* Erstellen von Abfragen, mit denen Sie sich auf die für Sie relevanten Daten konzentrieren können.
+* Anzeigen der Ergebnisse einer Abfrage in einer Karte. Auf einer Karte können Sie wichtige Daten
+über Ihre Anwendungen mit Tools visualisieren (z. B. live erstellte Grafiken, Tabellen und Diagramme).
+* Erstellen abgeleiteter Metriken für eine noch eingehendere Untersuchung Ihrer Daten.
+* Erstellen von Filtern zur Verfeinerung der Daten, die auf Ihren Dashboards und in Ihren Protokollen
+ausgegeben werden, ohne dass Sie hierfür Ihre Abfragen ändern müssen.
+* Anzeigen Ihrer Instanzprotokolle auf der Basis der von Ihnen definierten Umgebungsvariablen.
 
-Vous pouvez accéder à la console {{site.data.keyword.streaminganalyticsshort}} depuis le tableau de bord du service.
+Sie können vom Service-Dashboard auf die {{site.data.keyword.streaminganalyticsshort}}-Konsole zugreifen.
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->
