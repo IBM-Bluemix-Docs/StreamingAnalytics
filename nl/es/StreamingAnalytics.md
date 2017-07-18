@@ -29,9 +29,9 @@ Puede utilizar el servicio de forma interactiva a través de la [consola de {{si
 
 **Desarrollo y supervisión de aplicaciones SPL, Java, Scala y Python:**
 
-Puede escribir aplicaciones de {{site.data.keyword.streamsshort}} en SPL, Java, Scala y Python. [Despliegue y supervise estas aplicaciones](/docs/services/StreamingAnalytics/t_deploytocloud.html) mediante la consola de {{site.data.keyword.streaminganalyticsshort}}. 
+Puede escribir aplicaciones de {{site.data.keyword.streamsshort}} en SPL, Java, Scala y Python. [Despliegue y supervise estas aplicaciones](/docs/services/StreamingAnalytics/t_deploytocloud.html) mediante la consola de {{site.data.keyword.streaminganalyticsshort}}.
 
-Si desea escribir sus aplicaciones en SPL, debe saber que {{site.data.keyword.streamsfull}} Processing Language (SPL) es un lenguaje de programación que se utiliza para crear aplicaciones de proceso de secuencias. Si desea profundizar en el uso de sus propias aplicaciones SPL, puede obtener un entorno de desarrollo de {{site.data.keyword.streamsshort}} y debe preparar sus apps SPL para la nube. 
+Si desea escribir sus aplicaciones en SPL, debe saber que {{site.data.keyword.streamsfull}} Processing Language (SPL) es un lenguaje de programación que se utiliza para crear aplicaciones de proceso de secuencias. Si desea profundizar en el uso de sus propias aplicaciones SPL, puede obtener un entorno de desarrollo de {{site.data.keyword.streamsshort}} y debe preparar sus apps SPL para la nube.
 
 Para crear y desplegar aplicaciones Python sin un entorno de desarrollo {{site.data.keyword.streamsshort}}, utilice nuestros cuadernos de IBM Data Science Experience (DSX) o la API de {{site.data.keyword.streamsshort}} Python. Para obtener más información, consulte el tema sobre [Desarrollo de aplicaciones Python para {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 

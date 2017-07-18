@@ -67,14 +67,14 @@ La tabla siguiente contiene los operadores que proporciona el kit de herramienta
 | `ARIMA2` 	  	 			       |	`Generator`       		 		 	 | 	
 | `AnomalyDetector`		 	     |	`HoltWinters2`			 	       |
 | `AutoForecaster2`   		   | 	`IncrementalInterpolate` 	   |
-| ` CrossCorrelate2`			     | 	`KMeansClustering`    		 	 |
+| `CrossCorrelate2`			     | 	`KMeansClustering`    		 	 |
 | `CrossCorrelateMulti`	 	   |	`Kalman`		 			           |
 | `DSPFilter2`				       |	`LPC`           						 |
 | `DWT2`     	 			         | 	`Normalize`		 		 	         |
 | `Distribution`      			 |	`PSAX`		 				           |
 | `FFT` 	   	 			         |	`RLSFilter`		 		        	 | 	
 | `FMPFilter`    	 		       |	`ReSample`		         			 |
-| `GAMLearner`		 	 	       |	`STD2`			           			 |
+| `GAMLearner `		 	 	       |	`STD2`			           			 |
 | `GAMScorer` 	   			     |	`TSWindowing`	        	 		 |
 | `GMM`     	 			         | 	`VAR2`			 	          		 |
 
@@ -181,10 +181,10 @@ La tabla siguiente contiene los operadores que proporciona el kit de herramienta
 
 | ***Operadores compatibles*** |
 | ---------------------------|
-| `Asociaciones` 		      	 |
-| `Clasificación`       	 	 |
-| `Agrupación en clúster`			       	 |
-| `Regresión`			       	 |
+| `Associations` 		      	 |
+| `Classification`       	 	 |
+| `Clustering`			       	 |
+| `Regression`			       	 |
 
 *Tabla 6. Operadores que son compatibles con el kit de herramientas de Mining*
 

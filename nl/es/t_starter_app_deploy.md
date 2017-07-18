@@ -23,20 +23,20 @@ Antes de empezar, prepare {{site.data.keyword.Bluemix_short}} para desplegar las
 
 * [Instale la herramienta de línea de mandatos cf](https://github.com/cloudfoundry/cli/releases).
 * Cree una aplicación en {{site.data.keyword.Bluemix_short}}, añada el servicio de {{site.data.keyword.streaminganalyticsshort}} a la aplicación y vuelva a transferir la aplicación:
-	* Para desplegar la app de inicio Detección de suceso, cree una aplicación con el tiempo de ejecución de {{site.data.keyword.sdk4node}}.
-	* Para desplegar la app de inicio Tráfico en Nueva York, cree una aplicación con el tiempo de ejecución de Liberty for Java™.
+	* Para desplegar la app de inicio Event Detection, cree una aplicación con el tiempo de ejecución de {{site.data.keyword.sdk4node}}.
+	* Para desplegar la app de inicio NYC Traffic, cree una aplicación con el tiempo de ejecución de Liberty for Java™.
 
 Recuerde el nombre que asigna a la aplicación; lo necesitará más adelante.
 
 {{site.data.keyword.streaminganalyticsshort}} proporciona dos aplicaciones de ejemplo para que empiece a utilizar el servicio.
 
-La aplicación de inicio Detección de suceso analiza los datos relacionados con el tiempo en una secuencia en tiempo real y muestra el estado y los resultados del análisis. La aplicación se escribe en {{site.data.keyword.sdk4node}}. Para obtener más información sobre cómo utilizar la app de inicio Detección de suceso, consulte [Detección de sucesos complejos en una secuencia de datos en tiempo real](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html).
+La aplicación de inicio Event Detection analiza los datos relacionados con el tiempo en una secuencia en tiempo real y muestra el estado y los resultados del análisis. La aplicación está escrita en {{site.data.keyword.sdk4node}}. Para obtener más información sobre cómo utilizar la app de inicio Event Detection, consulte [Detección de sucesos complejos en una secuencia de datos en tiempo real](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html).
 
-La aplicación de inicio Tráfico en Nueva York lee y analiza datos de tráfico desde un sitio web público. La aplicación se escribe en Liberty for Java™. Para obtener más información sobre cómo utilizar la app de inicio Tráfico en Nueva York, consulte [Aplicación de inicio de {{site.data.keyword.streaminganalyticsfull}}](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/).
+La aplicación de inicio NYC Traffic lee y analiza datos de tráfico desde un sitio web público. La aplicación está escrita en Liberty for Java™. Para obtener más información sobre cómo utilizar la app de inicio NYC Traffic, consulte [Aplicación de inicio de {{site.data.keyword.streaminganalyticsfull}}](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/).
 
 Para descargar y desplegar la aplicación de inicio en {{site.data.keyword.Bluemix_short}}:
 
-1. Descargue la aplicación de inicio [Detección de suceso](https://hub.jazz.net/project/streamscloud/EventDetection/overview) o [Tráfico en Nueva York](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview).
+1. Descargue la aplicación de inicio [Event Detection ](https://hub.jazz.net/project/streamscloud/EventDetection/overview) o [NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview).
 2. En la línea de mandatos, vaya al directorio del proyecto.
   <pre><code>cd myapp</code></pre>
   {:pre}

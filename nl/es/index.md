@@ -20,9 +20,9 @@ lastupdated: "2017-04-13"
 {{site.data.keyword.streaminganalyticsshort}} está basado en {{site.data.keyword.streamsshort}}, una plataforma analítica avanzada que se puede utilizar para introducir, analizar y correlacionar información a medida que llega desde distintos tipos de orígenes de datos en tiempo real. Cuando se crea una instancia del servicio {{site.data.keyword.streaminganalyticsshort}}, se obtiene una instancia propia de {{site.data.keyword.streamsshort}} que se ejecuta en la nube de {{site.data.keyword.Bluemix_short}}, lista para ejecutarse en las aplicaciones de {{site.data.keyword.streamsshort}}.
 {:shortdesc}
 
-Puede empezar a utilizar {{site.data.keyword.streaminganalyticsshort}} directamente ejecutando las [aplicaciones de inicio](/docs/services/StreamingAnalytics/c_starterapps.html){:new_window}. 
+Puede empezar a utilizar {{site.data.keyword.streaminganalyticsshort}} directamente ejecutando las [aplicaciones de inicio](/docs/services/StreamingAnalytics/c_starterapps.html){:new_window}.
 
-Para empezar a utilizar {{site.data.keyword.streaminganalyticsshort}}, siga uno de estos métodos para enviar el paquete de aplicaciones (archivo .sab) asociado con la aplicación SPL, Java™, Python o Scala Streams: 
+Para empezar a utilizar {{site.data.keyword.streaminganalyticsshort}}, siga uno de estos métodos para enviar el paquete de aplicaciones (archivo .sab) asociado con la aplicación SPL, Java™, Python o Scala Streams:
 * Utilice el botón **Enviar trabajo** de la consola de {{site.data.keyword.streaminganalyticsshort}}.
 * Desarrolle una aplicación {{site.data.keyword.Bluemix_short}} y añádale la aplicación {{site.data.keyword.streamsshort}}. Contrólela utilizando la [API REST de {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220).
 
@@ -35,13 +35,13 @@ Si no está familiarizado con el desarrollo de aplicaciones {{site.data.keyword.
 
 Si ya tiene una aplicación SPL que se ejecuta localmente, [prepare la aplicación para la nube.](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
 
-**Nota:** Debe compilar sus aplicaciones en un sistema operativo Red Hat Enterprise Linux (RHEL) 6.5 o una versión de CentOS equivalente utilizando procesadores Intel. 
+**Nota:** Debe compilar sus aplicaciones en un sistema operativo Red Hat Enterprise Linux (RHEL) 6.5 o una versión de CentOS equivalente utilizando procesadores Intel.
 
 ## Apps {{site.data.keyword.streamsshort}} Python para {{site.data.keyword.streaminganalyticsshort}}
 {: #gettingstarted_py notoc}
 
-Ahora puede crear apps Streams en un entorno Python, como IBM Data Science Experience (DSX), y enviar estas a la instancia de {{site.data.keyword.streaminganalyticsshort}} para que se desplieguen en la nube de Bluemix. Ya no necesita instalar {{site.data.keyword.streamsshort}} de forma local para compilar y desplegar una app Streams Python. 
+Ahora puede crear apps Streams en un entorno Python, como IBM Data Science Experience (DSX), y enviar estas a la instancia de {{site.data.keyword.streaminganalyticsshort}} para que se desplieguen en la nube de Bluemix. Ya no necesita instalar {{site.data.keyword.streamsshort}} de forma local para compilar y desplegar una app Streams Python.
 
 Comience a crear apps Streams Python de ejemplo utilizando cuadernos Jupyter en DSX y envíe estas apps a la instancia del servicio directamente desde DSX. Para obtener más información, consulte el apartado sobre [Desarrollo de apps Streams Python en DSX](/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_python_dsx).
 
-{{site.data.keyword.streaminganalyticsshort}} también da soporte al despliegue de apps Streams desde su entorno Python local. Debe utilizar la [API de la aplicación {{site.data.keyword.streamsshort}} Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que se incluye en el paquete streamsx, para desarrollar sus apps Streams Python localmente y enviarlas a la instancia del servicio. Para empezar, siga los pasos de la guía de aprendizaje [Desarrollo para el servicio {{site.data.keyword.streaminganalyticsshort}}](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html). 
+{{site.data.keyword.streaminganalyticsshort}} también da soporte al despliegue de apps Streams desde su entorno Python local. Debe utilizar la [API de la aplicación {{site.data.keyword.streamsshort}} Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que se incluye en el paquete streamsx, para desarrollar sus apps Streams Python localmente y enviarlas a la instancia del servicio. Para empezar, siga los pasos de la guía de aprendizaje [Desarrollo para el servicio {{site.data.keyword.streaminganalyticsshort}}](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html).
