@@ -6,6 +6,7 @@ Streaming Analytics
 
     {: .navgroup id="learn"}
     index.md
+
     {: .topicgroup}
     About
         StreamingAnalytics.md
