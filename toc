@@ -46,6 +46,4 @@ Streaming Analytics
     r_integrating_cloudant_rest.md
     {: .navgroup-end}
 
-    {: .navgroup id="help"}
-    ts_StreamingAnalytics.md
-    {: .navgroup-end}
+    
