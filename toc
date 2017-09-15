@@ -17,13 +17,11 @@ Streaming Analytics
         c_starterapps.md
         t_starter_app_deploy.md
     {: .navgroup-end}
-
     {: .navgroup id="reference"}
     related_links.md
     [REST API Reference](https://console.ng.bluemix.net/apidocs/220)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
-
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
     {: .topicgroup}
@@ -40,7 +38,6 @@ Streaming Analytics
     r_vcap_services.md
     r_integrating_cloudant_rest.md
     {: .navgroup-end}
-
     {: .navgroup id="help"}
     ts_StreamingAnalytics.md
     {: .navgroup-end}
