@@ -6,14 +6,12 @@ Streaming Analytics
 
     {: .navgroup id="learn"}
     index.md
-
     {: .topicgroup}
     About
         StreamingAnalytics.md
         c_streams_console.md
         r_service_dashboard.md
         c_ha.md
-
     {: .topicgroup}
     Sample apps
         c_starterapps.md
@@ -28,19 +26,16 @@ Streaming Analytics
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
-
     {: .topicgroup}
     Deploying apps to the cloud
         t_deploytocloud.md
         t_develop_apps_python.md
-
     {: .topicgroup}
     Supported operators
         c_beta_adapters.md
         c_compatible_adapters.md
         c_analytics_utilities.md
         c_other_operators.md
-
     c_beta_tooling.md
     r_vcap_services.md
     r_integrating_cloudant_rest.md
