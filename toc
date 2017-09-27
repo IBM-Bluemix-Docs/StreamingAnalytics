@@ -21,8 +21,8 @@ Streaming Analytics
 
     {: .topicgroup}
     Deploying apps to the cloud
-      t_deploytocloud.md
-      t_develop_apps_python.md
+        t_deploytocloud.md
+        t_develop_apps_python.md
 
     {: .topicgroup}
     Supported operators
