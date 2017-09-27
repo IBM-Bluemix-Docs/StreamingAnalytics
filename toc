@@ -4,6 +4,9 @@
 {: .toc subcollection="StreamingAnalytics" audience="service" href="docs/services/StreamingAnalytics/index.hmtl"}
 Streaming Analytics
 
+    {: .navgroup id="learn"}
+    index.md
+
     {: navgroup id="reference"}
     related_links.md
     [REST API Reference](https://console.ng.bluemix.net/apidocs/220)
