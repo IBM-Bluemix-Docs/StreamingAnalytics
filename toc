@@ -8,8 +8,7 @@ Streaming Analytics
     index.md
 
     {: .topicgroup}
-    About
-        StreamingAnalytics.md
+    StreamingAnalytics.md
         c_streams_console.md
         r_service_dashboard.md
         c_ha.md
