@@ -4,20 +4,19 @@
 {: .toc subcollection="StreamingAnalytics" audience="service" href="docs/services/StreamingAnalytics/index.hmtl"}
 Streaming Analytics
 
-    {: .navgroup id="learn"}
-    index.md
-    {: .navgroup-end}
+  {: .navgroup id="learn"}
+  index.md
+  {: .navgroup-end}
 
-    {: .navgroup id="reference"}
-    related_links.md
-    [REST API Reference](https://console.bluemix.net/apidocs/220)
-    [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
-    {: .navgroup-end}
+  {: .navgroup id="reference"}
+  related_links.md
+  [REST API Reference](https://console.bluemix.net/apidocs/220)
+  {: .navgroup-end}
 
-    {: .navgroup id="howto"}
-    t_deploytocloud.md
-    {: .navgroup-end}
+  {: .navgroup id="howto"}
+  t_deploytocloud.md
+  {: .navgroup-end}
 
-    {: .navgroup id="help"}
-    r_vcap_services.md
-    {: .navgroup-end}
+  {: .navgroup id="help"}
+  r_vcap_services.md
+  {: .navgroup-end}
