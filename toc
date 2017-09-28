@@ -6,16 +6,45 @@ Streaming Analytics
 
     {: .navgroup id="learn"}
     index.md
-    {: .navgroup-end}
 
-    {: .navgroup id="howto"}
-    t_deploytocloud.md
+    {: .topicgroup}
+    About
+        StreamingAnalytics.md
+        c_streams_console.md
+        r_service_dashboard.md
+        c_ha.md
+
+    {: .topicgroup}
+    Sample apps
+        c_starterapps.md
+        t_starter_app_deploy.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
+    [REST API Reference](https://console.ng.bluemix.net/apidocs/220)
+    [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    c_getting_app_bluemix.md
+    c_beta_tooling.md
+    r_vcap_services.md
+    r_integrating_cloudant_rest.md
+
+    {: .topicgroup}
+    Deploying apps to the cloud
+        t_deploytocloud.md
+        t_develop_apps_python.md
+
+    {: .topicgroup}
+    Supported operators
+        c_beta_adapters.md
+        c_compatible_adapters.md
+        c_analytics_utilities.md
+        c_other_operators.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    r_vcap_services.md
+    ts_StreamingAnalytics.md
     {: .navgroup-end}
