@@ -8,12 +8,12 @@ Streaming Analytics
     index.md
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
-    related_links.md
+    {: .navgroup id="howto"}
+    t_deploytocloud.md
     {: .navgroup-end}
 
-  	{: .navgroup id="howto"}
-    t_deploytocloud.md
+    {: .navgroup id="reference"}
+    related_links.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
