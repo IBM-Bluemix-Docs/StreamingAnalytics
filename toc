@@ -15,9 +15,9 @@ Streaming Analytics
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    c_getting_app_bluemix.md
+    t_deploytocloud.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    ts_StreamingAnalytics.md
+    r_vcap_services.md
     {: .navgroup-end}
