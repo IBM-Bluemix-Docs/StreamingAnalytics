@@ -10,10 +10,9 @@ Streaming Analytics
 
     {: .navgroup id="reference"}
     related_links.md
-    [REST API Reference](https://console.bluemix.net/apidocs/220)
     {: .navgroup-end}
 
-    {: .navgroup id="howto"}
+  	{: .navgroup id="howto"}
     t_deploytocloud.md
     {: .navgroup-end}
 
