@@ -11,23 +11,11 @@ Streaming Analytics
     {: .navgroup id="reference"}
     related_links.md
     [REST API Reference](https://console.bluemix.net/apidocs/220)
-    [S ams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+    [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
-
-    {: .topicgroup}
-    Deploying apps to the cloud
-        t_deploytocloud.md
-        t_develop_apps_python.md
-
-    {: .topicgroup}
-    Supported operators
-        c_beta_adapters.md
-        c_compatible_adapters.md
-        c_analytics_utilities.md
-        c_other_operators.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
