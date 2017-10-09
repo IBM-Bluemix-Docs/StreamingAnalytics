@@ -16,7 +16,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} troubleshooting
+# Streaming Analytics troubleshooting
 {: #ts_StreamingAnalytics}
 
 You can find the answers to common questions about how to use {{site.data.keyword.streaminganalyticsshort}} on {{site.data.keyword.Bluemix_short}}.

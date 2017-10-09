@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.streaminganalyticsshort}} console
+# Streaming Analytics console
 {: #console}
 
 On the {{site.data.keyword.streaminganalyticsshort}} console, you can submit your {{site.data.keyword.streamsshort}} applications directly to the {{site.data.keyword.streaminganalyticsshort}} service instance.

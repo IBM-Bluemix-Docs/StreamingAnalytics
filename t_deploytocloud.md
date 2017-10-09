@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Deploying {{site.data.keyword.streamsshort}} applications to the cloud
+# Deploying Streams applications to the cloud
 {: #t_deploytocloud}
 
 You can deploy your {{site.data.keyword.streamsshort}} applications to a {{site.data.keyword.streaminganalyticsshort}} instance that is running in the {{site.data.keyword.Bluemix_short}} cloud.
