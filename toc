@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="StreamingAnalytics" audience="service" href="docs/services/StreamingAnalytics/index.hmtl"}
+{: .toc subcollection="StreamingAnalytics" audience="service" href="/docs/services/StreamingAnalytics/index.html"}
 Streaming Analytics
 
     {: .navgroup id="learn"}
@@ -28,10 +28,7 @@ Streaming Analytics
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
-    c_beta_tooling.md
-    r_vcap_services.md
-    r_integrating_cloudant_rest.md
-
+    
     {: .topicgroup}
     Deploying apps to the cloud
         t_deploytocloud.md
@@ -43,6 +40,9 @@ Streaming Analytics
         c_compatible_adapters.md
         c_analytics_utilities.md
         c_other_operators.md
+	c_beta_tooling.md
+    r_vcap_services.md
+    r_integrating_cloudant_rest.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
