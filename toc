@@ -14,7 +14,7 @@ Streaming Analytics
         r_service_dashboard.md
         c_ha.md
 
-    {: .topicgroup}
+	{: .topicgroup}
     Sample apps
         c_starterapps.md
         t_starter_app_deploy.md
@@ -28,7 +28,7 @@ Streaming Analytics
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
-    
+
     {: .topicgroup}
     Deploying apps to the cloud
         t_deploytocloud.md
@@ -40,7 +40,8 @@ Streaming Analytics
         c_compatible_adapters.md
         c_analytics_utilities.md
         c_other_operators.md
-	c_beta_tooling.md
+
+    c_beta_tooling.md
     r_vcap_services.md
     r_integrating_cloudant_rest.md
     {: .navgroup-end}
