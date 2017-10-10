@@ -37,7 +37,7 @@ If you already have an SPL application that you run on premise, you must [get yo
 
 **Note:** You must compile your applications in Red Hat Enterprise Linux (RHEL) 6.5 or an equivalent CentOS version, using Intel processors.
 
-## {{site.data.keyword.streamsshort}} Python apps for {{site.data.keyword.streaminganalyticsshort}}
+## Streams Python apps for Streaming Analytics
 {: #gettingstarted_py notoc}
 
 You can now create Streams apps in a Python environment, such as IBM Data Science Experience (DSX), and submit these apps to the {{site.data.keyword.streaminganalyticsshort}} instance to be deployed in the Bluemix cloud. You no longer need to install {{site.data.keyword.streamsshort}} locally to compile and deploy a Streams Python app.

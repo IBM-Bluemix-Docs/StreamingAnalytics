@@ -45,7 +45,7 @@ Your application is now deployed in the cloud. You can monitor your application 
 
 {{site.data.keyword.streamsshort}} also supports several Java™ development kits that you can use to develop your applications. For more information about the Java support in {{site.data.keyword.streamsshort}}, see [Supported Java development kits for application development](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
 
-## Deploying {{site.data.keyword.streamsshort}} Python applications to the cloud
+## Deploying Streams Python applications to the cloud
 {: #t_deploypython}
 
 Deploy your {{site.data.keyword.streamsshort}} Python applications to a {{site.data.keyword.streaminganalyticsshort}} service that is running in the {{site.data.keyword.Bluemix_short}} cloud. You do not need to have an {{site.data.keyword.streamsshort}} installation.
