@@ -36,7 +36,7 @@ The NYC Traffic starter application reads and analyzes traffic data from a publi
 
 To download and deploy the starter application to {{site.data.keyword.Bluemix_short}}:
 
-1. Download the [Event Detection](https://hub.jazz.net/project/streamscloud/EventDetection/overview) or the [NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview) starter application.
+1. Download the [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) or the [NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) starter application.
 2. On the command line, go to the project directory.
   <pre><code>cd myapp</code></pre>
   {:pre}

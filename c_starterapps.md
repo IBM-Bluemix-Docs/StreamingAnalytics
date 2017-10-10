@@ -56,7 +56,7 @@ If you want to experiment further with the service, you can also modify the code
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOY THE APP</a><br></td>
     <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">TUTORIAL</a></td>
-    <td><a href="https://hub.jazz.net/git/streamscloud/EventDetection/" target="_blank">DOWNLOAD</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">DOWNLOAD</a></td>
   </tr>
 </table>
 
@@ -75,7 +75,7 @@ If you want to experiment further with the service, you can also modify the code
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOY THE APP</a><br></td>
     <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">TUTORIAL</a></td>
-    <td><a href="https://hub.jazz.net/git/streamscloud/NYCTraffic/" target="_blank">DOWNLOAD</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">DOWNLOAD</a></td>
   </tr>
 </table>
 
