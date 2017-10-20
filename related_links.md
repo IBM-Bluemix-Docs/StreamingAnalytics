@@ -25,7 +25,7 @@ lastupdated: "2017-04-13"
 * [Bluemix {{site.data.keyword.streaminganalyticsshort}} Development Guide](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/){:new_window}
 * [Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)
 * [{{site.data.keyword.streaminganalyticsshort}} metrics using the {{site.data.keyword.streamsshort}} REST API](https://developer.ibm.com/bluemix/2016/07/25/streaming-analytics-metrics-using-rest-api/){:new_window}
-* [More tutorials](StreamingAnalytics.html#r_integrating_cloudant_rest){:new_window}
+* [More tutorials](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window}
 
 
 ## API Reference
@@ -41,5 +41,7 @@ lastupdated: "2017-04-13"
 
 ## General Resources
 {: #general notoc}
-* [{{site.data.keyword.streamsshort}} documentation](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
+* [{{site.data.keyword.streamsshort}} documentation](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
 * [{{site.data.keyword.streamsshort}} Quick Start Edition](http://www.ibm.com/analytics/us/en/technology/stream-computing/){:new_window}
+* [{{site.data.keyword.streamsshort}} for Apache Beam documentation
+](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}

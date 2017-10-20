@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# About
+# About Streaming Analytics
 {: #about}
 
 You can perform real-time analysis on data in motion as part of your {{site.data.keyword.Bluemix_short}} applications by using {{site.data.keyword.streaminganalyticsfull}}.
@@ -34,6 +34,9 @@ You can write {{site.data.keyword.streamsshort}} applications in SPL, Java, Scal
 If you want to write your applications in SPL, you should know that {{site.data.keyword.streamsfull}} Processing Language (SPL) is a programming language that is used to create streams processing applications. If you want to go further with your own SPL applications, you can get an {{site.data.keyword.streamsshort}} development environment and you must get your SPL apps cloud-ready.
 
 To create and deploy Python applications without a {{site.data.keyword.streamsshort}} development environment, use our notebooks in IBM Data Science Experience (DSX) or the {{site.data.keyword.streamsshort}} Python API. For more information, see [Developing Python applications for {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
+
+You can develop Beam applications with Streams runner in your local development environment which you can then deploy and monitor using the {{site.data.keyword.streaminganalyticsshort}} service. For more information about Beam applications with Streams runner, see the [Monitor Beam apps with Streams Runner in Streaming Analytics](docs/services/StreamingAnalytics/gs_beamrunner.html).
+
 
 **Compatibility with {{site.data.keyword.streamsshort}} operators:**
 

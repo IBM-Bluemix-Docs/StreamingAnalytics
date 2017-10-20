@@ -6,6 +6,8 @@ Streaming Analytics
 
     {: .navgroup id="learn"}
     index.md
+    gs_python.md
+    gs_beamrunner.md
 
     {: .topicgroup}
     About
@@ -33,6 +35,7 @@ Streaming Analytics
     Deploying apps to the cloud
         t_deploytocloud.md
         t_develop_apps_python.md
+        develop_beam_apps.md
 
     {: .topicgroup}
     Supported operators

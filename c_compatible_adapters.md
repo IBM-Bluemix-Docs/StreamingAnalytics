@@ -12,14 +12,14 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Compatible adapters
+# Compatible adapters
 {: #c_compatible_adapters}
 
 
 A toolkit is a set of artifacts, which are organized into a package. Toolkits make functions and primitive or composite operators reusable across different applications.
 {:shortdesc}
 
-##Internet Toolkit
+## Internet Toolkit
 {: #internet notoc}
 
 The Internet Toolkit (com.ibm.streamsx.inet) provides support for common internet protocols. This toolkit is embedded in {{site.data.keyword.streamsshort}} and it is available in your {{site.data.keyword.streamsshort}} development environment.
@@ -46,7 +46,7 @@ For more information about the Internet Toolkit compatible operators, see [Opera
 
 You can download newer versions of the toolkit, with enhancements and additional operators, from [IBMStreams on GitHub](https://github.com/IBMStreams){:new_window}. After you download the toolkit, build it (if necessary) and install it on your {{site.data.keyword.streamsshort}} development environment.
 
-##IoT Integration Toolkit
+## IoT Integration Toolkit
 {: #iot notoc}
 
 The IoT Integration Toolkit (com.ibm.streamsx.iot) provides connectivity with {{site.data.keyword.iot_full}}. {{site.data.keyword.streamsshort}} applications can use this toolkit to provide real-time analytics against all the events from potentially thousands of devices, including sending commands to specific devices based upon the analytics.
@@ -71,7 +71,7 @@ The following table lists operators provided by the IoT Integration Toolkit.
 
 For more information about IoT Integration Toolkit compatible operators, see [Operators: com.ibm.streamsx.iot Toolkit](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.iot/ix$Operator.html?lang=en){:new_window} in {{site.data.keyword.streamsshort}} product documentation.
 
-##Messaging Toolkit
+## Messaging Toolkit
 {: #messaging notoc}
 
 The Messaging Toolkit (com.ibm.streamsx.messaging) project is an open source {{site.data.keyword.streamsshort}} toolkit project. It is focused on the development of operators and functions that help you use {{site.data.keyword.streamsshort}} to interact with messaging systems such as Kafka, JMS, XMS, and MQTT.
