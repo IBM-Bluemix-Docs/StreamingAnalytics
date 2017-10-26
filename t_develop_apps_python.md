@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -39,3 +39,5 @@ If you do not have a Python development environment, the easiest way to get star
  The [{{site.data.keyword.streamsshort}} Python Application API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), which is included in the streamsx package, enables you to create stream processing applications using Python callable classes or functions. You use the Python Application API to then define and submit the application to the service.
 
 Get started by following the steps in the [Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) tutorial to create a sample application in your local Python environment and deploy it to the {{site.data.keyword.streaminganalyticsshort}} service.
+
+To dig deeper on the [{{site.data.keyword.streamsshort}} Python Application API, complete this online course and learn [{{site.data.keyword.streaminganalyticsshort}} basics for Python developers](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}.
