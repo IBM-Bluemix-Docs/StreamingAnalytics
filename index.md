@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-12"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -17,14 +17,14 @@ lastupdated: "2017-10-12"
 # Getting started with Streaming Analytics
 {: #gettingstarted}
 
-{{site.data.keyword.streaminganalyticsshort}} is powered by {{site.data.keyword.streamsshort}}, an advanced analytic platform that you can use to ingest, analyze, and correlate information as it arrives from different types of data sources in real time. When you create an instance of the {{site.data.keyword.streaminganalyticsshort}} service, you get your own instance of {{site.data.keyword.streamsshort}} running in the {{site.data.keyword.Bluemix_short}} cloud, ready to run your {{site.data.keyword.streamsshort}} applications.
+{{site.data.keyword.streaminganalyticsshort}} is powered by {{site.data.keyword.streamsshort}}, an advanced analytic platform that you can use to ingest, analyze, and correlate information as it arrives from different types of data sources in real time. When you create an instance of the {{site.data.keyword.streaminganalyticsshort}} service, you get your own instance of {{site.data.keyword.streamsshort}} running in {{site.data.keyword.Bluemix_short}}, ready to run your {{site.data.keyword.streamsshort}} applications.
 {:shortdesc}
 
 Get started with {{site.data.keyword.streaminganalyticsshort}} right away by running the [starter applications](/docs/services/StreamingAnalytics/c_starterapps.html){:new_window}.
 
 To get started with {{site.data.keyword.streaminganalyticsshort}}, use one of the following methods to submit the application bundle (.sab file) that is associated with your SPL, Java™, Python or Scala Streams application:
 * Use the **Submit Job** button in the {{site.data.keyword.streaminganalyticsshort}} console.
-* Develop a {{site.data.keyword.Bluemix_short}} application and add the {{site.data.keyword.streamsshort}} application to it. Control it by using the [{{site.data.keyword.streaminganalyticsshort}} REST API](https://console.ng.bluemix.net/apidocs/220).
+* Develop an application in {{site.data.keyword.Bluemix_notm}} and add the {{site.data.keyword.streamsshort}} application to it. Control it by using the [{{site.data.keyword.streaminganalyticsshort}} REST API](https://console.ng.bluemix.net/apidocs/220).
 
 Use {{site.data.keyword.streaminganalyticsshort}} with other {{site.data.keyword.Bluemix_short}} services, including {{site.data.keyword.cloudant}} and {{site.data.keyword.messagehub}}. See the [Tutorials to integrate with other {{site.data.keyword.Bluemix_short}} services](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window} for examples to get you up and running.
 

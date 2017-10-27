@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-12"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-10-12"
 {:screen: .screen}
 {:pre: .pre}
 
-# Deploying your Streams applications on Bluemix
+# Deploying your Streams applications on {{site.data.keyword.Bluemix_notm}}
 {: #c_getting_app_bluemix}
 
 

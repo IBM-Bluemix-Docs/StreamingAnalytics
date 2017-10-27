@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,11 +13,11 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Tutorials to integrate with other Bluemix services
+# Tutorials to integrate with other {{site.data.keyword.Bluemix_notm}} services
 {: #tutorials}
 
 
-You can now use {{site.data.keyword.streaminganalyticsshort}} with other {{site.data.keyword.Bluemix_short}} services, including {{site.data.keyword.cloudant}} and {{site.data.keyword.messagehub}}.
+You can now use {{site.data.keyword.streaminganalyticsshort}} with other {{site.data.keyword.Bluemix_short}} services, including {{site.data.keyword.cloudant}} HBase for {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 The following table lists tutorials to help you integrate {{site.data.keyword.streaminganalyticsshort}} with other {{site.data.keyword.Bluemix_short}} services:
@@ -25,12 +25,9 @@ The following table lists tutorials to help you integrate {{site.data.keyword.st
 
 | Tutorials | Description   |
 |----------|--------|
-| [Get Started with {{site.data.keyword.streaminganalyticsshort}} + {{site.data.keyword.messagehub}}](https://developer.ibm.com/bluemix/2015/10/16/streaming-analytics-message-hub/) | Explains how to communicate with {{site.data.keyword.messagehub}} from the {{site.data.keyword.streaminganalyticsfull}} service using the messaging toolkit.     |
+| [Connecting to {{site.data.keyword.streamsshort}}: What you need to know](https://ibm.co/2iDHfFt) | Using {{site.data.keyword.streamsshort}} operators that listen for a connection in {{site.data.keyword.streaminganalyticsshort}}  |
 | [Integrating with {{site.data.keyword.cloudant}} and many other RESTful Services](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/) | Describes how to use {{site.data.keyword.streamsshort}} HTTP adapters to integrate SPL applications to {{site.data.keyword.cloudant}} and other RESTful, web-based services. |
-| [Using data in the cloud: Access Files in {{site.data.keyword.objectstorageshort}} from {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/bluemix/2016/02/11/leverage-object-storage-for-streaming-analytics/)	| Describes how to access files from the {{site.data.keyword.objectstorageshort}} service so that they can be ingested by your application.	|
-| [Getting Started with {{site.data.keyword.streaminganalyticsshort}} and {{site.data.keyword.rabbitmq}}](https://developer.ibm.com/bluemix/2016/04/26/streaming-analytics-and-rabbitmq/) | Explains how to flow messages between the {{site.data.keyword.streaminganalyticsshort}} service and the CloudAMQP service in {{site.data.keyword.Bluemix_short}}.|
 | [Support for SPSS Analytics Toolkit in {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-analytics-service/) | Provides a few tips required to effectively use the SPSS Analytics Toolkit operators in the cloud environment. |
-| [Getting started with {{site.data.keyword.streaminganalyticsshort}} and the Internet of Things](https://developer.ibm.com/bluemix/2015/10/12/getting-started-with-streaming-analytics-and-iot/) |  Describes a typical use case and explains how to exchange messages between the two services over the MQTT protocol. |
 | [Using Apache Edgent, {{site.data.keyword.iot_short}}, and {{site.data.keyword.streaminganalyticsshort}} to Create a Smart Sprinkler](https://developer.ibm.com/bluemix/2016/06/01/better-analytics-with-apache-quarks/)| Find out how to combine Apache Edgent, {{site.data.keyword.streaminganalyticsshort}}, the {{site.data.keyword.iot_short}}, and other {{site.data.keyword.Bluemix_short}} services to develop a water conservation solution. |
 | [Watson IoT Recipe: Integrate {{site.data.keyword.streaminganalyticsshort}} service with {{site.data.keyword.iot_short_notm}}](https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/)| Describes how to use the {{site.data.keyword.streaminganalyticsshort}} service, available on {{site.data.keyword.Bluemix_short}} , to quickly ingest, analyze and correlate the events published by IoT devices, on the {{site.data.keyword.iot_short_notm}}.|
 | [Real-time hangout detection with {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/)	| Describes how the {{site.data.keyword.geospatialshort_Geospatial}} service in {{site.data.keyword.Bluemix_short}} (powered by {{site.data.keyword.streaminganalyticsshort}}) supports real-time hangout detection.|

@@ -1,0 +1,55 @@
+---
+
+copyright:
+  years: 2015, 2017
+lastupdated: "2017-10-27"
+
+---
+
+<!-- Attribute definitions -->
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:pre: .pre}
+
+# Supported toolkits and adapters
+{: #compatible_toolkits}
+
+These analytics toolkits and adapters are supported by {{site.data.keyword.streaminganalyticsshort}}.
+{:shortdesc}
+
+| Toolkits                        | Description							                  |
+| --------------------------------| --------------------------|
+| [Complex Event Processing (CEP)](https://ibm.co/2zOwODa)    |	Provides the MatchRegex operator to perform complex event processing.  		 |
+| [Datetime](https://ibmstreams.github.io/streamsx.datetime/)	|	Set of utilities to handle dates, times and timestamps.	 |
+| [HBase](http://ibmstreams.github.io/streamsx.hbase/)        | Enables Streams applications to connect to Apache HBase.	 	   |
+| [HDFS](http://ibmstreams.github.io/streamsx.hdfs/)          | Provides operators and functions that interact with Hadoop Distributed File System.	|
+| [Internet (Inet)](http://ibmstreams.github.io/streamsx.inet)|  Focuses on interacting with network hosted data.				       |
+| [IoT](http://ibmstreams.github.io/streamsx.iot/)            | Provides Internet of Things (IoT) integration including IBM Watson IoT Platform, either in {{site.data.keyword.Bluemix_notm}} or on-premise ({{site.data.keyword.streamsshort}}). |
+| [JDBC](http://ibmstreams.github.io/streamsx.jdbc/)          | Enables Streams applications to work with databases via JDBC.		   |
+| [JSON](http://ibmstreams.github.io/streamsx.json/)          | Allows you to convert data from JSON to Streams tuples format, and vice versa.   		|
+| [Kafka](https://ibmstreams.github.io/streamsx.kafka/)       | Enables Streams applications to easily integrate with Apache Kafka. 	 |
+| [MessageHub](https://ibmstreams.github.io/streamsx.messagehub/) | Enables Streams applications to work with MessageHub.			     |
+| [Messaging](https://ibmstreams.github.io/streamsx.messaging/)   |  	Focuses on interacting with popular messaging systems such as Kafka, MQTT, JMS and XMS	<br>**Note**: To use JMSSource, JMSSink, XMSSource, XMSSink with WebSphere MQ, complete these required steps in your development environment: <br>1. Go to [IBMStreams on GitHub](https://github.com/IBMStreams){:new_window} and download the Messaging Toolkit (com.ibm.streamsx.messaging) version 3.0.0 or later on your development environment.<br>2. Use version 5.1.0 or later version of the toolkit to build your application.<br>3. Put the required .bindings file in the `/etc` directory of your application to include it in the {{site.data.keyword.streamsshort}} application bundle.	    |
+| [Mining](https://ibm.co/2y3i5au)              	   	            |  Includes operators that you can use to mine data streams by applying models.	     |
+| [RabbitMQ](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  Provides operators that allow your Streams application to read and send messages from Rabbit MQ.  |
+| [R-project](https://ibm.co/2h7D9lu)          	   	              |   Includes the RScript operator, which you can use to run R commands and apply complex data mining algorithms to detect patterns of interest in data streams.			     |
+| [Topology](http://ibmstreams.github.io/streamsx.topology/)      |  Provides the ability to build Python streaming applications for {{site.data.keyword.streaminganalyticsshort}} service on the {{site.data.keyword.Bluemix_notm}} platform and {{site.data.keyword.streamsshort}}.		     |
+| [DPS](http://ibmstreams.github.io/streamsx.dps/) |	 Enables multiple applications that are running processing elements (PEs) on one or more machines to share application specific state information.<br>**Restriction:** Only REDIS is supported as database backend.	| 	 	 	
+| [Geospatial](https://ibm.co/2h9x0VR) 	     |	Includes operators and functions that facilitate efficient processing and indexing of location data.<br>**Restriction:** Operators using shared map mode are not supported (`MapStore`, `PointMapMatcher` in shared map mode).		 |
+| [TEDA](https://ibm.co/2z9DS00)	   | 	Provides a set of generic operators that are used in telecommunications applications, and it also provides an application framework that enables you to set up new file-to-file applications. Get started by following the [TEDA tutorials](http://ibmstreams.github.io/streamsx.tutorial.teda/). All operators and functions of the toolkit are supported. <br>**Restriction:** The application framework is not supported.	 	 |
+| [TimeSeries](https://ibm.co/2zEPILZ)	 	  | The operators and functions in the TimeSeries Toolkit condition, analyze, and model time series data. <br>**Restriction:** Deprecated operators are not supported.	   |
+
+*Table 1. Supported toolkits*
+
+## Other toolkits and operators
+{: #other_operators}
+
+Other operators, including those toolkit operators that you have developed for your own needs, can be supported by {{site.data.keyword.streaminganalyticsshort}}.
+{:shortdesc}
+
+Toolkits must meet the following criteria to be compatible with {{site.data.keyword.streaminganalyticsshort}}:
+
+1. No additional software needs to be pre-installed on the application nodes of your service instance.
+2. Any configuration information that the toolkit requires can be included in the application bundle using the toolkit.

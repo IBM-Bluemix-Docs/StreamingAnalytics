@@ -6,8 +6,11 @@ Streaming Analytics
 
     {: .navgroup id="learn"}
     index.md
-    gs_python.md
-    gs_beamrunner.md
+
+    {: .topicgroup}
+    Getting started guides
+        gs_python.md
+        gs_beamrunner.md
 
     {: .topicgroup}
     About
@@ -38,12 +41,7 @@ Streaming Analytics
         develop_beam_apps.md
 
     {: .topicgroup}
-    Supported operators
-        c_beta_adapters.md
-        c_compatible_adapters.md
-        c_analytics_utilities.md
-        c_other_operators.md
-
+    compatible_toolkits.md
     c_beta_tooling.md
     r_vcap_services.md
     r_integrating_cloudant_rest.md

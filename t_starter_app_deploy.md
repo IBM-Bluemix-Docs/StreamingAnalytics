@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Deploying the starter applications on Bluemix
+# Deploying the starter applications on {{site.data.keyword.Bluemix_notm}}
 {: #starterapps_deploy}
 
-You can push and deploy one of the {{site.data.keyword.streaminganalyticsshort}} starter applications to the {{site.data.keyword.Bluemix_short}} cloud.
+You can push and deploy one of the {{site.data.keyword.streaminganalyticsshort}} starter applications to {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 Before you begin, get {{site.data.keyword.Bluemix_short}} ready to deploy the {{site.data.keyword.streaminganalyticsshort}} starter applications:

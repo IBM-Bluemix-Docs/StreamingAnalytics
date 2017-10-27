@@ -19,7 +19,7 @@ lastupdated: "2017-10-27"
 You can now develop Python applications in IBM Data Science Experience (DSX) or in your local Python development environment and deploy these applications in {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
-Develop and deploy your Python applications to the {{site.data.keyword.Bluemix_short}} cloud using the {{site.data.keyword.streaminganalyticsshort}} service using one of these methods:
+Develop and deploy your Python applications to {{site.data.keyword.Bluemix_short}} using the {{site.data.keyword.streaminganalyticsshort}} service using one of these methods:
 
 
 ## Developing Streams Python applications in DSX

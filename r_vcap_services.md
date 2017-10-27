@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -20,7 +20,7 @@ The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_S
 {:shortdesc}
 
 
-The {{site.data.keyword.streaminganalyticsshort}} service follows the typical {{site.data.keyword.Bluemix_short}} service behavior and interaction. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned and bound to a {{site.data.keyword.Bluemix_short}} application, the service instance VCAP information is available to the Bluemix application environment via the VCAP_SERVICES environment variable. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned without specifying a {{site.data.keyword.Bluemix_short}} application to bind to, service credentials are automatically created. {{site.data.keyword.streaminganalyticsshort}} service credentials can be accessed from the service dashboard.
+The {{site.data.keyword.streaminganalyticsshort}} service follows the typical {{site.data.keyword.Bluemix_short}} service behavior and interaction. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned and bound to an application in {{site.data.keyword.Bluemix_notm}}, the service instance VCAP information is available to the Bluemix application environment via the VCAP_SERVICES environment variable. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned without specifying an application in {{site.data.keyword.Bluemix_notm}} to bind to, service credentials are automatically created. {{site.data.keyword.streaminganalyticsshort}} service credentials can be accessed from the service dashboard.
 
 
 The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable includes information as presented in the following example:

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-12"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-10-12"
 # Streams Python apps for Streaming Analytics
 {: #gettingstarted_py}
 
-You can now create Streams apps in a Python environment, such as IBM Data Science Experience (DSX), and submit these apps to the {{site.data.keyword.streaminganalyticsshort}} instance to be deployed in the Bluemix cloud. You no longer need to install {{site.data.keyword.streamsshort}} locally to compile and deploy a Streams Python app.
+You can now create Streams apps in a Python environment, such as IBM Data Science Experience (DSX), and submit these apps to the {{site.data.keyword.streaminganalyticsshort}} instance to be deployed in {{site.data.keyword.Bluemix_notm}}. You no longer need to install {{site.data.keyword.streamsshort}} locally to compile and deploy a Streams Python app.
 
 Get started by creating sample Streams Python apps using Jupyter notebooks in DSX, and submit these apps to the service instance directly from DSX. For more information, see [Developing Streams Python apps in DSX](/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_python_dsx).
 

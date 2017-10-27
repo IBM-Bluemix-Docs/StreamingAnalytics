@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -68,7 +68,7 @@ If you want to experiment further with the service, you can also modify the code
     <th colspan="3">NYC Traffic sample app<br></th>
   </tr>
   <tr>
-    <td colspan="3">The NYC Traffic starter app is a {{site.data.keyword.Bluemix_short}} application that is written in Liberty for Java. It contains an {{site.data.keyword.streamsshort}} application that retrieves public data from New York City traffic sensors, calculates aggregate statistics, and sends the results back to the Liberty application.
+    <td colspan="3">The NYC Traffic starter app is an application for {{site.data.keyword.Bluemix_short}} that is written in Liberty for Java. It contains an {{site.data.keyword.streamsshort}} application that retrieves public data from New York City traffic sensors, calculates aggregate statistics, and sends the results back to the Liberty application.
 <p>You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment.</p>
 </td>
   </tr>
@@ -122,7 +122,7 @@ If you want to experiment further with the service, you can also modify the code
     <th colspan="3">FileStreamSample app<br></th>
   </tr>
   <tr>
-    <td colspan="3">You can use the IBM® Streams Runner for Apache Beam FileStreamSample sample application to learn how to use Bluemix object storage for file input and output.
+    <td colspan="3">You can use the IBM® Streams Runner for Apache Beam FileStreamSample sample application to learn how to use {{site.data.keyword.Bluemix_notm}} object storage for file input and output.
 </td>
   </tr>
   <tr>
