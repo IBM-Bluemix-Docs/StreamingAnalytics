@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.Bluemix_short}} へのスターター・アプリケーションのデプロイ
+# {{site.data.keyword.Bluemix_notm}} へのスターター・アプリケーションのデプロイ
 {: #starterapps_deploy}
 
-いずれかの {{site.data.keyword.streaminganalyticsshort}} スターター・アプリケーションを {{site.data.keyword.Bluemix_short}} クラウドにプッシュしてデプロイすることができます。
+いずれかの {{site.data.keyword.streaminganalyticsshort}} スターター・アプリケーションを {{site.data.keyword.Bluemix_short}} にプッシュしてデプロイすることができます。
 {:shortdesc}
 
 始めに、{{site.data.keyword.streaminganalyticsshort}} スターター・アプリケーションをデプロイするために、{{site.data.keyword.Bluemix_short}} の準備をします。
@@ -36,7 +36,8 @@ NYC Traffic スターター・アプリケーションは、パブリック Web 
 
 スターター・アプリケーションをダウンロードして、{{site.data.keyword.Bluemix_short}} にデプロイするには、以下の手順を実行します。
 
-1. [Event Detection](https://hub.jazz.net/project/streamscloud/EventDetection/overview) または [NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview) スターター・アプリケーションをダウンロードします。
+1. [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) または [NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) スターター・アプリケーションをダウンロードします。Beam サンプル・アプリケーションを使用する場合は、これらのアプリケーションをコンソールからダウンロードできます。
+
 2. コマンド・ラインで、プロジェクト・ディレクトリーに移動します。
   <pre><code>cd myapp</code></pre>
   {:pre}

@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#兼容的分析和实用程序
+# 兼容的分析和实用程序
 {: #c_analytics_utilities}
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-04-13"
 以下分析工具箱和实用程序与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
 {:shortdesc}
 
-##SPSS Analytics Toolkit
+## SPSS Analytics Toolkit
 {: #spss notoc}
 
 SPSS Analytics Toolkit 包含与 SPSS Modeler 和 SPSS Collaboration and Deployment Services 产品集成的 {{site.data.keyword.streamsshort}} 操作程序，可在您的 {{site.data.keyword.streamsshort}} 应用程序中，实现 SPSS Modeler 预测性分析的各个方面。
@@ -40,7 +40,7 @@ SPSS Analytics Toolkit 包含与 SPSS Modeler 和 SPSS Collaboration and Deploym
 *表 1. 与 SPSS Analytics Toolkit 兼容的操作程序*
 
 
-##Complex Event Processing Toolkit
+## Complex Event Processing Toolkit
 {: #cep notoc}
 
 Complex Event Processing Toolkit (com.ibm.streams.cep) 提供 MatchRegex 操作程序，以执行复杂事件处理。
@@ -51,7 +51,7 @@ Complex Event Processing Toolkit (com.ibm.streams.cep) 提供 MatchRegex 操作�
 例如，CEP 可用于检测股价模式、运输应用程序中的路线模式或 Web 商业设置中的用户行为模式。
 
 
-##TimeSeries Toolkit
+## TimeSeries Toolkit
 {: #timeseries notoc}
 
 TimeSeries Toolkit (com.ibm.streams.timeseries) 中的操作程序和功能可决定、分析时间序列数据，并对该数据进行建模。
@@ -88,7 +88,7 @@ TimeSeries Toolkit (com.ibm.streams.timeseries) 中的操作程序和功能可�
 
 有关工具箱限制的更多信息，请参阅 [{{site.data.keyword.streamsshort}} 专业工具箱的限制](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window}。
 
-##Geospatial Toolkit
+## Geospatial Toolkit
 {: #geospatial notoc}
 
 Geospatial Toolkit (com.ibm.streams.geospatial) 包括可促进有效处理位置数据并建立索引的操作程序和功能。例如，使用全球定位系统 (GPS) 位置数据，您可以跟踪感兴趣区域中或周围实体的移动，或者计算地球上不同特征之间的空间关系。
@@ -109,7 +109,7 @@ Geospatial Toolkit (com.ibm.streams.geospatial) 包括可促进有效处理位�
 
 有关更多信息，请参阅 {{site.data.keyword.streamsshort}} 产品文档中的[操作程序：com.ibm.streams.geospatial](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.geospatial/ix$Operator.html?lang=en){:new_window}。
 
-##HDFS for {{site.data.keyword.Bluemix_short}} Toolkit
+## HDFS for {{site.data.keyword.Bluemix_short}} Toolkit
 {: #hdfs notoc}
 
 HDFS for {{site.data.keyword.Bluemix_short}} Toolkit (com.ibm.streamsx.hdfs.bluemix) 是 HDFS Toolkit 的特殊版本，可添加连接到 IBM BigInsights for Apache Hadoop for {{site.data.keyword.Bluemix_short}} 的支持。
@@ -127,7 +127,7 @@ HDFS for {{site.data.keyword.Bluemix_short}} Toolkit (com.ibm.streamsx.hdfs.blue
 
 有关如何使用此工具箱的更多信息，请参阅[在 {{site.data.keyword.Bluemix_short}} 上利用 HDFS 开始使用 {{site.data.keyword.streaminganalyticsshort}} 和 BigInsights](https://developer.ibm.com/bluemix/2016/02/26/streaming-analytics-and-biginsights-using-hdfs/){:new_window}。
 
-##JSON Toolkit
+## JSON Toolkit
 {: #json notoc}
 
 JSON Toolkit (com.ibm.streamsx.json) 提供 SPL 的 JSON 支持，以及 SPL 值与 JSON 对象之间的标准转换。
@@ -145,14 +145,14 @@ JSON Toolkit (com.ibm.streamsx.json) 提供 SPL 的 JSON 支持，以及 SPL 值
 
 有关更多信息，请参阅 {{site.data.keyword.streamsshort}} 产品文档中的 [com.ibm.streamsx.json](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.json/tk$com.ibm.streamsx.json.html){:new_window}。
 
-##JDBC Toolkit
+## JDBC Toolkit
 {: #jdbc notoc}
 
 通过 JDBC Toolkit (com.ibm.streams.jdbc) 可使 {{site.data.keyword.streaminganalyticsshort}} 与更多 {{site.data.keyword.Bluemix_short}} 数据库服务（如 SQL Database、dashDB 等）进行通信。
 
 该工具箱包括 JDBCRun 操作程序。有关更多信息，请参阅 {{site.data.keyword.streamsshort}} 产品文档中的[使用 {{site.data.keyword.streaminganalyticsshort}} 与启用 JDBC 的 {{site.data.keyword.Bluemix_short}}](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/){:new_window} 和 [com.ibm.streamsx.jdbc](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.jdbc/tk$com.ibm.streamsx.jdbc.html){:new_window}。
 
-##R-project Toolkit
+## R-project Toolkit
 {: #rproject notoc}
 
 R-project Toolkit (com.ibm.streams.rproject) 包括 RScript 操作程序，您可以使用该操作程序来运行 R 命令，并应用复杂的数据挖掘算法，以检测对数据流感兴趣的模式。
@@ -161,14 +161,14 @@ R-project Toolkit (com.ibm.streams.rproject) 包括 RScript 操作程序，您�
 有关更多信息，请参阅 {{site.data.keyword.streamsshort}} 产品文档中的 [RScript 操作程序](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.rproject/op$com.ibm.streams.rproject$RScript.html?lang=en){:new_window}。
 
 
-##Rules Compiler
+## Rules Compiler
 {: #rulescompiler notoc}
 
 Rules Compiler (com.ibm.streams.rulescompiler) 支持将以 ODM 撰写的业务规则转换为可在 {{site.data.keyword.streamsshort}} 应用程序中使用的 SPL。
 
 有关更多信息，请参阅 {{site.data.keyword.streamsshort}} 产品文档中的[操作程序：com.ibm.streams.rulescompile](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.rulescompiler/ix$Operator.html){:new_window}。
 
-##Text Toolkit
+## Text Toolkit
 {: #text notoc}
 
 Text Toolkit (com.ibm.streams.text) 包括 `TextExtract` 和 `SentimentExtractor` 操作程序，其可从文本数据抽取信息。
@@ -177,7 +177,7 @@ Text Toolkit (com.ibm.streams.text) 包括 `TextExtract` 和 `SentimentExtractor
 
 有关工具箱限制的更多信息，请参阅 [{{site.data.keyword.streamsshort}} 专业工具箱的限制](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window}。
 
-##Mining Toolkit
+## Mining Toolkit
 {: #mining notoc}
 
 Mining Toolkit (com.ibm.streams.mining) 包括您可用于通过应用模型进行数据流挖掘的操作程序。对数据流进行挖掘以抽取相关信息或情报对大部分流处理应用程序来说至关重要，其中包括从欺诈检测到客户细分乃至流失或侵入防护等应用程序。
@@ -199,7 +199,7 @@ Mining Toolkit (com.ibm.streams.mining) 包括您可用于通过应用模型进�
 
 有关工具箱限制的更多信息，请参阅 [{{site.data.keyword.streamsshort}} 专业工具箱的限制](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window}。
 
-##Telecommunications Event Data Analytics (TEDA) Toolkit
+## Telecommunications Event Data Analytics (TEDA) Toolkit
 {: #teda notoc}
 
 Telecommunications Event Data Analytics (TEDA) Toolkit (com.ibm.streams.teda) 提供一组在电信应用程序中使用的通用操作程序，它还提供一种应用程序框架，可设置新的文件到文件应用程序。
@@ -224,7 +224,7 @@ Telecommunications Event Data Analytics (TEDA) Toolkit (com.ibm.streams.teda) �
 有关更多信息，请参阅 {{site.data.keyword.streamsshort}} 产品文档中的[操作程序：com.ibm.streams.teda](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.teda/ix$Operator.html?lang=en){:new_window}。
 
 
-##Topology Toolkit
+## Topology Toolkit
 {: #topology notoc}
 
 Topology Toolkit 提供以下列编程语言构建 {{site.data.keyword.streamsshort}} 应用程序的支持：

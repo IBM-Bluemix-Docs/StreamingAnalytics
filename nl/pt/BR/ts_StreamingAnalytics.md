@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,14 +16,14 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} resolução de problemas
+# Resolução de problemas do Streaming Analytics
 {: #ts_StreamingAnalytics}
 
 É possível localizar as respostas a perguntas comuns sobre como usar o {{site.data.keyword.streaminganalyticsshort}} no
 {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-##Ao ativar o serviço, sou solicitado por credenciais para efetuar login no console
+## Ao ativar o serviço, sou solicitado por credenciais para efetuar login no console
 {: #log_in_console}
 
 Ao ativar o {{site.data.keyword.streaminganalyticsshort}}, você é solicitado por credenciais para efetuar login no console de serviço.
@@ -40,7 +40,7 @@ serviço de coletar a atualização.
 Limpe o cache do navegador para certificar-se de obter a versão mais recente do console de serviço.
 {: tsResolve}
 
-##Meu aplicativo está unhealthy
+## Meu aplicativo está unhealthy
 {: #app_unhealthy}
 
 Não é possível executar seu aplicativo corretamente e o status de funcionamento é `unhealthy`.

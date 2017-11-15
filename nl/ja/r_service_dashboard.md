@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#サービス・ダッシュボード
+# サービス・ダッシュボード
 {: #dashboard}
 
 {{site.data.keyword.Bluemix_short}} サービス・ダッシュボードから {{site.data.keyword.streaminganalyticsshort}} サービスにアクセスできます。

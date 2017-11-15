@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} のトラブルシューティング
+# Streaming Analytics のトラブルシューティング
 {: #ts_StreamingAnalytics}
 
 {{site.data.keyword.Bluemix_short}} 上の {{site.data.keyword.streaminganalyticsshort}} の使用法について、よくある質問の解答を記載します。
 {:shortdesc}
 
-##サービスを起動すると、コンソールにログインするための資格情報を求めるプロンプトが出される
+## サービスを起動すると、コンソールにログインするための資格情報を求めるプロンプトが出される
 {: #log_in_console}
 
 {{site.data.keyword.streaminganalyticsshort}} を起動すると、サービス・コンソールにログインするための資格情報を求めるプロンプトが出されます。
@@ -37,7 +37,7 @@ lastupdated: "2017-04-13"
 ブラウザー・キャッシュをクリアして、サービス・コンソールの最新バージョンを取得できるようにしてください。
 {: tsResolve}
 
-##アプリケーションが正常でない
+## アプリケーションが正常でない
 {: #app_unhealthy}
 
 アプリケーションを正常に実行できず、正常性状況が `unhealthy` です。

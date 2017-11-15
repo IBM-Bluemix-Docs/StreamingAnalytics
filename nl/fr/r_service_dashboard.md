@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,21 +13,19 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Service-Dashboard
+# Tableau de bord du service
 {: #dashboard}
 
-Sie können auf Ihren {{site.data.keyword.streaminganalyticsshort}}-Service vom {{site.data.keyword.Bluemix_short}}-Service-Dashboard zugreifen.
+Vous pouvez accéder à votre service {{site.data.keyword.streaminganalyticsshort}} depuis le tableau de bord de service {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-Über das Service-Dashboard haben Sie folgende Möglichkeiten:
+Depuis le tableau de bord de service, vous pouvez :
 
-* Anzeigen des Status Ihres {{site.data.keyword.streaminganalyticsshort}}-Service.
-* Stoppen und Starten Ihrer Serviceinstanz.
-* Zugriff auf die {{site.data.keyword.streaminganalyticsshort}}-Konsole.
-* Ändern der Größe Ihrer Serviceinstanz durch Hinzufügen von Anwendungsknoten
-zu Ihrer Serviceinstanz oder durch Entfernen von Anwendungsknoten aus Ihrer Serviceinstanz,
-wenn die Gebühren für die Nutzung der Instanz auf Stundenbasis berechnet werden.
-* Angeben, ob Ihre Serviceinstanz, deren Nutzung auf Stundenbasis berechnet wird, automatisch gestoppt werden soll, wenn für einen längeren Zeitraum keine Jobs ausgeführt werden.
-* Zugriff auf die Serviceberechtigungsnachweise.
-* Zugriff auf Lernprogramme für die Starteranwendungen.
-* Zugriff auf die Servicedokumentation und Benutzerforen.
+* Afficher le statut de votre service {{site.data.keyword.streaminganalyticsshort}}.
+* Arrêter et démarrer votre instance de service.
+* Accéder à la console {{site.data.keyword.streaminganalyticsshort}}.
+* Redimensionner votre instance de service en ajoutant ou retirant des noeuds d'application depuis votre instance de service si l'instance est facturée pour une utilisation horaire.
+* Indiquer si votre instance de service, qui est facturée pour une utilisation horaire, doit s'arrêter automatiquement quand aucun travail ne s'exécute pendant une période de temps prolongée.
+* Accéder aux données d'identification de service.
+* Accéder aux tutoriels pour les applications de démarrage.
+* Accéder à la documentation relative aux services et aux forums utilisateur.

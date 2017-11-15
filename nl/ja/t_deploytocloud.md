@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# クラウドへの {{site.data.keyword.streamsshort}} アプリケーションのデプロイ
+# クラウドへの Streams アプリケーションのデプロイ
 {: #t_deploytocloud}
 
-{{site.data.keyword.streamsshort}} アプリケーションを、{{site.data.keyword.Bluemix_short}} クラウドで稼働している {{site.data.keyword.streaminganalyticsshort}} インスタンスにデプロイすることができます。
+{{site.data.keyword.Bluemix_short}} で稼働する {{site.data.keyword.streaminganalyticsshort}} インスタンスに {{site.data.keyword.streamsshort}} アプリケーションをデプロイすることができます。
 {:shortdesc}
 
 {{site.data.keyword.streamsshort}} アプリケーションは、{{site.data.keyword.streamsshort}} 環境において {{site.data.keyword.streamsshort}} Processing Language (SPL)、Java、Scala、または Python で作成されます。{{site.data.keyword.streamsshort}} 環境なしでStreams Python アプリケーションを開発できるようになりました。『[クラウドへの {{site.data.keyword.streamsshort}} Python アプリケーションのデプロイ](docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)』を参照してください
@@ -39,16 +39,16 @@ lastupdated: "2017-04-13"
 
 4. SPL、Java、Scala、または Python アプリケーションに関連付けられているアプリケーション・バンドル (.sab ファイル) を、次のいずれかの方法を使用して、クラウド内のサービス・インスタンスにサブミットします。
 	* {{site.data.keyword.streaminganalyticsshort}} コンソールを使用して、アプリケーション・バンドルをサブミットする。
-  * {{site.data.keyword.Bluemix_short}} アプリケーションを作成し、それに {{site.data.keyword.streamsshort}} アプリケーションを追加する。{{site.data.keyword.streaminganalyticsshort}} REST API を使用して、アプリケーションを制御します。
+  * {{site.data.keyword.Bluemix_notm}} でアプリケーションを作成し、この {{site.data.keyword.streamsshort}} アプリケーションをそれに追加します。{{site.data.keyword.streaminganalyticsshort}} REST API を使用して、アプリケーションを制御します。
 
 これで、アプリケーションはクラウドにデプロイされました。{{site.data.keyword.streaminganalyticsshort}} サービスを使用して、アプリケーションをモニターできます。複数のアプリケーション (.sab ファイル) をサービス・インスタンスにサブミットすることも可能です。必要に応じていくつでもサブミットできます。
 
 {{site.data.keyword.streamsshort}} では、アプリケーションの開発に使用できる Java™ 開発キットもいくつかサポートしています。 {{site.data.keyword.streamsshort}} での Java サポートについて詳しくは、『[アプリケーション開発用にサポートされる Java 開発キット](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}』を参照してください。
 
-## クラウドへの {{site.data.keyword.streamsshort}} Python アプリケーションのデプロイ
+## クラウドへの Streams Python アプリケーションのデプロイ
 {: #t_deploypython}
 
-{{site.data.keyword.Bluemix_short}} クラウドで実行されている {{site.data.keyword.streaminganalyticsshort}} サービスに {{site.data.keyword.streamsshort}} Python アプリケーションをデプロイします。{{site.data.keyword.streamsshort}} インストール済み環境は不要です。
+{{site.data.keyword.Bluemix_short}} で稼働する {{site.data.keyword.streaminganalyticsshort}} サービスに {{site.data.keyword.streamsshort}} Python アプリケーションをデプロイします。{{site.data.keyword.streamsshort}} インストール済み環境は不要です。
 {:shortdesc}
 
 streamsx パッケージに含まれている [{{site.data.keyword.streamsshort}} Python Application API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) により、Python アプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスにデプロイできます。{{site.data.keyword.streaminganalyticsshort}} サービス用のシンプルな Python アプリケーションを作成およびデプロイする方法の例については、『[Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)』チュートリアルを確認してください。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#在 {{site.data.keyword.Bluemix_short}} 上部署 {{site.data.keyword.streamsshort}} 应用程序
+# 在 {{site.data.keyword.Bluemix_notm}} 上部署 Streams 应用程序
 {: #c_getting_app_bluemix}
 
 
@@ -43,6 +43,7 @@ GitHub</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics 入门</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">使 SPL 应用程序为云做好准备</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">开发针对 Streaming Analytics 的 Python 应用程序</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">开发针对 Streaming Analytics 的 Beam 应用程序</a><br></li>
       </ul>    
     </td>
   </tr>

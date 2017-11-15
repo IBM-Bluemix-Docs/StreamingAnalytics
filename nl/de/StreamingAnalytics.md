@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Produktinformationen
+# Informationen zu Streaming Analytics
 {: #about}
 
 Sie können eine Echtzeitanalyse bewegter Daten im Rahmen Ihrer {{site.data.keyword.Bluemix_short}}-Anwendungen unter Verwendung von {{site.data.keyword.streaminganalyticsfull}} ausführen.
@@ -35,11 +35,14 @@ Wenn Sie Ihre Anwendungen in SPL schreiben möchten, sollten Sie wissen, dass {{
 
 Um Python-Anwendungen ohne eine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung zu erstellen und bereitzustellen, verwenden Sie unsere Notebooks in IBM Data Science Experience (DSX) oder die {{site.data.keyword.streamsshort}}-Python-API. Weitere Informationen finden Sie im Abschnitt [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
+Sie können Beam-Anwendungen mit einer Streams-Ausführungskomponente in der lokalen Entwicklungsumgebung entwickeln und dann mithilfe des {{site.data.keyword.streaminganalyticsshort}}-Service bereitstellen und überwachen. Weitere Informationen zu Beam-Anwendungen mit einer Streams-Ausführungskomponente finden Sie in [Beam-Apps mit Streams-Ausführungskomponenten in Streaming Analytics überwachen](docs/services/StreamingAnalytics/gs_beamrunner.html).
+
+
 **Kompatibilität mit {{site.data.keyword.streamsshort}}-Operatoren:**
 
 Alle {{site.data.keyword.streamsshort}}-Operatoren im SPL-Standardtoolkit ([{{site.data.keyword.streamsshort}} Processing Language) müssen mit {{site.data.keyword.streaminganalyticsshort}} kompatibel sein](/docs/services/StreamingAnalytics/c_beta_adapters.html).
 
-## {{site.data.keyword.streaminganalyticsfull}} - Zuständigkeiten
+## Zuständigkeiten in Streaming Analytics
 {: #responsibilities notoc}
 
 ### Zuständigkeiten des Kunden

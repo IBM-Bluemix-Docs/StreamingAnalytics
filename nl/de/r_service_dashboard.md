@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Service-Dashboard
+# Service-Dashboard
 {: #dashboard}
 
 Sie können auf Ihren {{site.data.keyword.streaminganalyticsshort}}-Service vom {{site.data.keyword.Bluemix_short}}-Service-Dashboard zugreifen.
@@ -24,9 +24,7 @@ Sie können auf Ihren {{site.data.keyword.streaminganalyticsshort}}-Service vom 
 * Anzeigen des Status Ihres {{site.data.keyword.streaminganalyticsshort}}-Service.
 * Stoppen und Starten Ihrer Serviceinstanz.
 * Zugriff auf die {{site.data.keyword.streaminganalyticsshort}}-Konsole.
-* Ändern der Größe Ihrer Serviceinstanz durch Hinzufügen von Anwendungsknoten
-zu Ihrer Serviceinstanz oder durch Entfernen von Anwendungsknoten aus Ihrer Serviceinstanz,
-wenn die Gebühren für die Nutzung der Instanz auf Stundenbasis berechnet werden.
+* Ändern der Größe Ihrer Serviceinstanz durch Hinzufügen von Anwendungsknoten zu Ihrer Serviceinstanz oder durch Entfernen von Anwendungsknoten aus Ihrer Serviceinstanz, wenn die Gebühren für die Nutzung der Instanz auf Stundenbasis berechnet werden.
 * Angeben, ob Ihre Serviceinstanz, deren Nutzung auf Stundenbasis berechnet wird, automatisch gestoppt werden soll, wenn für einen längeren Zeitraum keine Jobs ausgeführt werden.
 * Zugriff auf die Serviceberechtigungsnachweise.
 * Zugriff auf Lernprogramme für die Starteranwendungen.

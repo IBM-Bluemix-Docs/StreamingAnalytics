@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 關於
+# 關於 Streaming Analytics
 {: #about}
 
 使用 {{site.data.keyword.streaminganalyticsfull}}，即可對動態資料執行即時分析，以作為 {{site.data.keyword.Bluemix_short}} 應用程式的一部分。
@@ -35,11 +35,14 @@ lastupdated: "2017-04-13"
 
 若要建立及部署 Python 應用程式而不使用 {{site.data.keyword.streamsshort}} 開發環境，請使用 IBM Data Science Experience (DSX) 中的記事本或 {{site.data.keyword.streamsshort}} Python API。如需相關資訊，請參閱[針對 {{site.data.keyword.streaminganalyticsshort}} 開發 Python 應用程式](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
 
+您可以在本端開發環境中使用 Streams Runner 開發 Beam 應用程式，然後使用 {{site.data.keyword.streaminganalyticsshort}} 服務加以部署及監視。如需使用 Streams Runner 處理 Beam 應用程式的相關資訊，請參閱[在 Streaming Analytics 中使用 Streams Runner監視 Beam 應用程式](docs/services/StreamingAnalytics/gs_beamrunner.html)。
+
+
 **與 {{site.data.keyword.streamsshort}} 運算子的相容性：**
 
-[{{site.data.keyword.streamsshort}} Processing Language (SPL) 標準工具箱中的 [{{site.data.keyword.streamsshort}} 運算子應該全部與 {{site.data.keyword.streaminganalyticsshort}} 相容](/docs/services/StreamingAnalytics/c_beta_adapters.html)(/docs/services/StreamingAnalytics/c_beta_adapters.html)]。
+[{{site.data.keyword.streamsshort}} Processing Language (SPL) 標準工具箱中的 {{site.data.keyword.streamsshort}} 運算子應該全部與 {{site.data.keyword.streaminganalyticsshort}} 相容](/docs/services/StreamingAnalytics/c_beta_adapters.html)。
 
-## {{site.data.keyword.streaminganalyticsfull}} 責任
+## Streaming Analytics 責任
 {: #responsibilities notoc}
 
 ### 用戶端責任

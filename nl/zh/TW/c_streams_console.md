@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.streaminganalyticsshort}} 主控台
+# Streaming Analytics 主控台
 {: #console}
 
 在 {{site.data.keyword.streaminganalyticsshort}} 主控台上，您可以將 {{site.data.keyword.streamsshort}} 應用程式直接提交給 {{site.data.keyword.streaminganalyticsshort}} 服務實例。

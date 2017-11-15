@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#その他の演算子
+# その他の演算子
 {: #c_other_operators}
 
 その他の演算子 (ユーザー独自のニーズのために開発されたツールキットの演算子を含む) も、{{site.data.keyword.streaminganalyticsshort}} と互換性がある場合があります。

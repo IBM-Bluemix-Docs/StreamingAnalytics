@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#기타 연산자
+# 기타 연산자
 {: #c_other_operators}
 
 자체 필요에 따라 개발한 툴킷 연산자를 비롯하여 기타 연산자도 {{site.data.keyword.streaminganalyticsshort}}와 호환 가능할 수 있습니다.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} - Fehlerbehebung
+# Streaming Analytics - Fehlerbehebung
 {: #ts_StreamingAnalytics}
 
 Hier finden Sie Antworten auf häufig gestellte Fragen zur Verwendung von {{site.data.keyword.streaminganalyticsshort}} unter {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-##Wenn ich den Service starte, werde ich zur Eingabe von Berechtigungsnachweisen aufgefordert, um mich an der Konsole anmelden zu können.
+## Wenn ich den Service starte, werde ich zur Eingabe von Berechtigungsnachweisen aufgefordert, um mich an der Konsole anmelden zu können.
 {: #log_in_console}
 
 Wenn Sie {{site.data.keyword.streaminganalyticsshort}} starten, werden Sie aufgefordert, Berechtigungsnachweise für die Anmeldung an der Servicekonsole einzugeben.
@@ -37,7 +37,7 @@ Die Serviceinfrastruktur wurde aktualisiert und Ihr Browser-Cache verhindert, da
 Löschen Sie Ihren Browser-Cache, um sicherzustellen, dass Sie die aktuelle Version der Servicekonsole erhalten.
 {: tsResolve}
 
-##Meine Anwendung weist einen nicht einwandfreien Zustand auf
+## Meine Anwendung weist einen nicht einwandfreien Zustand auf
 {: #app_unhealthy}
 
 Sie können Ihre Anwendung nicht korrekt ausführen und der Allgemeinzustand ist `nicht einwandfrei`.

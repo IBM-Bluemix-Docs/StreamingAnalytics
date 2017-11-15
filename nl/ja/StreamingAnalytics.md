@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 概要
+# Streaming Analytics の詳細
 {: #about}
 
 {{site.data.keyword.streaminganalyticsfull}} を使用して、Data in Motion (流れているデータ) に関するリアルタイム分析を、{{site.data.keyword.Bluemix_short}} アプリケーションの一部として実行することができます。
@@ -36,11 +36,14 @@ lastupdated: "2017-04-13"
 
 {{site.data.keyword.streamsshort}} 開発環境なしで Python アプリケーションを作成およびデプロイする場合は、IBM Data Science Experience(DSX) のノートブックまたは {{site.data.keyword.streamsshort}} Python API を使用します。詳しくは、『[{{site.data.keyword.streaminganalyticsshort}} 用の Python アプリケーションの開発](/docs/services/StreamingAnalytics/t_develop_apps_python.html)』を参照してください。
 
+後で {{site.data.keyword.streaminganalyticsshort}} サービスを使用してデプロイしてモニターできる Beam アプリケーションを、ご使用のローカル開発環境で Streams Runner を使用して開発することができます。Streams Runner を使用する Beam アプリケーションについて詳しくは、『[Streaming Analytics での Streams Runner を使用した Beam アプリケーションのモニター (Monitor Beam apps with Streams Runner in Streaming Analytics)](docs/services/StreamingAnalytics/gs_beamrunner.html)』を参照してください。
+
+
 **{{site.data.keyword.streamsshort}} 演算子との互換性:**
 
 [{{site.data.keyword.streamsshort}} Processing Language (SPL) 標準ツールキット](/docs/services/StreamingAnalytics/c_beta_adapters.html)に含まれる {{site.data.keyword.streamsshort}} オペレーターは、すべて {{site.data.keyword.streaminganalyticsshort}} と互換性があります。
 
-## {{site.data.keyword.streaminganalyticsfull}} の責任
+## Streaming Analytics の責任
 {: #responsibilities notoc}
 
 ### お客様の責任

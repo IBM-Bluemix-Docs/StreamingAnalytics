@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streamsshort}}-Anwendungen unter {{site.data.keyword.Bluemix_short}} bereitstellen
+# Streams-Anwendungen in {{site.data.keyword.Bluemix_notm}} bereitstellen
 {: #c_getting_app_bluemix}
 
 
@@ -42,6 +42,7 @@ dem {{site.data.keyword.streaminganalyticsshort}}-Service unterstützen.
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Einführung in Streaming Analytics</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">SPL-Anwendung für die Cloud vorbereiten</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Python-Anwendungen für Streaming Analytics entwickeln</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Beam-Anwendungen für Streaming Analytics entwickeln</a><br></li>
       </ul>    
     </td>
   </tr>

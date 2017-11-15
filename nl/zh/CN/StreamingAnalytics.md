@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 关于
+# 关于 Streaming Analytics
 {: #about}
 
 作为您 {{site.data.keyword.Bluemix_short}} 应用程序的一部分，您可以使用 {{site.data.keyword.streaminganalyticsfull}}，对动态数据执行实时分析。
@@ -36,11 +36,14 @@ lastupdated: "2017-04-13"
 
 要在没有 {{site.data.keyword.streamsshort}} 开发环境的情况下创建和部署 Python 应用程序，请使用 IBM Data Science Experience (DSX) 中的配置页或 {{site.data.keyword.streamsshort}} Python API。有关更多信息，请参阅[开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
 
+您可以在本地开发环境中使用 Streams Runner 来开发 Beam 应用程序，然后使用 {{site.data.keyword.streaminganalyticsshort}} 服务进行部署和监视。有关使用 Streams Runner 的 Beam 应用程序的更多信息，请参阅[使用 Streaming Analytics 中的 Streams Runner 监视 Beam 应用程序](docs/services/StreamingAnalytics/gs_beamrunner.html)。
+
+
 **与 {{site.data.keyword.streamsshort}} 操作程序的兼容性：**
 
 [{{site.data.keyword.streamsshort}} Processing Language (SPL) 标准工具箱](/docs/services/StreamingAnalytics/c_beta_adapters.html)中的 {{site.data.keyword.streamsshort}} 操作程序应该全部与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
 
-## {{site.data.keyword.streaminganalyticsfull}} 职责
+## Streaming Analytics 职责
 {: #responsibilities notoc}
 
 ### 客户职责

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} 故障诊断
+# Streaming Analytics 故障诊断
 {: #ts_StreamingAnalytics}
 
 您可以找到有关如何在 {{site.data.keyword.Bluemix_short}} 上使用 {{site.data.keyword.streaminganalyticsshort}} 的常见问题的答案。
 {:shortdesc}
 
-##启动服务时，系统提示需要凭证才能登录控制台
+## 启动服务时，系统提示需要凭证才能登录控制台
 {: #log_in_console}
 
 启动 {{site.data.keyword.streaminganalyticsshort}} 时，系统提示需要凭证才能登录服务控制台。
@@ -37,7 +37,7 @@ lastupdated: "2017-04-13"
 请清除浏览器高速缓存，以确保获取最新的服务控制台版本。
 {: tsResolve}
 
-##我的应用程序运行状况异常
+## 我的应用程序运行状况异常
 {: #app_unhealthy}
 
 无法正确运行应用程序，运行状况状态为 `unhealthy`。

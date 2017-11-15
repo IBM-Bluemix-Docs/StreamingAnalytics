@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.streaminganalyticsshort}}용 Python 애플리케이션 개발
+# Streaming Analytics에서 Python 애플리케이션 개발
 {: #t_develop_apps_python}
 
 이제 IBM Data Science Experience(DSX) 또는 로컬 Python 개발 환경에서 Python 애플리케이션을 개발하고 {{site.data.keyword.streaminganalyticsshort}}에서 이러한 애플리케이션을 배치할 수 있습니다.
 {:shortdesc}
 
-다음 방법 중 하나로 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 Python 애플리케이션을 개발하고 이를 {{site.data.keyword.Bluemix_short}} 클라우드에 배치하십시오. 
+다음 방법 중 하나를 사용해 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 Python 애플리케이션을 개발하고 이를 {{site.data.keyword.Bluemix_short}}에 배치하십시오. 
 
 
 ## DSX에서 Streams Python 애플리케이션 개발
@@ -39,3 +39,5 @@ lastupdated: "2017-04-13"
  streamsx 패키지에 포함되어 있는 [{{site.data.keyword.streamsshort}} Python 애플리케이션 API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features)를 활용하면 Python 호출 가능 클래스나 함수를 사용하여 스트림 처리 애플리케이션을 작성할 수 있습니다. Python 애플리케이션 API를 사용하여 애플리케이션을 정의하고 이를 서비스에 제출할 수 있습니다. 
 
 로컬 Python 환경에서 샘플 애플리케이션을 작성하고 이를 {{site.data.keyword.streaminganalyticsshort}} 서비스에 배치하려면 [Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) 튜토리얼의 단계에 따라 시작하십시오. 
+
+[{{site.data.keyword.streamsshort}} Python 애플리케이션 API]에 대해 더 자세히 알아보려면 이 온라인 과정을 완료하고 [{{site.data.keyword.streaminganalyticsshort}} basics for Python developers](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}를 학습하십시오. 

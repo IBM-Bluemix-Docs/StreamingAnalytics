@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Outros operadores
+# Outros operadores
 {: #c_other_operators}
 
 Outros operadores, incluindo os operadores do kit de ferramentas que você desenvolveu para suas próprias necessidades, podem ser compatíveis com o

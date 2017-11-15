@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 在 {{site.data.keyword.Bluemix_short}} 上部署入門範本應用程式
+# 在 {{site.data.keyword.Bluemix_notm}} 上部署入門範本應用程式
 {: #starterapps_deploy}
 
-您可以將其中一個 {{site.data.keyword.streaminganalyticsshort}} 入門範本應用程式推送及部署至 {{site.data.keyword.Bluemix_short}} 雲端。
+您可以將其中一個 {{site.data.keyword.streaminganalyticsshort}} 入門範本應用程式推送及部署至 {{site.data.keyword.Bluemix_short}}。
 {:shortdesc}
 
 開始之前，請準備好 {{site.data.keyword.Bluemix_short}} 來部署 {{site.data.keyword.streaminganalyticsshort}} 入門範本應用程式：
@@ -36,7 +36,8 @@ NYC Traffic 入門範本應用程式會讀取及分析公用網站中的交通�
 
 若要將入門範本應用程式下載並部署至 {{site.data.keyword.Bluemix_short}}，請執行下列動作：
 
-1. 下載 [Event Detection](https://hub.jazz.net/project/streamscloud/EventDetection/overview) 或 [NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview) 入門範本應用程式。
+1. 下載 [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 或 [NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) 入門範本應用程式。如果您想要使用 Beam 範例應用程式，可以從主控台下載這些應用程式。
+
 2. 在指令行上，移至專案目錄。
   <pre><code>cd myapp</code></pre>
   {:pre}

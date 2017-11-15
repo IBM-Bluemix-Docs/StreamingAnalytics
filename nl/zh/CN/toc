@@ -1,0 +1,52 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="StreamingAnalytics" audience="service" href="/docs/services/StreamingAnalytics/index.html"}
+Streaming Analytics
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    入门指南
+        gs_python.md
+        gs_beamrunner.md
+
+    {: .topicgroup}
+    关于
+        StreamingAnalytics.md
+        c_streams_console.md
+        r_service_dashboard.md
+        c_ha.md
+
+	{: .topicgroup}
+    样本应用程序
+        c_starterapps.md
+        t_starter_app_deploy.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    related_links.md
+    [REST API 参考](https://console.ng.bluemix.net/apidocs/220)
+    [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    c_getting_app_bluemix.md
+
+    {: .topicgroup}
+    将应用程序部署到云
+        t_deploytocloud.md
+        t_develop_apps_python.md
+        develop_beam_apps.md
+
+    {: .topicgroup}
+    compatible_toolkits.md
+    c_beta_tooling.md
+    r_vcap_services.md
+    r_integrating_cloudant_rest.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    ts_StreamingAnalytics.md
+    {: .navgroup-end}

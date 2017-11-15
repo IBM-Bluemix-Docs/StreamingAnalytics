@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-04-13"
 {:shortdesc}
 
 
-{{site.data.keyword.streaminganalyticsshort}} 서비스는 일반적인 {{site.data.keyword.Bluemix_short}} 서비스 동작과 상호작용을 따릅니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 프로비저닝되고 {{site.data.keyword.Bluemix_short}} 애플리케이션에 바인드되면, 서비스 인스턴스 VCAP 정보가 VCAP_SERVICES 환경 변수를 통해 Bluemix 애플리케이션 환경에서 사용 가능해집니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 바인드할 대상인 {{site.data.keyword.Bluemix_short}} 애플리케이션을 지정하지 않고 프로비저닝되면 서비스 신임 정보가 자동으로 작성됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보는 서비스 대시보드에서 액세스할 수 있습니다.
+{{site.data.keyword.streaminganalyticsshort}} 서비스는 일반적인 {{site.data.keyword.Bluemix_short}} 서비스 동작과 상호작용을 따릅니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 프로비저닝되어 {{site.data.keyword.Bluemix_notm}}의 애플리케이션에 바인드되면, 서비스 인스턴스 VCAP 정보가 VCAP_SERVICES 환경 변수를 통해 Bluemix 애플리케이션 환경에서 사용 가능해집니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 바인드할 대상인 {{site.data.keyword.Bluemix_notm}}의 애플리케이션을 지정하지 않고 프로비저닝되면 서비스 신임 정보가 자동으로 작성됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보는 서비스 대시보드에서 액세스할 수 있습니다.
 
 
 {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보와 VCAP_SERVICES 환경 변수는 다음 예제에서 제공되는 정보를 포함합니다. 

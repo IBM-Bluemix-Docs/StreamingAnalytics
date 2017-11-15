@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Weitere Operatoren
+# Weitere Operatoren
 {: #c_other_operators}
 
 Auch andere Operatoren - wie z. B. die Toolkitoperatoren, die Sie für Ihre eigenen Anforderungen

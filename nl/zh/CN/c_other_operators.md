@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#其他操作程序
+# 其他操作程序
 {: #c_other_operators}
 
 其他操作程序（包括您因自己所需而开发的那些工具箱操作程序）可与 {{site.data.keyword.streaminganalyticsshort}} 兼容。

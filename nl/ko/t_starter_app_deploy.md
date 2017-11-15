@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.Bluemix_short}}에 스타터 애플리케이션 배치
+# {{site.data.keyword.Bluemix_notm}}에 스타터 애플리케이션 배치
 {: #starterapps_deploy}
 
-{{site.data.keyword.streaminganalyticsshort}} 스타터 애플리케이션 중 하나를 {{site.data.keyword.Bluemix_short}} 클라우드에 푸시하고 배치할 수 있습니다.
+{{site.data.keyword.streaminganalyticsshort}} 스타터 애플리케이션 중 하나를 {{site.data.keyword.Bluemix_short}}에 푸시하고 배치할 수 있습니다.
 {:shortdesc}
 
 시작하기 전에 {{site.data.keyword.Bluemix_short}}가 {{site.data.keyword.streaminganalyticsshort}} 스타터 애플리케이션을 배치할 준비가 되게 하십시오. 
@@ -36,7 +36,8 @@ NYC Traffic 스타터 애플리케이션은 공용 웹 사이트에서 트래픽
 
 스타터 애플리케이션을 다운로드하여 {{site.data.keyword.Bluemix_short}}에 배치하려면 다음을 수행하십시오.
 
-1. [Event Detection](https://hub.jazz.net/project/streamscloud/EventDetection/overview) 또는 [NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview) 스타터 애플리케이션을 다운로드하십시오.
+1. [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 또는 [NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) 스타터 애플리케이션을 다운로드하십시오. Beam 샘플 앱을 사용하려는 경우에는 콘솔에서 이러한 앱을 다운로드할 수 있습니다. 
+
 2. 명령행에서 프로젝트 디렉토리로 이동하십시오. 
   <pre><code>cd myapp</code></pre>
   {:pre}

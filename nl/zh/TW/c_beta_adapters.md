@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#相容的工具箱運算子
+# 相容的工具箱運算子
 {: #c_beta_adapters}
 
 {{site.data.keyword.streamsshort}} Processing Language (SPL) 標準工具箱中的 {{site.data.keyword.streamsshort}} 運算子應該全部與 {{site.data.keyword.streaminganalyticsshort}} 相容。

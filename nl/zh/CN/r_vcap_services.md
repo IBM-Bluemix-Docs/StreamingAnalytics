@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-04-13"
 
 
 {{site.data.keyword.streaminganalyticsshort}} 服务遵循典型 {{site.data.keyword.Bluemix_short}} 服务行为和交互。
-当 {{site.data.keyword.streaminganalyticsshort}} 服务实例供应并绑定到 {{site.data.keyword.Bluemix_short}} 应用程序时，Bluemix 应用程序环境可通过 VCAP_SERVICES 环境变量，使用服务实例 VCAP 信息。当未指定要绑定到的 {{site.data.keyword.Bluemix_short}} 应用程序即供应 {{site.data.keyword.streaminganalyticsshort}} 服务实例时，会自动创建服务凭证。从服务仪表板可访问 {{site.data.keyword.streaminganalyticsshort}} 服务凭证。
+当 {{site.data.keyword.streaminganalyticsshort}} 服务实例供应并绑定到 {{site.data.keyword.Bluemix_notm}} 中的应用程序时，Bluemix 应用程序环境可通过 VCAP_SERVICES 环境变量，使用服务实例 VCAP 信息。未指定 {{site.data.keyword.Bluemix_notm}} 中要绑定到的应用程序即供应 {{site.data.keyword.streaminganalyticsshort}} 服务实例时，会自动创建服务凭证。从服务仪表板可访问 {{site.data.keyword.streaminganalyticsshort}} 服务凭证。
 
 
 

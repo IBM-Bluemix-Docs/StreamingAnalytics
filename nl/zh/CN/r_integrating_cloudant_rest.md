@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,11 +13,11 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#与其他 {{site.data.keyword.Bluemix_short}} 服务集成的教程
+# 与其他 {{site.data.keyword.Bluemix_notm}} 服务集成的教程
 {: #tutorials}
 
 
-您现在可以使用 {{site.data.keyword.streaminganalyticsshort}} 与其他 {{site.data.keyword.Bluemix_short}} 服务，包括 {{site.data.keyword.cloudant}} 和 {{site.data.keyword.messagehub}}。
+您现在可以使用 {{site.data.keyword.streaminganalyticsshort}} 与其他 {{site.data.keyword.Bluemix_short}} 服务，包括 {{site.data.keyword.cloudant}} HBase for {{site.data.keyword.Bluemix_short}}。
 {:shortdesc}
 
 下表列出的教程可帮助您将 {{site.data.keyword.streaminganalyticsshort}} 与其他 {{site.data.keyword.Bluemix_short}} 服务集成：
@@ -25,12 +25,9 @@ lastupdated: "2017-04-13"
 
 | 教程| 描述|
 |----------|--------|
-| [{{site.data.keyword.streaminganalyticsshort}} + {{site.data.keyword.messagehub}} 入门](https://developer.ibm.com/bluemix/2015/10/16/streaming-analytics-message-hub/)| 介绍如何使用消息传递工具箱从 {{site.data.keyword.streaminganalyticsfull}} 服务与 {{site.data.keyword.messagehub}} 进行通信。|
+| [连接到 {{site.data.keyword.streamsshort}}：需要了解的内容](https://ibm.co/2iDHfFt)| 使用用于侦听 {{site.data.keyword.streaminganalyticsshort}} 中连接的 {{site.data.keyword.streamsshort}} 操作程序|
 | [与 {{site.data.keyword.cloudant}} 和许多其他 RESTful 服务集成](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/) | 介绍如何使用 {{site.data.keyword.streamsshort}} HTTP 适配器将 SPL 应用程序集成到 {{site.data.keyword.cloudant}} 以及其他 RESTful、基于 Web 的服务。|
-| [使用云中的数据：从 {{site.data.keyword.streaminganalyticsshort}} 访问 {{site.data.keyword.objectstorageshort}} 中的文件](https://developer.ibm.com/bluemix/2016/02/11/leverage-object-storage-for-streaming-analytics/)| 介绍如何从 {{site.data.keyword.objectstorageshort}} 服务访问文件，以便应用程序能够摄入这些文件。|
-| [{{site.data.keyword.streaminganalyticsshort}} 和 {{site.data.keyword.rabbitmq}} 入门](https://developer.ibm.com/bluemix/2016/04/26/streaming-analytics-and-rabbitmq/)| 介绍如何在 {{site.data.keyword.streaminganalyticsshort}} 服务与 {{site.data.keyword.Bluemix_short}} 中的 CloudAMQP 服务之间传递消息。|
 | [{{site.data.keyword.streaminganalyticsshort}} 服务中的 SPSS Analytics Toolkit 支持](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-analytics-service/) | 提供一些如何在云环境中有效使用 SPSS Analytics Toolkit 操作程序的技巧。|
-| [{{site.data.keyword.streaminganalyticsshort}} 和物联网入门](https://developer.ibm.com/bluemix/2015/10/12/getting-started-with-streaming-analytics-and-iot/) |  介绍一个典型的使用案例，并说明如何通过 MQTT 协议在两个服务之间交换消息。|
 | [使用 Apache Edgent、{{site.data.keyword.iot_short}} 和 {{site.data.keyword.streaminganalyticsshort}} 创建 Smart Sprinkler](https://developer.ibm.com/bluemix/2016/06/01/better-analytics-with-apache-quarks/)| 了解如何组合使用 Apache Edgent、{{site.data.keyword.streaminganalyticsshort}}、{{site.data.keyword.iot_short}} 以及其他 {{site.data.keyword.Bluemix_short}} 服务，以开发水资源保护解决方案。|
 | [Watson IoT Recipe：将 {{site.data.keyword.streaminganalyticsshort}} 服务与 {{site.data.keyword.iot_short_notm}} 集成](https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/)| 介绍在 {{site.data.keyword.iot_short_notm}} 上，如何使用 {{site.data.keyword.Bluemix_short}} 上提供的 {{site.data.keyword.streaminganalyticsshort}} 服务来快速摄入、分析并关联 IoT 设备所发布的事件。|
 | [使用 {{site.data.keyword.geospatialshort_Geospatial}} 进行实时地点检测](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/)| 介绍 {{site.data.keyword.Bluemix_short}} 中的 {{site.data.keyword.geospatialshort_Geospatial}} 服务（由 {{site.data.keyword.streaminganalyticsshort}} 提供技术支持）如何支持实时地点检测。|

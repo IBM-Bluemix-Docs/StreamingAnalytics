@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,23 +16,14 @@ lastupdated: "2017-04-13"
 # Serviceberechtigungsnachweise und Umgebungsvariable VCAP_SERVICES
 {: #vcap_services}
 
-Die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise und die Umgebungsvariable
-VCAP_SERVICES enthalten die VCAP-Informationen, die zur Verwendung der {{site.data.keyword.streaminganalyticsshort}}-Service-REST-API
-benötigt werden. Die VCAP-Informationen umfassen die REST-URL, die Serviceinstanz-ID, die Bindungs-ID und
-die Berechtigungsnachweise für jede {{site.data.keyword.streaminganalyticsshort}}-Service-REST-API.  
+Die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise und die Umgebungsvariable VCAP_SERVICES enthalten die VCAP-Informationen, die zur Verwendung der {{site.data.keyword.streaminganalyticsshort}}-Service-REST-API benötigt werden. Die VCAP-Informationen umfassen die REST-URL, die Serviceinstanz-ID, die Bindungs-ID und die Berechtigungsnachweise für jede {{site.data.keyword.streaminganalyticsshort}}-Service-REST-API.  
 {:shortdesc}
 
 
-Der {{site.data.keyword.streaminganalyticsshort}}-Service zeigt das Verhalten und die Interaktion,
-die für {{site.data.keyword.Bluemix_short}}-Services typisch sind. Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz eingerichtet und an eine {{site.data.keyword.Bluemix_short}}-Anwendung gebunden wird, stehen die Serviceinstanz-VCAP-Informationen der Bluemix-Anwendungsumgebung über die Umgebungsvariable VCAP_SERVICES zur Verfügung. Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz
-ohne Angabe einer {{site.data.keyword.Bluemix_short}}-Anwendung eingerichtet wird,
-an die die Instanz gebunden werden kann, werden die Serviceberechtigungsnachweise automatisch erstellt. Der Zugriff auf die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise
-ist über das Service-Dashboard möglich.
+Der {{site.data.keyword.streaminganalyticsshort}}-Service zeigt das Verhalten und die Interaktion, die für {{site.data.keyword.Bluemix_short}}-Services typisch sind. Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz eingerichtet und an eine Anwendung in {{site.data.keyword.Bluemix_short}} gebunden wird, stehen die Serviceinstanz-VCAP-Informationen der Bluemix-Anwendungsumgebung über die Umgebungsvariable VCAP_SERVICES zur Verfügung. Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz ohne Angabe einer Anwendung in {{site.data.keyword.Bluemix_short}} eingerichtet wird, an die die Instanz gebunden werden kann, werden die Serviceberechtigungsnachweise automatisch erstellt. Der Zugriff auf die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise ist über das Service-Dashboard möglich.
 
 
-Das folgende Beispiel zeigt die Informationen, die in den
-{{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweisen und
-in der Umgebungsvariable VCAP_SERVICES enthalten sind:
+Das folgende Beispiel zeigt die Informationen, die in den {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweisen und in der Umgebungsvariable VCAP_SERVICES enthalten sind:
 
 <pre><code>
 {

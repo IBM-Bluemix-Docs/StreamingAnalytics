@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,14 +13,15 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#使用 {{site.data.keyword.streaminganalyticsshort}} 入门模板应用程序
+# 使用 Streaming Analytics 入门模板应用程序
 {: #starterapps}
 
 部署并修改入门模板应用程序，并快速了解如何使用 {{site.data.keyword.streaminganalyticsshort}} 服务：
 {:shortdesc}
 
 <table summary="此表在第一行描述“股票交易”入门模板应用程序。该表在第二行包含：
-1. 在第一列中，如何部署“股票交易”入门模板应用程序的视频链接。2. 在第二列中，直接下载“股票交易”入门模板应用程序的链接。">
+1. 在第一列中，如何部署“股票交易”入门模板应用程序的视频链接。2. 在第二列中，直接下载“股票交易”入门模板应用程序的链接。
+ ">
   <tr>
     <th colspan="3">股票交易样本应用程序<br></th>
   </tr>
@@ -47,13 +48,15 @@ lastupdated: "2017-04-13"
   <tr>
     <td colspan="3">“事件检测”应用程序通过 <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}}</a> 运行时实现。
 该应用程序提供一个简单的 Web UI，以显示分析的状态和结果。
-Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。该应用程序通过 {{site.data.keyword.streaminganalyticsshort}} REST API 控制该服务。<p>您可以运行入门模板应用程序，而不进行修改。如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。</p>
+Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。该应用程序通过 {{site.data.keyword.streaminganalyticsshort}} REST API 控制该服务。
+<p>您可以运行入门模板应用程序，而不进行修改。
+如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。</p>
 </td>
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">部署应用程序</a><br></td>
     <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">教程</a></td>
-    <td><a href="https://hub.jazz.net/git/streamscloud/EventDetection/" target="_blank">下载</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">下载</a></td>
   </tr>
 </table>
 
@@ -65,15 +68,66 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
     <th colspan="3">NYC 交通样本应用程序<br></th>
   </tr>
   <tr>
-    <td colspan="3">“NYC 交通”入门模板应用程序是用 Liberty
-for Java 编写的 {{site.data.keyword.Bluemix_short}} 应用程序。它包含 {{site.data.keyword.streamsshort}} 应用程序，可从纽约城交通传感器检索公共数据、计算聚集统计信息，并将结果发送回 Liberty 应用程序。<p>您可以运行入门模板应用程序，而不进行修改。如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。</p>
+    <td colspan="3">“NYC 交通”入门模板应用程序是用 Liberty for Java 针对 {{site.data.keyword.Bluemix_short}} 编写的应用程序。它包含 {{site.data.keyword.streamsshort}} 应用程序，可从纽约城交通传感器检索公共数据、计算聚集统计信息，并将结果发送回 Liberty 应用程序。
+<p>您可以运行入门模板应用程序，而不进行修改。如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。</p>
 </td>
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">部署应用程序</a><br></td>
     <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">教程</a></td>
-    <td><a href="https://hub.jazz.net/git/streamscloud/NYCTraffic/" target="_blank">下载</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">下载</a></td>
   </tr>
 </table>
 
 *表 3. NYC 交通样本应用程序*
+
+## IBM Streams Runner for Apache Beam 样本应用程序
+
+<table summary="此表第一行描述 TemperatureSample Beam 应用程序，第二行包含指向如何部署 TemperatureSample Beam 应用程序的教程的链接。
+ ">
+  <tr>
+    <th colspan="3">`TemperatureSample` Beam 应用程序<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">此应用程序用于从多个设备获取温度读数。此应用程序基于特定的阈值，将读数划分为“良好”（有效）和“不良”（无效）读数。它会统计不良读数的计数，并为良好读数生成一些基本的统计信息，最后记录结果。可以从 Streaming Analytics 控制台下载 TemperatureSample 应用程序。
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">部署应用程序</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">查看应用程序</a></td>
+  </tr>
+</table>
+
+*表 4. TemperatureSample 应用程序*
+
+<table summary="此表第一行描述 WordCount Beam 示例应用程序，第二行包含指向如何部署 WordCount 示例应用程序的教程的链接。
+ ">
+  <tr>
+    <th colspan="3">WordCount 样本应用程序<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">Apache Beam 2.0 Java SDK 快速入门 WordCount 样本应用程序用于创建可复用且可维护的管道，管道可以从文本文件中读取数据，应用转换以对字进行标记化和计数，然后将数据写入输出文本文件。
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">部署应用程序</a><br></td>
+  </tr>
+</table>
+
+*表 5. `WordCount` 样本应用程序*
+
+<table summary="此表第一行描述 `FileStreamSample` 样本应用程序，第二行包含指向如何部署 `FileStreamSample` 应用程序的教程的链接。
+ ">
+  <tr>
+    <th colspan="3">FileStreamSample 应用程序<br></th>
+  </tr>
+  <tr>
+    <td colspan="3">可以使用 IBM® Streams Runner for Apache Beam FileStreamSample 样本应用程序来了解如何将 {{site.data.keyword.Bluemix_notm}} 对象存储器用于文件输入和输出。
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">部署应用程序</a><br></td>
+  </tr>
+</table>
+
+*表 6. `FileStreamSample` 应用程序*

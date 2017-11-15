@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.Bluemix_short}} への {{site.data.keyword.streamsshort}} アプリケーションのデプロイ
+# {{site.data.keyword.Bluemix_notm}} への Streams アプリケーションのデプロイ
 {: #c_getting_app_bluemix}
 
 
@@ -41,6 +41,7 @@ lastupdated: "2017-04-13"
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics の概説</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Streaming Analytics 用の Python アプリケーションの開発</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Streaming Analytics 用の Beam アプリケーションの開発 (Developing Beam applications for Streaming Analytics)</a><br></li>
       </ul>    
     </td>
   </tr>

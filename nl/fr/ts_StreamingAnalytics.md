@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,38 +16,38 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} - Fehlerbehebung
+# Traitement des incidents dans Streaming Analytics
 {: #ts_StreamingAnalytics}
 
-Hier finden Sie Antworten auf häufig gestellte Fragen zur Verwendung von {{site.data.keyword.streaminganalyticsshort}} unter {{site.data.keyword.Bluemix_short}}.
+Vous pouvez trouver des réponses aux questions courantes sur la façon d'utiliser {{site.data.keyword.streaminganalyticsshort}} sur {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-##Wenn ich den Service starte, werde ich zur Eingabe von Berechtigungsnachweisen aufgefordert, um mich an der Konsole anmelden zu können.
+## Quand je lance le service, il m'est demandé d'entrer des données d'identification pour me connecter à la console
 {: #log_in_console}
 
-Wenn Sie {{site.data.keyword.streaminganalyticsshort}} starten, werden Sie aufgefordert, Berechtigungsnachweise für die Anmeldung an der Servicekonsole einzugeben.
+Lorsque vous lancez {{site.data.keyword.streaminganalyticsshort}}, vous êtes invité à indiquer vos donnée d'identification pour la connexion à la console de service.
 {:shortdesc}
 
-Sie starten einen {{site.data.keyword.streaminganalyticsshort}}-Service, den Sie zuvor erstellt haben, und anstatt direkt Zugriff auf die Servicekonsole zu erhalten, wird eine Anmeldeseite angezeigt, auf der Sie zur Eingabe der Berechtigungsnachweise aufgefordert werden.
+Vous lancez un service {{site.data.keyword.streaminganalyticsshort}} que vous aviez créé précédemment, mais à la place d'un accès direct à la console de service, une page de connexion s'afficher, dans laquelle des données d'identification vous sont demandées.
 {: tsSymptoms}
 
-Die Serviceinfrastruktur wurde aktualisiert und Ihr Browser-Cache verhindert, dass der Service die Aktualisierung aufgreift.
+L'infrastructure de service a été mise à jour et le cache de votre navigateur empêche le service de récupérer la mise à jour.
 {: tsCauses}
 
-Löschen Sie Ihren Browser-Cache, um sicherzustellen, dass Sie die aktuelle Version der Servicekonsole erhalten.
+Effacez le cache de votre navigateur pour être sûr d'obtenir la dernière version de la console de service.
 {: tsResolve}
 
-##Meine Anwendung weist einen nicht einwandfreien Zustand auf
+## Mon application est défaillante
 {: #app_unhealthy}
 
-Sie können Ihre Anwendung nicht korrekt ausführen und der Allgemeinzustand ist `nicht einwandfrei`.
+Vous ne pouvez exécuter correctement votre application si son état de santé est `défaillant`.
 {:shortdesc}
 
-Sie übergeben eine Anwendung an die Serviceinstanz, die Anwendung startet, schlägt dann aber sofort fehl und der Allgemeinzustand ist `nicht einwandfrei`. Der folgende Fehler ist in der Protokolldatei dokumentiert: `/lib64/libc.so.6: Version GLIBC_2.14 nicht gefunden`.
+Vous soumettez une application à l'instance de service, l'application démarre puis échoue immédiatement après, avec un état de santé à `défaillant`. L'erreur suivante apparaît dans le fichier journal : `/lib64/libc.so.6: version GLIBC_2.14 not found`.
 {: tsSymptoms}
 
-Sie haben die Anwendung nicht mithilfe eines RHEL 6.5-Betriebssystems oder einer entsprechenden CentOS-Version kompiliert.
+Vous n'avez pas compilé l'application en utilisant le système d'exploitation RHEL 6.5 ou une version CentOS équivalente.
 {: tsCauses}
 
-Sie müssen Ihre Anwendung unter einem Red Hat Enterprise Linux (RHEL) 6.5-Betriebssystem oder einer entsprechenden CentOS-Version mit Intel-Prozessoren erneut kompilieren. Übergeben Sie Ihre Anwendung erneut an die Serviceinstanz.
+Vous devez recompiler votre application sous Red Hat Enterprise Linux (RHEL) 6.5 ou une version CentOS équivalente, utilisant des processeurs Intel. Soumettez à nouveau votre application à votre instance de service.
 {: tsResolve}

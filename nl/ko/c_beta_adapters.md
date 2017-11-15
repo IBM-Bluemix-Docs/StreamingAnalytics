@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#호환 가능 툴킷 연산자
+# 호환 가능 툴킷 연산자
 {: #c_beta_adapters}
 
 SPL({{site.data.keyword.streamsshort}} Processing Language) 표준 툴킷의 {{site.data.keyword.streamsshort}} 연산자는 모두 {{site.data.keyword.streaminganalyticsshort}}와 호환 가능해야 합니다.

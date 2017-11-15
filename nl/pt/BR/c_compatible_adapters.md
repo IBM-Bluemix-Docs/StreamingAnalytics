@@ -12,7 +12,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Adaptadores compatíveis
+# Adaptadores compatíveis
 {: #c_compatible_adapters}
 
 
@@ -20,7 +20,7 @@ Um kit de ferramentas é um conjunto de artefatos organizados em um pacote. Os k
 as funções e os operadores primitivos ou composto reutilizáveis em diferentes aplicativos.
 {:shortdesc}
 
-##Kit de ferramentas de Internet
+## Kit de ferramentas de Internet
 {: #internet notoc}
 
 O Internet Toolkit (com.ibm.streamsx.inet) fornece suporte para protocolos da Internet comuns. Esse kit de ferramentas está integrado ao {{site.data.keyword.streamsshort}} e está disponível em seu ambiente
@@ -53,7 +53,7 @@ Toolkit](http://ibmstreams.github.io/streamsx.inet/com.ibm.streamsx.inet/doc/spl
 operadores adicionais, por meio do [IBMStreams on GitHub](https://github.com/IBMStreams){:new_window}. Após você fazer download do kit de
 ferramentas, compile-o (se necessário) e instale-o em seu ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}.
 
-##IoT Integration Toolkit
+## IoT Integration Toolkit
 {: #iot notoc}
 
 O IoT Integration Toolkit (com.ibm.streamsx.iot) fornece conectividade com o {{site.data.keyword.iot_full}}. Os
@@ -69,7 +69,7 @@ A tabela a seguir lista os operadores fornecidos pelo IoT Integration Toolkit.
 | `CommandPublish`		 	     |	`PublishDeviceCommands`		 |
 | `CommandTupleToPayload`	   | 	`PublishDeviceEvents`	 	   |
 | `CommandsSubscribe`	 	     | 	`PublishDeviceStatuses`		 |
-| `DeviceCommands`	 	 	     |  `Iniciação rápida`				       |
+| `DeviceCommands`	 	 	     |  `Quickstart`				       |
 | `DeviceEventExtractData`	 |  `QuickstartDeviceEvents`	 |
 | `DeviceEvents`			       |  `SendCommandToDevice`		   |
 | `DeviceStatuses`		 	     |  `StatusesSubscribe`			   |
@@ -82,7 +82,7 @@ Para obter mais informações sobre os operadores compatíveis do Kit de ferrame
 [Operadores: kit de ferramentas
 com.ibm.streamsx.iot](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.iot/ix$Operator.html?lang=en){:new_window} na documentação do produto {{site.data.keyword.streamsshort}}.
 
-##Kit de Ferramentas de Sistema de Mensagens
+## Kit de Ferramentas de Sistema de Mensagens
 {: #messaging notoc}
 
 O projeto do Messaging Toolkit (com.ibm.streamsx.messaging) é um projeto de kit de ferramentas do {{site.data.keyword.streamsshort}} de software livre. Ele
@@ -97,7 +97,7 @@ A tabela a seguir lista os operadores fornecidos pelo Messaging Toolkit.
 
 | ***Operadores compatíveis*** 		    | 						       |
 | ---------------------------------	| ------------------ |
-| `JMSSink com Apache ActiveMQ`   	|	`MQTTSource`  	   | 	 	 	
+| `JMSSink with Apache ActiveMQ`   	|	`MQTTSource`  	   | 	 	 	
 | `JMSSource`		 	 			            |	`RabbitMQSink`		 |
 | `KafkaConsumer`	 				          | `RabbitMQSource`	 |
 | `KafkaProducer`	 	 			          | `XMSSource`	       |

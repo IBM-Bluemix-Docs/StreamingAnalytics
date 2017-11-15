@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,60 +13,63 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Produktinformationen
+# A propos de Streaming Analytics
 {: #about}
 
-Sie können eine Echtzeitanalyse bewegter Daten im Rahmen Ihrer {{site.data.keyword.Bluemix_short}}-Anwendungen unter Verwendung von {{site.data.keyword.streaminganalyticsfull}} ausführen.
+Vous pouvez effectuer une analyse en temps réel sur des données en mouvement dans le cadre de vos applications {{site.data.keyword.Bluemix_short}} en utilisant {{site.data.keyword.streaminganalyticsfull}}.
 {:shortdesc}
 
-Sie kennen {{site.data.keyword.streaminganalyticsshort}} noch nicht? Hier finden Sie eine [kurze Einführung in den Service](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
+Vous utilisez {{site.data.keyword.streaminganalyticsshort}} pour la première fois ? Découvrez une [rapide introduction au service](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
 
-Der {{site.data.keyword.streaminganalyticsshort}}-Service bietet die folgenden Funktionen, mit denen Sie Ihre Daten in der Cloud bereitstellen, analysieren und überwachen können:
+Le service {{site.data.keyword.streaminganalyticsshort}} fournit les fonctionnalités ci-après permettant de déployer, d'analyser et de surveiller vos données sur le cloud :
 
-**Interaktive und programmgesteuerte Verwendung des Service:**
+**Utilisation interactive et par programme du service :**
 
-Sie können den Service interaktiv über die [{{site.data.keyword.streaminganalyticsshort}}-Konsole](/docs/services/StreamingAnalytics/c_streams_console.html) oder programmgesteuert über die [{{site.data.keyword.streaminganalyticsshort}}-REST-API](https://console.ng.bluemix.net/apidocs/220){:new_window} verwenden.
+Vous pouvez utiliser interactivement le service via la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html), ou bien par programme via l'[API REST {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220){:new_window}.
 
-**Bereitstellung und Überwachung von SPL-, Java-, Scala- und Python-Anwendungen:**
+**Déploiement et surveillance des applications SPL, Java, Scala et Python :**
 
-Sie können {{site.data.keyword.streamsshort}}-Anwendungen in SPL, Java, Scala und Python schreiben. Mithilfe der {{site.data.keyword.streaminganalyticsshort}}-Konsole können Sie [diese Anwendungen bereitstellen und überwachen.](/docs/services/StreamingAnalytics/t_deploytocloud.html)
+Vous pouvez écrire des applications {{site.data.keyword.streamsshort}} en SPL, Java, Scala et Python. [Déployez et surveillez ces applications](/docs/services/StreamingAnalytics/t_deploytocloud.html) en utilisant la console {{site.data.keyword.streaminganalyticsshort}}.
 
-Wenn Sie Ihre Anwendungen in SPL schreiben möchten, sollten Sie wissen, dass {{site.data.keyword.streamsfull}} Processing Language (SPL) eine Programmiersprache ist, die zum Erstellen von Streamverarbeitungsanwendungen verwendet wird. Wenn Sie Ihre eigenen SPL-Anwendungen noch weitergehend einsetzen wollen, können Sie eine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung einrichten und Sie müssen Ihre SPL-Apps für die Cloud vorbereiten.
+Si vous voulez écrire vos applications en SPL, vous devez savoir qu'{{site.data.keyword.streamsfull}} Processing Language (SPL) est un langage de programmation utilisé pour créer des applications de traitement de flux. Si vous voulez aller plus loin avec vos propres applications SPL, vous pouvez obtenir un environnement de développement {{site.data.keyword.streamsshort}} et vous devez faire en sorte que vos applications SPL soient prêtes pour le cloud.
 
-Um Python-Anwendungen ohne eine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung zu erstellen und bereitzustellen, verwenden Sie unsere Notebooks in IBM Data Science Experience (DSX) oder die {{site.data.keyword.streamsshort}}-Python-API. Weitere Informationen finden Sie im Abschnitt [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
+Pour créer et déployer des applications Python sans environnement de développement {{site.data.keyword.streamsshort}}, utilisez vos fichiers notebook IBM DSX (Data Science Experience) ou l'API Python {{site.data.keyword.streamsshort}}. Pour plus d'informations, voir [Développement d'applications Python pour {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
-**Kompatibilität mit {{site.data.keyword.streamsshort}}-Operatoren:**
+Vous pouvez développer des applications Beam avec Streams Runner dans votre environnement de développement local et ensuite les déployer et les surveiller à l'aide du service {{site.data.keyword.streaminganalyticsshort}}. Pour plus d'informations sur les applications Beam et Streams Runner, voir [Surveiller des applications Beam avec Streams Runner dans Streaming Analytics](docs/services/StreamingAnalytics/gs_beamrunner.html).
 
-Alle {{site.data.keyword.streamsshort}}-Operatoren im SPL-Standardtoolkit ([{{site.data.keyword.streamsshort}} Processing Language) müssen mit {{site.data.keyword.streaminganalyticsshort}} kompatibel sein](/docs/services/StreamingAnalytics/c_beta_adapters.html).
 
-## {{site.data.keyword.streaminganalyticsfull}} - Zuständigkeiten
+**Compatibilité avec les opérateurs {{site.data.keyword.streamsshort}} :**
+
+Les opérateurs {{site.data.keyword.streamsshort}} du kit d'outils standard [{{site.data.keyword.streamsshort}} Processing Language (SPL) doivent tous être compatibles](/docs/services/StreamingAnalytics/c_beta_adapters.html) avec {{site.data.keyword.streaminganalyticsshort}}.
+
+## Responsabilités Streaming Analytics
 {: #responsibilities notoc}
 
-### Zuständigkeiten des Kunden
+### Responsabilités du client
 {: #clientresponsibilities notoc}
 
-Der Kunde ist für Folgendes zuständig:
+Le client est responsable des actions suivantes :
 
-* Für das Überwachen, Konfigurieren und Verwalten der in seiner Instanz aktiven {{site.data.keyword.streamsshort}}-Jobs nach der Erstkonfiguration von {{site.data.keyword.streamsshort}} durch IBM. Der Kunde ist im Hinblick auf das Starten und Stoppen der Instanz und der unter den Instanzen ausgeführten Jobs flexibel.
-* Für das erforderliche oder für den eigenen Bedarf notwendige Entwickeln von Programmen und Anwendungen für den Service zur Analyse von Daten sowie zur Erkenntnisgewinnung im Hinblick auf diese Analyse. Der Kunde ist zudem für Qualität und Leistung dieser so entwickelten Programme oder Anwendungen verantwortlich. Programme können in SPL, Java oder anderen Sprachen entwickelt werden, und zwar mithilfe des {{site.data.keyword.streamsshort}} Topology-Features. Sie müssen entweder mit {{site.data.keyword.streamsshort}} Developer Edition oder mit {{site.data.keyword.streamsshort}} Quick Start Edition kompiliert werden, und zwar unter Verwendung des Betriebssystems, das auch für {{site.data.keyword.streaminganalyticsshort}} verwendet wird.
-* Für das regelmäßige Prüfen des folgenden Links für den Abruf von Informationen zu einer geplanten, unterbrechungsfreien Ausfallzeit oder einer Ausfallzeit mit Unterbrechung: [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}.  
-* Für das Sichern aller Daten, Metadaten, Konfigurationsdateien und Umgebungsparameter gemäß der Geschäftsanforderungen zur Garantie der Kontinuität.
-* Für das Wiederherstellen von Daten, Metadaten, Konfigurationsdateien und Umgebungsparametern aus einem Backup zur Garantie der Kontinuität, falls es zu einem Ausfall eines beliebigen Typs kommt, einschließlich eines Ausfalls des Rechenzentrums oder eines Podausfalls, eines Server-, Festplatten- oder Softwareausfalls.
+* Suivi de la configuration IBM initiale d'{{site.data.keyword.streamsshort}}, surveillance, configuration et gestion des travaux {{site.data.keyword.streamsshort}} s'exécutant dans son instance. Le client peut démarrer et arrêter l'instance et démarrer et arrêter les travaux s'exécutant sur cette instance.
+* Développement, si nécessaire ou obligatoire, de programmes et d'applications sur le service pour analyser les données et en tirer des renseignements utiles. Le client est aussi responsable de la qualité et des performances des programmes et applications ainsi développés. Les programmes peuvent être développés en SPL, Java ou d'autres langages pris en charge, via la fonction {{site.data.keyword.streamsshort}} Topology. Ils doivent être compilés en se servant d'{{site.data.keyword.streamsshort}} Developer Edition ou de {{site.data.keyword.streamsshort}} Quick Start Edition, avec le même système d'exploitation que celui utilisé pour {{site.data.keyword.streaminganalyticsshort}}.
+* Vérification périodique du lien suivant, pour être informé d'une période d'indisponibilité planifiée, avec ou sans interruption - [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}  
+* Sauvegarde de toutes les données, métadonnées, fichiers de configuration et paramètres d'environnement, en fonction des exigences de l'environnement, afin d'assurer une continuité.
+* Restauration des données, métadonnées, fichiers de configuration et paramètres d'environnement depuis une sauvegarde, afin d'assurer une continuité, dans l'éventualité d'un incident, quel qu'en soit son type, survenant dans un centre de données, un pod, un serveur, un disque dur ou un logiciel, par exemple.
 
-### Zuständigkeiten von IBM
+### Responsabilités d'IBM
 {: #ibmresponsibilities notoc}
 
-Im Rahmen von {{site.data.keyword.streaminganalyticsfull}} ist IBM für Folgendes zuständig:
+Dans le cadre d'{{site.data.keyword.streaminganalyticsfull}}, IBM est responsable des actions suivantes :
 
-* Für das Bereitstellen und Verwalten von Servern, Speicher und Netzinfrastruktur für die Kundeninstanz.
-* Für das Bereitstellen einer Erstkonfiguration von {{site.data.keyword.streamsshort}} auf Basis der Anzahl der ausgewählten Knoten.
-* Für das Bereitstellen und Verwalten einer Infrastruktur für Internet-Facing und einer internen Firewall zum Schutz und als Isolation.
-* Für das Überwachen und Verwalten der folgenden Komponenten in {{site.data.keyword.streaminganalyticsfull}}:
-	* Netzkomponenten
-	* Server und deren lokaler Speicher
-	* Infrastrukturbetriebssysteme
-	* {{site.data.keyword.streamsshort}}-Management-Services
-	* {{site.data.keyword.streamsshort}}-Instanzen
-* Für das Bereitstellen von Wartungspatches einschließlich der entsprechenden Sicherheitspatches für die Infrastrukturbetriebssysteme und für {{site.data.keyword.streamsshort}}.
-* Für das Durchführen einer regelmäßigen Wartung, für die es zu keiner Systemausfallzeit (unterbrechungsfreie Wartung) kommen sollte, sowie einer Wartung, für die es zu einer Systemausfallzeit samt Systemneustart (Wartung mit Unterbrechung) kommen kann; diese werden zu geplanten Zeiten durchgeführt, die unter [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window} veröffentlicht werden.
-* Alle Änderungen an den geplanten Wartungszeiten werden durch entsprechende Benachrichtigungen bekanntgemacht.
+* Fournir et gérer une infrastructure de serveurs, de stockage et de mise en réseau pour l'instance client.
+* Fournir une configuration initiale d'{{site.data.keyword.streamsshort}} sur le nombre de noeuds sélectionnés.
+* Fournir et gérer une infrastructure pour Internet et un pare-feu interne pour la protection et l'isolation.
+* Surveiller et gérer les composants ci-après sur {{site.data.keyword.streaminganalyticsfull}} :
+	* Composants réseau
+	* Serveurs et espace de stockage local associé
+	* Systèmes d'exploitation des infrastructures
+	* Services de gestion {{site.data.keyword.streamsshort}}
+	* Instances {{site.data.keyword.streamsshort}}
+* Fournir des correctifs de maintenance, incluant les correctifs de sécurité appropriés pour les systèmes d'exploitation des infrastructures et {{site.data.keyword.streamsshort}}.
+* Effectuer d'une part, une maintenance régulière ne devant provoquer aucune période d'indisponibilité du système (maintenance “sans interruption”) et d'autre part, une maintenance pouvant générer une période d'indisponibilité du système ainsi qu'un redémarrage (maintenance “avec interruption”), à des dates précises, planifiées et publiées sur [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}
+* Tout changement dans les dates et heures de la maintenance planifiée sera publié, avec un avis préalable approprié.

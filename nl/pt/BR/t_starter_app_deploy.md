@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,11 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Implementando os aplicativos iniciadores no {{site.data.keyword.Bluemix_short}}
+# Implementando os aplicativos iniciadores no {{site.data.keyword.Bluemix_notm}}
 {: #starterapps_deploy}
 
-É possível enviar por push e implementar um dos aplicativos iniciadores do {{site.data.keyword.streaminganalyticsshort}} na nuvem do
-{{site.data.keyword.Bluemix_short}}.
+É possível enviar por push e implementar um dos aplicativos iniciadores {{site.data.keyword.streaminganalyticsshort}} no {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 Antes de iniciar, apronte o {{site.data.keyword.Bluemix_short}} para implementar os aplicativos iniciadores do
@@ -41,7 +40,8 @@ O aplicativo iniciador NYC Traffic lê e analisa dados de tráfego de um website
 
 Para fazer download e implementar o aplicativo iniciador no {{site.data.keyword.Bluemix_short}}:
 
-1. Faça download do aplicativo iniciador [Event Detection](https://hub.jazz.net/project/streamscloud/EventDetection/overview) ou [NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview).
+1. Faça download do aplicativo iniciador [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) ou [NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic). Se você deseja usar os aplicativos de amostra Beam, é possível fazer download desses aplicativos no console.
+
 2. Na linha de comandos, acesse o diretório de projeto.
   <pre><code>cd myapp</code></pre>
   {:pre}

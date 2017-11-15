@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}} entwickeln
+# Python-Anwendungen in Streaming Analytics entwickeln
 {: #t_develop_apps_python}
 
 Sie können jetzt Python-Anwendungen in IBM Data Science Experience (DSX) oder in Ihrer lokalen Python-Entwicklungsumgebung entwickeln und diese Anwendungen in {{site.data.keyword.streaminganalyticsshort}} bereitstellen.
 {:shortdesc}
 
-Entwickeln Sie Python-Anwendungen und stellen Sie sie in der {{site.data.keyword.Bluemix_short}}-Cloud bereit, indem Sie den {{site.data.keyword.streaminganalyticsshort}}-Service verwenden. Verwenden Sie dazu eine der folgenden Methoden:
+Entwickeln Sie Python-Anwendungen und stellen Sie sie in {{site.data.keyword.Bluemix_short}} bereit, indem Sie den {{site.data.keyword.streaminganalyticsshort}}-Service verwenden. Verwenden Sie dazu eine der folgenden Methoden:
 
 
 ## Streams-Python-Anwendungen in DSX entwickeln
@@ -39,3 +39,5 @@ Wenn Sie nicht über eine Python-Entwicklungsumgebung verfügen, besteht der ein
  Mit der [{{site.data.keyword.streamsshort}}-Python-Anwendungs-API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), die im 'streamsx'-Paket enthalten ist, können Sie Streamverarbeitungsanwendungen mithilfe von aufrufbaren Python-Klassen und -Funktionen erstellen. Dann verwenden Sie die Python-Anwendungs-API, um die Anwendung zu definieren und an den Service zu übergeben.
 
 Führen Sie zuerst die Schritte im Lernprogramm [Entwicklung für den {{site.data.keyword.streaminganalyticsshort}}-Service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) aus, um eine Beispielanwendung in der lokalen Python-Umgebung zu erstellen und diese im {{site.data.keyword.streaminganalyticsshort}}-Service bereitzustellen.
+
+Für einen genaueren Einblick in die [{{site.data.keyword.streamsshort}}-Python-Anwendungs-API führen Sie diesen Onlinekurs durch und machen Sie sich mit den [{{site.data.keyword.streaminganalyticsshort}}-Grundlagen für Python-Entwickler](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window} vertraut.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -23,10 +23,7 @@ serviço, o ID de ligação e as credenciais de cada API REST do serviço {{site
 
 
 O serviço {{site.data.keyword.streaminganalyticsshort}} segue o comportamento e a interação de serviço típicos do
-{{site.data.keyword.Bluemix_short}}. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} for
-provisionada e ligada a um aplicativo {{site.data.keyword.Bluemix_short}}, as informações de VCAP da instância de serviço ficarão disponíveis para o ambiente de
-aplicativo do Bluemix por meio da variável de ambiente VCAP_SERVICES. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} for
-provisionada sem especificar um aplicativo {{site.data.keyword.Bluemix_short}} ao qual ligar, as credenciais de serviço serão criadas automaticamente. As
+{{site.data.keyword.Bluemix_short}}. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada e ligada a um aplicativo no {{site.data.keyword.Bluemix_notm}}, as informações de VCAP da instância de serviço estão disponíveis para o ambiente de aplicativo do Bluemix por meio da variável de ambiente VCAP_SERVICES. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada sem especificar um aplicativo no {{site.data.keyword.Bluemix_notm}} para o qual ligar, as credenciais de serviço são criadas automaticamente. As
 credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} podem ser acessadas por meio do painel de serviços.
 
 

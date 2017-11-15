@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 在 {{site.data.keyword.Bluemix_short}} 上部署入门模板应用程序
+# 在 {{site.data.keyword.Bluemix_notm}} 上部署入门模板应用程序
 {: #starterapps_deploy}
 
-您可以将其中一个 {{site.data.keyword.streaminganalyticsshort}} 入门模板应用程序推送并部署到 {{site.data.keyword.Bluemix_short}} 云。
+您可以将其中一个 {{site.data.keyword.streaminganalyticsshort}} 入门模板应用程序推送并部署到 {{site.data.keyword.Bluemix_short}}。
 {:shortdesc}
 
 开始之前，请先使得 {{site.data.keyword.Bluemix_short}} 准备好可以部署 {{site.data.keyword.streaminganalyticsshort}} 入门模板应用程序：
@@ -40,7 +40,8 @@ lastupdated: "2017-04-13"
 
 要将入门模板应用程序下载并部署到 {{site.data.keyword.Bluemix_short}}：
 
-1. 下载[事件检测](https://hub.jazz.net/project/streamscloud/EventDetection/overview)或 [NYC 交通](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview)入门模板应用程序。
+1. 下载[事件检测](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection)或 [NYC 交通](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic)入门模板应用程序。如果要使用 Beam 样本应用程序，可以从控制台下载这些应用程序。
+
 2. 在命令行上，转至项目目录。
   <pre><code>cd myapp</code></pre>
   {:pre}

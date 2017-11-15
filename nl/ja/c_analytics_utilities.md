@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#互換性のある分析およびユーティリティー
+# 互換性のある分析およびユーティリティー
 {: #c_analytics_utilities}
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-04-13"
 以下の分析ツールキットおよびユーティリティーは、{{site.data.keyword.streaminganalyticsshort}} と互換性があります。
 {:shortdesc}
 
-##SPSS Analytics Toolkit
+## SPSS Analytics Toolkit
 {: #spss notoc}
 
 SPSS Analytics Toolkit には、SPSS Modeler 製品および SPSS Collaboration and Deployment Services 製品と統合して {{site.data.keyword.streamsshort}} アプリケーションに SPSS Modeler 予測分析のさまざまな側面を実装する、{{site.data.keyword.streamsshort}} 演算子が含まれています。
@@ -41,7 +41,7 @@ Service](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-ana
 *表 1. SPSS Analytics Toolkit との互換性のあるオペレーター*
 
 
-##Complex Event Processing Toolkit
+## Complex Event Processing Toolkit
 {: #cep notoc}
 
 Complex Event Processing Toolkit (com.ibm.streams.cep) は、複合イベント処理を実行する MatchRegex オペレーターを提供します。
@@ -51,7 +51,7 @@ Complex Event Processing Toolkit (com.ibm.streams.cep) は、複合イベント�
 
 Complex Event Processing (CEP) では、パターンを使用して、ストリーム・タプル内の複合イベントを検出します。例えば、CEP を使用して、株価のパターン、運輸アプリケーションのルーティング・パターン、あるいは Web Commerce 設定でのユーザー行動パターンを検出できます。
 
-##TimeSeries Toolkit
+## TimeSeries Toolkit
 {: #timeseries notoc}
 
 TimeSeries Toolkit (com.ibm.streams.timeseries) のオペレーターおよび関数は、時系列データの条件付け、分析、およびモデル化を行います。
@@ -87,7 +87,7 @@ TimeSeries Toolkit 互換のオペレーターの詳細なリストについて�
 [Restrictions
 for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window} を参照してください。
 
-##Geospatial Toolkit
+## Geospatial Toolkit
 {: #geospatial notoc}
 
 Geospatial Toolkit (com.ibm.streams.geospatial) には、位置データの処理および索引付けを効率的に行えるようにするオペレーターと関数が含まれています。例えば、全地球測位システム (GPS) の位置データを使用して、対象の地域内または周辺の存在物の動きを追跡したり、地球上のさまざまな地物の空間的な関係を計算したりできます。
@@ -109,7 +109,7 @@ Geospatial Toolkit (com.ibm.streams.geospatial) には、位置データの処�
 {{site.data.keyword.streamsshort}} 製品資料の[
 Operators: com.ibm.streams.geospatial](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.geospatial/ix$Operator.html?lang=en){:new_window} を参照してください。
 
-##HDFS for {{site.data.keyword.Bluemix_short}} Toolkit
+## HDFS for {{site.data.keyword.Bluemix_short}} Toolkit
 {: #hdfs notoc}
 
 HDFS for {{site.data.keyword.Bluemix_short}} Toolkit (com.ibm.streamsx.hdfs.bluemix) は、IBM BigInsights for Apache Hadoop for {{site.data.keyword.Bluemix_short}} に接続するためのサポートを追加する、HDFS Toolkit の特別バージョンです。
@@ -128,7 +128,7 @@ HDFS for {{site.data.keyword.Bluemix_short}} Toolkit (com.ibm.streamsx.hdfs.blue
 このツールキットの使用法について詳しくは、 [Get started with {{site.data.keyword.streaminganalyticsshort}} and BigInsights on {{site.data.keyword.Bluemix_short}} using
 HDFS](https://developer.ibm.com/bluemix/2016/02/26/streaming-analytics-and-biginsights-using-hdfs/){:new_window} を参照してください。
 
-##JSON Toolkit
+## JSON Toolkit
 {: #json notoc}
 
 JSON Toolkit (com.ibm.streamsx.json) は、SPL に対する JSON サポート、および SPL 値と JSON オブジェクト間の標準変換を提供します。
@@ -147,14 +147,14 @@ JSON Toolkit (com.ibm.streamsx.json) は、SPL に対する JSON サポート、
 詳細については、
 {{site.data.keyword.streamsshort}} 製品資料の [com.ibm.streamsx.json](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.json/tk$com.ibm.streamsx.json.html){:new_window} を参照してください。
 
-##JDBC Toolkit
+## JDBC Toolkit
 {: #jdbc notoc}
 
 JDBC Toolkit (com.ibm.streams.jdbc) により、{{site.data.keyword.streaminganalyticsshort}} は、追加の {{site.data.keyword.Bluemix_short}} データベース・サービス (SQL Database、dashDB など) と通信できるようになります。
 
 ツールキットは、JDBCRun 演算子を組み込みます。詳しくは、『[Using {{site.data.keyword.streaminganalyticsshort}} with JDBC-enabled {{site.data.keyword.Bluemix_short}}](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/){:new_window}』および{{site.data.keyword.streamsshort}} 製品資料内の『[com.ibm.streamsx.jdbc](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.jdbc/tk$com.ibm.streamsx.jdbc.html){:new_window}』を参照してください。
 
-##R-project Toolkit
+## R-project Toolkit
 {: #rproject notoc}
 
 R-project Toolkit (com.ibm.streams.rproject) には RScript オペレーターが含まれています。これを使用して R コマンドを実行し、複雑なデータ・マイニング・アルゴリズムを適用して、データ・ストリーム内の対象パターンを検出できます。
@@ -165,7 +165,7 @@ Operator RScript](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ib
 を参照してください。
 
 
-##Rules コンパイラー
+## Rules コンパイラー
 {: #rulescompiler notoc}
 
 Rules コンパイラー (com.ibm.streams.rulescompiler) ツールキットでは、ODM で作成されたビジネス・ルールの SPL への変換がサポートされます。SPL は、{{site.data.keyword.streamsshort}} アプリケーションで使用できます。
@@ -173,7 +173,7 @@ Rules コンパイラー (com.ibm.streams.rulescompiler) ツールキットで�
 詳細については、 {{site.data.keyword.streamsshort}} 製品資料の
 [Operators: com.ibm.streams.rulescompiler](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.rulescompiler/ix$Operator.html){:new_window} を参照してください。
 
-##Text Toolkit
+## Text Toolkit
 {: #text notoc}
 
 Text Toolkit (com.ibm.streams.text) には、テキスト・データから情報を抽出する `TextExtract` および `SentimentExtractoroperator` が含まれています。
@@ -185,7 +185,7 @@ Text Toolkit (com.ibm.streams.text) には、テキスト・データから情�
 [Restrictions
 for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window} を参照してください。
 
-##Mining Toolkit
+## Mining Toolkit
 {: #mining notoc}
 
 Mining Toolkit (com.ibm.streams.mining) には、モデルを適用してデータ・ストリームのマイニングを行うために使用できるオペレーターが含まれています。データ・ストリームのマイニングによって関連情報 (インテリジェンス) を取り出すことは、ほとんどのストリーム処理アプリケーションにとって非常に重要な作業です。この作業には、不正検出から、顧客のセグメンテーション、チャーンや侵入の防止に至るまで様々なものがあります。
@@ -211,7 +211,7 @@ Operators: com.ibm.streams.mining](http://www.ibm.com/support/knowledgecenter/SS
 [Restrictions
 for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window} を参照してください。
 
-##Telecommunications Event Data Analytics (TEDA) Toolkit
+## Telecommunications Event Data Analytics (TEDA) Toolkit
 {: #teda notoc}
 
 Telecommunications Event Data Analytics (TEDA) Toolkit (com.ibm.streams.teda) は、遠隔通信アプリケーションに使用される一連の汎用オペレーターを提供します。また、新しいファイル間 (file-to-file) アプリケーションをセットアップするための一連のアプリケーション・フレームワークも提供します。これらのアプリケーションはコード・テンプレートに基づいており、カスタマイズ、構成可能な並列処理、アプリケーションの安全なシャットダウン、および信頼性のあるファイル処理をサポートしています。
@@ -235,7 +235,7 @@ Telecommunications Event Data Analytics (TEDA) Toolkit (com.ibm.streams.teda) �
 Operators: com.ibm.streams.teda](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.teda/ix$Operator.html?lang=en){:new_window} を参照してください。
 
 
-##Topology Toolkit
+## Topology Toolkit
 {: #topology notoc}
 
 このトポロジー・ツールキットは、以下のプログラミング言語で {{site.data.keyword.streamsshort}} アプリケーション

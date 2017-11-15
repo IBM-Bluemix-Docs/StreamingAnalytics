@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Operadores compatíveis do kit de ferramentas
+# Operadores compatíveis do kit de ferramentas
 {: #c_beta_adapters}
 
 Os operadores do {{site.data.keyword.streamsshort}} no kit de ferramentas padrão do

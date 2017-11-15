@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 将 {{site.data.keyword.streamsshort}} 应用程序部署到云
+# 将 Streams 应用程序部署到云
 {: #t_deploytocloud}
 
-您可以将 {{site.data.keyword.streamsshort}} 应用程序部署到在 {{site.data.keyword.Bluemix_short}} 云中运行的 {{site.data.keyword.streaminganalyticsshort}} 实例。
+您可以将 {{site.data.keyword.streamsshort}} 应用程序部署到在 {{site.data.keyword.Bluemix_short}} 中运行的 {{site.data.keyword.streaminganalyticsshort}} 实例。
 {:shortdesc}
 
 在 {{site.data.keyword.streamsshort}} 环境中，{{site.data.keyword.streamsshort}} 应用程序是使用 {{site.data.keyword.streamsshort}} Processing Language (SPL)、SPL、Java、Scala 或 Python 编写的。现在您可以在没有 {{site.data.keyword.streamsshort}} 环境的情况下开发 Streams Python 应用程序。请参阅[将 {{site.data.keyword.streamsshort}} Python 应用程序部署到云](docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)
@@ -45,8 +45,7 @@ lastupdated: "2017-04-13"
 
 	* 使用 {{site.data.keyword.streaminganalyticsshort}} 控制台，来提交应用程序捆绑软件。
 
-  * 创建 {{site.data.keyword.Bluemix_short}} 应用程序并向其添加 {{site.data.keyword.streamsshort}} 应用程序。
-使用 {{site.data.keyword.streaminganalyticsshort}} REST API 对其进行控制。
+  * 在 {{site.data.keyword.Bluemix_notm}} 中创建应用程序并向其添加 {{site.data.keyword.streamsshort}} 应用程序。使用 {{site.data.keyword.streaminganalyticsshort}} REST API 对其进行控制。
 
 现在，您的应用程序已在云中部署。您可以使用 {{site.data.keyword.streaminganalyticsshort}} 服务，来监视应用程序。您还可以将多个应用程序（.sab 文件）提交到服务实例。多少个都可以。
 
@@ -55,10 +54,10 @@ lastupdated: "2017-04-13"
 有关 {{site.data.keyword.streamsshort}} 中 Java 支持的更多信息，请参阅[应用程序开发支持的 Java Development Kit](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}。
 
 
-## 将 {{site.data.keyword.streamsshort}} Python 应用程序部署到云
+## 将 Streams Python 应用程序部署到云
 {: #t_deploypython}
 
-将 {{site.data.keyword.streamsshort}} Python 应用程序部署到在 {{site.data.keyword.Bluemix_short}} 云中运行的 {{site.data.keyword.streaminganalyticsshort}} 服务。无需安装 {{site.data.keyword.streamsshort}}。
+将 {{site.data.keyword.streamsshort}} Python 应用程序部署到在 {{site.data.keyword.Bluemix_short}} 中运行的 {{site.data.keyword.streaminganalyticsshort}} 服务。无需安装 {{site.data.keyword.streamsshort}}。
 {:shortdesc}
 
 streamsx 程序包中随附的 [{{site.data.keyword.streamsshort}} Python 应用程序 API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) 支持将 Python 应用程序部署到 {{site.data.keyword.streaminganalyticsshort}} 服务。查看[针对 {{site.data.keyword.streaminganalyticsshort}} 服务进行开发](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)教程以获取有关如何针对 {{site.data.keyword.streaminganalyticsshort}} 服务创建和部署简单 Python 应用程序的示例。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-04-13"
 {:shortdesc}
 
 
-{{site.data.keyword.streaminganalyticsshort}} サービスは、標準的な {{site.data.keyword.Bluemix_short}} サービスの動作および相互作用に従っています。{{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_short}} アプリケーションにバインドすると、サービス・インスタンス VCAP 情報は、VCAP_SERVICES 環境変数を介して Bluemix アプリケーション環境で入手できるようになります。バインド先となる {{site.data.keyword.Bluemix_short}} アプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。{{site.data.keyword.streaminganalyticsshort}} サービス資格情報には、サービス・ダッシュボードからアクセスできます。
+{{site.data.keyword.streaminganalyticsshort}} サービスは、標準的な {{site.data.keyword.Bluemix_short}} サービスの動作および相互作用に従っています。{{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_notm}} でアプリケーションにバインドすると、このサービス・インスタンスの VCAP 情報は、VCAP_SERVICES 環境変数を使用して Bluemix アプリケーション環境で使用可能になります。バインド先の {{site.data.keyword.Bluemix_notm}} のアプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。{{site.data.keyword.streaminganalyticsshort}} サービス資格情報には、サービス・ダッシュボードからアクセスできます。
 
 
 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、以下の例に示されているような情報が含まれています。

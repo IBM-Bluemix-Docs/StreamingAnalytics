@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#服务仪表板
+# 服务仪表板
 {: #dashboard}
 
 您可以从 {{site.data.keyword.Bluemix_short}} 服务仪表板访问 {{site.data.keyword.streaminganalyticsshort}} 服务。

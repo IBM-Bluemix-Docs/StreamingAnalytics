@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.streaminganalyticsshort}} 콘솔
+# Streaming Analytics 콘솔
 {: #console}
 
 {{site.data.keyword.streaminganalyticsshort}} 콘솔에서 {{site.data.keyword.streamsshort}} 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스에 직접 제출할 수 있습니다.

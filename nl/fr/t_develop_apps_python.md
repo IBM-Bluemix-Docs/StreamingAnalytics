@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,29 +13,31 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}} entwickeln
+# Développement d'applications Python dans Streaming Analytics
 {: #t_develop_apps_python}
 
-Sie können jetzt Python-Anwendungen in IBM Data Science Experience (DSX) oder in Ihrer lokalen Python-Entwicklungsumgebung entwickeln und diese Anwendungen in {{site.data.keyword.streaminganalyticsshort}} bereitstellen.
+Vous pouvez désormais développer des applications Python dans IBM Data Science Experience (DSX) ou dans votre environnement de développement Python local et déployer ces applications dans {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
-Entwickeln Sie Python-Anwendungen und stellen Sie sie in der {{site.data.keyword.Bluemix_short}}-Cloud bereit, indem Sie den {{site.data.keyword.streaminganalyticsshort}}-Service verwenden. Verwenden Sie dazu eine der folgenden Methoden:
+Développez et déployez vos applications Python dans {{site.data.keyword.Bluemix_short}} en utilisant le service {{site.data.keyword.streaminganalyticsshort}} via l'une des méthodes ci-après :
 
 
-## Streams-Python-Anwendungen in DSX entwickeln
+## Développement d'applications Python Streams dans DSX
 {: #t_develop_python_dsx}
 
-Wenn Sie nicht über eine Python-Entwicklungsumgebung verfügen, besteht der einfachste Einstieg darin, dass Sie die Notebooks in DSX verwenden und Python-Beispielanwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service erstellen. Mit diesen Notebooks stehen die Schritte und Codebeispiele zur Verfügung, mit denen einfache Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service innerhalb der DSX-Python-Umgebung erstellt und bereitgestellt werden können.
+Si vous ne disposez pas d'un environnement de développement Python, la façon la plus rapide de démarrer est d'utiliser nos fichiers notebook DSX et de créer des applications Python exemple pour le service {{site.data.keyword.streaminganalyticsshort}}. Ces fichiers notebook fournissent les procédures et les codes exemple pour créer et déployer des applications Python exemple simples pour le service {{site.data.keyword.streaminganalyticsshort}} au sein de l'environnement DSX Python :
 
-* [Hello World!](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Erstellen Sie als ersten Schritt eine einfache 'Hello World!'- Anwendung und stellen Sie dann die Anwendung in einer Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service bereit.
+* [Hello World!](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8) : créez une application Hello World! simple pour démarrer puis déployez l'application dans une instance du service {{site.data.keyword.streaminganalyticsshort}}.
 
-* [Demo über Gesundheitswesen](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6): Erstellen Sie eine Anwendung, die Streaming-Daten aus einem Feed aufnimmt und analysiert und dann die Daten im Notebook visualisiert. Schließlich übergeben Sie diese Anwendung an die {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz.
+* [Healthcare Demo](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6) : créez une application qui ingère et analyse les données en continu en provenance d'un flux puis les visualise dans le fichier notebook. Vous soumettez ensuite cette application à l'instance de service {{site.data.keyword.streaminganalyticsshort}}.
 
-* [Demo zum neuronalen Netz](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca60bb7): Erstellen Sie ein Beispieldataset, erstellen Sie ein Modell für die Beispieldaten, verwenden Sie dieses Modell in einer Streaming-Anwendung, visualisieren Sie die Streaming-Daten und übergeben Sie die Streaming-Anwendung schließlich an den {{site.data.keyword.streaminganalyticsshort}}-Service.
+* [Neural Net Demo](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca60bb7) : créez un jeu de données exemple, créez un modèle pour les données exemple, utilisez ce modèle dans une application de diffusion en flux continu, visualisez le flux de données en continu et soumettez l'application de diffusion en flux continu dans le service {{site.data.keyword.streaminganalyticsshort}}.
 
-## Anwendungen in der lokalen Python-Umgebung entwickeln
+## Développement d'applications dans votre environnement Python local
  {: #t_develop_python_api}
 
- Mit der [{{site.data.keyword.streamsshort}}-Python-Anwendungs-API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), die im 'streamsx'-Paket enthalten ist, können Sie Streamverarbeitungsanwendungen mithilfe von aufrufbaren Python-Klassen und -Funktionen erstellen. Dann verwenden Sie die Python-Anwendungs-API, um die Anwendung zu definieren und an den Service zu übergeben.
+ L'[{{site.data.keyword.streamsshort}}API d'application Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), qui est incluse dans le package streamsx, vous permet de créer des applications de traitement de flux en utilisant les fonctions ou les classes appelables Python. Vous pouvez utiliser l'API d'application Python pour définir et soumettre ensuite l'application au service.
 
-Führen Sie zuerst die Schritte im Lernprogramm [Entwicklung für den {{site.data.keyword.streaminganalyticsshort}}-Service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) aus, um eine Beispielanwendung in der lokalen Python-Umgebung zu erstellen und diese im {{site.data.keyword.streaminganalyticsshort}}-Service bereitzustellen.
+Démarrez en suivant les procédures du tutoriel [Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) pour créer une application exemple dans votre environnement Python local puis le déployer dans le service {{site.data.keyword.streaminganalyticsshort}}.
+
+Pour approfondir l'API de l'application Python {{site.data.keyword.streamsshort}}, effectuez cette formation en ligne et apprenez les [notions de base {{site.data.keyword.streaminganalyticsshort}} pour les développeurs Python](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}.

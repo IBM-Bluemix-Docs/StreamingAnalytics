@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序
+# 在 Streaming Analytics 中开发 Python 应用程序
 {: #t_develop_apps_python}
 
 现在可以在 IBM Data Science Experience (DSX) 或在本地 Python 开发环境中开发 Python 应用程序，并在 {{site.data.keyword.streaminganalyticsshort}} 中部署这些应用程序。
 {:shortdesc}
 
-开发 Python 应用程序，并通过 {{site.data.keyword.streaminganalyticsshort}} 服务使用以下某种方法将其部署到 {{site.data.keyword.Bluemix_short}} 云：
+开发 Python 应用程序，并通过 {{site.data.keyword.streaminganalyticsshort}} 服务使用以下某种方法将其部署到 {{site.data.keyword.Bluemix_short}}：
 
 
 ## 在 DSX 中开发 Streams Python 应用程序
@@ -39,3 +39,5 @@ lastupdated: "2017-04-13"
  streamsx 程序包中随附的 [{{site.data.keyword.streamsshort}} Python 应用程序 API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) 支持使用 Python 可调用类或函数来创建流处理应用程序。然后使用 Python 应用程序 API 来定义应用程序并将应用程序提交给服务。
 
 按照[针对 {{site.data.keyword.streaminganalyticsshort}} 服务进行开发](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)教程中的步骤开始在本地 Python 环境中创建样本应用程序，并将其部署到 {{site.data.keyword.streaminganalyticsshort}} 服务。
+
+要更深入了解 {{site.data.keyword.streamsshort}} Python 应用程序 API，请完成此联机课程，并了解[面向 Python 开发者的 {{site.data.keyword.streaminganalyticsshort}} 基础知识](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}。

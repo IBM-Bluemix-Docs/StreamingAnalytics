@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.streaminganalyticsshort}} 用の Python アプリケーションの開発
+# Streaming Analytics での Python アプリケーションの開発
 {: #t_develop_apps_python}
 
 IBM Data Science Experience (DSX) またはローカル Python 開発環境で Python アプリケーションを開発し、そのアプリケーションを {{site.data.keyword.streaminganalyticsshort}} にデプロイできるようになっています。
 {:shortdesc}
 
-以下のいずれかの方法によって、{{site.data.keyword.streaminganalyticsshort}} サービスを使用して、{{site.data.keyword.Bluemix_short}} クラウドに Python アプリケーションを開発およびデプロイできます。
+以下のいずれかの方法によって、{{site.data.keyword.streaminganalyticsshort}} サービスを使用して Python アプリケーションを開発して {{site.data.keyword.Bluemix_short}} にデプロイします。
 
 
 ## DSX での Streams Python アプリケーションの開発
@@ -39,3 +39,5 @@ Python 開発環境がない場合は、DSX のノートブックを使用し、
   streamsx パッケージに含まれている [{{site.data.keyword.streamsshort}} Python Application API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) により、Python 呼び出し可能クラスまたは関数を使用して、ストリーム処理アプリケーションを作成できます。その後、Python Application API を使用して、アプリケーションを定義してサービスにサブミットします。
 
 『[Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)』チュートリアルのステップに従って、ローカル Python 環境でサンプル・アプリケーションを作成して {{site.data.keyword.streaminganalyticsshort}} サービスにデプロイすることで、開始します。
+
+{{site.data.keyword.streamsshort}} Python アプリケーション API についてより深く知るには、このオンライン・コースを実行して、『[Python 開発者のための {{site.data.keyword.streaminganalyticsshort}} の基本 (Streaming Analytics basics for Python developers)](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}』を学習してください。

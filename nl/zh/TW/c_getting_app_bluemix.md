@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#在 {{site.data.keyword.Bluemix_short}} 上部署 {{site.data.keyword.streamsshort}} 應用程式
+# 在 {{site.data.keyword.Bluemix_notm}} 上部署 Streams 應用程式
 {: #c_getting_app_bluemix}
 
 
@@ -41,6 +41,7 @@ lastupdated: "2017-04-13"
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">開始使用 Streaming Analytics</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">準備好用於雲端的 SPL 應用程式</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">針對 Streaming Analytics 開發 Python 應用程式</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">針對 Streaming Analytics 開發 Beam 應用程式</a><br></li>
       </ul>    
     </td>
   </tr>

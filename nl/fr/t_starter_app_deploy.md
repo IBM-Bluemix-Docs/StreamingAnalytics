@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,59 +13,50 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Starteranwendungen für {{site.data.keyword.Bluemix_short}} bereitstellen
+# Déploiement des applications de démarrage sur {{site.data.keyword.Bluemix_notm}}
 {: #starterapps_deploy}
 
-Sie können eine der {{site.data.keyword.streaminganalyticsshort}}-Starteranwendungen
-an die {{site.data.keyword.Bluemix_short}}-Cloud
-übertragen und dort bereitstellen.
+Vous pouvez envoyer et déployer l'une des applications de démarrage {{site.data.keyword.streaminganalyticsshort}} vers {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-Bereiten Sie {{site.data.keyword.Bluemix_short}} im Voraus für das Bereitstellen der
-{{site.data.keyword.streaminganalyticsshort}}-Starteranwendungen vor:
+Avant de commencer, préparez {{site.data.keyword.Bluemix_short}} au déploiement des applications de démarrage {{site.data.keyword.streaminganalyticsshort}} :
 
-* [Installieren Sie das Befehlszeilentool 'cf'](https://github.com/cloudfoundry/cli/releases).
-* Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_short}}, fügen Sie Ihrer Anwendung
-den {{site.data.keyword.streaminganalyticsshort}}-Service hinzu und
-führen Sie ein erneutes Staging der Anwendung durch:
-	* Um die Starter-App 'Event Detection' bereitzustellen, erstellen Sie eine Anwendung mit der {{site.data.keyword.sdk4node}}-Laufzeitumgebung.
-	* Um die Starter-App 'NYC Traffic' bereitzustellen, erstellen Sie eine Anwendung mit der Liberty for Java™-Laufzeitumgebung.
+* [Installez l'outil de ligne de commande cf](https://github.com/cloudfoundry/cli/releases).
+* Créez une application dans {{site.data.keyword.Bluemix_short}}, ajoutez le service {{site.data.keyword.streaminganalyticsshort}} à votre application et reconstituez l'application :
+	* Pour déployer l'application de démarrage de détection d'événements, créez une application avec une phase d'exécution {{site.data.keyword.sdk4node}}.
+	* Pour déployer l'application de démarrage relative au trafic new-yorkais, créez une application avec une phase d'exécution Liberty for Java™.
 
-Merken Sie sich den Namen, den Sie der Anwendung geben. Sie benötigen ihn zu einem späteren Zeitpunkt wieder.
+Mémorisez le nom que vous attribuez à votre application ; vous en aurez besoin ultérieurement.
 
-{{site.data.keyword.streaminganalyticsshort}} stellt zwei Beispielanwendungen zur Verfügung,
-die Ihnen den Einstieg in die Arbeit mit dem Service erleichtern.
+{{site.data.keyword.streaminganalyticsshort}} fournit deux applications exemple pour vous permettre de démarrer avec le service.
 
-Die Starteranwendung "Event Detection" analysiert wetterbezogene Daten in einem Echtzeitstream
-und zeigt den Status und die Ergebnisse der Analyse an. Die Anwendung ist in {{site.data.keyword.sdk4node}} geschrieben. Nähere Informationen zur Verwendung der Starteranwendung "Event Detection" finden Sie unter
-[Detect complex events in a real-time data stream](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html).
+L'application de démarrage de détection d'événements analyse les données relatives à la météo dans un flux en temps réel et affiche le statut et les résultats de l'analyse. L'application est écrite en {{site.data.keyword.sdk4node}}. Pour plus de détails sur la façon d'utiliser l'application de démarrage de détection d'événements, voir [Detect complex events in a real-time data stream](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html).
 
-Die Starteranwendung 'NYC Traffic' liest und analysiert Verkehrsdaten von einer öffentlichen Website. Die Anwendung ist in Liberty for Java™ geschrieben. Nähere Informationen zur Verwendung der Starter-App 'NYC Traffic' finden Sie unter [{{site.data.keyword.streaminganalyticsfull}} Starter Application](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/).
+L'application de démarrage relative au trafic new-yorkais lit et analyse les données de trafic depuis un site Web public. L'application est écrite en Liberty for Java. Pour plus de détails sur la façon d'utiliser l'application de démarrage relative au trafic new-yorkais, voir [{{site.data.keyword.streaminganalyticsfull}} Starter Application](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/).
 
-Gehen Sie wie folgt vor, um die Starteranwendung für {{site.data.keyword.Bluemix_short}}
-herunterzuladen und bereitzustellen:
+Pour télécharger et déployer l'application de démarrage dans {{site.data.keyword.Bluemix_short}} :
 
-1. Laden Sie die Starteranwendung [Event Detection](https://hub.jazz.net/project/streamscloud/EventDetection/overview) oder [ NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview) herunter.
-2. Wechseln Sie über die Befehlszeile in das Projektverzeichnis.
-  <pre><code>cd myapp</code></pre>
+1. Téléchargez les applications de démarrage relatives à la [détection d'événements](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) ou au [trafic new-yorkais](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic). Si vous voulez utiliser les exemples d'applications Beam, vous pouvez les télécharger à partir de la console.
+
+2. Sur la ligne de commande, allez dans le répertoire de projet.
+  <pre><code>cd mon_app</code></pre>
   {:pre}
 
-3. Benennen Sie das Projektverzeichnis um, sodass der Name mit dem Namen übereinstimmt, den Sie Ihrer Anwendung
-in {{site.data.keyword.Bluemix_short}} gegeben haben.
-4. Stellen Sie eine Verbindung zu {{site.data.keyword.Bluemix_short}} her:
+3. Renommez le répertoire de projet pour qu'il porte le même nom que celui que vous avez donné à votre application dans {{site.data.keyword.Bluemix_short}}.
+4. Connectez-vous à {{site.data.keyword.Bluemix_short}}:
   <pre><code>cf api https://api.DomainName</code></pre>
   {:pre}
 
-5. Melden Sie sich bei {{site.data.keyword.Bluemix_short}} an und legen Sie Ihre Zielorganisation fest,
-wenn Sie dazu aufgefordert werden:
+5. Connectez-vous à {{site.data.keyword.Bluemix_short}} et définissez votre organisation cible quand vous y êtes invité :
   <pre><code>cf login</code></pre>
   {:pre}
 
-6. Stellen Sie Ihre Anwendung bereit:
-  <pre><code>cf push myapp</code></pre>
+6. Déployez votre application :
+  <pre><code>cf push mon_app</code></pre>
   {:pre}
 
-7. Navigieren Sie zur Seite mit der Anwendungsübersicht, auf die Sie über das {{site.data.keyword.Bluemix_short}}-Dashboard gelangen, und prüfen Sie, ob Ihre Anwendung erfolgreich gestartet wurde.
-8. Starten Sie Ihre Anwendung, sodass sie im Browser zu sehen ist. Die URL (oder "Route") zu Ihrer Anwendung finden Sie auf der Seite mit der Anwendungsübersicht.
+7. Accédez à la page de présentation de votre application, accessible depuis le tableau de bord {{site.data.keyword.Bluemix_short}}, afin de vérifier que votre application a bien démarré.
+8. Lancez votre application pour l'afficher dans votre navigateur. Vous trouverez l'adresse URL (ou "route") de votre application dans la page de
+présentation de l'application.
 
-Wenn Ihre App ausgeführt wird, können Sie zum Service-Dashboard wechseln, um den Status Ihrer {{site.data.keyword.streaminganalyticsshort}}-Instanz anzuzeigen und um Informationen zur Fehlerbehebung anzufordern. Um auf das Service-Dashboard zuzugreifen, wechseln Sie zum {{site.data.keyword.Bluemix_short}}-Dashboard und klicken Sie auf die {{site.data.keyword.streaminganalyticsshort}}-Kachel auf der Seite mit der Anwendungsübersicht.
+A présent que votre application est en cours d'exécution, vous pouvez accéder au tableau de bord du service pour voir le statut de votre instance {{site.data.keyword.streaminganalyticsshort}} et obtenir des informations pour le traitement des incidents. Pour accéder au tableau de bord du service, allez dans le tableau de bord {{site.data.keyword.Bluemix_short}} et cliquez sur la vignette {{site.data.keyword.streaminganalyticsshort}} dans la page de présentation de l'application.

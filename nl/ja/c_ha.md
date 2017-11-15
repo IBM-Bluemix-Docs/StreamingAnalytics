@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} の高可用性
+# Streaming Analytics の高可用性
 {: #c_ha}
 
 {{site.data.keyword.streaminganalyticsshort}} では、アプリケーションの高可用性を実現します。いずれかのアプリケーション・ノード ({{site.data.keyword.streamsshort}} リ
@@ -21,3 +21,7 @@ lastupdated: "2017-04-13"
 ョブはすべてマイグレーションされます。インスタンスに複数のアプリケーション・ノードが含まれている場合、ジョブはマイグレーションされ、再開されるだけです。インスタンスは、[サービス・ダッシュボード](/docs/services/StreamingAnalytics/r_service_dashboard.html)または [{{site.data.keyword.streaminganalyticsshort}} REST
 API](https://console.ng.bluemix.net/apidocs/220){:new_window} を使用してサイズ変更できます。
 {:shortdesc}
+
+このビデオは、サービス・ダッシュボードを使用してインスタンスをサイズ変更する方法を示しています。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>インスタンスのサイズ変更</iframe>

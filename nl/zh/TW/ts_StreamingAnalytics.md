@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} 疑難排解
+# Streaming Analytics 疑難排解
 {: #ts_StreamingAnalytics}
 
 您可以找到如何在 {{site.data.keyword.Bluemix_short}} 上使用 {{site.data.keyword.streaminganalyticsshort}} 之常見問題的答案。
 {:shortdesc}
 
-##啟動這項服務時，系統提示我輸入認證以登入主控台
+## 啟動這項服務時，系統提示我輸入認證以登入主控台
 {: #log_in_console}
 
 啟動 {{site.data.keyword.streaminganalyticsshort}} 時，系統會提示您輸入認證以登入服務主控台。
@@ -37,7 +37,7 @@ lastupdated: "2017-04-13"
 請清除瀏覽器快取，以確保取得服務主控台的最新版本。
 {: tsResolve}
 
-##我的應用程式不健全
+## 我的應用程式不健全
 {: #app_unhealthy}
 
 您無法正確地執行應用程式，且性能狀態為 `unhealthy`。

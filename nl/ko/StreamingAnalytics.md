@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 정보
+# Streaming Analytics 정보
 {: #about}
 
 {{site.data.keyword.streaminganalyticsfull}}를 사용하여 {{site.data.keyword.Bluemix_short}} 애플리케이션의 일부로 작동 중인 데이터에 대해 실시간 분석을 수행할 수 있습니다.
@@ -35,11 +35,14 @@ SPL로 애플리케이션을 작성하려면 {{site.data.keyword.streamsfull}} P
 
 {{site.data.keyword.streamsshort}} 개발 환경 없이 Python 애플리케이션을 작성하고 배치하려면 {{site.data.keyword.streamsshort}} Python API 또는 IBM Data Science Experience(DSX)에서 노트북을 사용하십시오. 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}용 Python 애플리케이션 개발](/docs/services/StreamingAnalytics/t_develop_apps_python.html)을 참조하십시오. 
 
+사용자는 로컬 개발 환경에서 Streams Runner를 사용하여 Beam 애플리케이션을 개발한 후, 이를 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 배치하고 모니터할 수 있습니다. Streams Runner를 사용하는 Beam 애플리케이션에 대한 자세한 정보는 [Streaming Analytics에서 Streams Runner를 사용하는 Beam 앱 모니터](docs/services/StreamingAnalytics/gs_beamrunner.html)를 참조하십시오. 
+
+
 **{{site.data.keyword.streamsshort}} 연산자와의 호환성:**
 
 {{site.data.keyword.streamsshort}} 연산자([{{site.data.keyword.streamsshort}} Processing Language(SPL) 표준 툴킷)는 모두 다음과 호환 가능](/docs/services/StreamingAnalytics/c_beta_adapters.html)해야 합니다: {{site.data.keyword.streaminganalyticsshort}}
 
-## {{site.data.keyword.streaminganalyticsfull}} 책임
+## Streaming Analytics 책임
 {: #responsibilities notoc}
 
 ### 클라이언트 책임

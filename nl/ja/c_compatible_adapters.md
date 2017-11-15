@@ -13,14 +13,14 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#互換性のあるアダプター
+# 互換性のあるアダプター
 {: #c_compatible_adapters}
 
 
 ツールキットは、1 つのパッケージに編成された、成果物の集合です。ツールキットは、関数および原始演算子または合成演算子を、複数の異なるアプリケーション間で再使用可能にします。
 {:shortdesc}
 
-##Internet Toolkit
+## Internet Toolkit
 {: #internet notoc}
 
 Internet Toolkit (com.ibm.streamsx.inet) では、一般的なインターネット・プロトコルのサポートを提供します。このツールキットは {{site.data.keyword.streamsshort}} に組み込まれており、{{site.data.keyword.streamsshort}} 開発環境で使用できるようになっています。
@@ -48,7 +48,7 @@ Internet Toolkit 互換のオペレーターについて詳しくは、[GitHub �
 機能拡張と追加の演算子を含む新しいバージョンのツールキットを、
 [GitHub 上の IBMStreams](https://github.com/IBMStreams){:new_window} からダウンロードできます。ツールキットをダウンロードした後、(必要に応じて) それをビルドし、{{site.data.keyword.streamsshort}} 開発環境にインストールします。
 
-##IoT Integration Toolkit
+## IoT Integration Toolkit
 {: #iot notoc}
 
 IoT Integration Toolkit (com.ibm.streamsx.iot) は、{{site.data.keyword.iot_full}} との接続を提供します。{{site.data.keyword.streamsshort}} アプリケーションは、このツ
@@ -77,7 +77,7 @@ IoT 統合ツールキットの互換性のある演算子について詳しく�
 [Operators:
 com.ibm.streamsx.iot Toolkit](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.iot/ix$Operator.html?lang=en){:new_window} を参照してください。
 
-##Messaging Toolkit
+## Messaging Toolkit
 {: #messaging notoc}
 
 Messaging Toolkit (com.ibm.streamsx.messaging) プロジェクトは、オープン・ソースの {{site.data.keyword.streamsshort}} ツールキット・プロジェクトです。このプロジェクトは、{{site.data.keyword.streamsshort}} を使用して Kafka、JMS、XMS、および MQTT などのメッセージング・システムと相互作用するのに役立つ、演算子および関数の開発に重点を置いています。
@@ -110,4 +110,4 @@ for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.
 
 1. [GitHub 上の IBMStreams](https://github.com/IBMStreams){:new_window} にアクセスし、開発環境に Messaging Toolkit (com.ibm.streamsx.messaging) バージョン 3.0.0 以降をダウンロードします。
 2. バージョン 5.1.0 以降のツールキットを使用して、アプリケーションをビルドします。
-3. アプリケーションの `/etc` ディレクトリーに必要な .bindings ファイルを置き、それを {{site.data.keyword.streamsshort}} アプリケーション・バンドルに組み込みます。
+3. 必要な .bindings ファイルをアプリケーションの `/etc` ディレクトリーに入れて、それを {{site.data.keyword.streamsshort}} アプリケーション・バンドルに組み込みます。  

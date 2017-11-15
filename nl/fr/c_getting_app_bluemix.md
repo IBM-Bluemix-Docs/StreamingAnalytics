@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,38 +13,39 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streamsshort}}-Anwendungen unter {{site.data.keyword.Bluemix_short}} bereitstellen
+# Déploiement de vos applications Streams sur {{site.data.keyword.Bluemix_notm}}
 {: #c_getting_app_bluemix}
 
 
- Sie sind mit {{site.data.keyword.streamsshort}} vertraut und verfügen über eine Entwicklungsumgebung? Dann finden Sie im Folgenden verschiedene Tools und Ressourcen, die Sie bei Ihren ersten Schritten mit
-dem {{site.data.keyword.streaminganalyticsshort}}-Service unterstützen.
+ Vous maîtrisez {{site.data.keyword.streamsshort}} et disposez d'un environnement de développement ? Les outils et ressources disponibles pour commencer à utiliser le service {{site.data.keyword.streaminganalyticsshort}} sont présentés ci-dessous.
 {:shortdesc}
 
-<table summary="Diese Tabelle enthält eine Liste von Tools und Ressourcen, die Sie für die Entwicklung und Bereitstellung von {{site.data.keyword.streamsshort}}-Anwendungen benötigen.">
+<table summary="Ce tableau fournit une liste des outils et ressources nécessaires pour développer et déployer vos applications {{site.data.keyword.streamsshort}}.">
   <tr>
-    <th>Tools<br></th>
-    <th>Ressourcen<br></th>
+    <th>Outils<br></th>
+    <th>Ressources<br></th>
   </tr>
   <tr>
     <td>
       <ul>
-        <li><a href="/docs/services/StreamingAnalytics/c_compatible_adapters.html" target="_blank">Kompatible Adapter</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/c_analytics_utilities.html" target="_blank">Kompatible Toolkits und Dienstprogramme für die Analyse</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">Serviceberechtigungsnachweise und Umgebungsvariable VCAP_SERVICES</a><br></li>
-         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on GitHub</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/c_compatible_adapters.html" target="_blank">Adaptateurs compatibles</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/c_analytics_utilities.html" target="_blank">Kits d'outils d'analyse et utilitaires compatibles</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">Données d'identification de service et variable d'environnement VCAP_SERVICES</a><br></li>
+         <li><a href="https://github.com/IBMStreams" target="_blank">IBM Streams sur
+GitHub</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
         <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics Development Guide</a><br></li>
-        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Verbindung zu Streams: Was Sie wissen müssen</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Einführung in Streaming Analytics</a><br></li>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">SPL-Anwendung für die Cloud vorbereiten</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Python-Anwendungen für Streaming Analytics entwickeln</a><br></li>
+        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Connecting to streams: What you need to know</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Initiation à Streaming Analytics</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Développement d'applications Python pour Streaming Analytics</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Développement d'applications Beam pour Streaming Analytics</a><br></li>
       </ul>    
     </td>
   </tr>
 </table>
 
-*Tabelle 1. {{site.data.keyword.streaminganalyticsshort}}-Tools und -Ressourcen*
+*Tableau 1. Outils et ressources {{site.data.keyword.streaminganalyticsshort}}*

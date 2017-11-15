@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# 클라우드에 {{site.data.keyword.streamsshort}} 애플리케이션 배치
+# Streams 애플리케이션을 클라우드에 배치
 {: #t_deploytocloud}
 
-{{site.data.keyword.Bluemix_short}} 클라우드에서 실행 중인 {{site.data.keyword.streaminganalyticsshort}} 인스턴스에 {{site.data.keyword.streamsshort}} 애플리케이션을 배치할 수 있습니다.
+{{site.data.keyword.Bluemix_short}}에서 실행 중인 {{site.data.keyword.streaminganalyticsshort}} 인스턴스에 {{site.data.keyword.streamsshort}} 애플리케이션을 배치할 수 있습니다.
 {:shortdesc}
 
 {{site.data.keyword.streamsshort}} 애플리케이션은 {{site.data.keyword.streamsshort}} 환경에서 {{site.data.keyword.streamsshort}} Processing Language(SPL), SPL, Java, Scala 또는 Python으로 작성됩니다. 이제 {{site.data.keyword.streamsshort}} 환경 없이 Streams Python 애플리케이션을 개발할 수 있습니다. [클라우드에 {{site.data.keyword.streamsshort}} Python 애플리케이션 배치](docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)를 참조하십시오. 
@@ -39,17 +39,17 @@ lastupdated: "2017-04-13"
 
 4. 다음 방법 중 하나를 사용하여 SPL, Java, Scala 또는 Python 애플리케이션과 연관된 애플리케이션 번들(.sab 파일)을 클라우드의 서비스 인스턴스에 제출하십시오. 
 	* {{site.data.keyword.streaminganalyticsshort}} 콘솔을 사용하여 애플리케이션 번들을 제출하십시오.
-  * {{site.data.keyword.Bluemix_short}} 애플리케이션을 작성하고 {{site.data.keyword.streamsshort}} 애플리케이션을 이에 추가하십시오. {{site.data.keyword.streaminganalyticsshort}} REST API를 사용하여 이를 제어하십시오. 
+  * {{site.data.keyword.Bluemix_notm}}에서 애플리케이션을 작성하고 여기에 {{site.data.keyword.streamsshort}} 애플리케이션을 추가하십시오. {{site.data.keyword.streaminganalyticsshort}} REST API를 사용하여 이를 제어하십시오. 
 
 애플리케이션이 이제 클라우드에 배치됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 애플리케이션을 모니터할 수 있습니다.서비스 인스턴스에 둘 이상의 애플리케이션(.sab 파일)을 제출할 수도 있습니다. 원하는 수만큼 제출할 수 있습니다. 
 
 {{site.data.keyword.streamsshort}}는 또한 사용자의 애플리케이션을 개발하기 위해 사용할 수 있는 여러 가지 Java™ 개발 킷을 지원합니다. {{site.data.keyword.streamsshort}}에서 Java 지원에 대한 자세한 정보는 [Supported Java development kits for application development](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}를 참조하십시오.
 
 
-## 클라우드에 {{site.data.keyword.streamsshort}} Python 애플리케이션 배치
+## Streams Python 애플리케이션을 클라우드에 배치
 {: #t_deploypython}
 
-{{site.data.keyword.Bluemix_short}} 클라우드에서 실행 중인 {{site.data.keyword.streaminganalyticsshort}} 서비스에 {{site.data.keyword.streamsshort}} Python 애플리케이션을 배치하십시오. {{site.data.keyword.streamsshort}} 설치가 필요하지 않습니다.
+{{site.data.keyword.Bluemix_short}}에서 실행 중인 {{site.data.keyword.streaminganalyticsshort}} 서비스에 {{site.data.keyword.streamsshort}} Python 애플리케이션을 배치하십시오. {{site.data.keyword.streamsshort}} 설치가 필요하지 않습니다.
 {:shortdesc}
 
 streamsx 패키지에 포함되어 있는 [{{site.data.keyword.streamsshort}} Python 애플리케이션 API](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features)를 사용하면 {{site.data.keyword.streaminganalyticsshort}} 서비스에 Python 애플리케이션을 배치할 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 서비스의 단순 Python 애플리케이션을 작성하고 배치하는 방법에 대한 예제를 가져오려면 [Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) 튜토리얼을 확인하십시오. 

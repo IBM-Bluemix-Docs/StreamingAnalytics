@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#其他運算子
+# 其他運算子
 {: #c_other_operators}
 
 其他運算子（包括為您自己的需求所開發的工具箱運算子）可以與 {{site.data.keyword.streaminganalyticsshort}} 相容。

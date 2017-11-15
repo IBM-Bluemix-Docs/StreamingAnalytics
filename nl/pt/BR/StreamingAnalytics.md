@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,15 +13,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Sobre
+# Sobre o Streaming Analytics
 {: #about}
 
-É possível executar análise em tempo real de dados em movimento como parte do aplicativo {{site.data.keyword.Bluemix_short}} usando
-o	{{site.data.keyword.streaminganalyticsfull}}.
+É possível executar análise em tempo real de dados em movimento como parte do aplicativo {{site.data.keyword.Bluemix_short}} usando o	{{site.data.keyword.streaminganalyticsfull}}.
 {:shortdesc}
 
-Novo no {{site.data.keyword.streaminganalyticsshort}}? Obtenha uma
-[introdução rápida ao serviço](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
+Novo no {{site.data.keyword.streaminganalyticsshort}}? Obtenha uma [introdução rápida ao serviço](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
 
 O serviço {{site.data.keyword.streaminganalyticsshort}} fornece os recursos a seguir que permitem implementar, analisar e monitorar seus dados na nuvem:
 
@@ -37,13 +35,14 @@ Se você deseja gravar seus aplicativos em SPL, é necessário saber que o {{sit
 
 Para criar e implementar aplicativos Python sem um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}, use nossos blocos de nota no IBM Data Science Experience (DSX) ou a API do {{site.data.keyword.streamsshort}} Python. Para obter mais informações, consulte [Desenvolvendo aplicativos Python para o {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
+É possível desenvolver aplicativos Beam com o Streams Runner em seu ambiente de desenvolvimento local, que pode, então, ser implementado e monitorado usando o serviço {{site.data.keyword.streaminganalyticsshort}}. Para obter mais informações sobre aplicativos Beam com o Streams Runner, consulte [Monitorar aplicativos Beam com o Streams Runner no Streaming Analytics](docs/services/StreamingAnalytics/gs_beamrunner.html).
+
+
 **Compatibilidade com operadores do {{site.data.keyword.streamsshort}}:**
 
-Os operadores do {{site.data.keyword.streamsshort}} no kit de ferramentas padrão do
-[{{site.data.keyword.streamsshort}} Processing Language (SPL) devem ser todos
-compatíveis](/docs/services/StreamingAnalytics/c_beta_adapters.html) com o {{site.data.keyword.streaminganalyticsshort}}.
+Os operadores do {{site.data.keyword.streamsshort}} no kit de ferramentas padrão do [{{site.data.keyword.streamsshort}} Processing Language (SPL) devem ser todos compatíveis](/docs/services/StreamingAnalytics/c_beta_adapters.html) com o {{site.data.keyword.streaminganalyticsshort}}.
 
-## Responsabilidades do {{site.data.keyword.streaminganalyticsfull}}
+## Responsabilidades do Streaming Analytics
 {: #responsibilities notoc}
 
 ### Responsabilidades do cliente
@@ -51,22 +50,13 @@ compatíveis](/docs/services/StreamingAnalytics/c_beta_adapters.html) com o {{si
 
 O cliente é responsável por:
 
-* Seguir a configuração inicial da IBM do {{site.data.keyword.streamsshort}}, monitorando, configurando e gerenciando as
-tarefas do {{site.data.keyword.streamsshort}} em execução em sua instância. O cliente tem flexibilidade para iniciar e parar a instância e iniciar e parar tarefas em execução na
+* Seguir a configuração inicial da IBM do {{site.data.keyword.streamsshort}}, monitorando, configurando e gerenciando as tarefas do {{site.data.keyword.streamsshort}} em execução em sua instância. O cliente tem flexibilidade para iniciar e parar a instância e iniciar e parar tarefas em execução na
 instância.
-* Desenvolver, conforme necessário ou obrigatório, programas e aplicativos no serviço para analisar dados
-e obter insights a partir dele. O cliente também é responsável pela qualidade e o desempenho de tais
-programas ou aplicativos desenvolvidos. Programas podem ser desenvolvidos em SPL, Java ou outras linguagens
-suportadas usando o recurso Topology do {{site.data.keyword.streamsshort}}. Eles devem ser compilados usando o {{site.data.keyword.streamsshort}}
-Developer Edition ou o {{site.data.keyword.streamsshort}} Quick Start Edition com o mesmo sistema operacional que é usado para o
-{{site.data.keyword.streaminganalyticsshort}}.
-* Verificar o link a seguir periodicamente para ser informado sobre um tempo de inatividade planejado sem
-interrupção ou com interrupção - [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}  
-* Fazer backup de todos os dados, metadados, arquivos de configuração e parâmetros de ambiente conforme os
-requisitos de negócios, de forma a assegurar a continuidade.
-* Restaurar dados, metadados, arquivos de configuração e parâmetros de ambiente a partir de qualquer backup
-para assegurar a continuidade, em um caso de falha de qualquer tipo, incluindo, mas não se limitando, à falha de
-datacenter ou pod, à falha do servidor, à falha de disco rígido ou às falhas de software.
+* Desenvolver, conforme necessário ou obrigatório, programas e aplicativos no serviço para analisar dados e obter insights a partir dele. O cliente também é responsável pela qualidade e o desempenho de tais programas ou aplicativos desenvolvidos. Programas podem ser desenvolvidos em SPL, Java ou outras linguagens
+suportadas usando o recurso Topology do {{site.data.keyword.streamsshort}}. Eles devem ser compilados usando o {{site.data.keyword.streamsshort}} Developer Edition ou o {{site.data.keyword.streamsshort}} Quick Start Edition com o mesmo sistema operacional que é usado para o {{site.data.keyword.streaminganalyticsshort}}.
+* Verificar o link a seguir periodicamente para ser informado sobre um tempo de inatividade planejado sem interrupção ou com interrupção - [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}  
+* Fazer backup de todos os dados, metadados, arquivos de configuração e parâmetros de ambiente conforme os requisitos de negócios, de forma a assegurar a continuidade.
+* Restaurar dados, metadados, arquivos de configuração e parâmetros de ambiente a partir de qualquer backup para assegurar a continuidade, em um caso de falha de qualquer tipo, incluindo, mas não se limitando, à falha de datacenter ou pod, à falha do servidor, à falha de disco rígido ou às falhas de software.
 
 ### Responsabilidades da IBM
 {: #ibmresponsibilities notoc}
