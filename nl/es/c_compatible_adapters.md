@@ -12,14 +12,14 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Adaptadores compatibles
+# Adaptadores compatibles
 {: #c_compatible_adapters}
 
 
 Un kit de herramientas es un conjunto de artefactos, organizados en un paquete. Los kits de herramientas permiten reutilizar funciones y operadores primitivos o compuestos en distintas aplicaciones.
 {:shortdesc}
 
-##Internet Toolkit
+## Internet Toolkit
 {: #internet notoc}
 
 Internet Toolkit (com.ibm.streamsx.inet) proporciona soporte para protocolos de Internet comunes. Este kit de herramientas está incrustado en {{site.data.keyword.streamsshort}} y está disponible en el entorno de desarrollo de {{site.data.keyword.streamsshort}}.
@@ -46,7 +46,7 @@ Para obtener más información sobre operadores compatibles de Internet Toolkit,
 
 Puede descargar versiones más recientes del kit de herramientas, con mejoras y operadores adicionales desde [IBMStreams on GitHub](https://github.com/IBMStreams){:new_window}. Una vez descargado el kit de herramientas, créelo (si es necesario) e instálelo en el entorno de desarrollo de {{site.data.keyword.streamsshort}}.
 
-##IoT Integration Toolkit
+## IoT Integration Toolkit
 {: #iot notoc}
 
 IoT Integration Toolkit (com.ibm.streamsx.iot) ofrece conectividad con {{site.data.keyword.iot_full}}. Las aplicaciones {{site.data.keyword.streamsshort}} pueden utilizar este kit de herramientas para ofrecer analíticas en tiempo real sobre todos los sucesos procedentes de miles de dispositivos, incluido el envío de mandatos a dispositivos determinados en función de las analíticas.
@@ -71,7 +71,7 @@ La tabla siguiente contiene los operadores que proporciona el kit de herramienta
 
 Para obtener más información sobre los operadores compatibles con IoT Integration Toolkit, consulte el apartado [Operadores: com.ibm.streamsx.iot Toolkit](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.iot/ix$Operator.html?lang=en){:new_window} en la documentación del producto {{site.data.keyword.streamsshort}}.
 
-##Messaging Toolkit
+## Messaging Toolkit
 {: #messaging notoc}
 
 El proyecto Messaging Toolkit (com.ibm.streamsx.messaging) es un proyecto de kit de herramientas de {{site.data.keyword.streamsshort}} de origen abierto. Se centra en el desarrollo de operadores y funciones que le ayudan a utilizar {{site.data.keyword.streamsshort}} para interactuar con sistemas de mensajería como Kafka, JMS, XMS y MQTT.

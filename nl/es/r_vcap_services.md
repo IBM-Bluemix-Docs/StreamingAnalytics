@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -20,7 +20,7 @@ Las credenciales de servicio de {{site.data.keyword.streaminganalyticsshort}} y 
 {:shortdesc}
 
 
-El servicio de {{site.data.keyword.streaminganalyticsshort}} sigue el comportamiento y la interacción típicos del servicio de {{site.data.keyword.Bluemix_short}}. Cuando una instancia de servicio de {{site.data.keyword.streaminganalyticsshort}} se suministra y se enlaza con una aplicación {{site.data.keyword.Bluemix_short}}, la información VCAP de instancia de servicio está disponible para el entorno de aplicación de Bluemix a través de la variable de entorno VCAP_SERVICES. Cuando una instancia de servicio de {{site.data.keyword.streaminganalyticsshort}} se suministra sin especificar ninguna aplicación de {{site.data.keyword.Bluemix_short}} con la que vincularse, se crean automáticamente las credenciales de servicio. Se puede acceder a las credenciales de servicio de {{site.data.keyword.streaminganalyticsshort}} desde el panel de control del servicio.
+El servicio de {{site.data.keyword.streaminganalyticsshort}} sigue el comportamiento y la interacción típicos del servicio de {{site.data.keyword.Bluemix_short}}. Cuando una instancia de servicio de {{site.data.keyword.streaminganalyticsshort}} se suministra y se enlaza con una aplicación de {{site.data.keyword.Bluemix_notm}}, la instancia del servicio de información VCAP está disponible en el entorno de Bluemix a través de la variable de entorno VCAP_SERVICES. Cuando una instancia de servicio de {{site.data.keyword.streaminganalyticsshort}} se suministra sin especificar ninguna aplicación de {{site.data.keyword.Bluemix_notm}} con la que vincularse, se crean automáticamente las credenciales de servicio. Se puede acceder a las credenciales de servicio de {{site.data.keyword.streaminganalyticsshort}} desde el panel de control del servicio.
 
 
 Las credenciales de servicio de {{site.data.keyword.streaminganalyticsshort}} y la variable de entorno VCAP_SERVICES incluye información tal como se presenta en el siguiente ejemplo:

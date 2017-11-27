@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Panel de control del servicio
+# Panel de control del servicio
 {: #dashboard}
 
 Puede acceder al servicio {{site.data.keyword.streaminganalyticsshort}} desde el panel de control del servicio {{site.data.keyword.Bluemix_short}}.

@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Otros operadores
+# Otros operadores
 {: #c_other_operators}
 
 Otros operadores, incluidos los operadores de kit de herramientas que ha desarrollado para sus propias necesidades, pueden ser compatibles con {{site.data.keyword.streaminganalyticsshort}}.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Acerca de
+# Acerca de Streaming Analytics
 {: #about}
 
 Puede realizar análisis en tiempo real sobre los datos en movimiento como parte de las aplicaciones de {{site.data.keyword.Bluemix_short}} utilizando {{site.data.keyword.streaminganalyticsfull}}.
@@ -35,11 +35,14 @@ Si desea escribir sus aplicaciones en SPL, debe saber que {{site.data.keyword.st
 
 Para crear y desplegar aplicaciones Python sin un entorno de desarrollo {{site.data.keyword.streamsshort}}, utilice nuestros cuadernos de IBM Data Science Experience (DSX) o la API de {{site.data.keyword.streamsshort}} Python. Para obtener más información, consulte el tema sobre [Desarrollo de aplicaciones Python para {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
+Puede desarrollar aplicaciones Beam con el ejecutor de Streams en su entorno de desarrollo que después puede desplegar y supervisar mediante el servicio de {{site.data.keyword.streaminganalyticsshort}}. Para obtener más información acerca de las aplicaciones de Beam con el ejecutor Streams, consulte las apps de [Monitor Beam con Streams Runner en Streaming Analytics](docs/services/StreamingAnalytics/gs_beamrunner.html).
+
+
 **Compatibilidad con los operadores de {{site.data.keyword.streamsshort}}:**
 
 Los operadores de {{site.data.keyword.streamsshort}} del [kit de herramientas estándar de {{site.data.keyword.streamsshort}} Processing Language (SPL) deben ser compatibles](/docs/services/StreamingAnalytics/c_beta_adapters.html) con {{site.data.keyword.streaminganalyticsshort}}.
 
-## Responsabilidades de {{site.data.keyword.streaminganalyticsfull}}
+## Responsabilidades de Streaming Analytics
 {: #responsibilities notoc}
 
 ### Responsabilidades del cliente

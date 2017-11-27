@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,10 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Despliegue de aplicaciones de inicio en {{site.data.keyword.Bluemix_short}}
+# Despliegue de aplicaciones de inicio en {{site.data.keyword.Bluemix_notm}}
 {: #starterapps_deploy}
 
-Puede enviar y desplegar una de las aplicaciones de inicio de {{site.data.keyword.streaminganalyticsshort}} en la nube de {{site.data.keyword.Bluemix_short}}.
+Puede enviar y desplegar una de las aplicaciones de inicio de {{site.data.keyword.streaminganalyticsshort}} en {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 Antes de empezar, prepare {{site.data.keyword.Bluemix_short}} para desplegar las aplicaciones de inicio de {{site.data.keyword.streaminganalyticsshort}}:
@@ -36,7 +36,8 @@ La aplicación de inicio NYC Traffic lee y analiza datos de tráfico desde un si
 
 Para descargar y desplegar la aplicación de inicio en {{site.data.keyword.Bluemix_short}}:
 
-1. Descargue la aplicación de inicio [Event Detection ](https://hub.jazz.net/project/streamscloud/EventDetection/overview) o [NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview).
+1. Descargue la aplicación de inicio [Event Detection ](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) o [NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic). Si quiere utilizar las apps de ejemplo de Beam, puede descargarse estas apps desde la consola.
+
 2. En la línea de mandatos, vaya al directorio del proyecto.
   <pre><code>cd myapp</code></pre>
   {:pre}

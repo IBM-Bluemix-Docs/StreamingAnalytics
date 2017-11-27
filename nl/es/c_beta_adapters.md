@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Operadores de kits de herramientas compatibles
+# Operadores de kits de herramientas compatibles
 {: #c_beta_adapters}
 
 Los operadores de {{site.data.keyword.streamsshort}} del kit de herramientas estándar de {{site.data.keyword.streamsshort}} Processing Language (SPL) deben ser compatibles con {{site.data.keyword.streaminganalyticsshort}}.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Desarrollo de aplicaciones Python para {{site.data.keyword.streaminganalyticsshort}}
+# Desarrollo de aplicaciones Python en Streaming Analytics
 {: #t_develop_apps_python}
 
 Ahora puede desarrollar aplicaciones Python en IBM Data Science Experience (DSX) o en un entorno de desarrollo Python local y desplegarlas en {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
-Desarrolle y despliegue sus aplicaciones Python en la nube de {{site.data.keyword.Bluemix_short}} utilizando el servicio {{site.data.keyword.streaminganalyticsshort}} y uno de estos métodos:
+Desarrollo y despliegue de aplicaciones Python en {{site.data.keyword.Bluemix_short}} utilizando el servicio {{site.data.keyword.streaminganalyticsshort}} mediante uno de estos métodos:
 
 
 ## Desarrollo de aplicaciones Streams Python en DSX
@@ -39,3 +39,5 @@ Si no dispone de un entorno de desarrollo Python, el modo más sencillo de comen
  La [API de aplicación de {{site.data.keyword.streamsshort}} Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que se incluye en el paquete streamsx, le permite crear aplicaciones de proceso de secuencias utilizando clases y funciones que se pueden llamar desde Python. Utilice la API de aplicación de Python y luego defina y envíe la aplicación al servicio.
 
 Comience siguiendo los pasos de la guía de aprendizaje [Desarrollo para el servicio {{site.data.keyword.streaminganalyticsshort}}](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) para crear una aplicación de ejemplo en el entorno Python local y despliéguela en el servicio {{site.data.keyword.streaminganalyticsshort}}.
+
+Para profundizar más en la API de aplicación de Python {{site.data.keyword.streamsshort}}, complete este curso en línea y aprenda los [aspectos básicos de {{site.data.keyword.streaminganalyticsshort}} para desarrolladores de Python](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}.

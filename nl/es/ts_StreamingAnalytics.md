@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.streaminganalyticsshort}} resolución de problemas 
+# Resolución de problemas de Streaming Analytics
 {: #ts_StreamingAnalytics}
 
 Puede encontrar respuestas a preguntas comunes sobre cómo utilizar {{site.data.keyword.streaminganalyticsshort}} en {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-##Cuando inicio el servicio, me solicitan credenciales para iniciar sesión en la consola
+## Cuando inicio el servicio, me solicitan credenciales para iniciar sesión en la consola
 {: #log_in_console}
 
 Al iniciar {{site.data.keyword.streaminganalyticsshort}}, se le solicitarán las credenciales para iniciar sesión en la consola de servicio.
@@ -37,7 +37,7 @@ La infraestructura de servicio se ha actualizado y la memoria caché del navegad
 Borre la memoria caché del navegador para asegurarse de obtener la versión más reciente de la consola de servicio.
 {: tsResolve}
 
-##Mi aplicación no funciona correctamente
+## Mi aplicación no funciona correctamente
 {: #app_unhealthy}
 
 No puede ejecutar la aplicación correctamente y su estado es `unhealthy`.
