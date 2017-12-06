@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Console {{site.data.keyword.streaminganalyticsshort}}
+# Console Streaming Analytics
 {: #console}
 
 Nella console {{site.data.keyword.streaminganalyticsshort}}, puoi inviare le tue applicazioni {{site.data.keyword.streamsshort}} direttamente all'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}.

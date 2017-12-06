@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Risoluzione dei problemi di {{site.data.keyword.streaminganalyticsshort}}
+# Risoluzione dei problemi di Streaming Analytics 
 {: #ts_StreamingAnalytics}
 
 Puoi trovare le risposte a domande comuni sull'utilizzo di {{site.data.keyword.streaminganalyticsshort}} in {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-##Quando avvio il servizio, mi vengono richieste le credenziali per accedere alla console
+## Quando avvio il servizio, mi vengono richieste le credenziali per accedere alla console
 {: #log_in_console}
 
 Quando avvii {{site.data.keyword.streaminganalyticsshort}}, ti vengono richieste le credenziali
@@ -39,7 +39,7 @@ al servizio di eseguire l'aggiornamento.
 Pulisci la cache del browser per essere sicuro di ottenere l'ultima versione della console del servizio.
 {: tsResolve}
 
-##La mia applicazione è in uno stato di "unhealthy" (non integro)
+## La mia applicazione è in uno stato di "unhealthy" (non integro)
 {: #app_unhealthy}
 
 Non puoi eseguire la tua applicazione correttamente e lo stato di integrità è `unhealthy`.

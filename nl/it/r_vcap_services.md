@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -27,8 +27,8 @@ API REST del servizio {{site.data.keyword.streaminganalyticsshort}}.
 
 Il servizio {{site.data.keyword.streaminganalyticsshort}}
 segue il tipico comportamento e interazione del
-servizio {{site.data.keyword.Bluemix_short}}. Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} viene fornita e associata a un'applicazione {{site.data.keyword.Bluemix_short}}, le informazioni VCAP dell'istanza del servizio sono disponibili nell'ambiente dell'applicazione Bluemix tramite la variabile di ambiente VCAP_SERVICES. Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}
-viene fornita senza specificare un'applicazione {{site.data.keyword.Bluemix_short}} a cui eseguire il binding, le credenziali del servizio vengono create automaticamente. È possibile accedere alle credenziali del servizio {{site.data.keyword.streaminganalyticsshort}}
+servizio {{site.data.keyword.Bluemix_short}}. Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} viene fornita e associata a un'applicazione in {{site.data.keyword.Bluemix_notm}}, le informazioni VCAP dell'istanza del servizio sono disponibili nell'ambiente dell'applicazione Bluemix tramite la variabile di ambiente VCAP_SERVICES. Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}
+viene fornita senza specificare un'applicazione in {{site.data.keyword.Bluemix_notm}} a cui eseguire il binding, le credenziali del servizio vengono create automaticamente. È possibile accedere alle credenziali del servizio {{site.data.keyword.streaminganalyticsshort}}
 dal dashboard del servizio.
 
 

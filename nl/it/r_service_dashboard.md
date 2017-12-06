@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Dashboard del servizio
+# Dashboard del servizio
 {: #dashboard}
 
 Puoi accedere al tuo servizio {{site.data.keyword.streaminganalyticsshort}} dal dashboard del servizio {{site.data.keyword.Bluemix_short}}.

@@ -13,7 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Funzionalità e analisi compatibili
+# Funzionalità e analisi compatibili
 {: #c_analytics_utilities}
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-04-13"
 Queste funzionalità e toolkit di analisi sono compatibili con {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
-##Toolkit di analisi SPSS
+## Toolkit di analisi SPSS
 {: #spss notoc}
 
 Il toolkit di analisi SPSS contiene operatori {{site.data.keyword.streamsshort}} che si integrano con i prodotti
@@ -42,7 +42,7 @@ La seguente tabella elenca gli operatori forniti dal Toolkit di analisi SPSS.
 *Tabella 1. Operatori compatibili con il Toolkit di analisi SPSS*
 
 
-##Complex Event Processing Toolkit
+## Complex Event Processing Toolkit
 {: #cep notoc}
 
 Il toolkit Complex Event Processing (com.ibm.streams.cep) fornisce l'operatore MatchRegex per eseguire l'elaborazione di eventi complessi.
@@ -54,7 +54,7 @@ dei pattern per individuare gli eventi compositi nei flussi di tupla. Ad esempio
 i pattern di quotazione titolo, instradando i pattern alle applicazioni di trasporto o i pattern dei comportamenti utenti nelle impostazioni
 di commercio web.
 
-##TimeSeries Toolkit
+## TimeSeries Toolkit
 {: #timeseries notoc}
 
 Le funzioni e gli operatori in TimeSeries Toolkit (com.ibm.streams.timeseries) condizionano, analizzano e modellano i dati delle serie temporali.
@@ -75,14 +75,14 @@ La seguente tabella elenca gli operatori forniti da TimeSeries Toolkit.
 | `ARIMA2` 	  	 			       |	`Generator`       		 		 	 | 	
 | `AnomalyDetector`		 	     |	`HoltWinters2`			 	       |
 | `AutoForecaster2`   		   | 	`IncrementalInterpolate` 	   |
-| ` CrossCorrelate2`			     | 	`KMeansClustering`    		 	 |
+| `CrossCorrelate2`			     | 	`KMeansClustering`    		 	 |
 | `CrossCorrelateMulti`	 	   |	`Kalman`		 			           |
 | `DSPFilter2`				       |	`LPC`           						 |
 | `DWT2`     	 			         | 	`Normalize`		 		 	         |
 | `Distribution`      			 |	`PSAX`		 				           |
 | `FFT` 	   	 			         |	`RLSFilter`		 		        	 | 	
 | `FMPFilter`    	 		       |	`ReSample`		         			 |
-| `GAMLearner`		 	 	       |	`STD2`			           			 |
+| `GAMLearner `		 	 	       |	`STD2`			           			 |
 | `GAMScorer` 	   			     |	`TSWindowing`	        	 		 |
 | `GMM`     	 			         | 	`VAR2`			 	          		 |
 
@@ -92,7 +92,7 @@ Per un elenco dettagliato degli operatori compatibili con TimeSeries Toolkit, ve
 
 Per informazioni sulle limitazioni del toolkit, vedi [Restrictions for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window}.
 
-##Geospatial Toolkit
+## Geospatial Toolkit
 {: #geospatial notoc}
 
 Geospatial Toolkit (com.ibm.streams.geospatial) include operatori e funzioni che facilitano l'indicizzazione e l'elaborazione efficiente dei dati locali. Ad esempio, con i dati di posizione
@@ -114,7 +114,7 @@ La seguente tabella elenca gli operatori forniti da Geospatial Toolkit.
 
 Per ulteriori informazioni, vedi [Operators: com.ibm.streams.geospatial](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.geospatial/ix$Operator.html?lang=en){:new_window} nella documentazione del prodotto {{site.data.keyword.streamsshort}}.
 
-##Toolkit HDFS for {{site.data.keyword.Bluemix_short}}
+## Toolkit HDFS for {{site.data.keyword.Bluemix_short}}
 {: #hdfs notoc}
 
 Il toolkit HDFS for {{site.data.keyword.Bluemix_short}} (com.ibm.streamsx.hdfs.bluemix) è una versione speciale del toolkit HDFS che aggiunge supporto per la connessione a IBM BigInsights for Apache Hadoop for {{site.data.keyword.Bluemix_short}}.
@@ -132,7 +132,7 @@ La seguente tabella elenca gli operatori forniti da HDFS Toolkit.
 
 Per ulteriori informazioni su come utilizzare questo toolkit, vedi [Get started with {{site.data.keyword.streaminganalyticsshort}} and BigInsights on {{site.data.keyword.Bluemix_short}} using HDFS](https://developer.ibm.com/bluemix/2016/02/26/streaming-analytics-and-biginsights-using-hdfs/){:new_window}.
 
-##Toolkit JSON
+## Toolkit JSON
 {: #json notoc}
 
 Il toolkit JSON (com.ibm.streamsx.json) fornisce il supporto JSON per SPL e le trasformazioni standard tra i valori SPL e gli oggetti JSON.
@@ -150,14 +150,14 @@ La seguente tabella elenca gli operatori forniti dal toolkit JSON.
 
 Per ulteriori informazioni, vedi [com.ibm.streamsx.json](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.json/tk$com.ibm.streamsx.json.html){:new_window} nella documentazione del prodotto {{site.data.keyword.streamsshort}}.
 
-##Toolkit JDBC
+## Toolkit JDBC
 {: #jdbc notoc}
 
 Il toolkit JDBC (com.ibm.streams.jdbc) permette a {{site.data.keyword.streaminganalyticsshort}} di comunicare con più servizi di database {{site.data.keyword.Bluemix_short}} come SQL Database, dashDB, ecc.
 
 Il toolkit include l'operatore JDBCRun. Per ulteriori informazioni, vedi [Using {{site.data.keyword.streaminganalyticsshort}} with JDBC-enabled {{site.data.keyword.Bluemix_short}}](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/){:new_window} e [com.ibm.streamsx.jdbc](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.jdbc/tk$com.ibm.streamsx.jdbc.html){:new_window} nella documentazione del prodotto {{site.data.keyword.streamsshort}}.
 
-##R-project Toolkit
+## R-project Toolkit
 {: #rproject notoc}
 
 R-project Toolkit (com.ibm.streams.rproject) include l'operatore RScript,  che puoi utilizzare per eseguire i comandi R e applicare algoritmi di data mining complessi per individuare pattern di interesse nei flussi di dati.
@@ -165,7 +165,7 @@ R-project Toolkit (com.ibm.streams.rproject) include l'operatore RScript,  che p
 Per ulteriori informazioni, vedi [Operator RScript](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.rproject/op$com.ibm.streams.rproject$RScript.html?lang=en){:new_window} nella documentazione del prodotto {{site.data.keyword.streamsshort}}.
 
 
-##Rules compiler
+## Rules compiler
 {: #rulescompiler notoc}
 
 Il toolkit Rules compiler (com.ibm.streams.rulescompiler) supporta la conversione delle regole di business scritte in ODM nell'SPL che può essere utilizzato nelle applicazioni {{site.data.keyword.streamsshort}}.
@@ -173,7 +173,7 @@ Il toolkit Rules compiler (com.ibm.streams.rulescompiler) supporta la conversion
 Per
 ulteriori informazioni, vedi [Operators: com.ibm.streams.rulescompiler](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.rulescompiler/ix$Operator.html){:new_window} nella documentazione del prodotto {{site.data.keyword.streamsshort}}.
 
-##Text Toolkit
+## Text Toolkit
 {: #text notoc}
 
 Text Toolkit (com.ibm.streams.text) include `TextExtract` e `SentimentExtractoroperator`, che estrae le informazioni dai dati di testo.
@@ -183,7 +183,7 @@ Per ulteriori informazioni, vedi [Operator TextExtract](http://www.ibm.com/suppo
 
 Per informazioni sulle limitazioni del toolkit, vedi [Restrictions for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window}.
 
-##Mining Toolkit
+## Mining Toolkit
 {: #mining notoc}
 
 Mining Toolkit (com.ibm.streams.mining) include operatori che puoi utilizzare per esaminare i flussi di dati applicando dei modelli. L'esame dei flussi di dati per estrarre le informazioni rilevanti o
@@ -207,7 +207,7 @@ Per ulteriori informazioni, vedi [Operators: com.ibm.streams.mining](http://www.
 
 Per informazioni sulle limitazioni del toolkit, vedi [Restrictions for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-toolkit-restrictions.html){:new_window}.
 
-##Telecommunications Event Data Analytics (TEDA) Toolkit
+## Telecommunications Event Data Analytics (TEDA) Toolkit
 {: #teda notoc}
 
 Telecommunications Event Data Analytics (TEDA) Toolkit (com.ibm.streams.teda) fornisce una serie di operatori generici utilizzati nelle applicazioni di telecomunicazioni e fornisce inoltre un framework dell'applicazione per configurare nuove applicazioni file-to-file. Queste applicazioni si basano
@@ -231,7 +231,7 @@ La seguente tabella elenca gli operatori forniti da Telecommunications Event Dat
 Per ulteriori informazioni, vedi [Operators: com.ibm.streams.teda](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.teda/ix$Operator.html?lang=en){:new_window} nella documentazione del prodotto {{site.data.keyword.streamsshort}}.
 
 
-##Toolkit Topology
+## Toolkit Topology
 {: #topology notoc}
 
 Il toolkit Topology fornisce supporto per creare applicazioni {{site.data.keyword.streamsshort}} nei seguenti linguaggi di programmazione:

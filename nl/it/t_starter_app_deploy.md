@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,11 +13,10 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-# Distribuzione delle applicazioni starter su {{site.data.keyword.Bluemix_short}}
+# Distribuzione delle applicazioni starter su {{site.data.keyword.Bluemix_notm}}
 {: #starterapps_deploy}
 
-Puoi trasmettere e distribuire una delle applicazioni starter di {{site.data.keyword.streaminganalyticsshort}} al cloud
-{{site.data.keyword.Bluemix_short}}.
+Puoi trasmettere e distribuire una delle applicazioni starter di {{site.data.keyword.streaminganalyticsshort}} a {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 Prima di iniziare, rendi {{site.data.keyword.Bluemix_short}}
@@ -47,7 +46,8 @@ Liberty for Java™. Per ulteriori informazioni su come utilizzare l'applicazion
 
 Per scaricare e distribuire l'applicazione starter a {{site.data.keyword.Bluemix_short}}:
 
-1. Scarica l'applicazione starter [Event Detection](https://hub.jazz.net/project/streamscloud/EventDetection/overview) o [ NYC Traffic](https://hub.jazz.net/project/streamscloud/NYCTraffic/overview).
+1. Scarica l'applicazione starter [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) o [ NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic). Se desideri utilizzare le applicazioni di esempio Beam, puoi scaricarle dalla console.
+
 2. Nella riga di comando, vai alla directory del progetto.
   <pre><code>cd myapp</code></pre>
   {:pre}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-13"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -13,8 +13,7 @@ lastupdated: "2017-04-13"
 {:screen: .screen}
 {:pre: .pre}
 
-#Distribuzione delle tue applicazioni {{site.data.keyword.streamsshort}}
-su {{site.data.keyword.Bluemix_short}}
+# Distribuzione delle tue applicazioni del flussi su {{site.data.keyword.Bluemix_notm}}
 {: #c_getting_app_bluemix}
 
 
@@ -44,6 +43,7 @@ GitHub</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Introduzione a Streaming Analytics</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Sviluppo di applicazioni Python per Streaming Analytics</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Sviluppo di applicazioni Beam per Streaming Analytics</a><br></li>
       </ul>    
     </td>
   </tr>
