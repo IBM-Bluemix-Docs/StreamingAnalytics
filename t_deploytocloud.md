@@ -39,6 +39,7 @@ To deploy your {{site.data.keyword.streamsshort}} applications to the cloud:
 
 4. Submit the application bundle (.sab file) that is associated with your SPL, Java, Scala or Python application to your service instance in the cloud by using one of these methods:
 	* Use the {{site.data.keyword.streaminganalyticsshort}} console to submit the application bundle.
+
   * Create an application in {{site.data.keyword.Bluemix_notm}} and add the {{site.data.keyword.streamsshort}} application to it. Control it by using the {{site.data.keyword.streaminganalyticsshort}} REST API.
 
 Your application is now deployed in the cloud. You can monitor your application using the {{site.data.keyword.streaminganalyticsshort}} service. You can also submit more than one application (.sab files) to your service instance. As many as you want.
