@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -50,4 +50,4 @@ The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_S
 }	  
 </code></pre>
 
-For more information about the REST API, see the  [{{site.data.keyword.streaminganalyticsshort}} REST API documentation](https://console.ng.bluemix.net/apidocs/220).
+For more information about the REST API, see the  [{{site.data.keyword.streaminganalyticsshort}} REST API documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/apidocs/220){:new_window}.

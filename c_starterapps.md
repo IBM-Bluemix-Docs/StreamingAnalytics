@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Using the Streaming Analytics starter applications
+# Starter applications
 {: #starterapps}
 
 Deploy and modify the starter applications and quickly learn how to use the {{site.data.keyword.streaminganalyticsshort}} service:
@@ -26,13 +26,13 @@ Deploy and modify the starter applications and quickly learn how to use the {{si
     <th colspan="3">Stock Trades sample app<br></th>
   </tr>
   <tr>
-    <td colspan="3">This application analyzes a stream of stock quotes and produces a rolling average of the prices using the <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate</a> operator.
-You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment. The full source for the starter application is <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">available on GitHub</a>.</p>
+    <td colspan="3">This application analyzes a stream of stock quotes and produces a rolling average of the prices using the <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![External link icon](../../icons/launch-glyph.svg "External link icon"){:new_window}</a> operator.
+You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment. The full source for the starter application is <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">available on GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")</a>.</p>
 </td>
   </tr>
   <tr>
-    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">DEPLOY THE APP</a><br></td>
-    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">DOWNLOAD</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">DEPLOY THE APP ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
   </tr>
 </table>
 
@@ -46,7 +46,7 @@ You can run the starter application without modification. If you want to experim
     <th colspan="3">Event Detection sample app<br></th>
   </tr>
   <tr>
-    <td colspan="3">The Event Detection app is implemented via the <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}}</a> runtime.
+    <td colspan="3">The Event Detection app is implemented via the <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime.
 The app provides a simple web UI to display status and results of the analysis.
 The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} REST API.
 <p>You can run the starter application without modification.
@@ -55,8 +55,8 @@ If you want to experiment further with the service, you can also modify the code
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOY THE APP</a><br></td>
-    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">TUTORIAL</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">DOWNLOAD</a></td>
+    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">TUTORIAL ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
   </tr>
 </table>
 
@@ -74,8 +74,8 @@ If you want to experiment further with the service, you can also modify the code
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOY THE APP</a><br></td>
-    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">TUTORIAL</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">DOWNLOAD</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">TUTORIAL ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
   </tr>
 </table>
 
@@ -86,15 +86,15 @@ If you want to experiment further with the service, you can also modify the code
 <table summary="This table describes, in the first row, the TemperatureSample Beam application. The table includes on the second row a link to a tutorial how to deploy the TemperatureSample Beam application.
  ">
   <tr>
-    <th colspan="3">`TemperatureSample` Beam app<br></th>
+    <th colspan="3">TemperatureSample Beam app<br></th>
   </tr>
   <tr>
     <td colspan="3">This application takes temperature readings from multiple devices. The application splits the readings into “good” (valid) and “bad” (invalid) readings based on a specific threshold. It counts the bad readings and generates some basic statistics for the good readings, and finally logs the results. You can download the TemperatureSample app from the Streaming Analytics console.
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">DEPLOY THE APP</a><br></td>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">VIEW THE APP</a></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">DEPLOY THE APP ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">VIEW THE APP ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
   </tr>
 </table>
 
@@ -106,17 +106,17 @@ If you want to experiment further with the service, you can also modify the code
     <th colspan="3">WordCount sample app<br></th>
   </tr>
   <tr>
-    <td colspan="3">The Apache Beam 2.0 Java SDK Quickstart `WordCount sample application creates reusable and mantainable pipelines that can read from a text file, apply transforms to tokenize and count the words, and write the data to an output text file.
+    <td colspan="3">The Apache Beam 2.0 Java SDK Quickstart WordCount sample application creates reusable and mantainable pipelines that can read from a text file, apply transforms to tokenize and count the words, and write the data to an output text file.
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">DEPLOY THE APP</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">DEPLOY THE APP ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></td>
   </tr>
 </table>
 
-*Table 5. `WordCount` sample app*
+*Table 5. WordCount sample app*
 
-<table summary="This table describes, in the first row, the `FileStreamSample` sample application. The table includes on the second row a link to a tutorial how to deploy the `FileStreamSample` application.
+<table summary="This table describes, in the first row, the FileStreamSample sample application. The table includes on the second row a link to a tutorial how to deploy the FileStreamSample application.
  ">
   <tr>
     <th colspan="3">FileStreamSample app<br></th>
@@ -126,8 +126,8 @@ If you want to experiment further with the service, you can also modify the code
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">DEPLOY THE APP</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">DEPLOY THE APP ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></td>
   </tr>
 </table>
 
-*Table 6.`FileStreamSample` app*
+*Table 6.FileStreamSample app*

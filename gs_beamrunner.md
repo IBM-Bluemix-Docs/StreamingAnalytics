@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -21,6 +21,6 @@ If you have an {{site.data.keyword.streamsshort}} development environment, you c
 
 Get started by using the [sample applications](/docs/services/StreamingAnalytics/c_starterapps.html) to learn how to submit and monitor a Beam application in the {{site.data.keyword.streaminganalyticsshort}} service. You can download the sample applications from the {{site.data.keyword.streaminganalyticsshort}} console.
 
-Check out the [{{site.data.keyword.streamsshort}} Runner for Apache Beam documentation](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/) to see tables that show how Streams Runner fits into the [Beam capability matrix]. See [Installing IBM Streams Runner for Apache Beam](http://bit.ly/2zFDpPr) to get instructions on how to install the `com.ibm.streams.beam` toolkit in your Streams environment to create Beam applications that you can submit and monitor in {{site.data.keyword.streaminganalyticsshort}}.
+Check out the [{{site.data.keyword.streamsshort}} Runner for Apache Beam documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window} to see tables that show how Streams Runner fits into the [Beam capability matrix]. See [Installing IBM Streams Runner for Apache Beam ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://bit.ly/2zFDpPr){:new_window} to get instructions on how to install the `com.ibm.streams.beam` toolkit in your Streams environment to create Beam applications that you can submit and monitor in {{site.data.keyword.streaminganalyticsshort}}.
 
-Some familiarity with Beam programming is helpful, though not required; the  [Apache Beam website](https://beam.apache.org/documentation/){:new_window} has a useful [Apache Beam Java SDK Quickstart](https://beam.apache.org/get-started/quickstart-java/){:new_window} page and other documentation.
+Some familiarity with Beam programming is helpful, though not required; the  [Apache Beam website ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://beam.apache.org/documentation/){:new_window} has a useful [Apache Beam Java SDK Quickstart ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://beam.apache.org/get-started/quickstart-java/){:new_window} page and other documentation.
