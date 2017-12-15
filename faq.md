@@ -80,7 +80,7 @@ Cloud-ready alternatives exist for solutions that need a mechanism for Streams t
 
 You can use the [{{site.data.keyword.Bluemix_notm}} Secure Gateway Service](https://console.ng.bluemix.net/catalog/services/secure-gateway) to securely connect streams applications to your enterprise.
 
-## Are all the features for {{site.data.keyword.streamsshort}} for on premises supported by the Streaming Analytics service in the cloud?
+## Are all the features for IBM Streams for on premises supported by the Streaming Analytics service in the cloud?
   {: #features}
 
 Some of the features that are not supported for {{site.data.keyword.streaminganalyticsshort}} service include the following:
