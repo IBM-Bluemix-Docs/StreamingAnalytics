@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -19,10 +19,10 @@ lastupdated: "2017-10-27"
 {{site.data.keyword.streaminganalyticsshort}} コンソール上で、{{site.data.keyword.streamsshort}} アプリケーションを直接 {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスにサブミットすることができます。
 {:shortdesc}
 
-{{site.data.keyword.streaminganalyticsshort}} コンソールを使用して、ジョブをモニターします。ダッシュボードを作成して、サブミットしたジョブの正常性についての詳細な表示を入手できます。{{site.data.keyword.streaminganalyticsshort}} コンソールには、アプリケーションをモニターするための以下の機能があります。
+{{site.data.keyword.streaminganalyticsshort}} コンソールを使用して、ジョブをモニターします。 ダッシュボードを作成して、サブミットしたジョブの正常性についての詳細な表示を入手できます。 {{site.data.keyword.streaminganalyticsshort}} コンソールには、アプリケーションをモニターするための以下の機能があります。
 
 * 注目するデータに焦点を合わせた照会の作成
-* 照会の結果をカードに表示。カードを使用すると、リアルタイムのグラフ、表、チャートなどのツールを使用して、アプリケーションに関する重要なデータを視覚化できます。
+* 照会の結果をカードに表示。 カードを使用すると、リアルタイムのグラフ、表、チャートなどのツールを使用して、アプリケーションに関する重要なデータを視覚化できます。
 * データを深く掘り下げるための派生メトリックの作成
 * 照会を変更せずにダッシュボードおよびログに表示されたデータを詳細化するためのフィルターの作成
 * ユーザーが定義した環境変数に基づくインスタンス・ログの表示

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -19,27 +19,27 @@ lastupdated: "2017-10-27"
 以下の分析ツールキットおよびアダプターが {{site.data.keyword.streaminganalyticsshort}} によってサポートされます。
 {:shortdesc}
 
-| ツールキット                        | 説明                  |
+| ツールキット                        | 説明							                  |
 | --------------------------------| --------------------------|
-| [Complex Event Processing (CEP)](https://ibm.co/2zOwODa)    |	複合イベント処理を実行する MatchRegex 演算子を提供します。|
-| [Datetime](https://ibmstreams.github.io/streamsx.datetime/)	|	日付、時刻、およびタイム・スタンプを処理する一連のユーティリティー。|
-| [HBase](http://ibmstreams.github.io/streamsx.hbase/)        | Streams アプリケーションが Apache HBase に接続できるようにします。	 	   |
-| [HDFS](http://ibmstreams.github.io/streamsx.hdfs/)          | Hadoop 分散ファイル・システムと対話する演算子と関数を提供します。|
-| [Internet (Inet)](http://ibmstreams.github.io/streamsx.inet)|  ネットワークにホストされたデータとの対話に焦点を当てます。       |
-| [IoT](http://ibmstreams.github.io/streamsx.iot/)            | {{site.data.keyword.Bluemix_notm}} またはオンプレミス ({{site.data.keyword.streamsshort}}) のいずれかで、IBM Watson IoT プラットフォームなどの Internet of Things (IoT) 統合を提供します。|
-| [JDBC](http://ibmstreams.github.io/streamsx.jdbc/)          | Streams アプリケーションが JDBC を介してデータベースで作業できるようにします。 	   |
-| [JSON](http://ibmstreams.github.io/streamsx.json/)          | データを JSON から Streams タプル形式 (およびその逆) に変換できるようにします。   		|
-| [Kafka](https://ibmstreams.github.io/streamsx.kafka/)       | Streams アプリケーションが簡単に Apache Kafka と統合できるようにします。 	 |
-| [MessageHub](https://ibmstreams.github.io/streamsx.messagehub/) | Streams アプリケーションが MessageHub で作業できるようにします。			     |
-| [Messaging](https://ibmstreams.github.io/streamsx.messaging/)   |  	よく使用されるメッセージング・システム (Kafka、MQTT、JMS、XMS など) との対話に焦点を当てます。	<br>**注**: WebSphere MQ で JMSSource、JMSSink、XMSSource、XMSSink を使用するには、開発環境で以下の必要な手順を実行します。<br>1. [GitHub 上の IBMStreams](https://github.com/IBMStreams){:new_window} にアクセスし、開発環境に Messaging Toolkit (com.ibm.streamsx.messaging) バージョン 3.0.0 以降をダウンロードします。<br>2. バージョン 5.1.0 以降のツールキットを使用して、アプリケーションをビルドします。<br>3. 必要な .bindings ファイルをアプリケーションの `/etc` ディレクトリーに入れて、それを {{site.data.keyword.streamsshort}} アプリケーション・バンドルに組み込みます。  |
-| [Mining](https://ibm.co/2y3i5au)              	   	            |  モデルを適用してデータ・ストリームのマイニングを行うために使用できる演算子が含まれています。     |
-| [RabbitMQ](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  Streams アプリケーションが Rabbit MQ からメッセージを読み取って送信できるようにする演算子を提供します。 |
-| [R-project](https://ibm.co/2h7D9lu)          	   	              |   RScript 演算子が含まれています。これを使用して R コマンドを実行し、複雑なデータ・マイニング・アルゴリズムを適用して、データ・ストリーム内の対象パターンを検出できます。			     |
-| [Topology](http://ibmstreams.github.io/streamsx.topology/)      |  {{site.data.keyword.Bluemix_notm}} プラットフォームおよび {{site.data.keyword.streamsshort}} で {{site.data.keyword.streaminganalyticsshort}} サービス用の Python ストリーミング・アプリケーションをビルドする機能を提供します。		     |
-| [DPS](http://ibmstreams.github.io/streamsx.dps/) |	 1 つ以上のマシン上で処理エレメント (PE) を実行している複数のアプリケーションが、アプリケーション固有の状態情報を共有できるようにします。<br>**制約事項:** REDIS のみがデータベース・バックエンドとしてサポートされます。| 	 	 	
-| [Geospatial](https://ibm.co/2h9x0VR) 	     |	位置データの処理および索引付けを効率的に行えるようにする演算子と関数が含まれています。<br>**制約事項:** 共有マップ・モードを使用する演算子はサポートされません (共有マップ・モードの `MapStore`、`PointMapMatcher`)。|
-| [TEDA](https://ibm.co/2z9DS00)	   | 	遠隔通信アプリケーションに使用される一連の汎用演算子を提供します。また、新しいファイル間 (file-to-file) アプリケーションをセットアップできるアプリケーション・フレームワークも提供します。[TEDA チュートリアル](http://ibmstreams.github.io/streamsx.tutorial.teda/)に従って開始します。ツールキットのすべての演算子と関数がサポートされます。<br>**制約事項:** アプリケーション・フレームワークはサポートされません。|
-| [TimeSeries](https://ibm.co/2zEPILZ)	 	  | TimeSeries Toolkit の演算子および関数は、時系列データの条件付け、分析、およびモデル化を行います。<br>**制約事項:** 非推奨の演算子はサポートされません。   |
+| [Complex Event Processing (CEP) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibm.co/2zOwODa)  |	複合イベント処理を実行する MatchRegex 演算子を提供します。  		 |
+| [Datetime ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibmstreams.github.io/streamsx.datetime/)	|	日付、時刻、およびタイム・スタンプを処理する一連のユーティリティー。	 |
+| [HBase![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.hbase/)        | Streams アプリケーションが Apache HBase に接続できるようにします。	 	   |
+| [HDFS ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.hdfs/)          | Hadoop 分散ファイル・システムと対話する演算子と関数を提供します。	|
+| [Internet (Inet) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.inet)|  ネットワークにホストされたデータとの対話に焦点を当てます。				       |
+| [IoT ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.iot/)            | {{site.data.keyword.Bluemix_notm}} またはオンプレミス ({{site.data.keyword.streamsshort}}) のいずれかで、IBM Watson IoT プラットフォームなどの Internet of Things (IoT) 統合を提供します。 |
+| [JDBC ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.jdbc/)          | Streams アプリケーションが JDBC を介してデータベースで作業できるようにします。		   |
+| [JSON ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.json/)          | データを JSON から Streams タプル形式 (およびその逆) に変換できるようにします。   		|
+| [Kafka ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibmstreams.github.io/streamsx.kafka/)       | Streams アプリケーションが簡単に Apache Kafka と統合できるようにします。 	 |
+| [MessageHub ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibmstreams.github.io/streamsx.messagehub/) | Streams アプリケーションが MessageHub で作業できるようにします。			     |
+| [Messaging ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibmstreams.github.io/streamsx.messaging/)   |  	よく使用されるメッセージング・システム (Kafka、MQTT、JMS、XMS など) との対話に焦点を当てます。	<br>**注**: WebSphere MQ で JMSSource、JMSSink、XMSSource、XMSSink を使用するには、開発環境で以下の必要な手順を実行します。 <br>1. [GitHub 上の IBMStreams ![外部リンク・アイコン ](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/IBMStreams){:new_window} にアクセスし、開発環境に Messaging Toolkit (com.ibm.streamsx.messaging) バージョン 3.0.0 以降をダウンロードします。<br>2. バージョン 5.1.0 以降のツールキットを使用して、アプリケーションをビルドします。<br>3. 必要な .bindings ファイルをアプリケーションの `/etc` ディレクトリーに入れて、それを {{site.data.keyword.streamsshort}} アプリケーション・バンドルに組み込みます。	    |
+| [Mining ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibm.co/2y3i5au)              	   	            |  モデルを適用してデータ・ストリームのマイニングを行うために使用できる演算子が含まれています。	     |
+| [RabbitMQ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  Streams アプリケーションが Rabbit MQ からメッセージを読み取って送信できるようにする演算子を提供します。  |
+| [R-project ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibm.co/2h7D9lu)          	   	              |   RScript 演算子が含まれています。これを使用して R コマンドを実行し、複雑なデータ・マイニング・アルゴリズムを適用して、データ・ストリーム内の対象パターンを検出できます。			     |
+| [Topology ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.topology/)      |  {{site.data.keyword.Bluemix_notm}} プラットフォームおよび {{site.data.keyword.streamsshort}} で {{site.data.keyword.streaminganalyticsshort}} サービス用の Python ストリーミング・アプリケーションをビルドする機能を提供します。		     |
+| [DPS ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.dps/) |	 1 つ以上のマシン上で処理エレメント (PE) を実行している複数のアプリケーションが、アプリケーション固有の状態情報を共有できるようにします。<br>**制約事項:** REDIS のみがデータベース・バックエンドとしてサポートされます。	| 	 	 	
+| [Geospatial ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibm.co/2h9x0VR) 	     |	位置データの処理および索引付けを効率的に行えるようにする演算子と関数が含まれています。<br>**制約事項:** 共有マップ・モードを使用する演算子はサポートされません (共有マップ・モードの `MapStore`、`PointMapMatcher`)。		 |
+| [TEDA ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibm.co/2z9DS00)	   | 	遠隔通信アプリケーションに使用される一連の汎用演算子を提供します。また、新しいファイル間 (file-to-file) アプリケーションをセットアップできるアプリケーション・フレームワークも提供します。 [TEDA チュートリアル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.tutorial.teda/) に従って開始します。ツールキットのすべての演算子と関数がサポートされます。 <br>**制約事項:** アプリケーション・フレームワークはサポートされません。	 	 |
+| [TimeSeries ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://ibm.co/2zEPILZ)	 	  | TimeSeries Toolkit の演算子および関数は、時系列データの条件付け、分析、およびモデル化を行います。 <br>**制約事項:** 非推奨の演算子はサポートされません。	   |
 
 *表 1. サポートされるツールキット*
 

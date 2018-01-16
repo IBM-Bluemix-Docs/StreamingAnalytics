@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Streaming Analytics-Starteranwendung verwenden
+# Starteranwendungen
 {: #starterapps}
 
 Sie können Starteranwendungen bereitstellen und modifizieren und Sie können in kürzester Zeit lernen, wie der {{site.data.keyword.streaminganalyticsshort}}-Service verwendet wird:
@@ -24,13 +24,13 @@ Sie können Starteranwendungen bereitstellen und modifizieren und Sie können in
     <th colspan="3">Beispiel-App 'Stock Trades'<br></th>
   </tr>
   <tr>
-    <td colspan="3">Diese Anwendung analysiert einen Datenstrom mit Börsennotierungen und generiert einen gleitenden Durchschnittswert der Preise mithilfe des Operators für die <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregierung</a>.
-Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen. Die vollständige Quelle für die Starteranwendung ist <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">auf GitHub verfügbar</a>.</p>
+    <td colspan="3">Diese Anwendung analysiert einen Datenstrom mit Börsennotierungen und generiert einen gleitenden Durchschnittswert der Preise mithilfe des Operators für die <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregierung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a>.
+Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen. Die vollständige Quelle für die Starteranwendung ist <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">auf GitHub verfügbar ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a>.</p>
 </td>
   </tr>
   <tr>
-    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">APP BEREITSTELLEN</a><br></td>
-    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">DOWNLOAD</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">Download ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
 </table>
 
@@ -42,16 +42,17 @@ Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit de
     <th colspan="3">Beispiel-App 'Event Detection'<br></th>
   </tr>
   <tr>
-    <td colspan="3">Die App 'Event Detection' wird über die Laufzeitumgebung <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}}</a> implementiert.
-Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse. Die Node.js-App ist an eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service gebunden. Die App steuert den Service über die {{site.data.keyword.streaminganalyticsshort}}-REST-API.
+    <td colspan="3">Die App 'Event Detection' wird über die Laufzeitumgebung <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert.
+Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
+Die Node.js-App ist an eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service gebunden. Die App steuert den Service über die {{site.data.keyword.streaminganalyticsshort}}-REST-API.
 <p>Sie können die Starteranwendung unverändert ausführen.
 Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen.</p>
 </td>
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">APP BEREITSTELLEN</a><br></td>
-    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">LERNPROGRAMM</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">DOWNLOAD</a></td>
+    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">Lernprogramm ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">Download ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
 </table>
 
@@ -68,8 +69,8 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">APP BEREITSTELLEN</a><br></td>
-    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">LERNPROGRAMM</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">DOWNLOAD</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">Lernprogramm ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">Download ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
 </table>
 
@@ -79,15 +80,15 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
 
 <table summary="In der ersten Zeile dieser Tabelle wird die Beam-Anwendung 'TemperatureSample' beschrieben. Die zweite Zeile enthält einen Link zu einem Lernprogramm für die Bereitstellung der Beam-Anwendung 'TemperatureSample'.">
   <tr>
-    <th colspan="3">Beam-App `TemperatureSample`<br></th>
+    <th colspan="3">Beam-App 'TemperatureSample'<br></th>
   </tr>
   <tr>
     <td colspan="3">Diese Anwendung erfasst Temperaturmesswerte mehrerer Geräte. Die Anwendung unterteilt die Messwerte in 'gut' (gültig) und 'schlecht' (ungültig) auf der Basis eines bestimmten Schwellenwerts. Die ungültigen Werte werden gezählt, für die gültigen Werte wird eine Basisstatistik generiert und die Ergebnisse werden schließlich protokolliert. Die App 'TemperatureSample' kann über die Streaming Analytics-Konsole heruntergeladen werden.
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">APP BEREITSTELLEN</a><br></td>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">APP ANZEIGEN</a></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">App anzeigen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
 </table>
 
@@ -102,13 +103,13 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
   </tr>
 </table>
 
-*Tabelle 5. Beispiel-App `'WordCount'`*
+*Tabelle 5. Beispiel-App 'WordCount'*
 
-<table summary="Die erste Zeile dieser Tabelle enthält eine Beschreibung der Beispielanwendung `FileStreamSample`. Die zweite Zeile enthält einen Link zu einem Lernprogramm für die Bereitstellung der Anwendung `FileStreamSample`.">
+<table summary="Die erste Zeile dieser Tabelle enthält eine Beschreibung der Beispielanwendung 'FileStreamSample'. Die zweite Zeile enthält einen Link zu einem Lernprogramm für die Bereitstellung der Anwendung 'FileStreamSample'.">
   <tr>
     <th colspan="3">App 'FileStreamSample'<br></th>
   </tr>
@@ -117,8 +118,8 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
   </tr>
 </table>
 
-*Tabelle 6. App `FileStreamSample`*
+*Tabelle 6. App 'FileStreamSample'*

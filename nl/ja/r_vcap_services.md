@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -16,11 +16,11 @@ lastupdated: "2017-10-27"
 # サービス資格情報および VCAP_SERVICES 環境変数
 {: #vcap_services}
 
-{{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} サービス REST API を使用するために必要な VCAP 情報が含まれています。VCAP 情報は、各 {{site.data.keyword.streaminganalyticsshort}} サービス REST API の REST URL、サービス・インスタンス ID、バインディング ID、および資格情報を提供します。  
+{{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} サービス REST API を使用するために必要な VCAP 情報が含まれています。 VCAP 情報は、各 {{site.data.keyword.streaminganalyticsshort}} サービス REST API の REST URL、サービス・インスタンス ID、バインディング ID、および資格情報を提供します。  
 {:shortdesc}
 
 
-{{site.data.keyword.streaminganalyticsshort}} サービスは、標準的な {{site.data.keyword.Bluemix_short}} サービスの動作および相互作用に従っています。{{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_notm}} でアプリケーションにバインドすると、このサービス・インスタンスの VCAP 情報は、VCAP_SERVICES 環境変数を使用して Bluemix アプリケーション環境で使用可能になります。バインド先の {{site.data.keyword.Bluemix_notm}} のアプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。{{site.data.keyword.streaminganalyticsshort}} サービス資格情報には、サービス・ダッシュボードからアクセスできます。
+{{site.data.keyword.streaminganalyticsshort}} サービスは、標準的な {{site.data.keyword.Bluemix_short}} サービスの動作および相互作用に従っています。 {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_notm}} でアプリケーションにバインドすると、このサービス・インスタンスの VCAP 情報は、VCAP_SERVICES 環境変数を使用して Bluemix アプリケーション環境で使用可能になります。 バインド先の {{site.data.keyword.Bluemix_notm}} のアプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報には、サービス・ダッシュボードからアクセスできます。
 
 
 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、以下の例に示されているような情報が含まれています。
@@ -50,4 +50,4 @@ lastupdated: "2017-10-27"
 }	  
 </code></pre>
 
-REST API について詳しくは、[{{site.data.keyword.streaminganalyticsshort}} REST API 資料](https://console.ng.bluemix.net/apidocs/220)を参照してください。
+REST API について詳しくは、[{{site.data.keyword.streaminganalyticsshort}} REST API 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/220){:new_window} を参照してください。

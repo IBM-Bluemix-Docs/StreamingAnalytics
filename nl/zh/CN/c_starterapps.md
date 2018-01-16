@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# 使用 Streaming Analytics 入门模板应用程序
+# 入门模板应用程序
 {: #starterapps}
 
 部署并修改入门模板应用程序，并快速了解如何使用 {{site.data.keyword.streaminganalyticsshort}} 服务：
@@ -26,13 +26,13 @@ lastupdated: "2017-10-27"
     <th colspan="3">股票交易样本应用程序<br></th>
   </tr>
   <tr>
-    <td colspan="3">此应用程序对股票报价流进行分析，并使用<a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">聚合</a>运算符生成价格的滚动平均值。
-您可以运行入门模板应用程序，而不进行修改。如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。入门模板应用程序的完整来源<a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">在 GitHub 上提供</a>。</p>
+    <td colspan="3">此应用程序对股票报价流进行分析，并使用<a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">聚合 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a> 运算符生成价格的滚动平均值。
+您可以运行入门模板应用程序，而不进行修改。如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。入门模板应用程序的完整来源<a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">在 GitHub 上提供 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a>。</p>
 </td>
   </tr>
   <tr>
-    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">部署应用程序</a><br></td>
-    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">下载</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">部署应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
   </tr>
 </table>
 
@@ -46,7 +46,7 @@ lastupdated: "2017-10-27"
     <th colspan="3">事件检测样本应用程序<br></th>
   </tr>
   <tr>
-    <td colspan="3">“事件检测”应用程序通过 <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}}</a> 运行时实现。
+    <td colspan="3">“事件检测”应用程序通过 <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a> 运行时实现。
 该应用程序提供一个简单的 Web UI，以显示分析的状态和结果。
 Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。该应用程序通过 {{site.data.keyword.streaminganalyticsshort}} REST API 控制该服务。
 <p>您可以运行入门模板应用程序，而不进行修改。
@@ -55,8 +55,8 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">部署应用程序</a><br></td>
-    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">教程</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">下载</a></td>
+    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">教程 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
   </tr>
 </table>
 
@@ -74,8 +74,8 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
   </tr>
   <tr>
     <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">部署应用程序</a><br></td>
-    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">教程</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">下载</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">教程 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
   </tr>
 </table>
 
@@ -86,15 +86,15 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
 <table summary="此表第一行描述 TemperatureSample Beam 应用程序，第二行包含指向如何部署 TemperatureSample Beam 应用程序的教程的链接。
  ">
   <tr>
-    <th colspan="3">`TemperatureSample` Beam 应用程序<br></th>
+    <th colspan="3">TemperatureSample Beam 应用程序<br></th>
   </tr>
   <tr>
     <td colspan="3">此应用程序用于从多个设备获取温度读数。此应用程序基于特定的阈值，将读数划分为“良好”（有效）和“不良”（无效）读数。它会统计不良读数的计数，并为良好读数生成一些基本的统计信息，最后记录结果。可以从 Streaming Analytics 控制台下载 TemperatureSample 应用程序。
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">部署应用程序</a><br></td>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">查看应用程序</a></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">部署应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">查看应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
   </tr>
 </table>
 
@@ -110,13 +110,13 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">部署应用程序</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">部署应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></td>
   </tr>
 </table>
 
-*表 5. `WordCount` 样本应用程序*
+*表 5. WordCount 样本应用程序*
 
-<table summary="此表第一行描述 `FileStreamSample` 样本应用程序，第二行包含指向如何部署 `FileStreamSample` 应用程序的教程的链接。
+<table summary="此表在第一行中描述 FileStreamSample 样本应用程序。此表在第二行上包含一个链接，该链接指向如何部署 FileStreamSample 应用程序的教程。
  ">
   <tr>
     <th colspan="3">FileStreamSample 应用程序<br></th>
@@ -126,8 +126,8 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">部署应用程序</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">部署应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></td>
   </tr>
 </table>
 
-*表 6. `FileStreamSample` 应用程序*
+*表 6. FileStreamSample 应用程序*

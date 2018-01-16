@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -19,14 +19,14 @@ lastupdated: "2017-10-27"
 作为您 {{site.data.keyword.Bluemix_short}} 应用程序的一部分，您可以使用 {{site.data.keyword.streaminganalyticsfull}}，对动态数据执行实时分析。
 {:shortdesc}
 
-第一次使用 {{site.data.keyword.streaminganalyticsshort}}？获取[服务的快速简介](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}。
+第一次使用 {{site.data.keyword.streaminganalyticsshort}}？获取[服务的快速简介 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}。
 
 {{site.data.keyword.streaminganalyticsshort}} 服务提供下列功能，通过这些功能，可在云中部署、分析和监视数据：
 
 
 **服务的交互和编程使用：**
 
-您可以通过[{{site.data.keyword.streaminganalyticsshort}} 控制台](/docs/services/StreamingAnalytics/c_streams_console.html)交互使用服务，或者通过 [{{site.data.keyword.streaminganalyticsshort}} REST API](https://console.ng.bluemix.net/apidocs/220){:new_window}，以编程方式加以使用。
+您可以通过 [{{site.data.keyword.streaminganalyticsshort}} 控制台](/docs/services/StreamingAnalytics/c_streams_console.html)交互使用服务，或者通过 [{{site.data.keyword.streaminganalyticsshort}} REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/apidocs/220){:new_window} 以编程方式加以使用。
 
 **部署和监视 SPL、Java、Scala 和 Python 应用程序：**
 
@@ -41,7 +41,7 @@ lastupdated: "2017-10-27"
 
 **与 {{site.data.keyword.streamsshort}} 操作程序的兼容性：**
 
-[{{site.data.keyword.streamsshort}} Processing Language (SPL) 标准工具箱](/docs/services/StreamingAnalytics/c_beta_adapters.html)中的 {{site.data.keyword.streamsshort}} 操作程序应该全部与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
+[{{site.data.keyword.streamsshort}} Processing Language (SPL) 标准工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)中的 {{site.data.keyword.streamsshort}} 操作程序应该全部与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
 
 ## Streaming Analytics 职责
 {: #responsibilities notoc}
@@ -57,7 +57,7 @@ lastupdated: "2017-10-27"
 客户还负责所开发此类程序或应用程序的质量和性能。
 程序可能通过 {{site.data.keyword.streamsshort}} Topology 功能，使用 SPL、Java 或其他受支持的语言开发。
 它们必须使用 {{site.data.keyword.streamsshort}} Developer Edition 或 {{site.data.keyword.streamsshort}} Quick Start Edition 搭配与用于 {{site.data.keyword.streaminganalyticsshort}} 相同的操作系统。
-* 定期检查以下链接，以随时了解已安排的非中断性或中断性停机 - [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}  
+* 定期检查以下链接，以随时了解已安排的非中断性或中断性停机 - [https://developer.ibm.com/bluemix/support/#status ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/bluemix/support/#status){:new_window}  
 * 根据业务需要，备份所有数据、元数据、配置文件和环境参数，以确保连续性。
 
 * 在可能发生的任何类型的故障中（包括但不限于数据中心或 pod 故障、服务器故障或硬盘故障或软件故障），从任何备份复原数据、元数据、配置文件和环境参数，以确保连续性。
@@ -72,12 +72,12 @@ lastupdated: "2017-10-27"
 * 在所选的节点数上，提供 {{site.data.keyword.streamsshort}} 的初始配置。
 * 为面向因特网的内部防火墙提供和管理基础架构，用于保护和隔离。
 
-* 在 {{site.data.keyword.streaminganalyticsfull}} 上监视和管理以下组件：
+* 在 {{site.data.keyword.streaminganalyticsshort}} 上监视和管理以下组件：
 	* 网络组件
 	* 服务器及其本地存储器
 	* 基础架构操作系统
 	* {{site.data.keyword.streamsshort}} 管理服务
 	* {{site.data.keyword.streamsshort}} 实例
 * 为基础架构操作系统和 {{site.data.keyword.streamsshort}} 提供维护补丁，包括适当的安全补丁。
-* 执行应该不需要任何系统停机（“非中断性”维护）的定期维护，和可能需要一些系统停机和重新启动（“中断性”维护）的维护，这些维护将在 [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window} 中发布的所安排时间执行
+* 执行应该不需要任何系统停机（“非中断性”维护）的定期维护，和可能需要一些系统停机和重新启动（“中断性”维护）的维护，这些维护将在 [https://developer.ibm.com/bluemix/support/#status ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/bluemix/support/#status){:new_window} 中发布的所安排时间执行
 * 对所安排维护时间的任何更改都以适当的通知形式发布。

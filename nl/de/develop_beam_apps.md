@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -24,7 +24,7 @@ Sie können jetzt Beam-Anwendungen in Ihrer lokalen {{site.data.keyword.streamss
 Um eine Beam-Anwendung an den {{site.data.keyword.streaminganalyticsshort}}-Service in {{site.data.keyword.Bluemix_notm}} zu übergeben, müssen Sie eine mit JSON formatierte VCAP-Datei erstellen, die Berechtigungsnachweise und weitere Informationen für den Service enthält.
 
 1. Navigieren Sie in der lokalen Streams-Umgebung zum Unterordner mit den Beispielen, in dem das Toolkit installiert wurde ($STREAMS_BEAM_RUNNER/samples), und kopieren Sie die Datei 'template.vcap' in eine neue Datei. Benennen Sie die Datei mit einem aussagekräftigen Dateinamen und der Dateierweiterung .vcap.
-1. [Kopieren Sie die Berechtigungsnachweise des {{site.data.keyword.streaminganalyticsshort}}-Service](/docs/services/StreamingAnalytics/r_vcap_services.md) und fügen Sie sie in die erstellte VCAP-Datei ein, wobei Sie die folgende Zeile ersetzen:
+1. [Kopieren Sie die Berechtigungsnachweise des {{site.data.keyword.streaminganalyticsshort}}-Service](/docs/services/StreamingAnalytics/r_vcap_services.html) und fügen Sie sie in die erstellte VCAP-Datei ein, wobei Sie die folgende Zeile ersetzen:
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```
@@ -33,4 +33,4 @@ Um eine Beam-Anwendung an den {{site.data.keyword.streaminganalyticsshort}}-Serv
 
 Ihre Anwendung wurde jetzt in der Cloud bereitgestellt. Sie können Ihre Anwendung überwachen, indem Sie den {{site.data.keyword.streaminganalyticsshort}}-Service verwenden.
 
-Weitere Details zur Bereitstellung und Überwachung der Beam-Anwendung in {{site.data.keyword.streaminganalyticsshort}} finden Sie in [Streams Runner for Apache Beam](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/).
+Weitere Details zur Bereitstellung und Überwachung der Beam-Anwendung in {{site.data.keyword.streaminganalyticsshort}} finden Sie in [Streams Runner for Apache Beam ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/).

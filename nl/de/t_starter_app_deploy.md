@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,49 +13,64 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Starteranwendungen für {{site.data.keyword.Bluemix_notm}} bereitstellen
+# Lernprogramm zur Einführung
 {: #starterapps_deploy}
 
-Sie können eine der {{site.data.keyword.streaminganalyticsshort}}-Starteranwendungen an {{site.data.keyword.Bluemix_short}} übertragen und dort bereitstellen.
+Streaming Analytics ist ein vollständig verwalteter Service, der Ihnen zeitaufwendige Installations-, Administrations- und Verwaltungsaufgaben abnimmt, sodass Sie mehr Zeit für die Entwicklung vobn Streaming-Anwendungen zur Verfügung haben. In diesem Lernprogramm zur Einführung lernen Sie, eine der {{site.data.keyword.streaminganalyticsshort}}-Starteranwendungen per Push-Operation an {{site.data.keyword.Bluemix_notm}} zu übermitteln und dort bereitzustellen.
 {:shortdesc}
 
-Bereiten Sie {{site.data.keyword.Bluemix_short}} im Voraus für das Bereitstellen der {{site.data.keyword.streaminganalyticsshort}}-Starteranwendungen vor:
 
-* [Installieren Sie das Befehlszeilentool 'cf'](https://github.com/cloudfoundry/cli/releases).
-* Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_short}}, fügen Sie Ihrer Anwendung den {{site.data.keyword.streaminganalyticsshort}}-Service hinzu und führen Sie ein erneutes Staging der Anwendung durch:
-	* Um die Starter-App 'Event Detection' bereitzustellen, erstellen Sie eine Anwendung mit der {{site.data.keyword.sdk4node}}-Laufzeitumgebung.
-	* Um die Starter-App 'NYC Traffic' bereitzustellen, erstellen Sie eine Anwendung mit der Liberty for Java™-Laufzeitumgebung.
+## Vorbereitung
+{: #prereqs}
 
-Merken Sie sich den Namen, den Sie der Anwendung geben. Sie benötigen ihn zu einem späteren Zeitpunkt wieder.
+Führen Sie vor dem Bereitstellen der Starter-Apps diese Schritte aus:
 
-{{site.data.keyword.streaminganalyticsshort}} stellt zwei Beispielanwendungen zur Verfügung, die Ihnen den Einstieg in die Arbeit mit dem Service erleichtern.
+* Nehmen Sie eine Registrierung für ein [{{site.data.keyword.Bluemix_notm}}-Konto ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration){:new_window} vor.
+* Erstellen Sie eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service in Ihrer {{site.data.keyword.Bluemix_notm}}-Organisation. Sie können die Instanz direkt über die [{{site.data.keyword.streaminganalyticsshort}}-Seite im {{site.data.keyword.Bluemix_notm}}-Servicekatalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window} erstellen.  
+* [Installieren Sie die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install).
 
-Die Starteranwendung "Event Detection" analysiert wetterbezogene Daten in einem Echtzeitstream und zeigt den Status und die Ergebnisse der Analyse an. Die Anwendung ist in {{site.data.keyword.sdk4node}} geschrieben. Nähere Informationen zur Verwendung der Starteranwendung "Event Detection" finden Sie unter [Detect complex events in a real-time data stream](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html).
 
-Die Starteranwendung 'NYC Traffic' liest und analysiert Verkehrsdaten von einer öffentlichen Website. Die Anwendung ist in Liberty for Java™ geschrieben. Nähere Informationen zur Verwendung der Starter-App 'NYC Traffic' finden Sie unter [{{site.data.keyword.streaminganalyticsfull}} Starter Application](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/).
 
-Gehen Sie wie folgt vor, um die Starteranwendung für {{site.data.keyword.Bluemix_short}} herunterzuladen und bereitzustellen:
+## Schritt 1: App erstellen und mit dem Service verbinden
+{: #create_connect}
 
-1. Laden Sie die Starteranwendung [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) oder [ NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) herunter. Wenn Sie die Beam-Beispiel-Apps verwenden möchten, können Sie diese Apps von der Konsole herunterladen. 
+1. Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_notm}}:
 
-2. Wechseln Sie über die Befehlszeile in das Projektverzeichnis.
+    a. Wählen Sie im {{site.data.keyword.Bluemix_notm}}-Menü **Cloud Foundry-Apps** aus und klicken Sie auf **Ressource erstellen**.
+
+    b. Wählen Sie Ihre Anwendungslaufzeit aus:
+  	* Um die Starter-App 'Event Detection' bereitzustellen, erstellen Sie eine Anwendung mit der {{site.data.keyword.sdk4node}}-Laufzeitumgebung.
+  	* Um die Starter-App 'NYC Traffic' bereitzustellen, erstellen Sie eine Anwendung mit der Liberty for Java™-Laufzeitumgebung.
+
+  Merken Sie sich den Namen, den Sie der Anwendung geben. Sie benötigen ihn zu einem späteren Zeitpunkt wieder.
+1. Stellen Sie eine Verbindung von der {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz zu Ihrer Anwendung her und führen Sie ein erneutes Staging für die Anwendung durch.
+
+## Schritt 2: Starteranwendung einrichten
+{: #setup_app}
+
+1. Laden Sie die Starteranwendung [Event Detection ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) oder [NYC Traffic ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) herunter.
+
+1. Benennen Sie das Verzeichnis so um, dass es dem Namen entspricht, den Sie Ihrer Anwendung in {{site.data.keyword.Bluemix_notm}} gegeben haben.
+
+## Schritt 3: Starteranwendung bereitstellen
+{: #deploy_app}
+
+1. Rufen Sie das Verzeichnis der Starteranwendung auf:
   <pre><code>cd myapp</code></pre>
   {:pre}
 
-3. Benennen Sie das Projektverzeichnis um, sodass der Name mit dem Namen übereinstimmt, den Sie Ihrer Anwendung in {{site.data.keyword.Bluemix_short}} gegeben haben.
-4. Stellen Sie eine Verbindung zu {{site.data.keyword.Bluemix_short}} her:
-  <pre><code>cf api https://api.DomainName</code></pre>
+1. Melden Sie sich bei {{site.data.keyword.Bluemix_notm}} an und legen Sie Ihre Zielorganisation fest, wenn Sie dazu aufgefordert werden:
+  <pre><code>bx login</code></pre>
   {:pre}
 
-5. Melden Sie sich bei {{site.data.keyword.Bluemix_short}} an und legen Sie Ihre Zielorganisation fest, wenn Sie dazu aufgefordert werden:
-  <pre><code>cf login</code></pre>
+1. Übertragen Sie die Anwendung mit einer Push-Operation an {{site.data.keyword.Bluemix_notm}}:
+  <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-6. Stellen Sie Ihre Anwendung bereit:
-  <pre><code>cf push myapp</code></pre>
-  {:pre}
+1. Navigieren Sie zur Seite mit der Anwendungsübersicht, auf die Sie über das {{site.data.keyword.Bluemix_notm}}-Dashboard gelangen, und prüfen Sie, ob Ihre Anwendung erfolgreich gestartet wurde.
+1. Starten Sie Ihre Anwendung, sodass sie im Browser zu sehen ist. Die URL (oder "Route") zu Ihrer Anwendung finden Sie auf der Seite mit der Anwendungsübersicht.
 
-7. Navigieren Sie zur Seite mit der Anwendungsübersicht, auf die Sie über das {{site.data.keyword.Bluemix_short}}-Dashboard gelangen, und prüfen Sie, ob Ihre Anwendung erfolgreich gestartet wurde.
-8. Starten Sie Ihre Anwendung, sodass sie im Browser zu sehen ist. Die URL (oder "Route") zu Ihrer Anwendung finden Sie auf der Seite mit der Anwendungsübersicht.
+## Weitere Schritte
+{: #next_steps}
 
-Wenn Ihre App ausgeführt wird, können Sie zum Service-Dashboard wechseln, um den Status Ihrer {{site.data.keyword.streaminganalyticsshort}}-Instanz anzuzeigen und um Informationen zur Fehlerbehebung anzufordern. Um auf das Service-Dashboard zuzugreifen, wechseln Sie zum {{site.data.keyword.Bluemix_short}}-Dashboard und klicken Sie auf die {{site.data.keyword.streaminganalyticsshort}}-Kachel auf der Seite mit der Anwendungsübersicht.
+Nachdem die Anwendung nun ausgeführt wird, können Sie sie über die {{site.data.keyword.streaminganalyticsshort}}-Konsole überwachen. Rufen Sie das Service-Dashboard auf, wählen Sie Ihren {{site.data.keyword.streaminganalyticsshort}}-Service aus und klicken Sie auf **Starten**.

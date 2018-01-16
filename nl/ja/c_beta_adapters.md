@@ -21,4 +21,4 @@ lastupdated: "2017-04-13"
 クラウド環境での FileSource や FileSink などの演算子の使用法について詳しくは、 [Getting your SPL application ready for the cloud](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window} を参照してください。
 {:shortdesc}
 
-ご使用の SPL アプリケーションに必要な演算子がこのリストに含まれていない場合は、お知らせください。必要な演算子について、[{{site.data.keyword.streaminganalyticsfull}}開発者フォーラム](https://developer.ibm.com/answers/topics/streaming-analytics.html){:new_window}に掲載してください。
+ご使用の SPL アプリケーションに必要な演算子がこのリストに含まれていない場合は、お知らせください。 必要な演算子について、[{{site.data.keyword.streaminganalyticsfull}}開発者フォーラム](https://developer.ibm.com/answers/topics/streaming-analytics.html){:new_window}に掲載してください。

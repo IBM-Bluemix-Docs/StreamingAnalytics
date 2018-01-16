@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -21,6 +21,6 @@ lastupdated: "2017-10-27"
 
 首先，使用[样本应用程序](/docs/services/StreamingAnalytics/c_starterapps.html)来了解如何在 {{site.data.keyword.streaminganalyticsshort}} 服务中提交和监视 Beam 应用程序。可以从 {{site.data.keyword.streaminganalyticsshort}} 控制台下载样本应用程序。
 
-查看 [{{site.data.keyword.streamsshort}} Runner for Apache Beam 文档](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/)，以了解说明 Streams Runner 如何适应 [Beam 功能矩阵] 的表。请参阅[安装 IBM Streams Runner for Apache Beam](http://bit.ly/2zFDpPr)，以获取有关如何在 Streams 环境中安装 `com.ibm.streams.beam` 工具箱，以创建可以在 {{site.data.keyword.streaminganalyticsshort}} 中提交和监视的 Beam 应用程序。
+查看 [{{site.data.keyword.streamsshort}}Runner for Apache Beam 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}，以了解说明 Streams Runner 如何适应 [Beam 功能矩阵] 的表。请参阅[安装 IBM Streams Runner for Apache Beam ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://bit.ly/2zFDpPr){:new_window}，以获取有关如何在 Streams 环境中安装 `com.ibm.streams.beam` 工具箱，以创建可以在 {{site.data.keyword.streaminganalyticsshort}} 中提交和监视的 Beam 应用程序。
 
-对 Beam 编程略有些了解会很有帮助，但这不是必需的；[Apache Beam Web 站点](https://beam.apache.org/documentation/){:new_window}具有十分有用的 [Apache Beam Java SDK Quickstart](https://beam.apache.org/get-started/quickstart-java/){:new_window} 页面和其他文档。
+对 Beam 编程略有些了解会很有帮助，但这不是必需的；[Apache Beam Web 站点 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://beam.apache.org/documentation/){:new_window} 具有十分有用的 [Apache Beam Java SDK Quickstart ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://beam.apache.org/get-started/quickstart-java/){:new_window} 页面和其他文档。

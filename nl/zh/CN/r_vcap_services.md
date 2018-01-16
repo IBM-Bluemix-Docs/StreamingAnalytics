@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -52,4 +52,4 @@ lastupdated: "2017-10-27"
 }	  
 </code></pre>
 
-有关 REST API 的更多信息，请参阅 [{{site.data.keyword.streaminganalyticsshort}} REST API 文档](https://console.ng.bluemix.net/apidocs/220)。
+有关 REST API 的更多信息，请参阅 [{{site.data.keyword.streaminganalyticsshort}} REST API 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/apidocs/220){:new_window}。

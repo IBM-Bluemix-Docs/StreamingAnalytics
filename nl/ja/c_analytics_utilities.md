@@ -49,7 +49,7 @@ Complex Event Processing Toolkit (com.ibm.streams.cep) は、複合イベント�
 詳細については、
 {{site.data.keyword.streamsshort}} 製品資料の [Operator MatchRegex](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.cep/op$com.ibm.streams.cep$MatchRegex.html?lang=en){:new_window} を参照してください。
 
-Complex Event Processing (CEP) では、パターンを使用して、ストリーム・タプル内の複合イベントを検出します。例えば、CEP を使用して、株価のパターン、運輸アプリケーションのルーティング・パターン、あるいは Web Commerce 設定でのユーザー行動パターンを検出できます。
+Complex Event Processing (CEP) では、パターンを使用して、ストリーム・タプル内の複合イベントを検出します。 例えば、CEP を使用して、株価のパターン、運輸アプリケーションのルーティング・パターン、あるいは Web Commerce 設定でのユーザー行動パターンを検出できます。
 
 ## TimeSeries Toolkit
 {: #timeseries notoc}
@@ -57,7 +57,7 @@ Complex Event Processing (CEP) では、パターンを使用して、ストリ�
 TimeSeries Toolkit (com.ibm.streams.timeseries) のオペレーターおよび関数は、時系列データの条件付け、分析、およびモデル化を行います。
 
 時系列とは、時間の経過にともなう単一または
-複数のオブジェクトの値を表す、一連の数値データを指します。例えば、時系列を計測できるものとして、スマート・メーターから収集される毎月の電気使用量、毎日の株価と出来高、心電図 (ECG) の記録、地震計、ネットワーク・パフォーマンス・レコードなどがあります。時系列には時間的順序があり、この時間的順序がすべての時系列分析アルゴリズムの基盤になります。
+複数のオブジェクトの値を表す、一連の数値データを指します。 例えば、時系列を計測できるものとして、スマート・メーターから収集される毎月の電気使用量、毎日の株価と出来高、心電図 (ECG) の記録、地震計、ネットワーク・パフォーマンス・レコードなどがあります。 時系列には時間的順序があり、この時間的順序がすべての時系列分析アルゴリズムの基盤になります。
 
 このツールキットでは、テストおよび検証の目的で時系列を生成するために使用できる、一連の関数も提供されます。
 
@@ -90,7 +90,7 @@ for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.
 ## Geospatial Toolkit
 {: #geospatial notoc}
 
-Geospatial Toolkit (com.ibm.streams.geospatial) には、位置データの処理および索引付けを効率的に行えるようにするオペレーターと関数が含まれています。例えば、全地球測位システム (GPS) の位置データを使用して、対象の地域内または周辺の存在物の動きを追跡したり、地球上のさまざまな地物の空間的な関係を計算したりできます。
+Geospatial Toolkit (com.ibm.streams.geospatial) には、位置データの処理および索引付けを効率的に行えるようにするオペレーターと関数が含まれています。 例えば、全地球測位システム (GPS) の位置データを使用して、対象の地域内または周辺の存在物の動きを追跡したり、地球上のさまざまな地物の空間的な関係を計算したりできます。
 
 
 以下の表では、Geospatial Toolkit で提供されるオペレーターをリストします。
@@ -152,7 +152,7 @@ JSON Toolkit (com.ibm.streamsx.json) は、SPL に対する JSON サポート、
 
 JDBC Toolkit (com.ibm.streams.jdbc) により、{{site.data.keyword.streaminganalyticsshort}} は、追加の {{site.data.keyword.Bluemix_short}} データベース・サービス (SQL Database、dashDB など) と通信できるようになります。
 
-ツールキットは、JDBCRun 演算子を組み込みます。詳しくは、『[Using {{site.data.keyword.streaminganalyticsshort}} with JDBC-enabled {{site.data.keyword.Bluemix_short}}](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/){:new_window}』および{{site.data.keyword.streamsshort}} 製品資料内の『[com.ibm.streamsx.jdbc](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.jdbc/tk$com.ibm.streamsx.jdbc.html){:new_window}』を参照してください。
+ツールキットは、JDBCRun 演算子を組み込みます。 詳しくは、『[Using {{site.data.keyword.streaminganalyticsshort}} with JDBC-enabled {{site.data.keyword.Bluemix_short}}](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/){:new_window}』および{{site.data.keyword.streamsshort}} 製品資料内の『[com.ibm.streamsx.jdbc](http://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streamsx.jdbc/tk$com.ibm.streamsx.jdbc.html){:new_window}』を参照してください。
 
 ## R-project Toolkit
 {: #rproject notoc}
@@ -188,7 +188,7 @@ for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.
 ## Mining Toolkit
 {: #mining notoc}
 
-Mining Toolkit (com.ibm.streams.mining) には、モデルを適用してデータ・ストリームのマイニングを行うために使用できるオペレーターが含まれています。データ・ストリームのマイニングによって関連情報 (インテリジェンス) を取り出すことは、ほとんどのストリーム処理アプリケーションにとって非常に重要な作業です。この作業には、不正検出から、顧客のセグメンテーション、チャーンや侵入の防止に至るまで様々なものがあります。
+Mining Toolkit (com.ibm.streams.mining) には、モデルを適用してデータ・ストリームのマイニングを行うために使用できるオペレーターが含まれています。 データ・ストリームのマイニングによって関連情報 (インテリジェンス) を取り出すことは、ほとんどのストリーム処理アプリケーションにとって非常に重要な作業です。この作業には、不正検出から、顧客のセグメンテーション、チャーンや侵入の防止に至るまで様々なものがあります。
 
 以下の表では、Mining Toolkit で提供されるオペレーターをリストします。
 
@@ -214,7 +214,7 @@ for the {{site.data.keyword.streamsshort}} specialized toolkits](http://www.ibm.
 ## Telecommunications Event Data Analytics (TEDA) Toolkit
 {: #teda notoc}
 
-Telecommunications Event Data Analytics (TEDA) Toolkit (com.ibm.streams.teda) は、遠隔通信アプリケーションに使用される一連の汎用オペレーターを提供します。また、新しいファイル間 (file-to-file) アプリケーションをセットアップするための一連のアプリケーション・フレームワークも提供します。これらのアプリケーションはコード・テンプレートに基づいており、カスタマイズ、構成可能な並列処理、アプリケーションの安全なシャットダウン、および信頼性のあるファイル処理をサポートしています。
+Telecommunications Event Data Analytics (TEDA) Toolkit (com.ibm.streams.teda) は、遠隔通信アプリケーションに使用される一連の汎用オペレーターを提供します。また、新しいファイル間 (file-to-file) アプリケーションをセットアップするための一連のアプリケーション・フレームワークも提供します。 これらのアプリケーションはコード・テンプレートに基づいており、カスタマイズ、構成可能な並列処理、アプリケーションの安全なシャットダウン、および信頼性のあるファイル処理をサポートしています。
 
 以下の表では、Telecommunications Event Data Analytics Toolkit で提供されるオペレーターをリストします。
 
@@ -241,11 +241,11 @@ Operators: com.ibm.streams.teda](http://www.ibm.com/support/knowledgecenter/SSCR
 このトポロジー・ツールキットは、以下のプログラミング言語で {{site.data.keyword.streamsshort}} アプリケーション
 をビルドするためのサポートを提供します。
 
-* Python: Python アプリケーション API は、Python で実装されたストリーミング・アプリケーションの定義および実行を可能にするモジュールです。アプリケーションは、Python コードを使用してタプル (Python オブジェクト) を処理しま
+* Python: Python アプリケーション API は、Python で実装されたストリーミング・アプリケーションの定義および実行を可能にするモジュールです。 アプリケーションは、Python コードを使用してタプル (Python オブジェクト) を処理しま
 す。
 * Java: Java アプリケーション API は、Java で実装されたストリーミング・アプリケーションの定義および実行を可能にするライブラリーです。
 * Scala へのサポート: 提供される Java アプリケーション API は、Scala で作成されたアプリケーションをサポートします。
-* SPL: Publish 演算子および Subscribe 演算子は、その層の実装言語とは関係なく、アプリケーション間でストリームを交換するメカニズムを提供します。SPL タイプを使用すると、他の言語で実装されたアプリケーションと交換できます。
+* SPL: Publish 演算子および Subscribe 演算子は、その層の実装言語とは関係なく、アプリケーション間でストリームを交換するメカニズムを提供します。 SPL タイプを使用すると、他の言語で実装されたアプリケーションと交換できます。
 
 以下の表では、Topology Toolkit で提供されるオペレーターをリストします。
 
