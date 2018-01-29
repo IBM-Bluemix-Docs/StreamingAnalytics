@@ -5,12 +5,8 @@
 Streaming Analytics
 
     {: .navgroup id="learn"}
+    t_starter_app_deploy.md
     index.md
-
-    {: .topicgroup}
-    Guías de inicio
-        gs_python.md
-        gs_beamrunner.md
 
     {: .topicgroup}
     Acerca de
@@ -19,11 +15,13 @@ Streaming Analytics
         r_service_dashboard.md
         c_ha.md
 
-	{: .topicgroup}
-    Apps de muestra
-        c_starterapps.md
-        t_starter_app_deploy.md
-    {: .navgroup-end}
+	  {: .topicgroup}
+    c_starterapps.md
+
+    {: .topicgroup}
+    gs_python.md
+    gs_beamrunner.md
+      {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
@@ -49,4 +47,5 @@ Streaming Analytics
 
     {: .navgroup id="help"}
     ts_StreamingAnalytics.md
+    faq.md
     {: .navgroup-end}

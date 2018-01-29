@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -20,4 +20,4 @@ Ahora puede crear apps Streams en un entorno Python, como IBM Data Science Exper
 
 Comience a crear apps Streams Python de ejemplo utilizando cuadernos Jupyter en DSX y envíe estas apps a la instancia del servicio directamente desde DSX. Para obtener más información, consulte el apartado sobre [Desarrollo de apps Streams Python en DSX](/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_python_dsx).
 
-{{site.data.keyword.streaminganalyticsshort}} también da soporte al despliegue de apps Streams desde su entorno Python local. Debe utilizar la [API de la aplicación {{site.data.keyword.streamsshort}} Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que se incluye en el paquete streamsx, para desarrollar sus apps Streams Python localmente y enviarlas a la instancia del servicio. Para empezar, siga los pasos de la guía de aprendizaje [Desarrollo para el servicio {{site.data.keyword.streaminganalyticsshort}}](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html).
+{{site.data.keyword.streaminganalyticsshort}} también da soporte al despliegue de apps Streams desde su entorno Python local. Debe utilizar la [API de la aplicación {{site.data.keyword.streamsshort}} Python ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que se incluye en el paquete streamsx, para desarrollar sus apps Streams Python localmente y enviarlas a la instancia del servicio. Para empezar, siga los pasos de la guía de aprendizaje [Desarrollo para el servicio {{site.data.keyword.streaminganalyticsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html).

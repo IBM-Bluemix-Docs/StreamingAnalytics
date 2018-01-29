@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,17 +13,17 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Données d'identification de service et variable d'environnement VCAP_SERVICES
+# 서비스 신임 정보 및 VCAP_SERVICES 환경 변수
 {: #vcap_services}
 
-Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES incluent les informations VCAP qui sont requises pour utiliser l'API REST de service {{site.data.keyword.streaminganalyticsshort}}. Les informations VCAP fournissent l'URL REST, l'ID instance de service, l'ID liaison et les données d'identification pour chaque API REST de service {{site.data.keyword.streaminganalyticsshort}}.  
+{{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보 및 VCAP_SERVICES 환경 변수는 {{site.data.keyword.streaminganalyticsshort}} 서비스 REST API를 사용하기 위해 필요한 VCAP 정보를 포함합니다. VCAP 정보는 각 {{site.data.keyword.streaminganalyticsshort}} 서비스 REST API에 대한 신임 정보, 바인딩 ID, 서비스 인스턴스 ID, REST URL을 제공합니다.  
 {:shortdesc}
 
 
-Le service {{site.data.keyword.streaminganalyticsshort}} suit le comportement et les interactions de service {{site.data.keyword.Bluemix_short}} typiques. Quand une instance de service {{site.data.keyword.streaminganalyticsshort}} est provisionnée et liée à une application dans {{site.data.keyword.Bluemix_notm}}, les informations VCAP d'instance de service sont disponibles dans l'environnement d'application Bluemix via la variable d'environnement VCAP_SERVICES. Quand une instance de service {{site.data.keyword.streaminganalyticsshort}} est provisionnée sans spécification d'une application dans {{site.data.keyword.Bluemix_notm}} à laquelle se lier, les données d'authentification de service sont automatiquement créées. Les données d'authentification de service {{site.data.keyword.streaminganalyticsshort}} sont accessibles depuis le tableau de bord de service.
+{{site.data.keyword.streaminganalyticsshort}} 서비스는 일반적인 {{site.data.keyword.Bluemix_short}} 서비스 동작과 상호작용을 따릅니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 프로비저닝되어 {{site.data.keyword.Bluemix_notm}}의 애플리케이션에 바인드되면, 서비스 인스턴스 VCAP 정보가 VCAP_SERVICES 환경 변수를 통해 Bluemix 애플리케이션 환경에서 사용 가능해집니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 바인드할 대상인 {{site.data.keyword.Bluemix_notm}}의 애플리케이션을 지정하지 않고 프로비저닝되면 서비스 신임 정보가 자동으로 작성됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보는 서비스 대시보드에서 액세스할 수 있습니다.
 
 
-Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES incluent des informations, comme celles présentées dans l'exemple suivant :
+{{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보와 VCAP_SERVICES 환경 변수는 다음 예제에서 제공되는 정보를 포함합니다.
 
 <pre><code>
 {
@@ -50,4 +50,4 @@ Les données d'identification de service {{site.data.keyword.streaminganalyticss
 }	  
 </code></pre>
 
-Pour plus d'informations sur l'API REST, voir la [documentation sur les API REST {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220).
+REST API에 대한 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}} REST API 문서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.ng.bluemix.net/apidocs/220){:new_window}를 참조하십시오.

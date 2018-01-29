@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,39 +13,38 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Déploiement de vos applications Streams sur {{site.data.keyword.Bluemix_notm}}
+# {{site.data.keyword.Bluemix_notm}}에 Streams 애플리케이션 배치
 {: #c_getting_app_bluemix}
 
 
- Vous maîtrisez {{site.data.keyword.streamsshort}} et disposez d'un environnement de développement ? Les outils et ressources disponibles pour commencer à utiliser le service {{site.data.keyword.streaminganalyticsshort}} sont présentés ci-dessous.
+ {{site.data.keyword.streamsshort}}에 익숙하고 개발 환경을 사용할 수 있습니까? 여기에 {{site.data.keyword.streaminganalyticsshort}} 서비스를 시작하는 데 도움이 되는 도구 및 리소스가 있습니다.
 {:shortdesc}
 
-<table summary="Ce tableau fournit une liste des outils et ressources nécessaires pour développer et déployer vos applications {{site.data.keyword.streamsshort}}.">
+<table summary="이 표는 {{site.data.keyword.streamsshort}} 애플리케이션을 개발하고 배치하는 데 필요한 도구와 리소스의 목록을 제공합니다.">
   <tr>
-    <th>Outils<br></th>
-    <th>Ressources<br></th>
+    <th>도구<br></th>
+    <th>리소스<br></th>
   </tr>
   <tr>
     <td>
       <ul>
-        <li><a href="/docs/services/StreamingAnalytics/c_compatible_adapters.html" target="_blank">Adaptateurs compatibles</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/c_analytics_utilities.html" target="_blank">Kits d'outils d'analyse et utilitaires compatibles</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">Données d'identification de service et variable d'environnement VCAP_SERVICES</a><br></li>
-         <li><a href="https://github.com/IBMStreams" target="_blank">IBM Streams sur
-GitHub</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">지원되는 툴킷 및 어댑터</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">서비스 신임 정보 및 VCAP_SERVICES 환경 변수</a><br></li>
+        <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on
+GitHub ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics Development Guide</a><br></li>
-        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Connecting to streams: What you need to know</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Initiation à Streaming Analytics</a><br></li>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Développement d'applications Python pour Streaming Analytics</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Développement d'applications Beam pour Streaming Analytics</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
+        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Streams에 연결: 알아야 할 사항 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics 시작하기</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">클라우드에 맞게 SPL 애플리케이션 준비하기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Streaming Analytics용 Python 애플리케이션 개발 </a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Streaming Analytics용 Beam 애플리케이션 개발</a><br></li>
       </ul>    
     </td>
   </tr>
 </table>
 
-*Tableau 1. Outils et ressources {{site.data.keyword.streaminganalyticsshort}}*
+*표 1. {{site.data.keyword.streaminganalyticsshort}} 도구 및 리소스*

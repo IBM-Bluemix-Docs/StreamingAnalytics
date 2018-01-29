@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -14,24 +14,24 @@ lastupdated: "2017-10-27"
 {:pre: .pre}
 
 
-# Initiation à Streaming Analytics
+# Streaming Analytics 개요
 {: #gettingstarted}
 
-{{site.data.keyword.streaminganalyticsshort}} tire sa puissance d'{{site.data.keyword.streamsshort}}, une plateforme d'analyse avancée que vous pouvez utiliser pour recevoir, analyser et mettre en corrélation les informations au fur et à mesure qu'elles arrivent depuis différentes sources de données en temps réel. Lorsque vous créez une instance du service {{site.data.keyword.streaminganalyticsshort}}, vous obtenez votre propre instance d'{{site.data.keyword.streamsshort}} s'exécutant dans {{site.data.keyword.Bluemix_short}}, prête à exécuter vos applications {{site.data.keyword.streamsshort}}.
+{{site.data.keyword.streaminganalyticsfull}}는 실시간으로 다양한 유형의 데이터 소스에서 도착하는 정보를 수집, 분석, 상관시키기 위해 사용할 수 있는 고급 분석 플랫폼인 {{site.data.keyword.streamsshort}}에서 제공합니다. {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스를 작성하면 사용자의 {{site.data.keyword.streamsshort}} 애플리케이션을 실행할 준비가 된, {{site.data.keyword.Bluemix_short}}에서 실행되고 있는 사용자 고유의 {{site.data.keyword.streamsshort}} 인스턴스를 얻게 됩니다.
 {:shortdesc}
 
-Utilisez directement {{site.data.keyword.streaminganalyticsshort}} en exécutant les [applications de démarrage](/docs/services/StreamingAnalytics/c_starterapps.html){:new_window}.
+[스타터 애플리케이션](/docs/services/StreamingAnalytics/t_starter_app_deploy.html){:new_window}을 실행하여 바로 {{site.data.keyword.streaminganalyticsshort}}를 시작하십시오.
 
-Pour commencer à vous servir de {{site.data.keyword.streaminganalyticsshort}}, utilisez l'une des méthodes ci-après pour soumettre le bundle d'applications (fichier .sab) associé à votre application SPL, Java™, Python ou Scala Streams :
-* Utilisez le bouton **Soumettre un travail** dans la console {{site.data.keyword.streaminganalyticsshort}}.
-* Développez une application dans {{site.data.keyword.Bluemix_notm}} et ajoutez-y l'application {{site.data.keyword.streamsshort}}. Contrôlez-la en utilisant l'[API REST {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220).
+{{site.data.keyword.streaminganalyticsshort}}를 시작하려면 다음 방법 중 하나를 사용하여 SPL, Java™, Python 또는 Scala Streams 애플리케이션과 연관된 애플리케이션 번들(.sab 파일)을 제출하십시오.
+* {{site.data.keyword.streaminganalyticsshort}} 콘솔에서 **작업 제출** 단추를 사용하십시오.
+* {{site.data.keyword.Bluemix_notm}}에서 애플리케이션을 개발하고 여기에 {{site.data.keyword.streamsshort}} 애플리케이션을 추가하십시오. [{{site.data.keyword.streaminganalyticsshort}} REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.ng.bluemix.net/apidocs/220){:new_window}를 사용하여 이를 제어하십시오. 
 
-Utilisez {{site.data.keyword.streaminganalyticsshort}} avec d'autres services {{site.data.keyword.Bluemix_short}}, dont {{site.data.keyword.cloudant}} et {{site.data.keyword.messagehub}}. Voir les [tutoriels traitant de l'intégration à d'autres services {{site.data.keyword.Bluemix_short}}](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window} pour des exemples permettant d'être directement opérationnel.
+{{site.data.keyword.cloudant}} 및 {{site.data.keyword.messagehub}}를 포함하여 기타 {{site.data.keyword.Bluemix_short}} 서비스와 함께 {{site.data.keyword.streaminganalyticsshort}}를 사용하십시오. 시작하고 실행할 수 있게 하는 예제에 대해서는 [기타 {{site.data.keyword.Bluemix_short}} 서비스와의 통합을 위한 튜토리얼](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window}을 참조하십시오.
 
-Si vous voulez aller plus loin avec vos propres applications, vous pouvez obtenir un environnement de développement {{site.data.keyword.streamsshort}} et vous devez faire en sorte que votre application soit prête pour le cloud. Si vous n'avez pas d'environnement {{site.data.keyword.streamsshort}}, vous pouvez télécharger gratuitement {{site.data.keyword.streamsshort}} Quick Start Edition depuis la [page de produit {{site.data.keyword.streamsshort}}.](https://www.ibm.com/analytics/us/en/technology/stream-computing/#products)
+자체 애플리케이션으로 추가 작업을 진행하려는 경우, {{site.data.keyword.streamsshort}} 개발 환경을 가져올 수 있으며 애플리케이션을 클라우드에 맞게 준비해야 합니다. {{site.data.keyword.streamsshort}} 환경이 없는 경우 {{site.data.keyword.streamsshort}} Quick Start Edition을 [{{site.data.keyword.streamsshort}} 제품 페이지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/analytics/us/en/technology/stream-computing/#products)에서 무료로 다운로드할 수 있습니다. 
 
-Si vous ne maîtrisez pas le développement d'applications {{site.data.keyword.streamsshort}}, des ressources vous permettent de vous familiariser. Pour plus d'informations, voir [{{site.data.keyword.streamsshort}} Knowledge Center.](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
+{{site.data.keyword.streamsshort}} 애플리케이션 개발이 익숙하지 않는 경우 학습을 도와줄 리소스가 있습니다. 자세한 정보는 [{{site.data.keyword.streamsshort}} Knowledge Center ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}를 참조하십시오. 
 
-Si vous disposez déjà d'une application SPL exécutée sur site, vous devez [préparer votre application pour le cloud.](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
+온프레미스에서 실행하는 SPL 애플리케이션이 이미 있는 경우 [클라우드에 맞게 애플리케이션을 준비![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}해야 합니다. 
 
-**Remarque :** vous devez compiler vos applications sous Red Hat Enterprise Linux (RHEL) 6.5 ou une version CentOS équivalente, utilisant des processeurs Intel.
+**참고:** Intel 프로세서를 사용하여 Red Hat Enterprise Linux(RHEL) 6.5 또는 이와 동등한 CentOS 버전에서 애플리케이션을 컴파일해야 합니다.

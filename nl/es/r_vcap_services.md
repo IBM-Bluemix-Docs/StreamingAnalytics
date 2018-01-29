@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -50,4 +50,4 @@ Las credenciales de servicio de {{site.data.keyword.streaminganalyticsshort}} y 
 }	  
 </code></pre>
 
-Para obtener más información sobre la API REST, consulte la [documentación de la API REST de {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220).
+Para obtener más información sobre la API REST, consulte la [documentación de la API REST de {{site.data.keyword.streaminganalyticsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.ng.bluemix.net/apidocs/220){:new_window}.

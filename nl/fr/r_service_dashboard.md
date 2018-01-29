@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,19 +13,19 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Tableau de bord du service
+# 서비스 대시보드
 {: #dashboard}
 
-Vous pouvez accéder à votre service {{site.data.keyword.streaminganalyticsshort}} depuis le tableau de bord de service {{site.data.keyword.Bluemix_short}}.
+{{site.data.keyword.Bluemix_short}} 서비스 대시보드에서 {{site.data.keyword.streaminganalyticsshort}} 서비스에 액세스할 수 있습니다.
 {:shortdesc}
 
-Depuis le tableau de bord de service, vous pouvez :
+서비스 대시보드에서 다음을 수행할 수 있습니다.
 
-* Afficher le statut de votre service {{site.data.keyword.streaminganalyticsshort}}.
-* Arrêter et démarrer votre instance de service.
-* Accéder à la console {{site.data.keyword.streaminganalyticsshort}}.
-* Redimensionner votre instance de service en ajoutant ou retirant des noeuds d'application depuis votre instance de service si l'instance est facturée pour une utilisation horaire.
-* Indiquer si votre instance de service, qui est facturée pour une utilisation horaire, doit s'arrêter automatiquement quand aucun travail ne s'exécute pendant une période de temps prolongée.
-* Accéder aux données d'identification de service.
-* Accéder aux tutoriels pour les applications de démarrage.
-* Accéder à la documentation relative aux services et aux forums utilisateur.
+* {{site.data.keyword.streaminganalyticsshort}} 서비스의 상태를 봅니다.
+* 서비스 인스턴스를 중지하고 시작합니다.
+* {{site.data.keyword.streaminganalyticsshort}} 콘솔에 액세스합니다.
+* 인스턴스가 시간당 사용량으로 청구되는 경우 서비스 인스턴스에 애플리케이션 노드를 추가하거나 제거하여 서비스 인스턴스의 크기를 조정합니다.
+* 시간당 사용량으로 청구되는 서비스 인스턴스의 경우 연장된 기간 동안 실행되는 작업이 없으면 자동으로 중지할 지 여부를 표시합니다.
+* 서비스 신임 정보에 액세스합니다.
+* 스타터 애플리케이션을 위한 튜토리얼에 액세스합니다.
+* 서비스 문서와 사용자 포럼에 액세스합니다.

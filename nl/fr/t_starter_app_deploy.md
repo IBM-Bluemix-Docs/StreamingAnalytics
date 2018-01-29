@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -13,50 +13,64 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Déploiement des applications de démarrage sur {{site.data.keyword.Bluemix_notm}}
+# 시작하기 튜토리얼
 {: #starterapps_deploy}
 
-Vous pouvez envoyer et déployer l'une des applications de démarrage {{site.data.keyword.streaminganalyticsshort}} vers {{site.data.keyword.Bluemix_short}}.
+Streaming Analytics는 시간이 많이 걸리는 설치 및 관리 태스크에 시간을 쓸 필요가 없는 완전히 관리되는 서비스로 사용자는 스트리밍 애플리케이션을 개발하는 데 더욱 집중할 수 있습니다. 이 시작하기 튜토리얼에서 {{site.data.keyword.streaminganalyticsshort}} 스타터 애플리케이션 중의 하나를 {{site.data.keyword.Bluemix_notm}}에 푸시하고 배치하게 됩니다.
 {:shortdesc}
 
-Avant de commencer, préparez {{site.data.keyword.Bluemix_short}} au déploiement des applications de démarrage {{site.data.keyword.streaminganalyticsshort}} :
 
-* [Installez l'outil de ligne de commande cf](https://github.com/cloudfoundry/cli/releases).
-* Créez une application dans {{site.data.keyword.Bluemix_short}}, ajoutez le service {{site.data.keyword.streaminganalyticsshort}} à votre application et reconstituez l'application :
-	* Pour déployer l'application de démarrage de détection d'événements, créez une application avec une phase d'exécution {{site.data.keyword.sdk4node}}.
-	* Pour déployer l'application de démarrage relative au trafic new-yorkais, créez une application avec une phase d'exécution Liberty for Java™.
+## 시작하기 전에
+{: #prereqs}
 
-Mémorisez le nom que vous attribuez à votre application ; vous en aurez besoin ultérieurement.
+스타터 앱을 배치하기 전에 다음 단계를 수행해야 합니다. 
 
-{{site.data.keyword.streaminganalyticsshort}} fournit deux applications exemple pour vous permettre de démarrer avec le service.
+* [{{site.data.keyword.Bluemix_notm}} 계정 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration){:new_window}을 등록하십시오. 
+* {{site.data.keyword.Bluemix_notm}} 조직에 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스를 작성하십시오. [{{site.data.keyword.Bluemix_notm}} 서비스 카탈로그의 {{site.data.keyword.streaminganalyticsshort}} 페이지![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}에서 인스턴스를 직접 작성할 수 있습니다.   
+* [{{site.data.keyword.Bluemix_notm}} CLI를 설치![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install)
 
-L'application de démarrage de détection d'événements analyse les données relatives à la météo dans un flux en temps réel et affiche le statut et les résultats de l'analyse. L'application est écrite en {{site.data.keyword.sdk4node}}. Pour plus de détails sur la façon d'utiliser l'application de démarrage de détection d'événements, voir [Detect complex events in a real-time data stream](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html).
 
-L'application de démarrage relative au trafic new-yorkais lit et analyse les données de trafic depuis un site Web public. L'application est écrite en Liberty for Java. Pour plus de détails sur la façon d'utiliser l'application de démarrage relative au trafic new-yorkais, voir [{{site.data.keyword.streaminganalyticsfull}} Starter Application](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/).
 
-Pour télécharger et déployer l'application de démarrage dans {{site.data.keyword.Bluemix_short}} :
+## 1단계: 앱을 작성하고 서비스에 앱을 연결
+{: #create_connect}
 
-1. Téléchargez les applications de démarrage relatives à la [détection d'événements](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) ou au [trafic new-yorkais](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic). Si vous voulez utiliser les exemples d'applications Beam, vous pouvez les télécharger à partir de la console.
+1. {{site.data.keyword.Bluemix_notm}}에서 애플리케이션을 작성하십시오.
 
-2. Sur la ligne de commande, allez dans le répertoire de projet.
-  <pre><code>cd mon_app</code></pre>
+    a. {{site.data.keyword.Bluemix_notm}} 메뉴에서 **Cloud Foundry 앱**을 선택하고 **리소스 작성**을 클릭하십시오.
+
+    b. 애플리케이션 런타임을 선택하십시오. 
+  	* Event Detection 스타터 앱을 배치하려면 {{site.data.keyword.sdk4node}} 런타임을 사용하여 애플리케이션을 작성하십시오.
+  	* NYC Traffic 스타터 앱을 배치하려면 Liberty for Java™ 런타임으로 애플리케이션을 작성하십시오.
+
+  애플리케이션에 제공한 이름을 기억해 두십시오. 나중에 필요합니다.
+1. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스를 애플리케이션에 연결하고 애플리케이션을 다시 스테이징하십시오.
+
+## 2단계: 스타터 애플리케이션 설정
+{: #setup_app}
+
+1. [Event Detection ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 또는 [NYC Traffic ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) 스타터 애플리케이션을 다운로드하십시오. 
+
+1. {{site.data.keyword.Bluemix_notm}}에서 애플리케이션에 지정한 이름과 일치하도록 디렉토리의 이름을 바꾸십시오.
+
+## 3단계: 스타터 애플리케이션 배치
+{: #deploy_app}
+
+1. 스타터 애플리케이션 디렉토리로 이동하십시오. 
+  <pre><code>cd myapp</code></pre>
   {:pre}
 
-3. Renommez le répertoire de projet pour qu'il porte le même nom que celui que vous avez donné à votre application dans {{site.data.keyword.Bluemix_short}}.
-4. Connectez-vous à {{site.data.keyword.Bluemix_short}}:
-  <pre><code>cf api https://api.DomainName</code></pre>
+1. {{site.data.keyword.Bluemix_notm}}에 로그인하고 프롬프트가 표시되면 대상 조직을 설정하십시오.
+  <pre><code>bx login</code></pre>
   {:pre}
 
-5. Connectez-vous à {{site.data.keyword.Bluemix_short}} et définissez votre organisation cible quand vous y êtes invité :
-  <pre><code>cf login</code></pre>
+1. 애플리케이션을 {{site.data.keyword.Bluemix_notm}}에 푸시하십시오.
+  <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-6. Déployez votre application :
-  <pre><code>cf push mon_app</code></pre>
-  {:pre}
+1. {{site.data.keyword.Bluemix_notm}} 대시보드에서 액세스할 수 있는 애플리케이션 개요 페이지로 이동하여 애플리케이션이 제대로 시작되었는지 확인하십시오.
+1. 애플리케이션을 시작하여 브라우저에서 보십시오. 애플리케이션 개요 페이지에서 애플리케이션의 URL(또는 "라우트")을 찾을 수 있습니다.
 
-7. Accédez à la page de présentation de votre application, accessible depuis le tableau de bord {{site.data.keyword.Bluemix_short}}, afin de vérifier que votre application a bien démarré.
-8. Lancez votre application pour l'afficher dans votre navigateur. Vous trouverez l'adresse URL (ou "route") de votre application dans la page de
-présentation de l'application.
+## 다음 단계
+{: #next_steps}
 
-A présent que votre application est en cours d'exécution, vous pouvez accéder au tableau de bord du service pour voir le statut de votre instance {{site.data.keyword.streaminganalyticsshort}} et obtenir des informations pour le traitement des incidents. Pour accéder au tableau de bord du service, allez dans le tableau de bord {{site.data.keyword.Bluemix_short}} et cliquez sur la vignette {{site.data.keyword.streaminganalyticsshort}} dans la page de présentation de l'application.
+이제 애플리케이션이 실행되고 {{site.data.keyword.streaminganalyticsshort}} 콘솔에서 애플리케이션을 모니터할 수 있습니다. 서비스 대시보드로 이동하여 {{site.data.keyword.streaminganalyticsshort}} 서비스를 선택하고 **실행**을 클릭하십시오. 
