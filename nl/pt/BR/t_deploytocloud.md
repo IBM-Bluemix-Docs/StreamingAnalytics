@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -31,8 +31,7 @@ Para implementar os seus aplicativos {{site.data.keyword.streamsshort}} na nuvem
 
 1. Configure seu ambiente de desenvolvimento para desenvolver e testar seu aplicativo.
 
-	Se você deseja usar um ambiente {{site.data.keyword.streamsshort}}, é possível fazer download gratuitamente do {{site.data.keyword.streamsshort}} Quick Start Edition. Acesse a [página de produto IBM Streams](http://www.ibm.com/analytics/us/en/technology/stream-computing/){:new_window}
-e clique em **Download da instalação de software nativo**.
+	Se você deseja usar um ambiente do {{site.data.keyword.streamsshort}}, é possível fazer download do [{{site.data.keyword.streamsshort}} Quick Start Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} gratuitamente.
 
 2. Desenvolva seu aplicativo de fluxo em seu ambiente de desenvolvimento. No ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}, é possível usar o Streams Studio ou as ferramentas de linha de comandos para desenvolver seu aplicativo.
 
@@ -41,13 +40,14 @@ e clique em **Download da instalação de software nativo**.
 
 4. Envie o pacote configurável do aplicativo (arquivo .sab) que está associado ao seu aplicativo SPL, Java, Scala ou Python para sua instância de serviço na nuvem usando um destes métodos:
 	* Use o console do {{site.data.keyword.streaminganalyticsshort}} para enviar o pacote configurável do aplicativo.
+
   * Crie um aplicativo no {{site.data.keyword.Bluemix_notm}} e inclua o aplicativo {{site.data.keyword.streamsshort}} nele. Controle-o usando a API REST do {{site.data.keyword.streaminganalyticsshort}}.
 
 Agora seu aplicativo está implementado na nuvem. É possível monitorar seu aplicativo usando o serviço {{site.data.keyword.streaminganalyticsshort}}. Também é possível enviar mais de um aplicativo (arquivos .sab) para sua instância de serviço. Quantas
 você quiser.
 
 O {{site.data.keyword.streamsshort}} também suporta vários Java™ Development Kits que podem ser usados
-para desenvolver os seus aplicativos. Para obter mais informações sobre o suporte a Java no {{site.data.keyword.streamsshort}}, veja [Java Development Kits suportados para desenvolvimento de aplicativos](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
+para desenvolver os seus aplicativos. Para obter mais informações sobre o suporte Java no {{site.data.keyword.streamsshort}}, veja [Java Development Kits suportados para desenvolvimento de aplicativo ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.1/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
 
 ## Implementando aplicativos Streams Python na nuvem
 {: #t_deploypython}
@@ -55,6 +55,6 @@ para desenvolver os seus aplicativos. Para obter mais informações sobre o supo
 Implemente seus aplicativos {{site.data.keyword.streamsshort}} Python em um serviço {{site.data.keyword.streaminganalyticsshort}} que esteja em execução no {{site.data.keyword.Bluemix_short}}. Não é necessário ter uma instalação do {{site.data.keyword.streamsshort}}.
 {:shortdesc}
 
-A [API do aplicativo {{site.data.keyword.streamsshort}} Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que está incluída no pacote streamsx, permite implementar aplicativos Python para o serviço {{site.data.keyword.streaminganalyticsshort}}. Confira o tutorial [Desenvolvendo para o serviço {{site.data.keyword.streaminganalyticsshort}}](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) para obter um exemplo de como criar e implementar um aplicativo Python simples para o serviço {{site.data.keyword.streaminganalyticsshort}}.
+O [{{site.data.keyword.streamsshort}} Python Application API ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window}, que está incluído no pacote streamsx, permite implementar aplicativos Python para o serviço {{site.data.keyword.streaminganalyticsshort}}. Consulte o tutorial [Desenvolvendo para o serviço {{site.data.keyword.streaminganalyticsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} para obter um exemplo de como criar e implementar um aplicativo Python simples para o serviço {{site.data.keyword.streaminganalyticsshort}}.
 
 O IBM Data Science Experience (DSX) também suporta o envio de aplicativos Python nos blocos de notas interativos do Jupyter. Para obter mais informações, consulte [Desenvolvendo aplicativos Python para o {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).

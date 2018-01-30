@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -23,7 +23,7 @@ Estas considerações se aplicam às ferramentas e ao ambiente usado para desenv
 
 * O {{site.data.keyword.streaminganalyticsshort}} não inclui um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}
 na nuvem ou o Streams Studio na nuvem. Desenvolva os seus aplicativos em um ambiente do {{site.data.keyword.streamsshort}} instalado localmente e envie-os
-como pacotes configuráveis do aplicativo. Se você não tem o ambiente de desenvolvimento, é possível fazer download do []{{site.data.keyword.streamsshort}} Quick Start Edition] (http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/), sem custo nenhum.
+como pacotes configuráveis do aplicativo. Se você não tem o ambiente de desenvolvimento, é possível fazer download do [{{site.data.keyword.streamsshort}} Quick Start Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) gratuitamente.
 * Compile o pacote configurável do aplicativo em um ambiente do Red Hat Enterprise Linux 6.5 ou em uma versão equivalente do CentOS para assegurar
 compatibilidade.
 * Em seu ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}, configure a variável de ambiente

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -55,5 +55,4 @@ apresentado no exemplo a seguir:
 }	  
 </code></pre>
 
-Para obter mais informações sobre a API de REST, veja a documentação da API de REST do
-[{{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220).
+Para obter mais informações sobre a API de REST, veja a [documentação da API de REST do {{site.data.keyword.streaminganalyticsshort}}![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/220){:new_window}.

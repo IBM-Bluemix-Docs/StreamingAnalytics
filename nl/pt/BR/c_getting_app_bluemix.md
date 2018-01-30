@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -28,20 +28,18 @@ lastupdated: "2017-10-27"
   <tr>
     <td>
       <ul>
-        <li><a href="/docs/services/StreamingAnalytics/c_compatible_adapters.html" target="_blank">Adaptadores compatíveis</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/c_analytics_utilities.html" target="_blank">Analíticos e utilitários compatíveis</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">Kits de ferramentas e adaptadores suportados</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">Credenciais de serviço e a variável de ambiente VCAP_SERVICES</a><br></li>
-         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on
-GitHub</a><br></li>
+        <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams no
+GitHub ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Guia de Desenvolvimento do Streaming
-Analytics</a><br></li>
-        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Conectando-se ao Streams: o que você precisa saber</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Guia de desenvolvimento do Streaming Analytics ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a><br></li>
+        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Conectando-se ao Streams: o que você precisa saber ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Introdução ao Streaming Analytics</a><br></li>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Aprontando seu aplicativo SPL para a nuvem</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Deixando seu aplicativo SPL pronto para a nuvem ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Desenvolvendo aplicativos Python para o Streaming Analytics</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Desenvolvendo aplicativos Beam no Streaming Analytics</a><br></li>
       </ul>    
