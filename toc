@@ -19,13 +19,21 @@ Streaming Analytics
     c_starterapps.md
 
     {: .topicgroup}
+    Beta plans
+        beta_plans.md
+        consistentregions.md
+        resource_usage.md
+        [v2 REST API Reference](https://console.bluemix.net/apidocs/1939)
+
+    {: .topicgroup}
     gs_python.md
     gs_beamrunner.md
-      {: .navgroup-end}
+    {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
-    [REST API Reference](https://console.ng.bluemix.net/apidocs/220)
+    [v1 REST API Reference](https://console.bluemix.net/apidocs/220)
+    [v2 REST API for Beta plans](https://console.bluemix.net/apidocs/1939)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
