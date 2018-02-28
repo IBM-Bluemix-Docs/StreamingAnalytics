@@ -1,0 +1,33 @@
+---
+
+copyright:
+  years: 2015, 2018
+lastupdated: "2018-02-14"
+
+---
+
+<!-- Attribute definitions -->
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:pre: .pre}
+
+
+# Ressourcennutzung
+{: #resourceusage}
+
+{{site.data.keyword.streaminganalyticsshort}} umfasst eine Reihe von Verhaltensweisen und Richtlinien, die eine korrekte Ressourcenzuordnung und -nutzung sicherstellen.
+
+## Instanzressourcen anzeigen und bearbeiten
+Die Anzahl der Ressourcen, für die eine Instanz berechtigt ist, kann über das Service-Dashboard oder mithilfe der [{{site.data.keyword.streaminganalyticsshort}} v2-REST-API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) angehzeigt und bearbeitet werden.
+
+## Ressourcenzuordnung
+- Ressourcen werden automatisch der Instanz zugeordnet, wenn ein Job übergeben wird, der erfolgreich ausgeführt wird.
+- Ressourcen werden von der Instanz entfernt, wenn für die betreffende Ressource keine Jobs ausgeführt werden. Beispiel: Job 1 wird mit Ressource 1 ausgeführt, Job 2 mit Ressource 1 und Ressource 2. Wenn Job 2 abgebrochen wird, bleibt Ressource 1 der Instanz zugeordnet, Ressource 2 wird dagegen entfernt.
+- Wird ein Job übergeben, wird dieser Job mit einer neuen Ressource ausgeführt, falls die Instanz den Zuordnungsgrenzwert noch nicht erreicht hat.
+- Sobald eine Instanz alle Ressourcen nutzt, für die sie berechtigt ist, wird die Ausführung neuer Jobs mit den vorhandenen Ressourcen geplant.
+
+## Einschränkungen für Ressourcen
+
+Einschränkungen für Ressourcen können dazu verwendet werden, die Ressourcenzuordnung und -nutzung zu steuern. So kann beispielsweise mithilfe von Einschränkungen angegeben werden, dass zwei Jobs eine einzelne Ressource verwenden sollen, anstatt die Jobs auf zwei Ressourcen aufzuteilen.

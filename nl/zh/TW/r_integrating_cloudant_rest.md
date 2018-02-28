@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -29,6 +29,8 @@ lastupdated: "2017-12-15"
 | [與 {{site.data.keyword.cloudant}} 和許多其他 RESTful 服務整合 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/) | 說明如何使用 {{site.data.keyword.streamsshort}} HTTP 配接器，將 SPL 應用程式整合到 {{site.data.keyword.cloudant}} 和其他 RESTful、Web 型服務。|
 | [{{site.data.keyword.streaminganalyticsshort}} 服務中的 SPSS Analytics Toolkit 支援 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-analytics-service/) | 提供在雲端環境有效使用 SPSS Analytics Toolkit 運算子所需的一些提示。|
 | [使用 Apache Edgent、{{site.data.keyword.iot_short}} 及 {{site.data.keyword.streaminganalyticsshort}} 建立 Smart Sprinkler ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/bluemix/2016/06/01/better-analytics-with-apache-quarks/)| 找出如何結合 Apache Edgent、{{site.data.keyword.streaminganalyticsshort}}、{{site.data.keyword.iot_short}} 及其他 {{site.data.keyword.Bluemix_short}} 服務以開發省水解決方案。|
+| [從執行 Apache Edgent 的 Raspberry Pi 將事件傳送至 {{site.data.keyword.iot_short_notm}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2BWqMou)| 說明如何建立 Edgent 應用程式來將感應器的讀數傳送至 {{site.data.keyword.iot_short_notm}}，以及如何從 {{site.data.keyword.streamsshort}} 應用程式使用那些事件。|
+| [將 Raspberry Pi 上執行的 Apache Edgent 連接至 {{site.data.keyword.streaminganalyticsshort}} 服務 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2BWXjec)| 說明如何建立 {{site.data.keyword.streaminganalyticsshort}} 應用程式，以處理從執行 Apache Edgent 的裝置傳送至 {{site.data.keyword.iot_short_notm}} 的事件。|
 | [Watson IoT 秘訣：整合 {{site.data.keyword.streaminganalyticsshort}} 服務與 {{site.data.keyword.iot_short_notm}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/)| 說明如何使用 {{site.data.keyword.streaminganalyticsshort}} 服務（在 {{site.data.keyword.Bluemix_short}} 上提供），以在 {{site.data.keyword.iot_short_notm}} 上快速吸收、分析 IoT 裝置發佈之事件並產生關聯。|
 | [使用 {{site.data.keyword.geospatialshort_Geospatial}} 的即時聚集點偵測 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/)	| 說明 {{site.data.keyword.Bluemix_short}} 中的 {{site.data.keyword.geospatialshort_Geospatial}} 服務（採用 {{site.data.keyword.streaminganalyticsshort}} 技術）如何支援即時停留偵測。|
 | [搭配使用 {{site.data.keyword.streaminganalyticsshort}} 與啟用 JDBC 功能的 {{site.data.keyword.Bluemix_short}} 資料庫（SQL Database 及 {{site.data.keyword.dashdbshort}}）![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/)	| 說明如何使用 streamsx.jdbc 工具箱與 SQL Database 和 dashDB 進行整合。|

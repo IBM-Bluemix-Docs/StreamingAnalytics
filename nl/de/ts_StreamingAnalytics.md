@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -50,4 +50,6 @@ Sie haben die Anwendung nicht mithilfe eines RHEL 6.5-Betriebssystems oder einer
 {: tsCauses}
 
 Sie müssen Ihre Anwendung unter einem Red Hat Enterprise Linux (RHEL) 6.5-Betriebssystem oder einer entsprechenden CentOS-Version mit Intel-Prozessoren erneut kompilieren. Übergeben Sie Ihre Anwendung erneut an die Serviceinstanz.
+
+**Hinweis:** Bei der Verwendung der Beta-Pläne 'Einstieg' und 'Erweitert' müssen Sie das Anwendungsbundle in einer RHEL 7-Umgebung oder einer äquivalenten CentOS-Version kompilieren. Sie können [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) verwenden, falls Sie nicht über eine kompatible Entwicklungsumgebung verfügen. Details hierzu finden Sie in der [Dokumentation zu den Beta-Plänen](/docs/services/StreamingAnalytics/beta_plans.html).
 {: tsResolve}

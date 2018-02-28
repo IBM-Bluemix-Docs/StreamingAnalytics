@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2017-12-15"
 Beam 애플리케이션을 {{site.data.keyword.Bluemix_notm}}의 {{site.data.keyword.streaminganalyticsshort}} 서비스에 제출하려면 이 서비스의 신임 정보 및 기타 정보를 포함하는 JSON 형식의 VCAP 파일을 작성해야 합니다.
 
 1. Streams 로컬 환경에서 툴킷을 설치한 샘플 서브폴더($STREAMS_BEAM_RUNNER/samples)로 이동하여 template.vcap 파일을 새 파일에 복사하십시오. 이 파일에 의미가 있는 이름과 파일 확장자 .vcap을 지정하십시오.
-1. [{{site.data.keyword.streaminganalyticsshort}} 서비스의 신임 정보를 복사](/docs/services/StreamingAnalytics/r_vcap_services.html)하여 작성한 VCAP 파일에 신임 정보를 붙여넣고 다음 행을 바꾸십시오. 
+1. [{{site.data.keyword.streaminganalyticsshort}} 서비스의 신임 정보를 복사](/docs/services/StreamingAnalytics/r_vcap_services.html)하여 작성한 VCAP 파일에 신임 정보를 붙여넣고 다음 행을 바꾸십시오.
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```

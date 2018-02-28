@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -27,7 +27,7 @@ Entwickeln Sie Python-Anwendungen und stellen Sie sie in {{site.data.keyword.Blu
 
 Wenn Sie nicht über eine Python-Entwicklungsumgebung verfügen, besteht der einfachste Einstieg darin, dass Sie die Notebooks in DSX verwenden und Python-Beispielanwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service erstellen. Mit diesen Notebooks stehen die Schritte und Codebeispiele zur Verfügung, mit denen einfache Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service innerhalb der DSX-Python-Umgebung erstellt und bereitgestellt werden können.
 
-* [Hello World! ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Erstellen Sie als ersten Schritt eine einfache 'Hello World!'-Anwendung und stellen Sie dann die Anwendung in einer Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service bereit.
+* [Hello World! ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Erstellen Sie als ersten Schritt eine einfache 'Hello World!'- Anwendung und stellen Sie dann die Anwendung in einer Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service bereit.
 
 * [Demo über das Gesundheitswesen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6): Erstellen Sie eine Anwendung, die Streaming-Daten aus einem Feed aufnimmt und analysiert und dann die Daten im Notebook visualisiert. Schließlich übergeben Sie diese Anwendung an die {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz.
 

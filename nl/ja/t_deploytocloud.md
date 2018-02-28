@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -52,6 +52,6 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.Bluemix_short}} で稼働する {{site.data.keyword.streaminganalyticsshort}} サービスに {{site.data.keyword.streamsshort}} Python アプリケーションをデプロイします。 {{site.data.keyword.streamsshort}} インストール済み環境は不要です。
 {:shortdesc}
 
-streamsx パッケージに含まれている [{{site.data.keyword.streamsshort}} Python Application API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window} により、Python アプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスにデプロイできます。{{site.data.keyword.streaminganalyticsshort}} サービス用のシンプルな Python アプリケーションを作成およびデプロイする方法の例については、『[Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window}』チュートリアルを確認してください。
+streamsx パッケージに含まれている [{{site.data.keyword.streamsshort}} Python Application API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window} により、Python アプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスにデプロイできます。 {{site.data.keyword.streaminganalyticsshort}} サービス用のシンプルな Python アプリケーションを作成およびデプロイする方法の例については、『[Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window}』チュートリアルを確認してください。
 
 IBM Data Science Experience (DSX) では、Jupyter 対話式ノートブックでの Python アプリケーションのサブミットもサポートされます。 詳しくは、『[{{site.data.keyword.streaminganalyticsshort}} 用の Python アプリケーションの開発](/docs/services/StreamingAnalytics/t_develop_apps_python.html)』を参照してください。

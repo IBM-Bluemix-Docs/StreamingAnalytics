@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -50,4 +50,6 @@ RHEL 6.5 オペレーティング・システムまたは同等の CentOS バー
 {: tsCauses}
 
 Intel プロセッサーを使用し、Red Hat Enterprise Linux (RHEL) 6.5 オペレーティング・システムまたは同等の CentOS バージョンでアプリケーションを再コンパイルする必要があります。 アプリケーションをサービス・インスタンスに再度サブミットしてください。
+
+**注:** ベータ・エントリー・プランおよびベータ・エンハンスト・プランを使用している場合は、アプリケーション・バンドルを RHEL 7 環境または同等の CentOS バージョンでコンパイルする必要があります。互換性のある開発環境がない場合は、[{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) を使用できます。詳しくは、[ベータ・プランの資料](/docs/services/StreamingAnalytics/beta_plans.html)を参照してください。
 {: tsResolve}

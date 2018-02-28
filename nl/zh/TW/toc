@@ -19,13 +19,21 @@ Streaming Analytics
     c_starterapps.md
 
     {: .topicgroup}
+    測試版方案
+        beta_plans.md
+        consistentregions.md
+        resource_usage.md
+        [第 2 版 REST API 參考資料](https://console.bluemix.net/apidocs/1939)
+
+    {: .topicgroup}
     gs_python.md
     gs_beamrunner.md
       {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
-    [REST API 參考資料](https://console.ng.bluemix.net/apidocs/220)
+    [第 1 版 REST API 參考資料](https://console.bluemix.net/apidocs/220)
+    [適用於測試版方案的第 2 版 REST API](https://console.bluemix.net/apidocs/1939)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 

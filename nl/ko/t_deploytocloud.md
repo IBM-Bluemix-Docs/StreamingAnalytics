@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -30,7 +30,7 @@ lastupdated: "2017-12-15"
 
 1. 애플리케이션을 개발하고 테스트하기 위한 개발 환경을 설정하십시오.
 
-	{{site.data.keyword.streamsshort}} 환경을 사용하려는 경우 [{{site.data.keyword.streamsshort}} Quick Start Edition ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}을 무료로 다운로드할 수 있습니다. 
+	{{site.data.keyword.streamsshort}} 환경을 사용하려는 경우 [{{site.data.keyword.streamsshort}} Quick Start Edition ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}을 무료로 다운로드할 수 있습니다.
 
 2. 개발 환경에서 스트리밍 애플리케이션을 개발하십시오. {{site.data.keyword.streamsshort}} 개발 환경에서 사용자는 Streams Studio 또는 명령행 도구를 사용하여 애플리케이션을 개발할 수 있습니다.
 
@@ -52,6 +52,6 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.Bluemix_short}}에서 실행 중인 {{site.data.keyword.streaminganalyticsshort}} 서비스에 {{site.data.keyword.streamsshort}} Python 애플리케이션을 배치하십시오. {{site.data.keyword.streamsshort}} 설치는 필요하지 않습니다.
 {:shortdesc}
 
-streamsx 패키지에 포함되어 있는 [{{site.data.keyword.streamsshort}} Python 애플리케이션 API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window}를 사용하면, Python 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}} 서비스에 배치할 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 서비스에 대한 간단한 Python 애플리케이션을 작성하고 배치하는 방법에 대한 예제를 가져오려면 [{{site.data.keyword.streaminganalyticsshort}} 서비스를 위한 개발 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} 튜토리얼을 확인하십시오. 
+streamsx 패키지에 포함되어 있는 [{{site.data.keyword.streamsshort}} Python 애플리케이션 API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window}를 사용하면, Python 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}} 서비스에 배치할 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 서비스에 대한 간단한 Python 애플리케이션을 작성하고 배치하는 방법에 대한 예제를 가져오려면 [{{site.data.keyword.streaminganalyticsshort}} 서비스를 위한 개발 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} 튜토리얼을 확인하십시오.
 
 IBM Data Science Experience(DSX)는 Jupyter 대화식 노트북에서 Python 애플리케이션의 제출도 지원합니다. 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}용 Python 애플리케이션 개발](/docs/services/StreamingAnalytics/t_develop_apps_python.html)을 참조하십시오.

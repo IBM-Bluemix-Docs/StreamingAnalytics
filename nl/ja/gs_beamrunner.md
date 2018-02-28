@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -21,6 +21,6 @@ lastupdated: "2017-12-15"
 
 [ サンプル・アプリケーション](/docs/services/StreamingAnalytics/c_starterapps.html)を使用して開始して、{{site.data.keyword.streaminganalyticsshort}} サービスで Beam アプリケーションをサブミットしてモニターする方法を確認します。 サンプル・アプリケーションは {{site.data.keyword.streaminganalyticsshort}} コンソールからダウンロードできます。
 
-[{{site.data.keyword.streamsshort}} Runner for Apache Beam の資料![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window} にある [Beam capability matrix] で、Streams Runner の適合状況を確認してください。ご使用の Streams 環境に `com.ibm.streams.beam` ツールキットをインストールして、{{site.data.keyword.streaminganalyticsshort}} でサブミットしてモニターできる Beam アプリケーションを作成する方法に関する手順を確認するには、[Installing IBM Streams Runner for Apache Beam ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://bit.ly/2zFDpPr){:new_window} を参照してください。
+[{{site.data.keyword.streamsshort}} Runner for Apache Beam の資料![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window} にある [Beam capability matrix] で、Streams Runner の適合状況を確認してください。 ご使用の Streams 環境に `com.ibm.streams.beam` ツールキットをインストールして、{{site.data.keyword.streaminganalyticsshort}} でサブミットしてモニターできる Beam アプリケーションを作成する方法に関する手順を確認するには、[Installing IBM Streams Runner for Apache Beam ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://bit.ly/2zFDpPr){:new_window} を参照してください。
 
 Beam プログラミングの知識がある程度あると役立ちますが、必須ではありません。[Apache Beam Web サイト ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://beam.apache.org/documentation/){:new_window} には、有益な [Apache Beam Java SDK Quickstart ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://beam.apache.org/get-started/quickstart-java/){:new_window} ページとその他の資料があります。

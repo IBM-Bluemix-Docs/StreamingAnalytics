@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -50,4 +50,6 @@ lastupdated: "2017-12-15"
 {: tsCauses}
 
 Intel 프로세서를 사용하여 Red Hat Enterprise Linux(RHEL) 6.5 운영 체제 또는 이와 동등한 CentOS 버전에서 애플리케이션을 다시 컴파일해야 합니다. 애플리케이션을 서비스 인스턴스에 다시 제출하십시오.
+
+**참고:** Beta-Entry 및 Beta-Enhanced 플랜을 사용하는 경우, RHEL 7 환경 또는 동등한 CentOS 버전에서 애플리케이션 번들을 컴파일해야 합니다. 호환 가능한 개발 환경이 없는 경우, [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)를 사용할 수 있습니다. 세부사항은 [베타 플랜 문서](/docs/services/StreamingAnalytics/beta_plans.html)를 확인하십시오.
 {: tsResolve}

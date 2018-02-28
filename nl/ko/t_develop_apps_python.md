@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -38,6 +38,6 @@ lastupdated: "2017-12-15"
 
  streamsx 패키지에 포함되어 있는 [{{site.data.keyword.streamsshort}} Python 애플리케이션 API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features)를 활용하면 Python 호출 가능 클래스 또는 함수를 사용하여 스트림 처리 애플리케이션을 작성할 수 있습니다. Python 애플리케이션 API를 사용하여 애플리케이션을 정의하고 이를 서비스에 제출할 수 있습니다.
 
-로컬 Python 환경에 샘플 애플리케이션을 작성하고 {{site.data.keyword.streaminganalyticsshort}} 서비스에 이를 배치하려면 [{{site.data.keyword.streaminganalyticsshort}} 서비스를 위한 개발 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) 튜토리얼의 단계를 따라 시작해 보십시오. 
+로컬 Python 환경에 샘플 애플리케이션을 작성하고 {{site.data.keyword.streaminganalyticsshort}} 서비스에 이를 배치하려면 [{{site.data.keyword.streaminganalyticsshort}} 서비스를 위한 개발 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) 튜토리얼의 단계를 따라 시작해 보십시오.
 
-{{site.data.keyword.streamsshort}} Python 애플리케이션 API에 대해 자세히 살펴보려면 [이 온라인 과정 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}을 완료하고 Python 개발자용 {{site.data.keyword.streaminganalyticsshort}} 기초를 학습하십시오. 
+{{site.data.keyword.streamsshort}} Python 애플리케이션 API에 대해 자세히 살펴보려면 [이 온라인 과정 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}을 완료하고 Python 개발자용 {{site.data.keyword.streaminganalyticsshort}} 기초를 학습하십시오.

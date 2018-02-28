@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -32,7 +32,7 @@ Diese Analysetoolkits und Adapter werden von {{site.data.keyword.streaminganalyt
 | [Kafka ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.kafka/)       | Ermöglicht Streams-Anwendungen die einfache Integration mit Apache Kafka. 	 |
 | [MessageHub ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.messagehub/) | Ermöglicht es Streams-Anwendungen, mit MessageHub zu arbeiten.			     |
 | [Messaging ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.messaging/)   |  	Richtet den Fokus auf die Interaktion mit den gängigen Nachrichtenübertragungssystemen wie Kafka, MQTT, JMS und XMS.	<br>**Hinweis**: Um JMSSource, JMSSink, XMSSource oder XMSSink mit WebSphere MQ verwenden zu können, führen Sie die folgenden erforderlichen Schritte in Ihrer Entwicklungsumgebung aus: <br>1. Navigieren Sie zu [IBMStreams on GitHub ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBMStreams){:new_window} und laden Sie das Messaging Toolkit (com.ibm.streamsx.messaging) Version 3.0.0 oder höher in Ihre Entwicklungsumgebung herunter.<br>2. Verwenden Sie das Toolkit in Version 5.1.0 oder höher, um einen Build Ihrer Anwendung zu erstellen.<br>3. Stellen Sie die erforderliche Datei mit der Erweiterung .bindings in das Verzeichnis `/etc` Ihrer Anwendung, um sie in das {{site.data.keyword.streamsshort}}-Anwendungsbundle aufzunehmen.	    |
-| [Mining ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibm.co/2y3i5au)              	   	            |  Enthält Operatoren, mit denen Datenströme mithilfe von Modellen gefiltert werden können.	     |
+| [Mining ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibm.co/2y3i5au)              	   	            |  Enthält Operatoren, mit denen Datenströme mithilfe von Modellen gefiltert werden können. <br> **Einschränkung:** Dieses Toolkit wird nicht unterstützt, wenn Sie die [Beta-Pläne 'Einstieg' und 'Erweitert'](/docs/services/StreamingAnalytics/beta_plans.html) verwenden, da das Anwendungsbundle in einer RHEL 7-Umgebung oder einer äquivalenten CentOS-Version kompiliert werden muss. 	     |
 | [RabbitMQ ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  Stellt Operatoren bereit, die es der Streams-Anwendung ermöglichen, Rabbit MQ-Nachrichten zu lesen und zu senden.  |
 | [R-project ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibm.co/2h7D9lu)          	   	              |   Enthält den Operator 'RScript', den Sie verwenden können, um R-Befehle auszuführen und um komplexe Data-Mining-Algorithmen zur Erkennung relevanter Muster in Datenstreams anzuwenden.			     |
 | [Topology ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.topology/)      |  Ermöglicht das Erstellen von Python-Streaming-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service auf der {{site.data.keyword.Bluemix_notm}}-Plattform und in {{site.data.keyword.streamsshort}}.		     |

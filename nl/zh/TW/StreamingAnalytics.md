@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -45,13 +45,13 @@ lastupdated: "2017-12-15"
 ## Streaming Analytics 責任
 {: #responsibilities notoc}
 
-### 用戶端責任
+### 客戶責任
 {: #clientresponsibilities notoc}
 
-「用戶端」負責：
+客戶負責：
 
-* 遵循 IBM 起始配置 {{site.data.keyword.streamsshort}}、監視、配置及管理在其實例中執行的 {{site.data.keyword.streamsshort}} 工作。用戶端具有彈性可啟動及停止實例，以及啟動與停止實例上執行的工作。
-* 依需要或必要，開發服務上的程式及應用程式來分析資料，以及瞭解它。用戶端也負責這類所開發程式或應用程式的品質及效能。使用 {{site.data.keyword.streamsshort}} Topology 特性，即可透過 SPL、Java 或其他支援語言來開發程式。其編譯方式必須搭配使用 {{site.data.keyword.streamsshort}} Developer Edition 或 {{site.data.keyword.streamsshort}} Quick Start Edition 與用於 {{site.data.keyword.streaminganalyticsshort}} 的相同作業系統。
+* 遵循 IBM 的起始 {{site.data.keyword.streamsshort}} 配置、監視、配置及管理在其實例中執行的 {{site.data.keyword.streamsshort}} 工作。客戶能彈性地啟動及停止實例，以及啟動與停止實例上執行的工作。
+* 依需要或必要，開發服務上的程式及應用程式來分析資料，以及瞭解它。客戶也負責這類所開發程式或應用程式的品質及效能。使用 {{site.data.keyword.streamsshort}} Topology 特性，即可透過 SPL、Java 或其他支援語言來開發程式。其編譯方式必須搭配使用 {{site.data.keyword.streamsshort}} Developer Edition 或 {{site.data.keyword.streamsshort}} Quick Start Edition 與用於 {{site.data.keyword.streaminganalyticsshort}} 的相同作業系統。
 * 定期檢查下列鏈結，以收到有關所排程非干擾性或干擾性關閉時間的通知 - [https://developer.ibm.com/bluemix/support/#status ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/bluemix/support/#status){:new_window}  
 * 根據商業需求來備份所有資料、meta 資料、配置檔及環境參數，以確保持續性。
 * 基於任何類型的失敗（故障）（包括但不限於資料中心或 Pod 失敗、伺服器故障或硬碟故障或軟體失敗），而還原任何備份中的資料、meta 資料、配置檔及環境參數，以確保持續性。

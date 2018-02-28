@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -52,7 +52,7 @@ SPL로 애플리케이션을 작성하려면 {{site.data.keyword.streamsfull}} P
 
 * IBM의 초기 {{site.data.keyword.streamsshort}} 구성 유지 및 해당 인스턴스에서 실행 중인 {{site.data.keyword.streamsshort}} 작업의 모니터링, 구성 및 관리. 클라이언트는 인스턴스를 시작 및 중지하고 인스턴스에서 실행 중인 작업을 시작 및 중지하는 유연성을 가집니다.
 * 데이터를 분석하고 이를 통해 통찰력을 얻기 위해 필요 또는 필수인 프로그램 및 애플리케이션 개발. 클라이언트는 또한 그러한 개발된 프로그램이나 애플리케이션의 품질과 성능에 대해 책임을 집니다. 프로그램은 {{site.data.keyword.streamsshort}} 토폴로지 기능을 사용하여 SPL, Java, 또는 기타 지원되는 언어로 개발될 수 있습니다. {{site.data.keyword.streaminganalyticsshort}}에 사용된 것과 동일한 운영 체제에서 {{site.data.keyword.streamsshort}} Developer Edition 또는 {{site.data.keyword.streamsshort}} Quick Start Edition 중 하나를 사용하여 컴파일되어야 합니다.
-* 링크([https://developer.ibm.com/bluemix/support/#status ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/support/#status){:new_window})를 정기적으로 확인하여 스케줄된 "비중단" 또는 "중단" 작동 중단 시간이 있는지 파악.   
+* 링크([https://developer.ibm.com/bluemix/support/#status ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/support/#status){:new_window})를 정기적으로 확인하여 스케줄된 "비중단" 또는 "중단" 작동 중단 시간이 있는지 파악.  
 * 연속성을 보장하기 위해 비즈니스 요구사항에 따라 모든 데이터, 메타데이터, 구성 파일, 환경 매개변수 백업.
 * 데이터 센터 또는 포드(pod) 장애, 서버 장애 또는 하드 디스크 고장이나 소프트웨어 실패 등 모든 유형의 장애가 발생할 경우 연속성을 보장하기 위해 백업으로부터 데이터, 메타데이터, 구성 파일, 환경 매개변수 복원.
 
@@ -71,5 +71,5 @@ SPL로 애플리케이션을 작성하려면 {{site.data.keyword.streamsfull}} P
 	* {{site.data.keyword.streamsshort}} 관리 서비스
 	* {{site.data.keyword.streamsshort}} 인스턴스
 * 인프라 운영 체제 및 {{site.data.keyword.streamsshort}}에 대한 보안 패치를 비롯하여 유지보수 패치 제공.
-* 시스템 중단이 필요하지 않은 정기 유지보수(“비중단” 유지보수) 및 일부 시스템 중단과 재시작이 필요할 수 있는 유지보수(“중단” 유지보수) 수행. 이러한 유지보수는 [https://developer.ibm.com/bluemix/support/#status ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/support/#status){:new_window}에 공개된 스케줄대로 수행됩니다. 
+* 시스템 중단이 필요하지 않은 정기 유지보수(“비중단” 유지보수) 및 일부 시스템 중단과 재시작이 필요할 수 있는 유지보수(“중단” 유지보수) 수행. 이러한 유지보수는 [https://developer.ibm.com/bluemix/support/#status ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/support/#status){:new_window}에 공개된 스케줄대로 수행됩니다.
 * 스케줄된 유지보수 시간의 변경은 적절한 통지와 함께 게시됩니다.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.streaminganalyticsfull}} を使用して、Data in Motion (流れているデータ) に関するリアルタイム分析を、{{site.data.keyword.Bluemix_short}} アプリケーションの一部として実行することができます。
 {:shortdesc}
 
-{{site.data.keyword.streaminganalyticsshort}} を初めて使用する場合は、  [このサービスの簡単な概要 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window} を参照してください。
+{{site.data.keyword.streaminganalyticsshort}} を初めて使用する場合は、 [このサービスの簡単な概要 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window} を参照してください。
 
 {{site.data.keyword.streaminganalyticsshort}} サービスは、クラウド内でデータをデプロイ、分析、およびモニターできるようにする以下の機能を提供します。
 

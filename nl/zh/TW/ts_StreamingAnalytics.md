@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -50,4 +50,7 @@ lastupdated: "2017-12-15"
 {: tsCauses}
 
 您必須在 Red Hat Enterprise Linux (RHEL) 6.5 作業系統或相等的 CentOS 版本中，重新編譯應用程式，並且使用 Intel 處理器。將應用程式重新提交至服務實例。
+
+
+**附註：**如果您要使用「測試版入門」及「測試版加強」方案，則必須在 RHEL 7 環境或相等的 CentOS 版本中編譯您的應用程式軟體組。如果沒有相容的開發環境，您可以使用 [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。如需詳細資料，請參閱[測試版方案文件](/docs/services/StreamingAnalytics/beta_plans.html)。
 {: tsResolve}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-12-15"
 # 入門チュートリアル
 {: #starterapps_deploy}
 
-Streaming Analytics は完全マネージド・サービスであり、時間のかかるインストールや管理の作業が不要で、ストリーミング・アプリケーション開発に時間をより多くかけられるようにします。この入門チュートリアルでは、{{site.data.keyword.streaminganalyticsshort}} スターター・アプリケーションの 1 つを {{site.data.keyword.Bluemix_notm}} にプッシュしてデプロイします。
+Streaming Analytics は完全マネージド・サービスであり、時間のかかるインストールや管理の作業が不要で、ストリーミング・アプリケーション開発に時間をより多くかけられるようにします。 この入門チュートリアルでは、{{site.data.keyword.streaminganalyticsshort}} スターター・アプリケーションの 1 つを {{site.data.keyword.Bluemix_notm}} にプッシュしてデプロイします。
 {:shortdesc}
 
 
@@ -26,7 +26,7 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 スターター・アプリケーションをデプロイする前に、以下のステップを実行する必要があります。
 
 * [{{site.data.keyword.Bluemix_notm}} アカウント ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration){:new_window} に登録します。
-* {{site.data.keyword.Bluemix_notm}} 組織に {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスを作成します。このインスタンスは、{{site.data.keyword.Bluemix_notm}} サービス・カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"){:new_window} 内の [{{site.data.keyword.streaminganalyticsshort}} ページから直接作成できます。  
+* {{site.data.keyword.Bluemix_notm}} 組織に {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスを作成します。 このインスタンスは、{{site.data.keyword.Bluemix_notm}} サービス・カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"){:new_window} 内の [{{site.data.keyword.streaminganalyticsshort}} ページから直接作成できます。  
 * [{{site.data.keyword.Bluemix_notm}} CLI ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") をインストール](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install)(https://console.{DomainName}/catalog/services/streaming-analytics/)]します。
 
 
@@ -74,4 +74,4 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 ## 次のステップ
 {: #next_steps}
 
-これでアプリケーションが稼働中となったので、{{site.data.keyword.streaminganalyticsshort}} コンソールからアプリケーションをモニターすることができます。サービス・ダッシュボードに移動し、{{site.data.keyword.streaminganalyticsshort}} サービスを選択し、**「起動」**をクリックします。
+これでアプリケーションが稼働中となったので、{{site.data.keyword.streaminganalyticsshort}} コンソールからアプリケーションをモニターすることができます。 サービス・ダッシュボードに移動し、{{site.data.keyword.streaminganalyticsshort}} サービスを選択し、**「起動」**をクリックします。

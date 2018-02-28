@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -32,7 +32,7 @@ lastupdated: "2017-12-15"
 | [Kafka ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibmstreams.github.io/streamsx.kafka/)       | 讓 Streams 應用程式能輕鬆與 Apache Kafka 整合。|
 | [MessageHub ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibmstreams.github.io/streamsx.messagehub/) | 讓 Streams 應用程式能使用 MessageHub。|
 | [Messaging ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibmstreams.github.io/streamsx.messaging/)   |  	專注於與熱門傳訊系統互動，例如 Kafka、MQTT、JMS 及 XMS	<br>**附註**：若要搭配使用 JMSSource、JMSSink、XMSSource、XMSSink 與 WebSphere MQ，請在開發環境中完成下列必要步驟：<br>1. 移至 [IBMStreams on GitHub ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://github.com/IBMStreams){:new_window}，並在開發環境中下載 Messaging Toolkit (com.ibm.streamsx.messaging) 3.0.0 版或更新版本。<br>2. 使用 5.1.0 版或更新版本的工具箱來建置您的應用程式。<br>3. 將必要的 .bindings 檔案放在您應用程式的 `/etc` 目錄中，以將它包括在 {{site.data.keyword.streamsshort}} 應用程式軟體組中。|
-| [Mining ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2y3i5au)              	   	            |  所包括的運算子可用來透過套用模型來發掘資料串流。|
+| [Mining ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2y3i5au)              	   	            |  所包括的運算子可用來透過套用模型來發掘資料串流。<br> **限制：**如果您要使用[測試版入門方案與測試版加強方案](/docs/services/StreamingAnalytics/beta_plans.html)，由於您必須在 RHEL 7 環境或相等的 CentOS 版本中編譯應用程式軟體組，因此不支援此工具箱。|
 | [RabbitMQ ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  所提供的運算子可讓您的 Streams 應用程式從 Rabbit MQ 讀取及傳送訊息。|
 | [R-project ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2h7D9lu)          	   	              |   所包括的 RScript 運算子可用來執行 R 指令，並套用複式資料採礦演算法來偵測資料串流中感興趣的型樣。|
 | [Topology ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.topology/)      |  提供在 {{site.data.keyword.Bluemix_notm}} 平台及 {{site.data.keyword.streamsshort}} 上為 {{site.data.keyword.streaminganalyticsshort}} 服務建置 Python 串流應用程式的功能。|

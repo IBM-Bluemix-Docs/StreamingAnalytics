@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -35,7 +35,7 @@ Die Installation, Software-Upgrades, das Erstellen und Verwalten von Domänen so
 ## Für welche Aufgaben bin ich zuständig?  
 {: #responsible notoc}
 
-Sie schreiben die Anwendungen für die Ausführung in einer {{site.data.keyword.streaminganalyticsshort}}-Service- und Streams-Instanz lokal und stellen sicher, dass diese korrekt funktionieren und die Leistungsanforderungen erfüllen. Darüber hinaus sind Sie für eine gegebenenfalls angewandte anwendungsspezifische Überwachung verantwortlich. 
+Sie schreiben die Anwendungen für die Ausführung in einer {{site.data.keyword.streaminganalyticsshort}}-Service- und Streams-Instanz lokal und stellen sicher, dass diese korrekt funktionieren und die Leistungsanforderungen erfüllen. Darüber hinaus sind Sie für eine gegebenenfalls angewandte anwendungsspezifische Überwachung verantwortlich.
 
 ## Wird HA-Unterstützung (Hochverfügbarkeit) bereitgestellt?
 {: #ha notoc}
