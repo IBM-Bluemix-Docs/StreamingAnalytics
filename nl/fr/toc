@@ -9,7 +9,7 @@ Streaming Analytics
     index.md
 
     {: .topicgroup}
-    정보
+    A propos de
         StreamingAnalytics.md
         c_streams_console.md
         r_service_dashboard.md
@@ -19,21 +19,29 @@ Streaming Analytics
     c_starterapps.md
 
     {: .topicgroup}
+    Plans bêta
+        beta_plans.md
+        consistentregions.md
+        resource_usage.md
+        [Référence pour l'API REST v2](https://console.bluemix.net/apidocs/1939)
+
+    {: .topicgroup}
     gs_python.md
     gs_beamrunner.md
-      {: .navgroup-end}
+    {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
-    [REST API 참조](https://console.ng.bluemix.net/apidocs/220)
-    [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+    [Référence pour l'API REST v1](https://console.bluemix.net/apidocs/220)
+    [API REST v2 pour les plans bêta](https://console.bluemix.net/apidocs/1939)
+    [API Python pour Streams](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
 
     {: .topicgroup}
-    클라우드에 앱 배치
+    Déploiement d'applications dans le cloud
         t_deploytocloud.md
         t_develop_apps_python.md
         develop_beam_apps.md

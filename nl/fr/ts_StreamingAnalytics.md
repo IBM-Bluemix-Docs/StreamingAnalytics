@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -16,38 +16,40 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# Streaming Analytics 문제점 해결
+# Traitement des incidents dans Streaming Analytics
 {: #ts_StreamingAnalytics}
 
-{{site.data.keyword.Bluemix_short}}에서 {{site.data.keyword.streaminganalyticsshort}} 사용 방법에 대한 일반적 질문에 대해 답변을 찾을 수 있습니다.
+Vous pouvez trouver ici les réponses aux questions courantes sur l'utilisation de {{site.data.keyword.streaminganalyticsshort}} dans {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-## 서비스를 실행할 때 콘솔에 로그인하려면 신임 정보에 대한 프롬프트가 표시됨
+## Quand je lance le service, je suis invité à entrer des données d'identification pour me connecter à la console
 {: #log_in_console}
 
-{{site.data.keyword.streaminganalyticsshort}}를 실행할 때 서비스 콘솔에 로그인하려면 신임 정보에 대한 프롬프트가 표시됩니다.
+Lorsque vous lancez {{site.data.keyword.streaminganalyticsshort}}, vous êtes invité à indiquer vos donnée d'identification pour la connexion à la console de service.
 {:shortdesc}
 
-서비스 콘솔에 직접 액세스하는 대신 이전에 작성된 {{site.data.keyword.streaminganalyticsshort}} 서비스를 실행하면 신임 정보에 대한 프롬프트가 표시되는 로그인 페이지가 나타납니다.
+Vous lancez un service {{site.data.keyword.streaminganalyticsshort}} que vous aviez créé précédemment, mais à la place d'un accès direct à la console de service, une page de connexion s'affiche, dans laquelle vous devez entrer des données d'identification.
 {: tsSymptoms}
 
-서비스 인프라가 업데이트되었으며 브라우저 캐시로 인해 서비스가 업데이트를 가져오지 못합니다.
+L'infrastructure de service a été mise à jour et le cache de votre navigateur empêche le service de récupérer cette mise à jour.
 {: tsCauses}
 
-브라우저 캐시를 지우고 서비스 콘솔의 최신 버전을 보유하고 있는지 확인하십시오.
+Effacez le cache de votre navigateur pour être sûr d'obtenir la dernière version de la console de service.
 {: tsResolve}
 
-## 내 애플리케이션의 상태가 비정상(unhealthy)임
+## Mon application est défaillante
 {: #app_unhealthy}
 
-애플리케이션을 제대로 실행할 수 없으며 상태가 `unhealthy`입니다.
+Vous ne pouvez exécuter correctement votre application et son état de santé est `défaillant`.
 {:shortdesc}
 
-애플리케이션을 서비스 인스턴스에 제출한 이후, 애플리케이션이 시작되기는 하지만 바로 실패하며 상태가 `unhealthy`입니다. 로그 파일에 `/lib64/libc.so.6: version GLIBC_2.14 not found` 오류가 나타납니다.
+Vous soumettez une application à l'instance de service, l'application démarre puis échoue immédiatement après, avec un état de santé `défaillant`. L'erreur suivante apparaît dans le fichier journal : `/lib64/libc.so.6 : version GLIBC_2.14 introuvable`.
 {: tsSymptoms}
 
-애플리케이션이 RHEL 6.5 운영 체제 또는 이와 동등한 CentOS 버전을 사용하여 컴파일되지 않았습니다.
+Vous n'avez pas compilé l'application en utilisant le système d'exploitation RHEL 6.5 ou une version CentOS équivalente.
 {: tsCauses}
 
-Intel 프로세서를 사용하여 Red Hat Enterprise Linux(RHEL) 6.5 운영 체제 또는 이와 동등한 CentOS 버전에서 애플리케이션을 다시 컴파일해야 합니다. 애플리케이션을 서비스 인스턴스에 다시 제출하십시오.
+Vous devez recompiler votre application sur un système d'exploitation Red Hat Enterprise Linux (RHEL) 6.5 ou une version CentOS équivalente, avec des processeurs Intel. Soumettez à nouveau votre application à l'instance de service.
+
+**Remarque :** si vous utilisez les plans Beta-Entry et Beta-Enhanced, vous devez compiler votre bundle d'applications dans un environnement RHEL 7 ou une version CentOS équivalente. Vous pouvez utiliser [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si vous ne disposez pas d'un environnement de développement compatible. Consultez la [documentation relative aux plans bêta](/docs/services/StreamingAnalytics/beta_plans.html) pour des détails.
 {: tsResolve}

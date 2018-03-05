@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -19,8 +19,7 @@ lastupdated: "2017-12-15"
 # Resolução de problemas do Streaming Analytics
 {: #ts_StreamingAnalytics}
 
-É possível localizar as respostas a perguntas comuns sobre como usar o {{site.data.keyword.streaminganalyticsshort}} no
-{{site.data.keyword.Bluemix_short}}.
+É possível localizar as respostas a perguntas comuns sobre como usar o {{site.data.keyword.streaminganalyticsshort}} no {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 ## Ao ativar o serviço, sou solicitado por credenciais para efetuar login no console
@@ -29,12 +28,10 @@ lastupdated: "2017-12-15"
 Ao ativar o {{site.data.keyword.streaminganalyticsshort}}, você é solicitado por credenciais para efetuar login no console de serviço.
 {:shortdesc}
 
-Você ativa um serviço do {{site.data.keyword.streaminganalyticsshort}} que criou anteriormente e, em vez de acessar diretamente o console de serviço,
-verá uma página de login na qual serão solicitadas as credenciais.
+Você ativa um serviço do {{site.data.keyword.streaminganalyticsshort}} que criou anteriormente e, em vez de acessar diretamente o console de serviço, verá uma página de login na qual serão solicitadas as credenciais.
 {: tsSymptoms}
 
-A infraestrutura de serviço foi atualizada e o cache do navegador está impedindo o
-serviço de coletar a atualização.
+A infraestrutura de serviço foi atualizada e o cache do navegador está impedindo o serviço de coletar a atualização.
 {: tsCauses}
 
 Limpe o cache do navegador para certificar-se de obter a versão mais recente do console de serviço.
@@ -53,4 +50,6 @@ Você não compilou o aplicativo usando um sistema operacional RHEL 6.5 ou uma v
 {: tsCauses}
 
 Deve-se recompilar seu aplicativo em um sistema operacional Red Hat Enterprise Linux (RHEL) 6.5 ou em uma versão equivalente do CentOS, usando processadores Intel. Envie seu aplicativo para a instância de serviço novamente.
+
+**Observação:** se você está usando os planos Beta-Entry e Beta-Enhanced, deve-se compilar seu pacote configurável do aplicativo em um ambiente RHEL 7 ou uma versão equivalente do CentOS. É possível usar o [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se você não tem um ambiente de desenvolvimento compatível. Veja a [Documentação de planos beta](/docs/services/StreamingAnalytics/beta_plans.html) para obter detalhes.
 {: tsResolve}

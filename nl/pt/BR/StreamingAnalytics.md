@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -51,21 +51,11 @@ Os operadores do {{site.data.keyword.streamsshort}} no kit de ferramentas padrã
 
 O cliente é responsável por:
 
-* Seguir a configuração inicial da IBM do {{site.data.keyword.streamsshort}}, monitorando, configurando e gerenciando as
-tarefas do {{site.data.keyword.streamsshort}} em execução em sua instância. O cliente tem flexibilidade para iniciar e parar a instância e iniciar e parar tarefas em execução na
-instância.
-* Desenvolver, conforme necessário ou obrigatório, programas e aplicativos no serviço para analisar dados
-e obter insights a partir dele. O cliente também é responsável pela qualidade e o desempenho de tais
-programas ou aplicativos desenvolvidos. Programas podem ser desenvolvidos em SPL, Java ou outras linguagens
-suportadas usando o recurso Topology do {{site.data.keyword.streamsshort}}. Eles devem ser compilados usando o {{site.data.keyword.streamsshort}}
-Developer Edition ou o {{site.data.keyword.streamsshort}} Quick Start Edition com o mesmo sistema operacional que é usado para o
-{{site.data.keyword.streaminganalyticsshort}}.
+* Seguir a configuração inicial da IBM do {{site.data.keyword.streamsshort}}, monitorando, configurando e gerenciando as tarefas do {{site.data.keyword.streamsshort}} em execução em sua instância. O cliente tem flexibilidade para iniciar e parar a instância e iniciar e parar tarefas em execução na instância.
+* Desenvolver, conforme necessário ou obrigatório, programas e aplicativos no serviço para analisar dados e obter insights a partir dele. O cliente também é responsável pela qualidade e o desempenho de tais programas ou aplicativos desenvolvidos. Programas podem ser desenvolvidos em SPL, Java ou outras linguagens suportadas usando o recurso Topology do {{site.data.keyword.streamsshort}}. Eles devem ser compilados usando o {{site.data.keyword.streamsshort}} Developer Edition ou o {{site.data.keyword.streamsshort}} Quick Start Edition com o mesmo sistema operacional que é usado para o {{site.data.keyword.streaminganalyticsshort}}.
 * Verificar o link a seguir periodicamente para ser informado sobre um tempo de inatividade planejado com ou sem interrupção - [https://developer.ibm.com/bluemix/support/#status ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/bluemix/support/#status){:new_window}  
-* Fazer backup de todos os dados, metadados, arquivos de configuração e parâmetros de ambiente conforme os
-requisitos de negócios, de forma a assegurar a continuidade.
-* Restaurar dados, metadados, arquivos de configuração e parâmetros de ambiente a partir de qualquer backup
-para assegurar a continuidade, em um caso de falha de qualquer tipo, incluindo, mas não se limitando, à falha de
-datacenter ou pod, à falha do servidor, à falha de disco rígido ou às falhas de software.
+* Fazer backup de todos os dados, metadados, arquivos de configuração e parâmetros de ambiente conforme os requisitos de negócios, de forma a assegurar a continuidade.
+* Restaurar dados, metadados, arquivos de configuração e parâmetros de ambiente a partir de qualquer backup para assegurar a continuidade, em um caso de falha de qualquer tipo, incluindo, mas não se limitando, à falha de datacenter ou pod, à falha do servidor, à falha de disco rígido ou às falhas de software.
 
 ### Responsabilidades da IBM
 {: #ibmresponsibilities notoc}
@@ -81,7 +71,6 @@ Como parte do {{site.data.keyword.streaminganalyticsfull}}, a IBM irá:
 	* Sistemas operacionais de infraestrutura
 	* Serviços de gerenciamento do {{site.data.keyword.streamsshort}}
 	* Instâncias do {{site.data.keyword.streamsshort}}
-* Fornecer correções de manutenção, incluindo correções de segurança apropriadas para os sistemas operacionais de infraestrutura e o
-{{site.data.keyword.streamsshort}}.
+* Fornecer correções de manutenção, incluindo correções de segurança apropriadas para os sistemas operacionais de infraestrutura e o {{site.data.keyword.streamsshort}}.
 * Executar manutenção regular que não deve requerer qualquer tempo de inatividade do sistema (manutenção “sem interrupção”) e manutenção que pode requerer algum tempo de inatividade do sistema e reinicialização (manutenção “disruptiva”), que serão executadas em horários planejados publicados em [https://developer.ibm.com/bluemix/support/#status ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/bluemix/support/#status){:new_window}
 * Qualquer mudança nos horários de manutenção planejados será postada com aviso apropriado.

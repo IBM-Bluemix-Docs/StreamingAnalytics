@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -50,4 +50,7 @@ lastupdated: "2017-12-15"
 {: tsCauses}
 
 必须使用 Red Hat Enterprise Linux (RHEL) 6.5 操作系统或等同的 CentOS 版本，使用 Intel 处理器，重新编译应用程序。重新向服务实例提交应用程序。
+
+
+**注：**如果使用 Beta-Entry 和 Beta-Enhanced 套餐，那么必须在 RHEL 7 环境或同等 CentOS 版本中编译应用程序捆绑软件。如果不具有可编译的开发环境，您可以使用 [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。请查看 [Beta 套餐文档](/docs/services/StreamingAnalytics/beta_plans.html)以了解详细信息。
 {: tsResolve}

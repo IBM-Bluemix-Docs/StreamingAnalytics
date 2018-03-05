@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener información sobre los planes de servicio de {{site.data.keyword.st
 ## ¿Qué versión del servicio de Streaming Analytics estoy utilizando?
 {: #version notoc}   
 
-Se envían mejoras regularmente a todos los servicios de {{site.data.keyword.streaminganalyticsshort}}. Utilice siempre la última versión del servicio gestionado y no hay ninguna versión o nivel de producto para mantener el seguimiento. 
+Se envían mejoras regularmente a todos los servicios de {{site.data.keyword.streaminganalyticsshort}}. Utilice siempre la última versión del servicio gestionado y no hay ninguna versión o nivel de producto para mantener el seguimiento.
 
 ## ¿Qué gestiona IBM por mí?
 {: #ibm_manage notoc}   

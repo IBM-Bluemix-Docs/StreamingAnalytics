@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -28,9 +28,10 @@ lastupdated: "2017-12-15"
 * [Más guías de aprendizaje](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window}
 
 
-## Referencia de la API
+## Referencia de API
 {: #api notoc}
-* [API REST de {{site.data.keyword.streaminganalyticsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.ng.bluemix.net/apidocs/220){:new_window}
+* [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/220){:new_window}
+[{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/1939){:new_window}
 * [API de {{site.data.keyword.streamsshort}} Python ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/){:new_window}
 
 

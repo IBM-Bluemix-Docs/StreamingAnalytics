@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2017
+  years: 2015, 2018
 lastupdated: "2017-12-15"
 
 ---
@@ -26,5 +26,7 @@ na nuvem ou o Streams Studio na nuvem. Desenvolva os seus aplicativos em um ambi
 como pacotes configuráveis do aplicativo. Se você não tem o ambiente de desenvolvimento, é possível fazer download do [{{site.data.keyword.streamsshort}} Quick Start Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) gratuitamente.
 * Compile o pacote configurável do aplicativo em um ambiente do Red Hat Enterprise Linux 6.5 ou em uma versão equivalente do CentOS para assegurar
 compatibilidade.
+
+  **Observação:** se você está usando os planos Beta-Entry e Beta-Enhanced, deve-se compilar seu pacote configurável do aplicativo em um ambiente RHEL 7 ou uma versão equivalente do CentOS. É possível usar o [{{site.data.keyword.streamsshort}} QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se você não tem um ambiente de desenvolvimento compatível. Veja a [Documentação de planos beta](/docs/services/StreamingAnalytics/beta_plans.html) para obter detalhes.
 * Em seu ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}, configure a variável de ambiente
 `JAVA_HOME` como $STREAMS_INSTALL/java.

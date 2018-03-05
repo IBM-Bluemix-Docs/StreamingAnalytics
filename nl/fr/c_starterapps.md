@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -13,121 +13,121 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# 스타터 애플리케이션
+# Applications de démarrage
 {: #starterapps}
 
-스타터 애플리케이션을 배치 및 수정하고 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하는 방법을 빠르게 배웁니다.
+Déployez et modifiez les applications de démarrage et apprenez rapidement à utiliser le service {{site.data.keyword.streaminganalyticsshort}} :
 {:shortdesc}
 
-<table summary="이 표의 첫 번째 행에는 Stock Trades 스타터 애플리케이션 설명이 들어 있습니다. 표의 두 번째 행에는 다음이 포함됩니다.
-1. 첫 번째 열에는 Stock Trades 스타터 애플리케이션을 배치하는 방법에 대한 비디오 링크가 있습니다. 2. 두 번째 열에는 Stock Trades 스타터 애플리케이션을 직접 다운로드할 수 있는 링크가 있습니다.
- ">
+<table summary="La première ligne de ce tableau décrit l'application de démarrage Stock Trades. La deuxième ligne inclut :
+1. Dans la première colonne, un lien vers une vidéo expliquant comment déployer l'application de démarrage Stock Trades. 2. Dans la deuxième colonne, un lien permettant de télécharger directement l'application de démarrage Stock Trades.
+">
   <tr>
-    <th colspan="3">Stock Trades 샘플 앱<br></th>
+    <th colspan="3">Modèle d'application Stock Trades<br></th>
   </tr>
   <tr>
-    <td colspan="3">이 애플리케이션은 주식 시세의 흐름을 분석하고 <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">집계 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 연산자를 사용하여 가격의 평균을 산출합니다.
-수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다. 서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다. 스타터 애플리케이션에 대한 전체 소스는 <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">GitHub에서 사용 가능 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a>합니다.</p>
+    <td colspan="3">Cette application analyse un flux d'actions en bourse et génère la moyenne des prix à l'aide de l'opérateur <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.
+Vous pouvez exécuter l'application de démarrage sans modification. Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}. La source intégrale de l'application de démarrage est <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">disponible sur GitHub ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.</p>
 </td>
   </tr>
   <tr>
-    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
-    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
+    <td><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
+    <td><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">TELECHARGEMENT ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
 </table>
 
-*표 1. Stock Trades 샘플 앱*
+*Tableau 1. Modèle d'application Stock Trades*
 
 
-<table summary="이 표의 첫 번째 행에는 Event Detection 샘플 애플리케이션에 대한 설명이 있습니다. 표의 두 번째 행에는 다음 내용이 있습니다.
-1. 첫 번째 행에는 Event Detection 스타터 애플리케이션 배치 방법에 대한 지시사항 링크가 있습니다. 2. 두 번째 행에는 Event Detection 스타터 애플리케이션 사용 방법에 대한 튜토리얼 링크가 있습니다.
- ">
+<table summary="La première ligne de ce tableau décrit le modèle d'application Event Detection. La deuxième ligne inclut les éléments suivants :
+1. Dans la première colonne, un lien vers les instructions de déploiement de l'application de démarrage. 2. Dans la deuxième colonne, un lien vers les tutoriels sur l'utilisation de l'application de démarrage. 3. Dans la troisième colonne, un lien pour le téléchargement direct de l'application de démarrage Event Detection.
+">
   <tr>
-    <th colspan="3">Event Detection 샘플 앱<br></th>
+    <th colspan="3">Modèle d'application Event Detection<br></th>
   </tr>
   <tr>
-    <td colspan="3">Event Detection 앱은 <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다.
-앱은 분석의 상태와 결과를 표시하기 위한 간단한 웹 UI를 제공합니다.
-Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스에 바인드됩니다. 앱은 {{site.data.keyword.streaminganalyticsshort}} REST API를 통해 서비스를 제어합니다.
-<p>수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다.
-서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다.</p>
+    <td colspan="3">L'application Event Detection est implémentée via la phase d'exécution <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.
+Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
+L'application Node.js est liée à une instance du service {{site.data.keyword.streaminganalyticsshort}}. L'application contrôle le service via l'interface API REST {{site.data.keyword.streaminganalyticsshort}}.
+<p>Vous pouvez exécuter l'application de démarrage sans modification.
+Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}.</p>
 </td>
   </tr>
   <tr>
-    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">앱 배치</a><br></td>
-    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
+    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
+    <td><a href="http://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html" target="_blank">TUTORIEL ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">TELECHARGEMENT ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
 </table>
 
-*표 2. Event Detection 샘플 앱*
+*Tableau 2. Modèle d'application Event Detection*
 
-<table summary="이 표의 첫 번째 행에는 뉴욕 트래픽 샘플 애플리케이션에 대한 설명이 있습니다. 표의 두 번째 행에는 다음 내용이 있습니다.
-1. 첫 번째 행에는 뉴욕 트래픽 샘플 애플리케이션 배치 방법에 대한 지시사항 링크가 있습니다. 2. 두 번째 행에는 뉴욕 트래픽 샘플 애플리케이션 사용 방법에 대한 튜토리얼 링크가 있습니다.">
+<table summary="La première ligne de ce tableau décrit le modèle d'application relatif au trafic new-yorkais. La deuxième ligne inclut les éléments suivants :
+1. Dans la première colonne, un lien vers les instructions de déploiement du modèle d'application. 2. Dans la deuxième colonne, un lien vers les tutoriels sur l'utilisation du modèle d'application. 3. Dans la troisième colonne, un lien pour le téléchargement direct du modèle d'application relatif au trafic new-yorkais. ">
   <tr>
-    <th colspan="3">NYC Traffic 샘플 앱<br></th>
+    <th colspan="3">Modèle d'application NYC Traffic<br></th>
   </tr>
   <tr>
-    <td colspan="3">NYC Traffic 스타터 앱은 Liberty for Java로 작성된 {{site.data.keyword.Bluemix_short}}용 애플리케이션입니다. 여기에는 뉴욕시 트래픽 센서에서 얻은 공공 데이터를 검색하고 집계 통계를 계산하며 결과를 Liberty 애플리케이션으로 다시 전송하는 {{site.data.keyword.streamsshort}} 애플리케이션이 있습니다.
-<p>수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다. 서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다.</p>
+    <td colspan="3">L'application de démarrage NYC Traffic est une application pour {{site.data.keyword.Bluemix_short}} écrite en Liberty for Java. Elle contient une application {{site.data.keyword.streamsshort}} qui extrait des données publiques à partir des détecteurs de trafic de la ville de New York, calcule des statistiques d'agrégat et renvoie les résultats à l'application Liberty.
+<p>Vous pouvez exécuter l'application de démarrage sans modification. Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}.</p>
 </td>
   </tr>
   <tr>
-    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">앱 배치</a><br></td>
-    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
-    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
+    <td><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
+    <td><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">TUTORIEL ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
+    <td><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">TELECHARGEMENT ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
 </table>
 
-*표 3. NYC Traffic 샘플 앱*
+*Tableau 3. Modèle d'application NYC Traffic*
 
-## IBM Streams Runner for Apache Beam 샘플 앱
+## Modèles d'Application IBM Streams Runner for Apache Beam
 
-<table summary="이 표의 첫 번째 행에는 TemperatureSample Beam 애플리케이션이 설명되어 있습니다. 이 표의 두 번째 행에는 TemperatureSample Beam 애플리케이션을 배치하는 방법에 대한 튜토리얼의 링크가 포함되어 있습니다.
- ">
+<table summary="La première ligne de ce tableau décrit l'application Beam TemperatureSample. La seconde ligne du tableau inclut un lien menant vers un tutoriel expliquant comment déployer l'application Beam TemperatureSample.
+">
   <tr>
-    <th colspan="3">TemperatureSample Beam 앱<br></th>
+    <th colspan="3">Application Beam TemperatureSample<br></th>
   </tr>
   <tr>
-    <td colspan="3">이 애플리케이션은 여러 디바이스로부터 온도 수치를 읽습니다. 이 애플리케이션은 특정 임계값에 따라 수치를 "바른"(올바름) 수치와 "잘못된"(올바르지 않음) 수치로 구분합니다. 그 다음 잘못된 수치를 계산하고 바른 수치에 대한 몇 가지 기본 통계를 생성한 후 마지막으로 결과를 로그합니다. TemperatureSample 앱은 Streaming Analytics 콘솔에서 다운로드할 수 있습니다.
+    <td colspan="3">Cette application prend des lectures de température issues de plusieurs appareils. Elle répartit ces lectures en lectures "satisfaisantes" (valides) et "mauvaises" (non valides) en fonction d'un seuil établi. Elle compte les mauvaises lectures, génère des statistiques de base concernant les lectures satisfaisantes, puis consigne les résultats. Vous pouvez télécharger l'application TemperatureSample à partir de la console Streaming Analytics.
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">앱 보기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">AFFICHER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
 </table>
 
-*표 4. TemperatureSample 앱*
+*Tableau 4. Application TemperatureSample*
 
-<table summary="이 표의 첫 번째 행에는 WordCount Beam 샘플 애플리케이션이 설명되어 있습니다. 이 표의 두 번째 행에는 WordCount 샘플 애플리케이션을 배치하는 방법에 대한 튜토리얼의 링크가 포함되어 있습니다.
- ">
+<table summary="La première ligne de ce tableau décrit le modèle d'application Beam WordCount. La seconde ligne du tableau inclut un lien menant à un tutoriel indiquant comment déployer le modèle d'application WordCount.
+">
   <tr>
-    <th colspan="3">WordCount 샘플 앱<br></th>
+    <th colspan="3">Modèle d'application WordCount<br></th>
   </tr>
   <tr>
-    <td colspan="3">Apache Beam 2.0 Java SDK Quickstart WordCount 샘플 애플리케이션은 텍스트 파일에서 읽고, 변환을 적용하여 토큰화하고 단어 수를 계산하며, 데이터를 출력 텍스트 파일에 쓸 수 있는 재사용이 가능하고 유지보수할 수 있는 파이프라인을 작성합니다.
+    <td colspan="3">Le modèle d'application Apache Beam 2.0 Java SDK Quickstart WordCount crée des pipelines réutilisables et gérables qui peuvent lire un fichier texte, appliquer des transformations afin de segmenter et compter les mots, et écrire les données dans un fichier texte de sortie.
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
   </tr>
 </table>
 
-*표 5. WordCount 샘플 앱*
+*Tableau 5. Modèle d'application WordCount*
 
-<table summary="이 표는 첫 번째 행에서 FileStreamSample 샘플 애플리케이션에 대해 설명합니다. 표에는 FileStreamSample 애플리케이션을 배치하는 방법에 대한 튜토리얼의 링크가 두 번째 행에 포함되어 있습니다.
- ">
+<table summary="La première ligne de ce tableau décrit le modèle d'application FileStreamSample. La deuxième ligne inclut un lien vers un tutoriel expliquant comment déployer l'application FileStreamSample.
+">
   <tr>
-    <th colspan="3">FileStreamSample 앱<br></th>
+    <th colspan="3">Application FileStreamSample<br></th>
   </tr>
   <tr>
-    <td colspan="3">IBM® Streams Runner for Apache Beam FileStreamSample 샘플 애플리케이션을 사용하여 파일 입력 및 출력을 위해 {{site.data.keyword.Bluemix_notm}} 오브젝트 스토리지를 사용하는 방법을 알아볼 수 있습니다.
+    <td colspan="3">Vous pouvez utiliser le modèle d'application FileStreamSample d'IBM® Streams Runner for Apache Beam pour apprendre à utiliser le stockage d'objets {{site.data.keyword.Bluemix_notm}} pour l'entrée et la sortie de fichier.
 </td>
   </tr>
   <tr>
-    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
+    <td><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
   </tr>
 </table>
 
-*표 6. FileStreamSample 앱*
+*Tableau 6. Application FileStreamSample*

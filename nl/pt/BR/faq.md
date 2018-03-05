@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -40,7 +40,7 @@ Grave os aplicativos que serão executados em um serviço {{site.data.keyword.st
 ## A alta disponibilidade (HA) é suportada?
 {: #ha notoc}
 
-A alta disponibilidade é gerenciada pela IBM. O {{site.data.keyword.streaminganalyticsshort}} está configurado para suportar HA. Recursos adicionais do servidor estão no local no evento de um failover. 
+A alta disponibilidade é gerenciada pela IBM. O {{site.data.keyword.streaminganalyticsshort}} está configurado para suportar HA. Recursos adicionais do servidor estão no local no evento de um failover.
 
 ## Como a segurança é gerenciada para o serviço Streaming Analytics?
 {: #security notoc}  

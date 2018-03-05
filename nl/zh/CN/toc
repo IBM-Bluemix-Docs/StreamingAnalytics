@@ -19,13 +19,21 @@ Streaming Analytics
     c_starterapps.md
 
     {: .topicgroup}
+    Beta 套餐
+        beta_plans.md
+        consistentregions.md
+        resource_usage.md
+        [V2 REST API 参考](https://console.bluemix.net/apidocs/1939)
+
+    {: .topicgroup}
     gs_python.md
     gs_beamrunner.md
       {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
-    [REST API 参考](https://console.ng.bluemix.net/apidocs/220)
+    [V1 REST API 参考](https://console.bluemix.net/apidocs/220)
+    [适用于 Beta 套餐的 V2 REST API](https://console.bluemix.net/apidocs/1939)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 

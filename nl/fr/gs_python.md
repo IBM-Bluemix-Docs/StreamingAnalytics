@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -13,11 +13,11 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# Streaming Analytics용 Streams Python 앱
+# Applications Python Streams pour Streaming Analytics
 {: #gettingstarted_py}
 
-이제 IBM Data Science Experience(DSX) 등의 Python 환경에서 Streams 앱을 작성할 수 있으며, 이러한 앱을 {{site.data.keyword.Bluemix_notm}}에 배치되도록 {{site.data.keyword.streaminganalyticsshort}} 인스턴스에 제출할 수 있습니다. Streams Python 앱을 컴파일하고 배치하기 위해 더 이상 로컬로 {{site.data.keyword.streamsshort}}를 설치할 필요가 없습니다.
+Vous pouvez désormais créer des applications Streams dans un environnement Python, comme IBM Data Science Experience (DSX), et soumettre ces applications dans l'instance {{site.data.keyword.streaminganalyticsshort}} pour qu'elles soient déployées dans {{site.data.keyword.Bluemix_notm}}. Vous n'avez plus besoin d'installer {{site.data.keyword.streamsshort}} localement pour compiler et déployer une application Streams Python.
 
-DSX에서 Jupyter 노트북을 사용하여 샘플 Streams Python 앱을 작성하여 시작하고, DSX에서 직접 서비스 인스턴스에 이러한 앱을 제출하십시오. 자세한 정보는 [DSX에서 Streams Python 앱 개발](/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_python_dsx)을 참조하십시오.
+Démarrez en créant des applications Python Streams exemple utilisant Jupyter Notebook dans DSX, et soumettez ces applications à l'instance de service directement depuis DSX. Pour plus d'informations, voir [Développement d'applications Streams Python dans DSX](/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_python_dsx).
 
-{{site.data.keyword.streaminganalyticsshort}}에서는 로컬 Python 환경에서 Streams 앱의 배치도 지원합니다. Streams Python 앱을 로컬로 개발하고 서비스 인스턴스에 이를 제출하려면, streamsx 패키지에 포함되어 있는 [{{site.data.keyword.streamsshort}} Python 애플리케이션 API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features)를 사용해야 합니다. 시작하려면 [{{site.data.keyword.streaminganalyticsshort}} 서비스를 위한 개발 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) 튜토리얼의 단계를 따르십시오. 
+{{site.data.keyword.streaminganalyticsshort}} prend également en charge le déploiement d'applications Streams depuis votre environnement Python local. Vous devez utiliser l'[API d'application Python {{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) incluse dans le package streamsx. Pour commencer, suivez les étapes décrites dans le tutoriel [Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html).

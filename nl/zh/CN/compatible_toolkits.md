@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -33,7 +33,7 @@ lastupdated: "2017-12-15"
 | [MessageHub ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibmstreams.github.io/streamsx.messagehub/) | 支持 Streams 应用程序使用 MessageHub。|
 | [Messaging ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibmstreams.github.io/streamsx.messaging/)   |  	专注于与常用消息传递系统（Kafka、MQTT、JMS 和 XMS）进行交互。<br>**注**：要使用 JMSSource、JMSSink、XMSSource、XMSSink 与 WebSphere MQ，请在您的开发环境中完成以下所需步骤：
 <br>1. 转至 [IBMStreams on GitHub ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/IBMStreams){:new_window} 并在您的开发环境中下载 Messaging Toolkit (com.ibm.streamsx.messaging) V3.0.0 或更高版本。<br>2. 使用 V5.1.0 或更高版本的工具箱来构建应用程序。<br>3. 在应用程序的 `/etc` 目录中放置必要的 .bindings 文件，以将其包含在 {{site.data.keyword.streamsshort}} 应用程序捆绑软件中。|
-| [Mining ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibm.co/2y3i5au)              	   	            |  包含可用于通过应用模型进行数据流挖掘的操作程序。|
+| [Mining ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibm.co/2y3i5au)              	   	            |  包含可用于通过应用模型进行数据流挖掘的操作程序。<br> **限制：**如果使用 [Beta-Entry 和 Beta-Enhanced 套餐](/docs/services/StreamingAnalytics/beta_plans.html)，那么此工具箱不受支持，因为您必须在 RHEL 7 环境或同等 CentOS 版本中编译应用程序捆绑软件。|
 | [RabbitMQ ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibmstreams.github.io/streamsx.rabbitmq/) |  提供允许 Streams 应用程序从 Rabbit MQ 读取和发送消息的操作程序。|
 | [R-project ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibm.co/2h7D9lu)          	   	              |   包含 RScript 操作程序，可以使用该操作程序来运行 R 命令，并应用复杂的数据挖掘算法，以检测数据流中的相关模式。
 |

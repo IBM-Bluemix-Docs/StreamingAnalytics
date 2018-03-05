@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -33,7 +33,7 @@ Esses kits de ferramentas e adaptadores analíticos são suportados pelo {{site.
 | [MessageHub ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibmstreams.github.io/streamsx.messagehub/) | Permite que aplicativos Streams trabalhem com o MessageHub.			     |
 | [Sistema de mensagens ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibmstreams.github.io/streamsx.messaging/)   |  	Foca em interagir com sistemas de mensagens populares como Kafka, MQTT, JMS e XMS	<br>**Nota**: para usar JMSSource, JMSSink, XMSSource, XMSSink com o WebSphere MQ, conclua estas etapas necessárias em seu ambiente de
 desenvolvimento: <br>1. Acesse [IBMStreams no GitHub ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://github.com/IBMStreams){:new_window} e faça download do Messaging Toolkit (com.ibm.streamsx.messaging) versão 3.0.0 ou mais recente em seu ambiente de desenvolvimento.<br>2. Use a versão 5.1.0 ou mais recente do kit de ferramentas para construir seu aplicativo.<br>3. Coloque o arquivo .bindings necessário no diretório `/etc` do seu aplicativo para incluí-lo no pacote configurável do aplicativo {{site.data.keyword.streamsshort}}.	    |
-| [Mineração ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibm.co/2y3i5au)              	   	            |  Inclui operadores que podem ser usados para extrair fluxos de dados aplicando modelos.	     |
+| [Mineração ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibm.co/2y3i5au)              	   	            |  Inclui operadores que podem ser usados para extrair fluxos de dados aplicando modelos. <br> **Restrição:** este kit de ferramentas não é suportado se você está usando os [Planos Beta-Entry e Beta-Enhanced](/docs/services/StreamingAnalytics/beta_plans.html), pois deve-se compilar seu aplicativo configurável em um ambiente RHEL 7 ou uma versão equivalente do CentOS.|
 | [RabbitMQ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  Fornece operadores que permitem que o aplicativo Streams leia e envie mensagens de RabbitMQ.  |
 | [R-project ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibm.co/2h7D9lu)          	   	              |   Inclui o operador RScript, que pode ser usado para executar comandos R e aplicar algoritmos de mineração de dados complexos para detectar padrões de interesse em fluxos de dados.			     |
 | [Topologia ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.topology/)      |  Fornece a capacidade de construir aplicativos de fluxo Python para o serviço {{site.data.keyword.streaminganalyticsshort}}na plataforma {{site.data.keyword.Bluemix_notm}} e no {{site.data.keyword.streamsshort}}.		     |

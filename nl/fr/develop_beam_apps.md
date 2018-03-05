@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -13,24 +13,24 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# Streaming Analytics에 Beam 애플리케이션 배치
+# Déploiement d'applications Beam dans Streaming Analytics
 {: #develop_beam_apps}
 
-이제 로컬 {{site.data.keyword.streamsshort}} 개발 환경에서 Beam 애플리케이션을 개발하고 이러한 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}}에 배치할 수 있습니다.
+Vous pouvez désormais développer des applications Beam dans votre environnement de développement local {{site.data.keyword.streamsshort}} et déployer ces applications dans {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
-{{site.data.keyword.streamsshort}} Runner for Apache Beam은 {{site.data.keyword.streamsshort}} 환경에서 Beam 파이프라인을 실행합니다. Streams Runner를 사용하여 실행된 Beam 애플리케이션은 {{site.data.keyword.streaminganalyticsshort}}에서 배치하고 모니터할 수 있는 SAB(Streams Application Bundle) 파일로 변환됩니다.
+{{site.data.keyword.streamsshort}} Runner for Apache Beam exécute des pipelines Beam dans un environnement {{site.data.keyword.streamsshort}}. Une application Beam lancée avec Streams Runner est convertie en un fichier SAB (Streams Application Bundle) que vous pouvez ensuite déployer et surveiller dans {{site.data.keyword.streaminganalyticsshort}}.
 
-Beam 애플리케이션을 {{site.data.keyword.Bluemix_notm}}의 {{site.data.keyword.streaminganalyticsshort}} 서비스에 제출하려면 이 서비스의 신임 정보 및 기타 정보를 포함하는 JSON 형식의 VCAP 파일을 작성해야 합니다.
+Pour soumettre une application Beam auprès de votre service {{site.data.keyword.streaminganalyticsshort}} sur {{site.data.keyword.Bluemix_notm}}, vous devez créer un fichier VCAP au format JSON contenant les données d'identification et d'autres informations liées au service.
 
-1. Streams 로컬 환경에서 툴킷을 설치한 샘플 서브폴더($STREAMS_BEAM_RUNNER/samples)로 이동하여 template.vcap 파일을 새 파일에 복사하십시오. 이 파일에 의미가 있는 이름과 파일 확장자 .vcap을 지정하십시오.
-1. [{{site.data.keyword.streaminganalyticsshort}} 서비스의 신임 정보를 복사](/docs/services/StreamingAnalytics/r_vcap_services.html)하여 작성한 VCAP 파일에 신임 정보를 붙여넣고 다음 행을 바꾸십시오. 
+1. Dans votre environnement local Streams, accédez au sous-dossier samples dans lequel vous avez installé le kit d'outils ($STREAMS_BEAM_RUNNER/samples) et copiez le fichier template.vcap dans un nouveau fichier. Attribuez-lui un nom significatif, ainsi qu'une extension de fichier .vcap.
+1. [Copiez les données d'identification de votre service {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/r_vcap_services.html) et collez-les dans le fichier VCAP que vous avez créé en remplaçant la ligne suivante :
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```
-1. 개발 환경에서 Beam 애플리케이션이 올바르게 실행되는지 확인하십시오. Streams Runner를 사용하여 Beam 애플리케이션을 실행하면 애플리케이션이 SAB(Streams Application Bundle) 파일로 변환됩니다.
-1. Beam 애플리케이션과 연관된 SAB 파일을 {{site.data.keyword.streaminganalyticsshort}}에 제출하십시오.
+1. Vérifiez que votre application Beam s'exécute correctement dans votre environnement de développement. Lorsque vous lancez votre application Beam avec Streams Runner, elle est convertie en un fichier SAB (Streams Application Bundle).
+1. Soumettez le fichier SAB associé à votre application Beam auprès de {{site.data.keyword.streaminganalyticsshort}}
 
-애플리케이션이 이제 클라우드에 배치됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 애플리케이션을 모니터할 수 있습니다.
+Votre application est maintenant déployée dans le cloud. Vous pouvez la surveiller à l'aide du service {{site.data.keyword.streaminganalyticsshort}}.
 
-{{site.data.keyword.streaminganalyticsshort}}에서 Beam 애플리케이션을 배치하고 모니터링하는 데 대한 세부사항은 [Apache Beam을 위한 Streams Runner ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/)를 참조하십시오.
+Pour plus de détails sur le déploiement et la surveillance de vos applications Beam dans {{site.data.keyword.streaminganalyticsshort}}, voir [Streams Runner for Apache Beam ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/).

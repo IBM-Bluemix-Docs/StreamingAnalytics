@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -13,27 +13,29 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# 기타 {{site.data.keyword.Bluemix_notm}} 서비스와의 통합을 위한 튜토리얼
+# Tutoriels d'intégration à d'autres services {{site.data.keyword.Bluemix_notm}}
 {: #tutorials}
 
 
-이제 {{site.data.keyword.streaminganalyticsshort}}를 {{site.data.keyword.Bluemix_short}}용 {{site.data.keyword.cloudant}} HBase 등 기타 {{site.data.keyword.Bluemix_short}} 서비스와 함께 사용할 수 있습니다.
+Vous pouvez désormais utiliser {{site.data.keyword.streaminganalyticsshort}} avec d'autres services {{site.data.keyword.Bluemix_short}}, dont {{site.data.keyword.cloudant}} HBase for {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-다음 표에는 {{site.data.keyword.streaminganalyticsshort}}를 기타 {{site.data.keyword.Bluemix_short}} 서비스와 통합하는 데 도움이 되는 튜토리얼이 나열되어 있습니다.
+Le tableau ci-après répertorie les tutoriels destinés à vous aider lors de l'intégration de {{site.data.keyword.streaminganalyticsshort}} à d'autres services {{site.data.keyword.Bluemix_short}} :
 
 
-| 튜토리얼 | 설명   |
+| Tutoriels | Description   |
 |----------|--------|
-| [{{site.data.keyword.streamsshort}}에 연결: 알아야 할 사항 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://ibm.co/2iDHfFt) | {{site.data.keyword.streaminganalyticsshort}}에서 연결을 청취하는 {{site.data.keyword.streamsshort}} 연산자 사용에 대한 정보입니다.  |
-| [{{site.data.keyword.cloudant}}와 기타 여러 RESTful 서비스와 통합 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/) | {{site.data.keyword.streamsshort}} HTTP 어댑터를 사용하여 SPL 애플리케이션을 {{site.data.keyword.cloudant}} 및 기타 RESTful, 웹 기반 서비스에 통합하는 방법을 설명합니다. |
-| [{{site.data.keyword.streaminganalyticsshort}} 서비스의 SPSS Analytics Toolkit에 대한 지원 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-analytics-service/) | 클라우드 환경에서 SPSS Analytics 툴킷 연산자의 효과적인 사용에 필요한 몇 가지 팁을 제공합니다. |
-| [Apache Edgent, {{site.data.keyword.iot_short}} 및 {{site.data.keyword.streaminganalyticsshort}}를 사용하여 Smart Sprinkler 작성 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/2016/06/01/better-analytics-with-apache-quarks/)| 수자원 보호 솔루션을 개발하기 위해 Apache Edgent, {{site.data.keyword.streaminganalyticsshort}}, {{site.data.keyword.iot_short}} 및 기타 {{site.data.keyword.Bluemix_short}} 서비스를 결합하는 방법을 알아봅니다. |
-| [Watson IoT 레시피: {{site.data.keyword.streaminganalyticsshort}} 서비스와 {{site.data.keyword.iot_short_notm}} 통합 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/)| {{site.data.keyword.Bluemix_short}}에서 사용 가능한 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 {{site.data.keyword.iot_short_notm}}에서 IoT 디바이스에 의해 공개된 이벤트를 빠르게 수집, 분석하고 상관시키는 방법을 설명합니다.|
-| [{{site.data.keyword.geospatialshort_Geospatial}} 서비스를 사용하여 실시간 행아웃 발견 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/)	| ({{site.data.keyword.streaminganalyticsshort}}에서 제공하는) {{site.data.keyword.Bluemix_short}}의 {{site.data.keyword.geospatialshort_Geospatial}} 서비스가 실시간 행아웃 발견을 지원하는 방법을 설명합니다.|
-| [JDBC 사용 {{site.data.keyword.Bluemix_short}} 데이터베이스(SQL 데이터베이스 및 {{site.data.keyword.dashdbshort}})가 포함된 {{site.data.keyword.streaminganalyticsshort}} 사용 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/)	| streamsx.jdbc 툴킷을 사용하여 SQL Database 및 dashDB를 통합하는 방법을 설명합니다.	|
-| [{{site.data.keyword.streaminganalyticsshort}} + {{site.data.keyword.SecureGateway}}를 사용하여 실시간으로 엔터프라이즈 데이터 분석 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/2016/02/17/analyze-enterprise-data-with-streaming-analytics-secure-gateway/) | {{site.data.keyword.SecureGateway}} 터널을 {{site.data.keyword.streamsshort}} 소스에 연결하고 이동 중인 엔터프라이즈 데이터에 연결하는 방법을 설명합니다.	|
-| [HDFS를 사용하여 {{site.data.keyword.Bluemix_short}}에서 {{site.data.keyword.streaminganalyticsshort}} 및 {{site.data.keyword.bigicloudst}} 시작하기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/2016/02/26/streaming-analytics-and-biginsights-using-hdfs/)	| {{site.data.keyword.streamsshort}} 연산자를 사용하여 {{site.data.keyword.Bluemix_short}}에서 HDFS에 파일을 읽고 쓰는 방법을 보여줍니다.	|
-| [{{site.data.keyword.streaminganalyticsshort}} 서비스와 {{site.data.keyword.Bluemix_short}}의 HBase와 통합 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/integrating-streams-biginsights-hbase-service-bluemix/)| {{site.data.keyword.Bluemix_short}}용 HBase 툴킷을 사용하여 {{site.data.keyword.Bluemix_short}}에서 {{site.data.keyword.bigicloudst}}의 HBase 서버와 {{site.data.keyword.streaminganalyticsshort}} 애플리케이션을 통합하는 방법을 알아봅니다.	|
+| [Connecting to {{site.data.keyword.streamsshort}}: What you need to know ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://ibm.co/2iDHfFt) | Décrit l'utilisation d'opérateurs {{site.data.keyword.streamsshort}} qui écoutent une connexion dans {{site.data.keyword.streaminganalyticsshort}}  |
+| [Integrating with {{site.data.keyword.cloudant}} and many other RESTful Services ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/) | Explique comment utiliser les adaptateurs HTTP {{site.data.keyword.streamsshort}} pour intégrer les applications SPL à {{site.data.keyword.cloudant}} et à d'autres services RESTful reposant sur le Web. |
+| [Support for SPSS Analytics Toolkit in {{site.data.keyword.streaminganalyticsshort}} service ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-analytics-service/) | Fournit quelques conseils nécessaires pour utiliser efficacement les opérateurs du kit d'outils d'analyse SPSS dans l'environnement de cloud. |
+| [Using Apache Edgent, {{site.data.keyword.iot_short}}, and {{site.data.keyword.streaminganalyticsshort}} to Create a Smart Sprinkler ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/bluemix/2016/06/01/better-analytics-with-apache-quarks/)| Découvrez comment combiner Apache Edgent, {{site.data.keyword.streaminganalyticsshort}}, {{site.data.keyword.iot_short}} et d'autres services {{site.data.keyword.Bluemix_short}} pour développer une solution de conservation des eaux. |
+| [Send events to the {{site.data.keyword.iot_short_notm}} from a Raspberry Pi running Apache Edgent  ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://ibm.co/2BWqMou)| Explique comment créer une application Edgent qui envoie des relevés depuis un détecteur à {{site.data.keyword.iot_short_notm}} et comment utiliser ces événements depuis une application {{site.data.keyword.streamsshort}}. |
+| [Connect Apache Edgent running on Raspberry Pi to the {{site.data.keyword.streaminganalyticsshort}} service  ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://ibm.co/2BWXjec)| Explique comment créer une application {{site.data.keyword.streaminganalyticsshort}} qui traite des événements envoyés à {{site.data.keyword.iot_short_notm}} depuis un périphérique exécutant Apache Edgent. |
+| [Watson IoT Recipe: Integrate {{site.data.keyword.streaminganalyticsshort}} service with {{site.data.keyword.iot_short_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/)| Explique comment utiliser le service {{site.data.keyword.streaminganalyticsshort}}, disponible sur {{site.data.keyword.Bluemix_short}}, pour rapidement ingérer, analyser et corréler les événements publiés par les périphériques IoT, sur {{site.data.keyword.iot_short_notm}}.|
+| [Real-time hangout detection with {{site.data.keyword.geospatialshort_Geospatial}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/)	| Explique comment le service {{site.data.keyword.geospatialshort_Geospatial}} de {{site.data.keyword.Bluemix_short}} (optimisé pour {{site.data.keyword.streaminganalyticsshort}}) prend en charge la détection des lieux de prédilection en temps réel.|
+| [Using {{site.data.keyword.streaminganalyticsshort}} with JDBC-enabled {{site.data.keyword.Bluemix_short}} databases (SQL Database and {{site.data.keyword.dashdbshort}}) ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/)	| Explique comment procéder à l'intégration à SQL Database et dashDB en utilisant le kit d'outils streamsx.jdbc.	|
+| [Analyze enterprise data in real-time with {{site.data.keyword.streaminganalyticsshort}} + {{site.data.keyword.SecureGateway}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/bluemix/2016/02/17/analyze-enterprise-data-with-streaming-analytics-secure-gateway/) | Explique comment connecter un tunnel {{site.data.keyword.SecureGateway}} à des sources {{site.data.keyword.streamsshort}} et à des collecteurs de données d'entreprise en mouvement.	|
+| [Get started with {{site.data.keyword.streaminganalyticsshort}} and {{site.data.keyword.bigicloudst}} on {{site.data.keyword.Bluemix_short}} using HDFS ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/bluemix/2016/02/26/streaming-analytics-and-biginsights-using-hdfs/)	| Montre comment utiliser des opérateurs {{site.data.keyword.streamsshort}} pour lire et écrire des fichiers en HDFS sur {{site.data.keyword.Bluemix_short}}.	|
+| [Integrating {{site.data.keyword.streaminganalyticsshort}} service with HBase on {{site.data.keyword.Bluemix_short}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/streamsdev/docs/integrating-streams-biginsights-hbase-service-bluemix/)| Apprenez comment utiliser le kit d'outils HBase for {{site.data.keyword.Bluemix_short}} pour intégrer des applications {{site.data.keyword.streaminganalyticsshort}} à des serveurs HBase dans {{site.data.keyword.bigicloudst}} sous {{site.data.keyword.Bluemix_short}}.	|
 
-*표 1. 기타 {{site.data.keyword.Bluemix_short}} 서비스와의 통합을 위한 튜토리얼*
+*Tableau 1. Tutoriels d'intégration à d'autres services {{site.data.keyword.Bluemix_short}}*

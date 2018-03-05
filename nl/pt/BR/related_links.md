@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -30,7 +30,8 @@ lastupdated: "2017-12-15"
 
 ## Referência de API
 {: #api notoc}
-* [API de REST do {{site.data.keyword.streaminganalyticsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/220){:new_window}
+* [{{site.data.keyword.streaminganalyticsshort}} API de REST v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/220){:new_window}
+[{{site.data.keyword.streaminganalyticsshort}} API de REST v2![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/1939){:new_window}
 * [API de Python do {{site.data.keyword.streamsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/){:new_window}
 
 

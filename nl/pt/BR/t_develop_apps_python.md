@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -36,7 +36,7 @@ Se você não tem um ambiente de desenvolvimento Python, a maneira mais fácil d
 ## Desenvolvendo aplicativos em seu ambiente Python local
  {: #t_develop_python_api}
 
- O [Python Application API {{site.data.keyword.streamsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que está incluído no pacote streamsx, permite criar aplicativos de processamento de fluxo usando classes ou funções de chamada do Python. Use o Python Application API para definir e enviar o aplicativo para o serviço.
+ O [Python Application API {{site.data.keyword.streamsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), que está incluído no pacote streamsx, permite criar aplicativos de processamento de fluxo usando classes ou funções de chamada do Python. Use a API do aplicativo Python para definir e enviar o aplicativo para o serviço.
 
 Comece seguindo as etapas no tutorial [Desenvolvendo para o serviço {{site.data.keyword.streaminganalyticsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) para criar um aplicativo de amostra em seu ambiente Python local e implementá-lo no serviço {{site.data.keyword.streaminganalyticsshort}}.
 

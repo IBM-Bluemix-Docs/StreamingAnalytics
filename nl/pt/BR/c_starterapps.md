@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -27,8 +27,7 @@ Implemente e modifique os aplicativos iniciadores e aprenda rapidamente como usa
   </tr>
   <tr>
     <td colspan="3">Este aplicativo analisa um fluxo de cotações de estoque e produz uma média contínua dos preços usando o operador de <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Agregação ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a>.
-É possível executar o aplicativo
-iniciador sem modificação. Se você desejar experimentar mais com o serviço, também será possível modificar o código e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}. A origem integral para o aplicativo iniciador está <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">disponível no GitHub ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a>.</p>
+É possível executar o aplicativo iniciador sem modificação. Se você desejar experimentar mais com o serviço, também será possível modificar o código e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}. A origem integral para o aplicativo iniciador está <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">disponível no GitHub ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a>.</p>
 </td>
   </tr>
   <tr>
@@ -69,10 +68,8 @@ Se você desejar experimentar mais com o serviço, também será possível modif
     <th colspan="3">Aplicativo de amostra NYC Traffic<br></th>
   </tr>
   <tr>
-    <td colspan="3">O aplicativo iniciador NYC Traffic é um aplicativo para o {{site.data.keyword.Bluemix_short}} que é gravado no Liberty for Java. Ele contém um aplicativo {{site.data.keyword.streamsshort}} que recupera dados públicos
-dos sensores de tráfego da cidade de Nova York, calcula estatísticas agregadas e envia os resultados de volta para o aplicativo Liberty.
-<p>É possível executar o aplicativo
-iniciador sem modificação. Se você desejar experimentar mais com o serviço, também será possível modificar o código e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}.</p>
+    <td colspan="3">O aplicativo iniciador NYC Traffic é um aplicativo para o {{site.data.keyword.Bluemix_short}} que é gravado no Liberty for Java. Ele contém um aplicativo {{site.data.keyword.streamsshort}} que recupera dados públicos dos sensores de tráfego da cidade de Nova York, calcula estatísticas agregadas e envia os resultados de volta para o aplicativo Liberty.
+<p>É possível executar o aplicativo iniciador sem modificação. Se você desejar experimentar mais com o serviço, também será possível modificar o código e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}.</p>
 </td>
   </tr>
   <tr>

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -13,31 +13,31 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# Streaming Analytics에서 Python 애플리케이션 개발
+# Développement d'applications Python dans Streaming Analytics
 {: #t_develop_apps_python}
 
-이제 IBM Data Science Experience(DSX) 또는 로컬 Python 개발 환경에서 Python 애플리케이션을 개발하고 {{site.data.keyword.streaminganalyticsshort}}에서 이러한 애플리케이션을 배치할 수 있습니다.
+Vous pouvez désormais développer des applications Python dans IBM Data Science Experience (DSX) ou dans votre environnement de développement Python local et déployer ces applications dans {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
-다음 방법 중 하나를 사용해 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 Python 애플리케이션을 개발하고 이를 {{site.data.keyword.Bluemix_short}}에 배치하십시오.
+Développez et déployez vos applications Python dans {{site.data.keyword.Bluemix_short}} en utilisant le service {{site.data.keyword.streaminganalyticsshort}} via l'une des méthodes ci-après :
 
 
-## DSX에서 Streams Python 애플리케이션 개발
+## Développement d'applications Python Streams dans DSX
 {: #t_develop_python_dsx}
 
-아직 Python 개발 환경이 마련되지 않은 경우, 가장 손쉬운 시작 방법은 DSX에서 노트북을 사용하여 {{site.data.keyword.streaminganalyticsshort}} 서비스의 샘플 Python 애플리케이션을 작성하는 것입니다. 이러한 노트북은 DSX Python 환경 내에서 {{site.data.keyword.streaminganalyticsshort}} 서비스의 단순 Python 애플리케이션을 작성하고 배치하기 위한 단계와 코드 샘플을 제공합니다.
+Si vous ne disposez pas d'un environnement de développement Python, la façon la plus rapide de démarrer est d'utiliser nos fichiers notebook DSX et de créer des applications Python exemple pour le service {{site.data.keyword.streaminganalyticsshort}}. Ces fichiers notebook fournissent les procédures et les codes exemple pour créer et déployer des applications Python exemple simples pour le service {{site.data.keyword.streaminganalyticsshort}} au sein de l'environnement DSX Python :
 
-* [Hello World! ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): 간단한 Hello World! 애플리케이션을 작성하여 시작한 후에 이 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스에 배치하십시오.
+* [Hello World! ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8) : créez une application Hello World! simple pour démarrer, puis déployez l'application dans une instance du service {{site.data.keyword.streaminganalyticsshort}}.
 
-* [의료 서비스 데모 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6): 피드에서 스트리밍 데이터를 수집하고 분석하는 애플리케이션을 작성한 후 노트북에서 데이터를 시각화하십시오. 최종적으로는 이 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스에 제출하십시오.
+* [Healthcare Demo ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6) : créez une application qui ingère et analyse des données de diffusion en flux depuis un flux, puis les visualise dans le bloc-notes. Ensuite, soumettez cette application à l'instance de service {{site.data.keyword.streaminganalyticsshort}}.
 
-* [Neural Net 데모 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca60bb7): 샘플 데이터 세트를 작성하고, 샘플 데이터에 대한 모델을 작성하고, 스트리밍 애플리케이션에서 해당 모델을 사용하고, 스트리밍 데이터를 시각화하고, 마지막으로 스트리밍 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}} 서비스에 제출하십시오.
+* [Neural Net Demo ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca60bb7) : créez un ensemble de données exemple, créez un modèle pour les données exemple, utilisez ce modèle dans une application de diffusion en flux, visualisez les données de diffusion en flux, puis soumettez l'application de diffusion en flux au service {{site.data.keyword.streaminganalyticsshort}}.
 
-## 로컬 Python 환경에서 애플리케이션 개발
+## Développement d'applications dans votre environnement Python local
  {: #t_develop_python_api}
 
- streamsx 패키지에 포함되어 있는 [{{site.data.keyword.streamsshort}} Python 애플리케이션 API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features)를 활용하면 Python 호출 가능 클래스 또는 함수를 사용하여 스트림 처리 애플리케이션을 작성할 수 있습니다. Python 애플리케이션 API를 사용하여 애플리케이션을 정의하고 이를 서비스에 제출할 수 있습니다.
+ L'[API d'application Python {{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) incluse dans le package streamsx vous permet de créer des applications de traitement de flux utilisant des fonctions ou des classes appelables Python. Vous pouvez utiliser l'API d'application Python pour ensuite définir et soumettre l'application au service.
 
-로컬 Python 환경에 샘플 애플리케이션을 작성하고 {{site.data.keyword.streaminganalyticsshort}} 서비스에 이를 배치하려면 [{{site.data.keyword.streaminganalyticsshort}} 서비스를 위한 개발 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) 튜토리얼의 단계를 따라 시작해 보십시오. 
+Pour commencer, suivez les étapes décrites dans le tutoriel [Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) afin de créer un modèle d'application dans votre environnement Python local et de le déployer dans le service {{site.data.keyword.streaminganalyticsshort}}.
 
-{{site.data.keyword.streamsshort}} Python 애플리케이션 API에 대해 자세히 살펴보려면 [이 온라인 과정 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}을 완료하고 Python 개발자용 {{site.data.keyword.streaminganalyticsshort}} 기초를 학습하십시오. 
+Pour maîtriser l'API d'application Python {{site.data.keyword.streamsshort}} de façon plus approfondie, suivez [ce cours en ligne ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window} et apprenez les concepts de base de {{site.data.keyword.streaminganalyticsshort}} pour les développeurs Python.
