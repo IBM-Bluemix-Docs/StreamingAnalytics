@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-27"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Risoluzione dei problemi di Streaming Analytics 
+# Risoluzione dei problemi di Streaming Analytics
 {: #ts_StreamingAnalytics}
 
 Puoi trovare le risposte a domande comuni sull'utilizzo di {{site.data.keyword.streaminganalyticsshort}} in {{site.data.keyword.Bluemix_short}}.
@@ -52,4 +52,6 @@ Non hai compilato l'applicazione utilizzando un sistema operativo RHEL 6.5 o una
 {: tsCauses}
 
 Devi ricompilare la tua applicazione in un sistema operativo RHEL (Red Hat Enterprise Linux) 6.5 o una versione CentOS equivalente utilizzando processori Intel. Invia nuovamente la tua applicazione all'istanza del servizio.
+
+**Nota:** se stai utilizzando i piani Beta-Entry e Beta-Enhanced, devi compilare il tuo bundle dell'applicazione in un ambiente RHEL 7 o in una versione CentOS equivalente. Puoi utilizzare la [{{site.data.keyword.streamsshort}} Quick Start Edition per Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se non disponi di un ambiente di sviluppo compatibile. Controlla la [Documentazione dei piani beta](/docs/services/StreamingAnalytics/beta_plans.html) per i dettagli.
 {: tsResolve}

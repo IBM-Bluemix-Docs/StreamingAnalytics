@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-27"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -20,7 +20,7 @@ Puoi eseguire un'analisi in tempo reale sui dati dinamici come parte della tua a
 			{{site.data.keyword.streaminganalyticsfull}}.
 {:shortdesc}
 
-Nuovo utente di {{site.data.keyword.streaminganalyticsshort}}? Ottieni una [veloce introduzione al servizio](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
+Nuovo utente di {{site.data.keyword.streaminganalyticsshort}}? Ottieni una [veloce introduzione al servizio ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
 
 Il servizio {{site.data.keyword.streaminganalyticsshort}}
 fornisce le seguenti funzionalità che ti abilitano a distribuire, analizzare e monitorare i tuoi dati
@@ -28,7 +28,7 @@ nel cloud:
 
 **Utilizzo programmatico e interattivo del servizio:**
 
-Puoi utilizzare il servizio in modo interattivo tramite la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) o in modo programmatico tramite l'[API REST {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220){:new_window}.
+Puoi utilizzare il servizio in modo interattivo tramite la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) o in modo programmatico tramite l'[API REST {{site.data.keyword.streaminganalyticsshort}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.ng.bluemix.net/apidocs/220){:new_window}.
 
 **Distribuzione e monitoraggio di applicazioni SPL, Java, Scala e Python:**
 
@@ -43,9 +43,9 @@ Puoi sviluppare le applicazioni Beam con Streams Runner nel tuo ambiente di svil
 
 **Compatibilità con gli operatori {{site.data.keyword.streamsshort}}:**
 
-Gli operatori {{site.data.keyword.streamsshort}} nel toolkit standard [{{site.data.keyword.streamsshort}} Processing Language (SPL) dovrebbero essere compatibili](/docs/services/StreamingAnalytics/c_beta_adapters.html) con {{site.data.keyword.streaminganalyticsshort}}.
+Gli operatori {{site.data.keyword.streamsshort}} nel toolkit standard [{{site.data.keyword.streamsshort}} Processing Language (SPL) dovrebbero essere compatibili](/docs/services/StreamingAnalytics/compatible_toolkits.html) con {{site.data.keyword.streaminganalyticsshort}}.
 
-## Responsabilità di Streaming Analytics 
+## Responsabilità di Streaming Analytics
 {: #responsibilities notoc}
 
 ### Responsabilità del cliente
@@ -61,7 +61,7 @@ e ottenere i relativi approfondimenti. Il Cliente è inoltre responsabile della 
 di tali programmi o applicazioni sviluppati. I programmi possono essere sviluppati in SPL, Java o altri linguaggi
 supportati utilizzando la funzione {{site.data.keyword.streamsshort}}
 Topology. Devono essere compilati utilizzando {{site.data.keyword.streamsshort}} Developer Edition o {{site.data.keyword.streamsshort}} Quick Start Edition con lo stesso sistema operativo adoperato per {{site.data.keyword.streaminganalyticsshort}}.
-* Controllare periodicamente il seguente link per essere informati su un tempo di inattività continuato o interrotto pianificato - [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}  
+* Controllare periodicamente il seguente link per essere informati su un tempo di inattività continuato o interrotto pianificato - [https://developer.ibm.com/bluemix/support/#status ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/bluemix/support/#status){:new_window}  
 * Eseguire il backup di tutti i dati, metadati, file di configurazione e parametri di ambiente in base ai requisiti
 aziendali per garantire la continuità.
 * Ripristinare tutti i dati, metadati, file di configurazione e parametri di ambiente da qualsiasi backup
@@ -77,7 +77,7 @@ Come parte di {{site.data.keyword.streaminganalyticsfull}}, IBM provvederà a:
 * Fornire una configurazione iniziale di {{site.data.keyword.streamsshort}} sul numero di nodi selezionato.
 * Fornire e gestire l'infrastruttura per il firewall interno e verso Internet per la protezione e
 l'isolamento.
-* Monitorare e gestire i seguenti componenti su {{site.data.keyword.streaminganalyticsfull}}:
+* Monitorare e gestire i seguenti componenti su {{site.data.keyword.streaminganalyticsshort}}:
 	* Componenti di rete
 	* I server e la relativa archiviazione locale
 	* Sistemi operativi dell'infrastruttura
@@ -85,5 +85,5 @@ l'isolamento.
 	* Istanze {{site.data.keyword.streamsshort}}
 * Fornire le patch per la manutenzione, incluse le patch di sicurezza appropriate per i sistemi
 operativi dell'infrastruttura e {{site.data.keyword.streamsshort}}.
-* La manutenzione periodica per cui non è richiesto alcun tempo di inattività del sistema (manutenzione “continuata”) e la manutenzione per cui è richiesto un tempo di inattività del sistema e il riavvio (manutenzione “interrotta”), saranno eseguite in base ad orari pianificati pubblicati in [https://developer.ibm.com/bluemix/support/#status](https://developer.ibm.com/bluemix/support/#status){:new_window}
+* La manutenzione periodica per cui non è richiesto alcun tempo di inattività del sistema (manutenzione “continuata”) e la manutenzione per cui è richiesto un tempo di inattività del sistema e il riavvio (manutenzione “interrotta”), saranno eseguite in base ad orari pianificati pubblicati in [https://developer.ibm.com/bluemix/support/#status ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/bluemix/support/#status){:new_window}
 * Qualsiasi modifica agli orari della manutenzione pianificata sarà pubblicata con adeguato preavviso.

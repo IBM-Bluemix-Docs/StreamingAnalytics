@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-27"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -60,4 +60,4 @@ e la variabile di ambiente VCAP_SERVICES includono informazioni come sono presen
 }	  
 </code></pre>
 
-Per ulteriori informazioni sull'API REST, vedi la [Documentazione API REST {{site.data.keyword.streaminganalyticsshort}}](https://console.ng.bluemix.net/apidocs/220).
+Per ulteriori informazioni sull'API REST, vedi la [Documentazione API REST {{site.data.keyword.streaminganalyticsshort}}![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.ng.bluemix.net/apidocs/220){:new_window}.

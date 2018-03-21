@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-27"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Sviluppo delle applicazioni Python in Streaming Analytics 
+# Sviluppo delle applicazioni Python in Streaming Analytics
 {: #t_develop_apps_python}
 
 Puoi ora sviluppare applicazioni Python in IBM DSX (Data Science Experience) o nel tuo ambiente di sviluppo Python locale e distribuire queste applicazioni in {{site.data.keyword.streaminganalyticsshort}}.
@@ -27,17 +27,17 @@ Sviluppa e distribuisci le tue applicazioni Python in {{site.data.keyword.Bluemi
 
 Se non hai un ambiente di sviluppo Python, il modo più facile per iniziare è utilizzare i nostri notebook in DSX e creare delle applicazioni Python di esempio per il servizio {{site.data.keyword.streaminganalyticsshort}}. Questi notebook forniscono la procedura e gli esempi di codice per creare e distribuire delle semplici applicazioni Python per il servizio {{site.data.keyword.streaminganalyticsshort}} nell'ambiente Python DSX:
 
-* [Hello World!](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Crea una semplice applicazione Hello World! per iniziare e distribuisci quindi l'applicazione a un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}.
+* [Hello World! ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): crea una semplice applicazione Hello World! per iniziare e poi distribuisci l'applicazione a un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}.
 
-* [Healthcare Demo](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6): crea un'applicazione che integra e analizza i dati di gestione flussi da un feed e visualizza quindi i dati nel notebook. Invii infine questa applicazione all'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}.
+* [Healthcare Demo ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6): crea un'applicazione che integra e analizza i dati di gestione flussi da un feed e visualizza quindi i dati nel notebook. Invia infine questa applicazione all'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}.
 
-* [Neural Net Demo](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca60bb7): crea un dataset di esempio, crea un modello per i dati di esempio, utilizza tale modello in un'applicazione di gestione flussi, visualizzare i dati di gestione flussi e, infine, invia l'applicazione di gestione flussi al servizio {{site.data.keyword.streaminganalyticsshort}}-
+* [Neural Net Demo ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca60bb7): crea un dataset di esempio, crea un modello per i dati di esempio, utilizza tale modello in un'applicazione di gestione flussi, visualizza i dati di gestione dei flussi e, infine, invia l'applicazione di gestione flussi al servizio {{site.data.keyword.streaminganalyticsshort}}.
 
 ## Sviluppo di applicazioni nel tuo ambiente Python locale
  {: #t_develop_python_api}
 
- La [API dell'applicazione {{site.data.keyword.streamsshort}} Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), che è inclusa nel pacchetto streamsx, consente di creare delle applicazioni di elaborazione della gestione flussi utilizzando le funzioni o le classi richiamabili Python . Puoi utilizzare l'API dell'applicazione Python per definire, e quindi inviare, l'applicazione al servizio.
+ L'[{{site.data.keyword.streamsshort}}API dell'applicazione Python ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features), che è inclusa nel pacchetto streamsx, ti consente di creare delle applicazioni di elaborazione della gestione flussi utilizzando le funzioni o le classi richiamabili Python. Puoi utilizzare l'API dell'applicazione Python per definire, e quindi inviare, l'applicazione al servizio.
 
-Inizia attenendoti alla procedura nell'esercitazione [Developing for the {{site.data.keyword.streaminganalyticsshort}} service](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) per creare un'applicazione di esempio nel tuo ambiente Python locale e distribuirla al servizio {{site.data.keyword.streaminganalyticsshort}}.
+Inizia attenendoti alla procedura nell'esercitazione [Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html) per creare un'applicazione di esempio nel tuo ambiente Python locale e distribuirla al servizio {{site.data.keyword.streaminganalyticsshort}}.
 
-Per maggiori informazioni sull'API dell'applicazine [{{site.data.keyword.streamsshort}} Python, completa questo corso online e impara le [{{site.data.keyword.streaminganalyticsshort}} basi degli sviluppatori Python](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window}.
+Per maggiori informazioni sull'{{site.data.keyword.streamsshort}}API dell'applicazione Python, completa [questo corso online ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window} e impara le basi {{site.data.keyword.streaminganalyticsshort}} per gli sviluppatori Python.

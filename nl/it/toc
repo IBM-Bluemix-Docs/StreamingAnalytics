@@ -5,12 +5,8 @@
 Streaming Analytics
 
     {: .navgroup id="learn"}
+    t_starter_app_deploy.md
     index.md
-
-    {: .topicgroup}
-    Guide introduttive
-        gs_python.md
-        gs_beamrunner.md
 
     {: .topicgroup}
     Informazioni
@@ -19,16 +15,26 @@ Streaming Analytics
         r_service_dashboard.md
         c_ha.md
 
-	{: .topicgroup}
-    Applicazioni di esempio
-        c_starterapps.md
-        t_starter_app_deploy.md
+	  {: .topicgroup}
+    c_starterapps.md
+
+    {: .topicgroup}
+    Piani beta
+        beta_plans.md
+        consistentregions.md
+        resource_usage.md
+        [Guida di riferimento API REST v2](https://console.bluemix.net/apidocs/1939)
+
+    {: .topicgroup}
+    gs_python.md
+    gs_beamrunner.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
-    [REST API Reference](https://console.ng.bluemix.net/apidocs/220)
-    [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+    [Guida di riferimento API REST v1](https://console.bluemix.net/apidocs/220)
+    [API REST v2 per i piani beta](https://console.bluemix.net/apidocs/1939)
+    [API Streams Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -49,4 +55,5 @@ Streaming Analytics
 
     {: .navgroup id="help"}
     ts_StreamingAnalytics.md
+    faq.md
     {: .navgroup-end}

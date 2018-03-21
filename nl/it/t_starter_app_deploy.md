@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-27"
+  years: 2015, 2018
+lastupdated: "2018-02-14"
 
 ---
 
@@ -13,67 +13,69 @@ lastupdated: "2017-10-27"
 {:screen: .screen}
 {:pre: .pre}
 
-# Distribuzione delle applicazioni starter su {{site.data.keyword.Bluemix_notm}}
+# Esercitazione introduttiva
 {: #starterapps_deploy}
 
-Puoi trasmettere e distribuire una delle applicazioni starter di {{site.data.keyword.streaminganalyticsshort}} a {{site.data.keyword.Bluemix_short}}.
+Streaming Analytics è un servizio completamente gestito che ti libera da attività di gestione, amministrazione e installazione che richiedono molto tempo, dandoti maggior tempo per sviluppare le applicazioni di gestione dei flussi. In questa esercitazione introduttiva trasmetterai e distribuirai una delle applicazioni starter di {{site.data.keyword.streaminganalyticsshort}} a {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}
 
-Prima di iniziare, rendi {{site.data.keyword.Bluemix_short}}
-pronto per la distribuzione delle applicazioni starter {{site.data.keyword.streaminganalyticsshort}}:
 
-* [Installa lo strumento di riga di comando cf](https://github.com/cloudfoundry/cli/releases).
-* Crea un'applicazione in {{site.data.keyword.Bluemix_short}},
-aggiungi il servizio {{site.data.keyword.streaminganalyticsshort}} alla tua applicazione
-e riprepara l'applicazione:
-	* Per distribuire l'applicazione starter Event Detection, crea un'applicazione con il runtime {{site.data.keyword.sdk4node}}.
-	* Per distribuire l'applicazione starter NYC Traffic, crea un'applicazione con il runtime Liberty for
+## Prima di cominciare
+{: #prereqs}
+
+Prima di distribuire le applicazioni starter, devi eseguire questa procedura:
+
+* Esegui la registrazione a un account [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/registration){:new_window}
+* Crea un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} nella tua organizzazione {{site.data.keyword.Bluemix_notm}}. Puoi creare l'istanza direttamente dalla pagina [{{site.data.keyword.streaminganalyticsshort}} nel catalogo dei servizi {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
+* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install).
+
+
+
+## Passo 1: crea l'applicazione e collegala al tuo servizio
+{: #create_connect}
+
+1. Crea un'applicazione in {{site.data.keyword.Bluemix_notm}}:
+
+    a. Nel menu {{site.data.keyword.Bluemix_notm}}, seleziona **Applicazioni Cloud Foundry** e fai clic su **Crea risorsa**.
+
+    b. Seleziona il runtime della tua applicazione:
+  	* Per distribuire l'applicazione starter Event Detection, crea un'applicazione con il runtime {{site.data.keyword.sdk4node}}.
+  	* Per distribuire l'applicazione starter NYC Traffic, crea un'applicazione con il runtime Liberty for
 Java™.
 
-Ricorda il nome che fornisci per l'applicazione, ti servirà in seguito.
+  Ricorda il nome che fornisci per l'applicazione, ti servirà in seguito.
+1. Collega l'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} alla tua applicazione e ripreparala.
 
-{{site.data.keyword.streaminganalyticsshort}} fornisce due applicazioni di esempio
-per iniziare ad utilizzare il servizio.
+## Passo 2: configura l'applicazione starter
+{: #setup_app}
 
-L'applicazione starter Event Detection
-analizza i dati correlati al tempo atmosferico in un flusso in tempo reale e visualizza i risultati delle
-analisi. L'applicazione è scritta in {{site.data.keyword.sdk4node}}. Per ulteriori informazioni su come utilizzare l'applicazione starter Event
-Detection, consulta [Detect complex events in a real-time data stream](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html).
+1. Scarica l'applicazione starter [Event Detection ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) o [NYC Traffic ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic).
 
-L'applicazione starter
-NYC Traffic legge e analizza i dati sul traffico da un sito web pubblico. L'applicazione è scritta in
-Liberty for Java™. Per ulteriori informazioni su come utilizzare l'applicazione starter NYC Traffic, vedi [{{site.data.keyword.streaminganalyticsfull}} Starter Application](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/).
+1. Rinomina la directory in modo che corrisponda al nome fornito alla tua applicazione in {{site.data.keyword.Bluemix_notm}}.
 
-Per scaricare e distribuire l'applicazione starter a {{site.data.keyword.Bluemix_short}}:
+## Passo 3: distribuisci l'applicazione starter
+{: #deploy_app}
 
-1. Scarica l'applicazione starter [Event Detection](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) o [ NYC Traffic](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic). Se desideri utilizzare le applicazioni di esempio Beam, puoi scaricarle dalla console.
-
-2. Nella riga di comando, vai alla directory del progetto.
+1. Passa alla directory dell'applicazione starter:
   <pre><code>cd myapp</code></pre>
   {:pre}
 
-3. Rinomina la directory del progetto in modo che corrisponda al nome fornito alla tua applicazione in {{site.data.keyword.Bluemix_short}}.
-4. Connettiti a {{site.data.keyword.Bluemix_short}}:
-  <pre><code>cf api https://api.DomainName</code></pre>
-  {:pre}
-
-5. Accedi a {{site.data.keyword.Bluemix_short}} e configura
+1. Accedi a {{site.data.keyword.Bluemix_notm}} e configura
 la tua organizzazione di destinazione quando richiesto:
-  <pre><code>cf login</code></pre>
+  <pre><code>bx login</code></pre>
   {:pre}
 
-6. Distribuisci la tua applicazione:
-  <pre><code>cf push myapp</code></pre>
+1. Trasmetti la tua applicazione a {{site.data.keyword.Bluemix_notm}}:
+  <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-7. Vai alla pagina della panoramica dell'applicazione, accessibile dal dashboard
-{{site.data.keyword.Bluemix_short}}, per verificare che la tua applicazione
+1. Vai alla pagina della panoramica dell'applicazione, accessibile dal dashboard
+{{site.data.keyword.Bluemix_notm}}, per verificare che la tua applicazione
 sia stata avviata correttamente.
-8. Avvia l'applicazione per visualizzarla nel browser. Puoi trovare l'URL della tua applicazione (o
+1. Avvia l'applicazione per visualizzarla nel browser. Puoi trovare l'URL della tua applicazione (o
 "rotta") nella pagina della panoramica dell'applicazione.
 
-Ora che la tua applicazione è in esecuzione, puoi andare al dashboard del servizio per visualizzare lo stato della tua istanza {{site.data.keyword.streaminganalyticsshort}} e per ottenere informazioni sulla risoluzione dei problemi. Per accedere al dashboard
-del servizio, vai al dashboard
-{{site.data.keyword.Bluemix_short}} e fai clic sul tile
-{{site.data.keyword.streaminganalyticsshort}} nella tua
-pagina della panoramica dell'applicazione.
+## Fasi successive
+{: #next_steps}
+
+Ora che la tua applicazione è in esecuzione, puoi monitorarla dalla console {{site.data.keyword.streaminganalyticsshort}}. Passa al dashboard del servizio, seleziona il tuo servizio {{site.data.keyword.streaminganalyticsshort}} e fai clic su **Avvia**.
