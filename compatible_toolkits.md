@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-03-29"
 
 ---
 
@@ -40,6 +40,7 @@ These analytics toolkits and adapters are supported by {{site.data.keyword.strea
 | [Geospatial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.co/2h9x0VR) 	     |	Includes operators and functions that facilitate efficient processing and indexing of location data.<br>**Restriction:** Operators using shared map mode are not supported (`MapStore`, `PointMapMatcher` in shared map mode).		 |
 | [TEDA ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.co/2z9DS00)	   | 	Provides a set of generic operators that are used in telecommunications applications, and it also provides an application framework that enables you to set up new file-to-file applications. Get started by following the [TEDA tutorials ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.tutorial.teda/). All operators and functions of the toolkit are supported. <br>**Restriction:** The application framework is not supported.	 	 |
 | [TimeSeries ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.co/2zEPILZ)	 	  | The operators and functions in the TimeSeries Toolkit condition, analyze, and model time series data. <br>**Restriction:** Deprecated operators are not supported.	   |
+| [{{site.data.keyword.cos_short}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://bit.ly/2Ggp03T)	 	  | Provides primitive operators and native functions for reading and writing data from and to {{site.data.keyword.cos_short}} respectively. The toolkit supports S3 compatible {{site.data.keyword.cos_short}}.	   |
 
 *Table 1. Supported toolkits*
 

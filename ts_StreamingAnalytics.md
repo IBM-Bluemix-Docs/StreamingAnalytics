@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-03-29"
 
 ---
 
@@ -49,7 +49,5 @@ You submit an application to the service instance, the application starts but fa
 You did not compile the application using a RHEL 6.5 operating system or an equivalent CentOS version.
 {: tsCauses}
 
-You must re-compile your application in a Red Hat Enterprise Linux (RHEL) 6.5 operating system or an equivalent CentOS version, using Intel processors. Submit your application to the service instance again.
-
-**Note:** If you are using the Beta-Entry and Beta-Enhanced plans, you must compile your application bundle in a RHEL 7 environment or an equivalent CentOS version. You can use the [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) if you don't have a a compatible development environment. Check out the [Beta plans documentation](/docs/services/StreamingAnalytics/beta_plans.html) for details.
+You must re-compile your application in a Red Hat Enterprise Linux (RHEL) 6.5 operating system or an equivalent CentOS version, using Intel processors. Submit your application to the service instance again. **Note:** If you are using the Beta-Entry and Beta-Enhanced plans, you must compile your application bundle in a RHEL 7 environment or an equivalent CentOS version. You can use the [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) if you don't have a a compatible development environment. Check out the [Beta plans documentation](/docs/services/StreamingAnalytics/beta_plans.html) for details.
 {: tsResolve}
