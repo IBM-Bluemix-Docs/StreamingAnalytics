@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,16 @@ lastupdated: "2018-02-14"
 # Developing Python applications in Streaming Analytics
 {: #t_develop_apps_python}
 
-You can now develop Python applications in IBM Data Science Experience (DSX) or in your local Python development environment and deploy these applications in {{site.data.keyword.streaminganalyticsshort}}.
+You can now develop Python applications in {{site.data.keyword.DSX_full}} or in your local Python development environment and deploy these applications in {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
 Develop and deploy your Python applications to {{site.data.keyword.Bluemix_short}} using the {{site.data.keyword.streaminganalyticsshort}} service using one of these methods:
 
 
-## Developing Streams Python applications in DSX
+## Developing Streams Python applications in Watson Studio
 {: #t_develop_python_dsx}
 
-If you do not have a Python development environment, the easiest way to get started is to use our  notebooks in DSX and create sample Python applications for the {{site.data.keyword.streaminganalyticsshort}} service. These notebooks provide the steps and code samples to create and deploy simple Python applications for the {{site.data.keyword.streaminganalyticsshort}} service within the DSX Python environment:
+If you do not have a Python development environment, the easiest way to get started is to use our  notebooks in {{site.data.keyword.DSX_short}} and create sample Python applications for the {{site.data.keyword.streaminganalyticsshort}} service. These notebooks provide the steps and code samples to create and deploy simple Python applications for the {{site.data.keyword.streaminganalyticsshort}} service within the {{site.data.keyword.DSX_short}} Python environment:
 
 * [Hello World! ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Create a simple Hello World! application to get started and then deploy the application to an instance of the {{site.data.keyword.streaminganalyticsshort}} service.
 

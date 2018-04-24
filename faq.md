@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-02-14"
 ## How do I sign up for Streaming Analytics service?
 {: #signup notoc}  
 
-For information about the {{site.data.keyword.streaminganalyticsshort}} service plans, see the [{{site.data.keyword.Bluemix_short}} catalog page](https://console.ng.bluemix.net/catalog/services/streaming-analytics).
+For information about the {{site.data.keyword.streaminganalyticsshort}} service plans, see the [{{site.data.keyword.Bluemix_short}} catalog page](https://console.bluemix.net/catalog/services/streaming-analytics).
 
 ## What version of Streaming Analytics service am I using?
 {: #version notoc}   
@@ -55,13 +55,13 @@ The service is created and fully managed by IBM. Each service consists of a dedi
 ## How do I develop Streams applications?
 {: #streamsapp notoc}
 
-You must develop Streams applications locally by using the free Streams [{{site.data.keyword.streamsshort}} Quick Start Edition ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) or the [{{site.data.keyword.streamsshort}} Developer Edition ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/support/docview.wss?uid=swg24042775).
+You must develop Streams applications locally by using the free Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) for [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html) or if you are using [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html), you can download the [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}..
 
 You can also use the on-premises {{site.data.keyword.streamsshort}} installation if you have one. Applications that you develop and compile locally can then be seamlessly deployed as a bundle to a Streams service in the cloud.
 
 But if you want to run your Python applications in the cloud, you don’t need to install {{site.data.keyword.streamsshort}} on-premises. Simply use the `STREAMING\_ANALYTICS\_SERVICE` context to submit your Python applications to the {{site.data.keyword.streaminganalyticsshort}} service. You can develop the applications in a standard Python development environment or in a Jupyter interactive notebook, but you must use Python 3.5.
 
-For guidance on developing applications, see the [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/).
+For guidance on developing applications, see the [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b).
 
 ## Can I sign in to a Streaming Analytics service host directly?
 {: #host notoc}  
@@ -78,7 +78,7 @@ Cloud-ready alternatives exist for solutions that need a mechanism for Streams t
 ## How can the Streaming Analytics service applications access my organization's enterprise data?
 {: #access notoc}  
 
-You can use the [{{site.data.keyword.Bluemix_notm}} Secure Gateway Service](https://console.ng.bluemix.net/catalog/services/secure-gateway) to securely connect streams applications to your enterprise.
+You can use the [{{site.data.keyword.Bluemix_notm}} Secure Gateway Service](https://console.bluemix.net/catalog/services/secure-gateway) to securely connect streams applications to your enterprise.
 
 ## Are all the features for IBM Streams for on premises supported by the Streaming Analytics service in the cloud?
 {: #features notoc}

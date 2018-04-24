@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -27,7 +27,7 @@ Before deploying the starter apps, you must follow these steps:
 
 * Register for an [{{site.data.keyword.Bluemix_notm}} account ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration){:new_window}
 * Create an instance of the {{site.data.keyword.streaminganalyticsshort}} service in your {{site.data.keyword.Bluemix_notm}} organization. You can create the instance directly from the [{{site.data.keyword.streaminganalyticsshort}} page in the {{site.data.keyword.Bluemix_notm}} Services Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Install the {{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install).
+* [Install the {{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -38,17 +38,15 @@ Before deploying the starter apps, you must follow these steps:
 
     a. In the {{site.data.keyword.Bluemix_notm}} menu, select **Cloud Foundry Apps** and click **Create resource**.
 
-    b. Select your application runtime:
-  	* To deploy the Event Detection starter app, create an application with {{site.data.keyword.sdk4node}} runtime.
-  	* To deploy the NYC Traffic starter app, create an application with Liberty for Java™ runtime.
+    b. Select the {{site.data.keyword.sdk4node}} runtime for the Event Detection or Event Detection v2 starter apps.
 
-  Remember the name that you give your application; you will need it later on.
+    Remember the name that you give your application; you will need it later on.
 1. Connect the {{site.data.keyword.streaminganalyticsshort}} service instance to your application and restage the application.
 
 ## Step 2: Set up the starter application
 {: #setup_app}
 
-1. Download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) or the [NYC Traffic ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) starter application.
+1. If you're using the [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html), download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) starter app. Download the [Event Detection v2 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) starter app for [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html).
 
 1. Rename the directory to match the name you gave your application in {{site.data.keyword.Bluemix_notm}}.
 
