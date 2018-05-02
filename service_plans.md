@@ -48,7 +48,7 @@ You can access this new container-based infrastructure using the v2 service plan
       <ul>
         <li>Requires that you compile your Streams application in a Red Hat Enterprise Linux (RHEL) 6.5 operating system or an equivalent CentOS version.</li>
         <li>Runs on a VM-based infrastructure.</li>
-        <li>Supports v1 and v2 REST APIs.</a><br></li>
+        <li>Supports v1 and v2 REST APIs.<br></li>
         <li>Supports both IAM authentication and user credentials authentication.</li>
         <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-vm/)
       </ul>    
@@ -73,7 +73,7 @@ You can access this new container-based infrastructure using the v2 service plan
     <ul>
       <li>Requires that you compile your Streams application in a RHEL 7.x operating system or an equivalent CentOS version.</li>
       <li>Runs on a container-based infrastructure.</li>
-      <li>Supports v2 REST APIs.</a><br></li>
+      <li>Supports v2 REST APIs.<br></li>
       <li>Supports IAM authentication.</li>
       <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/)</li>
       <li>Only available in US South region</li>
