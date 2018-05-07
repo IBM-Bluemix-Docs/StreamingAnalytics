@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-02-14"
 {{site.data.keyword.streaminganalyticsshort}} 具有一系列的行為和原則，可確保適當的資源配置及用量。
 
 ## 檢視及編輯實例資源
-您可以在服務儀表板上檢視及編輯授與給實例的資源數目，或使用 [{{site.data.keyword.streaminganalyticsshort}} 第 2 版 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) 來執行相同作業。
+您可以在服務儀表板上檢視及編輯授與給實例的資源數目，或針對 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)使用 v1 REST API，或針對 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance)。
 
 ## 資源配置
 - 當您提交順利執行的工作時，資源會自動配置給實例。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -26,6 +26,9 @@ lastupdated: "2018-02-14"
 * 建立衍生度量值，更深入探索資料
 * 建立過濾器來修正儀表板和日誌上所顯示的資料，而不需要變更查詢
 * 根據您定義的環境變數，來檢視您的實例日誌
+* 問題判斷特性，可協助您快速找出應用程式中的錯誤並加以修正。如需詳細資料，請參閱 [Problem determination features in {{site.data.keyword.streaminganalyticsshort}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。](https://wp.me/p4IICn-4cx)
+* 監視運算子的運作方式及雲端中的保證值組處理。{{site.data.keyword.streamsshort}} 提供度量值來協助評估 {{site.data.keyword.streamsshort}} 服務的性能，以輔助診斷效能問題及分析要求的傳輸量。您可以使用 {{site.data.keyword.streaminganalyticsshort}} 中的「Streams 主控台」來[監視運算子的運作方式並確保資源最佳化 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。](https://wp.me/p4IICn-4bH)
+
 
 您可以從服務儀表板存取 {{site.data.keyword.streaminganalyticsshort}} 主控台。
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -30,17 +30,17 @@ lastupdated: "2018-02-14"
 
 1. 設定開發環境來開發及測試應用程式。
 
-	如果您要使用 {{site.data.keyword.streamsshort}} 環境，則可以免費下載 [{{site.data.keyword.streamsshort}} Quick Start Edition ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
+	如果您要使用 {{site.data.keyword.streamsshort}} 環境，則可以下載  [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)的 [{{site.data.keyword.streamsshort}} Quick Start Edition ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}，或  [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)的 [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window}。
 
 2. 在您的開發環境中開發串流應用程式。在 {{site.data.keyword.streamsshort}} 開發環境中，您可以使用 Streams Studio 或指令行工具來開發應用程式。
 
 3. 驗證串流應用程式在開發環境中適當地執行。
-**附註：**您必須在 Red Hat Enterprise Linux (RHEL) 6.5 作業系統或相等的 CentOS 版本中，編譯應用程式，並且使用 Intel 處理器。
+**附註：**若您使用 v2 服務方案，您必須在 Red Hat Enterprise Linux (RHEL) 7.x 中編譯應用程式，若您使用 v1 服務方案則使用 RHEL 6.5。
 
 4. 使用下列其中一種方法，將與 SPL、Java、Scala 或 Python 應用程式相關聯的應用程式軟體組（.sab 檔案）提交至雲端中的服務實例：
 	* 使用 {{site.data.keyword.streaminganalyticsshort}} 主控台來提交應用程式軟體組。
 
-  * 在 {{site.data.keyword.Bluemix_notm}} 中建立應用程式，並在其中新增 {{site.data.keyword.streamsshort}} 應用程式。其控制方式是使用 {{site.data.keyword.streaminganalyticsshort}} REST API。
+  * 在 {{site.data.keyword.Bluemix_notm}} 中建立應用程式，並在其中新增 {{site.data.keyword.streamsshort}} 應用程式。若為 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，請使用 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/220){:new_window} 控制它，若為 v2 服務方案則使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/1939){:new_window}。
 
 您的應用程式現在已部署在雲端中。您可以使用 {{site.data.keyword.streaminganalyticsshort}} 服務來監視應用程式。您也可以將多個應用程式（.sab 檔案）提交至服務實例。數目由您決定。
 
@@ -54,4 +54,4 @@ lastupdated: "2018-02-14"
 
 [{{site.data.keyword.streamsshort}} Python Application API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window}（包含在 streamsx 套件中），能讓您將 Python 應用程式部署至 {{site.data.keyword.streaminganalyticsshort}} 服務。請參閱[開發 {{site.data.keyword.streaminganalyticsshort}} 服務 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} 指導教學，以取得如何針對 {{site.data.keyword.streaminganalyticsshort}} 服務建立和部署簡單 Python 應用程式的範例。
 
-IBM Data Science Experience (DSX) 也支援在 Jupyter 互動式記事本中提交 Python 應用程式。如需相關資訊，請參閱[針對 {{site.data.keyword.streaminganalyticsshort}} 開發 Python 應用程式](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
+{{site.data.keyword.DSX_full}} 也支援在 Jupyter 互動式記事本中提交 Python 應用程式。如需相關資訊，請參閱[針對 {{site.data.keyword.streaminganalyticsshort}} 開發 Python 應用程式](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。

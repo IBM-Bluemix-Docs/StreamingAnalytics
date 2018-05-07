@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-02-14"
 ## 如何註冊 Streaming Analytics 服務？
 {: #signup notoc}  
 
-如需 {{site.data.keyword.streaminganalyticsshort}} 服務方案的相關資訊，請參閱 [{{site.data.keyword.Bluemix_short}} 型錄頁面](https://console.ng.bluemix.net/catalog/services/streaming-analytics)。
+如需 {{site.data.keyword.streaminganalyticsshort}} 服務方案的相關資訊，請參閱 [{{site.data.keyword.Bluemix_short}} 型錄頁面](https://console.bluemix.net/catalog/services/streaming-analytics)。
 
 ## 我正在使用的 Streaming Analytics 服務版本為何？
 {: #version notoc}   
@@ -55,13 +55,13 @@ lastupdated: "2018-02-14"
 ## 如何開發 Streams 應用程式？
 {: #streamsapp notoc}
 
-您必須使用免費 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) 或 [{{site.data.keyword.streamsshort}} Developer Edition ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.ibm.com/support/docview.wss?uid=swg24042775)，以在本端開發 Streams 應用程式。
+您必須使用免費 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) 配合 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，以在本端開發 Streams 應用程式，或是如果您使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像檔 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
 
 您也可以使用現有的內部部署 {{site.data.keyword.streamsshort}} 安裝。在本端開發及編譯的應用程式接著可以當成軟體組，緊密部署至雲端中的 Streams 服務。
 
 但是，如果您要執行雲端中的 Python 應用程式，則不需要安裝 {{site.data.keyword.streamsshort}} 內部部署。只需要使用 `STREAMING\_ANALYTICS\_SERVICE` 環境定義，即可將 Python 應用程式提交至 {{site.data.keyword.streaminganalyticsshort}} 服務。您可以在標準 Python 開發環境或 Jupyter 互動式記事本中開發應用程式，但必須使用 Python 3.5。
 
-如需開發應用程式的指引，請參閱 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/)。
+如需開發應用程式的指引，請參閱 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b)。
 
 ## 我可以直接登入 Streaming Analytics 服務主機嗎？
 {: #host notoc}  
@@ -78,7 +78,7 @@ lastupdated: "2018-02-14"
 ## Streaming Analytics 服務應用程式如何存取我組織的企業資料？
 {: #access notoc}  
 
-您可以使用 [{{site.data.keyword.Bluemix_notm}} Secure Gateway 服務](https://console.ng.bluemix.net/catalog/services/secure-gateway)，安全地將 Streams 應用程式連接至您的企業。
+您可以使用 [{{site.data.keyword.Bluemix_notm}} Secure Gateway 服務](https://console.bluemix.net/catalog/services/secure-gateway)，安全地將 Streams 應用程式連接至您的企業。
 
 ## 雲端中的 Streaming Analytics 服務支援 IBM Streams 內部部署的所有特性？
 {: #features notoc}

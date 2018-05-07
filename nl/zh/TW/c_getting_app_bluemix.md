@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-02-14"
 {:screen: .screen}
 {:pre: .pre}
 
-# 在 {{site.data.keyword.Bluemix_notm}} 上部署 Streams 應用程式
+# 開始使用的資源及工具
 {: #c_getting_app_bluemix}
 
 
@@ -29,16 +29,17 @@ lastupdated: "2018-02-14"
     <td>
       <ul>
         <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">支援的工具箱及配接器</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">服務認證和 VCAP_SERVICES 環境變數</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">服務認證和 VCAP_SERVICES 環境變數</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on GitHub ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics Development Guide ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
-        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">連接至 Streams：您需要知道的內容 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics v1 Development Guide ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics v2 Development Guide ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
+        <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Connecting to Streams: What you need to know ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">開始使用 Streaming Analytics</a><br></li>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">準備好用於雲端的 SPL 應用程式 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">針對 Streaming Analytics 開發 Python 應用程式</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">針對 Streaming Analytics 開發 Beam 應用程式</a><br></li>
       </ul>    

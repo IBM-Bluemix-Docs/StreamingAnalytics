@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -27,7 +27,7 @@ Streaming Analytics 是讓您不需要執行耗時安裝、系統管理及管理
 
 * 登錄 [{{site.data.keyword.Bluemix_notm}} 帳戶 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration){:new_window}
 * 在 {{site.data.keyword.Bluemix_notm}} 組織中，建立 {{site.data.keyword.streaminganalyticsshort}} 服務實例。您可以直接從 [{{site.data.keyword.Bluemix_notm}} 服務型錄中的 {{site.data.keyword.streaminganalyticsshort}} 頁面 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window} 建立實例。  
-* [安裝 {{site.data.keyword.Bluemix_notm}} CLI ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install)。
+* [安裝 {{site.data.keyword.Bluemix_notm}} CLI ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
 
 
 
@@ -38,17 +38,15 @@ Streaming Analytics 是讓您不需要執行耗時安裝、系統管理及管理
 
     a. 在 {{site.data.keyword.Bluemix_notm}} 功能表中，選取 **Cloud Foundry 應用程式**，然後按一下**建立資源**。
 
-    b. 選取應用程式運行環境：
-  	* 若要部署 Event Detection 入門範本應用程式，請使用 {{site.data.keyword.sdk4node}} 運行環境來建立應用程式。
-  	* 若要部署 NYC Traffic 入門範本應用程式，請使用 Liberty for Java™ 運行環境來建立應用程式。
+    b. 為 Event Detection 或 Event Detection v2 入門範本應用程式選取 {{site.data.keyword.sdk4node}} 運行環境。
 
-  請記住您提供給應用程式的名稱，稍後您會需要用到它。
+    請記住您提供給應用程式的名稱，稍後您會需要用到它。
 1. 將 {{site.data.keyword.streaminganalyticsshort}} 服務實例連接至應用程式，並重新編譯打包應用程式。
 
 ## 步驟 2：設定入門範本應用程式
 {: #setup_app}
 
-1. 下載 [Event Detection ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 或 [NYC Traffic ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) 入門範本應用程式。
+1. 如果您使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，請下載 [Event Detection ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 入門範本應用程式。針對 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)則下載 [Event Detection v2 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) 入門範本應用程式。
 
 1. 在 {{site.data.keyword.Bluemix_notm}} 中，重新命名目錄，使其符合您提供給應用程式的名稱。
 

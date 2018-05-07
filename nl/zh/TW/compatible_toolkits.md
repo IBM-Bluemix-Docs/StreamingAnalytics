@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -40,6 +40,7 @@ lastupdated: "2018-02-14"
 | [Geospatial ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2h9x0VR) 	     |	所包括的運算子和函數有助於位置資料的有效處理和編製索引作業。<br>**限制：**不支援使用共用對映的運算子（共用對映模式中的 `MapStore`、`PointMapMatcher`）。|
 | [TEDA ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2z9DS00)	   | 	提供一組用於電信應用程式的通用運算子，同時提供一個設定新的檔案對檔案應用程式的應用程式架構。請遵循 [TEDA 指導教學 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.tutorial.teda/) 以開始使用。支援工具箱的所有運算子及函數。<br>**限制：**不支援應用程式架構。|
 | [TimeSeries ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.co/2zEPILZ)	 	  | TimeSeries 工具箱中的運算子和函數可設定時間序列資料的條件、對其進行分析並建立其模型。<br>**限制：**不支援已淘汰的運算子。|
+| [{{site.data.keyword.cos_short}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://bit.ly/2Ggp03T)	 	  | 提供基本運算子及原生函數，以便讀寫 {{site.data.keyword.cos_short}} 的資料。工具箱支援 S3 相容的 {{site.data.keyword.cos_short}}。|
 
 *表 1. 支援的工具箱*
 

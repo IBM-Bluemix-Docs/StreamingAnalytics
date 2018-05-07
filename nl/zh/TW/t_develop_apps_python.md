@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,16 @@ lastupdated: "2018-02-14"
 # 在 Streaming Analytics 中開發 Python 應用程式
 {: #t_develop_apps_python}
 
-您現在可以在 IBM Data Science Experience (DSX) 或您的本端 Python 開發環境中開發 Python 應用程式，並在 {{site.data.keyword.streaminganalyticsshort}} 部署這些應用程式。
+您現在可以在 {{site.data.keyword.DSX_full}} 或您的本端 Python 開發環境中開發 Python 應用程式，並在 {{site.data.keyword.streaminganalyticsshort}} 部署這些應用程式。
 {:shortdesc}
 
 使用 {{site.data.keyword.streaminganalyticsshort}} 服務和下列其中一個方法，開發 Python 應用程式並部署至 {{site.data.keyword.Bluemix_short}}：
 
 
-## 在 DSX 中開發 Streams Python 應用程式
+## 在 Watson Studio 中開發 Streams Python 應用程式
 {: #t_develop_python_dsx}
 
-如果您沒有 Python 開發環境，最容易開始的方法是在 DSX 中使用我們的記事本，並為 {{site.data.keyword.streaminganalyticsshort}} 服務建立範例 Python 應用程式。這些記事本提供步驟和程式碼範例，以便針對 {{site.data.keyword.streaminganalyticsshort}} 服務，在 DSX Python 環境內建立及部署簡單的 Python 應用程式：
+如果您沒有 Python 開發環境，最容易開始的方法是在 {{site.data.keyword.DSX_short}} 中使用我們的記事本，並為 {{site.data.keyword.streaminganalyticsshort}} 服務建立範例 Python 應用程式。這些記事本提供步驟和程式碼範例，以便針對 {{site.data.keyword.streaminganalyticsshort}} 服務，在 {{site.data.keyword.DSX_short}} Python 環境內建立及部署簡單的 Python 應用程式：
 
 * [Hello World! ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8)：建立簡單的 Hello World! 應用程式以便開始，然後將應用程式部署到 {{site.data.keyword.streaminganalyticsshort}} 服務的實例。
 
