@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-02-14"
 {{site.data.keyword.streaminganalyticsshort}} umfasst eine Reihe von Verhaltensweisen und Richtlinien, die eine korrekte Ressourcenzuordnung und -nutzung sicherstellen.
 
 ## Instanzressourcen anzeigen und bearbeiten
-Die Anzahl der Ressourcen, für die eine Instanz berechtigt ist, kann über das Service-Dashboard oder mithilfe der [{{site.data.keyword.streaminganalyticsshort}} v2-REST-API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) angehzeigt und bearbeitet werden.
+Sie können die Anzahl der Ressourcen, die für die Instanz berechtigt sind, über das Service-Dashboard oder mithilfe der v1-REST-API für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) bzw. mithilfe der [{{site.data.keyword.streaminganalyticsshort}}-v2-REST-API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) anzeigen und bearbeiten.
 
 ## Ressourcenzuordnung
 - Ressourcen werden automatisch der Instanz zugeordnet, wenn ein Job übergeben wird, der erfolgreich ausgeführt wird.

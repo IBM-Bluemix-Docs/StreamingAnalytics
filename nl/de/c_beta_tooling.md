@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -22,9 +22,6 @@ zur Entwicklung Ihrer {{site.data.keyword.streaminganalyticsshort}}-Anwendungen 
 {:shortdesc}
 
 
-* {{site.data.keyword.streaminganalyticsshort}} enthält keine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung oder Streams Studio in der Cloud. Entwickeln Sie Ihre Anwendungen in einer lokal installierten {{site.data.keyword.streamsshort}}-Umgebung und übergeben Sie sie als Anwendungsbundles. Wenn Sie nicht über die Entwicklungsumgebung verfügen, können Sie die [{{site.data.keyword.streamsshort}} Quick Start Edition ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) kostenfrei herunterladen.
-* Kompilieren Sie das Anwendungsbundle in einer Red Hat Enterprise Linux 6.5-Umgebung oder einer funktional entsprechenden CentOS-Version, um die Kompatibilität sicherzustellen.
-
-  **Hinweis:** Bei der Verwendung der Beta-Pläne 'Einstieg' und 'Erweitert' müssen Sie das Anwendungsbundle in einer RHEL 7-Umgebung oder einer äquivalenten CentOS-Version kompilieren. Sie können [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) verwenden, falls Sie nicht über eine kompatible Entwicklungsumgebung verfügen. Details hierzu finden Sie in der [Dokumentation zu den Beta-Plänen](/docs/services/StreamingAnalytics/beta_plans.html).
-
+* {{site.data.keyword.streaminganalyticsshort}} enthält keine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung oder Streams Studio in der Cloud. Entwickeln Sie Ihre Anwendungen in einer lokal installierten {{site.data.keyword.streamsshort}}-Umgebung und übergeben Sie sie als Anwendungsbundles. Wenn Sie nicht über die Entwicklungsumgebung verfügen, können Sie die [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) herunterladen; wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} kostenfrei herunterladen.
+* Kompilieren Sie Ihre Anwendungen in Red Hat Enterprise Linux (RHEL) 7.x, wenn Sie die v2-Servicepläne verwenden, bzw. mit RHEL 6.5, wenn Sie v1-Servicepläne verwenden, und verwenden Sie dabei Intel-Prozessoren.
 * Legen Sie in Ihrer {{site.data.keyword.streamsshort}}-Entwicklungsumgebung die Umgebungsvariable `JAVA_HOME` auf $STREAMS_INSTALL/java fest.

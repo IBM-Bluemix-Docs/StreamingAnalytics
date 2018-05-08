@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -40,6 +40,7 @@ Diese Analysetoolkits und Adapter werden von {{site.data.keyword.streaminganalyt
 | [Geospatial ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibm.co/2h9x0VR) 	     |	Enthält Operatoren und Funktionen, die die effiziente Verarbeitung und Indexierung von Positionsdaten vereinfachen.<br>**Einschränkung:** Operatoren, die den Modus für gemeinsam genutzte Karten verwenden, werden nicht unterstützt (`MapStore`, `PointMapMatcher` im Modus für gemeinsam genutzte Karten).		 |
 | [TEDA ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibm.co/2z9DS00)	   | 	Bietet eine Reihe von generischen Operatoren, die in Telekommunikationsanwendungen genutzt werden, und stellt ein Anwendungsframework zur Verfügung, mit dem Sie neue File-to-File-Anwendungen einrichten können. Führen Sie als ersten Schritt die [TEDA-Lernprogramme![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.tutorial.teda/) aus. Alle Operatoren und Funktionen des Toolkits werden unterstützt. <br>**Einschränkung:** Das Anwendungsframework wird nicht unterstützt.	 	 |
 | [TimeSeries ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibm.co/2zEPILZ)	 	  | Mit den Operatoren und Funktionen im TimeSeries Toolkit können Zeitreihendaten aufbereitet, analysiert und modelliert werden. <br>**Einschränkung:** Veraltete Operatoren werden nicht unterstützt.	   |
+| [{{site.data.keyword.cos_short}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://bit.ly/2Ggp03T)	 	  | Stelle einfache Operatoren und native Funktionen für Datenlese- und -schreibvorgänge in {{site.data.keyword.cos_short}} bereit. Das Toolkit unterstützt mit S3 kompatibles {{site.data.keyword.cos_short}}.	   |
 
 *Tabelle 1. Unterstützte Toolkits*
 

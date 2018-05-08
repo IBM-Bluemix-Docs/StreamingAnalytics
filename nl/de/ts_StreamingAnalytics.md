@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -46,10 +46,8 @@ Sie können Ihre Anwendung nicht korrekt ausführen und der Allgemeinzustand ist
 Sie übergeben eine Anwendung an die Serviceinstanz, die Anwendung startet, schlägt dann aber sofort fehl und der Allgemeinzustand ist `nicht einwandfrei`. Der folgende Fehler ist in der Protokolldatei dokumentiert: `/lib64/libc.so.6: Version GLIBC_2.14 nicht gefunden`.
 {: tsSymptoms}
 
-Sie haben die Anwendung nicht mithilfe eines RHEL 6.5-Betriebssystems oder einer entsprechenden CentOS-Version kompiliert.
+Sie haben die Anwendung nicht mithilfe eines RHEL 7.x-Betriebssystems oder einer entsprechenden CentOS-Version kompiliert.
 {: tsCauses}
 
-Sie müssen Ihre Anwendung unter einem Red Hat Enterprise Linux (RHEL) 6.5-Betriebssystem oder einer entsprechenden CentOS-Version mit Intel-Prozessoren erneut kompilieren. Übergeben Sie Ihre Anwendung erneut an die Serviceinstanz.
-
-**Hinweis:** Bei der Verwendung der Beta-Pläne 'Einstieg' und 'Erweitert' müssen Sie das Anwendungsbundle in einer RHEL 7-Umgebung oder einer äquivalenten CentOS-Version kompilieren. Sie können [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) verwenden, falls Sie nicht über eine kompatible Entwicklungsumgebung verfügen. Details hierzu finden Sie in der [Dokumentation zu den Beta-Plänen](/docs/services/StreamingAnalytics/beta_plans.html).
+Sie müssen die Anwendung in Red Hat Enterprise Linux (RHEL) 7.x erneut kompilieren, wenn Sie die [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, bzw. mit RHEL 6.5, wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Verwenden Sie dabei Intel-Prozessoren. Übergeben Sie Ihre Anwendung erneut an die Serviceinstanz. Sie können die [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) herunterladen, wenn Sie nicht über eine kompatible Entwicklungsumgebung verfügen und wenn Sie die v2-Servicepläne verwenden. Wenn Sie die v1-Servicepläne verwenden, laden Sie die [{{site.data.keyword.streamsshort}} QSE ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
 {: tsResolve}

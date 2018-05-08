@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,16 @@ lastupdated: "2018-02-14"
 # Python-Anwendungen in Streaming Analytics entwickeln
 {: #t_develop_apps_python}
 
-Sie können jetzt Python-Anwendungen in IBM Data Science Experience (DSX) oder in Ihrer lokalen Python-Entwicklungsumgebung entwickeln und diese Anwendungen in {{site.data.keyword.streaminganalyticsshort}} bereitstellen.
+Sie können nun Python-Anwendungen in {{site.data.keyword.DSX_full}} oder in der lokalen Python-Entwicklungsumgebung entwickeln und diese Anwendungen in {{site.data.keyword.streaminganalyticsshort}} bereitstellen.
 {:shortdesc}
 
 Entwickeln Sie Python-Anwendungen und stellen Sie sie in {{site.data.keyword.Bluemix_short}} bereit, indem Sie den {{site.data.keyword.streaminganalyticsshort}}-Service verwenden. Verwenden Sie dazu eine der folgenden Methoden:
 
 
-## Streams-Python-Anwendungen in DSX entwickeln
+## Streams-Python-Anwendungen in Watson Studio entwickeln
 {: #t_develop_python_dsx}
 
-Wenn Sie nicht über eine Python-Entwicklungsumgebung verfügen, besteht der einfachste Einstieg darin, dass Sie die Notebooks in DSX verwenden und Python-Beispielanwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service erstellen. Mit diesen Notebooks stehen die Schritte und Codebeispiele zur Verfügung, mit denen einfache Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service innerhalb der DSX-Python-Umgebung erstellt und bereitgestellt werden können.
+Wenn Sie nicht über eine Python-Entwicklungsumgebung verfügen, besteht der einfachste Einstieg darin, dass Sie die Notebooks in {{site.data.keyword.DSX_short}} verwenden und Python-Beispielanwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service erstellen. Mit diesen Notebooks stehen die Schritte und Codebeispiele zur Verfügung, mit denen einfache Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service innerhalb der {{site.data.keyword.DSX_short}}-Python-Umgebung erstellt und bereitgestellt werden können.
 
 * [Hello World! ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Erstellen Sie als ersten Schritt eine einfache 'Hello World!'- Anwendung und stellen Sie dann die Anwendung in einer Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service bereit.
 

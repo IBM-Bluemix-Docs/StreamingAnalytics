@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -30,17 +30,17 @@ Gehen Sie wie folgt vor, um Ihre {{site.data.keyword.streamsshort}}-Anwendungen 
 
 1. Richten Sie die Entwicklungsumgebung ein, um Ihre Anwendung zu entwickeln und zu testen.
 
-	Wenn Sie eine {{site.data.keyword.streamsshort}}-Umgebung verwenden möchten, können Sie die [{{site.data.keyword.streamsshort}} Quick Start Edition ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} kostenfrei herunterladen.
+	Wenn Sie eine {{site.data.keyword.streamsshort}}-Umgebung verwenden möchten, können Sie die [{{site.data.keyword.streamsshort}} Quick Start Edition ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) oder die [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window} für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) herunterladen.
 
 2. Entwickeln Sie Ihre Streaming-Anwendung in Ihrer Entwicklungsumgebung. In der {{site.data.keyword.streamsshort}}-Entwicklungsumgebung können Sie Streams Studio oder die Befehlszeilentools verwenden, um Ihre Anwendung zu entwickeln.
 
 3. Stellen Sie sicher, dass Ihre Streaming-Anwendung in Ihrer Entwicklungsumgebung ordnungsgemäß ausgeführt wird.
-**Anmerkung:** Sie müssen Ihre Anwendung unter einem Red Hat Enterprise Linux (RHEL) 6.5-Betriebssystem oder einer entsprechenden CentOS-Version mit Intel-Prozessoren kompilieren.
+**Hinweis:** Sie müssen die Anwendungen in Red Hat Enterprise Linux (RHEL) 7.x kompilieren, wenn Sie die v2-Servicepläne verwenden, bzw. mit RHEL 6.5, wenn Sie v1-Servicepläne verwenden.
 
 4. Übergeben Sie das Anwendungsbundle (die Datei mit der Erweiterung .sab), die Ihrer SPL-, Java-, Scala- oder Python-Anwendung zugeordnet ist, an die Serviceinstanz in der Cloud. Verwenden Sie dazu eine der folgenden Methoden:
 	* Verwenden Sie die {{site.data.keyword.streaminganalyticsshort}}-Konsole, um das Anwendungsbundle zu übergeben.
 
-  * Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_notm}} und fügen Sie die {{site.data.keyword.streamsshort}}-Anwendung hinzu. Steuern Sie sie unter Verwendung der {{site.data.keyword.streaminganalyticsshort}}-REST-API.
+  * Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_notm}} und fügen Sie die {{site.data.keyword.streamsshort}}-Anwendung zu dieser hinzu. Steuern Sie sie mithilfe der [{{site.data.keyword.streaminganalyticsshort}} v1-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/apidocs/220){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) oder mithilfe der [{{site.data.keyword.streaminganalyticsshort}} v2-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/apidocs/1939){:new_window} für v2-Servicepläne.
 
 Ihre Anwendung wurde jetzt in der Cloud bereitgestellt. Sie können Ihre Anwendung überwachen, indem Sie den {{site.data.keyword.streaminganalyticsshort}}-Service verwenden. Sie haben auch die Möglichkeit, mehr als eine Anwendung (Dateien mit der Erweiterung .sab) an die Serviceinstanz zu übergeben. Dies können beliebig viele sein.
 
@@ -54,4 +54,4 @@ Stellen Sie Ihre {{site.data.keyword.streamsshort}}-Python-Anwendungen für eine
 
 Mit der [{{site.data.keyword.streamsshort}}-Python-Anwendungs-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window}, die im 'streamsx'-Paket enthalten ist, können Sie Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service bereitstellen. Im Lernprogramm [Entwicklung für den {{site.data.keyword.streaminganalyticsshort}}-Service ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} wird anhand eines Beispiels veranschaulicht, wie eine einfache Python-Anwendung für den {{site.data.keyword.streaminganalyticsshort}} erstellt und bereitgestellt werden kann.
 
-IBM Data Science Experience (DSX) unterstützt auch die Bereitstellung von Python-Anwendungen in interaktiven Jupyter-Notebooks. Weitere Informationen finden Sie in [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
+{{site.data.keyword.DSX_full}} unterstützt auch die Bereitstellung von Python-Anwendungen in interaktiven Jupyter-Notebooks. Weitere Informationen finden Sie in [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).

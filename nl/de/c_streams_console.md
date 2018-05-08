@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -26,6 +26,9 @@ Mit der {{site.data.keyword.streaminganalyticsshort}}-Konsole können Sie Ihre J
 * Erstellen abgeleiteter Metriken für eine noch eingehendere Untersuchung Ihrer Daten.
 * Erstellen von Filtern zur Verfeinerung der Daten, die auf Ihren Dashboards und in Ihren Protokollen ausgegeben werden, ohne dass Sie hierfür Ihre Abfragen ändern müssen.
 * Anzeigen Ihrer Instanzprotokolle auf der Basis der von Ihnen definierten Umgebungsvariablen.
+* Problembestimmungsfeatures, die Sie dabei unterstützen, Fehler in Anwendungen schnell zu finden und zu beheben. Weitere Details finden Sie in [Problembestimmungsfeatures in {{site.data.keyword.streaminganalyticsshort}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").](https://wp.me/p4IICn-4cx)
+* Überwachen des Operatorverhaltens und garantierte Tupelverarbeitung in der Cloud. {{site.data.keyword.streamsshort}} stellt Metriken bereit, mit denen Sie den Status der {{site.data.keyword.streamsshort}}-Services auswerten, Leistungsprobleme diagnostizieren und den Durchsatz von Anforderungen analysieren können. Sie können die Streams-Konsole in {{site.data.keyword.streaminganalyticsshort}} verwenden, um [das Verhalten von Operatoren zu überwachen und die Ressourcenoptimierung sicherzustellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").](https://wp.me/p4IICn-4bH)
+
 
 Sie können vom Service-Dashboard auf die {{site.data.keyword.streaminganalyticsshort}}-Konsole zugreifen.
 

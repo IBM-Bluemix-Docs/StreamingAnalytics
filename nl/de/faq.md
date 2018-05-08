@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-02-14"
 ## Wie melde ich mich beim Streaming Analytics-Service an?
 {: #signup notoc}  
 
-Informationen zu den {{site.data.keyword.streaminganalyticsshort}}-Serviceplänen finden Sie auf der [{{site.data.keyword.Bluemix_short}}-Katalogseite](https://console.ng.bluemix.net/catalog/services/streaming-analytics).
+Informationen zu den {{site.data.keyword.streaminganalyticsshort}}-Serviceplänen finden Sie auf der [{{site.data.keyword.Bluemix_short}}-Katalogseite](https://console.bluemix.net/catalog/services/streaming-analytics).
 
 ## Welche Version des Streaming Analytics-Service verwende ich?
 {: #version notoc}   
@@ -55,13 +55,13 @@ Der Service wird erstellt und von IBM vollständig gewartet. Jeder Service beste
 ## Wie entwickle ich Streams-Anwendungen?
 {: #streamsapp notoc}
 
-Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) oder der [{{site.data.keyword.streamsshort}} Developer Edition ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://www.ibm.com/support/docview.wss?uid=swg24042775) entwickeln.
+Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) entwickeln, wenn Sie [v2-Servicpläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} herunterladen.
 
 Falls Sie über eine lokale {{site.data.keyword.streamsshort}}-Installation verfügen, können Sie auch diese verwenden. Lokal entwickelte und kompilierte Anwendungen können dann nahtlos als Paket für einen Streams-Service in der Cloud bereitgestellt werden.
 
 Wenn Sie jedoch Ihre Python-Anwendungen in der Cloud ausführen möchten, müssen Sie {{site.data.keyword.streamsshort}} nicht lokal installieren. Verwenden Sie einfach den `STREAMING\_ANALYTICS\_SERVICE`-Kontext, um Ihre Python-Anwendungen an den {{site.data.keyword.streaminganalyticsshort}}-Service zu übergeben. Sie können die Anwendungen in einer Python-Standardentwicklungsumgebung oder in einem interaktiven Jupyter-Notebook entwickeln, es muss jedoch Python Version 3.5 verwendet werden.
 
-Eine Anleitung zur Entwicklung von Anwendungen finden Sie im [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}}-Entwicklerhandbuch ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/).
+Eine Anleitung zur Entwicklung von Anwendungen finden Sie im [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}}-Entwicklerhandbuch ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b).
 
 ## Kann ich mich direkt bei einem Streaming Analytics-Service-Host anmelden?
 {: #host notoc}  
@@ -78,7 +78,7 @@ Es existieren cloudfähige Alternativen für Lösungen, die einen Mechanismus zu
 ## Wie können die Streaming Analytics-Serviceanwendungen auf die Unternehmensdaten meiner Organisation zugreifen?
 {: #access notoc}  
 
-Sie können den [{{site.data.keyword.Bluemix_notm}} Secure Gateway-Service](https://console.ng.bluemix.net/catalog/services/secure-gateway) verwenden, um eine sichere Verbindung zwischen Streams-Anwendungen und Ihrem Unternehmen herzustellen.
+Sie können den [{{site.data.keyword.Bluemix_notm}} Secure Gateway-Service](https://console.bluemix.net/catalog/services/secure-gateway) verwenden, um eine sichere Verbindung zwischen Streams-Anwendungen und Ihrem Unternehmen herzustellen.
 
 ## Werden alle Features für lokale IBM Streams-Implementierungen auch vom Streaming Analytics-Service in der Cloud unterstützt?
 {: #features notoc}
