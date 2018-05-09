@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,16 @@ lastupdated: "2018-02-14"
 # Streaming Analytics での Python アプリケーションの開発
 {: #t_develop_apps_python}
 
-IBM Data Science Experience (DSX) またはローカル Python 開発環境で Python アプリケーションを開発し、そのアプリケーションを {{site.data.keyword.streaminganalyticsshort}} にデプロイできるようになっています。
+Python アプリケーションを {{site.data.keyword.DSX_full}} で、またはローカル側の Python 開発環境で開発し、それらのアプリケーションを {{site.data.keyword.streaminganalyticsshort}} にデプロイできるようになりました。
 {:shortdesc}
 
 以下のいずれかの方法によって、{{site.data.keyword.streaminganalyticsshort}} サービスを使用して Python アプリケーションを開発して {{site.data.keyword.Bluemix_short}} にデプロイします。
 
 
-## DSX での Streams Python アプリケーションの開発
+## Watson Studio での Streams Python アプリケーションの開発
 {: #t_develop_python_dsx}
 
-Python 開発環境がない場合は、DSX のノートブックを使用し、{{site.data.keyword.streaminganalyticsshort}} サービス用のサンプル Python アプリケーションを作成するのが、最も簡単な開始方法です。 該当するノートブックでは、DSX Python 環境内で {{site.data.keyword.streaminganalyticsshort}} サービスのシンプルな Python アプリケーションを作成およびデプロイするためのステップおよびコード・サンプルが提供されます。
+Python 開発環境がない場合は、{{site.data.keyword.DSX_short}} のノートブックを使用して、{{site.data.keyword.streaminganalyticsshort}} サービス用のサンプル Python アプリケーションを作成するのが、最も簡単な開始方法です。以下のノートブックには、{{site.data.keyword.DSX_short}} Python 環境で {{site.data.keyword.streaminganalyticsshort}} サービス用の単純な Python アプリケーションを作成およびデプロイするためのステップとコード・サンプルが用意されています。
 
 * [Hello World! ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): 開始点としてシンプルな Hello World! アプリケーションを作成し、そのアプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスにデプロイします。
 

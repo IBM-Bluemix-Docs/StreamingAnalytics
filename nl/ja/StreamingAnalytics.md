@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -25,7 +25,7 @@ lastupdated: "2018-02-14"
 
 **サービスの対話式での使用およびプログラマチックな使用:**
 
-このサービスは、[{{site.data.keyword.streaminganalyticsshort}} コンソール](/docs/services/StreamingAnalytics/c_streams_console.html)を使用して対話式に使用することも、[{{site.data.keyword.streaminganalyticsshort}} REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/220){:new_window} を使用してプログラマチックに使用することもできます。
+[v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)を使用している場合は、[{{site.data.keyword.streaminganalyticsshort}} コンソールを使用して](/docs/services/StreamingAnalytics/c_streams_console.html)対話式に使用することも、[{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.bluemix.net/apidocs/220){:new_window} を使用してプログラマチックに使用することもできます。[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)の場合は、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.bluemix.net/apidocs/1939) を使用します。
 
 **SPL、Java、Scala、および Python アプリケーションのデプロイおよびモニター**
 
@@ -33,9 +33,9 @@ lastupdated: "2018-02-14"
 
 アプリケーションを SPL で作成する場合は、{{site.data.keyword.streamsfull}} Processing Language (SPL) がストリーム処理アプリケーションの作成に使用されるプログラミング言語であることを把握しておく必要があります。 ユーザー独自の SPL アプリケーションでさらに活用する場合は、{{site.data.keyword.streamsshort}} 開発環境を取得でき、SPL アプリケーションをクラウド対応にする必要があります。
 
-{{site.data.keyword.streamsshort}} 開発環境なしで Python アプリケーションを作成およびデプロイする場合は、IBM Data Science Experience(DSX) のノートブックまたは {{site.data.keyword.streamsshort}} Python API を使用します。 詳しくは、『[{{site.data.keyword.streaminganalyticsshort}} 用の Python アプリケーションの開発](/docs/services/StreamingAnalytics/t_develop_apps_python.html)』を参照してください。
+{{site.data.keyword.streamsshort}} 開発環境なしで Python アプリケーションを作成およびデプロイする場合は、{{site.data.keyword.DSX_short}} のノートブックまたは {{site.data.keyword.streamsshort}} Python API を使用します。詳しくは、『[{{site.data.keyword.streaminganalyticsshort}} 用の Python アプリケーションの開発](/docs/services/StreamingAnalytics/t_develop_apps_python.html)』を参照してください。
 
-後で {{site.data.keyword.streaminganalyticsshort}} サービスを使用してデプロイしてモニターできる Beam アプリケーションを、ご使用のローカル開発環境で Streams Runner を使用して開発することができます。 Streams Runner を使用する Beam アプリケーションについて詳しくは、『[Streaming Analytics での Streams Runner を使用した Beam アプリケーションのモニター (Monitor Beam apps with Streams Runner in Streaming Analytics)](docs/services/StreamingAnalytics/gs_beamrunner.html)』を参照してください。
+後で {{site.data.keyword.streaminganalyticsshort}} サービスを使用してデプロイしてモニターできる Beam アプリケーションを、ご使用のローカル開発環境で Streams Runner を使用して開発することができます。 Streams Runner を使用する Beam アプリケーションについて詳しくは、[{{site.data.keyword.streaminganalyticsshort}} での Streams Runner を使用した Beam アプリケーションのモニター](docs/services/StreamingAnalytics/gs_beamrunner.html)に関する項を参照してください。
 
 
 **{{site.data.keyword.streamsshort}} 演算子との互換性:**

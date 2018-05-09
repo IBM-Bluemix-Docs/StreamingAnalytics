@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -46,10 +46,8 @@ lastupdated: "2018-02-14"
 アプリケーションをサービス・インスタンスにサブミットし、アプリケーションが開始しましたが、即時に失敗し、正常性状況が `unhealthy` です。 ログ・ファイルに「`/lib64/libc.so.6: version GLIBC_2.14 not found`」というエラーが表示されます。
 {: tsSymptoms}
 
-RHEL 6.5 オペレーティング・システムまたは同等の CentOS バージョンを使用してアプリケーションをコンパイルしませんでした。
+RHEL 7.x オペレーティング・システムまたは同等の CentOS バージョンを使用してアプリケーションをコンパイルしませんでした。
 {: tsCauses}
 
-Intel プロセッサーを使用し、Red Hat Enterprise Linux (RHEL) 6.5 オペレーティング・システムまたは同等の CentOS バージョンでアプリケーションを再コンパイルする必要があります。 アプリケーションをサービス・インスタンスに再度サブミットしてください。
-
-**注:** ベータ・エントリー・プランおよびベータ・エンハンスト・プランを使用している場合は、アプリケーション・バンドルを RHEL 7 環境または同等の CentOS バージョンでコンパイルする必要があります。互換性のある開発環境がない場合は、[{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) を使用できます。詳しくは、[ベータ・プランの資料](/docs/services/StreamingAnalytics/beta_plans.html)を参照してください。
+Intel プロセッサーを使用して、Red Hat Enterprise Linux (RHEL) 7.x ([v2 サービス・プランを使用している場合](/docs/services/StreamingAnalytics/service_plans.html)) または RHEL 6.5 ([v1 サービス・プランを使用している場合](/docs/services/StreamingAnalytics/service_plans.html)) でアプリケーションを再コンパイルする必要があります。アプリケーションをサービス・インスタンスに再度サブミットしてください。互換性のある開発環境がなく、v2 サービス・プランを使用している場合は、[{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) をダウンロードできます。v1 サービス・プランを使用している場合は、[{{site.data.keyword.streamsshort}} QSE ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} をダウンロードします。
 {: tsResolve}

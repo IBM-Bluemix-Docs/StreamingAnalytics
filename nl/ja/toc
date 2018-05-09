@@ -7,6 +7,7 @@ Streaming Analytics
     {: .navgroup id="learn"}
     t_starter_app_deploy.md
     index.md
+    service_plans.md
 
     {: .topicgroup}
     詳細
@@ -15,25 +16,20 @@ Streaming Analytics
         r_service_dashboard.md
         c_ha.md
 
-	  {: .topicgroup}
+    {: .topicgroup}
     c_starterapps.md
+    resource_usage.md
 
     {: .topicgroup}
-    ベータ・プラン
-        beta_plans.md
-        consistentregions.md
-        resource_usage.md
-        [v2 REST API Reference](https://console.bluemix.net/apidocs/1939)
-
-    {: .topicgroup}
-    gs_python.md
-    gs_beamrunner.md
+    Python アプリケーションおよび Beam アプリケーション
+        gs_python.md
+        gs_beamrunner.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
-    [v1 REST API Reference](https://console.bluemix.net/apidocs/220)
-    [v2 REST API for Beta plans](https://console.bluemix.net/apidocs/1939)
+    [v1 REST API](https://console.bluemix.net/apidocs/220)
+    [v2 REST API](https://console.bluemix.net/apidocs/1939)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
@@ -47,9 +43,13 @@ Streaming Analytics
         develop_beam_apps.md
 
     {: .topicgroup}
+    セキュリティー
+        service_cred_iam.md
+        granting-permissions-to-users.md
+
+    {: .topicgroup}
     compatible_toolkits.md
     c_beta_tooling.md
-    r_vcap_services.md
     r_integrating_cloudant_rest.md
     {: .navgroup-end}
 

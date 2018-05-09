@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-02-14"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.Bluemix_notm}} への Streams アプリケーションのデプロイ
+# 開始するためのリソースおよびツール
 {: #c_getting_app_bluemix}
 
 
@@ -29,13 +29,14 @@ lastupdated: "2018-02-14"
     <td>
       <ul>
         <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">サポートされるツールキットおよびアダプター</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">サービス資格情報および VCAP_SERVICES 環境変数</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">サービス資格情報および VCAP_SERVICES 環境変数</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on GitHub ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics v1 Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics v2 Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
         <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Connecting to Streams: What you need to know ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics の概説</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>

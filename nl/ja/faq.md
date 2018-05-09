@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-02-14"
 ## Streaming Analytics サービスに登録するにはどうすればいいですか?
 {: #signup notoc}  
 
-{{site.data.keyword.streaminganalyticsshort}} サービス・プランについては、[{{site.data.keyword.Bluemix_short}} カタログ・ページ](https://console.ng.bluemix.net/catalog/services/streaming-analytics)を参照してください。
+{{site.data.keyword.streaminganalyticsshort}} サービス・プランについては、[{{site.data.keyword.Bluemix_short}} カタログ・ページ](https://console.bluemix.net/catalog/services/streaming-analytics)を参照してください。
 
 ## 自分が使用している Streaming Analytics サービスのバージョンを知るにはどうすればいいですか?
 {: #version notoc}   
@@ -55,14 +55,14 @@ IBM は、インストール、ソフトウェア・アップグレード、ド�
 ## Streams アプリケーションはどのようにして開発しますか?
 {: #streamsapp notoc}
 
-無料の Streams の [{{site.data.keyword.streamsshort}} Quick Start Edition ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) または [{{site.data.keyword.streamsshort}} Developer Edition ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.ibm.com/support/docview.wss?uid=swg24042775) を使用して、ローカルで Streams アプリケーションを開発する必要があります。
+[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)であれば、無料の Streams である [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) を使用して、ローカル側で Streams アプリケーションを開発する必要があります。[v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)を使用している場合は、[{{site.data.keyword.streamsshort}} Quick Start Edition VM イメージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} をダウンロードできます。
 
 また、オンプレミスの {{site.data.keyword.streamsshort}} インストール済み環境があれば、それを使用することも可能です。 ローカルで開発してコンパイルしたアプリケーションは、その後、クラウドの
 Streams サービスにバンドルとしてシームレスにデプロイできます。
 
 しかし、クラウド内の Python アプリケーションを実行する場合は、{{site.data.keyword.streamsshort}} をオンプレミスにインストールする必要はありません。 `STREAMING\_ANALYTICS\_SERVICE` コンテキストを使用して Python アプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスにサブミットするだけです。 アプリケーションは、標準の Python 開発環境または Jupyter インタラクティブ・ノートブックで開発できますが、Python 3.5 を使用する必要があります。
 
-アプリケーション開発の手引きについては、[{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/) を参照してください。
+アプリケーション開発の手引きについては、[{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b) を参照してください。
 
 ## Streaming Analytics サービス・ホストに直接サインインできますか?
 {: #host notoc}  
@@ -79,7 +79,7 @@ Streams が他のソリューション・コンポーネントと相互作用す
 ## Streaming Analytics サービス・アプリケーションは、組織のエンタープライズ・データにどのようにしてアクセスできますか?
 {: #access notoc}  
 
-[{{site.data.keyword.Bluemix_notm}} Secure Gateway Service](https://console.ng.bluemix.net/catalog/services/secure-gateway) を使用して、Streams アプリケーションをエンタープライズにセキュアに接続することができます。
+[{{site.data.keyword.Bluemix_notm}} Secure Gateway Service](https://console.bluemix.net/catalog/services/secure-gateway) を使用して、Streams アプリケーションをエンタープライズにセキュアに接続することができます。
 
 ## オンプレミス用の IBM Streams のすべての機能は、クラウドの Streaming Analytics サービスによってサポートされますか?
 {: #features notoc}

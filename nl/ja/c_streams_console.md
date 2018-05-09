@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -26,6 +26,9 @@ lastupdated: "2018-02-14"
 * データを深く掘り下げるための派生メトリックの作成
 * 照会を変更せずにダッシュボードおよびログに表示されたデータを詳細化するためのフィルターの作成
 * ユーザーが定義した環境変数に基づくインスタンス・ログの表示
+* アプリケーション内のエラーを迅速に検出して修正するのに役立つ問題判別機能。詳しくは、[{{site.data.keyword.streaminganalyticsshort}} の問題判別機能 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ](https://wp.me/p4IICn-4cx)を参照してください。 
+* クラウドでのオペレーターの動作および保証されたタプル処理のモニター。{{site.data.keyword.streamsshort}} には、{{site.data.keyword.streamsshort}} サービスの正常性を評価するのに役立ち、パフォーマンス問題の診断を支援し、要求のスループットを分析するためのメトリックが用意されています。{{site.data.keyword.streaminganalyticsshort}} の Streams Console を使用して、[オペレーターの動作方法をモニターし、リソースの最適化を確実にする![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")ことができます。](https://wp.me/p4IICn-4bH)
+
 
 サービス・ダッシュボードから {{site.data.keyword.streaminganalyticsshort}} コンソールにアクセスできます。
 

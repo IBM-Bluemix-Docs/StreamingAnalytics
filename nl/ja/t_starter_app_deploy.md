@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -27,7 +27,7 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 
 * [{{site.data.keyword.Bluemix_notm}} アカウント ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration){:new_window} に登録します。
 * {{site.data.keyword.Bluemix_notm}} 組織に {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスを作成します。 このインスタンスは、{{site.data.keyword.Bluemix_notm}} サービス・カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"){:new_window} 内の [{{site.data.keyword.streaminganalyticsshort}} ページから直接作成できます。  
-* [{{site.data.keyword.Bluemix_notm}} CLI ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") をインストール](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install)(https://console.{DomainName}/catalog/services/streaming-analytics/)]します。
+* [{{site.data.keyword.Bluemix_notm}} CLI のインストール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)(https://console.{DomainName}/catalog/services/streaming-analytics/)]。
 
 
 
@@ -38,17 +38,15 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 
     a. {{site.data.keyword.Bluemix_notm}} メニューから**「Cloud Foundry アプリ」**を選択し、**「リソースの作成」**をクリックします。
 
-    b. 以下のようにして、アプリケーション・ランタイムを選択します。
-  	* Event Detection スターター・アプリケーションをデプロイするには、{{site.data.keyword.sdk4node}} ランタイムを使用してアプリケーションを作成します。
-  	* NYC Traffic スターター・アプリケーションをデプロイするには、Liberty for Java™ ランタイムを使用してアプリケーションを作成します。
+    b. Event Detection または Event Detection v2 スターター・アプリケーション用の {{site.data.keyword.sdk4node}} ランタイムを選択します。
 
-  アプリケーションに指定した名前を覚えておいてください。後で必要になります。
+    アプリケーションに指定した名前を覚えておいてください。後で必要になります。
 1. {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをアプリケーションに接続し、アプリケーションを再ステージします。
 
 ## ステップ 2: スターター・アプリケーションをセットアップする
 {: #setup_app}
 
-1. [Event Detection ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) または [NYC Traffic ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic) スターター・アプリケーションをダウンロードします。
+1. [v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)を使用している場合は [Event Detection ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) スターター・アプリケーションをダウンロードします。[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)の場合は、[Event Detection v2 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) スターター・アプリケーションをダウンロードします。
 
 1. {{site.data.keyword.Bluemix_notm}} 内のアプリケーションに指定した名前に一致するように、ディレクトリーの名前を変更します。
 
