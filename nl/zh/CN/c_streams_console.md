@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -30,6 +30,9 @@ lastupdated: "2018-02-14"
 * 创建衍生的度量，以更深入地分析数据
 * 创建过滤器，在不更改查询的情况下，精简在仪表板和日志上显示的数据
 * 基于您所定义的环境变量，来查看实例日志
+* 问题确定功能，可帮助您快速找到并修正应用程序中的错误。有关更多信息，请参阅[ {{site.data.keyword.streaminganalyticsshort}} 中的问题确定功能 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。](https://wp.me/p4IICn-4cx)
+* 监视操作员在云中如何操作，如何为元组处理提供保障。{{site.data.keyword.streamsshort}} 提供的度量值可帮助评估 {{site.data.keyword.streamsshort}} 服务的运行状况，协助诊断性能问题和分析请求的吞吐量。您可以使用 {{site.data.keyword.streaminganalyticsshort}} 中的 Streams 控制台来[监视操作程序行为并确保资源优化 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。](https://wp.me/p4IICn-4bH)
+
 
 您可以从服务仪表板访问 {{site.data.keyword.streaminganalyticsshort}} 控制台。
 

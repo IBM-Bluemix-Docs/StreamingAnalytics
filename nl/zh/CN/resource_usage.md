@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-02-14"
 {{site.data.keyword.streaminganalyticsshort}} 使用一系列行为和策略来确保适当的资源分配和使用情况。
 
 ## 查看和编辑实例资源
-您可以在服务仪表板上查看和编辑实例的授权资源数或使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) 进行查看和编辑。
+您可以在服务仪表板上查看和编辑实例的授权资源数，也可以使用 V1 REST API（适用于 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)）或者 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance)（适用于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)）进行查看和编辑。
 
 ## 资源分配
 - 当您提交成功运行的作业时，会将资源自动分配给实例。

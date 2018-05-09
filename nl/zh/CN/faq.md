@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-02-14"
 ## 如何注册 Streaming Analytics 服务？
 {: #signup notoc}  
 
-有关 {{site.data.keyword.streaminganalyticsshort}} 服务套餐的信息，请参阅 [{{site.data.keyword.Bluemix_short}} 目录页面](https://console.ng.bluemix.net/catalog/services/streaming-analytics)。
+有关 {{site.data.keyword.streaminganalyticsshort}} 服务套餐的信息，请参阅 [{{site.data.keyword.Bluemix_short}} 目录页面](https://console.bluemix.net/catalog/services/streaming-analytics)。
 
 ## 我使用的是哪个版本的 Streaming Analytics 服务？
 {: #version notoc}   
@@ -55,13 +55,13 @@ lastupdated: "2018-02-14"
 ## 如何开发 Streams 应用程序？
 {: #streamsapp notoc}
 
-您必须使用免费 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/) 或 [{{site.data.keyword.streamsshort}} Developer Edition ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www.ibm.com/support/docview.wss?uid=swg24042775)，在本地开发 Streams 应用程序。
+对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，必须使用免费的 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) 在本地开发 Streams 应用程序，如果要使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
 
 您还可以使用内部部署 {{site.data.keyword.streamsshort}} 安装（如果有的话）。然后，您在本地开发并编译的应用程序可以作为捆绑软件无缝地部署到云中的 Streams 服务。
 
 但是，如果您想要运行云中的 Python 应用程序，您无需安装 {{site.data.keyword.streamsshort}} 内部部署。只要使用 `STREAMING\_ANALYTICS\_SERVICE` 上下文，将 Python 应用程序提交到 {{site.data.keyword.streaminganalyticsshort}} 服务即可。您可以在标准 Python 开发环境或 Jupyter 交互配置页中开发应用程序，但是必须使用 Python 3.5。
 
-有关开发应用程序的指南，请参阅 [{{site.data.keyword.Bluemix_notm}}{{site.data.keyword.streaminganalyticsshort}} 开发指南 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/)。
+有关开发应用程序的指南，请参阅 [ {{site.data.keyword.Bluemix_notm}}{{site.data.keyword.streaminganalyticsshort}} 开发指南 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b)。
 
 ## 我可以直接登录到 Streaming Analytics 服务主机吗？
 {: #host notoc}  
@@ -78,7 +78,7 @@ lastupdated: "2018-02-14"
 ## Streaming Analytics 服务应用程序如何访问组织的企业数据？
 {: #access notoc}  
 
-您可以使用 [{{site.data.keyword.Bluemix_notm}} Secure Gateway 服务](https://console.ng.bluemix.net/catalog/services/secure-gateway)，将 Streams 应用程序安全地连接到企业。
+您可以使用 [{{site.data.keyword.Bluemix_notm}} Secure Gateway 服务](https://console.bluemix.net/catalog/services/secure-gateway)，将 Streams 应用程序安全地连接到企业。
 
 ## 云中的 Streaming Analytics 服务支持内部部署的 IBM Streams 的所有功能吗？
 {: #features notoc}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -30,17 +30,17 @@ lastupdated: "2018-02-14"
 
 1. 设置用于开发和测试应用程序的开发环境。
 
-	如果要使用 {{site.data.keyword.streamsshort}} 环境，您可以免费下载 [{{site.data.keyword.streamsshort}} Quick Start Edition ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
+	如果要使用 {{site.data.keyword.streamsshort}} 环境，您可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}（适用于 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)），或者 [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window}（适用于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)）。
 
 2. 在开发环境中开发流式应用程序。在 {{site.data.keyword.streamsshort}} 开发环境中，可以使用 Streams Studio 或命令行工具来开发应用程序。
 
 3. 验证流式应用程序在开发环境中是否正常运行。
-**注：**必须使用 Red Hat Enterprise Linux (RHEL) 6.5 操作系统或等同的 CentOS 版本，使用 Intel 处理器，来编译应用程序。
+**注意：**如果您要使用 V2 服务套餐，那么必须以 Red Hat Enterprise Linux (RHEL) 7.x 编译应用程序，如果您要使用 V1 服务套餐，那么必须使用 RHEL 6.5 编译应用程序。
 
 4. 使用以下某种方法，将与您 SPL、Java、Scala 或 Python 应用程序相关联的应用程序捆绑软件（.sab 文件）提交到云中的服务实例：
 	* 使用 {{site.data.keyword.streaminganalyticsshort}} 控制台，来提交应用程序捆绑软件。
 
-  * 在 {{site.data.keyword.Bluemix_notm}} 中创建应用程序并向其添加 {{site.data.keyword.streamsshort}} 应用程序。使用 {{site.data.keyword.streaminganalyticsshort}} REST API 对其进行控制。
+  * 在 {{site.data.keyword.Bluemix_notm}} 中创建应用程序并向其添加 {{site.data.keyword.streamsshort}} 应用程序。使用 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/220){:new_window}（适用于 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)）或 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/1939){:new_window}（适用于 V2 服务套餐）进行控制。
 
 现在，您的应用程序已在云中部署。您可以使用 {{site.data.keyword.streaminganalyticsshort}} 服务，来监视应用程序。您还可以将多个应用程序（.sab 文件）提交到服务实例。多少个都可以。
 
@@ -54,4 +54,4 @@ lastupdated: "2018-02-14"
 
 streamsx 程序包中随附的 [{{site.data.keyword.streamsshort}} Python 应用程序 API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window} 支持将 Python 应用程序部署到 {{site.data.keyword.streaminganalyticsshort}} 服务。查看[针对 {{site.data.keyword.streaminganalyticsshort}} 服务进行开发 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} 教程以获取有关如何针对 {{site.data.keyword.streaminganalyticsshort}} 服务创建和部署简单 Python 应用程序的示例。
 
-IBM Data Science Experience (DSX) 还支持在 Jupyter 交互式配置页中提交 Python 应用程序。有关更多信息，请参阅[开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
+{{site.data.keyword.DSX_full}} 还支持在 Jupyter 交互式配置页中提交 Python 应用程序。有关更多信息，请参阅[开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。

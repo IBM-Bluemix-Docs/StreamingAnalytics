@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-02-14"
 {:screen: .screen}
 {:pre: .pre}
 
-# 在 {{site.data.keyword.Bluemix_notm}} 上部署 Streams 应用程序
+# 入门资源和工具
 {: #c_getting_app_bluemix}
 
 
@@ -30,13 +30,15 @@ lastupdated: "2018-02-14"
     <td>
       <ul>
         <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">支持的工具箱和适配器</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">服务凭证和 VCAP_SERVICES 环境变量</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">服务凭证和 VCAP_SERVICES 环境变量</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">GitHub 上的 IBMStreams ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics 开发指南 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics V1 开发指南 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics V2 开发指南 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></li>
+
         <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">连接 Streams：需要了解的内容 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics 入门</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">使 SPL 应用程序为云做好准备 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a><br></li>

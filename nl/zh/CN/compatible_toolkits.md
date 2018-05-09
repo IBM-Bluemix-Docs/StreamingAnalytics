@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -42,6 +42,8 @@ lastupdated: "2018-02-14"
 | [Geospatial ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibm.co/2h9x0VR) 	     |	包含可促进对位置数据进行有效处理并建立索引的操作程序和功能。<br>**限制：**不支持使用共享映射方式的操作程序（共享映射方式下的 `MapStore` 和 `PointMapMatcher`）。|
 | [TEDA ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibm.co/2z9DS00)	   | 	提供一组在电信应用程序中使用的通用操作程序，另外还提供一种应用程序框架，支持设置新的文件到文件应用程序。首先请遵循 [TEDA教程 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.tutorial.teda/)。支持此工具箱的所有操作程序和功能。<br>**限制：**不支持应用程序框架。|
 | [TimeSeries ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibm.co/2zEPILZ)	 	  | TimeSeries Toolkit 中的操作程序和功能可限定和分析时间序列数据，并对这些数据进行建模。<br>**限制：**不支持已弃用的操作程序。|
+| [{{site.data.keyword.cos_short}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://bit.ly/2Ggp03T)	 	  | 提供原始运算符和本机函数，分别用于从
+{{site.data.keyword.cos_short}} 读取数据或向其写入数据。该工具箱支持兼容 S3 的 {{site.data.keyword.cos_short}}。|
 
 *表 1. 支持的工具箱*
 

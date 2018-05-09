@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -31,6 +31,9 @@ con gli strumenti, come diagrammi, tabelle e grafici live
 * Creare filtri per restringere i dati visualizzati nei tuoi log e dashboard senza
 modificare le tue query
 * Visualizzare i tuo log dell'istanza in base alle variabili di ambiente che hai definito
+* Funzioni di determinazione dei problemi per aiutarti a trovare e correggere rapidamente gli errori nelle tue applicazioni. Per ulteriori dettagli, consulta il documento relativo alle [funzioni di determinazione dei problemi in {{site.data.keyword.streaminganalyticsshort}}) ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").](https://wp.me/p4IICn-4cx)
+* Monitoraggio di come gli operatori si comportano ed elaborazione tuple garantita nel cloud. {{site.data.keyword.streamsshort}} fornisce metriche per aiutarti a valutare l'integrità dei servizi {{site.data.keyword.streamsshort}}, come ausilio nella diagnosi dei problemi delle prestazioni e per analizzare la velocità effettiva delle richieste. Puoi utilizzare la console di Streams in {{site.data.keyword.streaminganalyticsshort}} per [monitorare come gli operatori si comportano e garantire l'ottimizzazione della risorsa ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").](https://wp.me/p4IICn-4bH)
+
 
 Puoi accedere alla console {{site.data.keyword.streaminganalyticsshort}}
 dal dashboard del servizio.

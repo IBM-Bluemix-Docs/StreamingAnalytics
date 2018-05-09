@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -27,7 +27,7 @@ Prima di distribuire le applicazioni starter, devi eseguire questa procedura:
 
 * Esegui la registrazione a un account [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/registration){:new_window}
 * Crea un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} nella tua organizzazione {{site.data.keyword.Bluemix_notm}}. Puoi creare l'istanza direttamente dalla pagina [{{site.data.keyword.streaminganalyticsshort}} nel catalogo dei servizi {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install).
+* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -38,18 +38,15 @@ Prima di distribuire le applicazioni starter, devi eseguire questa procedura:
 
     a. Nel menu {{site.data.keyword.Bluemix_notm}}, seleziona **Applicazioni Cloud Foundry** e fai clic su **Crea risorsa**.
 
-    b. Seleziona il runtime della tua applicazione:
-  	* Per distribuire l'applicazione starter Event Detection, crea un'applicazione con il runtime {{site.data.keyword.sdk4node}}.
-  	* Per distribuire l'applicazione starter NYC Traffic, crea un'applicazione con il runtime Liberty for
-Java™.
+    b. Seleziona il runtime {{site.data.keyword.sdk4node}} per le applicazioni starter Event Detection o Event Detection v2.
 
-  Ricorda il nome che fornisci per l'applicazione, ti servirà in seguito.
+    Ricorda il nome che fornisci per l'applicazione, ti servirà in seguito.
 1. Collega l'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} alla tua applicazione e ripreparala.
 
 ## Passo 2: configura l'applicazione starter
 {: #setup_app}
 
-1. Scarica l'applicazione starter [Event Detection ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) o [NYC Traffic ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic).
+1. Se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html), scarica l'applicazione starter [Event Detection ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Scarica l'applicazione starter [Event Detection v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) per i piani di servizio [v2](/docs/services/StreamingAnalytics/service_plans.html).
 
 1. Rinomina la directory in modo che corrisponda al nome fornito alla tua applicazione in {{site.data.keyword.Bluemix_notm}}.
 

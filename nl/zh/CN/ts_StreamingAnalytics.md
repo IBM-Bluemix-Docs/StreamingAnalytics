@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -46,11 +46,9 @@ lastupdated: "2018-02-14"
 将应用程序提交给服务实例，应用程序启动，但马上出现故障，运行状况状态为 `unhealthy`。日志文件中出现以下错误：`/lib64/libc.so.6: version GLIBC_2.14 not found`。
 {: tsSymptoms}
 
-编译应用程序所使用的不是 RHEL 6.5 操作系统或等同的 CentOS 版本。
+您编译应用程序所使用的不是 RHEL 7.x 操作系统或等同的 CentOS 版本。
 {: tsCauses}
 
-必须使用 Red Hat Enterprise Linux (RHEL) 6.5 操作系统或等同的 CentOS 版本，使用 Intel 处理器，重新编译应用程序。重新向服务实例提交应用程序。
-
-
-**注：**如果使用 Beta-Entry 和 Beta-Enhanced 套餐，那么必须在 RHEL 7 环境或同等 CentOS 版本中编译应用程序捆绑软件。如果不具有可编译的开发环境，您可以使用 [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。请查看 [Beta 套餐文档](/docs/services/StreamingAnalytics/beta_plans.html)以了解详细信息。
+您必须使用 Intel 处理器重新编译应用程序：如果您使用的是 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，请以 Red Hat Enterprise Linux (RHEL) 7.x 重新编译，如果使用的是 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，请以 RHEL 6.5 重新编译。重新向服务实例提交应用程序。
+如果没有兼容的开发环境，又要使用 V2 服务套餐，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。如果要使用 V1 服务套餐，请下载 [{{site.data.keyword.streamsshort}} QSE ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
 {: tsResolve}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -36,10 +36,11 @@ Questi adattatori e toolkit di analisi sono supportati da {{site.data.keyword.st
 | [RabbitMQ ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  Fornisce gli operatori che consentono alle tue applicazioni Streams di leggere e inviare messaggi da Rabbit MQ.  |
 | [R-project ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://ibm.co/2h7D9lu)          	   	              |   Include l'operatore RScript, che puoi utilizzare per eseguire i comandi R e applicare algoritmi di data mining complessi per individuare pattern di interesse nei flussi di dati.			     |
 | [Topology ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.topology/)      |  Fornisce la capacità di creare le applicazioni di gestione flussi Python per il servizio {{site.data.keyword.streaminganalyticsshort}} nella piattaforma {{site.data.keyword.Bluemix_notm}} e {{site.data.keyword.streamsshort}}.		     |
-| [DPS ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.dps/) |	 Abilita più applicazioni che stanno eseguendo gli elementi elaborati (PEs) su una o più macchine a condividere le informazioni di stato specifiche per l'applicazione.<br>**Limitazione:** è supportato solo REDIS come database di backend.	| 	 	 	
+| [DPS ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.dps/) |	 Abilita più applicazioni che stanno eseguendo gli elementi di elaborazione (PE, processing element) su una o più macchine a condividere le informazioni di stato specifiche per l'applicazione.<br>**Limitazione:** è supportato solo REDIS come database di backend.	| 	 	 	
 | [Geospatial ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://ibm.co/2h9x0VR) 	     |	Include operatori e funzioni che facilitano l'indicizzazione e l'elaborazione efficiente dei dati locali.<br>**Limitazione:** gli operatori che utilizzano la modalità di associazione non sono supportati `MapStore`, `PointMapMatcher` nella modalità di associazione condivisa).		 |
 | [TEDA ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://ibm.co/2z9DS00)	   | 	Fornisce una serie di operatori generici utilizzati nelle applicazioni di telecomunicazioni e fornisce inoltre un framework dell'applicazione che ti consente di configurare nuove applicazioni file-to-file. Inizia seguendo [TEDA tutorials ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.tutorial.teda/). Tutti gli operatori e le funzioni del toolkit sono supportati. <br>**Limitazione:** il framework dell'applicazione non è supportato.	 	 |
 | [TimeSeries ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://ibm.co/2zEPILZ)	 	  | Le funzioni e gli operatori in TimeSeries Toolkit condizionano, analizzano e modellano i dati delle serie temporali. <br>**Limitazione:** gli operatori obsoleti non sono supportati.	   |
+| [{{site.data.keyword.cos_short}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://bit.ly/2Ggp03T)	 	  | Fornisce gli operatori primitivi e le funzioni native per leggere e scrivere dati dalla e nella {{site.data.keyword.cos_short}}, rispettivamente. Il toolkit supporta {{site.data.keyword.cos_short}} compatibili con S3.	   |
 
 *Tabella 1. Toolkit supportati*
 
