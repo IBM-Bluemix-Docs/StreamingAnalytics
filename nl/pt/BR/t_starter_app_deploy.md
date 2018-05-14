@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-02-14"
 {:screen: .screen}
 {:pre: .pre}
 
-# Tutorial Introdução
+# Tutorial de Introdução
 {: #starterapps_deploy}
 
 O Streaming Analytics é um serviço totalmente gerenciado que libera você de demoradas tarefas de instalação, administração e gerenciamento, dando mais tempo para desenvolver aplicativos de fluxo. Neste tutorial de introdução, você enviará por push e implementará um dos aplicativos iniciadores do {{site.data.keyword.streaminganalyticsshort}} para {{site.data.keyword.Bluemix_notm}}.
@@ -27,7 +27,7 @@ Antes de implementar os apps iniciadores, deve-se seguir estas etapas:
 
 * Registre-se para uma conta do [{{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/registration){:new_window}
 * Crie uma instância do serviço {{site.data.keyword.streaminganalyticsshort}} em sua organização do {{site.data.keyword.Bluemix_notm}}. É possível criar a instância diretamente na página do [{{site.data.keyword.streaminganalyticsshort}} no Catálogo de serviços do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Instale o {{site.data.keyword.Bluemix_notm}} CLI ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install).
+* [Instale o {{site.data.keyword.Bluemix_notm}} CLI ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -38,17 +38,19 @@ Antes de implementar os apps iniciadores, deve-se seguir estas etapas:
 
     a. No menu {{site.data.keyword.Bluemix_notm}}, selecione **Apps Cloud Foundry** e clique em **Criar recurso**.
 
-    b. Selecione seu tempo de execução do aplicativo:
-  	* Para implementar o app iniciador Event Detection, crie um aplicativo com o tempo de execução do {{site.data.keyword.sdk4node}}.
-  	* Para implementar o app iniciador NYC Traffic, crie um aplicativo com o tempo de execução do Liberty for Java™.
+    b. Selecione o tempo de execução do {{site.data.keyword.sdk4node}} para os aplicativos Starter Event Detection ou
+Event Detection v2.
 
-  Lembre-se do nome que você deu ao aplicativo; você precisará dele posteriormente.
+    Lembre-se do nome que você deu ao aplicativo; você precisará dele posteriormente.
 1. Conecte a instância de serviço do {{site.data.keyword.streaminganalyticsshort}} ao seu aplicativo e remonte o aplicativo.
 
 ## Etapa 2: Configurar o aplicativo iniciador
 {: #setup_app}
 
-1. Faça download do aplicativo iniciador [Event Detection ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) ou [NYC Traffic ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic).
+1. Se Ao usar os planos de serviços do [v1](/docs/services/StreamingAnalytics/service_plans.html), faça download do aplicativo Starter do [Event Detection ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Faça download
+do aplicativo Starter do [Event
+Detection v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) para
+os planos de serviços do [v2](/docs/services/StreamingAnalytics/service_plans.html).
 
 1. Renomeie o diretório para corresponder ao nome que você forneceu ao seu aplicativo no {{site.data.keyword.Bluemix_notm}}.
 

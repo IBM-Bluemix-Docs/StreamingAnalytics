@@ -174,7 +174,7 @@ Para obtener información sobre las restricciones del kit de herramientas, consu
 ## Mining Toolkit
 {: #mining notoc}
 
-Mining Toolkit (com.ibm.streams.mining) incluye operadores que se pueden utilizar para extraer secuencias de datos mediante la aplicación de modelos. La extracción de secuencias de datos para extraer información o inteligencia relevante es fundamental para la mayoría de aplicaciones de procesamiento de secuencias que van desde la detección de fraudes hasta la segmentación de clientes, pasando por la renovación o prevención de intrusión.
+Mining Toolkit (com.ibm.streams.mining) incluye operadores que se pueden utilizar para extraer secuencias de datos mediante la aplicación de modelos. La extracción de secuencias de datos para extraer información o inteligencia relevante es fundamental para la mayoría de las aplicaciones de procesamiento de secuencias que van desde la detección de fraudes hasta la segmentación de clientes, pasando por la renovación o prevención de intrusión.
 
 La tabla siguiente contiene los operadores que proporciona el kit de herramientas de Mining.
 

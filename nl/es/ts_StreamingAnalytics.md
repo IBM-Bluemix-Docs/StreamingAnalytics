@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -46,10 +46,8 @@ No puede ejecutar la aplicación correctamente y su estado es `unhealthy`.
 Envía una aplicación a la instancia del servicio, la aplicación se inicia pero falla de inmediato y su estado es `unhealthy`. Aparece el siguiente error en el archivo de registro: `/lib64/libc.so.6: no se ha encontrado la versión GLIBC_2.14`.
 {: tsSymptoms}
 
-No ha compilado la aplicación con un sistema operativo RHEL 6.5 o una versión de CentOS equivalente.
+No ha compilado la aplicación con un sistema operativo RHEL 7.x o una versión de CentOS equivalente.
 {: tsCauses}
 
-Debe volver a compilar la aplicación en un sistema operativo Red Hat Enterprise Linux (RHEL) 6.5 o una versión de CentOS equivalente utilizando procesadores Intel. Vuelva a enviar la aplicación a la instancia del servicio.
-
-**Nota:** si utiliza los planes Beta-Entry y Beta-Enhanced, debe compilar su paquete de aplicaciones en un entorno RHEL 7 o una versión de CentOS equivalente. Puede utilizar [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si no tiene un entorno de desarrollo compatible. Consulte la [documentación de planes Beta](/docs/services/StreamingAnalytics/beta_plans.html) para obtener más información.
+Debe volver a compilar la aplicación en Red Hat Enterprise Linux (RHEL) 7.x si está utilizando los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html) o con RHEL 6.5 si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), utilizando procesadores Intel. Vuelva a enviar la aplicación a la instancia del servicio. Puede descargar [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si no tiene un entorno de desarrollo compatible y si está utilizando los planes de servicio de v2. Si está utilizando planes de servicio de v1, descargue [{{site.data.keyword.streamsshort}} QSE ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
 {: tsResolve}

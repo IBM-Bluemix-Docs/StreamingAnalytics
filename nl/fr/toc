@@ -7,6 +7,7 @@ Streaming Analytics
     {: .navgroup id="learn"}
     t_starter_app_deploy.md
     index.md
+    service_plans.md
 
     {: .topicgroup}
     A propos de
@@ -15,26 +16,21 @@ Streaming Analytics
         r_service_dashboard.md
         c_ha.md
 
-	  {: .topicgroup}
+    {: .topicgroup}
     c_starterapps.md
+    resource_usage.md
 
     {: .topicgroup}
-    Plans bêta
-        beta_plans.md
-        consistentregions.md
-        resource_usage.md
-        [Référence pour l'API REST v2](https://console.bluemix.net/apidocs/1939)
-
-    {: .topicgroup}
-    gs_python.md
-    gs_beamrunner.md
+    Applications Python et Beam
+        gs_python.md
+        gs_beamrunner.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
-    [Référence pour l'API REST v1](https://console.bluemix.net/apidocs/220)
-    [API REST v2 pour les plans bêta](https://console.bluemix.net/apidocs/1939)
-    [API Python pour Streams](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+    [API REST v1](https://console.bluemix.net/apidocs/220)
+    [API REST v2](https://console.bluemix.net/apidocs/1939)
+    [API Streams Python](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -47,9 +43,13 @@ Streaming Analytics
         develop_beam_apps.md
 
     {: .topicgroup}
+    Sécurité
+        service_cred_iam.md
+        granting-permissions-to-users.md
+
+    {: .topicgroup}
     compatible_toolkits.md
     c_beta_tooling.md
-    r_vcap_services.md
     r_integrating_cloudant_rest.md
     {: .navgroup-end}
 

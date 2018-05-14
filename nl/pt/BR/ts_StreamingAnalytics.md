@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -46,10 +46,14 @@ Não é possível executar seu aplicativo corretamente e o status de funcionamen
 Você envia um aplicativo para a instância de serviço, o aplicativo é iniciado, mas falha imediatamente e o status de funcionamento é `unhealthy`. O erro a seguir aparece no arquivo de log: `/lib64/libc.so.6: version GLIBC_2.14 not found`.
 {: tsSymptoms}
 
-Você não compilou o aplicativo usando um sistema operacional RHEL 6.5 ou uma versão equivalente do CentOS.
+O aplicativo não foi compilado usando um sistema operacional RHEL 7.x ou uma versão equivalente do CentOS.
 {: tsCauses}
 
-Deve-se recompilar seu aplicativo em um sistema operacional Red Hat Enterprise Linux (RHEL) 6.5 ou em uma versão equivalente do CentOS, usando processadores Intel. Envie seu aplicativo para a instância de serviço novamente.
-
-**Observação:** se você está usando os planos Beta-Entry e Beta-Enhanced, deve-se compilar seu pacote configurável do aplicativo em um ambiente RHEL 7 ou uma versão equivalente do CentOS. É possível usar o [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se você não tem um ambiente de desenvolvimento compatível. Veja a [Documentação de planos beta](/docs/services/StreamingAnalytics/beta_plans.html) para obter detalhes.
+Será necessário recompilar o aplicativo no Red Hat Enterprise Linux (RHEL) 7.x ao usar os planos de serviços do
+[v2](/docs/services/StreamingAnalytics/service_plans.html) ou com o RHEL 6.5 ao usar os planos de serviços do [v1](/docs/services/StreamingAnalytics/service_plans.html), usando
+processadores Intel. Envie seu aplicativo para a instância de serviço novamente. Será possível fazer download do
+[{{site.data.keyword.streamsshort}}
+Quick Start Edition com o Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se você não tiver um ambiente de desenvolvimento compatível e estiver usando os planos
+de serviços da v2. Ao usar os planos de serviços da v1, faça download do [{{site.data.keyword.streamsshort}} QSE
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
 {: tsResolve}

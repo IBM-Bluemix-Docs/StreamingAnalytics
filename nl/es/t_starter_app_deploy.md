@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -27,7 +27,7 @@ Antes de desplegar las apps de inicio, debe seguir estos pasos:
 
 * Regístrese para una cuenta de [{{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/registration){:new_window}
 * Cree una instancia del servicio de {{site.data.keyword.streaminganalyticsshort}} en la organización de {{site.data.keyword.Bluemix_notm}}. Puede crear la instancia directamente desde la página de [{{site.data.keyword.streaminganalyticsshort}} en el Catálogo de servicios de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Instale la CLI de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.stage1.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install).
+* [Instale la CLI de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -38,17 +38,15 @@ Antes de desplegar las apps de inicio, debe seguir estos pasos:
 
     a. En el menú de {{site.data.keyword.Bluemix_notm}}, seleccione **Apps de Cloud Foundry** y pulse **Crear recurso**.
 
-    b. Seleccione el tiempo de ejecución de la aplicación:
-  	* Para desplegar la app de inicio Event Detection, cree una aplicación con el tiempo de ejecución de {{site.data.keyword.sdk4node}}.
-  	* Para desplegar la app de inicio NYC Traffic, cree una aplicación con el tiempo de ejecución de Liberty for Java™.
+    b. Seleccione el tiempo de ejecución de {{site.data.keyword.sdk4node}} para las apps de inicio Event Detection o Event Detection v2.
 
-  Recuerde el nombre que asigna a la aplicación; lo necesitará más adelante.
+    Recuerde el nombre que asigna a la aplicación; lo necesitará más adelante.
 1. Conecte la instancia de servicio de {{site.data.keyword.streaminganalyticsshort}} a la aplicación y vuelva a transferir la aplicación.
 
 ## Paso 2: Configurar la aplicación de inicio
 {: #setup_app}
 
-1. Descargue la aplicación de inicio [Event Detection ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) o la aplicación de inicio [NYC Traffic ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic).
+1. Si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), descargue la app de inicio [Event Detection ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Descargue la app de inicio [Event Detection v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) para los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html).
 
 1. Cambie el nombre del directorio para que coincida con el nombre asignado a la aplicación en {{site.data.keyword.Bluemix_notm}}.
 

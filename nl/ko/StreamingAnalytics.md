@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -25,7 +25,7 @@ lastupdated: "2018-02-14"
 
 **대화식 및 프로그램 방식 서비스의 사용:**
 
-[{{site.data.keyword.streaminganalyticsshort}} 콘솔](/docs/services/StreamingAnalytics/c_streams_console.html)을 통해 대화식으로 또는 [{{site.data.keyword.streaminganalyticsshort}} REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.ng.bluemix.net/apidocs/220){:new_window}를 통해 프로그래밍 방식으로 서비스를 사용할 수 있습니다.
+[v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)을 사용하는 경우 [{{site.data.keyword.streaminganalyticsshort}} 콘솔](/docs/services/StreamingAnalytics/c_streams_console.html)을 통해 대화식으로 또는 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.bluemix.net/apidocs/220){:new_window}를 통해 프로그래밍 방식으로 서비스를 사용할 수 있습니다. [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)의 경우 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.bluemix.net/apidocs/1939)를 사용하십시오.
 
 **SPL, Java, Scala 및 Python 애플리케이션의 배치 및 모니터링:**
 
@@ -33,14 +33,14 @@ SPL, Java, Scala 및 Python으로 {{site.data.keyword.streamsshort}} 애플리�
 
 SPL로 애플리케이션을 작성하려면 {{site.data.keyword.streamsfull}} Processing Language(SPL)가 스트림 처리 애플리케이션의 작성에 사용되는 프로그래밍 언어임을 알아야 합니다. 자체 SPL 애플리케이션으로 추가 작업을 진행하려는 경우, {{site.data.keyword.streamsshort}} 개발 환경을 가져올 수 있으며 SPL 앱을 클라우드에 맞게 준비해야 합니다.
 
-{{site.data.keyword.streamsshort}} 개발 환경 없이 Python 애플리케이션을 작성하고 배치하려면 {{site.data.keyword.streamsshort}} Python API 또는 IBM Data Science Experience(DSX)에서 노트북을 사용하십시오. 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}용 Python 애플리케이션 개발](/docs/services/StreamingAnalytics/t_develop_apps_python.html)을 참조하십시오.
+{{site.data.keyword.streamsshort}} 개발 환경 없이 Python 애플리케이션을 작성하고 배치하려면 {{site.data.keyword.DSX_short}} 또는 {{site.data.keyword.streamsshort}} Python API에서 노트북을 사용하십시오. 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}용 Python 애플리케이션 개발](/docs/services/StreamingAnalytics/t_develop_apps_python.html)을 참조하십시오.
 
-사용자는 로컬 개발 환경에서 Streams Runner를 사용하여 Beam 애플리케이션을 개발한 후, 이를 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 배치하고 모니터할 수 있습니다. Streams Runner를 사용하는 Beam 애플리케이션에 대한 자세한 정보는 [Streaming Analytics에서 Streams Runner를 사용하는 Beam 앱 모니터](docs/services/StreamingAnalytics/gs_beamrunner.html)를 참조하십시오.
+사용자는 로컬 개발 환경에서 Streams Runner를 사용하여 Beam 애플리케이션을 개발한 후, 이를 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 배치하고 모니터할 수 있습니다. Streams Runner를 사용하는 Beam 애플리케이션에 대한 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}에서 Streams Runner를 사용하는 Beam 앱 모니터](docs/services/StreamingAnalytics/gs_beamrunner.html)를 참조하십시오.
 
 
 **{{site.data.keyword.streamsshort}} 연산자와의 호환성:**
 
-{{site.data.keyword.streamsshort}} 연산자([{{site.data.keyword.streamsshort}} Processing Language(SPL) 표준 툴킷)는 모두 다음과 호환 가능](/docs/services/StreamingAnalytics/compatible_toolkits.html)해야 합니다: {{site.data.keyword.streaminganalyticsshort}}
+{{site.data.keyword.streamsshort}} 연산자([{{site.data.keyword.streamsshort}} Processing Language(SPL) 표준 툴킷)는 모두 다음과 호환 가능](/docs/services/StreamingAnalytics/compatible_toolkits.html)해야 합니다. {{site.data.keyword.streaminganalyticsshort}}
 
 ## Streaming Analytics 책임
 {: #responsibilities notoc}

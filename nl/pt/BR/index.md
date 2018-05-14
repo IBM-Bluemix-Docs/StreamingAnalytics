@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -25,17 +25,17 @@ Inicie o {{site.data.keyword.streaminganalyticsshort}} imediatamente executando 
 
 Para iniciar o {{site.data.keyword.streaminganalyticsshort}}, use um dos métodos a seguir para enviar o pacote configurável do aplicativo (arquivo .sab) que está associado ao seu aplicativo SPL, Java™, Python ou Scala Streams:
 * Use o botão **Enviar tarefa** no console do {{site.data.keyword.streaminganalyticsshort}}.
-* Desenvolva um aplicativo no {{site.data.keyword.Bluemix_notm}} e inclua o aplicativo {{site.data.keyword.streamsshort}} nele. Controle isso usando a API de REST do [{{site.data.keyword.streaminganalyticsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/220){:new_window}.
+* Desenvolva um aplicativo no {{site.data.keyword.Bluemix_notm}} e inclua o aplicativo {{site.data.keyword.streamsshort}} nele. Controle-o usando a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/220){:new_window} para os planos de serviços do [v1](/docs/services/StreamingAnalytics/service_plans.html) ou a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/1939){:new_window} para os planos de serviços da v2.
 
-Use o {{site.data.keyword.streaminganalyticsshort}} com outros serviços do {{site.data.keyword.Bluemix_short}}, incluindo o {{site.data.keyword.cloudant}} e o {{site.data.keyword.messagehub}}. Veja os [Tutoriais para se integrar com outros serviços do {{site.data.keyword.Bluemix_short}}](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window} para obter exemplos de funcionamento.
+Use {{site.data.keyword.streaminganalyticsshort}} com outros serviços, incluindo {{site.data.keyword.cloudant}}. Veja os [Tutoriais para se integrar com outros serviços do {{site.data.keyword.Bluemix_short}}](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window} para obter exemplos de funcionamento.
 
-Se você deseja ir além com seus próprios aplicativos, é possível obter um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}} e deve-se deixar seu aplicativo pronto para a nuvem. Se você não tiver um ambiente do {{site.data.keyword.streamsshort}}, será possível fazer download do {{site.data.keyword.streamsshort}} Quick Start Edition gratuitamente na página de produto [{{site.data.keyword.streamsshort}}.![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/analytics/us/en/technology/stream-computing/#products)
+Se você deseja ir além com seus próprios aplicativos, é possível obter um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}} e deve-se deixar seu aplicativo pronto para a nuvem. Se você não tiver um ambiente do {{site.data.keyword.streamsshort}}, será possível fazer download do [{{site.data.keyword.streamsshort}} Quick Start Edition com o Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) para os planos de serviços do [v2](/docs/services/StreamingAnalytics/service_plans.html) ou se estiver usando os planos de serviço do [v1](/docs/services/StreamingAnalytics/service_plans.html), será possível fazer download da imagem da VM do [{{site.data.keyword.streamsshort}} Quick Start Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
 
 Se você não estiver familiarizado com o desenvolvimento de
 aplicativo do
 {{site.data.keyword.streamsshort}},
-haverá recursos para ajudá-lo a aprender. Para obter mais informações, veja [Knowledge Center do {{site.data.keyword.streamsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
+haverá recursos para ajudá-lo a aprender. Para obter mais informações, consulte o [{{site.data.keyword.streamsshort}} Knowledge Center ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.1/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
 
 Se você já tem um aplicativo SPL que é executado no local, deve-se [deixar seu aplicativo pronto para a nuvem.![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
 
-**Observação:** deve-se compilar seus aplicativos no Red Hat Enterprise Linux (RHEL) 6.5 ou em uma versão equivalente do CentOS usando processadores Intel.
+**Nota:** deve-se compilar os aplicativos no Red Hat Enterprise Linux (RHEL) 7.x ao usar os planos de serviços da v2 ou com o RHEL 6.5 ao usar os planos de serviços da v1.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -30,17 +30,18 @@ Pour déployer vos applications {{site.data.keyword.streamsshort}} dans le cloud
 
 1. Configurez votre environnement de développement pour développer et tester votre application.
 
-	Si vous voulez utiliser un environnement {{site.data.keyword.streamsshort}}, vous pouvez télécharger gratuitement le produit [{{site.data.keyword.streamsshort}} Quick Start Edition ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
+	Si vous voulez utiliser un environnement {{site.data.keyword.streamsshort}}, vous pouvez télécharger le produit [{{site.data.keyword.streamsshort}} Quick Start Edition ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} pour les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html) ou le produit  [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window} pour les [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html). 
 
 2. Développez votre application de diffusion en flux continu dans votre environnement de développement. Dans un environnement de développement {{site.data.keyword.streamsshort}}, vous pouvez utiliser Streams Studio ou les outils de ligne de commande pour développer votre application.
 
 3. Vérifiez que votre application de diffusion en flux continu s'exécute correctement dans votre environnement de développement.
-**Remarque :** vous devez compiler votre application sous le système d'exploitation Red Hat Enterprise Linux (RHEL) 6.5 ou une version CentOS équivalente, utilisant des processeurs Intel.
+**Remarque :** Vous devez compiler vos applications sous Red Hat Enterprise Linux (RHEL) 7.x si vous utilisez les plans de service version 2 ou avec RHEL 6.5 si vous utilisez des plans de service version 1. 
 
 4. Soumettez le bundle d'applications (fichier .sab) associé à votre application SPL, Java, Scala ou Python dans votre instance de service du cloud en utilisant l'une des méthodes suivantes :
 	* Utilisez la console {{site.data.keyword.streaminganalyticsshort}} pour soumettre le bundle d'applications.
 
-  * Créez une application dans {{site.data.keyword.Bluemix_notm}} et ajoutez-y l'application {{site.data.keyword.streamsshort}}. Contrôlez-la en utilisant l'API REST {{site.data.keyword.streaminganalyticsshort}}.
+  * Créez une application dans {{site.data.keyword.Bluemix_notm}} et ajoutez-y l'application {{site.data.keyword.streamsshort}}. Contrôlez-la à l'aide de l'[API REST v1 de {{site.data.keyword.streaminganalyticsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/220){:new_window} pour les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html), ou
+de l'[API REST v2 de {{site.data.keyword.streaminganalyticsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/1939){:new_window} pour les plans de service version 2. 
 
 Votre application est maintenant déployée dans le cloud. Vous pouvez la surveiller à l'aide du service {{site.data.keyword.streaminganalyticsshort}}. Il vous est aussi possible de soumettre plus d'une application (fichiers .sab) dans votre instance de service, sans limite de nombre.
 
@@ -54,4 +55,4 @@ Déployez vos applications Python {{site.data.keyword.streamsshort}} dans un ser
 
 L'[API d'application Python {{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window} incluse dans le package streamsx vous permet de déployer des applications Python dans le service {{site.data.keyword.streaminganalyticsshort}}. Consultez le tutoriel [Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} pour un exemple de création et de déploiement d'une application Python simple pour le service {{site.data.keyword.streaminganalyticsshort}}.
 
-IBM Data Science Experience (DSX) prend également en charge la soumission des applications Python dans les fichiers notebook interactifs Jupyter. Pour plus d'informations, voir [Développement d'applications Python pour {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
+{{site.data.keyword.DSX_full}} prend également en charge la soumission des applications Python dans les fichiers notebook interactifs Jupyter. Pour plus d'informations, voir [Développement d'applications Python pour {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).

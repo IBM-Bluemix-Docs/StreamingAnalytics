@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -26,6 +26,9 @@ Utilice la consola de {{site.data.keyword.streaminganalyticsshort}} para supervi
 * Crea métricas derivadas para profundizar en los datos
 * Crea filtros para refinar los datos que se muestran en los paneles de control y en los registros sin cambiar las consultas
 * Muestra los registros de instancia según las variables de entorno que defina el usuario
+* Características de determinación de problemas para ayudarle a acelerar la detección y corrección de errores en sus aplicaciones. Para obtener más detalles, consulte [Características de determinación de problemas en {{site.data.keyword.streaminganalyticsshort}}) ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").](https://wp.me/p4IICn-4cx)
+* Supervisión de cómo se comportan los operadores y el proceso de tuplas garantizado en la nube. {{site.data.keyword.streamsshort}} proporciona métricas para evaluar el estado de los servicios de {{site.data.keyword.streamsshort}}, facilitar el diagnóstico de problemas de rendimiento y analizar el rendimiento de solicitudes. Puede utilizar la Consola de Streams en {{site.data.keyword.streaminganalyticsshort}} para [supervisar cómo se comportan los operadores y garantizar la optimización de recursos ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").](https://wp.me/p4IICn-4bH)
+
 
 Se puede acceder a la consola de {{site.data.keyword.streaminganalyticsshort}} desde el panel de control del servicio.
 

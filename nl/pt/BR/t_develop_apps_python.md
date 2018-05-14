@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,20 @@ lastupdated: "2018-02-14"
 # Desenvolvendo aplicativos Python no Streaming Analytics
 {: #t_develop_apps_python}
 
-Agora é possível desenvolver aplicativos Python no IBM Data Science Experience (DSX) ou em seu ambiente de desenvolvimento Python local e implementar esses aplicativos no {{site.data.keyword.streaminganalyticsshort}}.
+Agora é possível desenvolver aplicativos Python no {{site.data.keyword.DSX_full}} ou em seu ambiente de
+desenvolvimento Python local e implementar esses aplicativos no {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
 Desenvolva e implemente seus aplicativos Python no {{site.data.keyword.Bluemix_short}} usando o serviço {{site.data.keyword.streaminganalyticsshort}} e um destes métodos:
 
 
-## Desenvolvendo aplicativos Streams Python em DSX
+## Desenvolvendo aplicativos Streams Python no Watson Studio
 {: #t_develop_python_dsx}
 
-Se você não tem um ambiente de desenvolvimento Python, a maneira mais fácil de começar é usar nossos blocos de notas em DSX e criar aplicativos Python de amostra para o serviço {{site.data.keyword.streaminganalyticsshort}}. Esses blocos de notas fornecem as etapas e as amostras de código para criar e implementar aplicativos Python simples para o serviço {{site.data.keyword.streaminganalyticsshort}} dentro do ambiente Python DSX:
+Se você não tiver um ambiente de desenvolvimento Python, a maneira mais fácil de começar será com o uso dos blocos de notas em
+{{site.data.keyword.DSX_short}} e a criação de aplicativos Python de amostra para o serviço do {{site.data.keyword.streaminganalyticsshort}}. 
+Esses blocos de notas fornecem as etapas e as amostras de código para criar e implementar aplicativos Python simples para o serviço
+do {{site.data.keyword.streaminganalyticsshort}} dentro do ambiente Python do {{site.data.keyword.DSX_short}}:
 
 * [Hello World! ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): crie um aplicativo Hello World! simples para introdução e, em seguida, implemente o aplicativo em uma instância do serviço {{site.data.keyword.streaminganalyticsshort}}.
 

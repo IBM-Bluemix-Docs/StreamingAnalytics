@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,16 @@ lastupdated: "2018-02-14"
 # Développement d'applications Python dans Streaming Analytics
 {: #t_develop_apps_python}
 
-Vous pouvez désormais développer des applications Python dans IBM Data Science Experience (DSX) ou dans votre environnement de développement Python local et déployer ces applications dans {{site.data.keyword.streaminganalyticsshort}}.
+Vous pouvez désormais développer des applications Python dans {{site.data.keyword.DSX_full}} ou dans votre environnement de développement Python local et déployer ces applications dans {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
 Développez et déployez vos applications Python dans {{site.data.keyword.Bluemix_short}} en utilisant le service {{site.data.keyword.streaminganalyticsshort}} via l'une des méthodes ci-après :
 
 
-## Développement d'applications Python Streams dans DSX
+## Développement d'applications Python Streams dans Watson Studio
 {: #t_develop_python_dsx}
 
-Si vous ne disposez pas d'un environnement de développement Python, la façon la plus rapide de démarrer est d'utiliser nos fichiers notebook DSX et de créer des applications Python exemple pour le service {{site.data.keyword.streaminganalyticsshort}}. Ces fichiers notebook fournissent les procédures et les codes exemple pour créer et déployer des applications Python exemple simples pour le service {{site.data.keyword.streaminganalyticsshort}} au sein de l'environnement DSX Python :
+Si vous ne disposez pas d'un environnement de développement Python, la façon la plus rapide de démarrer est d'utiliser nos fichiers notebook {{site.data.keyword.DSX_short}} et de créer des modèles d'application Python pour le service {{site.data.keyword.streaminganalyticsshort}}. Ces fichiers notebook fournissent les procédures et les codes exemple pour créer et déployer des modèles d'application Python simples pour le service {{site.data.keyword.streaminganalyticsshort}} au sein de l'environnement {{site.data.keyword.DSX_short}} Python :
 
 * [Hello World! ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8) : créez une application Hello World! simple pour démarrer, puis déployez l'application dans une instance du service {{site.data.keyword.streaminganalyticsshort}}.
 

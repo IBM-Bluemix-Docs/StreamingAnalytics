@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,16 @@ lastupdated: "2018-02-14"
 # Streaming Analytics에서 Python 애플리케이션 개발
 {: #t_develop_apps_python}
 
-이제 IBM Data Science Experience(DSX) 또는 로컬 Python 개발 환경에서 Python 애플리케이션을 개발하고 {{site.data.keyword.streaminganalyticsshort}}에서 이러한 애플리케이션을 배치할 수 있습니다.
+이제 {{site.data.keyword.DSX_full}} 또는 로컬 Python 개발 환경에서 Python 애플리케이션을 개발하고 이러한 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}}에 배치할 수 있습니다.
 {:shortdesc}
 
 다음 방법 중 하나를 사용해 {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 Python 애플리케이션을 개발하고 이를 {{site.data.keyword.Bluemix_short}}에 배치하십시오.
 
 
-## DSX에서 Streams Python 애플리케이션 개발
+## Watson Studio에서 Streams Python 애플리케이션 개발
 {: #t_develop_python_dsx}
 
-아직 Python 개발 환경이 마련되지 않은 경우, 가장 손쉬운 시작 방법은 DSX에서 노트북을 사용하여 {{site.data.keyword.streaminganalyticsshort}} 서비스의 샘플 Python 애플리케이션을 작성하는 것입니다. 이러한 노트북은 DSX Python 환경 내에서 {{site.data.keyword.streaminganalyticsshort}} 서비스의 단순 Python 애플리케이션을 작성하고 배치하기 위한 단계와 코드 샘플을 제공합니다.
+아직 Python 개발 환경이 마련되지 않은 경우, 가장 손쉬운 시작 방법은 {{site.data.keyword.DSX_short}}에서 노트북을 사용하여 {{site.data.keyword.streaminganalyticsshort}} 서비스의 샘플 Python 애플리케이션을 작성하는 것입니다. 이러한 노트북은 {{site.data.keyword.DSX_short}} Python 환경 내에서 {{site.data.keyword.streaminganalyticsshort}} 서비스의 단순 Python 애플리케이션을 작성하고 배치하기 위한 단계와 코드 샘플을 제공합니다.
 
 * [Hello World! ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): 간단한 Hello World! 애플리케이션을 작성하여 시작한 후에 이 애플리케이션을 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스에 배치하십시오.
 

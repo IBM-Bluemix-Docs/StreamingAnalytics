@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-02-14"
 {:screen: .screen}
 {:pre: .pre}
 
-# {{site.data.keyword.Bluemix_notm}}에 Streams 애플리케이션 배치
+# 시작할 리소스 및 도구
 {: #c_getting_app_bluemix}
 
 
@@ -29,14 +29,15 @@ lastupdated: "2018-02-14"
     <td>
       <ul>
         <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">지원되는 툴킷 및 어댑터</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">서비스 신임 정보 및 VCAP_SERVICES 환경 변수</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">서비스 신임 정보 및 VCAP_SERVICES 환경 변수</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on
 GitHub ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics v1 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics v2 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
         <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Streams에 연결: 알아야 할 사항 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics 시작하기</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">클라우드에 맞게 SPL 애플리케이션 준비하기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>

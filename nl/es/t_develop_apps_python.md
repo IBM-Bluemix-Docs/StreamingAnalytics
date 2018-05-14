@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,16 +16,16 @@ lastupdated: "2018-02-14"
 # Desarrollo de aplicaciones Python en Streaming Analytics
 {: #t_develop_apps_python}
 
-Ahora puede desarrollar aplicaciones Python en IBM Data Science Experience (DSX) o en un entorno de desarrollo Python local y desplegarlas en {{site.data.keyword.streaminganalyticsshort}}.
+Ahora puede desarrollar aplicaciones Python en {{site.data.keyword.DSX_full}} o en su entorno de desarrollo local de Python y desplegar estas aplicaciones en {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
 Desarrollo y despliegue de aplicaciones Python en {{site.data.keyword.Bluemix_short}} utilizando el servicio {{site.data.keyword.streaminganalyticsshort}} mediante uno de estos métodos:
 
 
-## Desarrollo de aplicaciones Streams Python en DSX
+## Desarrollo de aplicaciones Streams Python en Watson Studio
 {: #t_develop_python_dsx}
 
-Si no dispone de un entorno de desarrollo Python, el modo más sencillo de comenzar consiste en utilizar nuestros cuadernos en DSX y crear aplicaciones Python para el servicio {{site.data.keyword.streaminganalyticsshort}}. Estos cuadernos muestran los pasos a seguir y ejemplos de código para crear y desplegar aplicaciones Python de ejemplo para el servicio {{site.data.keyword.streaminganalyticsshort}} dentro del entorno DSX Python:
+Si no dispone de un entorno de desarrollo Python, el modo más sencillo de comenzar consiste en utilizar nuestros cuadernos en {{site.data.keyword.DSX_short}} y crear aplicaciones Python de muestra para el servicio {{site.data.keyword.streaminganalyticsshort}}. Estos cuadernos muestran los pasos a seguir y ejemplos de código para crear y desplegar aplicaciones Python de ejemplo para el servicio {{site.data.keyword.streaminganalyticsshort}} dentro del entorno {{site.data.keyword.DSX_short}} Python:
 
 * [Hello World! ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8): Cree una sencilla aplicación Hello World! para empezar a trabajar y desplegar la aplicación en una instancia del servicio {{site.data.keyword.streaminganalyticsshort}}.
 

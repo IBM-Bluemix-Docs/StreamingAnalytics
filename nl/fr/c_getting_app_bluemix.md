@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-02-14"
 {:screen: .screen}
 {:pre: .pre}
 
-# Déploiement de vos applications Streams dans {{site.data.keyword.Bluemix_notm}}
+# Ressources et outils pour démarrer
 {: #c_getting_app_bluemix}
 
 
@@ -29,13 +29,14 @@ lastupdated: "2018-02-14"
     <td>
       <ul>
         <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">Kits d'outils et adaptateurs pris en charge</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/r_vcap_services.html#r_vcap_services" target="_blank">Données d'identification de service et variable d'environnement VCAP_SERVICES</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">Données d'identification de service et variable d'environnement VCAP_SERVICES</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">IBM Streams on GitHub ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></li>
       </ul>    
     </td>
     <td>
       <ul>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics Development Guide ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics v1 Development Guide ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></li>
+        <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics v2 Development Guide ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></li>
         <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Connecting to Streams: What you need to know ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Initiation à Streaming Analytics</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></li>

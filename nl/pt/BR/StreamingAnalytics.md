@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -26,7 +26,7 @@ O serviço {{site.data.keyword.streaminganalyticsshort}} fornece os recursos a s
 
 **Uso interativo e programático do serviço:**
 
-É possível usar o serviço interativamente por meio do [console do {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) ou programaticamente por meio da [API de REST do {{site.data.keyword.streaminganalyticsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/220){:new_window}.
+Será possível usar o serviço interativamente por meio do console do [{{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) ou programaticamente por meio da API de REST do [{{site.data.keyword.streaminganalyticsshort}} v1![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/220){:new_window} ao usar os planos de serviços do [v1](/docs/services/StreamingAnalytics/service_plans.html). Para planos de serviços do [v2](/docs/services/StreamingAnalytics/service_plans.html), use a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/1939).
 
 **Implementação e monitoramento de aplicativos SPL, Java, Scala e Python:**
 
@@ -34,9 +34,9 @@ O serviço {{site.data.keyword.streaminganalyticsshort}} fornece os recursos a s
 
 Se você deseja gravar seus aplicativos em SPL, é necessário saber que o {{site.data.keyword.streamsfull}} Processing Language (SPL) é uma linguagem de programação que é usada para criar aplicativos de processamento de fluxos. Se você deseja ir além com seus próprios aplicativos SPL, é possível obter um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}} e deve-se deixar seus apps SPL prontos para a nuvem.
 
-Para criar e implementar aplicativos Python sem um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}, use nossos blocos de nota no IBM Data Science Experience (DSX) ou a API do {{site.data.keyword.streamsshort}} Python. Para obter mais informações, consulte [Desenvolvendo aplicativos Python para o {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
+Para criar e implementar aplicativos Python sem um ambiente de desenvolvimento do {{site.data.keyword.streamsshort}}, use nossos blocos de notas em {{site.data.keyword.DSX_short}} ou a API do {{site.data.keyword.streamsshort}} API. Para obter mais informações, consulte [Desenvolvendo aplicativos Python para o {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
-É possível desenvolver aplicativos Beam com o Streams Runner em seu ambiente de desenvolvimento local, que pode, então, ser implementado e monitorado usando o serviço {{site.data.keyword.streaminganalyticsshort}}. Para obter mais informações sobre aplicativos Beam com o Streams Runner, consulte [Monitorar aplicativos Beam com o Streams Runner no Streaming Analytics](docs/services/StreamingAnalytics/gs_beamrunner.html).
+É possível desenvolver aplicativos Beam com o Streams Runner em seu ambiente de desenvolvimento local, que pode, então, ser implementado e monitorado usando o serviço {{site.data.keyword.streaminganalyticsshort}}. Para obter mais informações sobre aplicativos Beam com o Streams Runner, consulte o [Monitorar aplicativos Beam com o Streams Runner no {{site.data.keyword.streaminganalyticsshort}}](docs/services/StreamingAnalytics/gs_beamrunner.html).
 
 
 **Compatibilidade com operadores do {{site.data.keyword.streamsshort}}:**

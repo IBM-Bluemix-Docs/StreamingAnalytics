@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -46,10 +46,8 @@ Vous ne pouvez exécuter correctement votre application et son état de santé e
 Vous soumettez une application à l'instance de service, l'application démarre puis échoue immédiatement après, avec un état de santé `défaillant`. L'erreur suivante apparaît dans le fichier journal : `/lib64/libc.so.6 : version GLIBC_2.14 introuvable`.
 {: tsSymptoms}
 
-Vous n'avez pas compilé l'application en utilisant le système d'exploitation RHEL 6.5 ou une version CentOS équivalente.
+Vous n'avez pas compilé l'application en utilisant le système d'exploitation RHEL 7.x ou une version CentOS équivalente.
 {: tsCauses}
 
-Vous devez recompiler votre application sur un système d'exploitation Red Hat Enterprise Linux (RHEL) 6.5 ou une version CentOS équivalente, avec des processeurs Intel. Soumettez à nouveau votre application à l'instance de service.
-
-**Remarque :** si vous utilisez les plans Beta-Entry et Beta-Enhanced, vous devez compiler votre bundle d'applications dans un environnement RHEL 7 ou une version CentOS équivalente. Vous pouvez utiliser [{{site.data.keyword.streamsshort}} Quick Start Edition for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si vous ne disposez pas d'un environnement de développement compatible. Consultez la [documentation relative aux plans bêta](/docs/services/StreamingAnalytics/beta_plans.html) pour des détails.
+Vous devez recompiler votre application sous Red Hat Enterprise Linux (RHEL) 7.x si vous utilisez les [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html) ou sous RHEL 6.5 si vous utilisez des [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html), à l'aide de processeurs Intel. Soumettez à nouveau votre application à l'instance de service. Vous pouvez télécharger le produit [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si vous ne disposez pas d'un environnement de développement compatible et que vous utilisez les plans de service version 2. Si vous utilisez des plans de service version 1, téléchargez le produit [{{site.data.keyword.streamsshort}} QSE ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
 {: tsResolve}

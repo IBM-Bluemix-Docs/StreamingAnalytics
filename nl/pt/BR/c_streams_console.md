@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -30,6 +30,9 @@ aplicativos com ferramentas, como gráficos, tabelas e diagramas em tempo real
 * Criar filtros para refinar os dados exibidos nos painéis e logs sem mudar
 suas consultas
 * Visualizar os logs de sua instância com base nas variáveis de ambiente definidas
+* Os recursos de determinação de problema para ajudá-lo a localizar e corrigir rapidamente erros em seus aplicativos. Para obter mais detalhes, consulte [Recursos de determinação de problema no {{site.data.keyword.streaminganalyticsshort}}) ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").](https://wp.me/p4IICn-4cx)
+* Monitorando como os operadores se comportam e garantindo o processamento de tupla na nuvem. O {{site.data.keyword.streamsshort}} fornece métricas para ajudar a avaliar o funcionamento dos serviços do {{site.data.keyword.streamsshort}}, para auxiliar no diagnóstico de problemas de desempenho e para analisar o rendimento das solicitações. É possível usar o Streams Console em {{site.data.keyword.streaminganalyticsshort}} para [monitorar como os operadores se comportam e garantir a otimização de recursos ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").](https://wp.me/p4IICn-4bH)
+
 
 É possível acessar o console do {{site.data.keyword.streaminganalyticsshort}} por meio do painel de serviço.
 

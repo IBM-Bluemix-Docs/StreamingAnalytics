@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -33,4 +33,4 @@ Beam 애플리케이션을 {{site.data.keyword.Bluemix_notm}}의 {{site.data.key
 
 애플리케이션이 이제 클라우드에 배치됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스를 사용하여 애플리케이션을 모니터할 수 있습니다.
 
-{{site.data.keyword.streaminganalyticsshort}}에서 Beam 애플리케이션을 배치하고 모니터링하는 데 대한 세부사항은 [Apache Beam을 위한 Streams Runner ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/)를 참조하십시오.
+{{site.data.keyword.streaminganalyticsshort}}에서 Beam 애플리케이션을 배치하고 모니터하는 데 대한 세부사항은 [Apache Beam을 위한 Streams Runner ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/)를 참조하십시오.

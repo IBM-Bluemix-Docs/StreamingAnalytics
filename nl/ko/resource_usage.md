@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-02-14"
 {{site.data.keyword.streaminganalyticsshort}}에는 적절한 리소스 할당 및 사용량을 보장하기 위한 일련의 동작 및 정책이 있습니다.
 
 ## 인스턴스 리소스 보기 및 편집
-[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance)를 사용하거나 서비스 대시보드에서 인스턴스에 권한이 부여된 수많은 리소스를 보고 편집할 수 있습니다.
+[v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)용 v1 REST API 또는 [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)용 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance)를 사용하거나 서비스 대시보드에서 인스턴스에 권한이 부여된 수많은 리소스를 보고 편집할 수 있습니다. 
 
 ## 리소스 할당
 - 성공적으로 실행되는 작업을 제출할 때 자동으로 리소스가 인스턴스에 할당됩니다.

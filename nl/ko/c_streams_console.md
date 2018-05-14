@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -26,6 +26,9 @@ lastupdated: "2018-02-14"
 * 데이터를 심층 분석하기 위해 파생된 메트릭을 작성
 * 대시보드에 표시된 데이터를 세분화하기 위한 필터 및 조회를 수정하지 않고 로그를 작성
 * 사용자가 정의한 환경 변수에 따라 인스턴스 로그를 보기
+* 애플리케이션에서 신속하게 오류를 발견하고 수정할 수 있도록 돕는 문제점 판별 기능. 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}의 문제점 판별 기능 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://wp.me/p4IICn-4cx)을 참조하십시오.
+* 클라우드에서 연산자가 작동하는 방법 모니터링 및 튜플 처리 보장. {{site.data.keyword.streamsshort}}에서는 {{site.data.keyword.streamsshort}} 서비스의 상태를 평가하는 데 도움이 되고 성능 문제 진단을 지원하며 요청 처리량을 분석할 수 있는 메트릭을 제공합니다. {{site.data.keyword.streaminganalyticsshort}}에서 Streams 콘솔을 사용하여 [연산자가 작동하는 방법을 모니터하고 리소스 최적화를 보장![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://wp.me/p4IICn-4bH)할 수 있습니다.
+
 
 서비스 대시보드에서 {{site.data.keyword.streaminganalyticsshort}} 콘솔에 액세스할 수 있습니다.
 

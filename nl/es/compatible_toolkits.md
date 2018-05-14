@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-14"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -40,6 +40,7 @@ Los siguientes kits de herramientas y kits de herramientas y adaptadores de aná
 | [Geospatial ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://ibm.co/2h9x0VR) 	     |	Incluye operadores y funciones que facilitan el procesamiento y la indexación eficientes de datos de ubicación.<br>**Restricción:** Los operadores que utilizan el modo de correlación compartida no son compatibles(`MapStore`, `PointMapMatcher` en modo correlación compartida).		 |
 | [TEDA ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://ibm.co/2z9DS00)	   | 	Proporciona un conjunto de operadores genéricos que se utilizan en aplicaciones de telecomunicaciones, y también ofrece un marco de aplicaciones que le permite configurar nuevas aplicaciones de archivo a archivo. Comience siguiendo las [guías de aprendizaje de TEDA ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.tutorial.teda/). Se admiten todos los operadores y funciones del kit de herramientas. <br>**Restricción:** No se admite el marco de aplicaciones.	 	 |
 | [TimeSeries ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://ibm.co/2zEPILZ)	 	  | Los operadores y funciones en la condición de TimeSeries Toolkit, analizan y modelan datos de series temporales. <br>**Restricción:** No se admiten operadores en desuso.	   |
+| [{{site.data.keyword.cos_short}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://bit.ly/2Ggp03T)	 	  | Proporciona operadores primitivos y funciones nativas para leer y escribir datos desde y a {{site.data.keyword.cos_short}}, respectivamente. El kit de herramientas admite {{site.data.keyword.cos_short}} compatible con S3.	   |
 
 *Tabla 1. Kits de herramientas admitidos*
 
