@@ -19,7 +19,7 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} is now running on a Kubernetes container-based infrastructure that provides security and availability advantages to the service.
 {:shortdesc}
 
-You can access this new container-based infrastructure using the v2 service plans. You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is best suited for the work that you need to do:
+You can access this new container-based infrastructure with the v2 service plans. You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is best suited for the work that you need to do:
 
 
 <table summary="This table provides a list of service plans that you can use to create your {{site.data.keyword.streaminganalyticsshort}} service. The table lists all service plans for both v1 and v2 plan sets and provides a list of features for each set.">
@@ -71,7 +71,7 @@ You can access this new container-based infrastructure using the v2 service plan
     </td>
     <td>
     <ul>
-      <li>Requires that you compile your Streams application in a RHEL 7.x operating system or an equivalent CentOS version.</li>
+      <li>Requires that you compile your Streams application in an RHEL 7.x operating system or an equivalent CentOS version.</li>
       <li>Runs on a container-based infrastructure.</li>
       <li>Supports v2 REST APIs.<br></li>
       <li>Supports IAM authentication.</li>
@@ -98,10 +98,10 @@ The following features are only supported in the v1 service plans:
 The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable for v1 service plans include the VCAP information that is required to use the {{site.data.keyword.streaminganalyticsshort}} v1 REST API. The VCAP information provides the REST URL, service instance ID, binding ID, and credentials for each {{site.data.keyword.streaminganalyticsshort}} v1 REST API.  
 {:shortdesc}
 
- When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned and bound to an application in {{site.data.keyword.Bluemix_notm}}, the service instance VCAP information is available to the {{site.data.keyword.Bluemix_notm}} application environment via the VCAP_SERVICES environment variable. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned without specifying an application in {{site.data.keyword.Bluemix_notm}} to bind to, service credentials are automatically created. {{site.data.keyword.streaminganalyticsshort}} service credentials can be accessed from the service dashboard.
+ When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned and bound to an application in {{site.data.keyword.Bluemix_notm}}, the service instance VCAP information is available to the {{site.data.keyword.Bluemix_notm}} application environment. You can find this information in the VCAP_SERVICES environment variable. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned without specifying an application in {{site.data.keyword.Bluemix_notm}} to bind to, service credentials are automatically created. {{site.data.keyword.streaminganalyticsshort}} service credentials can be accessed from the service dashboard.
 
 
-The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable includes information as presented in the following example:
+The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable include information as presented in the following example:
 
 <pre><code>
 {
@@ -133,7 +133,7 @@ For more information about the v1 REST API, see the  [v1 REST API documentation 
 ## VCAP_SERVICES environment variable for v2 service plans
 {: #v2_vcap_services}
 
-The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable for v2 service plans include the VCAP information that is required to use the {{site.data.keyword.streaminganalyticsshort}} v2 REST API. The VCAP information provides the v2 REST URL, service ID, and credentials to access the  {{site.data.keyword.streaminganalyticsshort}} v2 REST API.  
+The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable for v2 service plans include the VCAP information that you must use the {{site.data.keyword.streaminganalyticsshort}} v2 REST API. The VCAP information provides the v2 REST URL, service ID, and credentials to access the  {{site.data.keyword.streaminganalyticsshort}} v2 REST API.  
 {:shortdesc}
 
 The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable for v2 service plans include information as presented in the following example:

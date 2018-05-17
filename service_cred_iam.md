@@ -28,7 +28,7 @@ a. You must have a valid IBMid.
 
 b. Download and install the [{{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
-### Step 1: Log into the {{site.data.keyword.Bluemix_notm}} CLI.
+### Step 1. Log into the {{site.data.keyword.Bluemix_notm}} CLI.
 
 ```
 bx api https://api.ng.bluemix.net
@@ -38,10 +38,10 @@ bx login
 <If you are part of multiple {{site.data.keyword.Bluemix_notm}} accounts, you'll be asked to choose an account for the current session. Also, you'll need to choose an organization and space in {{site.data.keyword.Bluemix_notm}}.>
 ```
 
-### Step 2: Fetch the IAM access token.
+### Step 2. Fetch the IAM access token.
 
 ```
 bx iam oauth-tokens
 ```
 
-Two tokens will be produced: one named `IAM token` and the other one named `UAA token`. Use `IAM token` for making REST API calls.
+Two tokens are produced: one named `IAM token` and the other one named `UAA token`. Use `IAM token` for making REST API calls.

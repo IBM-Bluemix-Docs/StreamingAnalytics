@@ -21,7 +21,7 @@ lastupdated: "2018-04-24"
 
 This video shows how to resize your instance using the service dashboard:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Resize instance</iframe>
+<iframe width="560" height="315" title="Resize instance" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Resize instance</iframe>
 
 ## Consistent regions
 Because of business requirements, some applications require that all tuples are processed at least once. {{site.data.keyword.streamsshort}} is enhanced with operators and annotations that allow the definition of a region that does not lose tuples during streams processing. Tuples in a consistent region are processed at least once.

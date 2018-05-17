@@ -23,7 +23,7 @@ lastupdated: "2018-04-24"
 * [Getting your SPL application ready for the cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud){:new_window}
 * [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} v1 Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/){:new_window}
 * [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} v2 Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/){:new_window}
-* [Developing for the {{site.data.keyword.streaminganalyticsshort}} service using Python ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)
+* [Developing for the {{site.data.keyword.streaminganalyticsshort}} service in Python ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)
 * [More tutorials](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window}
 
 

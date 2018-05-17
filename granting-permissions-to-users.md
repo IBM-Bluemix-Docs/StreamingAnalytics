@@ -15,7 +15,7 @@ lastupdated: "2018-04-24"
 
 # Granting permissions to users
 
-With an {{site.data.keyword.Bluemix_notm}} account, you have administrative privileges in the organization or space under your account, which enables you to perform all operations on {{site.data.keyword.streaminganalyticsshort}}. However, when you onboard other users to your account, you need to manage their permissions so that they have the required privileges to operate service instances under your account.
+With an {{site.data.keyword.Bluemix_notm}} account, you have administrative privileges in the organization or space under your account to perform all operations on {{site.data.keyword.streaminganalyticsshort}}. However, when you onboard other users to your account, you need to manage their permissions so that they have the required privileges to operate service instances under your account.
 
 In {{site.data.keyword.streaminganalyticsshort}}, access to service management operations is governed by the following permission levels:
 
@@ -32,7 +32,7 @@ To onboard new users to your account:
 
 2.	Click **Manage -> Account -> Users**.
 
-3.	In the User management page, click **Invite users**.
+3.	In the **User management** page, click **Invite users**.
 
 4.	Enter the IBMid of the user you want to invite.
 
@@ -54,4 +54,4 @@ To onboard new users to your account:
 
 	c.	Select the space that you want to grant the user access to.
 
-	e.	Select the role that you want to assign to the user. To view the service dashboard and perform tasks such as generating service keys you must assign Developer role.
+	e.	Select the role that you want to assign to the user. To view the service dashboard and perform tasks such as generating service keys you must, assign Developer role.

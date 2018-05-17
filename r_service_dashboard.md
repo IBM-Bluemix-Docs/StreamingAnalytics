@@ -25,7 +25,7 @@ From the service dashboard you can:
 * Stop and start your service instance.
 * Access the {{site.data.keyword.streaminganalyticsshort}} console.
 * Resize your service instance by adding or removing application nodes to or from your service instance if the instance is billed for hourly usage.
-* Indicate whether your service instance, which is billed for hourly usage, should automatically stop when no jobs are run for an extended period of time.
+* Indicate whether your service instance, which is billed for hourly usage,  automatically stops when no jobs are run for an extended period.
 * Access the service credentials.
 * Access tutorials for the starter applications.
 * Access the service documentation and user forums.
