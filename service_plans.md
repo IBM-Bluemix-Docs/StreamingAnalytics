@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -63,10 +63,13 @@ You can access this new container-based infrastructure with the v2 service plans
         <li>Lite</li>
         <li>Entry Container Hourly</li>
         <li>Entry Container Monthly</li>
+        <li>Entry Container Subscription</li>
         <li>Enhanced Container Hourly</li>
         <li>Enhanced Container Monthly</li>
+        <li>Enhanced Container Subscription</li>
         <li>Premium Container Hourly</li>
         <li>Premium Container Monthly</li>
+        <li>Premium Container Subscription</li>
       </ul>
     </td>
     <td>
