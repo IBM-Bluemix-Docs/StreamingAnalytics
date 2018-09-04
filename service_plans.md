@@ -91,7 +91,7 @@ You can access this new container-based infrastructure with the v2 service plans
 
 The following features are only supported in the v1 service plans:
 
-* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics/streaming-analytics-v1). In the v2 infrastructure, you must use the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics/streaming-analytics-v2)
+* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1). In the v2 infrastructure, you must use the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)
 * NYC Traffic and Event Detection v1 sample apps. See [Sample applications](/docs/services/StreamingAnalytics/c_starterapps.html) to get a list of apps you can use to get you started with {{site.data.keyword.streaminganalyticsshort}} in the v2 container-based infrastructure.
 * Compatibility of some toolkits. See [Compatible toolkits](/docs/services/StreamingAnalytics/compatible_toolkits.html) to get a list of toolkits that are compatible with the new container-based infrastructure.
 

@@ -28,8 +28,8 @@ Streaming Analytics
 
     {: .navgroup id="reference"}
     related_links.md
-    [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics/streaming-analytics-v1)
-    [v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics/streaming-analytics-v2)
+    [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1)
+    [v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
