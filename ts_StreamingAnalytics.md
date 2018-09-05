@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -52,17 +52,17 @@ You did not compile the application with an RHEL 7.x operating system or an equi
 You must compile your application in Red Hat Enterprise Linux (RHEL) 7.x if you are using the [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html). If you're using [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html), you must compile your application with RHEL 6.5 with Intel processors. Submit your application to the service instance again. You can download the [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) if you don't have a compatible development environment and you're using the v2 service plans. If you're using v1 service plans, download the  [{{site.data.keyword.streamsshort}} QSE ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
 {: tsResolve}
 
-## I can't restart my application
+## My application is unhealthy after it restarted
 {: #app_restart}
 
-You can't restart your application after a service upgrade.
+Your application is unhealthy after it restarted due to system maintenance or failure recovery scenario.
 {:shortdesc}
 
-You have multiple applications in your service instance and one of the applications requires a tag for one of its operators. After a service upgrade, you cannot restart your application and you reached your resource quota.
+You have multiple applications in your service instance and one of the applications utilizes a tag for operator placement. After the application restarts, the resources for non-tagged operators are acquired first and consume all of your resource quota before the tagged operators can be placed.
 {: tsSymptoms}
 
 A large scale pod restart- which is most often triggered by service updates- can lead to applications being unable to restart if they require special tagging, and the resource quota was already met. In some cases, large scale pod restarts can be caused by failure recovery scenarios.
 {: tsCauses}
 
-Contact IBM Support. To contact IBM Support, create a case on the [{{site.data.keyword.Bluemix_short}} Service Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson.service-now.com/wcp){:new_window}.
+You need to either increase your resource quota or free up some resources so the applications can acquired resources with the required tags. To increase your quota, go to the service dashboard and grow your instance size. To free up resources, cancel existing jobs until enough resources are freed to properly place the applications.
 {: tsResolve}
