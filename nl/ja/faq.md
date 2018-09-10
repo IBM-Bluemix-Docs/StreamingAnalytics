@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,12 +19,12 @@ lastupdated: "2018-04-24"
 ## Streaming Analytics サービスに登録するにはどうすればいいですか?
 {: #signup notoc}  
 
-{{site.data.keyword.streaminganalyticsshort}} サービス・プランについては、[{{site.data.keyword.Bluemix_short}} カタログ・ページ](https://console.bluemix.net/catalog/services/streaming-analytics)を参照してください。
+{{site.data.keyword.streaminganalyticsshort}} サービス・プランについて詳しくは、[{{site.data.keyword.Bluemix_short}} カタログ・ページ](https://console.bluemix.net/catalog/services/streaming-analytics)を参照してください。
 
 ## 自分が使用している Streaming Analytics サービスのバージョンを知るにはどうすればいいですか?
 {: #version notoc}   
 
-すべての {{site.data.keyword.streaminganalyticsshort}} サービスに、定期的に機能改良がプッシュされています。 常に最新バージョンのマネージド・サービスが使用されているので、お客様が製品バージョンやレベルを追跡する必要はありません。
+すべての {{site.data.keyword.streaminganalyticsshort}} サービスに、定期的に機能改良がプッシュされています。 お客様は常に最新バージョンの管理サービスを使用することになり、製品バージョンやレベルを把握しておく必要はありません。
 
 ## IBM によってどのようなことが管理されるのですか?
 {: #ibm_manage notoc}   
@@ -62,7 +62,7 @@ Streams サービスにバンドルとしてシームレスにデプロイでき
 
 しかし、クラウド内の Python アプリケーションを実行する場合は、{{site.data.keyword.streamsshort}} をオンプレミスにインストールする必要はありません。 `STREAMING\_ANALYTICS\_SERVICE` コンテキストを使用して Python アプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスにサブミットするだけです。 アプリケーションは、標準の Python 開発環境または Jupyter インタラクティブ・ノートブックで開発できますが、Python 3.5 を使用する必要があります。
 
-アプリケーション開発の手引きについては、[{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b) を参照してください。
+アプリケーション開発について詳しくは、[{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b) を参照してください。
 
 ## Streaming Analytics サービス・ホストに直接サインインできますか?
 {: #host notoc}  

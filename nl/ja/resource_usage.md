@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} には、適切にリソースが割り振られ、適切な使用量であることを確実にするための一連の動作とポリシーがあります。
 
 ## インスタンス・リソースの表示および編集
-サービス・ダッシュボードで、または v1 REST API ([v1 サービス・プランの場合](/docs/services/StreamingAnalytics/service_plans.html)) や [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) ([v2 サービス・プランの場合](/docs/services/StreamingAnalytics/service_plans.html)) を使用して、インスタンスに対して有効なリソースの数を表示および編集することができます。
+サービス・ダッシュボード、または  [v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html) の v1 REST API で、インスタンスに対して有効なリソースの数を表示および編集することができます。[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)には、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2-streaming-analytics-v2#get-a-streaming-analytics-instance) を使用する必要があります。
 
 ## リソース割り振り
 - 正常に実行されるジョブをサブミットすると、リソースは自動的にインスタンスに割り振られます。

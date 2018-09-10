@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} は、サービスのセキュリティーと可用性の点で有利な Kubernetes コンテナー・ベース・インフラストラクチャーで稼働するようになりました。
 {:shortdesc}
 
-v2 のサービス・プランを使用して、この新しいコンテナー・ベース・インフラストラクチャーにアクセスできます。お客様は、必要な作業に最適な {{site.data.keyword.streaminganalyticsshort}} プランを選択できます。
+v2 のサービス・プランを使用して、この新しいコンテナー・ベース・インフラストラクチャーにアクセスできます。 お客様は、必要な作業に最適な {{site.data.keyword.streaminganalyticsshort}} プランを選択できます。
 
 
 <table summary="この表は、{{site.data.keyword.streaminganalyticsshort}} サービスを作成するために使用できるサービス・プランのリストです。この表には、v1 および v2 のプラン・セットのすべてのサービス・プランがリストされており、各セットの機能のリストを示しています。">
@@ -63,10 +63,13 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
         <li>ライト</li>
         <li>エントリー・コンテナー時間単位</li>
         <li>エントリー・コンテナー月単位</li>
+        <li>エントリー・コンテナー・サブスクリプション</li>
         <li>拡張コンテナー時間単位</li>
         <li>拡張コンテナー月単位</li>
+        <li>拡張コンテナー・サブスクリプション</li>
         <li>プレミアム・コンテナー時間単位</li>
         <li>プレミアム・コンテナー月単位</li>
+        <li>プレミアム・コンテナー・サブスクリプション</li>
       </ul>
     </td>
     <td>
@@ -88,17 +91,17 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
 
 以下の機能は、v1 サービス・プランでのみサポートされています。
 
-* [v1 REST API](https://console.bluemix.net/apidocs/220)。v2 インフラストラクチャーでは、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939) を使用する必要があります。
-* NYC Traffic and Event Detection v1 サンプル・アプリケーション。v2 コンテナー・ベース・インフラストラクチャーで {{site.data.keyword.streaminganalyticsshort}} を開始するために使用できるアプリケーションのリストについては、[サンプル・アプリケーション](/docs/services/StreamingAnalytics/c_starterapps.html)を参照してください。
-* 一部のツールキットとの互換性。新規のコンテナー・ベース・インフラストラクチャーと互換性があるツールキットのリストについては、[互換性があるツールキット](/docs/services/StreamingAnalytics/compatible_toolkits.html)を参照してください。
+* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1)。 v2 インフラストラクチャーでは、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2) を使用する必要があります。
+* NYC Traffic and Event Detection v1 サンプル・アプリケーション。 v2 コンテナー・ベース・インフラストラクチャーで {{site.data.keyword.streaminganalyticsshort}} を開始するために使用できるアプリケーションのリストについては、[サンプル・アプリケーション](/docs/services/StreamingAnalytics/c_starterapps.html)を参照してください。
+* 一部のツールキットとの互換性。 新規のコンテナー・ベース・インフラストラクチャーと互換性があるツールキットのリストについては、[互換性があるツールキット](/docs/services/StreamingAnalytics/compatible_toolkits.html)を参照してください。
 
 ## v1 サービス・プランの VCAP_SERVICES 環境変数
 {: #vcap_services}
 
-v1 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報と VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} v1 REST API を使用するために必要な VCAP 情報が含まれています。この VCAP 情報は、REST URL、サービス・インスタンス ID、バインディング ID 、および資格情報を各 {{site.data.keyword.streaminganalyticsshort}} v1 REST API に提供します。  
+v1 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報と VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} v1 REST API を使用するために必要な VCAP 情報が含まれています。 この VCAP 情報は、REST URL、サービス・インスタンス ID、バインディング ID 、および資格情報を各 {{site.data.keyword.streaminganalyticsshort}} v1 REST API に提供します。  
 {:shortdesc}
 
- {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_notm}} でアプリケーションにバインドすると、このサービス・インスタンスの VCAP 情報は、VCAP_SERVICES 環境変数を介して {{site.data.keyword.Bluemix_notm}} アプリケーション環境で使用可能になります。バインド先の {{site.data.keyword.Bluemix_notm}} のアプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報には、サービス・ダッシュボードからアクセスできます。
+ {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_notm}} でアプリケーションにバインドすると、このサービス・インスタンスの VCAP 情報は、{{site.data.keyword.Bluemix_notm}} アプリケーション環境で使用可能になります。 この情報は、VCAP_SERVICES 環境変数にあります。バインド先の {{site.data.keyword.Bluemix_notm}} のアプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報には、サービス・ダッシュボードからアクセスできます。
 
 
 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、以下の例に示されているような情報が含まれています。
@@ -133,7 +136,7 @@ v1 REST API について詳しくは、[v1 REST API 資料 ![外部リンク・�
 ## v2 サービス・プランの VCAP_SERVICES 環境変数
 {: #v2_vcap_services}
 
-v2 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報と VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} v2 REST API を使用するために必要な VCAP 情報が含まれています。この VCAP 情報は、{{site.data.keyword.streaminganalyticsshort}} v2 REST API にアクセスするための v2 REST URL、サービス ID、および資格情報を提供します。  
+v2 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報と VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} v2 REST API を使用する必要がある VCAP 情報が含まれています。この VCAP 情報は、{{site.data.keyword.streaminganalyticsshort}} v2 REST API にアクセスするための v2 REST URL、サービス ID、および資格情報を提供します。  
 {:shortdesc}
 
 v2 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、次の例にあるような情報が含まれています。

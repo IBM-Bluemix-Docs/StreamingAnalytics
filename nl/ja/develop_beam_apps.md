@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -23,8 +23,8 @@ lastupdated: "2018-04-24"
 
 {{site.data.keyword.Bluemix_notm}} 上の {{site.data.keyword.streaminganalyticsshort}} サービスに Beam アプリケーションをサブミットするには、サービスの資格情報とその他の情報を保持する JSON 形式の VCAP ファイルを作成する必要があります。
 
-1. Streams ローカル環境で、ツールキット ($STREAMS_BEAM_RUNNER/samples) をインストールしたサンプル・サブフォルダーにナビゲートして、template.vcap ファイルを新しいファイルにコピーします。 このファイルにわかりやすい名前とファイル拡張子 .vcap を付けます。
-1. [{{site.data.keyword.streaminganalyticsshort}} サービス](/docs/services/StreamingAnalytics/r_vcap_services.html)の資格情報をコピーして、作成した VCAP ファイルにこの資格情報を貼り付けて、以下の行を置き換えます。
+1. Streams ローカル環境で、ツールキット (`$STREAMS_BEAM_RUNNER/samples`) をインストールしたサンプル・サブフォルダーにナビゲートして、template.vcap ファイルを新しいファイルにコピーします。 このファイルにわかりやすい名前とファイル拡張子 `.vcap` を付けます。
+1. [{{site.data.keyword.streaminganalyticsshort}} サービス](/docs/services/StreamingAnalytics/service_plans.html#vcap_services)の資格情報をコピーして、作成した VCAP ファイルにこの資格情報を貼り付けて、以下の行を置き換えます。
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```
