@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -62,10 +62,13 @@ lastupdated: "2018-04-24"
         <li>精简</li>
         <li>入门级容器按小时</li>
         <li>入门级容器按月</li>
+        <li>入门级容器预订</li>
         <li>增强型容器按小时</li>
         <li>增强型容器按月</li>
+        <li>增强型容器预订</li>
         <li>高级容器按小时</li>
         <li>高级容器按月</li>
+        <li>高级容器预订</li>
       </ul>
     </td>
     <td>
@@ -87,7 +90,7 @@ lastupdated: "2018-04-24"
 
 只有 V1 服务套餐支持以下功能：
 
-* [V1 REST API](https://console.bluemix.net/apidocs/220)。在 V2 基础架构中，必须使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/1939)
+* [V1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1)。在 V2 基础架构中，必须使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)
 * “NYC 交通”和“事件检测”V1 样本应用程序。请参阅[样本应用程序](/docs/services/StreamingAnalytics/c_starterapps.html)列表，以了解在基于 V2 容器的基础架构中开始使用 {{site.data.keyword.streaminganalyticsshort}} 时可以使用哪些应用程序。
 * 部分工具箱的兼容性。请参阅[兼容的工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)列表，以了解哪些工具箱与基于容器的新基础架构兼容。
 
@@ -97,7 +100,7 @@ lastupdated: "2018-04-24"
 V1 套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_SERVICES 环境变量中包含要使用 {{site.data.keyword.streaminganalyticsshort}} V1 REST API 所需的 VCAP 信息。VCAP 信息为每个 {{site.data.keyword.streaminganalyticsshort}} V1 REST API 提供 REST URL、服务实例标识、绑定标识和凭证。  
 {:shortdesc}
 
- 当 {{site.data.keyword.streaminganalyticsshort}} 服务实例得到供应并绑定到 {{site.data.keyword.Bluemix_notm}} 中的应用程序时，就会通过 VCAP_SERVICES 环境变量向 {{site.data.keyword.Bluemix_notm}} 应用程序环境提供该服务实例的 VCAP 信息。未指定 {{site.data.keyword.Bluemix_notm}} 中要绑定到的应用程序即供应 {{site.data.keyword.streaminganalyticsshort}} 服务实例时，会自动创建服务凭证。从服务仪表板可访问 {{site.data.keyword.streaminganalyticsshort}} 服务凭证。
+ 当 {{site.data.keyword.streaminganalyticsshort}} 服务实例得到供应并绑定到 {{site.data.keyword.Bluemix_notm}} 中的应用程序时，会向 {{site.data.keyword.Bluemix_notm}} 应用程序环境提供该服务实例的 VCAP 信息。您可以在 VCAP_SERVICES 环境变量中查找此信息。未指定 {{site.data.keyword.Bluemix_notm}} 中要绑定到的应用程序即供应 {{site.data.keyword.streaminganalyticsshort}} 服务实例时，会自动创建服务凭证。从服务仪表板可访问 {{site.data.keyword.streaminganalyticsshort}} 服务凭证。
 
 
 
@@ -133,7 +136,7 @@ V1 套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_
 ## V2 服务套餐的 VCAP_SERVICES 环境变量
 {: #v2_vcap_services}
 
-V2 服务套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_SERVICES 环境变量中包含要使用 {{site.data.keyword.streaminganalyticsshort}} V2 REST API 所需的 VCAP 信息。VCAP 信息提供用于访问 {{site.data.keyword.streaminganalyticsshort}} V2 REST API 的 V2 REST URL、服务标识和凭证。  
+V2 服务套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_SERVICES 环境变量中包含必须使用 {{site.data.keyword.streaminganalyticsshort}} V2 REST API 的 VCAP 信息。VCAP 信息提供用于访问 {{site.data.keyword.streaminganalyticsshort}} V2 REST API 的 V2 REST URL、服务标识和凭证。  
 {:shortdesc}
 
 V2 服务套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_SERVICES 环境变量包括以下示例中所呈现的信息：

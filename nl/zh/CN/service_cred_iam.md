@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -28,7 +28,7 @@ a. 您必须具有有效的 IBM 标识。
 
 b. 下载和安装 [{{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
 
-### 步骤 1：登录 {{site.data.keyword.Bluemix_notm}} CLI。
+### 步骤 1. 登录 {{site.data.keyword.Bluemix_notm}} CLI。
 
 ```
 bx api https://api.ng.bluemix.net
@@ -38,10 +38,10 @@ bx login
 <如果您属于多个 {{site.data.keyword.Bluemix_notm}} 帐户，那么会要求您为当前会话选择一个帐户。此外，您还需要选择一个 {{site.data.keyword.Bluemix_notm}} 组织和空间。>
 ```
 
-### 步骤 2：访存 IAM 访问令牌。
+### 步骤 2. 访存 IAM 访问令牌。
 
 ```
 bx iam oauth-tokens
 ```
 
-将产生两个令牌：一个名为 `IAM token`，另一个名为 `UAA token`。使用 `IAM token` 进行 REST API 调用。
+生成两个令牌：一个名为 `IAM token`，另一个名为 `UAA token`。使用 `IAM token` 进行 REST API 调用。

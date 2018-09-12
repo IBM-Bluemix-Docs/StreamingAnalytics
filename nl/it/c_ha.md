@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -20,12 +20,12 @@ lastupdated: "2018-04-24"
 l'alta disponibilità per le tue applicazioni. Se viene rilevato un problema su uno dei nodi della tua applicazione,
 (risorse {{site.data.keyword.streamsshort}}), il nodo viene
 automaticamente sostituito e ogni lavoro in esecuzione su tale nodo viene migrato. I lavori vengono migrati e riavviati
-solo se l'istanza contiene più nodi di applicazione. Puoi ridimensionare l'istanza utilizzando il [dashboard del servizio](/docs/services/StreamingAnalytics/r_service_dashboard.html) oppure la [API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/220){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i piani di servizio v2, utilizza la [API REST v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/1939){:new_window}
+solo se l'istanza contiene più nodi di applicazione. Puoi ridimensionare l'istanza utilizzando il [dashboard del servizio](/docs/services/StreamingAnalytics/r_service_dashboard.html) oppure la [API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i piani di servizio v2, utilizza la [API REST v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
 Questo video mostra come ridimensionare la tua istanza utilizzando il dashboard del servizio:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Ridimensiona istanza</iframe>
+<iframe width="560" height="315" title="Ridimensiona istanza" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Ridimensiona istanza</iframe>
 
 ## Regioni congruenti
 Per i requisiti di business, alcune applicazioni richiedono che tutte le tuple vengano elaborate almeno una volta. {{site.data.keyword.streamsshort}} è stato migliorato con operatori e annotazioni che consentono la definizione di una regione che non perde tuple durante l'elaborazione dei flussi. Le tuple in una regione congruente vengono elaborate almeno una volta.

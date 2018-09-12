@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}}는 이제 서비스에 보안 및 가용성 이점을 제공하는 Kubernetes 컨테이너 기반 인프라에서 실행됩니다.
 {:shortdesc}
 
-v2 서비스 플랜을 사용하여 이 새로운 컨테이너 기반 인프라에 액세스할 수 있습니다. 수행해야 하는 작업에 가장 적합한 {{site.data.keyword.streaminganalyticsshort}} 플랜을 선택할 수 있습니다. 
+v2 서비스 플랜으로 이 새로운 컨테이너 기반 인프라에 액세스할 수 있습니다. 수행해야 하는 작업에 가장 적합한 {{site.data.keyword.streaminganalyticsshort}} 플랜을 선택할 수 있습니다.
 
 
 <table summary="이 표는 {{site.data.keyword.streaminganalyticsshort}} 서비스를 작성하는 데 사용할 수 있는 서비스 플랜의 목록을 제공합니다. 표에는 v1 및 v2 플랜 세트 모두에 대한 모든 서비스 플랜이 나열되어 있으며 각 세트에 대한 기능의 목록을 제공합니다.">
@@ -34,7 +34,7 @@ v2 서비스 플랜을 사용하여 이 새로운 컨테이너 기반 인프라�
     </td>
     <td width="35%">
     <ul>
-      <li>라이트 VM</li>
+      <li>Lite VM</li>
       <li>엔트리 VM 시간별</li>
       <li>엔트리 VM 월별</li>
       <li>고급 VM 시간별</li>
@@ -60,18 +60,21 @@ v2 서비스 플랜을 사용하여 이 새로운 컨테이너 기반 인프라�
     </td>
     <td>
       <ul>
-        <li>라이트</li>
+        <li>Lite</li>
         <li>엔트리 컨테이너 시간별</li>
         <li>엔트리 컨테이너 월별</li>
+        <li>엔트리 컨테이너 구독</li>
         <li>고급 컨테이너 시간별</li>
         <li>고급 컨테이너 월별</li>
+        <li>고급 컨테이너 구독</li>
         <li>프리미엄 컨테이너 시간별</li>
         <li>프리미엄 컨테이너 월별</li>
+        <li>프리미엄 컨테이너 구독</li>
       </ul>
     </td>
     <td>
     <ul>
-      <li>RHEL 7.x 운영 체제 또는 이와 동등한 CentOS 버전에서 Streams 애플리케이션을 컴파일해야 합니다.</li>
+      <li>RHEL 7.x 운영 체제 또는 이와 동등한 CentOS 버전에서 Streams 애플리케이션을 컴파일해야 합니다. </li>
       <li>컨테이너 기반 인프라에서 실행됩니다.</li>
       <li>v2 REST API를 지원합니다.<br></li>
       <li>IAM 인증을 지원합니다.</li>
@@ -88,9 +91,9 @@ v2 서비스 플랜을 사용하여 이 새로운 컨테이너 기반 인프라�
 
 다음 기능은 v1 서비스 플랜에서만 지원됩니다.
 
-* [v1 REST API](https://console.bluemix.net/apidocs/220). v2 인프라에서는 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939)를 사용해야 합니다. 
+* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1). v2 인프라에서는 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)를 사용해야 합니다.
 * NYC Traffic 및 Event Detection v1 샘플 앱. v2 컨테이너 기반 인프라에서 {{site.data.keyword.streaminganalyticsshort}}를 시작하는 데 사용할 수 있는 앱의 목록을 가져오려면 [샘플 애플리케이션](/docs/services/StreamingAnalytics/c_starterapps.html)을 참조하십시오.
-* 일부 툴킷의 호환성. 새 컨테이터 기반 인프라와 호환되는 툴킷의 목록을 가져오려면 [호환 가능 툴킷](/docs/services/StreamingAnalytics/compatible_toolkits.html)을 참조하십시오. 
+* 일부 툴킷의 호환성. 새 컨테이터 기반 인프라와 호환되는 툴킷의 목록을 가져오려면 [호환 가능 툴킷](/docs/services/StreamingAnalytics/compatible_toolkits.html)을 참조하십시오.
 
 ## v1 서비스 플랜용 VCAP_SERVICES 환경 변수
 {: #vcap_services}
@@ -98,10 +101,10 @@ v2 서비스 플랜을 사용하여 이 새로운 컨테이너 기반 인프라�
 v1 서비스 플랜용 {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보 및 VCAP_SERVICES 환경 변수는 {{site.data.keyword.streaminganalyticsshort}} v1 REST API를 사용하기 위해 필요한 VCAP 정보를 포함합니다. VCAP 정보는 각 {{site.data.keyword.streaminganalyticsshort}} v1 REST API에 대한 REST URL, 서비스 인스턴스 ID, 바인딩 ID 및 신임 정보를 제공합니다.  
 {:shortdesc}
 
- {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 프로비저닝되어 {{site.data.keyword.Bluemix_notm}}의 애플리케이션에 바인드되면, 서비스 인스턴스 VCAP 정보가 VCAP_SERVICES 환경 변수를 통해 {{site.data.keyword.Bluemix_notm}} 애플리케이션 환경에서 사용 가능해집니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 바인드할 대상인 {{site.data.keyword.Bluemix_notm}}의 애플리케이션을 지정하지 않고 프로비저닝되면 서비스 신임 정보가 자동으로 작성됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보는 서비스 대시보드에서 액세스할 수 있습니다.
+ {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 프로비저닝되어 {{site.data.keyword.Bluemix_notm}}의 애플리케이션에 바인드되면 서비스 인스턴스 VCAP 정보를 {{site.data.keyword.Bluemix_notm}} 애플리케이션 환경에서 사용할 수 있습니다. VCAP_SERVICES 환경 변수에서 이 정보를 찾을 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스가 바인드할 대상인 {{site.data.keyword.Bluemix_notm}}의 애플리케이션을 지정하지 않고 프로비저닝되면 서비스 신임 정보가 자동으로 작성됩니다. {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보는 서비스 대시보드에서 액세스할 수 있습니다.
 
 
-{{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보와 VCAP_SERVICES 환경 변수는 다음 예제에서 제공되는 정보를 포함합니다.
+{{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보와 VCAP_SERVICES 환경 변수에는 다음 예제에서 제시하는 정보가 포함됩니다. 
 
 <pre><code>
 {
@@ -133,7 +136,7 @@ v1 REST API에 대한 자세한 정보는 [v1 REST API 문서 ![외부 링크 �
 ## v2 서비스 플랜용 VCAP_SERVICES 환경 변수
 {: #v2_vcap_services}
 
-v2 서비스 플랜용 {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보 및 VCAP_SERVICES 환경 변수는 {{site.data.keyword.streaminganalyticsshort}} v2 REST API를 사용하기 위해 필요한 VCAP 정보를 포함합니다. VCAP 정보는 {{site.data.keyword.streaminganalyticsshort}} v2 REST API에 액세스하기 위한 v2 REST URL, 서비스 ID 및 신임 정보를 제공합니다.  
+v2 서비스 플랜용 {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보 및 VCAP_SERVICES 환경 변수는 사용자가 {{site.data.keyword.streaminganalyticsshort}} v2 REST API를 사용해야 하는 VCAP 정보를 포함합니다. VCAP 정보는 {{site.data.keyword.streaminganalyticsshort}} v2 REST API에 액세스하기 위한 v2 REST URL, 서비스 ID 및 신임 정보를 제공합니다.  
 {:shortdesc}
 
 v2 서비스 플랜용 {{site.data.keyword.streaminganalyticsshort}} 서비스 신임 정보 및 VCAP_SERVICES 환경 변수는 다음 예제에서 제공되는 정보를 포함합니다.

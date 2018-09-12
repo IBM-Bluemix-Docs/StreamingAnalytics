@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-04-24"
 
 # Concessione delle autorizzazioni agli utenti
 
-Con un account {{site.data.keyword.Bluemix_notm}}, disponi di privilegi amministrativi nell'organizzazione o nello spazio nel tuo account, che ti consente di eseguire tutte le operazioni su {{site.data.keyword.streaminganalyticsshort}}. Tuttavia, quando accogli altri utenti nel tuo account, hai bisogno di gestire le loro autorizzazioni in modo che dispongano dei privilegi richiesti per gestire le istanze di servizio nel tuo account.
+Con un account {{site.data.keyword.Bluemix_notm}}, disponi di privilegi amministrativi nell'organizzazione o nello spazio nel tuo account per eseguire tutte le operazioni su {{site.data.keyword.streaminganalyticsshort}}. Tuttavia, quando accogli altri utenti nel tuo account, hai bisogno di gestire le loro autorizzazioni in modo che dispongano dei privilegi richiesti per gestire le istanze di servizio nel tuo account.
 
 In {{site.data.keyword.streaminganalyticsshort}}, l'accesso alle operazioni di gestione dei servizi è controllato dai seguenti livelli di autorizzazione:
 
@@ -32,7 +32,7 @@ Per accogliere nuovi utenti nel tuo account:
 
 2.	Fai clic su **Gestisci -> Account -> Utenti**.
 
-3.	Nella pagina di gestione degli utenti, fai clic su **Invita utenti**.
+3.	Nella pagina **Gestione utenti**, fai clic su **Invita utenti**.
 
 4.	Immetti l'ID IBM dell'utente che vuoi invitare.
 

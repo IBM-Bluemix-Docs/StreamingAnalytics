@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,12 +19,12 @@ lastupdated: "2018-04-24"
 ## 如何注册 Streaming Analytics 服务？
 {: #signup notoc}  
 
-有关 {{site.data.keyword.streaminganalyticsshort}} 服务套餐的信息，请参阅 [{{site.data.keyword.Bluemix_short}} 目录页面](https://console.bluemix.net/catalog/services/streaming-analytics)。
+有关 {{site.data.keyword.streaminganalyticsshort}} 服务套餐的更多信息，请参阅 [{{site.data.keyword.Bluemix_short}} 目录页面](https://console.bluemix.net/catalog/services/streaming-analytics)。
 
 ## 我使用的是哪个版本的 Streaming Analytics 服务？
 {: #version notoc}   
 
-所有 {{site.data.keyword.streaminganalyticsshort}} 服务都会定期改进。您始终会使用最新版本的受管服务，您无需跟踪产品版本或级别。
+所有 {{site.data.keyword.streaminganalyticsshort}} 服务都会定期改进。您始终会使用最新版本的受管服务，而无需跟踪任何产品版本或级别。
 
 ## IBM 会为我做什么？
 {: #ibm_manage notoc}   
@@ -40,7 +40,7 @@ lastupdated: "2018-04-24"
 ## 支持高可用性 (HA) 吗？
 {: #ha notoc}
 
-高可用性由 IBM 进行管理。{{site.data.keyword.streaminganalyticsshort}} 配置为支持 HA。在发生故障转移时，可以使用其他服务器资源。
+高可用性由 IBM 进行管理。{{site.data.keyword.streaminganalyticsshort}} 配置为支持 HA。在发生故障转移时，可以使用更多服务器资源。
 
 ## Streaming Analytics 服务的安全性是如何管理的？
 {: #security notoc}  
@@ -55,13 +55,13 @@ lastupdated: "2018-04-24"
 ## 如何开发 Streams 应用程序？
 {: #streamsapp notoc}
 
-对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，必须使用免费的 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) 在本地开发 Streams 应用程序，如果要使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
+对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，必须使用免费的 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) 在本地开发 Streams 应用程序，如果要使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
 
 您还可以使用内部部署 {{site.data.keyword.streamsshort}} 安装（如果有的话）。然后，您在本地开发并编译的应用程序可以作为捆绑软件无缝地部署到云中的 Streams 服务。
 
 但是，如果您想要运行云中的 Python 应用程序，您无需安装 {{site.data.keyword.streamsshort}} 内部部署。只要使用 `STREAMING\_ANALYTICS\_SERVICE` 上下文，将 Python 应用程序提交到 {{site.data.keyword.streaminganalyticsshort}} 服务即可。您可以在标准 Python 开发环境或 Jupyter 交互配置页中开发应用程序，但是必须使用 Python 3.5。
 
-有关开发应用程序的指南，请参阅 [ {{site.data.keyword.Bluemix_notm}}{{site.data.keyword.streaminganalyticsshort}} 开发指南 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b)。
+有关开发应用程序的更多信息，请参阅 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} 开发指南 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b)。
 
 ## 我可以直接登录到 Streaming Analytics 服务主机吗？
 {: #host notoc}  
@@ -83,11 +83,11 @@ lastupdated: "2018-04-24"
 ## 云中的 Streaming Analytics 服务支持内部部署的 IBM Streams 的所有功能吗？
 {: #features notoc}
 
-有一些功能 {{site.data.keyword.streaminganalyticsshort}} 服务不支持，包括以下功能：
+有一些功能不支持用于 {{site.data.keyword.streaminganalyticsshort}} 服务，包括以下功能：
 
   - 需要域授权的实例的管理任务。例如，添加定制主机标记或创建作业组。
   - 一致区域检查点。
-  - 不支持一些工具箱操作程序。相关信息，请参阅[支持的工具箱和适配器](/docs/services/StreamingAnalytics/compatible_toolkits.html)。
+  - 不支持一些工具箱操作程序。有关更多信息，请参阅[支持的工具箱和适配器](/docs/services/StreamingAnalytics/compatible_toolkits.html)。
   - Streams JMX API。
 
 ## 在哪里可以了解到有关 Streaming Analytics 服务的更多信息？

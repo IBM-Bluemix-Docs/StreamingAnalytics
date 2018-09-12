@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -26,8 +26,8 @@ Dal dashboard del servizio puoi:
 * Accedere ala console {{site.data.keyword.streaminganalyticsshort}}.
 * Ridimensionare la tua istanza del servizio aggiungendo o rimuovendo nodi dell'applicazione dalla tua istanza del servizio
 se viene pagata per l'utilizzo orario.
-* Indicare se la tua istanza del servizio, pagata per l'utilizzo orario, deve automaticamente arrestarsi
-quando non è in esecuzione alcun lavoro per un lungo periodo di tempo.
+* Indicare se la tua istanza del servizio, pagata per l'utilizzo orario, si arresta automaticamente
+quando non è in esecuzione alcun lavoro per un periodo prolungato.
 * Accedere alle credenziali del servizio.
 * Accedere alle esercitazioni per le applicazioni starter.
 * Accedere alla documentazione del servizio e ai forum utente.

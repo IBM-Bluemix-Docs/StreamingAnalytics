@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2018-04-24"
 ## 我正在使用的 Streaming Analytics 服務版本為何？
 {: #version notoc}   
 
-增進功能會定期推送至所有 {{site.data.keyword.streaminganalyticsshort}} 服務。您一律會使用最新版的受管理服務，而且不需要追蹤產品版本或層次。
+增進功能會定期推送至所有 {{site.data.keyword.streaminganalyticsshort}} 服務。您一律會使用最新版的受管理服務，而且不得追蹤任何產品版本或層次。
 
 ## IBM 為我管理的項目為何？
 {: #ibm_manage notoc}   
@@ -35,7 +35,7 @@ lastupdated: "2018-04-24"
 ## 我負責的作業為何？  
 {: #responsible notoc}
 
-您可以撰寫將在 {{site.data.keyword.streaminganalyticsshort}} 服務及 Streams 實例內部部署中執行的應用程式，並確定它們的運作正確且符合效能需求。您也負責任何應用程式特定監視。
+您可以撰寫在 {{site.data.keyword.streaminganalyticsshort}} 服務及 Streams 實例內部部署中執行的應用程式，並確定它們的運作正確且符合效能需求。您也負責任何應用程式特定監視。
 
 ## 是否支援高可用性 (HA)？
 {: #ha notoc}
@@ -61,7 +61,7 @@ lastupdated: "2018-04-24"
 
 但是，如果您要執行雲端中的 Python 應用程式，則不需要安裝 {{site.data.keyword.streamsshort}} 內部部署。只需要使用 `STREAMING\_ANALYTICS\_SERVICE` 環境定義，即可將 Python 應用程式提交至 {{site.data.keyword.streaminganalyticsshort}} 服務。您可以在標準 Python 開發環境或 Jupyter 互動式記事本中開發應用程式，但必須使用 Python 3.5。
 
-如需開發應用程式的指引，請參閱 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b)。
+如需開發應用程式的相關資訊，請參閱 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b)。
 
 ## 我可以直接登入 Streaming Analytics 服務主機嗎？
 {: #host notoc}  
@@ -83,7 +83,7 @@ lastupdated: "2018-04-24"
 ## 雲端中的 Streaming Analytics 服務支援 IBM Streams 內部部署的所有特性？
 {: #features notoc}
 
-{{site.data.keyword.streaminganalyticsshort}} 服務不支援的一些特性如下：
+{{site.data.keyword.streaminganalyticsshort}} 服務不支援的一些特性包含：
 
   - 需要網域權限之實例的管理作業。例如，新增自訂主機標籤，或建立工作群組。
   - 一致的地區檢查點。

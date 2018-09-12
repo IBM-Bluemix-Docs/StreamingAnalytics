@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -15,16 +15,16 @@ lastupdated: "2018-04-24"
 
 # 授與許可權給使用者
 
-使用 {{site.data.keyword.Bluemix_notm}} 帳戶，您在您帳戶下的組織或空間會具有管理專用權，這讓您能在 {{site.data.keyword.streaminganalyticsshort}} 上執行所有作業。不過，當您將其他使用者加入到您的帳戶時，您需要管理他們的許可權，以便他們具有在您的帳戶下操作服務實例所需的專用權。
+使用 {{site.data.keyword.Bluemix_notm}} 帳戶，您在您帳戶下的組織或空間會具有管理專用權，以在 {{site.data.keyword.streaminganalyticsshort}} 上執行所有作業。不過，當您將其他使用者加入到您的帳戶時，您需要管理他們的許可權，以便他們具有在您的帳戶下操作服務實例所需的專用權。
 
 在 {{site.data.keyword.streaminganalyticsshort}} 中，對服務管理作業的存取是由下列許可權層次所控管：
 
-| 作業| 必要的 {{site.data.keyword.Bluemix_notm}} 許可權| 必要的 IAM 許可權|
+|作業|必要的 {{site.data.keyword.Bluemix_notm}} 許可權|必要的 IAM 許可權|
 |-----------|------------------------------|--------------------------|
-| 建立或刪除服務| 對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色| 無|
-| 檢視服務儀表板| 對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色| 檢視者以上|
-| 調整服務大小| 對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色| 編輯者以上|
-| 使用 CF CLI 或 {{site.data.keyword.Bluemix_notm}} 使用者介面產生服務金鑰| 對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色| 無|
+|建立或刪除服務|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|無|
+|檢視服務儀表板|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|檢視者以上|
+|調整服務大小|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|編輯者以上|
+|使用 CF CLI 或 {{site.data.keyword.Bluemix_notm}} 使用者介面產生服務金鑰|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|無|
 
 若要將新的使用者加入您的帳戶中，請執行下列動作：
 
@@ -32,7 +32,7 @@ lastupdated: "2018-04-24"
 
 2.	按一下**管理 -> 帳戶 -> 使用者**。
 
-3.	在「使用者管理」頁面中，按一下**邀請使用者**。
+3.	在**使用者管理**頁面中，按一下**邀請使用者**。
 
 4.	輸入您要邀請之使用者的 IBM ID。
 

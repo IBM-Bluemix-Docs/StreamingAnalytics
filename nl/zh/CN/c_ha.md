@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,12 +19,12 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} 使得您的应用程序具有高可用性。
 如果在其中一个应用程序节点（{{site.data.keyword.streamsshort}} 资源）上检测到问题，那么会自动替换该节点，且会迁移在该节点上运行的任何作业。
 仅当实例包含多个应用程序节点时，才会迁移和重新启动作业。
-使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)时，您可以使用[服务仪表板](/docs/services/StreamingAnalytics/r_service_dashboard.html)或 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/220){:new_window} 来调整实例的大小。对于 V2 服务套餐，使用 [V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/1939){:new_window}
+使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)时，您可以使用[服务仪表板](/docs/services/StreamingAnalytics/r_service_dashboard.html)或 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} 来调整实例的大小。对于 V2 服务套餐，使用 [v2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
 此视频说明如何使用服务仪表板来调整实例大小：
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>调整实例大小</iframe>
+<iframe width="560" height="315" title="调整实例大小" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>调整实例大小</iframe>
 
 ## 一致区域
 由于业务需求，某些应用程序要求至少处理所有元组一次。{{site.data.keyword.streamsshort}} 通过操作程序和注释得到增强，这些操作程序和注释允许定义在流处理期间不会丢失元组的区域。至少处理一致区域中的元组一次。

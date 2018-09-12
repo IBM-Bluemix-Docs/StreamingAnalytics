@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -62,10 +62,13 @@ lastupdated: "2018-04-24"
         <li>精簡</li>
         <li>入門容器每小時</li>
         <li>入門容器每月</li>
+        <li>入門容器訂閱</li>
         <li>加強容器每小時</li>
         <li>加強容器每月</li>
+        <li>加強容器訂閱</li>
         <li>超值容器每小時</li>
         <li>超值容器每月</li>
+        <li>超值容器訂閱</li>
       </ul>
     </td>
     <td>
@@ -87,7 +90,7 @@ lastupdated: "2018-04-24"
 
 下列特性只在 v1 服務方案中受到支援：
 
-* [v1 REST API](https://console.bluemix.net/apidocs/220)。在 v2 基礎架構中，您必須使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939)。
+* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1)。在 v2 基礎架構中，您必須使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)。
 * NYC Traffic 及 Event Detection v1 範例應用程式。請參閱[範例應用程式](/docs/services/StreamingAnalytics/c_starterapps.html)，以取得您可以用來在 v2 容器型基礎架構中開始使用 {{site.data.keyword.streaminganalyticsshort}} 的應用程式清單。
 * 部分工具箱的相容性。請參閱[相容的工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)，以取得與新容器型基礎架構相容的工具箱清單。
 
@@ -97,7 +100,7 @@ lastupdated: "2018-04-24"
 v1 服務方案的 {{site.data.keyword.streaminganalyticsshort}} 服務認證和 VCAP_SERVICES 環境變數，包含了使用 {{site.data.keyword.streaminganalyticsshort}} v1 REST API 所需的 VCAP 資訊。VCAP 資訊提供每一個 {{site.data.keyword.streaminganalyticsshort}} v1 REST API 的 REST URL、服務實例 ID、連結 ID 和認證。  
 {:shortdesc}
 
- 佈建 {{site.data.keyword.streaminganalyticsshort}} 服務實例並將其連結至 {{site.data.keyword.Bluemix_notm}} 中的應用程式時，可透過 VCAP_SERVICES 環境變數將服務實例 VCAP 資訊提供給 {{site.data.keyword.Bluemix_notm}} 應用程式環境。佈建 {{site.data.keyword.streaminganalyticsshort}} 服務實例但未指定要連結的 {{site.data.keyword.Bluemix_notm}} 應用程式時，會自動建立服務認證。您可以從服務儀表板存取 {{site.data.keyword.streaminganalyticsshort}} 服務認證。
+ 佈建 {{site.data.keyword.streaminganalyticsshort}} 服務實例並將其連結至 {{site.data.keyword.Bluemix_notm}} 中的應用程式時，服務實例 VCAP 資訊可供 {{site.data.keyword.Bluemix_notm}} 應用程式環境使用。您可在 VCAP_SERVICES 環境變數中找到此資訊。佈建 {{site.data.keyword.streaminganalyticsshort}} 服務實例但未指定要連結的 {{site.data.keyword.Bluemix_notm}} 應用程式時，會自動建立服務認證。您可以從服務儀表板存取 {{site.data.keyword.streaminganalyticsshort}} 服務認證。
 
 
 {{site.data.keyword.streaminganalyticsshort}} 服務認證和 VCAP_SERVICES 環境變數，包含了下列範例中所呈現的資訊：
@@ -132,7 +135,7 @@ v1 服務方案的 {{site.data.keyword.streaminganalyticsshort}} 服務認證和
 ## v2 服務方案的 VCAP_SERVICES 環境變數
 {: #v2_vcap_services}
 
-v2 服務方案的 {{site.data.keyword.streaminganalyticsshort}} 服務認證和 VCAP_SERVICES 環境變數，包含了使用 {{site.data.keyword.streaminganalyticsshort}} v2 REST API 所需的 VCAP 資訊。VCAP 資訊提供存取 {{site.data.keyword.streaminganalyticsshort}} v2 REST API 用的 v2 REST URL、服務 ID 和認證。  
+v2 服務方案的 {{site.data.keyword.streaminganalyticsshort}} 服務認證和 VCAP_SERVICES 環境變數，包含了您必須使用 {{site.data.keyword.streaminganalyticsshort}} v2 REST API 的 VCAP 資訊。VCAP 資訊提供存取 {{site.data.keyword.streaminganalyticsshort}} v2 REST API 用的 v2 REST URL、服務 ID 和認證。  
 {:shortdesc}
 
 v2 服務方案的 {{site.data.keyword.streaminganalyticsshort}} 服務認證和 VCAP_SERVICES 環境變數，包含了下列範例中所呈現的資訊：

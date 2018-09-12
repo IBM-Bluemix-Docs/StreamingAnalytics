@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} è ora in esecuzione su un'infrastruttura basata sui contenitori Kubernetes che fornisce vantaggi di sicurezza e disponibilità al servizio.
 {:shortdesc}
 
-Puoi accedere a questa nuova struttura basata sui contenitori utilizzando i piani di servizio v2. Puoi scegliere il piano {{site.data.keyword.streaminganalyticsshort}} che è più adatto per il lavoro che devi eseguire:
+Puoi accedere a questa nuova struttura basata sui contenitori con i piani di servizio v2. Puoi scegliere il piano {{site.data.keyword.streaminganalyticsshort}} che è più adatto per il lavoro che devi eseguire:
 
 
 <table summary="Questa tabella fornisce un elenco di piani di servizio che puoi utilizzare per creare il tuo servizio {{site.data.keyword.streaminganalyticsshort}}. La tabella elenca tutti i piani di servizio sia per gli insiemi di piani v1 che per quelli v2 e fornisce un elenco di funzioni per ciascun insieme.">
@@ -63,10 +63,13 @@ Puoi accedere a questa nuova struttura basata sui contenitori utilizzando i pian
         <li>Lite</li>
         <li>Entry Container Hourly</li>
         <li>Entry Container Monthly</li>
+        <li>Entry Container Subscription</li>
         <li>Enhanced Container Hourly</li>
         <li>Enhanced Container Monthly</li>
+        <li>Enhanced Container Subscription</li>
         <li>Premium Container Hourly</li>
         <li>Premium Container Monthly</li>
+        <li>Premium Container Subscription</li>
       </ul>
     </td>
     <td>
@@ -88,7 +91,7 @@ Puoi accedere a questa nuova struttura basata sui contenitori utilizzando i pian
 
 Le seguenti funzioni sono supportate solo nei piani di servizio v1:
 
-* [API REST v1](https://console.bluemix.net/apidocs/220). Nell'infrastruttura v2, devi utilizzare la [{{site.data.keyword.streaminganalyticsshort}}API REST v2](https://console.bluemix.net/apidocs/1939)
+* [API REST v1](https://console.bluemix.net/apidocs/streaming-analytics-v1). Nell'infrastruttura v2, devi utilizzare la [{{site.data.keyword.streaminganalyticsshort}}API REST v2](https://console.bluemix.net/apidocs/streaming-analytics-v2)
 * Applicazioni di esempio v1 NYC Traffic e Event Detection. Consulta [Applicazioni di esempio](/docs/services/StreamingAnalytics/c_starterapps.html) per ottenere un elenco di applicazioni che puoi utilizzare come introduzione a {{site.data.keyword.streaminganalyticsshort}} nell'infrastruttura basata sui contenitori v2.
 * Compatibilità di alcuni toolkit. Consulta [Toolkit compatibili](/docs/services/StreamingAnalytics/compatible_toolkits.html) per ottenere un elenco di toolkit compatibili con la nuova infrastruttura basata sui contenitori.
 
@@ -99,13 +102,12 @@ Le credenziali di servizio {{site.data.keyword.streaminganalyticsshort}} e la va
 l'ID dell'istanza del servizio, l'ID di bind e le credenziali per ogni API REST {{site.data.keyword.streaminganalyticsshort}} v1.  
 {:shortdesc}
 
- Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} viene fornita e associata a un'applicazione in {{site.data.keyword.Bluemix_notm}}, le informazioni VCAP dell'istanza del servizio sono disponibili nell'ambiente dell'applicazione {{site.data.keyword.Bluemix_notm}} tramite la variabile di ambiente VCAP_SERVICES. Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}
+ Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} viene fornita e associata a un'applicazione in {{site.data.keyword.Bluemix_notm}}, le informazioni VCAP dell'istanza del servizio sono disponibili nell'ambiente dell'applicazione {{site.data.keyword.Bluemix_notm}}. Puoi trovare queste informazioni nella variabile di ambiente VCAP_SERVICES. Quando un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}
 viene fornita senza specificare un'applicazione in {{site.data.keyword.Bluemix_notm}} a cui eseguire il binding, le credenziali del servizio vengono create automaticamente. È possibile accedere alle credenziali del servizio {{site.data.keyword.streaminganalyticsshort}}
 dal dashboard del servizio.
 
 
-Le credenziali del servizio {{site.data.keyword.streaminganalyticsshort}}
-e la variabile di ambiente VCAP_SERVICES includono informazioni come sono presentate nel seguente esempio:
+Le credenziali del servizio {{site.data.keyword.streaminganalyticsshort}} e la variabile di ambiente VCAP_SERVICES includono informazioni come presentate nel seguente esempio:
 
 <pre><code>
 {
@@ -137,10 +139,10 @@ Per ulteriori informazioni sulla API REST v1, consulta la [documentazione della 
 ## Variabili di ambiente VCAP_SERVICES per i piani di servizio v2
 {: #v2_vcap_services}
 
-Le credenziali di servizio {{site.data.keyword.streaminganalyticsshort}} e la variabile di ambiente VCAP_SERVICES per i piani di servizio v2 includono le informazioni VCAP necessarie per utilizzare la API REST {{site.data.keyword.streaminganalyticsshort}} v2. Le informazioni VCAP forniscono l'URL REST v2, l'ID servizio e le credenziali per accedere alla API REST {{site.data.keyword.streaminganalyticsshort}} v2.  
+Le credenziali di servizio {{site.data.keyword.streaminganalyticsshort}} e la variabile di ambiente VCAP_SERVICES per i piani di servizio v2 includono le informazioni VCAP che devi utilizzare per la API REST {{site.data.keyword.streaminganalyticsshort}} v2. Le informazioni VCAP forniscono l'URL REST v2, l'ID servizio e le credenziali per accedere alla API REST {{site.data.keyword.streaminganalyticsshort}} v2.  
 {:shortdesc}
 
-Le credenziali di servizio {{site.data.keyword.streaminganalyticsshort}} e la variabile di ambiente VCAP_SERVICES per i piani di servizio v2 includono informazioni come sono presentate nel seguente esempio:
+Le credenziali di servizio {{site.data.keyword.streaminganalyticsshort}} e la variabile di ambiente VCAP_SERVICES per i piani di servizio v2 includono informazioni come presentate nel seguente esempio:
 
 <pre><code>
     {

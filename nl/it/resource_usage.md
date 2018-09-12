@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -20,13 +20,13 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} ha diverse modalità di funzionamento e politiche per garantire l'utilizzo e l'assegnazione appropriati delle risorse.
 
 ## Visualizzazione e modifica delle risorse dell'istanza
-Puoi visualizzare e modificare il numero di risorse autorizzate all'istanza nel dashboard del servizio oppure utilizzare la API REST v1 per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html) oppure la [API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
+Puoi visualizzare e modificare il numero di risorse autorizzate all'istanza nel dashboard del servizio oppure alla API REST v1 per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Devi utilizzare la [API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/streaming-analytics-v2-streaming-analytics-v2#get-a-streaming-analytics-instance) per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
 
 ## Assegnazione delle risorse
 - Le risorse sono automaticamente assegnate all'istanza quando invii un lavoro che viene eseguito correttamente.
-- Le risorse vengono rimosse dall'istanza se nessun lavoro è in esecuzione nella risorsa. Ad esempio, hai due lavori dove il lavoro 1 è in esecuzione nella risorsa 1 e il lavoro 2 è in esecuzione sia sulla risorsa 1 che sulla 2. Se il lavoro 2 viene annullato, la risorsa 1 rimane nell'istanza mentre la risorsa 2 viene rimossa.
-- Quando invii un lavoro, tale lavoro viene posizionato in una nuova risorsa se l'istanza non ha raggiunto il proprio limite di assegnazione.
-- Quando un'istanza sta utilizzando tutte le proprie risorse, vengono pianificati dei nuovi lavori nelle risorse esistenti.
+- Le risorse vengono rimosse dall'istanza se nessun lavoro è in esecuzione sulla risorsa. Ad esempio, hai due lavori dove il lavoro 1 è in esecuzione nella risorsa 1 e il lavoro 2 è in esecuzione sia sulla risorsa 1 che sulla 2. Se il lavoro 2 viene annullato, la risorsa 1 rimane nell'istanza mentre la risorsa 2 viene rimossa.
+- Quando invii un lavoro, tale lavoro viene posizionato in una nuova risorsa se l'istanza non raggiunge il proprio limite di assegnazione.
+- Quando un'istanza utilizza tutte le risorse a cui è autorizzata, i nuovi lavori vengono pianificati sulle risorse esistenti.
 
 ## Vincoli della risorsa
 

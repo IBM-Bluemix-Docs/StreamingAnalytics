@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2018-04-24"
 
 若要開始使用 {{site.data.keyword.streaminganalyticsshort}}，請使用下列其中一種方法來提交與您 SPL、Java™、Python 或 Scala Streams 應用程式相關聯的應用程式軟體組（.sab 檔案）：
 * 使用 {{site.data.keyword.streaminganalyticsshort}} 主控台中的**提交工作**按鈕。
-* 在 {{site.data.keyword.Bluemix_notm}} 中開發應用程式，並在其中新增 {{site.data.keyword.streamsshort}} 應用程式。若為 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，請使用 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/220){:new_window} 控制它，若為 v2 服務方案則使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/1939){:new_window}。
+* 在 {{site.data.keyword.Bluemix_notm}} 中開發應用程式，並在其中新增 {{site.data.keyword.streamsshort}} 應用程式。若為 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，請使用 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} 控制它，若為 v2 服務方案則使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}。
 
 搭配使用 {{site.data.keyword.streaminganalyticsshort}} 與其他服務，包括 {{site.data.keyword.cloudant}}。請參閱[與其他 {{site.data.keyword.Bluemix_short}} 服務整合的指導教學](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window}，來取得開始進行的範例。
 

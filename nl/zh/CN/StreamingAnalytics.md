@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -21,27 +21,27 @@ lastupdated: "2018-04-24"
 
 第一次使用 {{site.data.keyword.streaminganalyticsshort}}？获取[服务的快速简介 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}。
 
-{{site.data.keyword.streaminganalyticsshort}} 服务提供下列功能，通过这些功能，可在云中部署、分析和监视数据：
+{{site.data.keyword.streaminganalyticsshort}} 服务提供下列功能，可在云中部署、分析和监视数据：
 
 
 **服务的交互和编程使用：**
 
-您可以通过 [{{site.data.keyword.streaminganalyticsshort}} 控制台](/docs/services/StreamingAnalytics/c_streams_console.html)以交互方式使用该服务；如果您使用的是 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么也可以通过 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/220){:new_window} 以编程方式使用该服务。对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，可以使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/1939)。
+您可以通过 [{{site.data.keyword.streaminganalyticsshort}} 控制台](/docs/services/StreamingAnalytics/c_streams_console.html)以交互方式使用该服务；如果您使用的是 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么也可以通过 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} 以编程方式使用该服务。对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")https://console.bluemix.net/apidocs/streaming-analytics-v2)。
 
 **部署和监视 SPL、Java、Scala 和 Python 应用程序：**
 
 您可以用 SPL、Java、Scala 和 Python 编写 {{site.data.keyword.streamsshort}} 应用程序。使用 {{site.data.keyword.streaminganalyticsshort}} 控制台[部署和监视这些应用程序](/docs/services/StreamingAnalytics/t_deploytocloud.html)。
 
-如果要使用 SPL 编写应用程序，应该知道 {{site.data.keyword.streamsfull}} Processing Language (SPL) 是用于创建流处理应用程序的编程语言。如果您想要进一步使用自己的 SPL 应用程序，可以获取 {{site.data.keyword.streamsshort}} 开发环境，而且必须使 SPL 应用程序处于云就绪状态。
+如果要使用 SPL 编写应用程序，{{site.data.keyword.streamsfull}} Processing Language (SPL) 是用于创建流处理应用程序的编程语言。如果您想要进一步使用自己的 SPL 应用程序，可以获取 {{site.data.keyword.streamsshort}} 开发环境，而且必须使 SPL 应用程序处于云就绪状态。
 
-要在没有 {{site.data.keyword.streamsshort}} 开发环境的情况下创建和部署 Python 应用程序，请使用 {{site.data.keyword.DSX_short}} 中的配置页或 {{site.data.keyword.streamsshort}} Python API。有关更多信息，请参阅[开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
+要在没有 {{site.data.keyword.streamsshort}} 开发环境的情况下创建和部署 Python 应用程序，请使用 {{site.data.keyword.DSX_short}} 中的服务配置页或 {{site.data.keyword.streamsshort}} Python API。有关更多信息，请参阅[开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
 
-您可以在本地开发环境中使用 Streams Runner 来开发 Beam 应用程序，然后使用 {{site.data.keyword.streaminganalyticsshort}} 服务进行部署和监视。有关使用 Streams Runner 的 Beam 应用程序的更多信息，请参阅[在 {{site.data.keyword.streaminganalyticsshort}} 中使用 Streams Runner 监视 Beam 应用程序](docs/services/StreamingAnalytics/gs_beamrunner.html)。
+您可以在本地开发环境中使用 Streams Runner 来开发 Beam 应用程序，然后在 {{site.data.keyword.streaminganalyticsshort}} 服务中进行部署和监视。有关使用 Streams Runner 的 Beam 应用程序的更多信息，请参阅[在 {{site.data.keyword.streaminganalyticsshort}} 中使用 Streams Runner 监视 Beam 应用程序](docs/services/StreamingAnalytics/gs_beamrunner.html)。
 
 
 **与 {{site.data.keyword.streamsshort}} 操作程序的兼容性：**
 
-[{{site.data.keyword.streamsshort}} Processing Language (SPL) 标准工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)中的 {{site.data.keyword.streamsshort}} 操作程序应该全部与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
+[{{site.data.keyword.streamsshort}} Processing Language (SPL) 标准工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)中的 {{site.data.keyword.streamsshort}} 操作程序与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
 
 ## Streaming Analytics 职责
 {: #responsibilities notoc}
@@ -51,17 +51,17 @@ lastupdated: "2018-04-24"
 
 客户负责：
 
-* 遵循 IBM 最初的 {{site.data.keyword.streamsshort}} 配置，监视、配置和管理在其实例上运行的 {{site.data.keyword.streamsshort}} 作业。
+* 遵循 IBM 最初的 {{site.data.keyword.streamsshort}} 配置，监视、配置和管理在其实例中运行的 {{site.data.keyword.streamsshort}} 作业。
 客户可灵活地启动和停止实例，以及启动和停止在实例上运行的作业。
-* 必要的话，在服务上开发程序和应用程序，以分析数据并从中获得见解。
+* 根据需要，在服务上开发程序和应用程序，以分析数据并从中获得洞察。
 客户还负责所开发此类程序或应用程序的质量和性能。
 程序可能通过 {{site.data.keyword.streamsshort}} Topology 功能，使用 SPL、Java 或其他受支持的语言开发。
-它们必须使用 {{site.data.keyword.streamsshort}} Developer Edition 或 {{site.data.keyword.streamsshort}} Quick Start Edition 搭配与用于 {{site.data.keyword.streaminganalyticsshort}} 相同的操作系统。
+它们必须通过用于 {{site.data.keyword.streaminganalyticsshort}} 的相同操作系统，使用 {{site.data.keyword.streamsshort}} Developer Edition 或 {{site.data.keyword.streamsshort}} Quick Start Edition 进行编译。
 * 定期检查以下链接，以随时了解已安排的非中断性或中断性停机 - [https://developer.ibm.com/bluemix/support/#status ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/bluemix/support/#status){:new_window}  
-* 根据业务需要，备份所有数据、元数据、配置文件和环境参数，以确保连续性。
+* 根据业务需求，备份所有数据、元数据、配置文件和环境参数，以确保连续性。
 
-* 在可能发生的任何类型的故障中（包括但不限于数据中心或 pod 故障、服务器故障或硬盘故障或软件故障），从任何备份复原数据、元数据、配置文件和环境参数，以确保连续性。
-
+* 在可能发生的任何类型的故障中，从任何备份复原数据、元数据、配置文件和环境参数，以确保连续性。
+这包括但不限于数据中心或 pod 故障、服务器故障、硬盘故障或软件故障。
 
 ### IBM 职责
 {: #ibmresponsibilities notoc}
@@ -79,5 +79,5 @@ lastupdated: "2018-04-24"
 	* {{site.data.keyword.streamsshort}} 管理服务
 	* {{site.data.keyword.streamsshort}} 实例
 * 为基础架构操作系统和 {{site.data.keyword.streamsshort}} 提供维护补丁，包括适当的安全补丁。
-* 执行应该不需要任何系统停机（“非中断性”维护）的定期维护，和可能需要一些系统停机和重新启动（“中断性”维护）的维护，这些维护将在 [https://developer.ibm.com/bluemix/support/#status ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/bluemix/support/#status){:new_window} 中发布的所安排时间执行
+* 执行应该不需要任何系统停机的定期维护（“非中断性”维护），以及可能需要一些系统停机和重新启动的维护（“中断性”维护），这些维护将在 [https://developer.ibm.com/bluemix/support/#status ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/bluemix/support/#status){:new_window} 中发布的所安排时间执行
 * 对所安排维护时间的任何更改都以适当的通知形式发布。
