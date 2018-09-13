@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -28,7 +28,7 @@ a. Sie benötigen eine gültige IBMid.
 
 b. Laden Sie die [{{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI)](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started) herunter und installieren Sie sie.
 
-### Schritt 1: Melden Sie sich bei der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle an.
+### Schritt 1. Melden Sie sich bei der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle an.
 
 ```
 bx api https://api.ng.bluemix.net
@@ -38,7 +38,7 @@ bx login
 <Wenn Sie Mitglied mehrerer {{site.data.keyword.Bluemix_notm}}-Konten sind, werden Sie dazu aufgefordert, ein Konto für die aktuelle Sitzung auszuwählen. Darüber hinaus müssen Sie eine Organisation und einen Bereich in {{site.data.keyword.Bluemix_notm}} auswählen.>
 ```
 
-### Schritt 2: IAM-Zugriffstoken abrufen.
+### Schritt 2. Rufen Sie das IAM-Zugriffstoken ab.
 
 ```
 bx iam oauth-tokens

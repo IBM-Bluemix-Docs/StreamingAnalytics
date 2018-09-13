@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -20,12 +20,12 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} umfasst eine Reihe von Verhaltensweisen und Richtlinien, die eine korrekte Ressourcenzuordnung und -nutzung sicherstellen.
 
 ## Instanzressourcen anzeigen und bearbeiten
-Sie können die Anzahl der Ressourcen, die für die Instanz berechtigt sind, über das Service-Dashboard oder mithilfe der v1-REST-API für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) bzw. mithilfe der [{{site.data.keyword.streaminganalyticsshort}}-v2-REST-API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#get-a-streaming-analytics-instance) für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) anzeigen und bearbeiten.
+Sie können die Anzahl der Ressourcen, die für die Instanz berechtigt sind, über das Service-Dashboard oder mithilfe der v1-REST-API für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) anzeigen und bearbeiten. Sie müssen die [{{site.data.keyword.streaminganalyticsshort}}-v2-REST-API](https://console.bluemix.net/apidocs/streaming-analytics-v2-streaming-analytics-v2#get-a-streaming-analytics-instance) für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden.
 
 ## Ressourcenzuordnung
 - Ressourcen werden automatisch der Instanz zugeordnet, wenn ein Job übergeben wird, der erfolgreich ausgeführt wird.
 - Ressourcen werden von der Instanz entfernt, wenn für die betreffende Ressource keine Jobs ausgeführt werden. Beispiel: Job 1 wird mit Ressource 1 ausgeführt, Job 2 mit Ressource 1 und Ressource 2. Wenn Job 2 abgebrochen wird, bleibt Ressource 1 der Instanz zugeordnet, Ressource 2 wird dagegen entfernt.
-- Wird ein Job übergeben, wird dieser Job mit einer neuen Ressource ausgeführt, falls die Instanz den Zuordnungsgrenzwert noch nicht erreicht hat.
+- Wird ein Job übergeben, wird dieser Job mit einer neuen Ressource ausgeführt, falls die Instanz den Zuordnungsgrenzwert nicht erreicht.
 - Sobald eine Instanz alle Ressourcen nutzt, für die sie berechtigt ist, wird die Ausführung neuer Jobs mit den vorhandenen Ressourcen geplant.
 
 ## Einschränkungen für Ressourcen

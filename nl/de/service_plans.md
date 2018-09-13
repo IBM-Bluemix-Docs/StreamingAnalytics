@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -63,10 +63,13 @@ Zugriff auf diese neue containerbasierte Infrastruktur besteht über die v2-Serv
         <li>Lite</li>
         <li>Entry Container Hourly</li>
         <li>Entry Container Monthly</li>
+        <li>Entry Container Subscription</li>
         <li>Enhanced Container Hourly</li>
         <li>Enhanced Container Monthly</li>
+        <li>Enhanced Container Subscription</li>
         <li>Premium Container Hourly</li>
         <li>Premium Container Monthly</li>
+        <li>Premium Container Subscription</li>
       </ul>
     </td>
     <td>
@@ -88,20 +91,20 @@ Zugriff auf diese neue containerbasierte Infrastruktur besteht über die v2-Serv
 
 Die folgenden Features werden nur in den v1-Serviceplänen unterstützt:
 
-* [v1-REST-API](https://console.bluemix.net/apidocs/220). In der v2-Infrastruktur müssen Sie die [{{site.data.keyword.streaminganalyticsshort}} v2-REST-API](https://console.bluemix.net/apidocs/1939) verwenden.
+* [v1-REST-API](https://console.bluemix.net/apidocs/streaming-analytics-v1). In der v2-Infrastruktur müssen Sie die [{{site.data.keyword.streaminganalyticsshort}}-v2-REST-API](https://console.bluemix.net/apidocs/streaming-analytics-v2) verwenden.
 * Beispiel-Apps 'NYC Traffic' und 'Event Detection v1'. In [Beispielanwendungen](/docs/services/StreamingAnalytics/c_starterapps.html) finden Sie eine Liste der Apps, die Sie zum Einstieg in {{site.data.keyword.streaminganalyticsshort}} in der containerbasierten v2-Infrastruktur verwenden können.
 * Kompatibilität einiger Toolkits. In [Kompatible Toolkits](/docs/services/StreamingAnalytics/compatible_toolkits.html) finden Sie eine Liste der Toolkits, die mit der neuen containerbasierten Infrastruktur kompatibel sind.
 
 ## Umgebungsvariable VCAP_SERVICES für v1-Servicepläne
 {: #vcap_services}
 
-Die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise und die Umgebungsvariable VCAP_SERVICES für v1-Servicepläne enthalten die VCAP-Informationen, die für die Verwendung der {{site.data.keyword.streaminganalyticsshort}} v1-REST-API erforderlich sind. Die VCAP-Informationen umfassen die REST-URL, die Serviceinstanz-ID, die Bindungs-ID und die Berechtigungsnachweise für jede {{site.data.keyword.streaminganalyticsshort}} v1-REST-API.  
+Die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise und die Umgebungsvariable VCAP_SERVICES für v1-Servicepläne enthalten die VCAP-Informationen, die für die Verwendung der {{site.data.keyword.streaminganalyticsshort}}-v1-REST-API erforderlich sind. Die VCAP-Informationen umfassen die REST-URL, die Serviceinstanz-ID, die Bindungs-ID und die Berechtigungsnachweise für jede {{site.data.keyword.streaminganalyticsshort}}-v1-REST-API.  
 {:shortdesc}
 
- Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz eingerichtet und an eine Anwendung in {{site.data.keyword.Bluemix_short}} gebunden wird, stehen die Serviceinstanz-VCAP-Informationen der {{site.data.keyword.Bluemix_notm}}-Anwendungsumgebung über die Umgebungsvariable VCAP_SERVICES zur Verfügung. Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz ohne Angabe einer Anwendung in {{site.data.keyword.Bluemix_short}} eingerichtet wird, an die die Instanz gebunden werden kann, werden die Serviceberechtigungsnachweise automatisch erstellt. Der Zugriff auf die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise ist über das Service-Dashboard möglich.
+ Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz eingerichtet und an eine Anwendung in {{site.data.keyword.Bluemix_notm}} gebunden wird, stehen die Serviceinstanz-VCAP-Informationen der {{site.data.keyword.Bluemix_notm}}-Anwendungsumgebung zur Verfügung. Diese Informationen sind in der Umgebungsvariablen VCAP_SERVICES enthalten. Wenn eine {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz ohne Angabe einer Anwendung in {{site.data.keyword.Bluemix_notm}} eingerichtet wird, an die die Instanz gebunden werden kann, werden die Serviceberechtigungsnachweise automatisch erstellt. Der Zugriff auf die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise ist über das Service-Dashboard möglich.
 
 
-Das folgende Beispiel zeigt die Informationen, die in den {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweisen und in der Umgebungsvariable VCAP_SERVICES enthalten sind:
+Das folgende Beispiel zeigt die Informationen, die in den {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweisen und in der Umgebungsvariablen VCAP_SERVICES enthalten sind:
 
 <pre><code>
 {
@@ -133,7 +136,7 @@ Weitere Informationen zur v1-REST-API finden Sie in der [v1-REST-API-Dokumentati
 ## Umgebungsvariable VCAP_SERVICES für v2-Servicepläne
 {: #v2_vcap_services}
 
-Die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise und die Umgebungsvariable VCAP_SERVICES für v2-Servicepläne enthalten die VCAP-Informationen, die für die Verwendung der {{site.data.keyword.streaminganalyticsshort}} v2-REST-API erforderlich sind. Die VCAP-Informationen umfassen die v2-REST-URL, die Service-ID und die Berechtigungsnachweise für den Zugriff auf die {{site.data.keyword.streaminganalyticsshort}} v2-REST-API.  
+Die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise und die Umgebungsvariable VCAP_SERVICES für v2-Servicepläne enthalten die VCAP-Informationen, die für die Verwendung der {{site.data.keyword.streaminganalyticsshort}}-v2-REST-API erforderlich sind. Die VCAP-Informationen umfassen die v2-REST-URL, die Service-ID und die Berechtigungsnachweise für den Zugriff auf die {{site.data.keyword.streaminganalyticsshort}}-v2-REST-API.  
 {:shortdesc}
 
 Die {{site.data.keyword.streaminganalyticsshort}}-Serviceberechtigungsnachweise und die Umgebungsvariable VCAP_SERVICES für v2-Servicepläne enthalten Informationen, die im folgenden Beisiel dargestellt sind:

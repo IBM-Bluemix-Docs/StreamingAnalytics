@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} s'exécute désormais sur une infrastructure basée sur un conteneur Kubernetes, qui fournit des avantages au service en matière de sécurité et de disponibilité.
 {:shortdesc}
 
-Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à l'aide des plans de service version 2. Vous pouvez choisir le plan {{site.data.keyword.streaminganalyticsshort}} le mieux adapté au travail à effectuer : 
+Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à l'aide des plans de service version 2. Vous pouvez choisir le plan {{site.data.keyword.streaminganalyticsshort}} le mieux adapté au travail à effectuer :
 
 
 <table summary="Ce tableau fournit une liste des plans de service que vous pouvez utiliser pour créer votre service {{site.data.keyword.streaminganalyticsshort}}. Il répertorie tous les plans de service pour les ensembles de plans versions 1 et 2, et fournit une liste de fonctions pour chaque ensemble.">
@@ -46,10 +46,10 @@ Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à
     </td>
     <td>
       <ul>
-        <li>Requiert la compilation de votre application Streams sur un système d'exploitation Red Hat Enterprise Linux (RHEL) 6.5 ou une version CentOS équivalente. </li>
-        <li>S'exécute sur une infrastructure basée sur une machine virtuelle. </li>
-        <li>Prend en charge les API REST versions 1 et 2. <br></li>
-        <li>Prend en charge à la fois l'authentification IAM et l'authentification des données d'identification de l'utilisateur. </li>
+        <li>Requiert la compilation de votre application Streams sur un système d'exploitation Red Hat Enterprise Linux (RHEL) 6.5 ou une version CentOS équivalente.</li>
+        <li>S'exécute sur une infrastructure basée sur une machine virtuelle.</li>
+        <li>Prend en charge les API REST versions 1 et 2.<br></li>
+        <li>Prend en charge à la fois l'authentification IAM et l'authentification des données d'identification de l'utilisateur.</li>
         <li>Prend en charge l'[image de machine virtuelle {{site.data.keyword.streamsshort}} Quick Start Edition ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-vm/)
       </ul>    
     </td>
@@ -63,18 +63,21 @@ Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à
         <li>Lite</li>
         <li>Entry Container Hourly</li>
         <li>Entry Container Monthly</li>
+        <li>Entry Container Subscription</li>
         <li>Enhanced Container Hourly</li>
         <li>Enhanced Container Monthly</li>
+        <li>Enhanced Container Subscription</li>
         <li>Premium Container Hourly</li>
         <li>Premium Container Monthly</li>
+        <li>Premium Container Subscription</li>
       </ul>
     </td>
     <td>
     <ul>
-      <li>Requiert la compilation de votre application Streams sur un système d'exploitation RHEL 7.x ou une version CentOS équivalente. </li>
-      <li>S'exécute sur une infrastructure basée sur un conteneur. </li>
-      <li>Prend en charge les API REST version 2. <br></li>
-      <li>Prend en charge l'authentification IAM. </li>
+      <li>Requiert la compilation de votre application Streams dans un système d'exploitation RHEL 7.x ou une version CentOS équivalente.</li>
+      <li>S'exécute sur une infrastructure basée sur un conteneur.</li>
+      <li>Prend en charge les API REST version 2.<br></li>
+      <li>Prend en charge l'authentification IAM.</li>
       <li>Prend en charge [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/)</li>
       <li>Disponible uniquement dans la région Sud des Etats-Unis</li>
     </ul>
@@ -86,22 +89,22 @@ Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à
 
 ## Différences entre les plans de service versions 1 et 2
 
-Les fonctions suivantes sont uniquement prises en charge dans les plans de service version 1 : 
+Les fonctions suivantes sont uniquement prises en charge dans les plans de service version 1 :
 
-* [API REST v1](https://console.bluemix.net/apidocs/220). Dans l'infrastructure v2, vous devez utiliser l'[API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939).
-* Modèles d'application NYC Traffic et Event Detection v1. Voir [Modèles d'application](/docs/services/StreamingAnalytics/c_starterapps.html) pour obtenir la liste des applications que vous pouvez utiliser pour démarrer {{site.data.keyword.streaminganalyticsshort}} dans l'infrastructure basée sur un conteneur version 2. 
-* Compatibilité de certains kits d'outils. Voir [Kit d'outils compatibles](/docs/services/StreamingAnalytics/compatible_toolkits.html) pour obtenir la liste des kits d'outils qui sont compatibles avec la nouvelle infrastructure basée sur un conteneur. 
+* [API REST v1](https://console.bluemix.net/apidocs/streaming-analytics-v1). Dans l'infrastructure v2, vous devez utiliser l'API REST [ {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/streaming-analytics-v2)
+* Modèles d'application NYC Traffic et Event Detection v1. Voir [Modèles d'application](/docs/services/StreamingAnalytics/c_starterapps.html) pour obtenir la liste des applications que vous pouvez utiliser pour démarrer {{site.data.keyword.streaminganalyticsshort}} dans l'infrastructure basée sur un conteneur version 2.
+* Compatibilité de certains kits d'outils. Voir [Kit d'outils compatibles](/docs/services/StreamingAnalytics/compatible_toolkits.html) pour obtenir la liste des kits d'outils qui sont compatibles avec la nouvelle infrastructure basée sur un conteneur.
 
 ## Variable d'environnement VCAP_SERVICES pour les plans de service version 1
 {: #vcap_services}
 
-Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES pour les plans de service version 1 incluent les informations VCAP qui sont requises pour utiliser l'API REST {{site.data.keyword.streaminganalyticsshort}} v1. Les informations VCAP fournissent l'URL REST, l'ID instance de service, l'ID liaison et les données d'identification pour chaque API REST {{site.data.keyword.streaminganalyticsshort}} v1.   
+Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES pour les plans de service version 1 incluent les informations VCAP qui sont requises pour utiliser l'API REST {{site.data.keyword.streaminganalyticsshort}} v1. Les informations VCAP fournissent l'URL REST, l'ID instance de service, l'ID liaison et les données d'identification pour chaque API REST {{site.data.keyword.streaminganalyticsshort}} v1.  
 {:shortdesc}
 
- Quand une instance de service {{site.data.keyword.streaminganalyticsshort}} est provisionnée et liée à une application dans {{site.data.keyword.Bluemix_notm}}, les informations VCAP d'instance de service sont disponibles dans l'environnement d'application {{site.data.keyword.Bluemix_notm}} via la variable d'environnement VCAP_SERVICES. Quand une instance de service {{site.data.keyword.streaminganalyticsshort}} est provisionnée sans spécification d'une application dans {{site.data.keyword.Bluemix_notm}} à laquelle se lier, les données d'authentification de service sont automatiquement créées. Les données d'authentification de service {{site.data.keyword.streaminganalyticsshort}} sont accessibles depuis le tableau de bord de service.
+ Lorsqu'une instance de service {{site.data.keyword.streaminganalyticsshort}} est mise à disposition et liée à une application dans {{site.data.keyword.Bluemix_notm}}, les informations VCAP d'instance de service sont disponibles dans l'environnement d'application {{site.data.keyword.Bluemix_notm}}. Vous trouverez ces informations dans la variable d'environnement VCAP_SERVICES. Quand une instance de service {{site.data.keyword.streaminganalyticsshort}} est provisionnée sans spécification d'une application dans {{site.data.keyword.Bluemix_notm}} à laquelle se lier, les données d'authentification de service sont automatiquement créées. Les données d'authentification de service {{site.data.keyword.streaminganalyticsshort}} sont accessibles depuis le tableau de bord de service.
 
 
-Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES incluent des informations, comme celles présentées dans l'exemple suivant :
+Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES incluent des informations, celles présentées dans l'exemple suivant :
 
 <pre><code>
 {
@@ -133,7 +136,7 @@ Pour plus d'informations sur l'API REST v1, voir la [documentation sur l'API RES
 ## Variable d'environnement VCAP_SERVICES pour les plans de service version 2
 {: #v2_vcap_services}
 
-Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES pour les plans de service version 2 incluent les informations VCAP qui sont requises pour utiliser l'API REST {{site.data.keyword.streaminganalyticsshort}} v2. Les informations VCAP fournissent l'URL REST v2, l'ID de service et les  données d'identification pour accéder à l'API REST {{site.data.keyword.streaminganalyticsshort}} v2.   
+Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES pour les plans de service version 2 incluent les informations VCAP requises pour utiliser l'API REST {{site.data.keyword.streaminganalyticsshort}} v2. Les informations VCAP fournissent l'URL REST v2, l'ID de service et les  données d'identification pour accéder à l'API REST {{site.data.keyword.streaminganalyticsshort}} v2.  
 {:shortdesc}
 
 Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES pour les plans de service version 2 incluent des informations, comme celles présentées dans l'exemple suivant :

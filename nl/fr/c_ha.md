@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -16,17 +16,17 @@ lastupdated: "2018-04-24"
 # Streaming Analytics - Haute disponibilité
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} permet une haute disponibilité dans vos applications. Si un problème est détecté sur l'un de vos noeuds d'application (ressources {{site.data.keyword.streamsshort}}), le noeud est automatiquement remplacé et tous les noeuds s'exécutant sur ce noeud sont migrés. Les travaux ne sont migrés et redémarrés que si l'instance comporte des noeuds d'applications multiples. Vous pouvez redimensionner l'instance en utilisant le [tableau de bord des services](/docs/services/StreamingAnalytics/r_service_dashboard.html) ou l'[{{site.data.keyword.streaminganalyticsshort}}API REST version 1![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/220){:new_window} pour [des plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Pour des plans de service version 2, utilisez l'[API REST version 2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/1939){:new_window}
+{{site.data.keyword.streaminganalyticsshort}} permet une haute disponibilité dans vos applications. Si un problème est détecté sur l'un de vos noeuds d'application (ressources {{site.data.keyword.streamsshort}}), le noeud est automatiquement remplacé et tous les noeuds s'exécutant sur ce noeud sont migrés. Les travaux ne sont migrés et redémarrés que si l'instance comporte des noeuds d'applications multiples. Vous pouvez redimensionner l'instance en utilisant le [tableau de bord des services](/docs/services/StreamingAnalytics/r_service_dashboard.html) ou l'[{{site.data.keyword.streaminganalyticsshort}}API REST version 1![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} pour [des plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Pour des plans de service version 2, utilisez l'[API REST v2![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
 Cette vidéo montre comment redimensionner votre instance à l'aide du tableau de bord du service :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Redimensionner l'instance</iframe>
+<iframe width="560" height="315" title="Redimensionner l'instance" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Redimensionner l'instance</iframe>
 
 ## Régions cohérentes
 En raison des exigences métier, certaines applications requièrent que tous les tuples soient traités au moins une fois. {{site.data.keyword.streamsshort}} a été amélioré avec des opérateurs et des annotations permettant la définition d'une région qui ne perd pas les tuples lors du traitement des flux. Les tuples qui se trouvent dans une région cohérente sont traités au moins une fois.
 
-Vous pouvez exécuter et surveiller des applications Streams avec des régions cohérentes définies dans {{site.data.keyword.streaminganalyticsshort}}. Lorsque vous créez un service {{site.data.keyword.streaminganalyticsshort}}, l'instance est déjà configurée pour l'utilisation de régions cohérentes. 
+Vous pouvez exécuter et surveiller des applications Streams avec des régions cohérentes définies dans {{site.data.keyword.streaminganalyticsshort}}. Lorsque vous créez un service {{site.data.keyword.streaminganalyticsshort}}, l'instance est déjà configurée pour l'utilisation de régions cohérentes.
 
 Une région cohérente est un sous-graphique dans lequel les états des opérateurs deviennent cohérents en traitant tous les tuples et toutes les marques de ponctuation dans des points définis sur un flux. Ainsi, les tuples contenus dans le sous-graphique peuvent être traités au moins une fois. Une opération DRAIN est régulièrement effectuée sur la région cohérente afin de la vider de ses tuples en cours. Tous les tuples contenus dans la région cohérente sont traités jusqu'à la fin du sous-graphique. L'état en mémoire des opérateurs est automatiquement sérialisé et stocké sur un point de contrôle pour chacun des opérateurs de la région.
 

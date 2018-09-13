@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um Ihre {{site.data.keyword.streamsshort}}-Anwendungen 
 
 1. Richten Sie die Entwicklungsumgebung ein, um Ihre Anwendung zu entwickeln und zu testen.
 
-	Wenn Sie eine {{site.data.keyword.streamsshort}}-Umgebung verwenden möchten, können Sie die [{{site.data.keyword.streamsshort}} Quick Start Edition ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) oder die [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window} für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) herunterladen.
+	Wenn Sie eine {{site.data.keyword.streamsshort}}-Umgebung verwenden möchten, können Sie die [{{site.data.keyword.streamsshort}} Quick Start Edition ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) herunterladen. Verwenden Sie die [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window} für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html).
 
 2. Entwickeln Sie Ihre Streaming-Anwendung in Ihrer Entwicklungsumgebung. In der {{site.data.keyword.streamsshort}}-Entwicklungsumgebung können Sie Streams Studio oder die Befehlszeilentools verwenden, um Ihre Anwendung zu entwickeln.
 
@@ -40,9 +40,9 @@ Gehen Sie wie folgt vor, um Ihre {{site.data.keyword.streamsshort}}-Anwendungen 
 4. Übergeben Sie das Anwendungsbundle (die Datei mit der Erweiterung .sab), die Ihrer SPL-, Java-, Scala- oder Python-Anwendung zugeordnet ist, an die Serviceinstanz in der Cloud. Verwenden Sie dazu eine der folgenden Methoden:
 	* Verwenden Sie die {{site.data.keyword.streaminganalyticsshort}}-Konsole, um das Anwendungsbundle zu übergeben.
 
-  * Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_notm}} und fügen Sie die {{site.data.keyword.streamsshort}}-Anwendung zu dieser hinzu. Steuern Sie sie mithilfe der [{{site.data.keyword.streaminganalyticsshort}} v1-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/apidocs/220){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) oder mithilfe der [{{site.data.keyword.streaminganalyticsshort}} v2-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/apidocs/1939){:new_window} für v2-Servicepläne.
+  * Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_notm}} und fügen Sie die {{site.data.keyword.streamsshort}}-Anwendung zu dieser hinzu. Steuern Sie sie mithilfe der [{{site.data.keyword.streaminganalyticsshort}}-v1-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) oder mithilfe der [{{site.data.keyword.streaminganalyticsshort}}-v2-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window} für v2-Servicepläne.
 
-Ihre Anwendung wurde jetzt in der Cloud bereitgestellt. Sie können Ihre Anwendung überwachen, indem Sie den {{site.data.keyword.streaminganalyticsshort}}-Service verwenden. Sie haben auch die Möglichkeit, mehr als eine Anwendung (Dateien mit der Erweiterung .sab) an die Serviceinstanz zu übergeben. Dies können beliebig viele sein.
+Ihre Anwendung wurde jetzt in der Cloud bereitgestellt. Sie können Ihre Anwendung mit dem {{site.data.keyword.streaminganalyticsshort}}-Service überwachen. Sie haben auch die Möglichkeit, mehr als eine Anwendung (Dateien mit der Erweiterung .sab) an die Serviceinstanz zu übergeben. Dies können beliebig viele sein.
 
 {{site.data.keyword.streamsshort}} unterstützt auch verschiedene Java™-Entwicklungskits, die Sie zur Entwicklung Ihrer Anwendungen verwenden können. Weitere Informationen zur Java-Unterstützung in {{site.data.keyword.streamsshort}} finden Sie in [Unterstützte Java-Entwicklungskits für die Anwendungsentwicklung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.1/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
 

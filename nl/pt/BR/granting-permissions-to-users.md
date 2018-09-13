@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -15,8 +15,7 @@ lastupdated: "2018-04-24"
 
 # Concedendo Permissões a Usuários
 
-Com uma conta do {{site.data.keyword.Bluemix_notm}}, você tem privilégios administrativos na organização ou espaço
-em sua conta, que permite executar todas as operações no {{site.data.keyword.streaminganalyticsshort}}. No entanto, ao
+Com uma conta do {{site.data.keyword.Bluemix_notm}}, você tem privilégios administrativos na organização ou espaço sob sua conta para executar todas as operações no {{site.data.keyword.streaminganalyticsshort}}. No entanto, ao
 integrar outros usuários à sua conta, é necessário gerenciar suas permissões para que eles tenham os privilégios necessários
 para operar instâncias de serviço em sua conta.
 
@@ -27,7 +26,7 @@ seguintes níveis de permissão:
 |-----------|------------------------------|--------------------------|
 | Criar ou excluir um serviço | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Nenhum |
 | Visualize o painel de serviço | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Viewer e acima |
-| Redimensione o serviço      | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Editor e acima |
+| Redimensione o serviço   | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Editor e acima |
 | Gere chaves de serviço usando a CLI CF ou a UI do {{site.data.keyword.Bluemix_notm}} | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Nenhum |
 
 Para integrar novos usuários à sua conta:
@@ -36,7 +35,7 @@ Para integrar novos usuários à sua conta:
 
 2.	Clique em **Gerenciar-> Conta-> Usuários**.
 
-3.	Na página Gerenciamento de usuários, clique em **Convidar usuários**.
+3.	Na página **Gerenciamento de usuário**, clique em **Convidar usuários**.
 
 4.	Insira o IBMid do usuário que deseja convidar.
 
@@ -49,8 +48,7 @@ seguir:
 
 	c.	Instância de serviço: selecione **Todas as instâncias de serviço atuais**.
 
-	d.	Funções: escolha uma função para o usuário. Membros com a função de Visualizador tem acesso somente leitura ao {{site.data.keyword.streaminganalyticsshort}}. 
-Membros com a função Editor designada e privilégios acima podem modificar o serviço do
+	d.	Funções: escolha uma função para o usuário. Membros com a função de Visualizador tem acesso somente leitura ao {{site.data.keyword.streaminganalyticsshort}}. Membros com a função Editor designada e privilégios acima podem modificar o serviço do
 {{site.data.keyword.streaminganalyticsshort}}.
 
 6.	Expanda o **acesso ao Cloud Foundry** e selecione a organização à qual deseja dar acesso de
@@ -62,5 +60,4 @@ usuário.
 
 	c.	Selecione o espaço ao qual deseja conceder o acesso de usuário.
 
-	e.	Selecione a função que deseja designar ao usuário. Para visualizar o painel de serviço e executar tarefas como geração
-de chaves de serviço, deve-se designar função Desenvolvedor.
+	e.	Selecione a função que deseja designar ao usuário. Para visualizar o painel de serviço e executar tarefas, como gerar chaves de serviço, deve-se designar a função de Desenvolvedor.

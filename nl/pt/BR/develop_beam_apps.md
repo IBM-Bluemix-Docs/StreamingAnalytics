@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -23,14 +23,14 @@ O {{site.data.keyword.streamsshort}} Runner for Apache Beam executa pipelines do
 
 Para enviar um aplicativo Beam para o serviço {{site.data.keyword.streaminganalyticsshort}} no {{site.data.keyword.Bluemix_notm}}, deve-se criar um arquivo VCAP formatado por JSON que contenha credenciais e outras informações para o serviço.
 
-1. Em seu ambiente local do Streams, navegue para a subpasta de amostras na qual você instalou o kit de ferramentas ($STREAMS_BEAM_RUNNER/samples) e copie o arquivo template.vcap em um novo arquivo. Dê ao arquivo um nome significativo e uma extensão de arquivo de .vcap.
-1. [Copie as credenciais do serviço {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/r_vcap_services.html) e cole a credenciais no arquivo VCAP que você criou, substituindo a linha a seguir:
+1. Em seu ambiente local do Streams, navegue até a subpasta de amostras na qual instalou o kit de ferramentas (`$STREAMS_BEAM_RUNNER/samples`) e copie o arquivo template.vcap em um novo arquivo. Dê ao arquivo um nome significativo e uma extensão de arquivo de `.vcap.`
+1. [Copie as credenciais do seu serviço {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/service_plans.html#vcap_services) e cole as credenciais no arquivo VCAP que criou, substituindo a linha a seguir:
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```
 1. Verifique se o aplicativo Beam é executado adequadamente em seu ambiente de desenvolvimento. Ao ativar seu aplicativo Beam com o Streams Runner, o aplicativo é convertido em um arquivo Streams Application Bundle (SAB).
 1. Envie o arquivo SAB que está associado ao aplicativo Beam para {{site.data.keyword.streaminganalyticsshort}}
 
-Agora seu aplicativo está implementado na nuvem. É possível monitorar seu aplicativo usando o serviço {{site.data.keyword.streaminganalyticsshort}}.
+Agora seu aplicativo está implementado na nuvem. É possível monitorar seu aplicativo com o serviço do {{site.data.keyword.streaminganalyticsshort}}.
 
-Para obter mais detalhes sobre como implementar e monitorar seus aplicativos Beam no {{site.data.keyword.streaminganalyticsshort}}, veja [Streams Runner for Apache Beam ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/).
+Para obter mais informações sobre implementar e monitorar seus aplicativos Beam no {{site.data.keyword.streaminganalyticsshort}}, consulte [Streams Runner for Apache Beam ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/).

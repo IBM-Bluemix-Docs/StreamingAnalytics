@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-04-24"
 {{site.data.keyword.streaminganalyticsshort}} agora está em execução em uma infraestrutura baseada em contêiner do Kubernetes que fornece vantagens de segurança e disponibilidade para o serviço.
 {:shortdesc}
 
-É possível acessar essa nova infraestrutura baseada em contêiner usando os planos de serviços da v2. É possível escolher o plano do {{site.data.keyword.streaminganalyticsshort}} que seja mais adequado ao trabalho que precisa fazer:
+É possível acessar essa nova infraestrutura baseada em contêiner com os planos de serviço v2. É possível escolher o plano do {{site.data.keyword.streaminganalyticsshort}} que seja mais adequado ao trabalho que precisa fazer:
 
 
 <table summary="Esta tabela fornece uma lista de planos de serviços que podem ser usados para criar o seu serviço do {{site.data.keyword.streaminganalyticsshort}}. A tabela lista todos os planos de serviços para os conjuntos de planos da v1 e da v2 e fornece uma lista de recursos para cada conjunto.">
@@ -63,15 +63,18 @@ lastupdated: "2018-04-24"
         <li>Lite</li>
         <li>Contêiner de entrada por hora</li>
         <li>Contêiner de Entrada Mensal</li>
+        <li>Assinatura de contêiner de entrada</li>
         <li>Hora do Contêiner Aprimorada</li>
         <li>Contêiner Enhanced Mensal</li>
+        <li>Assinatura de contêiner aprimorada</li>
         <li>Hora do Contêiner Premium</li>
         <li>Premium Contêiner Mensal</li>
+        <li>Assinatura de contêiner Premium</li>
       </ul>
     </td>
     <td>
     <ul>
-      <li>Requer a compilação do aplicativo Streams em um sistema operacional RHEL 7.x ou uma versão equivalente do CentOS.</li>
+      <li>Requer que você compile seu aplicativo Streams em um sistema operacional RHEL 7.x ou uma versão equivalente do CentOS.</li>
       <li>É executado em uma infraestrutura baseada em contêiner.</li>
       <li>Suporta v2 APIs REST.<br></li>
       <li>Suporta autenticação do IAM.</li>
@@ -88,7 +91,7 @@ lastupdated: "2018-04-24"
 
 Os recursos a seguir são suportados apenas nos planos de serviços da v1:
 
-* [v1 REST API](https://console.bluemix.net/apidocs/220). Na infraestrutura v2, deve-se usar a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939)
+* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1). Na infraestrutura v2, deve-se usar a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/streaming-analytics-v2)
 * Aplicativos de amostra NYC Traffic e Event Detection v1. Consulte [Aplicativos de amostra](/docs/services/StreamingAnalytics/c_starterapps.html) para obter uma lista de aplicativos que podem ser usados para iniciar o {{site.data.keyword.streaminganalyticsshort}} na infraestrutura v2 baseada em contêiner.
 * Compatibilidade de alguns kits. Consulte [Kits de ferramentas compatíveis](/docs/services/StreamingAnalytics/compatible_toolkits.html) para obter uma lista de kits de ferramentas compatíveis com a nova infraestrutura baseada em contêiner.
 
@@ -98,10 +101,11 @@ Os recursos a seguir são suportados apenas nos planos de serviços da v1:
 As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} e a variável de ambiente VCAP_SERVICES para planos de serviços v1 incluem as informações de VCAP que são necessárias para usar a API de REST do {{site.data.keyword.streaminganalyticsshort}} v1. As informações de VCAP fornecem a URL de REST, o ID da instância de serviço, o ID de ligação e as credenciais para cada API de REST do {{site.data.keyword.streaminganalyticsshort}} v1.  
 {:shortdesc}
 
- Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada e ligada a um aplicativo no {{site.data.keyword.Bluemix_notm}}, as informações de VCAP da instância de serviço estão disponíveis para o ambiente de aplicativos do {{site.data.keyword.Bluemix_notm}} por meio da variável de ambiente VCAP_SERVICES. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada sem especificar um aplicativo no {{site.data.keyword.Bluemix_notm}} para o qual ligar, as credenciais de serviço são criadas automaticamente. As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} podem ser acessadas por meio do painel de serviços.
+ Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada e ligada a um aplicativo no {{site.data.keyword.Bluemix_notm}}, as informações do VCAP da instância de serviço ficam disponíveis para o ambiente de aplicativos do {{site.data.keyword.Bluemix_notm}}. É possível localizar essas informações na variável de ambiente VCAP_SERVICES. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada sem especificar um aplicativo no {{site.data.keyword.Bluemix_notm}} para o qual ligar, as credenciais de serviço são criadas automaticamente. As
+credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} podem ser acessadas por meio do painel de serviços.
 
 
-As credenciais de serviço e a variável de ambiente VCAP_SERVICES do {{site.data.keyword.streaminganalyticsshort}} incluem informações, conforme apresentado no exemplo a seguir:
+As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} e a variável de ambiente VCAP_SERVICES incluem informações conforme apresentado no exemplo a seguir:
 
 <pre><code>
 {
@@ -133,7 +137,7 @@ Para obter mais informações sobre a API de REST da v1, consulte a [documentaç
 ## Variável de ambiente VCAP_SERVICES para planos de serviços da v2
 {: #v2_vcap_services}
 
-As credenciais de serviço e a variável de ambiente VCAP_SERVICES do {{site.data.keyword.streaminganalyticsshort}} para planos de serviços da v2 incluem as informações de VCAP que são necessárias para usar a API de REST do {{site.data.keyword.streaminganalyticsshort}} v2. As informações de VCAP fornecem a URL de REST da v2, o ID de serviço e as credenciais para acessar a API de REST do {{site.data.keyword.streaminganalyticsshort}} v2.  
+As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} e a variável de ambiente VCAP_SERVICES para planos de serviço v2 incluem as informações do VCAP que devem ser usadas com a API de REST do {{site.data.keyword.streaminganalyticsshort}} v2. As informações de VCAP fornecem a URL de REST da v2, o ID de serviço e as credenciais para acessar a API de REST do {{site.data.keyword.streaminganalyticsshort}} v2.  
 {:shortdesc}
 
 As credenciais de serviço e a variável de ambiente VCAP_SERVICES do {{site.data.keyword.streaminganalyticsshort}} para planos de serviços da v2 incluem informações, conforme apresentadas no exemplo a seguir:

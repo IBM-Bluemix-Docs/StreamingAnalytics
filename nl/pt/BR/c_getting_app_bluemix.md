@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -36,8 +36,7 @@ GitHub ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link ex
     </td>
     <td>
       <ul>
-        <li>
-<a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Guia de
+        <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Guia de
 desenvolvimento do Streaming Analytics v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Guia de
 desenvolvimento do Streaming Analytics v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")</a><br></li>

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -25,7 +25,7 @@ Inicie o {{site.data.keyword.streaminganalyticsshort}} imediatamente executando 
 
 Para iniciar o {{site.data.keyword.streaminganalyticsshort}}, use um dos métodos a seguir para enviar o pacote configurável do aplicativo (arquivo .sab) que está associado ao seu aplicativo SPL, Java™, Python ou Scala Streams:
 * Use o botão **Enviar tarefa** no console do {{site.data.keyword.streaminganalyticsshort}}.
-* Desenvolva um aplicativo no {{site.data.keyword.Bluemix_notm}} e inclua o aplicativo {{site.data.keyword.streamsshort}} nele. Controle-o usando a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/220){:new_window} para os planos de serviços do [v1](/docs/services/StreamingAnalytics/service_plans.html) ou a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/1939){:new_window} para os planos de serviços da v2.
+* Desenvolva um aplicativo no {{site.data.keyword.Bluemix_notm}} e inclua o aplicativo {{site.data.keyword.streamsshort}} nele. Controle-o usando a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} para os planos de serviços do [v1](/docs/services/StreamingAnalytics/service_plans.html) ou a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window} para os planos de serviços da v2.
 
 Use {{site.data.keyword.streaminganalyticsshort}} com outros serviços, incluindo {{site.data.keyword.cloudant}}. Veja os [Tutoriais para se integrar com outros serviços do {{site.data.keyword.Bluemix_short}}](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window} para obter exemplos de funcionamento.
 

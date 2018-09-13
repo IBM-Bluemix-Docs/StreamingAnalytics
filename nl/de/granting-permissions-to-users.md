@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -23,7 +23,7 @@ In {{site.data.keyword.streaminganalyticsshort}} wird der Zugriff auf Service-Ma
 |-----------|------------------------------|--------------------------|
 | Service erstellen oder löschen | Entwicklerrolle für den {{site.data.keyword.Bluemix_notm}}-Bereich | Keine |
 | Service-Dashboard anzeigen | Entwicklerrolle für den {{site.data.keyword.Bluemix_notm}}-Bereich | Anzeigeberechtigter und höher |
-| Größe des Service ändern | Entwicklerrolle für den {{site.data.keyword.Bluemix_notm}}-Bereich | Bearbeiter und höher |
+| Größe des Service ändern   | Entwicklerrolle für den {{site.data.keyword.Bluemix_notm}}-Bereich | Bearbeiter und höher |
 | Serviceschlüssel mithilfe der CF-Befehlszeilenschnittstelle oder der {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle generieren | Entwicklerrolle für den {{site.data.keyword.Bluemix_notm}}-Bereich | Keine |
 
 Gehen Sie wie folgt vor, um neue Benutzer in Ihr Konto aufzunehmen:
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um neue Benutzer in Ihr Konto aufzunehmen:
 
 2.	Klicken Sie auf **Verwalten -> Konto -> Benutzer**.
 
-3.	Klicken Sie auf der Benutzermanagementseite auf **Benutzer einladen**.
+3.	Klicken Sie auf der Seite **Benutzermanagement** auf **Benutzer einladen**.
 
 4.	Geben Sie die IBMid des Benutzers ein, der eingeladen werden soll.
 

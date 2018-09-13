@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -13,18 +13,18 @@ lastupdated: "2018-04-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# Häufige Fragen
+# Häufig gestellte Fragen (FAQs)
 {: #faq}
 
 ## Wie melde ich mich beim Streaming Analytics-Service an?
 {: #signup notoc}  
 
-Informationen zu den {{site.data.keyword.streaminganalyticsshort}}-Serviceplänen finden Sie auf der [{{site.data.keyword.Bluemix_short}}-Katalogseite](https://console.bluemix.net/catalog/services/streaming-analytics).
+Weitere Informationen zu den {{site.data.keyword.streaminganalyticsshort}}-Serviceplänen finden Sie auf der [{{site.data.keyword.Bluemix_short}}-Katalogseite](https://console.bluemix.net/catalog/services/streaming-analytics).
 
 ## Welche Version des Streaming Analytics-Service verwende ich?
 {: #version notoc}   
 
-Verbesserungen werden in regelmäßigen Abständen an alle {{site.data.keyword.streaminganalyticsshort}}-Services per Push-Operation übertragen. Sie verwenden stets die neueste Version des verwalteten Service und es gibt keine Produktversion und keinen Produktänderungsstand, die bzw. den Sie im Auge behalten müssen.
+Verbesserungen werden in regelmäßigen Abständen an alle {{site.data.keyword.streaminganalyticsshort}}-Services per Push-Operation übertragen. Sie verwenden stets die neueste Version des verwalteten Service und es gibt keine Produktversion und keinen Produktänderungsstand, die bzw. den Sie überwachen müssen.
 
 ## Welche Verwaltungsaufgaben übernimmt IBM?
 {: #ibm_manage notoc}   
@@ -55,13 +55,13 @@ Der Service wird erstellt und von IBM vollständig gewartet. Jeder Service beste
 ## Wie entwickle ich Streams-Anwendungen?
 {: #streamsapp notoc}
 
-Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) entwickeln, wenn Sie [v2-Servicpläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} herunterladen.
+Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) entwickeln, wenn Sie [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} herunterladen.
 
 Falls Sie über eine lokale {{site.data.keyword.streamsshort}}-Installation verfügen, können Sie auch diese verwenden. Lokal entwickelte und kompilierte Anwendungen können dann nahtlos als Paket für einen Streams-Service in der Cloud bereitgestellt werden.
 
 Wenn Sie jedoch Ihre Python-Anwendungen in der Cloud ausführen möchten, müssen Sie {{site.data.keyword.streamsshort}} nicht lokal installieren. Verwenden Sie einfach den `STREAMING\_ANALYTICS\_SERVICE`-Kontext, um Ihre Python-Anwendungen an den {{site.data.keyword.streaminganalyticsshort}}-Service zu übergeben. Sie können die Anwendungen in einer Python-Standardentwicklungsumgebung oder in einem interaktiven Jupyter-Notebook entwickeln, es muss jedoch Python Version 3.5 verwendet werden.
 
-Eine Anleitung zur Entwicklung von Anwendungen finden Sie im [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}}-Entwicklerhandbuch ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b).
+Weitere Informationen zur Entwicklung von Anwendungen finden Sie im [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}}-Entwicklerhandbuch ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b).
 
 ## Kann ich mich direkt bei einem Streaming Analytics-Service-Host anmelden?
 {: #host notoc}  
@@ -87,7 +87,7 @@ Einige der Features, die für den {{site.data.keyword.streaminganalyticsshort}}-
 
   - Administrative Aufgaben für eine Instanz, für die eine Domänenberechtigung erforderlich ist. Beispiel: Hinzufügen von benutzerdefinierten Host-Tags oder Erstellen einer Jobgruppe.
   - Konsistente Regionsprüfpunkte.
-  - Einige der Toolkitoperatoren werden nicht unterstützt. Informationen hierzu finden Sie in [Unterstützte Toolkits und Adapter](/docs/services/StreamingAnalytics/compatible_toolkits.html).
+  - Einige der Toolkitoperatoren werden nicht unterstützt. Weitere Informationen hierzu finden Sie in [Unterstützte Toolkits und Adapter](/docs/services/StreamingAnalytics/compatible_toolkits.html).
   - Die Streams-JMX-API.
 
 ## Wo finde ich weitere Informationen zum Streaming Analytics-Service?

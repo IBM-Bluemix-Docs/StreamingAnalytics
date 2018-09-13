@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -16,33 +16,31 @@ lastupdated: "2018-04-24"
 # A propos de Streaming Analytics
 {: #about}
 
-Vous pouvez effectuer une analyse en temps réel sur des données en mouvement dans le cadre de vos applications {{site.data.keyword.Bluemix_short}} en utilisant {{site.data.keyword.streaminganalyticsfull}}.
+Vous pouvez effectuer une analyse en temps réel sur des données en mouvement dans le cadre de vos applications {{site.data.keyword.Bluemix_short}} à l'aide d'{{site.data.keyword.streaminganalyticsfull}}.
 {:shortdesc}
 
 Vous utilisez {{site.data.keyword.streaminganalyticsshort}} pour la première fois ? Découvrez une [rapide introduction au service ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
 
-Le service {{site.data.keyword.streaminganalyticsshort}} fournit les fonctionnalités ci-après permettant de déployer, d'analyser et de surveiller vos données sur le cloud :
+Le service {{site.data.keyword.streaminganalyticsshort}} fournit les fonctionnalités ci-après pour déployer, analyser et surveiller vos données sur le cloud :
 
 **Utilisation interactive et par programme du service :**
 
-Vous pouvez utiliser le service interactivement via la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html), ou à l'aide d'un programme via l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/220){:new_window} si vous utilisez les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Pour
-des [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html), utilisez l'[{{site.data.keyword.streaminganalyticsshort}}API REST
-version 2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/1939) 
+Vous pouvez utiliser le service interactivement via la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) ou à l'aide d'un programme via l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} si vous utilisez les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Pour des [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html), utilisez l'API REST [{{site.data.keyword.streaminganalyticsshort}} v2![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")https://console.bluemix.net/apidocs/streaming-analytics-v2).
 
 **Déploiement et surveillance des applications SPL, Java, Scala et Python :**
 
-Vous pouvez écrire des applications {{site.data.keyword.streamsshort}} en SPL, Java, Scala et Python. [Déployez et surveillez ces applications](/docs/services/StreamingAnalytics/t_deploytocloud.html) en utilisant la console {{site.data.keyword.streaminganalyticsshort}}.
+Vous pouvez écrire des applications {{site.data.keyword.streamsshort}} en SPL, Java, Scala et Python. [Déployez et surveillez ces applications](/docs/services/StreamingAnalytics/t_deploytocloud.html) à l'aide de la console {{site.data.keyword.streaminganalyticsshort}}.
 
-Si vous voulez écrire vos applications en SPL, vous devez savoir qu'{{site.data.keyword.streamsfull}} Processing Language (SPL) est un langage de programmation utilisé pour créer des applications de traitement de flux. Si vous voulez aller plus loin avec vos propres applications SPL, vous pouvez obtenir un environnement de développement {{site.data.keyword.streamsshort}} et vous devez faire en sorte que vos applications SPL soient prêtes pour le cloud.
+Si vous voulez écrire vos applications en SPL, sachez qu'{{site.data.keyword.streamsfull}} Processing Language (SPL) est un langage de programmation utilisé pour créer des applications de traitement de flux. Si vous voulez aller plus loin avec vos propres applications SPL, vous pouvez obtenir un environnement de développement {{site.data.keyword.streamsshort}} et vous devez faire en sorte que vos applications SPL soient prêtes pour le cloud.
 
-Pour créer et déployer des applications Python sans environnement de développement {{site.data.keyword.streamsshort}}, utilisez vos fichiers notebook  {{site.data.keyword.DSX_short}} ou l'API Python {{site.data.keyword.streamsshort}}. Pour plus d'informations, voir [Développement d'applications Python pour {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
+Pour créer et déployer des applications Python sans environnement de développement {{site.data.keyword.streamsshort}}, utilisez les fichiers notebook de service dans {{site.data.keyword.DSX_short}} ou l'API Python {{site.data.keyword.streamsshort}}. Pour plus d'informations, voir [Développement d'applications Python pour {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
-Vous pouvez développer des applications Beam avec Streams Runner dans votre environnement de développement local et ensuite les déployer et les surveiller à l'aide du service {{site.data.keyword.streaminganalyticsshort}}. Pour plus d'informations sur les applications Beam et Streams Runner, voir [Surveiller des applications Beam avec Streams Runner dans {{site.data.keyword.streaminganalyticsshort}}](docs/services/StreamingAnalytics/gs_beamrunner.html). 
+Vous pouvez développer des applications Beam avec Streams Runner dans votre environnement de développement local, et ensuite les déployer et les surveiller à l'aide du service {{site.data.keyword.streaminganalyticsshort}}. Pour plus d'informations sur les applications Beam et Streams Runner, voir [Surveiller des applications Beam avec Streams Runner dans {{site.data.keyword.streaminganalyticsshort}}](docs/services/StreamingAnalytics/gs_beamrunner.html).
 
 
 **Compatibilité avec les opérateurs {{site.data.keyword.streamsshort}} :**
 
-Les opérateurs {{site.data.keyword.streamsshort}} du kit d'outils standard [{{site.data.keyword.streamsshort}} Processing Language (SPL) doivent tous être compatibles](/docs/services/StreamingAnalytics/compatible_toolkits.html) avec {{site.data.keyword.streaminganalyticsshort}}.
+Les opérateurs {{site.data.keyword.streamsshort}} du kit d'outils standard [{{site.data.keyword.streamsshort}} Processing Language (SPL) sont compatibles](/docs/services/StreamingAnalytics/compatible_toolkits.html) avec {{site.data.keyword.streaminganalyticsshort}}.
 
 ## Responsabilités Streaming Analytics
 {: #responsibilities notoc}
@@ -52,11 +50,11 @@ Les opérateurs {{site.data.keyword.streamsshort}} du kit d'outils standard [{{s
 
 Le client est responsable des actions suivantes :
 
-* Suivi de la configuration IBM initiale d'{{site.data.keyword.streamsshort}}, surveillance, configuration et gestion des travaux {{site.data.keyword.streamsshort}} s'exécutant dans son instance. Le client peut démarrer et arrêter l'instance et démarrer et arrêter les travaux s'exécutant sur cette instance.
-* Développement, si nécessaire ou obligatoire, de programmes et d'applications sur le service pour analyser les données et en tirer des renseignements utiles. Le client est aussi responsable de la qualité et des performances des programmes et applications ainsi développés. Les programmes peuvent être développés en SPL, Java ou d'autres langages pris en charge, via la fonction {{site.data.keyword.streamsshort}} Topology. Ils doivent être compilés en se servant d'{{site.data.keyword.streamsshort}} Developer Edition ou de {{site.data.keyword.streamsshort}} Quick Start Edition, avec le même système d'exploitation que celui utilisé pour {{site.data.keyword.streaminganalyticsshort}}.
+* Suivi de la configuration IBM initiale d'{{site.data.keyword.streamsshort}}, surveillance, configuration et gestion des travaux {{site.data.keyword.streamsshort}} qui s'exécutent dans son instance. Le client peut démarrer et arrêter l'instance et démarrer et arrêter les travaux s'exécutant sur l'instance.
+* Au besoin, développement de programmes et d'applications sur le service pour analyser les données et en tirer des renseignements utiles. Le client est aussi responsable de la qualité et des performances des programmes et applications ainsi développés. Les programmes peuvent être développés en SPL, Java ou d'autres langages pris en charge, via la fonction {{site.data.keyword.streamsshort}} Topology. Ils doivent être compilés à l'aide d'{{site.data.keyword.streamsshort}} Developer Edition ou d'{{site.data.keyword.streamsshort}} Quick Start Edition, avec le même système d'exploitation que celui utilisé pour {{site.data.keyword.streaminganalyticsshort}}.
 * Vérification périodique du lien suivant, pour être informé d'une période d'indisponibilité planifiée, avec ou sans interruption - [https://developer.ibm.com/bluemix/support/#status ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/bluemix/support/#status){:new_window}  
 * Sauvegarde de toutes les données, métadonnées, fichiers de configuration et paramètres d'environnement, en fonction des exigences métier, afin d'assurer une continuité.
-* Restauration des données, métadonnées, fichiers de configuration et paramètres d'environnement depuis une sauvegarde, afin d'assurer une continuité, dans l'éventualité d'un incident, quel qu'en soit son type, survenant dans un centre de données, un pod, un serveur, un disque dur ou un logiciel, par exemple.
+* Restauration des données, métadonnées, fichiers de configuration et paramètres d'environnement depuis une sauvegarde, afin d'assurer une continuité, dans l'éventualité d'un incident, quel qu'en soit son type (par exemple, un incident survenant dans un centre de données, un pod, un serveur, un disque dur ou un logiciel).
 
 ### Responsabilités d'IBM
 {: #ibmresponsibilities notoc}
@@ -74,4 +72,4 @@ Dans le cadre d'{{site.data.keyword.streaminganalyticsfull}}, IBM est responsabl
 	* Instances {{site.data.keyword.streamsshort}}
 * Fournir des correctifs de maintenance, incluant les correctifs de sécurité appropriés pour les systèmes d'exploitation des infrastructures et {{site.data.keyword.streamsshort}}.
 * Effectuer d'une part une maintenance régulière ne devant provoquer aucune période d'indisponibilité du système (maintenance “sans interruption”), et d'autre part une maintenance pouvant générer une période d'indisponibilité du système ainsi qu'un redémarrage (maintenance “avec interruption”), à des dates précises, planifiées et publiées sur [https://developer.ibm.com/bluemix/support/#status ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/bluemix/support/#status){:new_window}
-* Tout changement dans les dates et heures de la maintenance planifiée sera publié, avec un avis préalable approprié.
+* Tout changement dans les dates et heures de la maintenance planifiée est publié, avec un avis préalable approprié.
