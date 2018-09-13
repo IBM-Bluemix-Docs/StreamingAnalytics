@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="StreamingAnalytics" audience="service" href="/docs/services/StreamingAnalytics/index.html"}
+{: .toc subcollection="StreamingAnalytics" audience="service" arm="379" href="/docs/services/StreamingAnalytics/index.html"}
 Streaming Analytics
 
     {: .navgroup id="learn"}
