@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-04-24"
 
 # Cómo otorgar permisos a los usuarios
 
-Con una cuenta de {{site.data.keyword.Bluemix_notm}}, tiene privilegios administrativos en la organización o en el espacio en su cuenta, lo que le permite realizar todas las operaciones en {{site.data.keyword.streaminganalyticsshort}}. Sin embargo, cuando incorpore otros usuarios a su cuenta, debe gestionar sus permisos para que tengan los privilegios necesarios para operar instancias de servicio en su cuenta.
+Con una cuenta de {{site.data.keyword.Bluemix_notm}}, tiene privilegios administrativos en la organización o en el espacio en su cuenta para realizar todas las operaciones en {{site.data.keyword.streaminganalyticsshort}}. Sin embargo, cuando incorpore otros usuarios a su cuenta, debe gestionar sus permisos para que tengan los privilegios necesarios para operar instancias de servicio en su cuenta.
 
 En {{site.data.keyword.streaminganalyticsshort}}, el acceso a las operaciones de gestión de servicios se controla mediante los siguientes niveles de permiso:
 
@@ -32,7 +32,7 @@ Para incorporar usuarios nuevos a la cuenta:
 
 2.	Pulse **Gestionar -> Cuenta -> Usuarios**.
 
-3.	En la página Gestión de usuarios, pulse **Invitar a usuarios**.
+3.	En la página **Gestión de usuarios**, pulse **Invitar a usuarios**.
 
 4.	Escriba el IBMid del usuario que desee invitar.
 

@@ -17,7 +17,7 @@ lastupdated: "2018-02-14"
 # Mejoras de alta disponibilidad
 {: #consistentregions}
 
-Debido a los requisitos empresariales, algunas aplicaciones requieren que todas las tuplas se procesen al menos una vez. Se ha reforzado {{site.data.keyword.streamsshort}} con operadores y anotaciones que permiten la definición de una región que no pierde tuplas durante el proceso de secuencias. Las tuplas de una región coherente se procesan por lo menos una vez. 
+Debido a los requisitos empresariales, algunas aplicaciones requieren que todas las tuplas se procesen al menos una vez. Se ha reforzado {{site.data.keyword.streamsshort}} con operadores y anotaciones que permiten la definición de una región que no pierde tuplas durante el proceso de secuencias. Las tuplas de una región coherente se procesan por lo menos una vez.
 
 
 Si utiliza los planes de precios Beta-Entry o Beta-Enhanced, puede ejecutar y supervisar aplicaciones Streams con las regiones coherentes definidas en {{site.data.keyword.streaminganalyticsshort}}. Cuando crea un servicio de {{site.data.keyword.streaminganalyticsshort}} con los planes Beta-Entry o Beta-Enhanced, la instancia ya está configurada para utilizar regiones coherentes.

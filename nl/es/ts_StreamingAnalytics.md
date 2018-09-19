@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -28,10 +28,10 @@ Puede encontrar respuestas a preguntas comunes sobre cómo utilizar {{site.data.
 Al iniciar {{site.data.keyword.streaminganalyticsshort}}, se le solicitarán las credenciales para iniciar sesión en la consola de servicio.
 {:shortdesc}
 
-Inicie un servicio {{site.data.keyword.streaminganalyticsshort}} que se ha creado previamente y, en lugar de acceder directamente a la consola de servicio, verá una página de inicio de sesión donde se le solicitarán las credenciales.
+Inicia un servicio {{site.data.keyword.streaminganalyticsshort}} que ha creado y, en lugar de acceder directamente a la consola de servicio, ve una página de inicio de sesión donde se le solicitan las credenciales.
 {: tsSymptoms}
 
-La infraestructura de servicio se ha actualizado y la memoria caché del navegador está impidiendo que el servicio seleccione la actualización.
+Se ha producido una actualización de la infraestructura de servicio y la memoria caché del navegador está impidiendo que el servicio seleccione la actualización.
 {: tsCauses}
 
 Borre la memoria caché del navegador para asegurarse de obtener la versión más reciente de la consola de servicio.
@@ -49,5 +49,20 @@ Envía una aplicación a la instancia del servicio, la aplicación se inicia per
 No ha compilado la aplicación con un sistema operativo RHEL 7.x o una versión de CentOS equivalente.
 {: tsCauses}
 
-Debe volver a compilar la aplicación en Red Hat Enterprise Linux (RHEL) 7.x si está utilizando los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html) o con RHEL 6.5 si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), utilizando procesadores Intel. Vuelva a enviar la aplicación a la instancia del servicio. Puede descargar [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si no tiene un entorno de desarrollo compatible y si está utilizando los planes de servicio de v2. Si está utilizando planes de servicio de v1, descargue [{{site.data.keyword.streamsshort}} QSE ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
+Debe compilar la aplicación en Red Hat Enterprise Linux (RHEL) 7.x si está utilizando los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html). Si está utilizando [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), debe compilar su aplicación con RHEL 6.5 con procesadores Intel. Vuelva a enviar la aplicación a la instancia del servicio. Puede descargar [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si no tiene un entorno de desarrollo compatible y si está utilizando los planes de servicio de v2. Si está utilizando planes de servicio de v1, descargue [{{site.data.keyword.streamsshort}} QSE ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
+{: tsResolve}
+
+## Mi aplicación no funciona correctamente una vez reiniciada
+{: #app_restart}
+
+Su aplicación no funciona correctamente una vez reiniciada por mantenimiento del sistema o en un escenario de recuperación de error.
+{:shortdesc}
+
+Tiene varias aplicaciones en la instancia de servicio y una de las aplicaciones utiliza una etiqueta para la colocación de operadores. Una vez que la aplicación se reinicia, los recursos para los operadores no etiquetados se adquieren en primer lugar y se consume toda la cuota de recursos antes de que se puedan colocar los operadores etiquetados.
+{: tsSymptoms}
+
+Un reinicio del pod a gran escala, desencadenado la mayoría de las veces por actualizaciones de servicio, puede provocar que las aplicaciones no se puedan reiniciar si necesitan etiquetas especiales y la cuota de recursos ya se ha alcanzado. En algunos casos, los reinicios del pod a gran escala pueden estar causados por escenarios de recuperación de errores.
+{: tsCauses}
+
+Se debe aumentar la cuota de recursos o liberar recursos, de modo que las aplicaciones puedan adquirir recursos con las etiquetas necesarias. Para aumentar la cuota, vaya al panel de control del servicio y aumente el tamaño de la instancia. Para liberar recursos, cancele trabajos existentes hasta que se hayan liberado suficientes recursos para colocar correctamente las aplicaciones.
 {: tsResolve}

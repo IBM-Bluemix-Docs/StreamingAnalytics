@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -19,12 +19,12 @@ lastupdated: "2018-04-24"
 ## ¿Cómo me registro para el servicio de Streaming Analytics?
 {: #signup notoc}  
 
-Para obtener información sobre los planes de servicio de {{site.data.keyword.streaminganalyticsshort}}, consulte la [página del catálogo de {{site.data.keyword.Bluemix_short}}](https://console.bluemix.net/catalog/services/streaming-analytics).
+Para obtener más información sobre los planes de servicio de {{site.data.keyword.streaminganalyticsshort}}, consulte la [página del catálogo de {{site.data.keyword.Bluemix_short}}](https://console.bluemix.net/catalog/services/streaming-analytics).
 
 ## ¿Qué versión del servicio de Streaming Analytics estoy utilizando?
 {: #version notoc}   
 
-Se envían mejoras regularmente a todos los servicios de {{site.data.keyword.streaminganalyticsshort}}. Utilice siempre la última versión del servicio gestionado y no hay ninguna versión o nivel de producto para mantener el seguimiento.
+Se envían mejoras regularmente a todos los servicios de {{site.data.keyword.streaminganalyticsshort}}. Utilice siempre la última versión del servicio gestionado, no debe realizar el seguimiento de ninguna versión o nivel de producto.
 
 ## ¿Qué gestiona IBM por mí?
 {: #ibm_manage notoc}   
@@ -35,12 +35,12 @@ Manejamos la instalación, las actualizaciones de software, la creación y la ge
 ## ¿De qué tareas soy responsable?  
 {: #responsible notoc}
 
-Escribirá las aplicaciones que se ejecutarán en un servicio de {{site.data.keyword.streaminganalyticsshort}} y la instancia de Streams local y se asegurará de que funcionan correctamente y de que cumplen los requisitos de rendimiento. También es responsable de cualquier supervisión específica de la aplicación.
+Escribirá las aplicaciones que se ejecutan en un servicio de {{site.data.keyword.streaminganalyticsshort}} y la instancia de Streams local y se asegurará de que funcionan correctamente y de que cumplen los requisitos de rendimiento. También es responsable de cualquier supervisión específica de la aplicación.
 
 ## ¿Está soportada la alta disponibilidad (HA)?
 {: #ha notoc}
 
-La alta disponibilidad está gestionada por IBM. {{site.data.keyword.streaminganalyticsshort}} se ha configurado para dar soporte a HA. Los recursos de servidor adicionales están colocados en caso de una migración tras error.
+La alta disponibilidad está gestionada por IBM. {{site.data.keyword.streaminganalyticsshort}} se ha configurado para dar soporte a HA. Hay más recursos de servidor colocados en caso de una migración tras error.
 
 ## ¿Cómo está gestionada la seguridad para el servicio de Streaming Analytics?
 {: #security notoc}  
@@ -55,13 +55,13 @@ El servicio está creado y completamente gestionado por IBM. Cada servicio const
 ## ¿Cómo desarrollo las aplicaciones de Streams?
 {: #streamsapp notoc}
 
-Debe desarrollar las aplicaciones de Streams localmente utilizando los Streams gratuitos [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) para los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html) o si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), puede descargar la [{{site.data.keyword.streamsshort}} imagen de Quick Start Edition VM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}..
+Debe desarrollar las aplicaciones de Streams localmente utilizando los Streams gratuitos [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) para los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html) o si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), puede descargar la [{{site.data.keyword.streamsshort}} imagen de Quick Start Edition VM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
 
 También puede utilizar la instalación local de {{site.data.keyword.streamsshort}} si la tiene. Las aplicaciones que desarrolle y compile localmente se podrán desplegar entonces sin problemas como un paquete en un servicio de Streams en la nube.
 
 Pero si desea ejecutar las aplicaciones de Python en la nube, no tiene que instalar {{site.data.keyword.streamsshort}} de forma local. Simplemente utilice el contexto de `STREAMING\_ANALYTICS\_SERVICE` para enviar las aplicaciones de Python al servicio de {{site.data.keyword.streaminganalyticsshort}}. Puede desarrollar las aplicaciones en un entorno de desarrollo Python estándar o en un cuaderno interactivo de Jupyter, pero debe utilizar Python 3.5.
 
-Para obtener orientación sobre cómo desarrollar aplicaciones, consulte la [Guía de desarrollo de {{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")]( https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b).
+Para obtener más información sobre cómo desarrollar aplicaciones, consulte la [Guía de desarrollo de {{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b).
 
 ## ¿Puedo iniciar sesión en un host de servicio de Streaming Analytics directamente?
 {: #host notoc}  
@@ -83,11 +83,11 @@ Puede utilizar el [Servicio de Secure Gateway de {{site.data.keyword.Bluemix_not
 ## ¿Están admitidas todas las características para IBM Streams local por el servicio de Streaming Analytics en la nube?
 {: #features notoc}
 
-Algunas de las características que no están admitidas para el servicio de {{site.data.keyword.streaminganalyticsshort}} incluyen lo siguiente:
+Algunas de las características que no están admitidas para el servicio de {{site.data.keyword.streaminganalyticsshort}} incluyen:
 
   - Tareas administrativas para una instancia que requiere autoridad de dominio. Por ejemplo, la adición de etiquetas de host personalizadas o la creación de un grupo de trabajo.
   - Puntos de comprobación de regiones coherentes.
-  - Algunos de los operadores de kit de herramientas no están admitidos. Para obtener información, consulte [Adaptadores y kits de herramientas admitidos](/docs/services/StreamingAnalytics/compatible_toolkits.html).
+  - Algunos de los operadores de kit de herramientas no están admitidos. Para obtener más información, consulte [Adaptadores y kits de herramientas admitidos](/docs/services/StreamingAnalytics/compatible_toolkits.html).
   - La API de JMX de Streams.
 
 ## ¿Dónde puedo obtener más información sobre el servicio de Streaming Analytics?

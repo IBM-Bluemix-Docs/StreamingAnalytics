@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -24,8 +24,8 @@ Ahora puede desarrollar aplicaciones Beam en su entorno de desarrollo local {{si
 Para enviar una aplicación de Beam a su servicio de {{site.data.keyword.streaminganalyticsshort}} en {{site.data.keyword.Bluemix_notm}}, debe crear un archivo VCAP formateadas por JSON que contiene credenciales y otra información del servicio.
 
 1. En el entorno local de Streams, navegue a la subcarpeta de ejemplo donde ha instalado el kit de
-herramientas ($STREAMS_BEAM_RUNNER/samples) y copie el archivo template.vcap a un nuevo archivo. Proporcione al nombre un nombre significativo y la extensión de archivo .vcap.
-1. [Copie las credenciales de su servicio {{site.data.keyword.streaminganalyticsshort}} ](/docs/services/StreamingAnalytics/r_vcap_services.html) y pegue las credenciales en el archivo de VCAP que ha creado, sustituyendo la siguiente línea:
+herramientas (`$STREAMS_BEAM_RUNNER/samples`) y copie el archivo template.vcap a un nuevo archivo. Proporcione al nombre un nombre significativo y la extensión de archivo `.vcap.`
+1. [Copie las credenciales de su servicio {{site.data.keyword.streaminganalyticsshort}} ](/docs/services/StreamingAnalytics/service_plans.html#vcap_services) y pegue las credenciales en el archivo de VCAP que ha creado, sustituyendo la siguiente línea:
 ```
  <ELIMINE ESTA LÍNEA E INSERTE LAS CREDENCIALES AQUÍ>
  ```
@@ -33,6 +33,6 @@ herramientas ($STREAMS_BEAM_RUNNER/samples) y copie el archivo template.vcap a u
 Streams Runner, la aplicación se traduce a un archivo de Streams Application Bundle (SAB).
 1. Envíe el archivo SAB que está asociado con su aplicación Beam a {{site.data.keyword.streaminganalyticsshort}}
 
-Ahora su aplicación está desplegada en la nube. Puede supervisar su aplicación utilizando el servicio de {{site.data.keyword.streaminganalyticsshort}}.
+Ahora su aplicación está desplegada en la nube. Puede supervisar su aplicación con el servicio de {{site.data.keyword.streaminganalyticsshort}}.
 
-Para obtener más detalles acerca del despliegue y supervisión de sus aplicaciones Beam en {{site.data.keyword.streaminganalyticsshort}}, consulte [Streams Runner for Apache Beam ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/).
+Para obtener más información acerca del despliegue y supervisión de sus aplicaciones Beam en {{site.data.keyword.streaminganalyticsshort}}, consulte [Streams Runner for Apache Beam ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/).

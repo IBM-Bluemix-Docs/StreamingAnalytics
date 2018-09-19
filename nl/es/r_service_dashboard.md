@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -25,7 +25,7 @@ Desde el panel de control del servicio puede:
 * Detener e iniciar la instancia de servicio.
 * Acceder a la consola de {{site.data.keyword.streaminganalyticsshort}}.
 * Redimensionar la instancia de servicio añadiendo o eliminando nodos de aplicación a o de la instancia de servicio si la instancia se factura por hora de uso.
-* Indicar si su instancia de servicio, que se factura por hora de uso, se debería detener automáticamente cuando no se ejecutan trabajos durante un período de tiempo prolongado.
+* Indicar si su instancia de servicio, que se factura por hora de uso, se debe detener automáticamente cuando no se ejecutan trabajos durante un período prolongado.
 * Acceder a las credenciales de servicio.
 * Acceder a las guías de aprendizaje de las aplicaciones de inicio.
 * Acceder a la documentación del servicio y a los foros de usuarios.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-24"
 
 ---
 
@@ -16,12 +16,12 @@ lastupdated: "2018-04-24"
 # Alta disponibilidad de Streaming Analytics
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} permite una alta disponibilidad para las aplicaciones. Si se detecta un problema en uno de los nodos de la aplicación (recursos de {{site.data.keyword.streamsshort}}), el nodo se sustituye automáticamente y los trabajos que estén en ejecución en el nodo en cuestión se migran. Los trabajos solo se migran y se reinician si la instancia contiene varios nodos de aplicación. Puede redimensionar la instancia mediante el [panel de control de servicio](/docs/services/StreamingAnalytics/r_service_dashboard.html) o la API REST de [{{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/220){:new_window} para los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). Para los planes de servicio de v2, utilice la API REST de [v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/1939){:new_window}
+{{site.data.keyword.streaminganalyticsshort}} permite una alta disponibilidad para las aplicaciones. Si se detecta un problema en uno de los nodos de la aplicación (recursos de {{site.data.keyword.streamsshort}}), el nodo se sustituye automáticamente y los trabajos que estén en ejecución en el nodo en cuestión se migran. Los trabajos solo se migran y se reinician si la instancia contiene varios nodos de aplicación. Puede redimensionar la instancia mediante el [panel de control de servicio](/docs/services/StreamingAnalytics/r_service_dashboard.html) o la [API REST de {{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} para los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). Para los planes de servicio de v2, utilice la [API REST de v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}{:new_window}
 {:shortdesc}
 
 Este vídeo muestra cómo redimensionar la instancia mediante el panel de control de servicio:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Redimensionar instancia</iframe>
+<iframe width="560" height="315" title="Redimensionar instancia" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Redimensionar instancia</iframe>
 
 ## Regiones coherentes
 Debido a los requisitos empresariales, algunas aplicaciones requieren que todas las tuplas se procesen al menos una vez. Se ha reforzado {{site.data.keyword.streamsshort}} con operadores y anotaciones que permiten la definición de una región que no pierde tuplas durante el proceso de secuencias. Las tuplas de una región coherente se procesan por lo menos una vez.
