@@ -50,7 +50,7 @@ You can access this new container-based infrastructure with the v2 service plans
         <li>Runs on a VM-based infrastructure.</li>
         <li>Supports v1 and v2 REST APIs.<br></li>
         <li>Supports both IAM authentication and user credentials authentication.</li>
-        <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-vm/)
+        <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-vm/)
       </ul>    
     </td>
   </tr>
@@ -78,8 +78,7 @@ You can access this new container-based infrastructure with the v2 service plans
       <li>Runs on a container-based infrastructure.</li>
       <li>Supports v2 REST APIs.<br></li>
       <li>Supports IAM authentication.</li>
-      <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/)</li>
-      <li>Only available in US South region</li>
+      <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/)</li>
     </ul>
     </td>
   </tr>

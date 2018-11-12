@@ -34,4 +34,4 @@ You can now write both Java and SPL applications that have guaranteed tuple proc
 
 You can define the start of a consistent region with the `@consistent` annotation on a capable operator. {{site.data.keyword.streamsshort}} determines the scope of the consistent region automatically, but you can change the end operator of the region with the `@autonomous` annotation. The defined consistent region periodically establishes a consistent state.
 
-Check out the [{{site.data.keyword.streamsshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.dev.doc/doc/consistentregions.html) for more details about using consistent regions in Streams applications.
+Check out the [{{site.data.keyword.streamsshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) for more details about using consistent regions in Streams applications.
