@@ -47,7 +47,7 @@ You can run the starter application without modification. If you want to experim
     <th id="EventDetection2" colspan="3">Event Detection v2 sample app<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">The Event Detection v2 app is implemented via the <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. This starter app is only compatible with [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html).
+    <td colspan="3" headers="EventDetection2">The Event Detection v2 app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. This starter app is only compatible with [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html).
 The app provides a simple web UI to display status and results of the analysis.
 The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} v2 REST API.
 <p>You can run the starter application without modification.
@@ -69,7 +69,7 @@ If you want to experiment further with the service, you can also modify the code
     <th id="EventDetection1" colspan="3">Event Detection sample app<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">The Event Detection app is implemented via the <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime.
+    <td headers="EventDetection1" colspan="3">The Event Detection app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime.
 This starter app is only compatible with [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html). The app provides a simple web UI to display status and results of the analysis.
 The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} REST API.
 <p>You can run the starter application without modification.

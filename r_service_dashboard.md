@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# Service dashboard
+# Service details page
 {: #dashboard}
 
-You can access your {{site.data.keyword.streaminganalyticsshort}} service from the {{site.data.keyword.Bluemix_short}} service dashboard.
+You can access your {{site.data.keyword.streaminganalyticsshort}} service from the {{site.data.keyword.Bluemix_short}} dashboard.
 {:shortdesc}
 
-From the service dashboard you can:
+From the service details page you can:
 
 * See the status of your {{site.data.keyword.streaminganalyticsshort}} service.
 * Stop and start your service instance.
@@ -29,3 +29,4 @@ From the service dashboard you can:
 * Access the service credentials.
 * Access tutorials for the starter applications.
 * Access the service documentation and user forums.
+* Manage service endpoints.

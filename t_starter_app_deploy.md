@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics is a fully managed service that frees you from time-consumin
 
 You must follow these steps to deploy the starter apps:
 
-* Register for an [{{site.data.keyword.Bluemix_notm}} account ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration){:new_window}
-* Create an instance of the {{site.data.keyword.streaminganalyticsshort}} service in your {{site.data.keyword.Bluemix_notm}} organization. You can create the instance directly from the [**{{site.data.keyword.streaminganalyticsshort}}** page in the {{site.data.keyword.Bluemix_notm}} Services Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Install the {{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* Register for an [{{site.data.keyword.Bluemix_notm}} account ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/registration){:new_window}
+* Create an instance of the {{site.data.keyword.streaminganalyticsshort}} service in your {{site.data.keyword.Bluemix_notm}} organization. You can create the instance directly from the [**{{site.data.keyword.streaminganalyticsshort}}** offering details page in the {{site.data.keyword.Bluemix_notm}} catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
+* [Install the {{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -36,7 +36,7 @@ You must follow these steps to deploy the starter apps:
 
 1. Create an application in {{site.data.keyword.Bluemix_notm}}:
 
-    a. In the **{{site.data.keyword.Bluemix_notm}}** menu, select **Cloud Foundry Apps** and click **Create resource**.
+    a. Go to **Menu**>**Cloud Foundry Apps**>**Create resource** to create a resource.
 
     b. Select the {{site.data.keyword.sdk4node}} runtime for the Event Detection or Event Detection v2 starter apps.
 
@@ -65,10 +65,10 @@ You must follow these steps to deploy the starter apps:
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. Go to your application overview page, accessible from the {{site.data.keyword.Bluemix_notm}} dashboard to verify that your application started successfully.
-1. Launch your application to see it in your browser. You can find your application's URL (or "route") on the application overview page.
+1. Go to your application details page, accessible from the {{site.data.keyword.Bluemix_notm}} dashboard to verify that your application started successfully.
+1. Launch your application to see it in your browser. You can find your application's URL (or "route") on the application details page.
 
 ## Next steps
 {: #next_steps}
 
-Now that your application is running, you can monitor the application from the {{site.data.keyword.streaminganalyticsshort}} console. Go to the service dashboard, select your {{site.data.keyword.streaminganalyticsshort}} service, and click **Launch**.
+Now that your application is running, you can monitor the application from the {{site.data.keyword.streaminganalyticsshort}} console. Go to the service details page, select your {{site.data.keyword.streaminganalyticsshort}} service, and click **Launch**.

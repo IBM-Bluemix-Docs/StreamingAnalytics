@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-07-24"
 You can deploy your {{site.data.keyword.streamsshort}} applications to a {{site.data.keyword.streaminganalyticsshort}} instance that is running in {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-{{site.data.keyword.streamsshort}} applications are written in {{site.data.keyword.streamsshort}} Processing Language (SPL), SPL, Java, Scala, or Python in an {{site.data.keyword.streamsshort}} environment. You can now develop Streams Python applications without an {{site.data.keyword.streamsshort}} environment. See [Deploying {{site.data.keyword.streamsshort}} Python applications to the cloud](docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)
+{{site.data.keyword.streamsshort}} applications are written in {{site.data.keyword.streamsshort}} Processing Language (SPL), SPL, Java, Scala, or Python in an {{site.data.keyword.streamsshort}} environment. You can now develop Streams Python applications without an {{site.data.keyword.streamsshort}} environment. See [Deploying {{site.data.keyword.streamsshort}} Python applications to the cloud](/docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)
 
 
 {{site.data.keyword.streaminganalyticsshort}} doesn't include an {{site.data.keyword.streamsshort}} development environment in the cloud, but you can deploy the applications that you develop locally to the cloud.
@@ -40,7 +40,7 @@ To deploy your {{site.data.keyword.streamsshort}} applications to the cloud:
 4. Submit the application bundle (.sab file) that is associated with your SPL, Java, Scala, or Python application to your service instance in the cloud by using one of these methods:
 	* Use the {{site.data.keyword.streaminganalyticsshort}} console to submit the application bundle.
 
-  * Create an application in {{site.data.keyword.Bluemix_notm}} and add the {{site.data.keyword.streamsshort}} application to it. Control it by using the [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} for [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html) or the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window} for v2 service plans.
+  * Create an application in {{site.data.keyword.Bluemix_notm}} and add the {{site.data.keyword.streamsshort}} application to it. Control it by using the [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} for [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html) or the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window} for v2 service plans.
 
 Your application is now deployed in the cloud. You can monitor your application in the {{site.data.keyword.streaminganalyticsshort}} service. You can also submit more than one application (.sab files) to your service instance. As many as you want.
 

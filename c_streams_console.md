@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,6 +30,6 @@ Use the {{site.data.keyword.streaminganalyticsshort}} console to monitor your jo
 * Monitoring how operators behave and guaranteed tuple processing in the cloud. {{site.data.keyword.streamsshort}} provides metrics to help evaluate the health of {{site.data.keyword.streamsshort}} services, to aid in diagnosing performance issues, and to analyze throughput of requests. You can use the Streams Console in {{site.data.keyword.streaminganalyticsshort}} to [monitor how operators behave and ensure resource optimization ![External link icon](../../icons/launch-glyph.svg "External link icon").](https://wp.me/p4IICn-4bH)
 
 
-You can access the {{site.data.keyword.streaminganalyticsshort}} console from the service dashboard.
+You can access the {{site.data.keyword.streaminganalyticsshort}} console from the service details page.
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

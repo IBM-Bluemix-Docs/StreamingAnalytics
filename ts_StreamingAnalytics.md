@@ -64,5 +64,5 @@ You have multiple applications in your service instance and one of the applicati
 A large scale pod restart- which is most often triggered by service updates- can lead to applications being unable to restart if they require special tagging, and the resource quota was already met. In some cases, large scale pod restarts can be caused by failure recovery scenarios.
 {: tsCauses}
 
-You need to either increase your resource quota or free up some resources so the applications can acquired resources with the required tags. To increase your quota, go to the service dashboard and grow your instance size. To free up resources, cancel existing jobs until enough resources are freed to properly place the applications.
+You need to either increase your resource quota or free up some resources so the applications can acquired resources with the required tags. To increase your quota, go to the service details page and grow your instance size. To free up resources, cancel existing jobs until enough resources are freed to properly place the applications.
 {: tsResolve}

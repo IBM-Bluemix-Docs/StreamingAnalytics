@@ -50,7 +50,7 @@ You can access this new container-based infrastructure with the v2 service plans
         <li>Runs on a VM-based infrastructure.</li>
         <li>Supports v1 and v2 REST APIs.<br></li>
         <li>Supports both IAM authentication and user credentials authentication.</li>
-        <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-vm/)
+        <li>Supports [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-linux/)
       </ul>    
     </td>
   </tr>
@@ -91,7 +91,7 @@ You can access this new container-based infrastructure with the v2 service plans
 
 The following features are only supported in the v1 service plans:
 
-* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1). In the v2 infrastructure, you must use the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)
+* [v1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1). In the v2 infrastructure, you must use the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2)
 * NYC Traffic and Event Detection v1 sample apps. See [Sample applications](/docs/services/StreamingAnalytics/c_starterapps.html) to get a list of apps you can use to get you started with {{site.data.keyword.streaminganalyticsshort}} in the v2 container-based infrastructure.
 * Compatibility of some toolkits. See [Compatible toolkits](/docs/services/StreamingAnalytics/compatible_toolkits.html) to get a list of toolkits that are compatible with the new container-based infrastructure.
 
@@ -101,7 +101,7 @@ The following features are only supported in the v1 service plans:
 The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable for v1 service plans include the VCAP information that is required to use the {{site.data.keyword.streaminganalyticsshort}} v1 REST API. The VCAP information provides the REST URL, service instance ID, binding ID, and credentials for each {{site.data.keyword.streaminganalyticsshort}} v1 REST API.  
 {:shortdesc}
 
- When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned and bound to an application in {{site.data.keyword.Bluemix_notm}}, the service instance VCAP information is available to the {{site.data.keyword.Bluemix_notm}} application environment. You can find this information in the VCAP_SERVICES environment variable. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned without specifying an application in {{site.data.keyword.Bluemix_notm}} to bind to, service credentials are automatically created. {{site.data.keyword.streaminganalyticsshort}} service credentials can be accessed from the service dashboard.
+ When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned and bound to an application in {{site.data.keyword.Bluemix_notm}}, the service instance VCAP information is available to the {{site.data.keyword.Bluemix_notm}} application environment. You can find this information in the VCAP_SERVICES environment variable. When a {{site.data.keyword.streaminganalyticsshort}} service instance is provisioned without specifying an application in {{site.data.keyword.Bluemix_notm}} to bind to, service credentials are automatically created. {{site.data.keyword.streaminganalyticsshort}} service credentials can be accessed from the service details page.
 
 
 The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable include information as presented in the following example:
@@ -131,7 +131,7 @@ The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_S
 }	  
 </code></pre>
 
-For more information about the v1 REST API, see the  [v1 REST API documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/apidocs/220){:new_window}.
+For more information about the v1 REST API, see the  [v1 REST API documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}.
 
 ## VCAP_SERVICES environment variable for v2 service plans
 {: #v2_vcap_services}
@@ -152,4 +152,4 @@ The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_S
     }
 </code></pre>
 
-For more information about the v2 REST API, see the  [v2 REST API documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/apidocs/1939){:new_window}.
+For more information about the v2 REST API, see the  [v2 REST API documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}.
