@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -21,6 +21,6 @@ lastupdated: "2018-07-24"
 
 從使用[範例應用程式](/docs/services/StreamingAnalytics/c_starterapps.html)開始，了解如何在 {{site.data.keyword.streaminganalyticsshort}} 服務提交及監視 Beam 應用程式。您可以從 {{site.data.keyword.streaminganalyticsshort}} 主控台下載範例應用程式。
 
-請參閱 [{{site.data.keyword.streamsshort}} Runner for Apache Beam 文件 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}，以查看顯示 Streams Runner 如何適用於 [Beam 功能矩陣] 的表格。請參閱[安裝 IBM Streams Runner for Apache Beam ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://bit.ly/2zFDpPr){:new_window}，以取得如何在 Streams 環境安裝 `com.ibm.streams.beam` 工具箱的指示，建立您可以在 {{site.data.keyword.streaminganalyticsshort}} 提交及監視的 Beam 應用程式。
+請參閱 [{{site.data.keyword.streamsshort}} Runner for Apache Beam 文件 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}，以查看顯示 Streams Runner 如何適用於 [Beam Capability Matrix](https://beam.apache.org/documentation/runners/capability-matrix/) 的表格。請參閱[安裝 IBM Streams Runner for Apache Beam ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://bit.ly/2zFDpPr){:new_window}，以取得如何在 Streams 環境安裝 `com.ibm.streams.beam` 工具箱的指示，建立您可以在 {{site.data.keyword.streaminganalyticsshort}} 提交及監視的 Beam 應用程式。
 
 熟悉 Beam 程式設計會有幫助，但並非必要；[Apache Beam 網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://beam.apache.org/documentation/){:new_window} 有實用的 [Apache Beam Java SDK 快速入門 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://beam.apache.org/get-started/quickstart-java/){:new_window} 頁面及其他文件。

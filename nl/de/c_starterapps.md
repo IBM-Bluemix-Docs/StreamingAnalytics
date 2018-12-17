@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -25,7 +25,8 @@ Sie können Starteranwendungen bereitstellen und modifizieren und Sie können in
     <th id="stocktrades" colspan="3">Beispiel-App 'Stock Trades'<br></th>
   </tr>
   <tr>
-    <td headers="stocktrades" colspan="3">Diese Anwendung analysiert einen Datenstrom mit Börsennotierungen und generiert einen gleitenden Durchschnittswert der Preise mithilfe des Operators für die <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregierung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a>. Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen. Die vollständige Quelle für die Starteranwendung ist <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">auf GitHub verfügbar ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a>.</p>
+    <td headers="stocktrades" colspan="3">Diese Anwendung analysiert einen Datenstrom mit Börsennotierungen und generiert einen gleitenden Durchschnittswert der Preise mithilfe des Operators für die <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregierung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a>.
+Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen. Die vollständige Quelle für die Starteranwendung ist <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">auf GitHub verfügbar ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a>.</p>
 </td>
   </tr>
   <tr>
@@ -42,7 +43,7 @@ Sie können Starteranwendungen bereitstellen und modifizieren und Sie können in
     <th id="EventDetection2" colspan="3">Beispiel-App 'Event Detection v2'<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">Die App 'Event Detection v2' wird über die Laufzeitumgebung <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert. Diese Starter-App ist nur mit [v2-Serviceplänen](/docs/services/StreamingAnalytics/service_plans.html) kompatibel.
+    <td colspan="3" headers="EventDetection2">Die App 'Event Detection v2' wird über die Laufzeitumgebung von <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert. Diese Starter-App ist nur mit [v2-Serviceplänen](/docs/services/StreamingAnalytics/service_plans.html) kompatibel.
 Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
 Die Node.js-App ist an eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service gebunden. Die App steuert den Service über die {{site.data.keyword.streaminganalyticsshort}}-v2-REST-API.
 <p>Sie können die Starteranwendung unverändert ausführen.
@@ -62,8 +63,7 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
     <th id="EventDetection1" colspan="3">Beispiel-App 'Event Detection'<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">Die App 'Event Detection' wird über die Laufzeitumgebung <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert.
-Diese Starter-App ist nur mit [v1-Serviceplänen](/docs/services/StreamingAnalytics/service_plans.html) kompatibel. Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
+    <td headers="EventDetection1" colspan="3">Die App 'Event Detection' wird über die Laufzeitumgebung von <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert. Diese Starter-App ist nur mit [v1-Serviceplänen](/docs/services/StreamingAnalytics/service_plans.html) kompatibel. Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
 Die Node.js-App ist an eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service gebunden. Die App steuert den Service über die {{site.data.keyword.streaminganalyticsshort}}-REST-API.
 <p>Sie können die Starteranwendung unverändert ausführen.
 Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen.</p>
@@ -107,8 +107,8 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
 </td>
   </tr>
   <tr>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">App anzeigen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#running-the-temperaturesample-application" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#viewing-the-running-application" target="_blank">App anzeigen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
 </table>
 
@@ -123,7 +123,7 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
 </td>
   </tr>
   <tr>
-    <td headers="WordCountSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
+    <td headers="WordCountSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/wordcount/" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
   </tr>
 </table>
 
@@ -138,7 +138,7 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
 </td>
   </tr>
   <tr>
-    <td headers="FilterStreamSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
+    <td headers="FilterStreamSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/objstor/" target="_blank">App bereitstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a><br></td>
   </tr>
 </table>
 

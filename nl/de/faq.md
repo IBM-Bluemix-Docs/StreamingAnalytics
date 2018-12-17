@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -12,50 +12,59 @@ lastupdated: "2018-07-24"
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
+{:faq: data-hd-content-type='faq'}
 
 # Häufig gestellte Fragen (FAQs)
 {: #faq}
 
 ## Wie melde ich mich beim Streaming Analytics-Service an?
-{: #signup notoc}  
+{: #signup notoc}
+{: faq}  
 
-Weitere Informationen zu den {{site.data.keyword.streaminganalyticsshort}}-Serviceplänen finden Sie auf der [{{site.data.keyword.Bluemix_short}}-Katalogseite](https://console.bluemix.net/catalog/services/streaming-analytics).
+Weitere Informationen zu den {{site.data.keyword.streaminganalyticsshort}}-Serviceplänen finden Sie im [{{site.data.keyword.Bluemix_short}}-Katalog](https://{DomainName}/catalog/services/streaming-analytics).
 
 ## Welche Version des Streaming Analytics-Service verwende ich?
-{: #version notoc}   
+{: #version notoc}
+{: faq}   
 
 Verbesserungen werden in regelmäßigen Abständen an alle {{site.data.keyword.streaminganalyticsshort}}-Services per Push-Operation übertragen. Sie verwenden stets die neueste Version des verwalteten Service und es gibt keine Produktversion und keinen Produktänderungsstand, die bzw. den Sie überwachen müssen.
 
 ## Welche Verwaltungsaufgaben übernimmt IBM?
-{: #ibm_manage notoc}   
+{: #ibm_manage notoc}
+{: faq}   
 
 Die Installation, Software-Upgrades, das Erstellen und Verwalten von Domänen sowie die Hardwarewartung werden übernommen. Der Service umfasst eine Statusüberwachung rund um die Uhr.
 
 
 ## Für welche Aufgaben bin ich zuständig?  
 {: #responsible notoc}
+{: faq}
 
 Sie schreiben die Anwendungen für die Ausführung in einer {{site.data.keyword.streaminganalyticsshort}}-Service- und Streams-Instanz lokal und stellen sicher, dass diese korrekt funktionieren und die Leistungsanforderungen erfüllen. Darüber hinaus sind Sie für eine gegebenenfalls angewandte anwendungsspezifische Überwachung verantwortlich.
 
 ## Wird HA-Unterstützung (Hochverfügbarkeit) bereitgestellt?
 {: #ha notoc}
+{: faq}
 
 Die Hochverfügbarkeit wird von IBM verwaltet. {{site.data.keyword.streaminganalyticsshort}} ist für die HA-Unterstützung konfiguriert. Falls es zu einer Funktionsübernahme kommt, stehen zusätzliche Serverressourcen zur Verfügung.
 
 ## Wie werden Sicherheitaspekte für den Streaming Analytics-Service gehandhabt?
-{: #security notoc}  
+{: #security notoc}
+{: faq}   
 
 Die Sicherheit wird vollständig von IBM verwaltet. Für jeden Service werden Berechtigungsnachweise generiert und Ihnen zur Verfügung gestellt. Sicherheitsupdates werden von IBM verwaltet und angewendet, sobald sie verfügbar sind.
 
 ## Muss ich einen Streaming Analytics-Service konfigurieren?  
 {: #configure notoc}
+{: faq}
 
 Der Service wird erstellt und von IBM vollständig gewartet. Jeder Service besteht aus einem dedizierten Satz von Anwendungsknoten.
 
 ## Wie entwickle ich Streams-Anwendungen?
 {: #streamsapp notoc}
+{: faq}
 
-Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) entwickeln, wenn Sie [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} herunterladen.
+Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) entwickeln, wenn Sie [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window} herunterladen.
 
 Falls Sie über eine lokale {{site.data.keyword.streamsshort}}-Installation verfügen, können Sie auch diese verwenden. Lokal entwickelte und kompilierte Anwendungen können dann nahtlos als Paket für einen Streams-Service in der Cloud bereitgestellt werden.
 
@@ -65,11 +74,13 @@ Weitere Informationen zur Entwicklung von Anwendungen finden Sie im [{{site.data
 
 ## Kann ich mich direkt bei einem Streaming Analytics-Service-Host anmelden?
 {: #host notoc}  
+{: faq}
 
 Nein. Eine direkte Anmeldung beim Server mit Telnet oder SSH (Secure Shell) wird nicht unterstützt. Sie können keine zusätzliche Software installieren und Sie können Software, bei der es sich nicht um Streams-Software handelt, nicht auf einem Streams-Host ausführen.
 
 ## Kann ich auf das Dateisystem des Streaming Analytics-Service zugreifen?
-{: #filesystem notoc}  
+{: #filesystem notoc}
+{: faq}   
 
 Nur Ihre Streams-Anwendungen können direkt auf das Dateisystem eines Streams-Hosts zugreifen.
 
@@ -78,7 +89,7 @@ Es existieren cloudfähige Alternativen für Lösungen, die einen Mechanismus zu
 ## Wie können die Streaming Analytics-Serviceanwendungen auf die Unternehmensdaten meiner Organisation zugreifen?
 {: #access notoc}  
 
-Sie können den [{{site.data.keyword.Bluemix_notm}} Secure Gateway-Service](https://console.bluemix.net/catalog/services/secure-gateway) verwenden, um eine sichere Verbindung zwischen Streams-Anwendungen und Ihrem Unternehmen herzustellen.
+Sie können den [{{site.data.keyword.Bluemix_notm}} Secure Gateway-Service](https://{DomainName}/catalog/services/secure-gateway) verwenden, um eine sichere Verbindung zwischen Streams-Anwendungen und Ihrem Unternehmen herzustellen.
 
 ## Werden alle Features für lokale IBM Streams-Implementierungen auch vom Streaming Analytics-Service in der Cloud unterstützt?
 {: #features notoc}

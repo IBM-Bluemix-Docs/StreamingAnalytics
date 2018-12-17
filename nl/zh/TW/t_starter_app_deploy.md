@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics 是讓您不需要執行耗時安裝、系統管理及管理
 
 您必須遵循下列步驟，才能部署入門範本應用程式：
 
-* 登錄 [{{site.data.keyword.Bluemix_notm}} 帳戶 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration){:new_window}
-* 在 {{site.data.keyword.Bluemix_notm}} 組織中，建立 {{site.data.keyword.streaminganalyticsshort}} 服務實例。您可以直接從 [{{site.data.keyword.Bluemix_notm}} 服務型錄中的 **{{site.data.keyword.streaminganalyticsshort}}** 頁面 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window} 建立實例。  
-* [安裝 {{site.data.keyword.Bluemix_notm}} CLI ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
+* 登錄 [{{site.data.keyword.Bluemix_notm}} 帳戶 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/registration){:new_window}
+* 在 {{site.data.keyword.Bluemix_notm}} 組織中，建立 {{site.data.keyword.streaminganalyticsshort}} 服務實例。您可以直接從 [{{site.data.keyword.Bluemix_notm}} 型錄中的 **{{site.data.keyword.streaminganalyticsshort}}** 供應項目詳細資料頁面 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window} 建立實例。  
+* [安裝 {{site.data.keyword.Bluemix_notm}} CLI ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
 
 
 
@@ -36,7 +36,7 @@ Streaming Analytics 是讓您不需要執行耗時安裝、系統管理及管理
 
 1. 在 {{site.data.keyword.Bluemix_notm}} 中建立應用程式：
 
-    a. 在 **{{site.data.keyword.Bluemix_notm}}** 功能表中，選取 **Cloud Foundry 應用程式**，然後按一下**建立資源**。
+    a. 移至**功能表**>**Cloud Foundry 應用程式**>**建立資源**，以建立資源。
 
     b. 為 Event Detection 或 Event Detection v2 入門範本應用程式選取 {{site.data.keyword.sdk4node}} 運行環境。
 
@@ -65,10 +65,10 @@ Streaming Analytics 是讓您不需要執行耗時安裝、系統管理及管理
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. 移至您的應用程式概觀頁面（可從 {{site.data.keyword.Bluemix_notm}} 儀表板存取），以驗證您的應用程式已順利啟動。
-1. 啟動應用程式以在瀏覽器中看到它。您可以在應用程式概觀頁面上找到應用程式的 URL（或「路徑」）。
+1. 移至您的應用程式詳細資料頁面（可從 {{site.data.keyword.Bluemix_notm}} 儀表板存取），以驗證您的應用程式已順利啟動。
+1. 啟動應用程式以在瀏覽器中看到它。您可以在應用程式詳細資料頁面上找到應用程式的 URL（或「路徑」）。
 
 ## 後續步驟
 {: #next_steps}
 
-既然您的應用程式正在執行，您可以從 {{site.data.keyword.streaminganalyticsshort}} 主控台監視應用程式。請移至服務儀表板，並選取 {{site.data.keyword.streaminganalyticsshort}} 服務，然後按一下**啟動**。
+既然您的應用程式正在執行，您可以從 {{site.data.keyword.streaminganalyticsshort}} 主控台監視應用程式。請移至服務詳細資料頁面，並選取 {{site.data.keyword.streaminganalyticsshort}} 服務，然後按一下**啟動**。

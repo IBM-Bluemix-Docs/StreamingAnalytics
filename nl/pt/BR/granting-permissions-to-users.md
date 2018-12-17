@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -15,9 +15,7 @@ lastupdated: "2018-07-24"
 
 # Concedendo Permissões a Usuários
 
-Com uma conta do {{site.data.keyword.Bluemix_notm}}, você tem privilégios administrativos na organização ou espaço sob sua conta para executar todas as operações no {{site.data.keyword.streaminganalyticsshort}}. No entanto, ao
-integrar outros usuários à sua conta, é necessário gerenciar suas permissões para que eles tenham os privilégios necessários
-para operar instâncias de serviço em sua conta.
+Com uma conta do {{site.data.keyword.Bluemix_notm}}, você tem privilégios administrativos na organização ou espaço sob sua conta para executar todas as operações no {{site.data.keyword.streaminganalyticsshort}}. Porém, ao incluir outros usuários na sua conta, é necessário gerenciar suas permissões para que eles tenham os privilégios necessários para operar as instâncias de serviço sob a sua conta.
 
 No {{site.data.keyword.streaminganalyticsshort}}, o acesso às operações de gerenciamento de serviço é controlado pelos
 seguintes níveis de permissão:
@@ -25,17 +23,17 @@ seguintes níveis de permissão:
 | Operação | Necessário {{site.data.keyword.Bluemix_notm}} permissões | Permissões Necessárias do IAM |
 |-----------|------------------------------|--------------------------|
 | Criar ou excluir um serviço | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Nenhum |
-| Visualize o painel de serviço | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Viewer e acima |
+| Visualizar a página de detalhes do serviço | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Viewer e acima |
 | Redimensione o serviço   | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Editor e acima |
 | Gere chaves de serviço usando a CLI CF ou a UI do {{site.data.keyword.Bluemix_notm}} | Função de Desenvolvedor para o {{site.data.keyword.Bluemix_notm}} espaço | Nenhum |
 
-Para integrar novos usuários à sua conta:
+Para incluir novos usuários na sua conta:
 
-1.	Efetue logon no [{{site.data.keyword.Bluemix_notm}} painel](https://console.bluemix.net).
+1.	Efetue logon no [{{site.data.keyword.Bluemix_notm}} painel](https://{DomainName}).
 
-2.	Clique em **Gerenciar-> Conta-> Usuários**.
+2.	Clique em **Gerenciar -> Acessar (IAM) -> Usuários**.
 
-3.	Na página **Gerenciamento de usuário**, clique em **Convidar usuários**.
+3.	Na página **Usuários**, clique em **Convidar usuários**.
 
 4.	Insira o IBMid do usuário que deseja convidar.
 
@@ -60,4 +58,4 @@ usuário.
 
 	c.	Selecione o espaço ao qual deseja conceder o acesso de usuário.
 
-	e.	Selecione a função que deseja designar ao usuário. Para visualizar o painel de serviço e executar tarefas, como gerar chaves de serviço, deve-se designar a função de Desenvolvedor.
+	e.	Selecione a função que deseja designar ao usuário. Para visualizar a página de detalhes do serviço e executar tarefas como a geração de chaves de serviço, deve-se ter a função de desenvolvedor designada.

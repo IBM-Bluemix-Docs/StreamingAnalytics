@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -22,17 +22,17 @@ lastupdated: "2018-07-24"
 |作業|必要的 {{site.data.keyword.Bluemix_notm}} 許可權|必要的 IAM 許可權|
 |-----------|------------------------------|--------------------------|
 |建立或刪除服務|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|無|
-|檢視服務儀表板|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|檢視者以上|
+|檢視服務詳細資料頁面|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|檢視者以上|
 |調整服務大小|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|編輯者以上|
 |使用 CF CLI 或 {{site.data.keyword.Bluemix_notm}} 使用者介面產生服務金鑰|對 {{site.data.keyword.Bluemix_notm}} 空間的開發人員角色|無|
 
 若要將新的使用者加入您的帳戶中，請執行下列動作：
 
-1.	登入 [{{site.data.keyword.Bluemix_notm}} 儀表板](https://console.bluemix.net)。
+1.	登入 [{{site.data.keyword.Bluemix_notm}} 儀表板](https://{DomainName})。
 
-2.	按一下**管理 -> 帳戶 -> 使用者**。
+2.	按一下**管理 -> 帳戶 (IAM) -> 使用者**。
 
-3.	在**使用者管理**頁面中，按一下**邀請使用者**。
+3.	在**使用者**頁面中，按一下**邀請使用者**。
 
 4.	輸入您要邀請之使用者的 IBM ID。
 
@@ -54,4 +54,4 @@ lastupdated: "2018-07-24"
 
 	c.	選取您要授與使用者存取權的空間。
 
-	e.	選取您要指派給使用者的角色。若要檢視服務儀表板及執行例如產生服務金鑰的作業，您必須指派「開發人員」角色。
+	e.	選取您要指派給使用者的角色。若要檢視服務詳細資料頁面及執行例如產生服務金鑰的作業，您必須指派「開發人員」角色。

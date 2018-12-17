@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -36,8 +36,8 @@ Python 開発環境がない場合は、{{site.data.keyword.DSX_short}} の {{si
 ## ローカル Python 環境でのアプリケーションの開発
  {: #t_develop_python_api}
 
-streamsx パッケージに含まれている [{{site.data.keyword.streamsshort}} Python Application API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) を使用すると、Python 呼び出し可能クラスまたは関数を使用してストリーム処理アプリケーションを作成できます。その後、Python Application API を使用して、アプリケーションを定義してサービスにサブミットします。
+streamsx パッケージに含まれている [{{site.data.keyword.streamsshort}} Python Application API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features) を使用すると、Python 呼び出し可能クラスまたは関数を使用してストリーム処理アプリケーションを作成できます。 その後、Python Application API を使用して、アプリケーションを定義してサービスにサブミットします。
 
-[Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)チュートリアルのステップに従って開始します。このチュートリアルでは、ローカル Python 環境でサンプル・アプリケーションを作成し、それを {{site.data.keyword.streaminganalyticsshort}} サービスにデプロイします。
+[Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)チュートリアルのステップに従って開始します。 このチュートリアルでは、ローカル Python 環境でサンプル・アプリケーションを作成し、それを {{site.data.keyword.streaminganalyticsshort}} サービスにデプロイします。
 
 {{site.data.keyword.streamsshort}} Python アプリケーション API についてより深く知るには、[このオンライン・コース ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/){:new_window} を視聴して、Python 開発者のための {{site.data.keyword.streaminganalyticsshort}} の基本を学習してください。

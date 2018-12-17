@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="StreamingAnalytics" audience="service" href="/docs/services/StreamingAnalytics/index.html"}
+{: .toc subcollection="StreamingAnalytics" audience="service" href="/docs/services/StreamingAnalytics/index.html" path="services/StreamingAnalytics"}
 Streaming Analytics
 
     {: .navgroup id="learn"}
@@ -27,9 +27,9 @@ Streaming Analytics
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-related_links.md
-    [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1)
-    [v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)
+    related_links.md
+    [v1 REST API](../apidocs/streaming-analytics-v1)
+    [v2 REST API](../apidocs/streaming-analytics-v2)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     {: .navgroup-end}
 
@@ -48,6 +48,7 @@ related_links.md
         granting-permissions-to-users.md
 
     {: .topicgroup}
+    service_endpoints.md
     compatible_toolkits.md
     c_beta_tooling.md
     r_integrating_cloudant_rest.md

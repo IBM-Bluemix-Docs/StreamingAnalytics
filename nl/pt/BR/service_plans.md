@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,7 +30,7 @@ lastupdated: "2018-07-24"
   </tr>
   <tr>
     <td width="15%">
-    V1 planos de serviço    
+    Planos de serviço da v1 (descontinuados)    
     </td>
     <td width="35%">
     <ul>
@@ -50,7 +50,7 @@ lastupdated: "2018-07-24"
         <li>Executa em uma infraestrutura VM baseada.</li>
         <li>Suporta v1 e v2 APIs REST.<br></li>
         <li>Suporta autenticação IAM e autenticação de credenciais do usuário.</li>
-        <li>Suporta [{{site.data.keyword.streamsshort}} imagem da VM do Quick Start Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-vm/)
+        <li>Suporta [{{site.data.keyword.streamsshort}} imagem da VM do Quick Start Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-linux/)
       </ul>    
     </td>
   </tr>
@@ -78,8 +78,8 @@ lastupdated: "2018-07-24"
       <li>É executado em uma infraestrutura baseada em contêiner.</li>
       <li>Suporta v2 APIs REST.<br></li>
       <li>Suporta autenticação do IAM.</li>
-      <li>Suporta o [{{site.data.keyword.streamsshort}} Quick Start Edition com o Docker ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/)</li>
-      <li>Apenas disponível na região sul dos EUA</li>
+      <li>Suporta os terminais de serviço para planos de serviço não Lite</li>
+      <li>Suporta o [{{site.data.keyword.streamsshort}} Quick Start Edition com o Docker ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/)</li>
     </ul>
     </td>
   </tr>
@@ -91,7 +91,7 @@ lastupdated: "2018-07-24"
 
 Os recursos a seguir são suportados apenas nos planos de serviços da v1:
 
-* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1). Na infraestrutura v2, deve-se usar a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/streaming-analytics-v2)
+* [v1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1). Na infraestrutura v2, deve-se usar a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2)
 * Aplicativos de amostra NYC Traffic e Event Detection v1. Consulte [Aplicativos de amostra](/docs/services/StreamingAnalytics/c_starterapps.html) para obter uma lista de aplicativos que podem ser usados para iniciar o {{site.data.keyword.streaminganalyticsshort}} na infraestrutura v2 baseada em contêiner.
 * Compatibilidade de alguns kits. Consulte [Kits de ferramentas compatíveis](/docs/services/StreamingAnalytics/compatible_toolkits.html) para obter uma lista de kits de ferramentas compatíveis com a nova infraestrutura baseada em contêiner.
 
@@ -101,8 +101,7 @@ Os recursos a seguir são suportados apenas nos planos de serviços da v1:
 As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} e a variável de ambiente VCAP_SERVICES para planos de serviços v1 incluem as informações de VCAP que são necessárias para usar a API de REST do {{site.data.keyword.streaminganalyticsshort}} v1. As informações de VCAP fornecem a URL de REST, o ID da instância de serviço, o ID de ligação e as credenciais para cada API de REST do {{site.data.keyword.streaminganalyticsshort}} v1.  
 {:shortdesc}
 
- Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada e ligada a um aplicativo no {{site.data.keyword.Bluemix_notm}}, as informações do VCAP da instância de serviço ficam disponíveis para o ambiente de aplicativos do {{site.data.keyword.Bluemix_notm}}. É possível localizar essas informações na variável de ambiente VCAP_SERVICES. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada sem especificar um aplicativo no {{site.data.keyword.Bluemix_notm}} para o qual ligar, as credenciais de serviço são criadas automaticamente. As
-credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} podem ser acessadas por meio do painel de serviços.
+ Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada e ligada a um aplicativo no {{site.data.keyword.Bluemix_notm}}, as informações do VCAP da instância de serviço ficam disponíveis para o ambiente de aplicativos do {{site.data.keyword.Bluemix_notm}}. É possível localizar essas informações na variável de ambiente VCAP_SERVICES. Quando uma instância de serviço do {{site.data.keyword.streaminganalyticsshort}} é provisionada sem especificar um aplicativo no {{site.data.keyword.Bluemix_notm}} para o qual ligar, as credenciais de serviço são criadas automaticamente. As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} podem ser acessadas por meio da página de detalhes do serviço.
 
 
 As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} e a variável de ambiente VCAP_SERVICES incluem informações conforme apresentado no exemplo a seguir:
@@ -121,9 +120,9 @@ As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} e a 
         "stop_path": "/jax-rs/streams/stop/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
         "resources_path": "/jax-rs/resources/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
         "jobs_path": "/jax-rs/jobs/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
-        "rest_host": "streams-app-service.ng.bluemix.net",
+        "rest_host": "{rest_url}",
         "rest_port": "443",
-        "rest_url": "https://streams-app-service.ng.bluemix.net",
+        "rest_url": "{rest_url}",
         "userid": "xxx",
         "password": "yyy"
       }
@@ -132,7 +131,7 @@ As credenciais de serviço do {{site.data.keyword.streaminganalyticsshort}} e a 
 }	  
 </code></pre>
 
-Para obter mais informações sobre a API de REST da v1, consulte a [documentação da API de REST da v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/220){:new_window}.
+Para obter mais informações sobre a API de REST da v1, consulte a [documentação da API de REST da v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}.
 
 ## Variável de ambiente VCAP_SERVICES para planos de serviços da v2
 {: #v2_vcap_services}
@@ -149,8 +148,8 @@ As credenciais de serviço e a variável de ambiente VCAP_SERVICES do {{site.dat
       "iam_apikey_name": "auto-generated-apikey-ab12c34d-e5d6-7890-123f-45dcece304df",
       "Iam_role_crn": "crn:v1 :bluemix:public:iam ::::serviceRole :Manager",
       "Iam_serviceid_crn": "crn:v1 :bluemix:public:iam-identity ::a/b123bb45670ab123d123e12d0a12345: :serviceid: ServiceId-a1234b5c-678d-9f6f-bdb4-16c23935efb5",
-      "V2_rest_url": "https: //streams-app-service.ng.bluemix.net/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
+      "v2_rest_url": "{rest_url}/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
     }
 </code></pre>
 
-Para obter mais informações sobre a API de REST da v2, consulte a [documentação da API de REST da v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/1939){:new_window}.
+Para obter mais informações sobre a API de REST da v2, consulte a [documentação da API de REST da v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}.

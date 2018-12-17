@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# 服務儀表板
+# 服務詳細資料頁面
 {: #dashboard}
 
-您可以從 {{site.data.keyword.Bluemix_short}} 服務儀表板存取 {{site.data.keyword.streaminganalyticsshort}} 服務。
+您可以從 {{site.data.keyword.Bluemix_short}} 儀表板存取 {{site.data.keyword.streaminganalyticsshort}} 服務。
 {:shortdesc}
 
-從服務儀表板中，您可以：
+從服務詳細資料頁面，您可以：
 
 * 查看 {{site.data.keyword.streaminganalyticsshort}} 服務的狀態。
 * 停止並啟動服務實例。
@@ -29,3 +29,4 @@ lastupdated: "2018-07-24"
 * 存取服務認證。
 * 存取入門範本應用程式的指導教學。
 * 存取服務文件和使用者討論區。
+* 管理服務端點。

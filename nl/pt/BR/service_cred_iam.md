@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -27,7 +27,7 @@ sua conta é controlado pelo {{site.data.keyword.Bluemix_notm}} Identity and Acc
 
 a. Você deve ter um IBMid válido.
 
-b. Faça download e instale o [{{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+b. Faça download e instale o [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 ### Etapa 1. Efetue login na CLI do {{site.data.keyword.Bluemix_notm}}.
 

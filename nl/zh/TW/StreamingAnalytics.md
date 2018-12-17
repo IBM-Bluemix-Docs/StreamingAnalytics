@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -25,7 +25,7 @@ lastupdated: "2018-07-24"
 
 **透過互動和程式設計方式使用服務：**
 
-您可以透過 [{{site.data.keyword.streaminganalyticsshort}} 主控台](/docs/services/StreamingAnalytics/c_streams_console.html)以互動方式使用服務，或透過 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} 以程式設計方式使用服務，如果您是使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)的話。若為 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，請使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")https://console.bluemix.net/apidocs/streaming-analytics-v2)。
+您可以透過 [{{site.data.keyword.streaminganalyticsshort}} 主控台](/docs/services/StreamingAnalytics/c_streams_console.html)以互動方式使用服務，或透過 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 以程式設計方式使用服務，如果您是使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)的話。若為 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，請使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v2)。
 
 **部署及監視 SPL、Java、Scala 及 Python 應用程式：**
 
@@ -35,7 +35,7 @@ lastupdated: "2018-07-24"
 
 若要建立及部署 Python 應用程式，而不使用 {{site.data.keyword.streamsshort}} 開發環境，請使用 {{site.data.keyword.DSX_short}} 中的服務記事本或 {{site.data.keyword.streamsshort}} Python API。如需相關資訊，請參閱[針對 {{site.data.keyword.streaminganalyticsshort}} 開發 Python 應用程式](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
 
-您可以在本端開發環境中使用 Streams Runner 開發 Beam 應用程式，然後在 {{site.data.keyword.streaminganalyticsshort}} 服務中進行部署及監視。如需使用 Streams Runner 處理 Beam 應用程式的相關資訊，請參閱[在 {{site.data.keyword.streaminganalyticsshort}} 中使用 Streams Runner 監視 Beam 應用程式](docs/services/StreamingAnalytics/gs_beamrunner.html)。
+您可以在本端開發環境中使用 Streams Runner 開發 Beam 應用程式，然後在 {{site.data.keyword.streaminganalyticsshort}} 服務中進行部署及監視。如需使用 Streams Runner 處理 Beam 應用程式的相關資訊，請參閱 [IBM Streams Runner for Apache Beam in {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/gs_beamrunner.html)。
 
 
 **與 {{site.data.keyword.streamsshort}} 運算子的相容性：**

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,6 +30,6 @@ lastupdated: "2018-07-24"
 * クラウドでのオペレーターの動作および保証されたタプル処理のモニター。 {{site.data.keyword.streamsshort}} には、{{site.data.keyword.streamsshort}} サービスの正常性を評価するのに役立ち、パフォーマンス問題の診断を支援し、要求のスループットを分析するためのメトリックが用意されています。 {{site.data.keyword.streaminganalyticsshort}} の Streams Console を使用して、[オペレーターの動作方法をモニターし、リソースの最適化を確実にする![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")ことができます。](https://wp.me/p4IICn-4bH)
 
 
-サービス・ダッシュボードから {{site.data.keyword.streaminganalyticsshort}} コンソールにアクセスできます。
+「サービス詳細」ページから {{site.data.keyword.streaminganalyticsshort}} コンソールにアクセスできます。
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

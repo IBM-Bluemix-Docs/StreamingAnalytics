@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -27,7 +27,7 @@ lastupdated: "2018-07-24"
     <th id="stocktrades" colspan="3">Stock Trades サンプル・アプリケーション<br></th>
   </tr>
   <tr>
-    <td headers="stocktrades" colspan="3">このアプリケーションは、株価の流れを分析し、<a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">集約 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a> 演算子を使用して価格の移動平均を生成します。
+    <td headers="stocktrades" colspan="3">このアプリケーションは、株価の流れを分析し、<a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">集約 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a> 演算子を使用して価格の移動平均を生成します。
 スターター・アプリケーションは、変更せずに実行できます。 さらにサービスを試してみたい場合は、コードを変更し、変更内容をプッシュして {{site.data.keyword.Bluemix_short}} 環境に戻すこともできます。 スターター・アプリケーションの全ソースは、<a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">GitHub から入手可能 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a> です。</p>
 </td>
   </tr>
@@ -47,7 +47,7 @@ lastupdated: "2018-07-24"
     <th id="EventDetection2" colspan="3">Event Detection v2 サンプル・アプリケーション<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">Event Detection v2 アプリケーションは、<a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a> ランタイムを介して実装されます。 このスターター・アプリケーションは、[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)とのみ互換性があります。
+    <td colspan="3" headers="EventDetection2">Event Detection v2 アプリケーションは、<a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a>ランタイムによって実装されます。このスターター・アプリケーションは、[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)とのみ互換性があります。
 このアプリケーションは、分析の状況と結果を表示する単純な Web UI を提供します。
 Node.js アプリケーションは、{{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスにバインドされま
 す。 このアプリケーションは、{{site.data.keyword.streaminganalyticsshort}} v2 REST API を介してサービスを制御します。
@@ -70,7 +70,7 @@ Node.js アプリケーションは、{{site.data.keyword.streaminganalyticsshor
     <th id="EventDetection1" colspan="3">Event Detection サンプル・アプリケーション<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">Event Detection アプリケーションは、<a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a> ランタイムによって実装されます。
+    <td headers="EventDetection1" colspan="3">Event Detection アプリケーションは、<a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a>ランタイムによって実装されます。
 このスターター・アプリケーションは、[v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)とのみ互換性があります。 このアプリケーションは、分析の状況と結果を表示する単純な Web UI を提供します。
 Node.js アプリケーションは、{{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスにバインドされま
 す。 このアプリケーションは、{{site.data.keyword.streaminganalyticsshort}} REST API を介してサービスを制御します。
@@ -118,8 +118,8 @@ Node.js アプリケーションは、{{site.data.keyword.streaminganalyticsshor
 </td>
   </tr>
   <tr>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">DEPLOY THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></td>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">VIEW THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#running-the-temperaturesample-application" target="_blank">DEPLOY THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#viewing-the-running-application" target="_blank">VIEW THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a></td>
   </tr>
 </table>
 
@@ -135,7 +135,7 @@ Node.js アプリケーションは、{{site.data.keyword.streaminganalyticsshor
 </td>
   </tr>
   <tr>
-    <td headers="WordCountSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">DEPLOY THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></td>
+    <td headers="WordCountSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/wordcount/" target="_blank">DEPLOY THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></td>
   </tr>
 </table>
 
@@ -150,7 +150,7 @@ Node.js アプリケーションは、{{site.data.keyword.streaminganalyticsshor
 </td>
   </tr>
   <tr>
-    <td headers="FilterStreamSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">DEPLOY THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></td>
+    <td headers="FilterStreamSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/objstor/" target="_blank">DEPLOY THE APP ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></td>
   </tr>
 </table>
 

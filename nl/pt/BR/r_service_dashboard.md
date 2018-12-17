@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# Painel de serviço
+# Página de detalhes do serviço
 {: #dashboard}
 
-É possível acessar o serviço {{site.data.keyword.streaminganalyticsshort}} por meio do painel de serviços do {{site.data.keyword.Bluemix_short}}.
+É possível acessar o seu serviço do {{site.data.keyword.streaminganalyticsshort}} por meio do painel do {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-No painel de serviços é possível:
+Na página de detalhes do serviço, é possível:
 
 * Ver o status do serviço {{site.data.keyword.streaminganalyticsshort}}.
 * Parar e iniciar sua instância de serviço.
@@ -31,3 +31,4 @@ quando não houver tarefas em execução por um período estendido.
 * Acessar as credenciais de serviço.
 * Acessar tutoriais dos aplicativos iniciadores.
 * Acessar a documentação de serviço e os fóruns do usuário.
+* Gerenciar os terminais em serviço.

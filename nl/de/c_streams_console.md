@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,6 +30,6 @@ Mit der {{site.data.keyword.streaminganalyticsshort}}-Konsole können Sie Ihre J
 * Überwachen des Operatorverhaltens und garantierte Tupelverarbeitung in der Cloud. {{site.data.keyword.streamsshort}} stellt Metriken bereit, mit denen Sie den Status der {{site.data.keyword.streamsshort}}-Services auswerten, Leistungsprobleme diagnostizieren und den Durchsatz von Anforderungen analysieren können. Sie können die Streams-Konsole in {{site.data.keyword.streaminganalyticsshort}} verwenden, um [das Verhalten von Operatoren zu überwachen und die Ressourcenoptimierung sicherzustellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").](https://wp.me/p4IICn-4bH)
 
 
-Sie können vom Service-Dashboard auf die {{site.data.keyword.streaminganalyticsshort}}-Konsole zugreifen.
+Sie können von der Servicedetailseite aus auf die {{site.data.keyword.streaminganalyticsshort}}-Konsole zugreifen.
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -21,6 +21,6 @@ Wenn Sie über eine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung verf
 
 Als ersten Schritt verwenden Sie die [Beispielanwendungen](/docs/services/StreamingAnalytics/c_starterapps.html), um sich mit der Übergabe und Überwachung einer Beam-Anwendung im {{site.data.keyword.streaminganalyticsshort}}-Service vertraut zu machen. Sie können die Beispielanwendungen von der {{site.data.keyword.streaminganalyticsshort}}-Konsole herunterladen.
 
-Lesen Sie die [{{site.data.keyword.streamsshort}} Runner for Apache Beam-Dokumentation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}, in der Sie Tabellen finden, die die Kompatibilität von Streams Runner mit der [Beam-Funktionsmatrix] veranschaulichen. [IBM Streams Runner for Apache Beam installieren ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://bit.ly/2zFDpPr){:new_window} enthält eine Anleitung zur Installation des `com.ibm.streams.beam`-Toolkits in Ihrer Streams-Umgebung für die Erstellung von Beam-Anwendungen zur Übergabe und Überwachung in {{site.data.keyword.streaminganalyticsshort}}.
+Lesen Sie die [{{site.data.keyword.streamsshort}} Runner for Apache Beam-Dokumentation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}. Hier finden Sie Tabellen, die die Kompatibilität von Streams Runner mit der [Beam-Funktionsmatrix](https://beam.apache.org/documentation/runners/capability-matrix/) veranschaulichen. [IBM Streams Runner for Apache Beam installieren ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://bit.ly/2zFDpPr){:new_window} enthält eine Anleitung zur Installation des `com.ibm.streams.beam`-Toolkits in Ihrer Streams-Umgebung für die Erstellung von Beam-Anwendungen zur Übergabe und Überwachung in {{site.data.keyword.streaminganalyticsshort}}.
 
 Grundlegende Kenntnisse der Beam-Programmierung sind von Vorteil, jedoch nicht erforderlich; auf der [Apache Beam-Website ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://beam.apache.org/documentation/){:new_window} finden Sie nützliche Informationen auf der Seite [Apache Beam Java SDK Quickstart ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://beam.apache.org/get-started/quickstart-java/){:new_window} sowie weitere Dokumente.

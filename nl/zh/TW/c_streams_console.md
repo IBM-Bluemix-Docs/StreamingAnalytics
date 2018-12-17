@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,6 +30,6 @@ lastupdated: "2018-07-24"
 * 監視運算子的運作方式及雲端中的保證值組處理。{{site.data.keyword.streamsshort}} 提供度量值來協助評估 {{site.data.keyword.streamsshort}} 服務的性能，以輔助診斷效能問題及分析要求的傳輸量。您可以使用 {{site.data.keyword.streaminganalyticsshort}} 中的「Streams 主控台」來[監視運算子的運作方式並確保資源最佳化 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。](https://wp.me/p4IICn-4bH)
 
 
-您可以從服務儀表板存取 {{site.data.keyword.streaminganalyticsshort}} 主控台。
+您可以從服務詳細資料頁面存取 {{site.data.keyword.streaminganalyticsshort}} 主控台。
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

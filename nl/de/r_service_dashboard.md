@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# Service-Dashboard
+# Servicedetailseite
 {: #dashboard}
 
-Sie können auf Ihren {{site.data.keyword.streaminganalyticsshort}}-Service vom {{site.data.keyword.Bluemix_short}}-Service-Dashboard zugreifen.
+Sie können auf Ihren {{site.data.keyword.streaminganalyticsshort}}-Service vom {{site.data.keyword.Bluemix_short}}-Dashboard aus zugreifen.
 {:shortdesc}
 
-Über das Service-Dashboard haben Sie folgende Möglichkeiten:
+Über die Servicedetailseite haben Sie folgende Möglichkeiten:
 
 * Anzeigen des Status Ihres {{site.data.keyword.streaminganalyticsshort}}-Service.
 * Stoppen und Starten Ihrer Serviceinstanz.
@@ -29,3 +29,4 @@ Sie können auf Ihren {{site.data.keyword.streaminganalyticsshort}}-Service vom 
 * Zugriff auf die Serviceberechtigungsnachweise.
 * Zugriff auf Lernprogramme für die Starteranwendungen.
 * Zugriff auf die Servicedokumentation und Benutzerforen.
+* Verwalten von Serviceendpunkten.

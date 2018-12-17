@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics ist ein vollständig verwalteter Service, der Ihnen zeitaufw
 
 Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustellen:
 
-* Nehmen Sie eine Registrierung für ein [{{site.data.keyword.Bluemix_notm}}-Konto ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration){:new_window} vor.
-* Erstellen Sie eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service in Ihrer {{site.data.keyword.Bluemix_notm}}-Organisation. Sie können die Instanz direkt über die [**{{site.data.keyword.streaminganalyticsshort}}**-Seite im {{site.data.keyword.Bluemix_notm}}-Servicekatalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window} erstellen.  
-* [Installieren Sie die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* Nehmen Sie eine Registrierung für ein [{{site.data.keyword.Bluemix_notm}}-Konto ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration){:new_window} vor.
+* Erstellen Sie eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service in Ihrer {{site.data.keyword.Bluemix_notm}}-Organisation. Sie können Instanzen direkt über die [Seite mit Angebotsdetails zu **{{site.data.keyword.streaminganalyticsshort}}** im {{site.data.keyword.Bluemix_notm}}-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window} erstellen.  
+* [Installieren Sie die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -36,7 +36,7 @@ Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustell
 
 1. Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_notm}}:
 
-    a. Wählen Sie im **{{site.data.keyword.Bluemix_notm}}**-Menü **Cloud Foundry-Apps** aus und klicken Sie auf **Ressource erstellen**.
+    a. Rufen Sie **Menü**>**Cloud Foundry-Apps**>**Ressource erstellen** auf, um eine Ressource zu erstellen. 
 
     b. Wählen Sie die {{site.data.keyword.sdk4node}}-Laufzeit für die Event Detection- oder Event Detection v2-Starter-Apps aus.
 
@@ -65,10 +65,10 @@ Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustell
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. Navigieren Sie zur Seite mit der Anwendungsübersicht, auf die Sie über das {{site.data.keyword.Bluemix_notm}}-Dashboard gelangen, und prüfen Sie, ob Ihre Anwendung erfolgreich gestartet wurde.
-1. Starten Sie Ihre Anwendung, sodass sie im Browser zu sehen ist. Die URL (oder "Route") zu Ihrer Anwendung finden Sie auf der Seite mit der Anwendungsübersicht.
+1. Navigieren Sie zur Seite mit den Anwendungsdetails, auf die Sie über das {{site.data.keyword.Bluemix_notm}}-Dashboard gelangen, und prüfen Sie, ob Ihre Anwendung erfolgreich gestartet wurde.
+1. Starten Sie Ihre Anwendung, sodass sie im Browser zu sehen ist. Die URL (oder "Route") zu Ihrer Anwendung finden Sie auf der Seite mit den Anwendungsdetails. 
 
 ## Weitere Schritte
 {: #next_steps}
 
-Nachdem die Anwendung nun ausgeführt wird, können Sie sie über die {{site.data.keyword.streaminganalyticsshort}}-Konsole überwachen. Rufen Sie das Service-Dashboard auf, wählen Sie Ihren {{site.data.keyword.streaminganalyticsshort}}-Service aus und klicken Sie auf **Starten**.
+Nachdem die Anwendung nun ausgeführt wird, können Sie sie über die {{site.data.keyword.streaminganalyticsshort}}-Konsole überwachen. Rufen Sie die Servicedetailseite auf, wählen Sie Ihren {{site.data.keyword.streaminganalyticsshort}}-Service aus und klicken Sie auf **Starten**.

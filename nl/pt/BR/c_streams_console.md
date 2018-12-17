@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -34,6 +34,6 @@ suas consultas
 * Monitorando como os operadores se comportam e garantindo o processamento de tupla na nuvem. O {{site.data.keyword.streamsshort}} fornece métricas para ajudar a avaliar o funcionamento dos serviços do {{site.data.keyword.streamsshort}}, para auxiliar no diagnóstico de problemas de desempenho e para analisar o rendimento das solicitações. É possível usar o Streams Console em {{site.data.keyword.streaminganalyticsshort}} para [monitorar como os operadores se comportam e garantir a otimização de recursos ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").](https://wp.me/p4IICn-4bH)
 
 
-É possível acessar o console do {{site.data.keyword.streaminganalyticsshort}} por meio do painel de serviço.
+É possível acessar o console do {{site.data.keyword.streaminganalyticsshort}} por meio da página de detalhes do serviço.
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

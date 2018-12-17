@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -18,10 +18,10 @@ lastupdated: "2018-07-24"
 
 {{site.data.keyword.streaminganalyticsshort}} では、アプリケーションの高可用性を実現します。 いずれかのアプリケーション・ノード ({{site.data.keyword.streamsshort}} リ
 ソース) で問題が発生すると、そのノードは自動的に置き換えられ、そのノードで実行されていたジ
-ョブはすべてマイグレーションされます。 インスタンスに複数のアプリケーション・ノードが含まれている場合、ジョブはマイグレーションされ、再開されるだけです。 [v1 サービス・プランの場合、](/docs/services/StreamingAnalytics/service_plans.html)インスタンスは、[サービス・ダッシュボード](/docs/services/StreamingAnalytics/r_service_dashboard.html)または [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} を使用してサイズ変更できます。 v2 サービス・プランの場合は、[v2 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window} を使用します。
+ョブはすべてマイグレーションされます。 インスタンスに複数のアプリケーション・ノードが含まれている場合、ジョブはマイグレーションされ、再開されるだけです。 [v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)の場合は、[「サービス詳細」ページ](/docs/services/StreamingAnalytics/r_service_dashboard.html)または[{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}を使用して、インスタンスのサイズを変更できます。v2 サービス・プランの場合は、[v2 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}を使用します。
 {:shortdesc}
 
-このビデオは、サービス・ダッシュボードを使用してインスタンスをサイズ変更する方法を示しています。
+このビデオは、「サービス詳細」ページを使用してインスタンスのサイズを変更する方法を示しています。
 
 <iframe width="560" height="315" title="インスタンスのサイズ変更" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>インスタンスのサイズ変更</iframe>
 
@@ -36,4 +36,4 @@ lastupdated: "2018-07-24"
 
 整合領域の始まりは、対応するオペレーターで `@consistent` アノテーションを使用して定義できます。 整合領域の範囲は {{site.data.keyword.streamsshort}} が自動的に決定しますが、領域の終了オペレーターは `@autonomous` アノテーションを使用して変更できます。 定義済みの整合領域は定期的に整合状態を確立します。
 
-Streams アプリケーションでの整合領域の使用について詳しくは、![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") [{{site.data.keyword.streamsshort}} の資料を参照してください。
+Streams アプリケーションでの整合領域の使用について詳しくは、[{{site.data.keyword.streamsshort}} の資料![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html)を確認してください。

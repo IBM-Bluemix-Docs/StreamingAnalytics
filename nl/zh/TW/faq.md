@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -12,50 +12,59 @@ lastupdated: "2018-07-24"
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
+{:faq: data-hd-content-type='faq'}
 
 # 常見問題
 {: #faq}
 
 ## 如何註冊 Streaming Analytics 服務？
-{: #signup notoc}  
+{: #signup notoc}
+{: faq}  
 
-如需 {{site.data.keyword.streaminganalyticsshort}} 服務方案的相關資訊，請參閱 [{{site.data.keyword.Bluemix_short}} 型錄頁面](https://console.bluemix.net/catalog/services/streaming-analytics)。
+如需 {{site.data.keyword.streaminganalyticsshort}} 服務方案的相關資訊，請參閱 [{{site.data.keyword.Bluemix_short}} 型錄](https://{DomainName}/catalog/services/streaming-analytics)。
 
 ## 我正在使用的 Streaming Analytics 服務版本為何？
-{: #version notoc}   
+{: #version notoc}
+{: faq}   
 
 增進功能會定期推送至所有 {{site.data.keyword.streaminganalyticsshort}} 服務。您一律會使用最新版的受管理服務，而且不得追蹤任何產品版本或層次。
 
 ## IBM 為我管理的項目為何？
-{: #ibm_manage notoc}   
+{: #ibm_manage notoc}
+{: faq}   
 
 我們處理安裝、軟體升級、建立和管理網域，以及硬體維護。此服務包括全年無休的性能監視。
 
 
 ## 我負責的作業為何？  
 {: #responsible notoc}
+{: faq}
 
 您可以撰寫在 {{site.data.keyword.streaminganalyticsshort}} 服務及 Streams 實例內部部署中執行的應用程式，並確定它們的運作正確且符合效能需求。您也負責任何應用程式特定監視。
 
 ## 是否支援高可用性 (HA)？
 {: #ha notoc}
+{: faq}
 
 高可用性是由 IBM 所管理。{{site.data.keyword.streaminganalyticsshort}} 配置成支援 HA。執行失效接手時，還有其他伺服器資源可用。
 
 ## 如何管理 Streaming Analytics 服務的安全？
-{: #security notoc}  
+{: #security notoc}
+{: faq}   
 
 安全是由 IBM 完全管理。會針對每一個服務產生認證，並將它提供給您。安全更新是由 IBM 所管理，並在其可用時立即套用。
 
 ## 需要配置 Streaming Analytics 服務嗎？  
 {: #configure notoc}
+{: faq}
 
 此服務是由 IBM 所建立及完全管理。每一個服務都會包含一組專用應用程式節點。
 
 ## 如何開發 Streams 應用程式？
 {: #streamsapp notoc}
+{: faq}
 
-您必須使用免費 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) 配合 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，以在本端開發 Streams 應用程式，或是如果您使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像檔 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
+您必須使用免費 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) 配合 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，以在本端開發 Streams 應用程式，或是如果您使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像檔 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
 
 您也可以使用現有的內部部署 {{site.data.keyword.streamsshort}} 安裝。在本端開發及編譯的應用程式接著可以當成軟體組，緊密部署至雲端中的 Streams 服務。
 
@@ -65,11 +74,13 @@ lastupdated: "2018-07-24"
 
 ## 我可以直接登入 Streaming Analytics 服務主機嗎？
 {: #host notoc}  
+{: faq}
 
 否。不支援使用 Telnet 或「安全 Shell (ssh)」直接登入伺服器。您無法安裝其他軟體，或在 Streams 主機上執行非 Streams 軟體。
 
 ## 我可以在 Streaming Analytics 服務上存取檔案系統嗎？
-{: #filesystem notoc}  
+{: #filesystem notoc}
+{: faq}   
 
 只有 Streams 應用程式才能直接存取 Streams 主機上的檔案系統。
 
@@ -78,7 +89,7 @@ lastupdated: "2018-07-24"
 ## Streaming Analytics 服務應用程式如何存取我組織的企業資料？
 {: #access notoc}  
 
-您可以使用 [{{site.data.keyword.Bluemix_notm}} Secure Gateway 服務](https://console.bluemix.net/catalog/services/secure-gateway)，安全地將 Streams 應用程式連接至您的企業。
+您可以使用 [{{site.data.keyword.Bluemix_notm}} Secure Gateway 服務](https://{DomainName}/catalog/services/secure-gateway)，安全地將 Streams 應用程式連接至您的企業。
 
 ## 雲端中的 Streaming Analytics 服務支援 IBM Streams 內部部署的所有特性？
 {: #features notoc}

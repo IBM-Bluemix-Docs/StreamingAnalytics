@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -16,10 +16,10 @@ lastupdated: "2018-07-24"
 # Alta disponibilidade do Streaming Analytics
 {: #c_ha}
 
-O {{site.data.keyword.streaminganalyticsshort}} permite alta disponibilidade para seus aplicativos. Se for detectado um problema em um de seus nós do aplicativo (recursos do {{site.data.keyword.streamsshort}}), o nó será substituído automaticamente e qualquer tarefa em execução nesse nó será migrada. As tarefas serão migradas e reiniciadas somente se a instância contiver múltiplos nós de aplicativo. É possível redimensionar a instância usando o [painel de serviço](/docs/services/StreamingAnalytics/r_service_dashboard.html) ou a API de REST do [{{site.data.keyword.streaminganalyticsshort}} v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} para os planos de serviços do [v1 ](/docs/services/StreamingAnalytics/service_plans.html). Para planos de serviço v2, use a [v2 REST API ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
+O {{site.data.keyword.streaminganalyticsshort}} permite alta disponibilidade para seus aplicativos. Se for detectado um problema em um de seus nós do aplicativo (recursos do {{site.data.keyword.streamsshort}}), o nó será substituído automaticamente e qualquer tarefa em execução nesse nó será migrada. As tarefas serão migradas e reiniciadas somente se a instância contiver múltiplos nós de aplicativo. É possível redimensionar a instância usando a [página de detalhes do serviço](/docs/services/StreamingAnalytics/r_service_dashboard.html) ou a [API de REST do {{site.data.keyword.streaminganalyticsshort}} v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} para os [planos de serviço da v1](/docs/services/StreamingAnalytics/service_plans.html). Para planos de serviços da v2, use a API de REST do [v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
-Este vídeo mostra como redimensionar sua instância usando o painel de serviço:
+Este vídeo mostra como redimensionar a instância usando a página de detalhes do serviço:
 
 <iframe width="560" height="315" title="Redimensionar instância" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Redimensionar instância</iframe>
 
@@ -34,4 +34,4 @@ Agora é possível gravar os aplicativos Java e SPL que têm garantido o process
 
 É possível definir o início de uma região compatível com a anotação `@consistent` em um operador capaz. O {{site.data.keyword.streamsshort}} determina o escopo da região consistente automaticamente, mas é possível mudar o operador final da região com a anotação `@autonomous`. A região consistente definida periodicamente estabelece um estado consistente.
 
-Veja a [ documentação do {{site.data.keyword.streamsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.dev.doc/doc/consistentregions.html) para obter mais detalhes sobre como usar regiões consistente em aplicativos Streams.
+Consulte a [Documentação do {{site.data.keyword.streamsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) para obter mais detalhes sobre o uso de regiões consistentes em aplicativos Streams.

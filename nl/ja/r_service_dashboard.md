@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# サービス・ダッシュボード
+# 「サービス詳細」ページ
 {: #dashboard}
 
-{{site.data.keyword.Bluemix_short}} サービス・ダッシュボードから {{site.data.keyword.streaminganalyticsshort}} サービスにアクセスできます。
+{{site.data.keyword.Bluemix_short}} ダッシュボードから {{site.data.keyword.streaminganalyticsshort}} サービスにアクセスできます。
 {:shortdesc}
 
-サービス・ダッシュボードから以下のことができます。
+「サービス詳細」ページから以下のことができます。
 
 * {{site.data.keyword.streaminganalyticsshort}} サービスの状況の確認。
 * サービス・インスタンスの開始と停止。
@@ -29,3 +29,4 @@ lastupdated: "2018-07-24"
 * サービス資格情報へのアクセス。
 * スターター・アプリケーションのチュートリアルへのアクセス。
 * サービス資料およびユーザー・フォーラムへのアクセス。
+* サービス・エンドポイントの管理。

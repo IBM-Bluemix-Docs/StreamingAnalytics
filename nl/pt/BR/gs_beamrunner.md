@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -21,6 +21,6 @@ Se você tiver um ambiente de desenvolvimento do {{site.data.keyword.streamsshor
 
 Inicie usando os [aplicativos de amostra](/docs/services/StreamingAnalytics/c_starterapps.html) para saber como enviar e monitorar um aplicativo Beam no serviço {{site.data.keyword.streaminganalyticsshort}}. É possível fazer download dos aplicativos de amostra no console do {{site.data.keyword.streaminganalyticsshort}}.
 
-Consulte a documentação do [{{site.data.keyword.streamsshort}} Runner for Apache Beam ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window} para ver tabelas que mostram como o Streams Runner se ajusta à [Matriz do recurso Beam]. Veja [Instalando o IBM Streams Runner for Apache Beam ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://bit.ly/2zFDpPr){:new_window} para obter instruções sobre como instalar o kit de ferramentas `com.ibm.streams.beam` em seu ambiente do Streams para criar aplicativos Beam que podem ser enviados e monitorados no {{site.data.keyword.streaminganalyticsshort}}.
+Consulte a [Documentação do {{site.data.keyword.streamsshort}} Runner for Apache Beam ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window} para ver as tabelas que mostram como o Streams Runner se ajusta à [Matriz de compatibilidade do Beam](https://beam.apache.org/documentation/runners/capability-matrix/). Veja [Instalando o IBM Streams Runner for Apache Beam ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://bit.ly/2zFDpPr){:new_window} para obter instruções sobre como instalar o kit de ferramentas `com.ibm.streams.beam` em seu ambiente do Streams para criar aplicativos Beam que podem ser enviados e monitorados no {{site.data.keyword.streaminganalyticsshort}}.
 
 Alguma familiaridade com a programação Beam é útil, mas não necessária; o [website Apache Beam ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://beam.apache.org/documentation/){:new_window} tem uma página útil [Iniciação rápida do Apache Beam Java SDK ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://beam.apache.org/get-started/quickstart-java/){:new_window} e outras documentações.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ O Streaming Analytics é um serviço totalmente gerenciado que libera você de d
 
 Deve-se seguir estas etapas para implementar os aplicativos iniciadores:
 
-* Registre-se para uma conta do [{{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/registration){:new_window}
-* Crie uma instância do serviço {{site.data.keyword.streaminganalyticsshort}} em sua organização do {{site.data.keyword.Bluemix_notm}}. É possível criar a instância diretamente da página [**{{site.data.keyword.streaminganalyticsshort}}** no Catálogo de serviços do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Instale o {{site.data.keyword.Bluemix_notm}} CLI ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* Registre-se para uma [conta do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration){:new_window}
+* Crie uma instância do serviço {{site.data.keyword.streaminganalyticsshort}} em sua organização do {{site.data.keyword.Bluemix_notm}}. É possível criar a instância diretamente na [página de detalhes da oferta **{{site.data.keyword.streaminganalyticsshort}}** no catálogo do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
+* [Instale o {{site.data.keyword.Bluemix_notm}} CLI ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -36,7 +36,7 @@ Deve-se seguir estas etapas para implementar os aplicativos iniciadores:
 
 1. Crie um aplicativo no {{site.data.keyword.Bluemix_notm}}:
 
-    a. No menu **{{site.data.keyword.Bluemix_notm}}**, selecione **Apps Cloud Foundry** e clique em **Criar recurso**.
+    a. Acesse **Menu**>**Apps do Cloud Foundry**>**Criar recurso** para criar um recurso.
 
     b. Selecione o tempo de execução do {{site.data.keyword.sdk4node}} para os aplicativos Starter Event Detection ou
 Event Detection v2.
@@ -70,12 +70,10 @@ os planos de serviços do [v2](/docs/services/StreamingAnalytics/service_plans.h
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. Acesse a sua página de visão geral do aplicativo, acessível a partir do painel do {{site.data.keyword.Bluemix_notm}}
-para verificar se o seu aplicativo foi iniciado com êxito.
-1. Ative seu aplicativo para vê-lo em seu navegador. É possível localizar (ou "rotear") a URL do aplicativo
-            na página de visão geral do aplicativo.
+1. Acesse a página de detalhes do aplicativo por meio do painel do {{site.data.keyword.Bluemix_notm}} para verificar se o seu aplicativo foi iniciado com êxito.
+1. Ative seu aplicativo para vê-lo em seu navegador. É possível localizar a URL (ou "rota") do seu aplicativo na página de detalhes do aplicativo.
 
 ## Etapas Seguintes
 {: #next_steps}
 
-Agora que seu aplicativo está sendo executado, é possível monitorar o aplicativo no console do {{site.data.keyword.streaminganalyticsshort}}. Acesse o painel de serviço, selecione o serviço {{site.data.keyword.streaminganalyticsshort}} e clique em **Ativar**.
+Agora que seu aplicativo está sendo executado, é possível monitorar o aplicativo no console do {{site.data.keyword.streaminganalyticsshort}}. Acesse a página de detalhes do serviço, selecione o seu serviço do {{site.data.keyword.streaminganalyticsshort}} e clique em **Ativar**.

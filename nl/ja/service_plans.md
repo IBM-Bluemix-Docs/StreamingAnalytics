@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,7 +30,7 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
   </tr>
   <tr>
     <td width="15%">
-    v1 サービス・プラン    
+    v1 サービス・プラン (非推奨)    
     </td>
     <td width="35%">
     <ul>
@@ -50,7 +50,7 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
         <li>VM ベース・インフラストラクチャーで稼働します。</li>
         <li>v1 および v2 の REST API をサポートします。<br></li>
         <li>IAM 認証とユーザー資格情報認証の両方をサポートします。</li>
-        <li>[{{site.data.keyword.streamsshort}} Quick Start Edition VM イメージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-vm/) をサポートします。
+        <li>[{{site.data.keyword.streamsshort}} Quick Start Edition VM イメージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-linux/) をサポートします。
       </ul>    
     </td>
   </tr>
@@ -78,8 +78,8 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
       <li>コンテナー・ベース・インフラストラクチャーで稼働します。</li>
       <li>v2 REST API をサポートします。<br></li>
       <li>IAM 認証をサポートします。</li>
-      <li>[{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) をサポートします。</li>
-      <li>米国南部地域でのみ利用可能</li>
+      <li>非ライト・サービス・プランのサービス・エンドポイントをサポートします。</li>
+      <li>[{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) をサポートします。</li>
     </ul>
     </td>
   </tr>
@@ -91,7 +91,7 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
 
 以下の機能は、v1 サービス・プランでのみサポートされています。
 
-* [v1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1)。 v2 インフラストラクチャーでは、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2) を使用する必要があります。
+* [v1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1)。 v2 インフラストラクチャーでは、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2) を使用する必要があります。
 * NYC Traffic and Event Detection v1 サンプル・アプリケーション。 v2 コンテナー・ベース・インフラストラクチャーで {{site.data.keyword.streaminganalyticsshort}} を開始するために使用できるアプリケーションのリストについては、[サンプル・アプリケーション](/docs/services/StreamingAnalytics/c_starterapps.html)を参照してください。
 * 一部のツールキットとの互換性。 新規のコンテナー・ベース・インフラストラクチャーと互換性があるツールキットのリストについては、[互換性があるツールキット](/docs/services/StreamingAnalytics/compatible_toolkits.html)を参照してください。
 
@@ -101,7 +101,7 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
 v1 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報と VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} v1 REST API を使用するために必要な VCAP 情報が含まれています。 この VCAP 情報は、REST URL、サービス・インスタンス ID、バインディング ID 、および資格情報を各 {{site.data.keyword.streaminganalyticsshort}} v1 REST API に提供します。  
 {:shortdesc}
 
- {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_notm}} でアプリケーションにバインドすると、このサービス・インスタンスの VCAP 情報は、{{site.data.keyword.Bluemix_notm}} アプリケーション環境で使用可能になります。 この情報は、VCAP_SERVICES 環境変数にあります。バインド先の {{site.data.keyword.Bluemix_notm}} のアプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報には、サービス・ダッシュボードからアクセスできます。
+ {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンして {{site.data.keyword.Bluemix_notm}} でアプリケーションにバインドすると、このサービス・インスタンスの VCAP 情報は、{{site.data.keyword.Bluemix_notm}} アプリケーション環境で使用可能になります。 この情報は、VCAP_SERVICES 環境変数にあります。 バインド先の {{site.data.keyword.Bluemix_notm}} のアプリケーションを指定せずに {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをプロビジョンした場合は、サービス資格情報が自動的に作成されます。 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報は、「サービス詳細」ページからアクセスできます。
 
 
 {{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、以下の例に示されているような情報が含まれています。
@@ -120,9 +120,9 @@ v1 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サ
         "stop_path": "/jax-rs/streams/stop/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
         "resources_path": "/jax-rs/resources/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
         "jobs_path": "/jax-rs/jobs/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
-        "rest_host": "streams-app-service.ng.bluemix.net",
+        "rest_host": "{rest_url}",
         "rest_port": "443",
-        "rest_url": "https://streams-app-service.ng.bluemix.net",
+        "rest_url": "{rest_url}",
         "userid": "xxx",
         "password": "yyy"
       }
@@ -131,12 +131,12 @@ v1 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サ
 }	  
 </code></pre>
 
-v1 REST API について詳しくは、[v1 REST API 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/220){:new_window} を参照してください。
+v1 REST API について詳しくは、[v1 REST API 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} を参照してください。
 
 ## v2 サービス・プランの VCAP_SERVICES 環境変数
 {: #v2_vcap_services}
 
-v2 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報と VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} v2 REST API を使用する必要がある VCAP 情報が含まれています。この VCAP 情報は、{{site.data.keyword.streaminganalyticsshort}} v2 REST API にアクセスするための v2 REST URL、サービス ID、および資格情報を提供します。  
+v2 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報と VCAP_SERVICES 環境変数には、{{site.data.keyword.streaminganalyticsshort}} v2 REST API を使用する必要がある VCAP 情報が含まれています。 この VCAP 情報は、{{site.data.keyword.streaminganalyticsshort}} v2 REST API にアクセスするための v2 REST URL、サービス ID、および資格情報を提供します。  
 {:shortdesc}
 
 v2 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サービス資格情報および VCAP_SERVICES 環境変数には、次の例にあるような情報が含まれています。
@@ -148,8 +148,8 @@ v2 サービス・プランの {{site.data.keyword.streaminganalyticsshort}} サ
       "iam_apikey_name": "auto-generated-apikey-ab12c34d-e5d6-7890-123f-45dcece304df",
       "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
       "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/b123bb45670ab123d123e12d0a12345::serviceid:ServiceId-a1234b5c-678d-9f6f-bdb4-16c23935efb5",
-      "v2_rest_url": "https://streams-app-service.ng.bluemix.net/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
+      "v2_rest_url": "{rest_url}/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
     }
 </code></pre>
 
-v2 REST API について詳しくは、[v2 REST API 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/1939){:new_window} を参照してください。
+v2 REST API について詳しくは、[v2 REST API 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window} を参照してください。

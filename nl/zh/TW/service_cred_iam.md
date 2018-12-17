@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-07-24"
 
 a. 您必須具有有效的 IBM ID。
 
-b. 下載並安裝 [{{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
+b. 下載並安裝 [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
 
 ### 步驟 1. 登入 {{site.data.keyword.Bluemix_notm}} CLI。
 

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,7 +26,7 @@ Der Zugriff auf {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanzen f
 
 a. Sie benötigen eine gültige IBMid.
 
-b. Laden Sie die [{{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI)](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started) herunter und installieren Sie sie.
+b. Laden Sie die [{{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI)](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started) herunter und installieren Sie sie.
 
 ### Schritt 1. Melden Sie sich bei der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle an.
 

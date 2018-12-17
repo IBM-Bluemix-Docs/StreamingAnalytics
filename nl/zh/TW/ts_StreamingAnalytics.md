@@ -50,7 +50,7 @@ lastupdated: "2018-09-04"
 {: tsCauses}
 
 如果您是使用 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則必須在 Red Hat Enterprise Linux (RHEL) 7.x 中編譯您的應用程式。如果您是使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則必須使用搭配 Intel 處理器的 RHEL 6.5 編譯您的應用程式。將應用程式重新提交至服務實例。
-如果您沒有相容的開發環境，且是使用 v2 服務方案，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。如果您使用 v1 服務方案，請下載 [{{site.data.keyword.streamsshort}} QSE ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
+如果您沒有相容的開發環境，且是使用 v2 服務方案，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。如果您使用 v1 服務方案，請下載 [{{site.data.keyword.streamsshort}} QSE ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
 {: tsResolve}
 
 ## 我的應用程式在重新啟動之後不健全
@@ -65,5 +65,5 @@ lastupdated: "2018-09-04"
 大規模 Pod 重新啟動（最常由服務更新觸發），可能會導致應用程式無法重新啟動，如果它們需要特殊標記，而且已達到資源配額的話。在某些情況下，大規模 Pod 重新啟動可能由失敗回復情境所引起。
 {: tsCauses}
 
-您需要增加資源配額或釋放一些資源，讓應用程式可以獲得具有必要標籤的資源。若要增加您的配額，請移至服務儀表板，並增大您的實例大小。若要釋放資源，請取消現有工作，直到釋放足夠的資源來適當地放置應用程式為止。
+您需要增加資源配額或釋放一些資源，讓應用程式可以獲得具有必要標籤的資源。若要增加您的配額，請移至服務詳細資料頁面，並增大您的實例大小。若要釋放資源，請取消現有工作，直到釋放足夠的資源來適當地放置應用程式為止。
 {: tsResolve}

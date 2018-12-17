@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-07-24"
 
 a. 有効な IBM ID を持っている必要があります。
 
-b. [{{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started) をダウンロードして、インストールします。
+b. [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started) をダウンロードして、インストールします。
 
 ### ステップ 1. {{site.data.keyword.Bluemix_notm}} CLI にログインします。
 
@@ -44,4 +44,4 @@ bx login
 bx iam oauth-tokens
 ```
 
-2 つのトークンが生成されます。1 つは `IAM token` という名前で、もう 1 つは `UAA token` という名前です。REST API 呼び出しを行うには、`IAM token`を使用します。
+2 つのトークンが生成されます。1 つは `IAM token` という名前で、もう 1 つは `UAA token` という名前です。 REST API 呼び出しを行うには、`IAM token`を使用します。

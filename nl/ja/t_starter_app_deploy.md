@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 
 スターター・アプリをデプロイするには、以下のステップを実行する必要があります。
 
-* [{{site.data.keyword.Bluemix_notm}} アカウント ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration){:new_window} に登録します。
-* {{site.data.keyword.Bluemix_notm}} 組織に {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスを作成します。 このインスタンスは、{{site.data.keyword.Bluemix_notm}} サービス・カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"){:new_window} 内の [**{{site.data.keyword.streaminganalyticsshort}}** ページから直接作成できます。  
-* [{{site.data.keyword.Bluemix_notm}} CLI のインストール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)(https://console.{DomainName}/catalog/services/streaming-analytics/)]。
+* [{{site.data.keyword.Bluemix_notm}} アカウント に登録します。 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration){:new_window}
+* {{site.data.keyword.Bluemix_notm}} 組織に {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスを作成します。 このインスタンスは、{{site.data.keyword.Bluemix_notm}} カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"){:new_window} 内の[**{{site.data.keyword.streaminganalyticsshort}}**「オファリング詳細」ページから直接作成できます。  
+* [{{site.data.keyword.Bluemix_notm}} CLI をインストールします。![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)(https://{DomainName}/catalog/services/streaming-analytics/)]
 
 
 
@@ -36,7 +36,7 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 
 1. 以下のようにして、{{site.data.keyword.Bluemix_notm}} でアプリケーションを作成します。
 
-    a. **{{site.data.keyword.Bluemix_notm}}** メニューから**「Cloud Foundry アプリ」**を選択し、**「リソースの作成」**をクリックします。
+    a. **「メニュー」**>**「Cloud Foundry アプリ」**>**「リソースの作成」**と進み、リソースを作成します。
 
     b. Event Detection または Event Detection v2 スターター・アプリケーション用の {{site.data.keyword.sdk4node}} ランタイムを選択します。
 
@@ -65,11 +65,10 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. アプリケーション概要ページ ({{site.data.keyword.Bluemix_notm}} ダッシュボードからアクセス可能) に移動し、アプリケーシ
-ョンが正常に開始されたことを確認します。
-1. アプリケーションを起動して、ブラウザーに表示します。 アプリケーション概要ページに、アプリケーションの URL (または「ルート」) が表示されます。
+1. 「アプリケーション詳細」ページ ({{site.data.keyword.Bluemix_notm}} ダッシュボードからアクセス可能) に移動し、アプリケーションが正常に開始されたことを確認します。
+1. アプリケーションを起動して、ブラウザーに表示します。 「アプリケーション詳細」ページに、アプリケーションの URL (または「ルート」) が表示されます。
 
 ## 次のステップ
 {: #next_steps}
 
-これでアプリケーションが稼働中となったので、{{site.data.keyword.streaminganalyticsshort}} コンソールからアプリケーションをモニターすることができます。 サービス・ダッシュボードに移動し、{{site.data.keyword.streaminganalyticsshort}} サービスを選択し、**「起動」**をクリックします。
+これでアプリケーションが稼働中となったので、{{site.data.keyword.streaminganalyticsshort}} コンソールからアプリケーションをモニターすることができます。 「サービス詳細」ページに移動し、{{site.data.keyword.streaminganalyticsshort}} サービスを選択し、**「起動」**をクリックします。

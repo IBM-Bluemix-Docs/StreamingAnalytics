@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-07-24"
 O {{site.data.keyword.streaminganalyticsshort}} possui uma série de comportamentos e políticas para garantir a alocação e o uso apropriado de recursos.
 
 ## Visualizando e editando recursos de instância
-É possível visualizar e editar o número de recursos autorizados para a instância no painel do serviço ou na API de REST v1 para os [planos de serviço v1](/docs/services/StreamingAnalytics/service_plans.html). Deve-se usar a [API de REST do {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/streaming-analytics-v2-streaming-analytics-v2#get-a-streaming-analytics-instance) para os [planos de serviço v2](/docs/services/StreamingAnalytics/service_plans.html).
+É possível visualizar e editar o número de recursos autorizados para a instância na página de detalhes do serviço ou na API de REST da v1 para os [planos de serviço da v1](/docs/services/StreamingAnalytics/service_plans.html). Deve-se usar a [API de REST do {{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) para os [planos de serviço da v2](/docs/services/StreamingAnalytics/service_plans.html).
 
 ## Alocação de recurso
 - Os recursos são alocados automaticamente para a instância quando você envia uma tarefa que é executada com êxito.
