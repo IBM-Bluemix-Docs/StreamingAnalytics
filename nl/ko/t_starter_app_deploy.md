@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -23,11 +23,11 @@ Streaming Analytics는 시간이 많이 걸리는 설치 및 관리 태스크에
 ## 시작하기 전에
 {: #prereqs}
 
-스타터 앱을 배치하려면 다음 단계를 따라야 합니다. 
+스타터 앱을 배치하려면 다음 단계를 따라야 합니다.
 
-* [{{site.data.keyword.Bluemix_notm}} 계정 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration){:new_window}을 등록하십시오.
-* {{site.data.keyword.Bluemix_notm}} 조직에 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스를 작성하십시오. [{{site.data.keyword.Bluemix_notm}} 서비스 카탈로그의 **{{site.data.keyword.streaminganalyticsshort}}** 페이지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}에서 직접 인스턴스를 작성할 수 있습니다.   
-* [{{site.data.keyword.Bluemix_notm}} CLI를 설치![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)하십시오.
+* [{{site.data.keyword.Bluemix_notm}} 계정 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration){:new_window}을 등록하십시오.
+* {{site.data.keyword.Bluemix_notm}} 조직에 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스를 작성하십시오. [{{site.data.keyword.Bluemix_notm}} 카탈로그의 **{{site.data.keyword.streaminganalyticsshort}}** 오퍼링 세부사항 페이지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}에서 직접 인스턴스를 작성할 수 있습니다.  
+* [{{site.data.keyword.Bluemix_notm}} CLI를 설치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)하십시오.
 
 
 
@@ -36,7 +36,7 @@ Streaming Analytics는 시간이 많이 걸리는 설치 및 관리 태스크에
 
 1. {{site.data.keyword.Bluemix_notm}}에서 애플리케이션을 작성하십시오.
 
-    a. **{{site.data.keyword.Bluemix_notm}}** 메뉴에서 **Cloud Foundry 앱**을 선택하고 **리소스 작성**을 클릭하십시오.
+    a. **메뉴**>**Cloud Foundry 앱**>**리소스 작성**으로 이동하여 리소스를 작성하십시오.
 
     b. Event Detection 또는 Event Detection v2 스타터 앱의 {{site.data.keyword.sdk4node}} 런타임을 선택하십시오.
 
@@ -65,10 +65,10 @@ Streaming Analytics는 시간이 많이 걸리는 설치 및 관리 태스크에
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. {{site.data.keyword.Bluemix_notm}} 대시보드에서 액세스할 수 있는 애플리케이션 개요 페이지로 이동하여 애플리케이션이 제대로 시작되었는지 확인하십시오.
-1. 애플리케이션을 시작하여 브라우저에서 보십시오. 애플리케이션 개요 페이지에서 애플리케이션의 URL(또는 "라우트")을 찾을 수 있습니다.
+1. {{site.data.keyword.Bluemix_notm}} 대시보드에서 액세스할 수 있는 애플리케이션 세부사항 페이지로 이동하여 애플리케이션이 제대로 시작되었는지 확인하십시오.
+1. 애플리케이션을 시작하여 브라우저에서 보십시오. 애플리케이션 세부사항 페이지에서 애플리케이션의 URL(또는 "라우트")을 찾을 수 있습니다.
 
 ## 다음 단계
 {: #next_steps}
 
-이제 애플리케이션이 실행되고 {{site.data.keyword.streaminganalyticsshort}} 콘솔에서 애플리케이션을 모니터할 수 있습니다. 서비스 대시보드로 이동하여 {{site.data.keyword.streaminganalyticsshort}} 서비스를 선택하고 **실행**을 클릭하십시오.
+이제 애플리케이션이 실행되고 {{site.data.keyword.streaminganalyticsshort}} 콘솔에서 애플리케이션을 모니터할 수 있습니다. 서비스 세부사항 페이지로 이동하여 {{site.data.keyword.streaminganalyticsshort}} 서비스를 선택하고 **실행**을 클릭하십시오.

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,14 +26,14 @@ lastupdated: "2018-07-24"
 
 a. 유효한 IBM ID가 있어야 합니다.
 
-b. [{{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started)를 다운로드하여 설치하십시오.
+b. [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)를 다운로드하여 설치하십시오.
 
 ### 1단계. {{site.data.keyword.Bluemix_notm}} CLI에 로그인하십시오.
 
 ```
 bx api https://api.ng.bluemix.net
 bx login
-<신임 정보를 입력하십시오.>
+<인증 정보를 입력하십시오.>
 
 <여러 {{site.data.keyword.Bluemix_notm}} 계정 중 하나인 경우 현재 세션에 대한 계정을 선택하라는 요청을 받게 됩니다. 또한, {{site.data.keyword.Bluemix_notm}}의 조직 및 영역을 선택해야 합니다.>
 ```

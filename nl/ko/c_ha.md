@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -16,11 +16,10 @@ lastupdated: "2018-07-24"
 # Streaming Analytics 고가용성
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}}는 애플리케이션의 고가용성을 사용 가능하게 합니다. 애플리케이션 노드({{site.data.keyword.streamsshort}} 리소스) 중 하나에서 문제가 발견되면 노드가 자동으로 대체되고 해당 노드에서 실행 중인 작업은 마이그레이션됩니다. 인스턴스에 여러 애플리케이션 노드가 있는 경우에만 작업이 마이그레이션 및 재시작됩니다. [서비스 대시보드](/docs/services/StreamingAnalytics/r_service_dashboard.html) 또는 [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)용 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window}를 사용하여 인스턴스의 크기를 조정할 수 있습니다. v2 서비스 플랜의 경우에는 [v2 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")(https://console.bluemix.net/apidocs/streaming-analytics-v2) 를 사용하십시오.
-{:new_window}
+{{site.data.keyword.streaminganalyticsshort}}는 애플리케이션의 고가용성을 사용 가능하게 합니다. 애플리케이션 노드({{site.data.keyword.streamsshort}} 리소스) 중 하나에서 문제가 발견되면 노드가 자동으로 대체되고 해당 노드에서 실행 중인 작업은 마이그레이션됩니다. 인스턴스에 여러 애플리케이션 노드가 있는 경우에만 작업이 마이그레이션 및 재시작됩니다. [서비스 세부사항 페이지](/docs/services/StreamingAnalytics/r_service_dashboard.html) 또는 [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)용 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}를 사용하여 인스턴스의 크기를 조정할 수 있습니다. v2 서비스 플랜의 경우 [v2 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}를 사용하십시오.
 {:shortdesc}
 
-다음 동영상은 서비스 대시보드를 사용하여 인스턴스의 크기를 조정하는 방법을 보여줍니다.
+다음 동영상은 서비스 세부사항 페이지를 사용하여 인스턴스의 크기를 조정하는 방법을 보여줍니다.
 
 <iframe width="560" height="315" title="인스턴스 크기 조정" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>인스턴스 크기 조정</iframe>
 
@@ -35,4 +34,4 @@ lastupdated: "2018-07-24"
 
 가능한 연산자에 `@consistent` 어노테이션을 사용하여 일관성 있는 지역의 시작을 정의할 수 있습니다. {{site.data.keyword.streamsshort}}이 일관성 있는 지역의 범위를 자동으로 판별하지만 `@autonomous` 어노테이션을 사용하여 지역의 종료 연산자를 변경할 수 있습니다. 정의된 일관성 있는 지역은 정기적으로 일관성 있는 상태를 설정합니다.
 
-Streams 애플리케이션에서 일관성 있는 지역을 사용하는 방법에 대한 세부사항은 [{{site.data.keyword.streamsshort}} 문서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.dev.doc/doc/consistentregions.html)를 확인하십시오.
+Streams 애플리케이션에서 일관성 있는 지역을 사용하는 방법에 대한 세부사항은 [{{site.data.keyword.streamsshort}} 문서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html)를 확인하십시오.

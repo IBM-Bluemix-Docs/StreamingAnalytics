@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -29,7 +29,7 @@ lastupdated: "2018-07-24"
     <td>
       <ul>
         <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">지원되는 툴킷 및 어댑터</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">서비스 신임 정보 및 VCAP_SERVICES 환경 변수</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">서비스 인증 정보 및 VCAP_SERVICES 환경 변수</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on
 GitHub ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
       </ul>    

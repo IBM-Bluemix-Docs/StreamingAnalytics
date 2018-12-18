@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-07-24"
     <th id="stocktrades" colspan="3">Stock Trades 샘플 앱<br></th>
   </tr>
   <tr>
-    <td headers="stocktrades" colspan="3">이 애플리케이션은 주식 시세의 흐름을 분석하고 <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">집계 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 연산자를 사용하여 가격의 평균을 산출합니다.
+    <td headers="stocktrades" colspan="3">이 애플리케이션은 주식 시세의 흐름을 분석하고 <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">집계 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 연산자를 사용하여 가격의 평균을 산출합니다.
 수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다. 서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다. 스타터 애플리케이션에 대한 전체 소스는 <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">GitHub에서 사용 가능 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a>합니다.</p>
 </td>
   </tr>
@@ -45,7 +45,7 @@ lastupdated: "2018-07-24"
     <th id="EventDetection2" colspan="3">Event Detection v2 샘플 앱<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">Event Detection v2 앱은 <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다. 이 스타터 앱은 [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)과만 호환됩니다.
+    <td colspan="3" headers="EventDetection2">Event Detection v2 앱은 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다. 이 스타터 앱은 [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)과만 호환됩니다.
 앱은 분석의 상태와 결과를 표시하기 위한 간단한 웹 UI를 제공합니다.
 Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스에 바인드됩니다. 앱은 {{site.data.keyword.streaminganalyticsshort}} v2 REST API를 통해 서비스를 제어합니다.
 <p>수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다.
@@ -66,8 +66,7 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
     <th id="EventDetection1" colspan="3">Event Detection 샘플 앱<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">Event Detection 앱은 <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다.
-이 스타터 앱은 [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)과만 호환됩니다. 앱은 분석의 상태와 결과를 표시하기 위한 간단한 웹 UI를 제공합니다.
+    <td headers="EventDetection1" colspan="3">Event Detection 앱은 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다. 이 스타터 앱은 [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)과만 호환됩니다. 앱은 분석의 상태와 결과를 표시하기 위한 간단한 웹 UI를 제공합니다.
 Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스에 바인드됩니다. 앱은 {{site.data.keyword.streaminganalyticsshort}} REST API를 통해 서비스를 제어합니다.
 <p>수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다.
 서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다.</p>
@@ -112,8 +111,8 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
 </td>
   </tr>
   <tr>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">앱 보기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#running-the-temperaturesample-application" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#viewing-the-running-application" target="_blank">앱 보기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
   </tr>
 </table>
 
@@ -128,7 +127,7 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
 </td>
   </tr>
   <tr>
-    <td headers="WordCountSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
+    <td headers="WordCountSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/wordcount/" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
   </tr>
 </table>
 
@@ -143,7 +142,7 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
 </td>
   </tr>
   <tr>
-    <td headers="FilterStreamSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
+    <td headers="FilterStreamSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/objstor/" target="_blank">앱 배치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></td>
   </tr>
 </table>
 
