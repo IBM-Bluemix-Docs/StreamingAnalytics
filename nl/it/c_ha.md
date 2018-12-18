@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -20,10 +20,10 @@ lastupdated: "2018-07-24"
 l'alta disponibilità per le tue applicazioni. Se viene rilevato un problema su uno dei nodi della tua applicazione,
 (risorse {{site.data.keyword.streamsshort}}), il nodo viene
 automaticamente sostituito e ogni lavoro in esecuzione su tale nodo viene migrato. I lavori vengono migrati e riavviati
-solo se l'istanza contiene più nodi di applicazione. Puoi ridimensionare l'istanza utilizzando il [dashboard del servizio](/docs/services/StreamingAnalytics/r_service_dashboard.html) oppure la [API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i piani di servizio v2, utilizza la [API REST v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
+solo se l'istanza contiene più nodi di applicazione. Puoi ridimensionare l'istanza utilizzando la [pagina dei dettagli del servizio](/docs/services/StreamingAnalytics/r_service_dashboard.html) oppure l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i piani di servizio v2, utilizza l'[API REST v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
-Questo video mostra come ridimensionare la tua istanza utilizzando il dashboard del servizio:
+Questo video mostra come ridimensionare la tua istanza utilizzando la pagina dei dettagli del servizio:
 
 <iframe width="560" height="315" title="Ridimensiona istanza" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Ridimensiona istanza</iframe>
 
@@ -38,4 +38,4 @@ Puoi ora scrivere sia le applicazioni Java che SPL che hanno l'elaborazione tupl
 
 Puoi definire l'inizio di una regione congruente con l'annotazione `@consistent` su un operatore idoneo. {{site.data.keyword.streamsshort}} determina l'ambito della regione congruente automaticamente, ma puoi modificare l'operatore finale della regione con l'annotazione `@autonomous`. La regione congruente definita stabilisce periodicamente uno stato congruente.
 
-Controlla la [documentazione {{site.data.keyword.streamsshort}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.dev.doc/doc/consistentregions.html) per ulteriori dettagli sull'utilizzo delle regioni congruenti nelle applicazioni Streams.
+Controlla la [documentazione {{site.data.keyword.streamsshort}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) per ulteriori dettagli sull'utilizzo delle regioni congruenti nelle applicazioni Streams.

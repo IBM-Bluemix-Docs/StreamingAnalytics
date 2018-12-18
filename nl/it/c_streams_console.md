@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -35,7 +35,6 @@ modificare le tue query
 * Monitoraggio di come gli operatori si comportano ed elaborazione tuple garantita nel cloud. {{site.data.keyword.streamsshort}} fornisce metriche per aiutarti a valutare l'integrità dei servizi {{site.data.keyword.streamsshort}}, come ausilio nella diagnosi dei problemi delle prestazioni e per analizzare la velocità effettiva delle richieste. Puoi utilizzare la console di Streams in {{site.data.keyword.streaminganalyticsshort}} per [monitorare come gli operatori si comportano e garantire l'ottimizzazione della risorsa ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").](https://wp.me/p4IICn-4bH)
 
 
-Puoi accedere alla console {{site.data.keyword.streaminganalyticsshort}}
-dal dashboard del servizio.
+Puoi accedere alla console {{site.data.keyword.streaminganalyticsshort}} dalla pagina dei dettagli del servizio.
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

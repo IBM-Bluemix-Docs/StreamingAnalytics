@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# Dashboard del servizio
+# Pagina dei dettagli del servizio
 {: #dashboard}
 
-Puoi accedere al tuo servizio {{site.data.keyword.streaminganalyticsshort}} dal dashboard del servizio {{site.data.keyword.Bluemix_short}}.
+Puoi accedere al tuo servizio {{site.data.keyword.streaminganalyticsshort}} dal dashboard {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-Dal dashboard del servizio puoi:
+Dalla pagina dei dettagli del servizio puoi:
 
 * Visualizzare lo stato del tuo servizio {{site.data.keyword.streaminganalyticsshort}}.
 * Arrestare o avviare la tua istanza del servizio.
@@ -31,3 +31,4 @@ quando non è in esecuzione alcun lavoro per un periodo prolungato.
 * Accedere alle credenziali del servizio.
 * Accedere alle esercitazioni per le applicazioni starter.
 * Accedere alla documentazione del servizio e ai forum utente.
+* Gestire gli endpoint del servizio. 

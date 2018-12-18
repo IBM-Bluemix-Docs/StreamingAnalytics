@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -12,50 +12,59 @@ lastupdated: "2018-07-24"
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
+{:faq: data-hd-content-type='faq'}
 
 # Domande frequenti (FAQ)
 {: #faq}
 
 ## Come mi registro al servizio Streaming Analytics?
-{: #signup notoc}  
+{: #signup notoc}
+{: faq}  
 
-Per ulteriori informazioni sui piani del servizio {{site.data.keyword.streaminganalyticsshort}}, consulta la [pagina del catalogo {{site.data.keyword.Bluemix_short}}](https://console.bluemix.net/catalog/services/streaming-analytics).
+Per ulteriori informazioni sui piani di servizio {{site.data.keyword.streaminganalyticsshort}}, consulta il [catalogo {{site.data.keyword.Bluemix_short}}](https://{DomainName}/catalog/services/streaming-analytics).
 
 ## Quale versione del servizio Streaming Analytics sto utilizzando?
-{: #version notoc}   
+{: #version notoc}
+{: faq}   
 
 I miglioramenti vengono distribuiti regolarmente a tutti i servizi {{site.data.keyword.streaminganalyticsshort}}. Utilizzi sempre la versione più recente del servizio gestito e non devi tenere traccia di eventuali versioni o livelli del prodotto.
 
 ## Cosa gestisce IBM al mio posto?
-{: #ibm_manage notoc}   
+{: #ibm_manage notoc}
+{: faq}   
 
 Noi gestiamo l'installazione, gli aggiornamenti software, la creazione e la gestione dei domini e la manutenzione hardware. Il servizio include il monitoraggio dell'integrità 24 ore su 24 e 7 giorni su 7.
 
 
 ## Di quali azioni sono responsabile?  
 {: #responsible notoc}
+{: faq}
 
 Tu scrivi le applicazioni che vengono eseguite in un servizio {{site.data.keyword.streaminganalyticsshort}} e nell'istanza Streams in loco e ti assicuri che stiano funzionando correttamente e soddisfino i requisiti delle prestazioni. Sei anche responsabile di tutto il monitoraggio specifico dell'applicazione.
 
 ## L'elevata disponibilità (HA) è supportata?
 {: #ha notoc}
+{: faq}
 
 L'elevata disponibilità è gestita da IBM. {{site.data.keyword.streaminganalyticsshort}} è configurato per supportare l'elevata disponibilità (HA). Ulteriori risorse server sono implementate nel caso di un failover.
 
 ## Come è gestita la sicurezza per il servizio Streaming Analytics?
-{: #security notoc}  
+{: #security notoc}
+{: faq}   
 
 La sicurezza è completamente gestita da IBM. Le credenziali sono generate per ogni servizio e ti vengono fornite. Gli aggiornamenti della sicurezza sono gestiti e applicati tempestivamente da IBM come sono disponibili.
 
 ## Ho bisogno di configurare un servizio Streaming Analytics?  
 {: #configure notoc}
+{: faq}
 
 Il servizio viene creato e completamente gestito da IBM. Ogni servizio è composto da una serie dedicata di nodi dell'applicazione.
 
 ## Come sviluppo le applicazioni Streams?
 {: #streamsapp notoc}
+{: faq}
 
-Devi sviluppare le applicazioni Streams in locale utilizzando la [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/) gratuita di Streams per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html) o, se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html), puoi scaricare l'[immagine della VM {{site.data.keyword.streamsshort}} Quick Start Edition ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}.
+Devi sviluppare le applicazioni Streams in locale utilizzando la [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) gratuita di Streams per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html) o, se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html), puoi scaricare l'[immagine della VM {{site.data.keyword.streamsshort}} Quick Start Edition ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 
 Puoi anche utilizzare l'installazione di {{site.data.keyword.streamsshort}} in loco se ne disponi. Le applicazioni che sviluppi e compili localmente possono essere perfettamente distribuite come un bundle a un servizio Streams nel cloud.
 
@@ -65,11 +74,13 @@ Per ulteriori informazioni sullo sviluppo delle applicazioni, consulta la [{{sit
 
 ## Possono registrarmi direttamente a un host del servizio Streaming Analytics?
 {: #host notoc}  
+{: faq}
 
 No. Un accesso diretto al server con Telnet o SSH (Secure Shell) non è supportato. Non puoi installare software aggiuntivo o eseguire un software non Streams su un host Streams.
 
 ## Posso accedere al file system in un servizio Streaming Analytics?
-{: #filesystem notoc}  
+{: #filesystem notoc}
+{: faq}   
 
 Solo le tue applicazioni Streams possono accedere direttamente al file system in un host Streams.
 
@@ -78,7 +89,7 @@ Esistono alternative pronte per il cloud per le soluzioni che necessitano di un 
 ## Come le applicazioni del servizio Streaming Analytics possono accedere ai dati aziendali della mia organizzazione?
 {: #access notoc}  
 
-Puoi utilizzare il [Servizio Secure Gateway {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/catalog/services/secure-gateway) per collegare in sicurezza le applicazioni Streams alla tua azienda.
+Puoi utilizzare il [Servizio Secure Gateway {{site.data.keyword.Bluemix_notm}}](https://{DomainName}/catalog/services/secure-gateway) per collegare in sicurezza le applicazioni Streams alla tua azienda.
 
 ## Sono supportate tutte le funzioni di IBM Streams in loco dal servizio Streaming Analytics nel cloud?
 {: #features notoc}

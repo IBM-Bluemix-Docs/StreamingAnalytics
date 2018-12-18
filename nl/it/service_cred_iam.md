@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,7 +26,7 @@ L'accesso alle istanze del servizio {{site.data.keyword.streaminganalyticsshort}
 
 a. Devi disporre di un ID IBM valido.
 
-b. Scarica e installa la [CLI {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+b. Scarica e installa la [CLI {{site.data.keyword.Bluemix_notm}}](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 ### Passo 1. Esegui l'accesso alla CLI {{site.data.keyword.Bluemix_notm}}.
 

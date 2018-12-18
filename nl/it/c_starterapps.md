@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -27,7 +27,7 @@ Distribuisci e modifica le applicazioni starter e impara velocemente come utiliz
     <th id="stocktrades" colspan="3">Applicazione di esempio Stock Trades<br></th>
   </tr>
   <tr>
-    <td headers="stocktrades" colspan="3">Questa applicazione analizza un flusso di quotazioni titolo e produce una media mobile dei prezzi utilizzando l'operatore <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>.
+    <td headers="stocktrades" colspan="3">Questa applicazione analizza un flusso di quotazioni titolo e produce una media mobile dei prezzi utilizzando l'operatore <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>.
 Puoi eseguire l'applicazione starter senza alcuna modifica. Se vuoi provare con un altro servizio, puoi anche modificare
 il codice e rimandare le tue modifiche all'ambiente {{site.data.keyword.Bluemix_short}} . L'origine completa dell'applicazione starter è <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">disponibile in GitHub ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>.</p>
 </td>
@@ -48,7 +48,7 @@ il codice e rimandare le tue modifiche all'ambiente {{site.data.keyword.Bluemix_
     <th id="EventDetection2" colspan="3">Applicazione di esempio Event Detection v2<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">L'applicazione Event Detection v2 è implementata con il runtime <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>. Questa applicazione starter è compatibile solo con i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
+    <td colspan="3" headers="EventDetection2">L'applicazione Event Detection v2 è implementata con il runtime <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>. Questa applicazione starter è compatibile solo con i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
 L'applicazione
 fornisce una IU web di esempio per visualizzare lo stato e i risultati delle analisi.
 L'applicazione Node.js è associata a un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}. L'applicazione controlla il servizio tramite l'API REST {{site.data.keyword.streaminganalyticsshort}} v2.
@@ -71,7 +71,7 @@ Se vuoi provare con un altro servizio, puoi anche modificare il codice e rimanda
     <th id="EventDetection1" colspan="3">Applicazione di esempio Event Detection<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">L'applicazione Event Detection è implementata con il runtime <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>.
+    <td headers="EventDetection1" colspan="3">L'applicazione Event Detection è implementata con il runtime <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>.
 Questa applicazione starter è compatibile solo con i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). L'applicazione
 fornisce una IU web di esempio per visualizzare lo stato e i risultati delle analisi.
 L'applicazione Node.js è associata a un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}. L'applicazione controlla il servizio tramite l'API REST {{site.data.keyword.streaminganalyticsshort}}.
@@ -120,8 +120,8 @@ di New York City, calcola le statistiche aggregate e restituisce i risultati all
 </td>
   </tr>
   <tr>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">DISTRIBUISCI L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a><br></td>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">VISUALIZZA L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#running-the-temperaturesample-application" target="_blank">DISTRIBUISCI L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a><br></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#viewing-the-running-application" target="_blank">VISUALIZZA L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
   </tr>
 </table>
 
@@ -137,7 +137,7 @@ di New York City, calcola le statistiche aggregate e restituisce i risultati all
 </td>
   </tr>
   <tr>
-    <td headers="WordCountSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">DISTRIBUISCI L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a><br></td>
+    <td headers="WordCountSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/wordcount/" target="_blank">DISTRIBUISCI L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a><br></td>
   </tr>
 </table>
 
@@ -153,7 +153,7 @@ di New York City, calcola le statistiche aggregate e restituisce i risultati all
 </td>
   </tr>
   <tr>
-    <td headers="FilterStreamSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">DISTRIBUISCI L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a><br></td>
+    <td headers="FilterStreamSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/objstor/" target="_blank">DISTRIBUISCI L'APPLICAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a><br></td>
   </tr>
 </table>
 

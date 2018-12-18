@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -21,11 +21,11 @@ Puoi eseguire un'analisi in tempo reale sui dati dinamici come parte della tua a
 
 Nuovo utente di {{site.data.keyword.streaminganalyticsshort}}? Ottieni una [veloce introduzione al servizio ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.
 
-Il servizio {{site.data.keyword.streaminganalyticsshort}} fornisce le seguenti funzionalità per distribuire, analizzare e monitorare i tuoi dati nel cloud: 
+Il servizio {{site.data.keyword.streaminganalyticsshort}} fornisce le seguenti funzionalità per distribuire, analizzare e monitorare i tuoi dati nel cloud:
 
 **Utilizzo programmatico e interattivo del servizio:**
 
-Puoi utilizzare il servizio interattivamente tramite la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) oppure in modo programmatico tramite la [API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html), utilizza la [API REST {{site.data.keyword.streaminganalyticsshort}} v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")https://console.bluemix.net/apidocs/streaming-analytics-v2).
+Puoi utilizzare il servizio interattivamente tramite la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) oppure in modo programmatico tramite l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html), utilizza l'[API REST {{site.data.keyword.streaminganalyticsshort}} v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v2).
 
 **Distribuzione e monitoraggio di applicazioni SPL, Java, Scala e Python:**
 
@@ -35,7 +35,7 @@ Se vuoi scrivere le tue applicazioni in SPL, tieni presente che SPL ({{site.data
 
 Per creare e distribuire applicazioni Python senza un ambiente di sviluppo {{site.data.keyword.streamsshort}}, utilizza i notebook di servizio in IBM {{site.data.keyword.DSX_short}} oppure la API {{site.data.keyword.streamsshort}} Python. Per ulteriori informazioni, consulta [Sviluppo di applicazioni Python per {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
-Puoi sviluppare le applicazioni Beam con Streams Runner nel tuo ambiente di sviluppo locale che puoi distribuire e monitorare nel servizio {{site.data.keyword.streaminganalyticsshort}}. Per ulteriori informazioni sulle applicazioni Beam con Streams Runner, consulta [Monitora le applicazioni Beam con Streams Runner in {{site.data.keyword.streaminganalyticsshort}}](docs/services/StreamingAnalytics/gs_beamrunner.html).
+Puoi sviluppare le applicazioni Beam con Streams Runner nel tuo ambiente di sviluppo locale che puoi distribuire e monitorare nel servizio {{site.data.keyword.streaminganalyticsshort}}. Per ulteriori informazioni sulle applicazioni Beam con Streams Runner, consulta [IBM Streams Runner per Apache Beam in {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/gs_beamrunner.html).
 
 
 **Compatibilità con gli operatori {{site.data.keyword.streamsshort}}:**

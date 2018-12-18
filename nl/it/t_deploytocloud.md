@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-07-24"
 Puoi distribuire le tue applicazioni {{site.data.keyword.streamsshort}} all'istanza {{site.data.keyword.streaminganalyticsshort}} in esecuzione in {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-Le applicazioni {{site.data.keyword.streamsshort}} sono scritte in SPL ({{site.data.keyword.streamsshort}} Processing Language), SPL, Java, Scala o Python in un ambiente {{site.data.keyword.streamsshort}}. Puoi ora sviluppare applicazioni Streams Python senza un ambiente {{site.data.keyword.streamsshort}}. Vedi [Distribuzione di applicazioni {{site.data.keyword.streamsshort}} nel cloud](docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)
+Le applicazioni {{site.data.keyword.streamsshort}} sono scritte in SPL ({{site.data.keyword.streamsshort}} Processing Language), SPL, Java, Scala o Python in un ambiente {{site.data.keyword.streamsshort}}. Puoi ora sviluppare applicazioni Streams Python senza un ambiente {{site.data.keyword.streamsshort}}. Vedi [Distribuzione di applicazioni {{site.data.keyword.streamsshort}} nel cloud](/docs/services/StreamingAnalytics/t_deploytocloud.html#t_deploypython)
 
 
 {{site.data.keyword.streaminganalyticsshort}} non include un ambiente di sviluppo
@@ -33,7 +33,7 @@ al cloud:
 
 1. Configura il tuo ambiente per lo sviluppo e la verifica della tua applicazione.
 
-	Se vuoi utilizzare un ambiente {{site.data.keyword.streamsshort}}, puoi scaricare [{{site.data.keyword.streamsshort}} Quick Start Edition ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Utilizza [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window} per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
+	Se vuoi utilizzare un ambiente {{site.data.keyword.streamsshort}}, puoi scaricare [{{site.data.keyword.streamsshort}} Quick Start Edition ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Utilizza [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window} per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
 
 2. Sviluppa la tua applicazione di gestione flussi nel tuo ambiente di sviluppo. Nell'ambiente di sviluppo {{site.data.keyword.streamsshort}}, puoi utilizzare Streams Studio o gli strumenti di riga di comando per sviluppare la tua applicazione.
 
@@ -44,11 +44,11 @@ al cloud:
 	* Utilizza la console {{site.data.keyword.streaminganalyticsshort}}
 per inviare il bundle dell'applicazione.
 
-  * Crea un'applicazione in {{site.data.keyword.Bluemix_notm}} e aggiungi l'applicazione {{site.data.keyword.streamsshort}} ad essa. Eseguine il controllo utilizzando la [API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html) oppure la [API REST {{site.data.keyword.streaminganalyticsshort}} v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window} per i piani di servizio v2.
+  * Crea un'applicazione in {{site.data.keyword.Bluemix_notm}} e aggiungi l'applicazione {{site.data.keyword.streamsshort}} ad essa. Eseguine il controllo utilizzando l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html) oppure la [API REST {{site.data.keyword.streaminganalyticsshort}} v2![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window} per i piani di servizio v2.
 
 La tua applicazione è ora distribuita nel cloud. Puoi monitorarla nel servizio {{site.data.keyword.streaminganalyticsshort}}. Puoi inoltre inviare più di un'applicazione (file .sab) alla tua istanza del servizio. Puoi inviarne quante desideri.
 
-{{site.data.keyword.streamsshort}} supporta inoltre diversi kit di sviluppo Java™ che puoi utilizzare per sviluppare le tue applicazioni. Per ulteriori informazioni sul supporto Java in  {{site.data.keyword.streamsshort}}, consulta [Supported Java development kits for application development ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.2.1/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
+{{site.data.keyword.streamsshort}} supporta inoltre diversi kit di sviluppo Java™ che puoi utilizzare per sviluppare le tue applicazioni. Per ulteriori informazioni sul supporto Java in  {{site.data.keyword.streamsshort}}, consulta [Supported Java development kits for application development ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.3.0/com.ibm.streams.install.doc/doc/ibminfospherestreams-install-prerequisites-java-supported-sdks.html){:new_window}.
 
 ## Distribuzione delle applicazioni Streams Python al cloud
 {: #t_deploypython}

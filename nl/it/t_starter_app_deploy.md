@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics è un servizio completamente gestito che ti libera da attivi
 
 Devi attenerti alla seguente procedura per distribuire le applicazioni starter:
 
-* Esegui la registrazione a un account [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/registration){:new_window}
-* Crea un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} nella tua organizzazione {{site.data.keyword.Bluemix_notm}}. Puoi creare l'istanza direttamente dalla pagina [**{{site.data.keyword.streaminganalyticsshort}}** nel catalogo dei servizi {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* Esegui la registrazione a un account [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/registration){:new_window}
+* Crea un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} nella tua organizzazione {{site.data.keyword.Bluemix_notm}}. Puoi creare l'istanza direttamente dalla [pagina dei dettagli dell'offerta **{{site.data.keyword.streaminganalyticsshort}}** nel catalogo {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
+* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -36,7 +36,7 @@ Devi attenerti alla seguente procedura per distribuire le applicazioni starter:
 
 1. Crea un'applicazione in {{site.data.keyword.Bluemix_notm}}:
 
-    a. Nel menu **{{site.data.keyword.Bluemix_notm}}**, seleziona **Applicazioni Cloud Foundry** e fai clic su **Crea risorsa**.
+    a. Vai a **Menu**>**Applicazioni Cloud Foundry**>**Crea risorsa** per creare una risorsa.
 
     b. Seleziona il runtime {{site.data.keyword.sdk4node}} per le applicazioni starter Event Detection o Event Detection v2.
 
@@ -66,12 +66,10 @@ la tua organizzazione di destinazione quando richiesto:
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. Vai alla pagina della panoramica dell'applicazione, accessibile dal dashboard {{site.data.keyword.Bluemix_notm}}, per verificare che la tua
-applicazione sia stata avviata correttamente.
-1. Avvia l'applicazione per visualizzarla nel browser. Puoi trovare l'URL della tua applicazione (o
-"rotta") nella pagina della panoramica dell'applicazione.
+1. Vai alla pagina dei dettagli della tua applicazione, accessibile dal dashboard {{site.data.keyword.Bluemix_notm}}, per verificare che la tua applicazione sia stata avviata correttamente.
+1. Avvia l'applicazione per visualizzarla nel browser. Puoi trovare l'URL della tua applicazione (o "rotta") nella pagina dei dettagli dell'applicazione.
 
 ## Fasi successive
 {: #next_steps}
 
-Ora che la tua applicazione è in esecuzione, puoi monitorarla dalla console {{site.data.keyword.streaminganalyticsshort}}. Passa al dashboard del servizio, seleziona il tuo servizio {{site.data.keyword.streaminganalyticsshort}} e fai clic su **Avvia**.
+Ora che la tua applicazione è in esecuzione, puoi monitorarla dalla console {{site.data.keyword.streaminganalyticsshort}}. Passa alla pagina dei dettagli del servizio, seleziona il tuo servizio {{site.data.keyword.streaminganalyticsshort}} e fai clic su **Avvia**.
