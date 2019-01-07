@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -29,20 +29,20 @@ lastupdated: "2018-07-24"
 
 ## Referencia de API
 {: #api notoc}
-* [API REST de {{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window}
-* [API REST de {{site.data.keyword.streaminganalyticsshort}} v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
+* [API REST de {{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}
+* [API REST de {{site.data.keyword.streaminganalyticsshort}} v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 * [API de {{site.data.keyword.streamsshort}} Python ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/){:new_window}
 
 
-## Entornos de tiempo de ejecución compatibles
+## Tiempos de ejecución compatibles
 {: #buildpacks notoc}
 * [Liberty for Java](/docs/runtimes/liberty/index.html#liberty)
 * [SDK for Node.js](/docs/runtimes/nodejs/index.html#nodejs)
 
 ## Recursos generales
 {: #general notoc}
-* [Documentación de {{site.data.keyword.streamsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
-* [Imagen de {{site.data.keyword.streamsshort}} Quick Start Edition VM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}
-* [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/){:new_window}
+* [Documentación de {{site.data.keyword.streamsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
+* [Imagen de {{site.data.keyword.streamsshort}} Quick Start Edition VM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}
+* [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/){:new_window}
 * [Documentación de {{site.data.keyword.streamsshort}} para Apache Beam
 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-07-24"
 {{site.data.keyword.streaminganalyticsshort}} dispose d'une série de comportements et de règles assurant une allocation et une utilisation appropriées des ressources.
 
 ## Affichage et édition des ressources d'instance
-Vous pouvez afficher et éditer le nombre de ressources autorisées pour l'instance dans le tableau de bord du service ou avec l'API REST v1 pour les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Vous devez utiliser l'API REST [{{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/streaming-analytics-v2-streaming-analytics-v2#get-a-streaming-analytics-instance) pour les [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
+Vous pouvez afficher et éditer le nombre de ressources autorisées pour l'instance sur la page des détails du service ou l'API REST version 1 pour les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Vous devez utiliser l'API REST [{{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) pour les [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
 
 ## Allocation des ressources
 - Les ressources sont allouées automatiquement à l'instance lorsque vous soumettez à un travail qui s'exécute correctement.

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,7 +26,7 @@ L'accès aux instances de service {{site.data.keyword.streaminganalyticsshort}} 
 
 a. Vous devez disposer d'un IBMid valide.
 
-b. Téléchargez et installez l'interface de ligne de commande [{{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+b. Téléchargez et installez l'[interface de ligne de commande {{site.data.keyword.Bluemix_notm}}](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 ### Etape 1. Connectez-vous à l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}.
 

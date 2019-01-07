@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -19,10 +19,10 @@ lastupdated: "2018-07-24"
 {{site.data.keyword.streaminganalyticsshort}} 使得您的应用程序具有高可用性。
 如果在其中一个应用程序节点（{{site.data.keyword.streamsshort}} 资源）上检测到问题，那么会自动替换该节点，且会迁移在该节点上运行的任何作业。
 仅当实例包含多个应用程序节点时，才会迁移和重新启动作业。
-使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)时，您可以使用[服务仪表板](/docs/services/StreamingAnalytics/r_service_dashboard.html)或 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} 来调整实例的大小。对于 V2 服务套餐，使用 [v2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
+对于 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，您可以使用[服务详细信息页面](/docs/services/StreamingAnalytics/r_service_dashboard.html)或 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 来调整实例的大小。对于 V2 服务套餐，请使用 [V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
-此视频说明如何使用服务仪表板来调整实例大小：
+此视频展示如何使用服务详细信息页面来调整实例大小：
 
 <iframe width="560" height="315" title="调整实例大小" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>调整实例大小</iframe>
 
@@ -37,4 +37,4 @@ lastupdated: "2018-07-24"
 
 可在有能力的操作程序上使用 `@consistent` 注释定义一致区域的开头。{{site.data.keyword.streamsshort}} 自动确定一致区域的作用域，但是您可使用 `@autonomous` 注释更改该区域的结束操作程序。所定义的一致区域将定期建立一致状态。
 
-请查看 [{{site.data.keyword.streamsshort}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.dev.doc/doc/consistentregions.html) 以获取在 Streams 应用程序中使用一致区域的更多详细信息。
+请查看 [{{site.data.keyword.streamsshort}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) 以获取在 Streams 应用程序中使用一致区域的更多详细信息。

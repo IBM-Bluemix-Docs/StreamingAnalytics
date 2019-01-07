@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics 是完全受管的服务，可使您免于进行耗时的安
 
 您必须遵循以下步骤以部署入门模板应用程序：
 
-* 注册 [{{site.data.keyword.Bluemix_notm}} 帐户 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/registration){:new_window}
-* 在 {{site.data.keyword.Bluemix_notm}} 组织中创建 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。您可以直接通过 [{{site.data.keyword.Bluemix_notm}} 服务目录中的 **{{site.data.keyword.streaminganalyticsshort}}** 页面 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window} 创建实例。  
-* [安装 {{site.data.keyword.Bluemix_notm}} CLI ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
+* 注册 [{{site.data.keyword.Bluemix_notm}} 帐户 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/registration){:new_window}
+* 在 {{site.data.keyword.Bluemix_notm}} 组织中创建 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。您可以直接通过 [{{site.data.keyword.Bluemix_notm}} 目录中的 **{{site.data.keyword.streaminganalyticsshort}}** 产品详细信息页面 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window} 创建实例。  
+* [安装 {{site.data.keyword.Bluemix_notm}} CLI ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
 
 
 
@@ -36,7 +36,7 @@ Streaming Analytics 是完全受管的服务，可使您免于进行耗时的安
 
 1. 在 {{site.data.keyword.Bluemix_notm}} 中创建应用程序：
 
-    a. 在 **{{site.data.keyword.Bluemix_notm}}** 菜单中，选择 **Cloud Foundry 应用程序**并单击**创建资源**。
+    a. 转至**菜单**>**Cloud Foundry 应用程序**>**创建资源**以创建资源。
 
     b. 为“事件检测”或“事件检测”V2 入门模板应用程序选择 {{site.data.keyword.sdk4node}} 运行时。
 
@@ -66,12 +66,10 @@ Streaming Analytics 是完全受管的服务，可使您免于进行耗时的安
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. 转至应用程序概述页面（可从 {{site.data.keyword.Bluemix_notm}} 仪表板访问），以验证应用程序成功启动。
-
-1. 启动应用程序，以在浏览器中进行查看。您可以在应用程序概述页面上，找到应用程序的 URL（或“路径”）。
-
+1. 转至应用程序详细信息页面（可从 {{site.data.keyword.Bluemix_notm}} 仪表板访问），以验证应用程序是否成功启动。
+1. 启动应用程序，以在浏览器中进行查看。您可以在应用程序详细信息页面上找到其 URL（或“路径”）。
 
 ## 后续步骤
 {: #next_steps}
 
-既然您的应用程序正在运行，那么您可以通过 {{site.data.keyword.streaminganalyticsshort}} 控制台来监视应用程序。转至服务仪表板，选择 {{site.data.keyword.streaminganalyticsshort}} 服务并单击**启动**。
+既然您的应用程序正在运行，那么您可以通过 {{site.data.keyword.streaminganalyticsshort}} 控制台来监视应用程序。转至服务详细信息页面，选择 {{site.data.keyword.streaminganalyticsshort}} 服务，并单击**启动**。

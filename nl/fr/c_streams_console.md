@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -32,6 +32,6 @@ fournit des métriques pour aider à évaluer la santé des services {{site.data
 et aider au diagnostics des problèmes de performance, ainsi qu'à analyser la capacité de traitement des demandes. Vous pouvez utiliser la console Streams dans {{site.data.keyword.streaminganalyticsshort}} pour [surveiller le comportement des opérateurs et assurer l'optimisation des ressources ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").](https://wp.me/p4IICn-4bH)
 
 
-Vous pouvez accéder à la console {{site.data.keyword.streaminganalyticsshort}} depuis le tableau de bord du service.
+Vous pouvez accéder à la console {{site.data.keyword.streaminganalyticsshort}} depuis la page des détails du service.
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

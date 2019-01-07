@@ -50,7 +50,7 @@ lastupdated: "2018-09-04"
 {: tsCauses}
 
 如果使用 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么必须以 Red Hat Enterprise Linux (RHEL) 7.x 编译应用程序。如果使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么必须以使用 Intel 处理器的 RHEL 6.5 编译应用程序。重新向服务实例提交应用程序。
-如果没有兼容的开发环境，又要使用 V2 服务套餐，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。如果要使用 V1 服务套餐，请下载 [{{site.data.keyword.streamsshort}} QSE ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}。
+如果没有兼容的开发环境，又要使用 V2 服务套餐，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。如果要使用 V1 服务套餐，请下载 [{{site.data.keyword.streamsshort}} QSE ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
 {: tsResolve}
 
 ## 我的应用程序在重新启动后运行状况异常
@@ -65,5 +65,5 @@ lastupdated: "2018-09-04"
 如果应用程序需要特殊标记，并且已达到资源配额，那么大规模 pod 重新启动（通常由服务更新触发）可能导致应用程序无法重新启动。在某些情况下，故障恢复场景可能导致大规模 pod 重新启动。
 {: tsCauses}
 
-您需要增加资源配额或者释放一些资源，从而使应用程序可获取具有所需标记的资源。要增加配额，请转至服务仪表板并增加实例大小。要释放资源，请取消现有作业，直至释放足够的资源来正确放置应用程序。
+您需要增加资源配额或者释放一些资源，从而使应用程序可获取具有所需标记的资源。要增加配额，请转至服务详细信息页面并增加实例大小。要释放资源，请取消现有作业，直至释放足够的资源来正确放置应用程序。
 {: tsResolve}

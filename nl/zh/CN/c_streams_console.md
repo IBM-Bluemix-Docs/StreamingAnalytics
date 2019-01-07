@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -34,7 +34,6 @@ lastupdated: "2018-07-24"
 * 监视操作员在云中如何操作，如何为元组处理提供保障。{{site.data.keyword.streamsshort}} 提供的度量值可帮助评估 {{site.data.keyword.streamsshort}} 服务的运行状况，协助诊断性能问题和分析请求的吞吐量。您可以使用 {{site.data.keyword.streaminganalyticsshort}} 中的 Streams 控制台来[监视操作程序行为并确保资源优化 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。](https://wp.me/p4IICn-4bH)
 
 
-您可以从服务仪表板访问 {{site.data.keyword.streaminganalyticsshort}} 控制台。
-
+您可以从服务详细信息页面访问 {{site.data.keyword.streaminganalyticsshort}} 控制台。
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

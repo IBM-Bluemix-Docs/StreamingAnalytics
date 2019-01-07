@@ -2,7 +2,7 @@
 
 copyright:
   years:  2017
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -26,7 +26,7 @@ El acceso a las instancias de servicio de {{site.data.keyword.streaminganalytics
 
 a. Debe tener un IBMid válido.
 
-b. Descargue e instale la [CLI de {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+b. Descargue e instale la [CLI de {{site.data.keyword.Bluemix_notm}}](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 ### Paso 1. Iniciar sesión en la CLI de {{site.data.keyword.Bluemix_notm}}.
 

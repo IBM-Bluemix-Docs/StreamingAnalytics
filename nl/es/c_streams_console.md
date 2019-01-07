@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,6 +30,6 @@ Utilice la consola de {{site.data.keyword.streaminganalyticsshort}} para supervi
 * Supervisión de cómo se comportan los operadores y el proceso de tuplas garantizado en la nube. {{site.data.keyword.streamsshort}} proporciona métricas para evaluar el estado de los servicios de {{site.data.keyword.streamsshort}}, facilitar el diagnóstico de problemas de rendimiento y analizar el rendimiento de solicitudes. Puede utilizar la Consola de Streams en {{site.data.keyword.streaminganalyticsshort}} para [supervisar cómo se comportan los operadores y garantizar la optimización de recursos ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").](https://wp.me/p4IICn-4bH)
 
 
-Se puede acceder a la consola de {{site.data.keyword.streaminganalyticsshort}} desde el panel de control del servicio.
+Se puede acceder a la consola de {{site.data.keyword.streaminganalyticsshort}} desde la página de detalles del servicio.
 
 <!--The {{site.data.keyword.streaminganalyticsshort}} console is translated into the following languages: Brazilian Portuguese, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese. Change the language setting in your browser to view the console in your preferred language. -->

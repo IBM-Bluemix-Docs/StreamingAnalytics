@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -27,7 +27,7 @@ Déployez et modifiez les applications de démarrage et apprenez rapidement à u
     <th id="stocktrades" colspan="3">Modèle d'application Stock Trades<br></th>
   </tr>
   <tr>
-    <td headers="stocktrades" colspan="3">Cette application analyse un flux d'actions en bourse et génère la moyenne des prix à l'aide de l'opérateur <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.
+    <td headers="stocktrades" colspan="3">Cette application analyse un flux d'actions en bourse et génère la moyenne des prix à l'aide de l'opérateur <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.
 Vous pouvez exécuter l'application de démarrage sans modification. Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}. La source intégrale de l'application de démarrage est <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">disponible sur GitHub ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.</p>
 </td>
   </tr>
@@ -47,7 +47,7 @@ Vous pouvez exécuter l'application de démarrage sans modification. Si vous sou
     <th id="EventDetection2" colspan="3">Modèle d'application Event Detection version 2<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">L'application Event Detection version 2 est implémentée via l'exécutionde <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>. Cette application de démarrage est uniquement compatible avec des [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
+    <td colspan="3" headers="EventDetection2">L'application Event Detection v2 est implémentée via l'exécution de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>. Cette application de démarrage est uniquement compatible avec des [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
 Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
 L'application Node.js est liée à une instance du service {{site.data.keyword.streaminganalyticsshort}}. L'application contrôle le service via l'interface API REST {{site.data.keyword.streaminganalyticsshort}} version 2.
 <p>Vous pouvez exécuter l'application de démarrage sans modification.
@@ -69,8 +69,7 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
     <th id="EventDetection1" colspan="3">Modèle d'application Event Detection<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">L'application Event Detection est implémentée via la phase d'exécution <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.
-Cette application de démarrage est uniquement compatible avec des [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
+    <td headers="EventDetection1" colspan="3">L'application Event Detection est implémentée via l'exécution de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>. Cette application de démarrage est uniquement compatible avec des [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
 L'application Node.js est liée à une instance du service {{site.data.keyword.streaminganalyticsshort}}. L'application contrôle le service via l'interface API REST {{site.data.keyword.streaminganalyticsshort}}.
 <p>Vous pouvez exécuter l'application de démarrage sans modification.
 Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}.</p>
@@ -116,8 +115,8 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
 </td>
   </tr>
   <tr>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">AFFICHER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#running-the-temperaturesample-application" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#viewing-the-running-application" target="_blank">AFFICHER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
 </table>
 
@@ -133,7 +132,7 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
 </td>
   </tr>
   <tr>
-    <td headers="WordCountSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
+    <td headers="WordCountSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/wordcount/" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
   </tr>
 </table>
 
@@ -149,7 +148,7 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
 </td>
   </tr>
   <tr>
-    <td headers="FilterStreamSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
+    <td headers="FilterStreamSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/objstor/" target="_blank">DEPLOYER L'APPLICATION ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a><br></td>
   </tr>
 </table>
 

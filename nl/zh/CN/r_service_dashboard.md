@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# 服务仪表板
+# 服务详细信息页面
 {: #dashboard}
 
-您可以从 {{site.data.keyword.Bluemix_short}} 服务仪表板访问 {{site.data.keyword.streaminganalyticsshort}} 服务。
+您可以从 {{site.data.keyword.Bluemix_short}} 仪表板访问 {{site.data.keyword.streaminganalyticsshort}} 服务。
 {:shortdesc}
 
-从服务仪表板，您可以：
+使用服务详细信息页面，您可以：
 
 * 查看 {{site.data.keyword.streaminganalyticsshort}} 服务的状态。
 * 停止和启动服务实例。
@@ -32,3 +32,4 @@ lastupdated: "2018-07-24"
 * 访问服务凭证。
 * 访问入门模板应用程序的教程。
 * 访问服务文档和用户论坛。
+* 管理服务端点。

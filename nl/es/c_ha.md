@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -16,10 +16,10 @@ lastupdated: "2018-07-24"
 # Alta disponibilidad de Streaming Analytics
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} permite una alta disponibilidad para las aplicaciones. Si se detecta un problema en uno de los nodos de la aplicación (recursos de {{site.data.keyword.streamsshort}}), el nodo se sustituye automáticamente y los trabajos que estén en ejecución en el nodo en cuestión se migran. Los trabajos solo se migran y se reinician si la instancia contiene varios nodos de aplicación. Puede redimensionar la instancia mediante el [panel de control de servicio](/docs/services/StreamingAnalytics/r_service_dashboard.html) o la [API REST de {{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} para los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). Para los planes de servicio de v2, utilice la [API REST de v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}{:new_window}
+{{site.data.keyword.streaminganalyticsshort}} permite una alta disponibilidad para las aplicaciones. Si se detecta un problema en uno de los nodos de la aplicación (recursos de {{site.data.keyword.streamsshort}}), el nodo se sustituye automáticamente y los trabajos que estén en ejecución en el nodo en cuestión se migran. Los trabajos solo se migran y se reinician si la instancia contiene varios nodos de aplicación. Puede redimensionar la instancia mediante la [página de detalles del servicio](/docs/services/StreamingAnalytics/r_service_dashboard.html) o la [API REST de {{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} para los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). Para los planes de servicio de v2, utilice la [API REST de v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
-Este vídeo muestra cómo redimensionar la instancia mediante el panel de control de servicio:
+Este vídeo muestra cómo redimensionar la instancia mediante la página de detalles del servicio:
 
 <iframe width="560" height="315" title="Redimensionar instancia" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Redimensionar instancia</iframe>
 
@@ -34,4 +34,4 @@ Puede escribir aplicaciones Java y SPL, que tengan el proceso de tuplas garantiz
 
 Puede definir el inicio de una región coherente con la anotación `@consistent` en un operador con capacidad. {{site.data.keyword.streamsshort}} determina automáticamente el ámbito de la región coherente, pero puede cambiar el operador final de la región con la anotación `@autonomous`. La región coherente definida establece periódicamente un estado coherente.
 
-Consulte la [documentación de {{site.data.keyword.streamsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.dev.doc/doc/consistentregions.html) para obtener información detallada sobre cómo utilizar regiones coherentes en aplicaciones Streams.
+Consulte la [documentación de {{site.data.keyword.streamsshort}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) para obtener información detallada sobre cómo utilizar regiones coherentes en aplicaciones Streams.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -29,8 +29,8 @@ lastupdated: "2018-07-24"
 
 ## Référence d'API
 {: #api notoc}
-* [API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window}
-* [API REST {{site.data.keyword.streaminganalyticsshort}} v2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/apidocs/streaming-analytics-v2){:new_window}
+* [API REST {{site.data.keyword.streaminganalyticsshort}} version 1 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}
+* [API REST {{site.data.keyword.streaminganalyticsshort}} version 2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 * [API Python {{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/){:new_window}
 
 
@@ -41,8 +41,8 @@ lastupdated: "2018-07-24"
 
 ## Ressources générales
 {: #general notoc}
-* [Documentation d'{{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
-* [Image de machine virtuelle {{site.data.keyword.streamsshort}} Quick Start Edition ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-intro/){:new_window}
-* [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/){:new_window}
+* [Documentation d'{{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
+* [Image de machine virtuelle {{site.data.keyword.streamsshort}} Quick Start Edition![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}
+* [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/){:new_window}
 * [Documentation d'{{site.data.keyword.streamsshort}} for Apache Beam
 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}

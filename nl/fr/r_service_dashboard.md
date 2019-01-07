@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -13,13 +13,13 @@ lastupdated: "2018-07-24"
 {:screen: .screen}
 {:pre: .pre}
 
-# Tableau de bord du service
+# Page des détails du service
 {: #dashboard}
 
-Vous pouvez accéder à votre service {{site.data.keyword.streaminganalyticsshort}} depuis le tableau de bord de service {{site.data.keyword.Bluemix_short}}.
+Vous pouvez accéder à votre service {{site.data.keyword.streaminganalyticsshort}} depuis le tableau de bord {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-Depuis le tableau de bord de service, vous pouvez :
+A partir de la page des détails du service, vous pouvez :
 
 * Afficher le statut de votre service {{site.data.keyword.streaminganalyticsshort}}.
 * Arrêter et démarrer votre instance de service.
@@ -29,3 +29,4 @@ Depuis le tableau de bord de service, vous pouvez :
 * Accéder aux données d'identification de service.
 * Accéder aux tutoriels pour les applications de démarrage.
 * Accéder à la documentation relative aux services et aux forums utilisateur.
+* Gérer des noeuds finaux de service.

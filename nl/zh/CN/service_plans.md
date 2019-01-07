@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,7 +30,7 @@ lastupdated: "2018-07-24"
   </tr>
   <tr>
     <td width="15%">
-   V1 服务套餐    
+    v1 服务套餐（不推荐）    
     </td>
     <td width="35%">
     <ul>
@@ -50,7 +50,7 @@ lastupdated: "2018-07-24"
         <li>在基于 VM 的基础架构上运行。</li>
         <li>支持 V1 和 V2 REST API。<br></li>
         <li>支持 IAM 认证和用户凭证认证。</li>
-        <li>支持 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-vm/)
+        <li>支持 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-linux/)
       </ul>    
     </td>
   </tr>
@@ -77,8 +77,8 @@ lastupdated: "2018-07-24"
       <li>在基于容器的基础架构上运行。</li>
       <li>支持 V2 REST API。<br></li>
       <li>支持 IAM 认证。</li>
-      <li>支持 [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/)</li>
-      <li>仅在美国南部区域提供</li>
+      <li>支持非轻量服务套餐的服务端点</li>
+      <li>支持 [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/)</li>
     </ul>
     </td>
   </tr>
@@ -90,7 +90,7 @@ lastupdated: "2018-07-24"
 
 只有 V1 服务套餐支持以下功能：
 
-* [V1 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v1)。在 V2 基础架构中，必须使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/streaming-analytics-v2)
+* [V1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1)。在 V2 基础架构中，必须使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2)
 * “NYC 交通”和“事件检测”V1 样本应用程序。请参阅[样本应用程序](/docs/services/StreamingAnalytics/c_starterapps.html)列表，以了解在基于 V2 容器的基础架构中开始使用 {{site.data.keyword.streaminganalyticsshort}} 时可以使用哪些应用程序。
 * 部分工具箱的兼容性。请参阅[兼容的工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)列表，以了解哪些工具箱与基于容器的新基础架构兼容。
 
@@ -100,8 +100,7 @@ lastupdated: "2018-07-24"
 V1 套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_SERVICES 环境变量中包含要使用 {{site.data.keyword.streaminganalyticsshort}} V1 REST API 所需的 VCAP 信息。VCAP 信息为每个 {{site.data.keyword.streaminganalyticsshort}} V1 REST API 提供 REST URL、服务实例标识、绑定标识和凭证。  
 {:shortdesc}
 
- 当 {{site.data.keyword.streaminganalyticsshort}} 服务实例得到供应并绑定到 {{site.data.keyword.Bluemix_notm}} 中的应用程序时，会向 {{site.data.keyword.Bluemix_notm}} 应用程序环境提供该服务实例的 VCAP 信息。您可以在 VCAP_SERVICES 环境变量中查找此信息。未指定 {{site.data.keyword.Bluemix_notm}} 中要绑定到的应用程序即供应 {{site.data.keyword.streaminganalyticsshort}} 服务实例时，会自动创建服务凭证。从服务仪表板可访问 {{site.data.keyword.streaminganalyticsshort}} 服务凭证。
-
+ 当 {{site.data.keyword.streaminganalyticsshort}} 服务实例得到供应并绑定到 {{site.data.keyword.Bluemix_notm}} 中的应用程序时，会向 {{site.data.keyword.Bluemix_notm}} 应用程序环境提供该服务实例的 VCAP 信息。您可以在 VCAP_SERVICES 环境变量中查找此信息。未指定 {{site.data.keyword.Bluemix_notm}} 中要绑定到的应用程序即供应 {{site.data.keyword.streaminganalyticsshort}} 服务实例时，会自动创建服务凭证。可以从服务详细信息页面访问 {{site.data.keyword.streaminganalyticsshort}} 服务凭证。
 
 
 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_SERVICES 环境变量包括以下示例中所呈现的信息：
@@ -120,9 +119,9 @@ V1 套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_
 "stop_path": "/jax-rs/streams/stop/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
 "resources_path": "/jax-rs/resources/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
 "jobs_path": "/jax-rs/jobs/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
-"rest_host": "streams-app-service.ng.bluemix.net",
+        "rest_host": "{rest_url}",
 "rest_port": "443",
-"rest_url": "https://streams-app-service.ng.bluemix.net",
+        "rest_url": "{rest_url}",
 "userid": "xxx",
 "password": "yyy"
       }
@@ -131,7 +130,7 @@ V1 套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和 VCAP_
 }	  
 </code></pre>
 
-有关 V1 REST API 的更多信息，请参阅 [V1 REST API 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/apidocs/220){:new_window}。
+有关 V1 REST API 的更多信息，请参阅 [V1 REST API 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}。
 
 ## V2 服务套餐的 VCAP_SERVICES 环境变量
 {: #v2_vcap_services}
@@ -148,8 +147,8 @@ V2 服务套餐的 {{site.data.keyword.streaminganalyticsshort}} 服务凭证和
       "iam_apikey_name": "auto-generated-apikey-ab12c34d-e5d6-7890-123f-45dcece304df",
       "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
       "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/b123bb45670ab123d123e12d0a12345::serviceid:ServiceId-a1234b5c-678d-9f6f-bdb4-16c23935efb5",
-      "v2_rest_url": "https://streams-app-service.ng.bluemix.net/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
+      "v2_rest_url": "{rest_url}/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
     }
 </code></pre>
 
-有关 V2 REST API 的更多信息，请参阅 [V2 REST API 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/apidocs/1939){:new_window}。
+有关 V2 REST API 的更多信息，请参阅 [V2 REST API 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}。

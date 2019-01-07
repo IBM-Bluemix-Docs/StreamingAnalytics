@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-24"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics est un service entièrement géré qui vous évite d'avoir �
 
 Pour déployer les applications de démarrage, procédez comme suit :
 
-* Vous enregistrer pour un compte [{{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/registration){:new_window}
-* Créer une instance du service {{site.data.keyword.streaminganalyticsshort}} dans votre organisation {{site.data.keyword.Bluemix_notm}}. Vous pouvez créer l'instance directement depuis la [**page {{site.data.keyword.streaminganalyticsshort}}** dans le catalogue des services {{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Installer l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* Enregistrez-vous pour un compte [{{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration){:new_window}
+* Créez une instance du service {{site.data.keyword.streaminganalyticsshort}} dans votre organisation {{site.data.keyword.Bluemix_notm}}. Vous pouvez créer l'instance directement depuis la [page Détails de l'offre **{{site.data.keyword.streaminganalyticsshort}}** dans le catalogue {{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
+* [Installez l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
 
 
 
@@ -36,7 +36,7 @@ Pour déployer les applications de démarrage, procédez comme suit :
 
 1. Créez une application dans {{site.data.keyword.Bluemix_notm}} :
 
-    a. Dans le menu **{{site.data.keyword.Bluemix_notm}}**, sélectionnez **Applis Cloud Foundry** et cliquez sur **Créer une ressource**.
+    a. Accédez à **Menu**>**Applis Cloud Foundry**>**Créer une ressource** pour créer une ressource.
 
     b. Sélectionnez l'exécution {{site.data.keyword.sdk4node}} pour les applications de démarrage Event Detection ou Event Detection v2.
 
@@ -65,11 +65,10 @@ Pour déployer les applications de démarrage, procédez comme suit :
   <pre><code>bx app push myapp</code></pre>
   {:pre}
 
-1. Accédez à la page de présentation de votre application, accessible depuis le tableau de bord {{site.data.keyword.Bluemix_notm}}, afin de vérifier que votre application a bien démarré.
-1. Lancez votre application pour l'afficher dans votre navigateur. Vous trouverez l'adresse URL (ou "route") de votre application dans la page de
-présentation de l'application.
+1. Accédez à la page de détails de votre application, accessible depuis le tableau de bord {{site.data.keyword.Bluemix_notm}}, afin de vérifier que votre application a bien démarré.
+1. Lancez votre application pour l'afficher dans votre navigateur. Vous trouverez l'adresse URL (ou "route") de votre application dans la page de détails de l'application.
 
 ## Etapes suivantes
 {: #next_steps}
 
-Maintenant que votre application est en cours d'exécution, vous pouvez la surveiller depuis la console {{site.data.keyword.streaminganalyticsshort}}. Accédez au tableau de bord des services, sélectionnez votre service {{site.data.keyword.streaminganalyticsshort}}, puis cliquez sur **Lancer**.
+Maintenant que votre application est en cours d'exécution, vous pouvez la surveiller depuis la console {{site.data.keyword.streaminganalyticsshort}}. Accédez à la page des détails du service, sélectionnez votre service {{site.data.keyword.streaminganalyticsshort}}, puis cliquez sur **Lancer**.

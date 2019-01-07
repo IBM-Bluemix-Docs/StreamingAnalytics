@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -27,7 +27,7 @@ Despliegue y modifique las aplicaciones de inicio y aprenda rápidamente a utili
     <th id="stocktrades" colspan="3">App de muestra Stock Trades<br></th>
   </tr>
   <tr>
-    <td headers="stocktrades" colspan="3">Esta aplicación analiza una secuencia de cotizaciones bursátiles y genera una media móvil de los precios utilizando el operador <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.1/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Agregar ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a>.
+    <td headers="stocktrades" colspan="3">Esta aplicación analiza una secuencia de cotizaciones bursátiles y genera una media móvil de los precios utilizando el operador <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Agregar ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a>.
 Puede ejecutar la aplicación de inicio sin ninguna modificación. Si desea experimentar más con el servicio, también puede modificar el código y devolver los cambios al entorno de {{site.data.keyword.Bluemix_short}}. El código fuente completo de la aplicación de inicio <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">está disponible en GitHub ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a>.</p>
 </td>
   </tr>
@@ -47,7 +47,7 @@ Puede ejecutar la aplicación de inicio sin ninguna modificación. Si desea expe
     <th id="EventDetection2" colspan="3">App de muestra Event Detection v2<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">La app Event Detection v2 se implementa a través del tiempo de ejecución de <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a>. Esta app de inicio solo es compatible con los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html).
+    <td colspan="3" headers="EventDetection2">La app Event Detection v2 se implementa a través del tiempo de ejecución de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a>. Esta app de inicio solo es compatible con los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html).
 La app proporciona una sencilla IU web para mostrar el estado y los resultados del análisis.
 La app Node.js está enlazada con una instancia del servicio de {{site.data.keyword.streaminganalyticsshort}}. La app controla el servicio mediante la API REST de {{site.data.keyword.streaminganalyticsshort}} v2.
 <p>Puede ejecutar la aplicación de inicio sin ninguna modificación.
@@ -69,7 +69,7 @@ Si desea experimentar más con el servicio, también puede modificar el código 
     <th id="EventDetection1" colspan="3">App de muestra Event Detection<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">La app Event Detection se implementa a través del tiempo de ejecución <a href="https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">{{site.data.keyword.sdk4node}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a>.
+    <td headers="EventDetection1" colspan="3">La app Event Detection se implementa a través del tiempo de ejecución de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a>.
 Esta app de inicio solo es compatible con los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). La app proporciona una sencilla IU web para mostrar el estado y los resultados del análisis.
 La app Node.js está enlazada con una instancia del servicio de {{site.data.keyword.streaminganalyticsshort}}. La app controla el servicio mediante la API REST de {{site.data.keyword.streaminganalyticsshort}}.
 <p>Puede ejecutar la aplicación de inicio sin ninguna modificación.
@@ -115,8 +115,8 @@ Si desea experimentar más con el servicio, también puede modificar el código 
 </td>
   </tr>
   <tr>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#running-the-temperaturesample-application" target="_blank">DESPLEGAR LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a><br></td>
-    <td headers="TemperatureSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3-sample/#viewing-the-running-application" target="_blank">VER LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#running-the-temperaturesample-application" target="_blank">DESPLEGAR LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a><br></td>
+    <td headers="TemperatureSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/sample/#viewing-the-running-application" target="_blank">VER LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a></td>
   </tr>
 </table>
 
@@ -132,7 +132,7 @@ Si desea experimentar más con el servicio, también puede modificar el código 
 </td>
   </tr>
   <tr>
-    <td headers="WordCountSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-3b-wordcount/" target="_blank">DESPLEGAR LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a><br></td>
+    <td headers="WordCountSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/wordcount/" target="_blank">DESPLEGAR LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a><br></td>
   </tr>
 </table>
 
@@ -148,7 +148,7 @@ Si desea experimentar más con el servicio, también puede modificar el código 
 </td>
   </tr>
   <tr>
-    <td headers="FilterStreamSample"><a href="https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-5b-objstor/" target="_blank">DESPLEGAR LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a><br></td>
+    <td headers="FilterStreamSample"><a href="http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/objstor/" target="_blank">DESPLEGAR LA APP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")</a><br></td>
   </tr>
 </table>
 

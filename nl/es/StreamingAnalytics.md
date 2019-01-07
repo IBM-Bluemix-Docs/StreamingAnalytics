@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -25,7 +25,7 @@ El servicio de {{site.data.keyword.streaminganalyticsshort}} proporciona las sig
 
 **Uso interactivo y programático del servicio:**
 
-Puede utilizar el servicio de forma interactiva a través de la [consola de {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) o mediante programación a través de la [API REST de {{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/streaming-analytics-v1){:new_window} si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). Para los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html), utilice la API REST de {{site.data.keyword.streaminganalyticsshort}} v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")https://console.bluemix.net/apidocs/streaming-analytics-v2.
+Puede utilizar el servicio de forma interactiva a través de la [consola de {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) o mediante programación a través de la [API REST de {{site.data.keyword.streaminganalyticsshort}} v1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). Para los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html), utilice la [API REST de {{site.data.keyword.streaminganalyticsshort}} v2 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/streaming-analytics-v2).
 
 **Desarrollo y supervisión de aplicaciones SPL, Java, Scala y Python:**
 
@@ -35,7 +35,7 @@ Si desea escribir sus aplicaciones en SPL, {{site.data.keyword.streamsfull}} Pro
 
 Para crear y desplegar aplicaciones Python sin un entorno de desarrollo de {{site.data.keyword.streamsshort}}, utilice los cuadernos de servicio de {{site.data.keyword.DSX_short}} o la API de {{site.data.keyword.streamsshort}} Python. Para obtener más información, consulte el tema sobre [Desarrollo de aplicaciones Python para {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
 
-Puede desarrollar aplicaciones Beam con el ejecutor de Streams en su entorno de desarrollo, que después puede desplegar y supervisar en el servicio de {{site.data.keyword.streaminganalyticsshort}}. Para obtener más información sobre las aplicaciones de Beam con el ejecutor de Streams, consulte las [apps de Monitor Beam con Streams Runner en {{site.data.keyword.streaminganalyticsshort}}](docs/services/StreamingAnalytics/gs_beamrunner.html).
+Puede desarrollar aplicaciones Beam con el ejecutor de Streams en su entorno de desarrollo, que después puede desplegar y supervisar en el servicio de {{site.data.keyword.streaminganalyticsshort}}. Para obtener más información sobre las aplicaciones de Beam con el ejecutor de Streams, consulte [IBM Streams Runner for Apache Beam en {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/gs_beamrunner.html).
 
 
 **Compatibilidad con los operadores de {{site.data.keyword.streamsshort}}:**

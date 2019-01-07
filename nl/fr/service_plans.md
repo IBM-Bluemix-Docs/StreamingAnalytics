@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-24"
+lastupdated: "2018-12-06"
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à
   </tr>
   <tr>
     <td width="15%">
-    Plans de service version 1    
+    Plans de service version 1 (obsolètes)    
     </td>
     <td width="35%">
     <ul>
@@ -50,7 +50,7 @@ Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à
         <li>S'exécute sur une infrastructure basée sur une machine virtuelle.</li>
         <li>Prend en charge les API REST versions 1 et 2.<br></li>
         <li>Prend en charge à la fois l'authentification IAM et l'authentification des données d'identification de l'utilisateur.</li>
-        <li>Prend en charge l'[image de machine virtuelle {{site.data.keyword.streamsshort}} Quick Start Edition ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-vm/)
+        <li>Prend en charge l'[image de machine virtuelle {{site.data.keyword.streamsshort}} Quick Start Edition ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-linux/)
       </ul>    
     </td>
   </tr>
@@ -78,8 +78,8 @@ Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à
       <li>S'exécute sur une infrastructure basée sur un conteneur.</li>
       <li>Prend en charge les API REST version 2.<br></li>
       <li>Prend en charge l'authentification IAM.</li>
-      <li>Prend en charge [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-install-docker/)</li>
-      <li>Disponible uniquement dans la région Sud des Etats-Unis</li>
+      <li>Prend en charge les noeuds finaux de service pour les plans de service non Lite</li>
+      <li>Prend en charge [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/)</li>
     </ul>
     </td>
   </tr>
@@ -91,7 +91,7 @@ Vous pouvez accéder à cette nouvelle infrastructure basée sur un conteneur à
 
 Les fonctions suivantes sont uniquement prises en charge dans les plans de service version 1 :
 
-* [API REST v1](https://console.bluemix.net/apidocs/streaming-analytics-v1). Dans l'infrastructure v2, vous devez utiliser l'API REST [ {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/streaming-analytics-v2)
+* [API REST v1](https://{DomainName}/apidocs/streaming-analytics-v1). Dans l'infrastructure version 2, vous devez utiliser l'[API REST {{site.data.keyword.streaminganalyticsshort}} version 2](https://{DomainName}/apidocs/streaming-analytics-v2)
 * Modèles d'application NYC Traffic et Event Detection v1. Voir [Modèles d'application](/docs/services/StreamingAnalytics/c_starterapps.html) pour obtenir la liste des applications que vous pouvez utiliser pour démarrer {{site.data.keyword.streaminganalyticsshort}} dans l'infrastructure basée sur un conteneur version 2.
 * Compatibilité de certains kits d'outils. Voir [Kit d'outils compatibles](/docs/services/StreamingAnalytics/compatible_toolkits.html) pour obtenir la liste des kits d'outils qui sont compatibles avec la nouvelle infrastructure basée sur un conteneur.
 
@@ -101,7 +101,7 @@ Les fonctions suivantes sont uniquement prises en charge dans les plans de servi
 Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES pour les plans de service version 1 incluent les informations VCAP qui sont requises pour utiliser l'API REST {{site.data.keyword.streaminganalyticsshort}} v1. Les informations VCAP fournissent l'URL REST, l'ID instance de service, l'ID liaison et les données d'identification pour chaque API REST {{site.data.keyword.streaminganalyticsshort}} v1.  
 {:shortdesc}
 
- Lorsqu'une instance de service {{site.data.keyword.streaminganalyticsshort}} est mise à disposition et liée à une application dans {{site.data.keyword.Bluemix_notm}}, les informations VCAP d'instance de service sont disponibles dans l'environnement d'application {{site.data.keyword.Bluemix_notm}}. Vous trouverez ces informations dans la variable d'environnement VCAP_SERVICES. Quand une instance de service {{site.data.keyword.streaminganalyticsshort}} est provisionnée sans spécification d'une application dans {{site.data.keyword.Bluemix_notm}} à laquelle se lier, les données d'authentification de service sont automatiquement créées. Les données d'authentification de service {{site.data.keyword.streaminganalyticsshort}} sont accessibles depuis le tableau de bord de service.
+ Lorsqu'une instance de service {{site.data.keyword.streaminganalyticsshort}} est mise à disposition et liée à une application dans {{site.data.keyword.Bluemix_notm}}, les informations VCAP d'instance de service sont disponibles dans l'environnement d'application {{site.data.keyword.Bluemix_notm}}. Vous trouverez ces informations dans la variable d'environnement VCAP_SERVICES. Quand une instance de service {{site.data.keyword.streaminganalyticsshort}} est provisionnée sans spécification d'une application dans {{site.data.keyword.Bluemix_notm}} à laquelle se lier, les données d'authentification de service sont automatiquement créées. Les données d'authentification de service {{site.data.keyword.streaminganalyticsshort}} sont accessibles depuis la page des détails du service.
 
 
 Les données d'identification de service {{site.data.keyword.streaminganalyticsshort}} et la variable d'environnement VCAP_SERVICES incluent des informations, celles présentées dans l'exemple suivant :
@@ -120,9 +120,9 @@ Les données d'identification de service {{site.data.keyword.streaminganalyticss
         "stop_path": "/jax-rs/streams/stop/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
         "resources_path": "/jax-rs/resources/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
         "jobs_path": "/jax-rs/jobs/service_instances/9e86b8e6-f606-4a1a-9800-26b96d2bc923/service_bindings/83c9d52e-3069-46bf-a1e3-655cf95fb627",
-        "rest_host": "streams-app-service.ng.bluemix.net",
+        "rest_host": "{rest_url}",
         "rest_port": "443",
-        "rest_url": "https://streams-app-service.ng.bluemix.net",
+        "rest_url": "{rest_url}",
         "userid": "xxx",
         "password": "yyy"
       }
@@ -131,7 +131,7 @@ Les données d'identification de service {{site.data.keyword.streaminganalyticss
 }	  
 </code></pre>
 
-Pour plus d'informations sur l'API REST v1, voir la [documentation sur l'API REST v1 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.ng.bluemix.net/apidocs/220){:new_window}.
+Pour plus d'informations sur l'API REST v1, voir la [documentation sur l'API REST v1 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}.
 
 ## Variable d'environnement VCAP_SERVICES pour les plans de service version 2
 {: #v2_vcap_services}
@@ -148,8 +148,8 @@ Les données d'identification de service {{site.data.keyword.streaminganalyticss
       "iam_apikey_name": "auto-generated-apikey-ab12c34d-e5d6-7890-123f-45dcece304df",
       "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
       "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/b123bb45670ab123d123e12d0a12345::serviceid:ServiceId-a1234b5c-678d-9f6f-bdb4-16c23935efb5",
-      "v2_rest_url": "https://streams-app-service.ng.bluemix.net/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
+      "v2_rest_url": "{rest_url}/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
     }
 </code></pre>
 
-Pour plus d'informations sur l'API REST v2, voir la [documentation sur l'API REST v2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.ng.bluemix.net/apidocs/1939){:new_window}.
+Pour plus d'informations sur l'API REST v2, voir la [documentation sur l'API REST v2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}.
