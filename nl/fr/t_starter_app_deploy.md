@@ -46,7 +46,7 @@ Pour déployer les applications de démarrage, procédez comme suit :
 ## Etape 2. Configuration de l'application de démarrage
 {: #setup_app}
 
-1. Si vous utilisez les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html), téléchargez l'application de démarrage [Event Detection ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Téléchargez l'application de démarrage[Event Detection v2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) pour [les plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
+1. Si vous utilisez les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html), téléchargez l'application de démarrage [Event Detection ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Téléchargez l'application de démarrage [Event Detection v2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) pour [les plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
 
 1. Renommez le répertoire avec le nom que vous avez attribué à votre application dans {{site.data.keyword.Bluemix_notm}}.
 
