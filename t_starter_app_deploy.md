@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-24"
+lastupdated: "2019-02-04"
 
 ---
 
@@ -27,7 +27,7 @@ You must follow these steps to deploy the starter apps:
 
 * Register for an [{{site.data.keyword.Bluemix_notm}} account ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/registration){:new_window}
 * Create an instance of the {{site.data.keyword.streaminganalyticsshort}} service in your {{site.data.keyword.Bluemix_notm}} organization. You can create the instance directly from the [**{{site.data.keyword.streaminganalyticsshort}}** offering details page in the {{site.data.keyword.Bluemix_notm}} catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Install the {{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* [Install the {{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
 
 
 
@@ -38,7 +38,7 @@ You must follow these steps to deploy the starter apps:
 
     a. Go to **Menu**>**Cloud Foundry Apps**>**Create resource** to create a resource.
 
-    b. Select the {{site.data.keyword.sdk4node}} runtime for the Event Detection or Event Detection v2 starter apps.
+    b. Select the SDK runtime for the Event Detection or Event Detection v2 starter apps.
 
     Remember the name that you give your application; you need it later on.
 1. Connect the {{site.data.keyword.streaminganalyticsshort}} service instance to your application and restage the application.
@@ -46,7 +46,7 @@ You must follow these steps to deploy the starter apps:
 ## Step 2. Setting up the starter application
 {: #setup_app}
 
-1. If you're using the [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html), download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) starter app. Download the [Event Detection v2 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) starter app for [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html).
+1. If you're using the [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) starter app. Download the [Event Detection v2 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) starter app for [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 
 1. Rename the directory to match the name you gave your application in {{site.data.keyword.Bluemix_notm}}.
 

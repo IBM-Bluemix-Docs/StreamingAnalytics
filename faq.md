@@ -64,7 +64,7 @@ The service is created and fully managed by IBM. Each service consists of a dedi
 {: #streamsapp notoc}
 {: faq}
 
-You must develop Streams applications locally by using the free Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) for [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html) or if you are using [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html), you can download the [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+You must develop Streams applications locally by using the free Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) for [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) or if you are using [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), you can download the [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 
 You can also use the on-premises {{site.data.keyword.streamsshort}} installation if you have one. Applications that you develop and compile locally can then be seamlessly deployed as a bundle to a Streams service in the cloud.
 
@@ -98,7 +98,7 @@ Some of the features that are not supported for {{site.data.keyword.streamingana
 
   - Administrative tasks for an instance that require domain authority. For example, adding custom host tags or creating a job group.
   - Consistent region checkpoints.
-  - Some of the toolkit operators are not supported. For more information, see [Supported toolkits and adapters](/docs/services/StreamingAnalytics/compatible_toolkits.html).
+  - Some of the toolkit operators are not supported. For more information, see [Supported toolkits and adapters](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits).
   - The Streams JMX API.
 
 ## Where can I learn more about the Streaming Analytics service?

@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}} has a series of behaviors and policies to ensure appropriate resource allocation and usage.
 
 ## Viewing and editing instance resources
-You can view and edit the number of resources entitled to the instance on the service details page or the v1 REST API for [v1 service plans](/docs/services/StreamingAnalytics/service_plans.html). You must use the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) for [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html).
+You can view and edit the number of resources entitled to the instance on the service details page or the v1 REST API for [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). You must use the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) for [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 
 ## Resource allocation
 - Resources are automatically allocated to the instance when you submit a job that runs successfully.
