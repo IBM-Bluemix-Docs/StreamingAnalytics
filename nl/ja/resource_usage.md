@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}} には、適切にリソースが割り振られ、適切な使用量であることを確実にするための一連の動作とポリシーがあります。
 
 ## インスタンス・リソースの表示および編集
-「サービス詳細」ページまたは [v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)の場合は v1 REST API で、インスタンスに対して有効なリソースの数を表示および編集することができます。[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)には、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) を使用する必要があります。
+「サービス詳細」ページまたは [v1 サービス・プラン](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)の場合は v1 REST API で、インスタンスに対して有効なリソースの数を表示および編集することができます。 [v2 サービス・プラン](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)には、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) を使用する必要があります。
 
 ## リソース割り振り
 - 正常に実行されるジョブをサブミットすると、リソースは自動的にインスタンスに割り振られます。

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -64,7 +64,7 @@ IBM は、インストール、ソフトウェア・アップグレード、ド�
 {: #streamsapp notoc}
 {: faq}
 
-[v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)であれば、無料の Streams である [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) を使用して、ローカル側で Streams アプリケーションを開発する必要があります。[v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)を使用している場合は、[{{site.data.keyword.streamsshort}} Quick Start Edition VM イメージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window} をダウンロードできます。
+[v2 サービス・プラン](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)であれば、無料の Streams である [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) を使用して、ローカル側で Streams アプリケーションを開発する必要があります。[v1 サービス・プラン](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)を使用している場合は、[{{site.data.keyword.streamsshort}} Quick Start Edition VM イメージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window} をダウンロードできます。
 
 また、オンプレミスの {{site.data.keyword.streamsshort}} インストール済み環境があれば、それを使用することも可能です。 ローカルで開発してコンパイルしたアプリケーションは、その後、クラウドの
 Streams サービスにバンドルとしてシームレスにデプロイできます。
@@ -99,7 +99,7 @@ Streams が他のソリューション・コンポーネントと相互作用す
 
   - ドメイン権限を必要とする、インスタンスの管理タスク。 例えば、カスタム・ホスト・タグの追加やジョブ・グループの作成などです。
   - 整合領域のチェックポイント。
-  - 一部のツールキットの演算子は、サポートされていません。 詳しくは、[サポートされるツールキットおよびアダプター](/docs/services/StreamingAnalytics/compatible_toolkits.html)を参照してください。
+  - 一部のツールキットの演算子は、サポートされていません。 詳しくは、[サポートされるツールキットおよびアダプター](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)を参照してください。
   - Streams JMX API。
 
 ## Streaming Analytics サービスについてもっとよく知るにはどこにアクセスすればいいですか?

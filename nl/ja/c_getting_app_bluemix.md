@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -28,8 +28,8 @@ lastupdated: "2018-12-06"
   <tr>
     <td>
       <ul>
-        <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">サポートされるツールキットおよびアダプター</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">サービス資格情報および VCAP_SERVICES 環境変数</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-compatible_toolkits" target="_blank">サポートされるツールキットおよびアダプター</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services" target="_blank">サービス資格情報および VCAP_SERVICES 環境変数</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on GitHub ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
       </ul>    
     </td>
@@ -38,10 +38,10 @@ lastupdated: "2018-12-06"
         <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics v1 Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics v2 Development Guide ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
         <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Connecting to Streams: What you need to know ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics の概説</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted" target="_blank">Streaming Analytics の概説</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Streaming Analytics 用の Python アプリケーションの開発</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Streaming Analytics 用の Beam アプリケーションの開発 (Developing Beam applications for Streaming Analytics)</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python#t_develop_apps_python" target="_blank">Streaming Analytics 用の Python アプリケーションの開発</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-develop_beam_apps" target="_blank">Streaming Analytics 用の Beam アプリケーションの開発 (Developing Beam applications for Streaming Analytics)</a><br></li>
       </ul>    
     </td>
   </tr>

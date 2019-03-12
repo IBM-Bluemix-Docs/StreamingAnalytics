@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -92,8 +92,8 @@ v2 のサービス・プランを使用して、この新しいコンテナー�
 以下の機能は、v1 サービス・プランでのみサポートされています。
 
 * [v1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1)。 v2 インフラストラクチャーでは、[{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2) を使用する必要があります。
-* NYC Traffic and Event Detection v1 サンプル・アプリケーション。 v2 コンテナー・ベース・インフラストラクチャーで {{site.data.keyword.streaminganalyticsshort}} を開始するために使用できるアプリケーションのリストについては、[サンプル・アプリケーション](/docs/services/StreamingAnalytics/c_starterapps.html)を参照してください。
-* 一部のツールキットとの互換性。 新規のコンテナー・ベース・インフラストラクチャーと互換性があるツールキットのリストについては、[互換性があるツールキット](/docs/services/StreamingAnalytics/compatible_toolkits.html)を参照してください。
+* NYC Traffic and Event Detection v1 サンプル・アプリケーション。 v2 コンテナー・ベース・インフラストラクチャーで {{site.data.keyword.streaminganalyticsshort}} を開始するために使用できるアプリケーションのリストについては、[サンプル・アプリケーション](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps)を参照してください。
+* 一部のツールキットとの互換性。 新規のコンテナー・ベース・インフラストラクチャーと互換性があるツールキットのリストについては、[互換性があるツールキット](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)を参照してください。
 
 ## v1 サービス・プランの VCAP_SERVICES 環境変数
 {: #vcap_services}

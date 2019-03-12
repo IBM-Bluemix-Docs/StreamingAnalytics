@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -18,7 +18,7 @@ lastupdated: "2018-12-06"
 
 {{site.data.keyword.streaminganalyticsshort}} では、アプリケーションの高可用性を実現します。 いずれかのアプリケーション・ノード ({{site.data.keyword.streamsshort}} リ
 ソース) で問題が発生すると、そのノードは自動的に置き換えられ、そのノードで実行されていたジ
-ョブはすべてマイグレーションされます。 インスタンスに複数のアプリケーション・ノードが含まれている場合、ジョブはマイグレーションされ、再開されるだけです。 [v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)の場合は、[「サービス詳細」ページ](/docs/services/StreamingAnalytics/r_service_dashboard.html)または[{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}を使用して、インスタンスのサイズを変更できます。v2 サービス・プランの場合は、[v2 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}を使用します。
+ョブはすべてマイグレーションされます。 インスタンスに複数のアプリケーション・ノードが含まれている場合、ジョブはマイグレーションされ、再開されるだけです。 [v1 サービス・プラン](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)の場合は、[「サービス詳細」ページ](/docs/services/StreamingAnalytics?topic=dashboard)または[{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}を使用して、インスタンスのサイズを変更できます。 v2 サービス・プランの場合は、[v2 REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}を使用します。
 {:shortdesc}
 
 このビデオは、「サービス詳細」ページを使用してインスタンスのサイズを変更する方法を示しています。

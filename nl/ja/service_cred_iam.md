@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years:  2017
+  years:  2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -17,6 +17,7 @@ lastupdated: "2018-12-06"
 
 
 # ID およびアクセス管理の認証
+{: #iam}
 
 お客様のアカウント内のユーザーによる {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスへのアクセスは、{{site.data.keyword.Bluemix_notm}} の ID およびアクセス管理 (IAM) によって制御されます。 お客様の {{site.data.keyword.streaminganalyticsshort}} サービスを管理するには、認証トークンを使用する必要があります。
 
@@ -26,7 +27,7 @@ lastupdated: "2018-12-06"
 
 a. 有効な IBM ID を持っている必要があります。
 
-b. [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started) をダウンロードして、インストールします。
+b. [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli) をダウンロードして、インストールします。
 
 ### ステップ 1. {{site.data.keyword.Bluemix_notm}} CLI にログインします。
 

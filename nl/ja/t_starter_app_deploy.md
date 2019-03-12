@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-24"
+  years: 2015, 2019
+lastupdated: "2019-02-04"
 
 ---
 
@@ -25,9 +25,9 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 
 スターター・アプリをデプロイするには、以下のステップを実行する必要があります。
 
-* [{{site.data.keyword.Bluemix_notm}} アカウント に登録します。 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration){:new_window}
-* {{site.data.keyword.Bluemix_notm}} 組織に {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスを作成します。 このインスタンスは、{{site.data.keyword.Bluemix_notm}} カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"){:new_window} 内の[**{{site.data.keyword.streaminganalyticsshort}}**「オファリング詳細」ページから直接作成できます。  
-* [{{site.data.keyword.Bluemix_notm}} CLI をインストールします。![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)(https://{DomainName}/catalog/services/streaming-analytics/)]
+* [{{site.data.keyword.Bluemix_notm}} アカウント ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration){:new_window} に登録します。
+* {{site.data.keyword.Bluemix_notm}} 組織に {{site.data.keyword.streaminganalyticsshort}} サービスのインスタンスを作成します。 このインスタンスは、[{{site.data.keyword.Bluemix_notm}} カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")内の「**{{site.data.keyword.streaminganalyticsshort}}** オファリング詳細」ページ](https://{DomainName}/catalog/services/streaming-analytics/){:new_window} から直接作成できます。  
+* [{{site.data.keyword.Bluemix_notm}} CLI ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")をインストール](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli)します。
 
 
 
@@ -38,7 +38,7 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 
     a. **「メニュー」**>**「Cloud Foundry アプリ」**>**「リソースの作成」**と進み、リソースを作成します。
 
-    b. Event Detection または Event Detection v2 スターター・アプリケーション用の {{site.data.keyword.sdk4node}} ランタイムを選択します。
+    b. Event Detection または Event Detection v2 スターター・アプリケーション用の SDK ランタイムを選択します。
 
     アプリケーションに指定した名前を覚えておいてください。後で必要になります。
 1. {{site.data.keyword.streaminganalyticsshort}} サービス・インスタンスをアプリケーションに接続し、アプリケーションを再ステージします。
@@ -46,7 +46,7 @@ Streaming Analytics は完全マネージド・サービスであり、時間の
 ## ステップ 2. スターター・アプリケーションのセットアップ
 {: #setup_app}
 
-1. [v1 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)を使用している場合は [Event Detection ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) スターター・アプリケーションをダウンロードします。 [v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html)の場合は、[Event Detection v2 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) スターター・アプリケーションをダウンロードします。
+1. [v1 サービス・プラン](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)を使用している場合は [Event Detection ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) スターター・アプリケーションをダウンロードします。 [v2 サービス・プラン](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)の場合は、[Event Detection v2 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) スターター・アプリケーションをダウンロードします。
 
 1. {{site.data.keyword.Bluemix_notm}} 内のアプリケーションに指定した名前に一致するように、ディレクトリーの名前を変更します。
 
