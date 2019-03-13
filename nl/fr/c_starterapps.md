@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -47,7 +47,7 @@ Vous pouvez exécuter l'application de démarrage sans modification. Si vous sou
     <th id="EventDetection2" colspan="3">Modèle d'application Event Detection version 2<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">L'application Event Detection v2 est implémentée via l'exécution de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>. Cette application de démarrage est uniquement compatible avec des [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
+    <td colspan="3" headers="EventDetection2">L'application Event Detection v2 est implémentée via l'exécution de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>. Cette application de démarrage est uniquement compatible avec des [plans de service version 2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
 L'application Node.js est liée à une instance du service {{site.data.keyword.streaminganalyticsshort}}. L'application contrôle le service via l'interface API REST {{site.data.keyword.streaminganalyticsshort}} version 2.
 <p>Vous pouvez exécuter l'application de démarrage sans modification.
@@ -55,7 +55,7 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
+    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy#starterapps_deploy" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
     <td headers="EventDetection2"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">TUTORIEL ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
     <td headers="EventDetection2"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetectionV2" target="_blank">TELECHARGEMENT ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
@@ -69,14 +69,15 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
     <th id="EventDetection1" colspan="3">Modèle d'application Event Detection<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">L'application Event Detection est implémentée via l'exécution de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>. Cette application de démarrage est uniquement compatible avec des [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
+    <td headers="EventDetection1" colspan="3">L'application Event Detection est implémentée via l'exécution de <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a>.
+Cette application de démarrage est uniquement compatible avec des [plans de service version 1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Elle fournit une interface utilisateur Web simple pour afficher le statut et les résultats de l'analyse.
 L'application Node.js est liée à une instance du service {{site.data.keyword.streaminganalyticsshort}}. L'application contrôle le service via l'interface API REST {{site.data.keyword.streaminganalyticsshort}}.
 <p>Vous pouvez exécuter l'application de démarrage sans modification.
 Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}.</p>
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
+    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
     <td headers="EventDetection1"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">TUTORIEL ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
     <td headers="EventDetection1"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">TELECHARGEMENT ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
@@ -90,12 +91,12 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
     <th id="NYCTraffic" colspan="3">Modèle d'application NYC Traffic<br></th>
   </tr>
   <tr>
-    <td headers="NYCTraffic" colspan="3">L'application de démarrage NYC Traffic est une application pour {{site.data.keyword.Bluemix_short}} écrite en Liberty for Java. Elle contient une application {{site.data.keyword.streamsshort}} qui extrait des données publiques à partir des détecteurs de trafic de la ville de New York, calcule des statistiques d'agrégat et renvoie les résultats à l'application Liberty. Cette application de démarrage est uniquement compatible avec des [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html).
+    <td headers="NYCTraffic" colspan="3">L'application de démarrage NYC Traffic est une application pour {{site.data.keyword.Bluemix_short}} écrite en Liberty for Java. Elle contient une application {{site.data.keyword.streamsshort}} qui extrait des données publiques à partir des détecteurs de trafic de la ville de New York, calcule des statistiques d'agrégat et renvoie les résultats à l'application Liberty. Cette application de démarrage est uniquement compatible avec des [plans de service version 1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 <p>Vous pouvez exécuter l'application de démarrage sans modification. Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modifier le code et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_short}}.</p>
 </td>
   </tr>
   <tr>
-    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
+    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-starterapps_deploy" target="_blank">DEPLOYER L'APPLICATION</a><br></td>
     <td headers="NYCTraffic"><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">TUTORIEL ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
     <td headers="NYCTraffic"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">TELECHARGEMENT ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")</a></td>
   </tr>
@@ -111,7 +112,7 @@ Si vous souhaitez expérimenter le service plus en profondeur, vous pouvez modif
     <th id="TemperatureSample" colspan="3">Application Beam TemperatureSample<br></th>
   </tr>
   <tr>
-    <td headers="TemperatureSample" colspan="3">Cette application prend des lectures de température issues de plusieurs appareils. Cette application de démarrage est uniquement disponible pour des [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html). Elle répartit ces lectures en lectures "satisfaisantes" (valides) et "mauvaises" (non valides) en fonction d'un seuil établi. Elle compte les mauvaises lectures, génère des statistiques de base concernant les lectures satisfaisantes, puis consigne les résultats. Vous pouvez télécharger l'application TemperatureSample à partir de la console Streaming Analytics.
+    <td headers="TemperatureSample" colspan="3">Cette application prend des lectures de température issues de plusieurs appareils. Cette application de démarrage est uniquement disponible pour des [plans de service version 2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Elle répartit ces lectures en lectures "satisfaisantes" (valides) et "mauvaises" (non valides) en fonction d'un seuil établi. Elle compte les mauvaises lectures, génère des statistiques de base concernant les lectures satisfaisantes, puis consigne les résultats. Vous pouvez télécharger l'application TemperatureSample à partir de la console Streaming Analytics.
 </td>
   </tr>
   <tr>

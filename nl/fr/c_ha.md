@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-12-06"
 # Streaming Analytics - Haute disponibilité
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} permet une haute disponibilité dans vos applications. Si un problème est détecté sur l'un de vos noeuds d'application (ressources {{site.data.keyword.streamsshort}}), le noeud est automatiquement remplacé et tous les noeuds s'exécutant sur ce noeud sont migrés. Les travaux ne sont migrés et redémarrés que si l'instance comporte des noeuds d'applications multiples. Vous pouvez redimensionner l'instance en utilisant la [page des détails du service](/docs/services/StreamingAnalytics/r_service_dashboard.html) ou l'[{{site.data.keyword.streaminganalyticsshort}} API REST version 1![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} pour les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html). Pour des plans de service version 2, utilisez l'[API REST version 2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
+{{site.data.keyword.streaminganalyticsshort}} permet une haute disponibilité dans vos applications. Si un problème est détecté sur l'un de vos noeuds d'application (ressources {{site.data.keyword.streamsshort}}), le noeud est automatiquement remplacé et tous les noeuds s'exécutant sur ce noeud sont migrés. Les travaux ne sont migrés et redémarrés que si l'instance comporte des noeuds d'applications multiples. Vous pouvez redimensionner l'instance en utilisant la [page des détails du service](/docs/services/StreamingAnalytics?topic=dashboard) ou l'[{{site.data.keyword.streaminganalyticsshort}} API REST version 1![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} pour les [plans de service version 1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Pour des plans de service version 2, utilisez l'[API REST version 2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
 Cette vidéo montre comment redimensionner votre instance à l'aide la page des détails du service :
@@ -34,4 +34,4 @@ Désormais, vous pouvez écrire des applications Java et SPL dans lesquelles le 
 
 Vous pouvez définir le début d'une région cohérente avec l'annotation `@consistent` pour un opérateur compatible. {{site.data.keyword.streamsshort}} détermine automatiquement la portée d'une région cohérente, mais vous pouvez modifier l'opérateur de fin de la région avec l'annotation `@autonomous`. La région cohérente définie établit périodiquement un état cohérent.
 
-Consultez la [documentation {{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) pour plus de détails sur l'utilisation de régions cohérentes dans les applications Streams.
+Consultez la [documentation {{site.data.keyword.streamsshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) pour plus de détails sur l'utilisation de régions cohérentes dans les applications Streams. 

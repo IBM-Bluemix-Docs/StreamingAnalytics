@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -25,9 +25,9 @@ Vous pouvez maintenant ajouter un noeud final interne pour accéder à votre ins
 {: #prereqs notoc}
 
 Vérifiez que les conditions suivantes sont remplies :
-- Créez votre instance de service en utilisant des [plans de conteneur version 2](/docs/services/StreamingAnalytics/service_plans.html) non Lite.
+- Créez votre instance de service en utilisant des [plans de conteneur version 2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) non Lite.
 - Créez votre instance de service dans les régions {{site.data.keyword.Bluemix_short}} Royaume-Uni (Londres) ou Allemagne (Francfort).
-- Activez [Virtual Route Forwarding (VRF)](/docs/infrastructure/direct-link/vrf-on-ibm-cloud.html#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud) pour votre compte {{site.data.keyword.Bluemix_short}}.
+- Activez [Virtual Route Forwarding (VRF)](/docs/infrastructure/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud) pour votre compte {{site.data.keyword.Bluemix_short}}.
 
 
 Pour ajouter un noeud final interne :
@@ -37,4 +37,4 @@ Pour ajouter un noeud final interne :
 3. **Facultatif** Au besoin, utilisez le bouton de bascule des noeuds finaux pour les activer ou les désactiver.
 
 
-Pour plus d'informations sur les noeuds finaux de service, voir la [documentation relative aux noeuds finaux de service {{site.data.keyword.Bluemix_short}}](/docs/services/service-endpoint/getting-started.html#about){:new_window}.
+Pour plus d'informations sur les noeuds finaux de service, voir la [documentation relative aux noeuds finaux de service {{site.data.keyword.Bluemix_short}}](/docs/services/service-endpoint?topic=about){:new_window}.

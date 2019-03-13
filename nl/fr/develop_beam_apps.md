@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,7 +24,7 @@ Vous pouvez désormais développer des applications Beam dans votre environnemen
 Pour soumettre une application Beam auprès de votre service {{site.data.keyword.streaminganalyticsshort}} sur {{site.data.keyword.Bluemix_notm}}, vous devez créer un fichier VCAP au format JSON contenant les données d'identification et d'autres informations liées au service.
 
 1. Dans votre environnement local Streams, accédez au sous-dossier samples dans lequel vous avez installé le kit d'outils (`$STREAMS_BEAM_RUNNER/samples`) et copiez le fichier template.vcap dans un nouveau fichier. Attribuez à ce fichier un nom significatif, ainsi qu'une extension de fichier `.vcap.`
-1. [Copiez les données d'identification de votre service {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/service_plans.html#vcap_services) et collez-les dans le fichier VCAP que vous avez créé en remplaçant la ligne suivante :
+1. [Copiez les données d'identification de votre service {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services) et collez-les dans le fichier VCAP que vous avez créé en remplaçant la ligne suivante :
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```

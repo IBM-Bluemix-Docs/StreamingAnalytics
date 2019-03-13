@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -64,7 +64,7 @@ Le service est créé et entièrement géré par IBM. Chaque service est constit
 {: #streamsapp notoc}
 {: faq}
 
-Vous devez développer des applications Streams localement à l'aide du produit gratuit Streams [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) pour les [plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html) ou, si vous utilisez des [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html), vous pouvez télécharger l'[image de machine virtuelle {{site.data.keyword.streamsshort}} Quick Start Edition![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+Vous devez développer des applications Streams localement à l'aide du produit gratuit Streams [{{site.data.keyword.streamsshort}} Quick Start Edition avec Docker ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) pour les [plans de service version 2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) ou, si vous utilisez des [plans de service version 1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), vous pouvez télécharger l'[image de machine virtuelle {{site.data.keyword.streamsshort}} Quick Start Edition![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 
 Vous pouvez également utiliser l'installation d'{{site.data.keyword.streamsshort}} sur site, le cas échéant. Les applications que vous développez et compilez localement peuvent ensuite être déployées en toute transparence sous la forme d'un bundle dans un service Streams dans le cloud.
 
@@ -98,7 +98,7 @@ Certaines fonctions ne sont pas prises en charge pour le service {{site.data.key
 
   - Les tâches administratives d'une instance qui nécessitent des droits sur le domaine. Par exemple, l'ajout de balises d'hôte personnalisées ou la création d'un groupe de travaux.
   - Les points de contrôle de région cohérente.
-  - Certains des opérateurs de kit d'outils. Pour plus d'informations, voir [Kits d'outils et adaptateurs pris en charge](/docs/services/StreamingAnalytics/compatible_toolkits.html).
+  - Certains des opérateurs de kit d'outils. Pour plus d'informations, voir [Kits d'outils et adaptateurs pris en charge](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits).
   - L'API JMX Streams.
 
 ## Où puis-je obtenir davantage d'informations sur le service Streaming Analytics ?

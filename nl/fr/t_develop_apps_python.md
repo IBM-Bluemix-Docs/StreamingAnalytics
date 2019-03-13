@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -27,7 +27,7 @@ Développez et déployez vos applications Python dans {{site.data.keyword.Bluemi
 
 Si vous ne disposez pas d'un environnement de développement Python, la façon la plus rapide de démarrer est d'utiliser les fichiers notebook {{site.data.keyword.streamsshort}} {{site.data.keyword.DSX_short}} et de créer des modèles d'application Python. Ces fichiers notebook fournissent les procédures et les codes exemple pour créer et déployer des modèles d'application Python simples pour le service {{site.data.keyword.streaminganalyticsshort}} au sein de l'environnement {{site.data.keyword.DSX_short}} Python :
 
-* [Hello World! ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8) : créez une application Hello World! simple pour démarrer, puis déployez l'application dans une instance du service {{site.data.keyword.streaminganalyticsshort}}.
+* [Hello World! ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8) : créez une application Hello World! simple pour démarrer puis déployez l'application dans une instance du service {{site.data.keyword.streaminganalyticsshort}}.
 
 * [Healthcare Demo ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6) : créez une application qui ingère et analyse des données de diffusion en flux depuis un flux, puis les visualise dans le bloc-notes. Ensuite, soumettez cette application à l'instance de service {{site.data.keyword.streaminganalyticsshort}}.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-24"
+  years: 2015, 2019
+lastupdated: "2019-02-04"
 
 ---
 
@@ -27,7 +27,7 @@ Pour déployer les applications de démarrage, procédez comme suit :
 
 * Enregistrez-vous pour un compte [{{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration){:new_window}
 * Créez une instance du service {{site.data.keyword.streaminganalyticsshort}} dans votre organisation {{site.data.keyword.Bluemix_notm}}. Vous pouvez créer l'instance directement depuis la [page Détails de l'offre **{{site.data.keyword.streaminganalyticsshort}}** dans le catalogue {{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Installez l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* [Installez l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
 
 
 
@@ -38,7 +38,7 @@ Pour déployer les applications de démarrage, procédez comme suit :
 
     a. Accédez à **Menu**>**Applis Cloud Foundry**>**Créer une ressource** pour créer une ressource.
 
-    b. Sélectionnez l'exécution {{site.data.keyword.sdk4node}} pour les applications de démarrage Event Detection ou Event Detection v2.
+    b. Sélectionnez l'environnement d'exécution du logiciel SDK pour les applications de démarrage Event Detection ou Event Detection v2.
 
     Mémorisez le nom que vous attribuez à votre application ; vous en aurez besoin ultérieurement.
 1. Connectez l'instance de service {{site.data.keyword.streaminganalyticsshort}} à votre application et reconstituez l'application en préproduction.
@@ -46,7 +46,7 @@ Pour déployer les applications de démarrage, procédez comme suit :
 ## Etape 2. Configuration de l'application de démarrage
 {: #setup_app}
 
-1. Si vous utilisez les [plans de service version 1](/docs/services/StreamingAnalytics/service_plans.html), téléchargez l'application de démarrage [Event Detection ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Téléchargez l'application de démarrage [Event Detection v2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) pour [les plans de service version 2](/docs/services/StreamingAnalytics/service_plans.html).
+1. Si vous utilisez les [plans de service version 1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), téléchargez l'application de démarrage [Event Detection ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Téléchargez l'application de démarrage [Event Detection v2 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) pour [les plans de service version 2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 
 1. Renommez le répertoire avec le nom que vous avez attribué à votre application dans {{site.data.keyword.Bluemix_notm}}.
 
