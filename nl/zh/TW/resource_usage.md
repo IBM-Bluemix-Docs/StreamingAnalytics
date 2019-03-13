@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}} 具有一系列的行為和原則，可確保適當的資源配置及用量。
 
 ## 檢視及編輯實例資源
-您可以在服務詳細資料頁面或 v1 REST API（若為 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)）上檢視及編輯授與給實例的資源數目。若為 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，您必須使用 [{{site.data.keyword.streaminganalyticsshort}} v2REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance)。
+您可以在服務詳細資料頁面或 v1 REST API（若為 [v1 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)）上檢視及編輯授與給實例的資源數目。若為 [v2 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，您必須使用 [{{site.data.keyword.streaminganalyticsshort}} v2REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance)。
 
 ## 資源配置
 - 當您提交順利執行的工作時，資源會自動配置給實例。

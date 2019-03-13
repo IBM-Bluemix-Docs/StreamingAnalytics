@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}}에는 적절한 리소스 할당 및 사용량을 보장하기 위한 일련의 동작 및 정책이 있습니다.
 
 ## 인스턴스 리소스 보기 및 편집
-[v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)용 v1 REST API 또는 서비스 세부사항 페이지에서 인스턴스에 대해 권한 부여된 다수의 리소스를 보고 편집할 수 있습니다. [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)용으로는 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance)를 사용해야 합니다.
+[v1 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)용 v1 REST API 또는 서비스 세부사항 페이지에서 인스턴스에 대해 권한 부여된 다수의 리소스를 보고 편집할 수 있습니다. [v2 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)용으로는 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance)를 사용해야 합니다.
 
 ## 리소스 할당
 - 성공적으로 실행되는 작업을 제출할 때 자동으로 리소스가 인스턴스에 할당됩니다.

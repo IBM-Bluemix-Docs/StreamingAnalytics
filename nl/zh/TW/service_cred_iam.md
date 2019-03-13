@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years:  2017
+  years:  2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -17,6 +17,7 @@ lastupdated: "2018-12-06"
 
 
 # Identity and Access Management 鑑別
+{: #iam}
 
 對於您帳戶中的使用者，對 {{site.data.keyword.streaminganalyticsshort}} 服務實例的存取權是由 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 所控制。若要管理您的 {{site.data.keyword.streaminganalyticsshort}} 服務，您必須使用鑑別記號。
 
@@ -26,7 +27,7 @@ lastupdated: "2018-12-06"
 
 a. 您必須具有有效的 IBM ID。
 
-b. 下載並安裝 [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
+b. 下載並安裝 [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli)。
 
 ### 步驟 1. 登入 {{site.data.keyword.Bluemix_notm}} CLI。
 

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-12-06"
 * [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} v1 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/){:new_window}
 * [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} v2 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/){:new_window}
 * [Python에서 {{site.data.keyword.streaminganalyticsshort}} 서비스 개발 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)
-* [추가 튜토리얼](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window}
+* [추가 튜토리얼](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-tutorials){:new_window}
 
 
 ## API 참조
@@ -36,8 +36,8 @@ lastupdated: "2018-12-06"
 
 ## 호환 가능 런타임
 {: #buildpacks notoc}
-* [Liberty for Java](/docs/runtimes/liberty/index.html#liberty)
-* [SDK for Node.js](/docs/runtimes/nodejs/index.html#nodejs)
+* [Liberty for Java](/docs/runtimes/liberty?topic=liberty-getting-started#getting-started)
+* [SDK for Node.js](/docs/runtimes/nodejs?topic=Nodejs-getting-started#getting-started)
 
 ## 일반 리소스
 {: #general notoc}

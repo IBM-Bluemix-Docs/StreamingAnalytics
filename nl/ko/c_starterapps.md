@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -45,7 +45,7 @@ lastupdated: "2018-12-06"
     <th id="EventDetection2" colspan="3">Event Detection v2 샘플 앱<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">Event Detection v2 앱은 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다. 이 스타터 앱은 [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)과만 호환됩니다.
+    <td colspan="3" headers="EventDetection2">Event Detection v2 앱은 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다. 이 스타터 앱은 [v2 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)과만 호환됩니다.
 앱은 분석의 상태와 결과를 표시하기 위한 간단한 웹 UI를 제공합니다.
 Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스에 바인드됩니다. 앱은 {{site.data.keyword.streaminganalyticsshort}} v2 REST API를 통해 서비스를 제어합니다.
 <p>수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다.
@@ -53,7 +53,7 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">앱 배치</a><br></td>
+    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy#starterapps_deploy" target="_blank">앱 배치</a><br></td>
     <td headers="EventDetection2"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
     <td headers="EventDetection2"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetectionV2" target="_blank">다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
   </tr>
@@ -66,14 +66,15 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
     <th id="EventDetection1" colspan="3">Event Detection 샘플 앱<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">Event Detection 앱은 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다. 이 스타터 앱은 [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)과만 호환됩니다. 앱은 분석의 상태와 결과를 표시하기 위한 간단한 웹 UI를 제공합니다.
+    <td headers="EventDetection1" colspan="3">Event Detection 앱은 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a> 런타임을 통해 구현됩니다.
+이 스타터 앱은 [v1 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)과만 호환됩니다. 앱은 분석의 상태와 결과를 표시하기 위한 간단한 웹 UI를 제공합니다.
 Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스에 바인드됩니다. 앱은 {{site.data.keyword.streaminganalyticsshort}} REST API를 통해 서비스를 제어합니다.
 <p>수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다.
 서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다.</p>
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">앱 배치</a><br></td>
+    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy" target="_blank">앱 배치</a><br></td>
     <td headers="EventDetection1"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
     <td headers="EventDetection1"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
   </tr>
@@ -87,12 +88,12 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
     <th id="NYCTraffic" colspan="3">NYC Traffic 샘플 앱<br></th>
   </tr>
   <tr>
-    <td headers="NYCTraffic" colspan="3">NYC Traffic 스타터 앱은 Liberty for Java로 작성된 {{site.data.keyword.Bluemix_short}}용 애플리케이션입니다. 여기에는 뉴욕시 트래픽 센서에서 얻은 공공 데이터를 검색하고 집계 통계를 계산하며 결과를 Liberty 애플리케이션으로 다시 전송하는 {{site.data.keyword.streamsshort}} 애플리케이션이 있습니다. 이 스타터 앱은 [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)과만 호환됩니다.
+    <td headers="NYCTraffic" colspan="3">NYC Traffic 스타터 앱은 Liberty for Java로 작성된 {{site.data.keyword.Bluemix_short}}용 애플리케이션입니다. 여기에는 뉴욕시 트래픽 센서에서 얻은 공공 데이터를 검색하고 집계 통계를 계산하며 결과를 Liberty 애플리케이션으로 다시 전송하는 {{site.data.keyword.streamsshort}} 애플리케이션이 있습니다. 이 스타터 앱은 [v1 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)과만 호환됩니다.
 <p>수정하지 않고 스타터 애플리케이션을 실행할 수 있습니다. 서비스를 더 실험해 보고 싶으면 코드를 수정하여 변경을 {{site.data.keyword.Bluemix_short}} 환경에 다시 넣을 수도 있습니다.</p>
 </td>
   </tr>
   <tr>
-    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">앱 배치</a><br></td>
+    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-starterapps_deploy" target="_blank">앱 배치</a><br></td>
     <td headers="NYCTraffic"><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
     <td headers="NYCTraffic"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a></td>
   </tr>
@@ -107,7 +108,7 @@ Node.js 앱은 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스
     <th id="TemperatureSample" colspan="3">TemperatureSample Beam 앱<br></th>
   </tr>
   <tr>
-    <td headers="TemperatureSample" colspan="3">이 애플리케이션은 여러 디바이스로부터 온도 수치를 읽습니다. 이 스타터 앱은 [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)에만 사용할 수 있습니다. 이 애플리케이션은 특정 임계값에 따라 수치를 "바른"(올바름) 수치와 "잘못된"(올바르지 않음) 수치로 구분합니다. 그 다음 잘못된 수치를 계산하고 바른 수치에 대한 몇 가지 기본 통계를 생성한 후 마지막으로 결과를 로그합니다. TemperatureSample 앱은 Streaming Analytics 콘솔에서 다운로드할 수 있습니다.
+    <td headers="TemperatureSample" colspan="3">이 애플리케이션은 여러 디바이스로부터 온도 수치를 읽습니다. 이 스타터 앱은 [v2 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)에만 사용할 수 있습니다. 이 애플리케이션은 특정 임계값에 따라 수치를 "바른"(올바름) 수치와 "잘못된"(올바르지 않음) 수치로 구분합니다. 그 다음 잘못된 수치를 계산하고 바른 수치에 대한 몇 가지 기본 통계를 생성한 후 마지막으로 결과를 로그합니다. TemperatureSample 앱은 Streaming Analytics 콘솔에서 다운로드할 수 있습니다.
 </td>
   </tr>
   <tr>

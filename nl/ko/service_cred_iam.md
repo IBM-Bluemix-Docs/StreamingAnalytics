@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years:  2017
+  years:  2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -17,6 +17,7 @@ lastupdated: "2018-12-06"
 
 
 # Identity and Access Management(IAM) 인증
+{: #iam}
 
 {{site.data.keyword.Bluemix_notm}} Identity and Access Management(IAM)로 제어되는 계정에서 사용자용 {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스에 액세스하십시오. {{site.data.keyword.streaminganalyticsshort}} 서비스를 관리하려면 인증 토큰을 사용해야 합니다.
 
@@ -26,7 +27,7 @@ lastupdated: "2018-12-06"
 
 a. 유효한 IBM ID가 있어야 합니다.
 
-b. [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)를 다운로드하여 설치하십시오.
+b. [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli)를 다운로드하여 설치하십시오.
 
 ### 1단계. {{site.data.keyword.Bluemix_notm}} CLI에 로그인하십시오.
 

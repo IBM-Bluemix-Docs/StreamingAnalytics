@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-12-06"
 Beam 애플리케이션을 {{site.data.keyword.Bluemix_notm}}의 {{site.data.keyword.streaminganalyticsshort}} 서비스에 제출하려면 이 서비스의 인증 정보 및 기타 정보를 포함하는 JSON 형식의 VCAP 파일을 작성해야 합니다.
 
 1. Streams 로컬 환경에서, 툴킷을 설치한 샘플 서브폴더(`$STREAMS_BEAM_RUNNER/samples`)로 이동하여 template.vcap 파일을 새 파일로 복사하십시오. 이 파일에 의미 있는 이름과 파일 확장자 `.vcap`를 지정하십시오.
-1. [{{site.data.keyword.streaminganalyticsshort}} 서비스의 인증 정보를 복사](/docs/services/StreamingAnalytics/service_plans.html#vcap_services)하고 작성한 VCAP 파일에 인증 정보를 붙여넣어 다음 행을 대체하십시오.
+1. [{{site.data.keyword.streaminganalyticsshort}} 서비스의 인증 정보를 복사](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services)하고 작성한 VCAP 파일에 인증 정보를 붙여넣어 다음 행을 대체하십시오.
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-09-04"
 
 ---
@@ -49,7 +49,7 @@ lastupdated: "2018-09-04"
 您未使用 RHEL 7.x 作業系統或相等的 CentOS 版本編譯應用程式。
 {: tsCauses}
 
-如果您是使用 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則必須在 Red Hat Enterprise Linux (RHEL) 7.x 中編譯您的應用程式。如果您是使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則必須使用搭配 Intel 處理器的 RHEL 6.5 編譯您的應用程式。將應用程式重新提交至服務實例。
+如果您是使用 [v2 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，則必須在 Red Hat Enterprise Linux (RHEL) 7.x 中編譯您的應用程式。如果您是使用 [v1 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，則必須使用搭配 Intel 處理器的 RHEL 6.5 編譯您的應用程式。將應用程式重新提交至服務實例。
 如果您沒有相容的開發環境，且是使用 v2 服務方案，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)。如果您使用 v1 服務方案，請下載 [{{site.data.keyword.streamsshort}} QSE ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
 {: tsResolve}
 

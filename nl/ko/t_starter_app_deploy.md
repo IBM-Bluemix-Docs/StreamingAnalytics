@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-24"
+  years: 2015, 2019
+lastupdated: "2019-02-04"
 
 ---
 
@@ -27,7 +27,7 @@ Streaming Analytics는 시간이 많이 걸리는 설치 및 관리 태스크에
 
 * [{{site.data.keyword.Bluemix_notm}} 계정 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration){:new_window}을 등록하십시오.
 * {{site.data.keyword.Bluemix_notm}} 조직에 {{site.data.keyword.streaminganalyticsshort}} 서비스의 인스턴스를 작성하십시오. [{{site.data.keyword.Bluemix_notm}} 카탈로그의 **{{site.data.keyword.streaminganalyticsshort}}** 오퍼링 세부사항 페이지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}에서 직접 인스턴스를 작성할 수 있습니다.  
-* [{{site.data.keyword.Bluemix_notm}} CLI를 설치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)하십시오.
+* [{{site.data.keyword.Bluemix_notm}} CLI를 설치 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli)하십시오.
 
 
 
@@ -38,7 +38,7 @@ Streaming Analytics는 시간이 많이 걸리는 설치 및 관리 태스크에
 
     a. **메뉴**>**Cloud Foundry 앱**>**리소스 작성**으로 이동하여 리소스를 작성하십시오.
 
-    b. Event Detection 또는 Event Detection v2 스타터 앱의 {{site.data.keyword.sdk4node}} 런타임을 선택하십시오.
+    b. Event Detection 또는 Event Detection v2 스타터 앱의 SDK 런타임을 선택하십시오.
 
 애플리케이션에 제공한 이름을 기억해 두십시오. 나중에 필요합니다.
 1. {{site.data.keyword.streaminganalyticsshort}} 서비스 인스턴스를 애플리케이션에 연결하고 애플리케이션을 다시 스테이징하십시오.
@@ -46,7 +46,7 @@ Streaming Analytics는 시간이 많이 걸리는 설치 및 관리 태스크에
 ## 2단계. 스타터 애플리케이션 설정
 {: #setup_app}
 
-1. [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)을 사용하는 경우 [Event Detection ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 스타터 앱을 다운로드하십시오. [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)의 경우 [Event Detection v2 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) 스타터 앱을 다운로드하십시오.
+1. [v1 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)을 사용하는 경우 [Event Detection ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 스타터 앱을 다운로드하십시오. [v2 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)의 경우 [Event Detection v2 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) 스타터 앱을 다운로드하십시오.
 
 1. {{site.data.keyword.Bluemix_notm}}에서 애플리케이션에 지정한 이름과 일치하도록 디렉토리의 이름을 바꾸십시오.
 

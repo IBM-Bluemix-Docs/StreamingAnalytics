@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -25,9 +25,9 @@ lastupdated: "2018-12-06"
 {: #prereqs notoc}
 
 다음 요구사항을 충족하는지 확인하십시오.
-- Lite 이외의 [v2 인스턴스 플랜](/docs/services/StreamingAnalytics/service_plans.html)을 사용하여 서비스 인스턴스를 작성합니다.
+- Lite 이외의 [v2 인스턴스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)을 사용하여 서비스 인스턴스를 작성합니다.
 - {{site.data.keyword.Bluemix_short}} 영국(런던) 또는 독일(프랑크프루트) 지역에서 서비스 인스턴스를 작성합니다.
-- {{site.data.keyword.Bluemix_short}} 계정에 대해 [VRF(Virtual Route Forwarding)](/docs/infrastructure/direct-link/vrf-on-ibm-cloud.html#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud)를 사용합니다.
+- {{site.data.keyword.Bluemix_short}} 계정에 대해 [VRF(Virtual Route Forwarding)](/docs/infrastructure/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud)를 사용합니다.
 
 
 내부 엔드포인트를 추가하려면 다음을 수행하십시오.
@@ -37,4 +37,4 @@ lastupdated: "2018-12-06"
 3. **선택사항:** 필요에 따라 엔드포인트 전환을 사용하여 엔드포인트를 사용 또는 사용 안함으로 설정하십시오.
 
 
-서비스 엔드포인트에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_short}} 서비스 엔드포인트 문서](/docs/services/service-endpoint/getting-started.html#about){:new_window}를 확인하십시오.
+서비스 엔드포인트에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_short}} 서비스 엔드포인트 문서](/docs/services/service-endpoint?topic=about){:new_window}를 확인하십시오.

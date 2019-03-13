@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-09-04"
 
 ---
@@ -49,7 +49,7 @@ lastupdated: "2018-09-04"
 RHEL 7.x 운영 체제 또는 이와 동등한 CentOS 버전을 사용하여 애플리케이션을 컴파일하지 않았습니다.
 {: tsCauses}
 
-[v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)을 사용 중이면 Red Hat Enterprise Linux(RHEL) 7.x에서 애플리케이션을 컴파일해야 합니다. [v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)을 사용 중이면 Intel 프로세서의 RHEL 6.5에서 애플리케이션을 컴파일해야 합니다. 애플리케이션을 서비스 인스턴스에 다시 제출하십시오. 호환 가능한 개발 환경이 없으며 v2 서비스 플랜을 사용 중이면 [{{site.data.keyword.streamsshort}}Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)를 다운로드할 수 있습니다. v1 서비스 플랜을 사용하는 경우 [{{site.data.keyword.streamsshort}} QSE ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}를 다운로드하십시오.
+[v2 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)을 사용 중이면 Red Hat Enterprise Linux(RHEL) 7.x에서 애플리케이션을 컴파일해야 합니다. [v1 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)을 사용 중이면 Intel 프로세서의 RHEL 6.5에서 애플리케이션을 컴파일해야 합니다. 애플리케이션을 서비스 인스턴스에 다시 제출하십시오. 호환 가능한 개발 환경이 없으며 v2 서비스 플랜을 사용 중이면 [{{site.data.keyword.streamsshort}}Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)를 다운로드할 수 있습니다. v1 서비스 플랜을 사용하는 경우 [{{site.data.keyword.streamsshort}} QSE ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}를 다운로드하십시오.
 {: tsResolve}
 
 ## 다시 시작한 후에 내 애플리케이션이 비정상 상태임

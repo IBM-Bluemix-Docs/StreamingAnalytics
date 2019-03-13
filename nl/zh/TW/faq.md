@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -64,7 +64,7 @@ lastupdated: "2018-12-06"
 {: #streamsapp notoc}
 {: faq}
 
-您必須使用免費 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) 配合 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，以在本端開發 Streams 應用程式，或是如果您使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像檔 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
+您必須使用免費 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition 與 Docker ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) 配合 [v2 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，以在本端開發 Streams 應用程式，或是如果您使用 [v1 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，則可以下載 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像檔 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
 
 您也可以使用現有的內部部署 {{site.data.keyword.streamsshort}} 安裝。在本端開發及編譯的應用程式接著可以當成軟體組，緊密部署至雲端中的 Streams 服務。
 
@@ -98,7 +98,7 @@ lastupdated: "2018-12-06"
 
   - 需要網域權限之實例的管理作業。例如，新增自訂主機標籤，或建立工作群組。
   - 一致的地區檢查點。
-  - 不支援一些工具箱運算子。如需相關資訊，請參閱[支援的工具箱及配接器](/docs/services/StreamingAnalytics/compatible_toolkits.html)。
+  - 不支援一些工具箱運算子。如需相關資訊，請參閱[支援的工具箱及配接器](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)。
   - Streams JMX API。
 
 ## 我可以在哪裏進一步瞭解 Streaming Analytics 服務？

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -92,8 +92,8 @@ v2 서비스 플랜으로 이 새로운 컨테이너 기반 인프라에 액세�
 다음 기능은 v1 서비스 플랜에서만 지원됩니다.
 
 * [v1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1). v2 인프라에서는 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2)를 사용해야 합니다.
-* NYC Traffic 및 Event Detection v1 샘플 앱. v2 컨테이너 기반 인프라에서 {{site.data.keyword.streaminganalyticsshort}}를 시작하는 데 사용할 수 있는 앱의 목록을 가져오려면 [샘플 애플리케이션](/docs/services/StreamingAnalytics/c_starterapps.html)을 참조하십시오.
-* 일부 툴킷의 호환성. 새 컨테이터 기반 인프라와 호환되는 툴킷의 목록을 가져오려면 [호환 가능 툴킷](/docs/services/StreamingAnalytics/compatible_toolkits.html)을 참조하십시오.
+* NYC Traffic 및 Event Detection v1 샘플 앱. v2 컨테이너 기반 인프라에서 {{site.data.keyword.streaminganalyticsshort}}를 시작하는 데 사용할 수 있는 앱의 목록을 가져오려면 [샘플 애플리케이션](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps)을 참조하십시오.
+* 일부 툴킷의 호환성. 새 컨테이터 기반 인프라와 호환되는 툴킷의 목록을 가져오려면 [호환 가능 툴킷](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)을 참조하십시오.
 
 ## v1 서비스 플랜용 VCAP_SERVICES 환경 변수
 {: #vcap_services}

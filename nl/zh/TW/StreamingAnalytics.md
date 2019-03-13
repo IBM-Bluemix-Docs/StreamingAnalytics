@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -25,22 +25,22 @@ lastupdated: "2018-12-06"
 
 **透過互動和程式設計方式使用服務：**
 
-您可以透過 [{{site.data.keyword.streaminganalyticsshort}} 主控台](/docs/services/StreamingAnalytics/c_streams_console.html)以互動方式使用服務，或透過 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 以程式設計方式使用服務，如果您是使用 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)的話。若為 [v2 服務方案](/docs/services/StreamingAnalytics/service_plans.html)，請使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v2)。
+您可以透過 [{{site.data.keyword.streaminganalyticsshort}} 主控台](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-console#console)以互動方式使用服務，或透過 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 以程式設計方式使用服務，如果您是使用 [v1 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)的話。若為 [v2 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，請使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v2)。
 
 **部署及監視 SPL、Java、Scala 及 Python 應用程式：**
 
-您可以用 SPL、Java、Scala 及 Python 撰寫 {{site.data.keyword.streamsshort}} 應用程式。使用 {{site.data.keyword.streaminganalyticsshort}} 主控台[部署及監視這些應用程式](/docs/services/StreamingAnalytics/t_deploytocloud.html)。
+您可以用 SPL、Java、Scala 及 Python 撰寫 {{site.data.keyword.streamsshort}} 應用程式。使用 {{site.data.keyword.streaminganalyticsshort}} 主控台[部署及監視這些應用程式](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_deploytocloud)。
 
 如果您想要以 SPL 撰寫應用程式，{{site.data.keyword.streamsfull}} Processing Language (SPL) 是一種程式設計語言，用來建立串流處理應用程式。如果要進一步使用您自己的 SPL 應用程式，可以取得 {{site.data.keyword.streamsshort}} 開發環境，而且 SPL 應用程式必須準備好使用雲端。
 
-若要建立及部署 Python 應用程式，而不使用 {{site.data.keyword.streamsshort}} 開發環境，請使用 {{site.data.keyword.DSX_short}} 中的服務記事本或 {{site.data.keyword.streamsshort}} Python API。如需相關資訊，請參閱[針對 {{site.data.keyword.streaminganalyticsshort}} 開發 Python 應用程式](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
+若要建立及部署 Python 應用程式，而不使用 {{site.data.keyword.streamsshort}} 開發環境，請使用 {{site.data.keyword.DSX_short}} 中的服務記事本或 {{site.data.keyword.streamsshort}} Python API。如需相關資訊，請參閱[針對 {{site.data.keyword.streaminganalyticsshort}} 開發 Python 應用程式](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python)。
 
-您可以在本端開發環境中使用 Streams Runner 開發 Beam 應用程式，然後在 {{site.data.keyword.streaminganalyticsshort}} 服務中進行部署及監視。如需使用 Streams Runner 處理 Beam 應用程式的相關資訊，請參閱 [IBM Streams Runner for Apache Beam in {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/gs_beamrunner.html)。
+您可以在本端開發環境中使用 Streams Runner 開發 Beam 應用程式，然後在 {{site.data.keyword.streaminganalyticsshort}} 服務中進行部署及監視。如需使用 Streams Runner 處理 Beam 應用程式的相關資訊，請參閱 [IBM Streams Runner for Apache Beam in {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gs_beamrunner)。
 
 
 **與 {{site.data.keyword.streamsshort}} 運算子的相容性：**
 
-[{{site.data.keyword.streamsshort}} Processing Language (SPL) 標準工具箱中的 {{site.data.keyword.streamsshort}} 運算子與 {{site.data.keyword.streaminganalyticsshort}} 相容](/docs/services/StreamingAnalytics/compatible_toolkits.html)。
+[{{site.data.keyword.streamsshort}} Processing Language (SPL) 標準工具箱中的 {{site.data.keyword.streamsshort}} 運算子與 {{site.data.keyword.streaminganalyticsshort}} 相容](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)。
 
 ## Streaming Analytics 責任
 {: #responsibilities notoc}

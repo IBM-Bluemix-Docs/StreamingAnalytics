@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-12-06"
 # Streaming Analytics 高可用性
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} 可啟用您應用程式的高可用性。如果在其中一個應用程式節點（{{site.data.keyword.streamsshort}} 資源）上偵測到問題，則會自動更換該節點，並移轉在該節點上執行的任何工作。如果實例包含多個應用程式節點，則只會移轉及重新啟動工作。您可以使用[服務詳細資料頁面](/docs/services/StreamingAnalytics/r_service_dashboard.html)或 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 來配合 [v1 服務方案](/docs/services/StreamingAnalytics/service_plans.html)。若為 v2 服務方案，請使用 [v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}。
+{{site.data.keyword.streaminganalyticsshort}} 可啟用您應用程式的高可用性。如果在其中一個應用程式節點（{{site.data.keyword.streamsshort}} 資源）上偵測到問題，則會自動更換該節點，並移轉在該節點上執行的任何工作。如果實例包含多個應用程式節點，則只會移轉及重新啟動工作。您可以使用[服務詳細資料頁面](/docs/services/StreamingAnalytics?topic=dashboard)或 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 來配合 [v1 服務方案](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)。若為 v2 服務方案，請使用 [v2 REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}。
 {:shortdesc}
 
 此視訊顯示如何使用服務詳細資料頁面來調整實例大小：

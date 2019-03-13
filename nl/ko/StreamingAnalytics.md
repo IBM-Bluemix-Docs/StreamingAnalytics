@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -25,23 +25,22 @@ lastupdated: "2018-12-06"
 
 **대화식 및 프로그램 방식 서비스의 사용:**
 
-[v1 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)을 사용하는 경우에는 [{{site.data.keyword.streaminganalyticsshort}} 콘솔](/docs/services/StreamingAnalytics/c_streams_console.html)을 통해 대화식으로 또는 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}를 통해 프로그래밍 방식으로 서비스를 사용할 수 있습니다. [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html)의 경우 [{{site.data.keyword.streaminganalyticsshort}}v2 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/streaming-analytics-v2)를 사용하십시오.
-
+[v1 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)을 사용하는 경우에는 [{{site.data.keyword.streaminganalyticsshort}} 콘솔](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-console#console)을 통해 대화식으로 또는 [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window}를 통해 프로그래밍 방식으로 서비스를 사용할 수 있습니다. [v2 서비스 플랜](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)의 경우 [{{site.data.keyword.streaminganalyticsshort}}v2 REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/streaming-analytics-v2)를 사용하십시오.
 
 **SPL, Java, Scala 및 Python 애플리케이션의 배치 및 모니터링:**
 
-SPL, Java, Scala 및 Python으로 {{site.data.keyword.streamsshort}} 애플리케이션을 작성할 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 콘솔을 사용하여 [이러한 애플리케이션을 배치하고 모니터](/docs/services/StreamingAnalytics/t_deploytocloud.html)하십시오.
+SPL, Java, Scala 및 Python으로 {{site.data.keyword.streamsshort}} 애플리케이션을 작성할 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 콘솔을 사용하여 [이러한 애플리케이션을 배치하고 모니터](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_deploytocloud)하십시오.
 
 SPL에서 애플리케이션을 작성하려는 경우, {{site.data.keyword.streamsfull}} Processing Language(SPL)가 스트림 처리 애플리케이션의 작성에 사용되는 프로그래밍 언어입니다. 자체 SPL 애플리케이션으로 추가 작업을 진행하려는 경우, {{site.data.keyword.streamsshort}} 개발 환경을 가져올 수 있으며 SPL 앱을 클라우드에 맞게 준비해야 합니다.
 
-{{site.data.keyword.streamsshort}} 개발 환경 없이 Python 애플리케이션을 작성하고 배치하려면 {{site.data.keyword.DSX_short}} 또는 {{site.data.keyword.streamsshort}} Python API에서 서비스 노트북을 사용하십시오. 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}용 Python 애플리케이션 개발](/docs/services/StreamingAnalytics/t_develop_apps_python.html)을 참조하십시오.
+{{site.data.keyword.streamsshort}} 개발 환경 없이 Python 애플리케이션을 작성하고 배치하려면 {{site.data.keyword.DSX_short}} 또는 {{site.data.keyword.streamsshort}} Python API에서 서비스 노트북을 사용하십시오. 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}용 Python 애플리케이션 개발](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python)을 참조하십시오.
 
-사용자는 로컬 개발 환경에서 Streams Runner를 사용하여 Beam 애플리케이션을 개발할 수 있으며, {{site.data.keyword.streaminganalyticsshort}} 서비스에서 이를 배치하고 모니터할 수 있습니다. Streams Runner를 사용하는 Beam 애플리케이션에 대한 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}의 IBM Streams Runner for Apache Beam](/docs/services/StreamingAnalytics/gs_beamrunner.html)을 참조하십시오.
+로컬 개발 환경에서 Streams Runner를 사용하여 Beam 애플리케이션을 개발할 수 있으며, {{site.data.keyword.streaminganalyticsshort}} 서비스에서 이를 배치하고 모니터할 수 있습니다. Streams Runner를 사용하는 Beam 애플리케이션에 대한 자세한 정보는 [{{site.data.keyword.streaminganalyticsshort}}의 IBM Streams Runner for Apache Beam](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gs_beamrunner)을 참조하십시오.
 
 
 **{{site.data.keyword.streamsshort}} 연산자와의 호환성:**
 
-[{{site.data.keyword.streamsshort}} Processing Language(SPL) 표준 툴킷](/docs/services/StreamingAnalytics/compatible_toolkits.html)의 {{site.data.keyword.streamsshort}} 연산자는 {{site.data.keyword.streaminganalyticsshort}}와 호환 가능합니다.
+[{{site.data.keyword.streamsshort}} Processing Language(SPL) 표준 툴킷](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)의 {{site.data.keyword.streamsshort}} 연산자는 {{site.data.keyword.streaminganalyticsshort}}와 호환 가능합니다.
 
 ## Streaming Analytics 책임
 {: #responsibilities notoc}

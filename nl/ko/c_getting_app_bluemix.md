@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -28,8 +28,8 @@ lastupdated: "2018-12-06"
   <tr>
     <td>
       <ul>
-        <li><a href="/docs/services/StreamingAnalytics/compatible_toolkits.html" target="_blank">지원되는 툴킷 및 어댑터</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/service_plans.html#vcap_services" target="_blank">서비스 인증 정보 및 VCAP_SERVICES 환경 변수</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-compatible_toolkits" target="_blank">지원되는 툴킷 및 어댑터</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services" target="_blank">서비스 인증 정보 및 VCAP_SERVICES 환경 변수</a><br></li>
         <li><a href="https://github.com/IBMStreams" target="_blank">IBMStreams on
 GitHub ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
       </ul>    
@@ -39,10 +39,10 @@ GitHub ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 �
         <li><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/" target="_blank">Streaming Analytics v1 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics v2 개발 안내서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
         <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Streams에 연결: 알아야 할 사항 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/index.html" target="_blank">Streaming Analytics 시작하기</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted" target="_blank">Streaming Analytics 시작하기</a><br></li>
         <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">클라우드에 맞게 SPL 애플리케이션 준비하기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")</a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/t_develop_apps_python.html#t_develop_apps_python" target="_blank">Streaming Analytics용 Python 애플리케이션 개발 </a><br></li>
-        <li><a href="/docs/services/StreamingAnalytics/develop_beam_apps.html" target="_blank">Streaming Analytics용 Beam 애플리케이션 개발</a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python#t_develop_apps_python" target="_blank">Streaming Analytics용 Python 애플리케이션 개발 </a><br></li>
+        <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-develop_beam_apps" target="_blank">Streaming Analytics용 Beam 애플리케이션 개발</a><br></li>
       </ul>    
     </td>
   </tr>

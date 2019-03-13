@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -91,8 +91,8 @@ lastupdated: "2018-12-06"
 下列特性只在 v1 服務方案中受到支援：
 
 * [v1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1)。在 v2 基礎架構中，您必須使用 [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2)。
-* NYC Traffic 及 Event Detection v1 範例應用程式。請參閱[範例應用程式](/docs/services/StreamingAnalytics/c_starterapps.html)，以取得您可以用來在 v2 容器型基礎架構中開始使用 {{site.data.keyword.streaminganalyticsshort}} 的應用程式清單。
-* 部分工具箱的相容性。請參閱[相容的工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)，以取得與新容器型基礎架構相容的工具箱清單。
+* NYC Traffic 及 Event Detection v1 範例應用程式。請參閱[範例應用程式](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps)，以取得您可以用來在 v2 容器型基礎架構中開始使用 {{site.data.keyword.streaminganalyticsshort}} 的應用程式清單。
+* 部分工具箱的相容性。請參閱[相容的工具箱](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)，以取得與新容器型基礎架構相容的工具箱清單。
 
 ## v1 服務方案的 VCAP_SERVICES 環境變數
 {: #vcap_services}
