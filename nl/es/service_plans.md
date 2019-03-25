@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -92,8 +92,8 @@ Puede acceder a esta nueva infraestructura basada en contenedores con los planes
 Las siguientes características solo están admitidas en los planes de servicio de v1:
 
 * [API REST de v1](https://{DomainName}/apidocs/streaming-analytics-v1). En la infraestructura de v2, debe utilizar la [API REST de {{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2)
-* Apps de muestra de v1 NYC Traffic y Event Detection. Consulte [Aplicaciones de ejemplo](/docs/services/StreamingAnalytics/c_starterapps.html) para obtener una lista de apps que puede utilizar para empezar a utilizar {{site.data.keyword.streaminganalyticsshort}} en la infraestructura basada en contenedores de v2.
-* Compatibilidad de algunos kits de herramientas. Consulte [Kits de herramientas compatibles](/docs/services/StreamingAnalytics/compatible_toolkits.html) para obtener una lista de kits de herramientas compatibles con la nueva infraestructura basada en contenedores.
+* Apps de muestra de v1 NYC Traffic y Event Detection. Consulte [Aplicaciones de ejemplo](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps) para obtener una lista de apps que puede utilizar para empezar a utilizar {{site.data.keyword.streaminganalyticsshort}} en la infraestructura basada en contenedores de v2.
+* Compatibilidad de algunos kits de herramientas. Consulte [Kits de herramientas compatibles](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits) para obtener una lista de kits de herramientas compatibles con la nueva infraestructura basada en contenedores.
 
 ## Variable de entorno VCAP_SERVICES para planes de servicio de v1
 {: #vcap_services}

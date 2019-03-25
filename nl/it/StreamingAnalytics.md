@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -25,22 +25,22 @@ Il servizio {{site.data.keyword.streaminganalyticsshort}} fornisce le seguenti f
 
 **Utilizzo programmatico e interattivo del servizio:**
 
-Puoi utilizzare il servizio interattivamente tramite la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_streams_console.html) oppure in modo programmatico tramite l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html), utilizza l'[API REST {{site.data.keyword.streaminganalyticsshort}} v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v2).
+Puoi utilizzare il servizio interattivamente tramite la [console {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-console#console) oppure in modo programmatico tramite l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Per i [piani di servizio v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), utilizza l'[API REST {{site.data.keyword.streaminganalyticsshort}} v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v2).
 
 **Distribuzione e monitoraggio di applicazioni SPL, Java, Scala e Python:**
 
-Puoi scrivere applicazioni {{site.data.keyword.streamsshort}} in SPL, Java, Scala e Python. [Distribuisci e monitora queste applicazioni](/docs/services/StreamingAnalytics/t_deploytocloud.html) con la console {{site.data.keyword.streaminganalyticsshort}}.
+Puoi scrivere applicazioni {{site.data.keyword.streamsshort}} in SPL, Java, Scala e Python. [Distribuisci e monitora queste applicazioni](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_deploytocloud) con la console {{site.data.keyword.streaminganalyticsshort}}.
 
 Se vuoi scrivere le tue applicazioni in SPL, tieni presente che SPL ({{site.data.keyword.streamsfull}} Processing Language) è un linguaggio di programmazione utilizzato per creare applicazioni di elaborazione dei flussi. Se vuoi fare ancora di più con le tue applicazioni SPL, puoi ottenere un ambiente di sviluppo {{site.data.keyword.streamsshort}} e devi preparare le tue applicazioni SPL per il cloud.
 
-Per creare e distribuire applicazioni Python senza un ambiente di sviluppo {{site.data.keyword.streamsshort}}, utilizza i notebook di servizio in IBM {{site.data.keyword.DSX_short}} oppure la API {{site.data.keyword.streamsshort}} Python. Per ulteriori informazioni, consulta [Sviluppo di applicazioni Python per {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/t_develop_apps_python.html).
+Per creare e distribuire applicazioni Python senza un ambiente di sviluppo {{site.data.keyword.streamsshort}}, utilizza i notebook di servizio in IBM {{site.data.keyword.DSX_short}} oppure la API {{site.data.keyword.streamsshort}} Python. Per ulteriori informazioni, consulta [Sviluppo di applicazioni Python per {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python).
 
-Puoi sviluppare le applicazioni Beam con Streams Runner nel tuo ambiente di sviluppo locale che puoi distribuire e monitorare nel servizio {{site.data.keyword.streaminganalyticsshort}}. Per ulteriori informazioni sulle applicazioni Beam con Streams Runner, consulta [IBM Streams Runner per Apache Beam in {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/gs_beamrunner.html).
+Puoi sviluppare le applicazioni Beam con Streams Runner nel tuo ambiente di sviluppo locale che puoi distribuire e monitorare nel servizio {{site.data.keyword.streaminganalyticsshort}}. Per ulteriori informazioni sulle applicazioni Beam con Streams Runner, consulta [IBM Streams Runner per Apache Beam in {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gs_beamrunner).
 
 
 **Compatibilità con gli operatori {{site.data.keyword.streamsshort}}:**
 
-Gli operatori {{site.data.keyword.streamsshort}} nel toolkit standard [{{site.data.keyword.streamsshort}} Processing Language (SPL) sono compatibili](/docs/services/StreamingAnalytics/compatible_toolkits.html) con {{site.data.keyword.streaminganalyticsshort}}.
+Gli operatori {{site.data.keyword.streamsshort}} nel toolkit standard [{{site.data.keyword.streamsshort}} Processing Language (SPL) sono compatibili](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits) con {{site.data.keyword.streaminganalyticsshort}}.
 
 ## Responsabilità di Streaming Analytics
 {: #responsibilities notoc}

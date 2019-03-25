@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-24"
+  years: 2015, 2019
+lastupdated: "2019-02-04"
 
 ---
 
@@ -27,7 +27,7 @@ Devi attenerti alla seguente procedura per distribuire le applicazioni starter:
 
 * Esegui la registrazione a un account [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/registration){:new_window}
 * Crea un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} nella tua organizzazione {{site.data.keyword.Bluemix_notm}}. Puoi creare l'istanza direttamente dalla [pagina dei dettagli dell'offerta **{{site.data.keyword.streaminganalyticsshort}}** nel catalogo {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
 
 
 
@@ -38,7 +38,7 @@ Devi attenerti alla seguente procedura per distribuire le applicazioni starter:
 
     a. Vai a **Menu**>**Applicazioni Cloud Foundry**>**Crea risorsa** per creare una risorsa.
 
-    b. Seleziona il runtime {{site.data.keyword.sdk4node}} per le applicazioni starter Event Detection o Event Detection v2.
+    b. Seleziona il runtime SDK per le applicazioni starter Event Detection o Event Detection v2.
 
     Ricorda il nome che fornisci per l'applicazione, ti servirà in seguito.
 1. Collega l'istanza del servizio {{site.data.keyword.streaminganalyticsshort}} alla tua applicazione e ripreparala.
@@ -46,7 +46,7 @@ Devi attenerti alla seguente procedura per distribuire le applicazioni starter:
 ## Passo 2. Configurazione dell'applicazione starter
 {: #setup_app}
 
-1. Se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html), scarica l'applicazione starter [Event Detection ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Scarica l'applicazione starter [Event Detection v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) per i piani di servizio [v2](/docs/services/StreamingAnalytics/service_plans.html).
+1. Se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), scarica l'applicazione starter [Event Detection ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Scarica l'applicazione starter [Event Detection v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) per i piani di servizio [v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 
 1. Rinomina la directory in modo che corrisponda al nome fornito alla tua applicazione in {{site.data.keyword.Bluemix_notm}}.
 

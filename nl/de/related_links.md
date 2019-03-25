@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-12-06"
 * [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} v1-Entwicklerhandbuch ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-development-guide/){:new_window}
 * [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} v2-Entwicklerhandbuch ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/){:new_window}
 * [Entwicklung für den {{site.data.keyword.streaminganalyticsshort}}-Service in Python ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)
-* [Weitere Lernprogramme](/docs/services/StreamingAnalytics/r_integrating_cloudant_rest.html){:new_window}
+* [Weitere Lernprogramme](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-tutorials){:new_window}
 
 
 ## API-Referenz
@@ -36,8 +36,8 @@ lastupdated: "2018-12-06"
 
 ## Kompatible Laufzeitumgebungen
 {: #buildpacks notoc}
-* [Liberty for Java](/docs/runtimes/liberty/index.html#liberty)
-* [SDK for Node.js](/docs/runtimes/nodejs/index.html#nodejs)
+* [Liberty for Java](/docs/runtimes/liberty?topic=liberty-getting-started#getting-started)
+* [SDK for Node.js](/docs/runtimes/nodejs?topic=Nodejs-getting-started#getting-started)
 
 ## Allgemeine Ressourcen
 {: #general notoc}

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-12-06"
 要向 {{site.data.keyword.Bluemix_notm}} 上的 {{site.data.keyword.streaminganalyticsshort}} 服务提交 Beam 应用程序，必须创建 JSON 格式的 VCAP 文件，用于保存服务的凭证和其他信息。
 
 1. 在 Streams 本地环境中，浏览到安装工具箱的样本子文件夹 (`$STREAMS_BEAM_RUNNER/samples`)，然后将 template.vcap 文件复制到新文件。为该文件提供一个有意义的名称及文件扩展名 `.vcap`。
-1. [复制 {{site.data.keyword.streaminganalyticsshort}} 服务的凭证](/docs/services/StreamingAnalytics/service_plans.html#vcap_services)，并将凭证粘贴到所创建的 VCAP 文件中，然后替换以下行：
+1. [复制 {{site.data.keyword.streaminganalyticsshort}} 服务的凭证](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services)，并将凭证粘贴到所创建的 VCAP 文件中，然后替换以下行：
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```

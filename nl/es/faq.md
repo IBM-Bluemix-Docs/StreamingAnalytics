@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -64,7 +64,7 @@ El servicio está creado y completamente gestionado por IBM. Cada servicio const
 {: #streamsapp notoc}
 {: faq}
 
-Debe desarrollar las aplicaciones de Streams localmente utilizando los Streams gratuitos [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) para los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html) o si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), puede descargar la [{{site.data.keyword.streamsshort}} imagen de Quick Start Edition VM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+Debe desarrollar las aplicaciones de Streams localmente utilizando los Streams gratuitos [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) para los [planes de servicio de v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) o si está utilizando los [planes de servicio de v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), puede descargar la [imagen de VM de {{site.data.keyword.streamsshort}} Quick Start Edition ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 
 También puede utilizar la instalación local de {{site.data.keyword.streamsshort}} si la tiene. Las aplicaciones que desarrolle y compile localmente se podrán desplegar entonces sin problemas como un paquete en un servicio de Streams en la nube.
 
@@ -98,7 +98,7 @@ Algunas de las características que no están admitidas para el servicio de {{si
 
   - Tareas administrativas para una instancia que requiere autoridad de dominio. Por ejemplo, la adición de etiquetas de host personalizadas o la creación de un grupo de trabajo.
   - Puntos de comprobación de regiones coherentes.
-  - Algunos de los operadores de kit de herramientas no están admitidos. Para obtener más información, consulte [Adaptadores y kits de herramientas admitidos](/docs/services/StreamingAnalytics/compatible_toolkits.html).
+  - Algunos de los operadores de kit de herramientas no están admitidos. Para obtener más información, consulte [Adaptadores y kits de herramientas admitidos](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits).
   - La API de JMX de Streams.
 
 ## ¿Dónde puedo obtener más información sobre el servicio de Streaming Analytics?

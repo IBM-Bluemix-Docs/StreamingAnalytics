@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 l'alta disponibilità per le tue applicazioni. Se viene rilevato un problema su uno dei nodi della tua applicazione,
 (risorse {{site.data.keyword.streamsshort}}), il nodo viene
 automaticamente sostituito e ogni lavoro in esecuzione su tale nodo viene migrato. I lavori vengono migrati e riavviati
-solo se l'istanza contiene più nodi di applicazione. Puoi ridimensionare l'istanza utilizzando la [pagina dei dettagli del servizio](/docs/services/StreamingAnalytics/r_service_dashboard.html) oppure l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Per i piani di servizio v2, utilizza l'[API REST v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
+solo se l'istanza contiene più nodi di applicazione. Puoi ridimensionare l'istanza utilizzando la [pagina dei dettagli del servizio](/docs/services/StreamingAnalytics?topic=dashboard) oppure l'[API REST {{site.data.keyword.streaminganalyticsshort}} v1 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} per i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Per i piani di servizio v2, utilizza l'[API REST v2 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
 Questo video mostra come ridimensionare la tua istanza utilizzando la pagina dei dettagli del servizio:

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -64,7 +64,7 @@ lastupdated: "2018-12-06"
 {: #streamsapp notoc}
 {: faq}
 
-对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，必须使用免费的 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) 在本地开发 Streams 应用程序，如果要使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
+对于 [V2 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，必须使用免费的 Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) 在本地开发 Streams 应用程序，如果要使用 [V1 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，那么可以下载 [{{site.data.keyword.streamsshort}} Quick Start Edition VM 映像 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}。
 
 您还可以使用内部部署 {{site.data.keyword.streamsshort}} 安装（如果有的话）。然后，您在本地开发并编译的应用程序可以作为捆绑软件无缝地部署到云中的 Streams 服务。
 
@@ -98,7 +98,7 @@ lastupdated: "2018-12-06"
 
   - 需要域授权的实例的管理任务。例如，添加定制主机标记或创建作业组。
   - 一致区域检查点。
-  - 不支持一些工具箱操作程序。有关更多信息，请参阅[支持的工具箱和适配器](/docs/services/StreamingAnalytics/compatible_toolkits.html)。
+  - 不支持一些工具箱操作程序。有关更多信息，请参阅[支持的工具箱和适配器](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)。
   - Streams JMX API。
 
 ## 在哪里可以了解到有关 Streaming Analytics 服务的更多信息？

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-24"
+  years: 2015, 2019
+lastupdated: "2019-02-04"
 
 ---
 
@@ -27,7 +27,7 @@ Deve-se seguir estas etapas para implementar os aplicativos iniciadores:
 
 * Registre-se para uma [conta do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration){:new_window}
 * Crie uma instância do serviço {{site.data.keyword.streaminganalyticsshort}} em sua organização do {{site.data.keyword.Bluemix_notm}}. É possível criar a instância diretamente na [página de detalhes da oferta **{{site.data.keyword.streaminganalyticsshort}}** no catálogo do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window}.  
-* [Instale o {{site.data.keyword.Bluemix_notm}} CLI ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* [Instale o {{site.data.keyword.Bluemix_notm}} CLI ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
 
 
 
@@ -38,8 +38,7 @@ Deve-se seguir estas etapas para implementar os aplicativos iniciadores:
 
     a. Acesse **Menu**>**Apps do Cloud Foundry**>**Criar recurso** para criar um recurso.
 
-    b. Selecione o tempo de execução do {{site.data.keyword.sdk4node}} para os aplicativos Starter Event Detection ou
-Event Detection v2.
+    b. Selecione o tempo de execução do SDK para os aplicativos Starter Event Detection ou Event Detection v2.
 
     Lembre-se do nome que deu ao aplicativo; você precisará dele posteriormente.
 1. Conecte a instância de serviço do {{site.data.keyword.streaminganalyticsshort}} ao seu aplicativo e remonte o aplicativo.
@@ -47,10 +46,10 @@ Event Detection v2.
 ## Etapa 2. Configurando o aplicativo iniciador
 {: #setup_app}
 
-1. Se Ao usar os planos de serviços do [v1](/docs/services/StreamingAnalytics/service_plans.html), faça download do aplicativo Starter do [Event Detection ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Faça download
+1. Se Ao usar os planos de serviços do [v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), faça download do aplicativo Starter do [Event Detection ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection). Faça download
 do aplicativo Starter do [Event
 Detection v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) para
-os planos de serviços do [v2](/docs/services/StreamingAnalytics/service_plans.html).
+os planos de serviços do [v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 
 1. Renomeie o diretório para corresponder ao nome que você forneceu ao seu aplicativo no {{site.data.keyword.Bluemix_notm}}.
 

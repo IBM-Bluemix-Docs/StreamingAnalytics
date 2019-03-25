@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -25,7 +25,7 @@ Para enviar una aplicación de Beam a su servicio de {{site.data.keyword.streami
 
 1. En el entorno local de Streams, navegue a la subcarpeta de ejemplo donde ha instalado el kit de
 herramientas (`$STREAMS_BEAM_RUNNER/samples`) y copie el archivo template.vcap a un nuevo archivo. Proporcione al nombre un nombre significativo y la extensión de archivo `.vcap.`
-1. [Copie las credenciales de su servicio {{site.data.keyword.streaminganalyticsshort}} ](/docs/services/StreamingAnalytics/service_plans.html#vcap_services) y pegue las credenciales en el archivo de VCAP que ha creado, sustituyendo la siguiente línea:
+1. [Copie las credenciales de su servicio {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services) y pegue las credenciales en el archivo de VCAP que ha creado, sustituyendo la siguiente línea:
 ```
  <ELIMINE ESTA LÍNEA E INSERTE LAS CREDENCIALES AQUÍ>
  ```

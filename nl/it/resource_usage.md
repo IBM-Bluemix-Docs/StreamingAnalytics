@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}} ha diverse modalità di funzionamento e politiche per garantire l'utilizzo e l'assegnazione appropriati delle risorse.
 
 ## Visualizzazione e modifica delle risorse dell'istanza
-Puoi visualizzare e modificare il numero di risorse autorizzate all'istanza nella pagina dei dettagli del servizio oppure all'API REST v1 per i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). Devi utilizzare l'[API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
+Puoi visualizzare e modificare il numero di risorse autorizzate all'istanza nella pagina dei dettagli del servizio oppure all'API REST v1 per i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Devi utilizzare l'[API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) per i [piani di servizio v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 
 ## Assegnazione delle risorse
 - Le risorse sono automaticamente assegnate all'istanza quando invii un lavoro che viene eseguito correttamente.

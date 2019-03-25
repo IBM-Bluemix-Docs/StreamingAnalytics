@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,7 +24,7 @@ O {{site.data.keyword.streamsshort}} Runner for Apache Beam executa pipelines do
 Para enviar um aplicativo Beam para o serviço {{site.data.keyword.streaminganalyticsshort}} no {{site.data.keyword.Bluemix_notm}}, deve-se criar um arquivo VCAP formatado por JSON que contenha credenciais e outras informações para o serviço.
 
 1. Em seu ambiente local do Streams, navegue até a subpasta de amostras na qual instalou o kit de ferramentas (`$STREAMS_BEAM_RUNNER/samples`) e copie o arquivo template.vcap em um novo arquivo. Dê ao arquivo um nome significativo e uma extensão de arquivo de `.vcap.`
-1. [Copie as credenciais do seu serviço {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/service_plans.html#vcap_services) e cole as credenciais no arquivo VCAP que criou, substituindo a linha a seguir:
+1. [Copie as credenciais do seu serviço do {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services) e cole as credenciais no arquivo VCAP criado, substituindo a linha a seguir:
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```

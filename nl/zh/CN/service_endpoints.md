@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -25,9 +25,9 @@ lastupdated: "2018-12-06"
 {: #prereqs notoc}
 
 请确保满足以下需求：
-- 通过使用非轻量 [V2 容器套餐](/docs/services/StreamingAnalytics/service_plans.html)创建服务实例。
+- 通过使用非轻量 [V2 容器套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)创建服务实例。
 - 在 {{site.data.keyword.Bluemix_short}} 英国（伦敦）或德国（法兰克福）区域创建服务实例。
-- 为 {{site.data.keyword.Bluemix_short}} 帐户启用 [Virtual Route Forwarding (VRF)](/docs/infrastructure/direct-link/vrf-on-ibm-cloud.html#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud)。
+- 为 {{site.data.keyword.Bluemix_short}} 帐户启用 [Virtual Route Forwarding (VRF)](/docs/infrastructure/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud)。
 
 
 要添加内部端点：
@@ -37,4 +37,4 @@ lastupdated: "2018-12-06"
 3. **可选。** 根据需要使用端点切换按钮来启用或禁用端点。
 
 
-有关服务端点的更多信息，请查看 [{{site.data.keyword.Bluemix_short}} 服务端点文档](/docs/services/service-endpoint/getting-started.html#about){:new_window}。
+有关服务端点的更多信息，请查看 [{{site.data.keyword.Bluemix_short}} 服务端点文档](/docs/services/service-endpoint?topic=about){:new_window}。

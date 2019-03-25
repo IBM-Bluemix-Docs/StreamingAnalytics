@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years:  2017
+  years:  2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -17,6 +17,7 @@ lastupdated: "2018-12-06"
 
 
 # Autenticação de Gerenciamento de Identidade e Acesso
+{: #iam}
 
 O acesso às instâncias de serviço do {{site.data.keyword.streaminganalyticsshort}} para usuários em
 sua conta é controlado pelo {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM). Para gerenciar o serviço do {{site.data.keyword.streaminganalyticsshort}}, deve-se usar um token de autenticação.
@@ -27,7 +28,7 @@ sua conta é controlado pelo {{site.data.keyword.Bluemix_notm}} Identity and Acc
 
 a. Você deve ter um IBMid válido.
 
-b. Faça download e instale o [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+b. Faça download e instale o [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
 
 ### Etapa 1. Efetue login na CLI do {{site.data.keyword.Bluemix_notm}}.
 

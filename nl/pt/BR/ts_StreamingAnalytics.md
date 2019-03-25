@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-09-04"
 
 ---
@@ -49,7 +49,7 @@ Você envia um aplicativo para a instância de serviço, o aplicativo é iniciad
 Você não compilou o aplicativo com um sistema operacional RHEL 7.x ou uma versão equivalente do CentOS.
 {: tsCauses}
 
-Deve-se compilar seu aplicativo no Red Hat Enterprise Linux (RHEL) 7.x se você estiver usando os [planos de serviço v2](/docs/services/StreamingAnalytics/service_plans.html). Se você estiver usando os [planos de serviço v1](/docs/services/StreamingAnalytics/service_plans.html), deve-se compilar o aplicativo com o RHEL 6.5 com processadores Intel. Envie seu aplicativo para a instância de serviço novamente. É possível fazer download do [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se não tiver um ambiente de desenvolvimento compatível e estiver usando os planos de serviço v2. Ao usar os planos de serviços da v1, faça download do [{{site.data.keyword.streamsshort}} QSE
+Deve-se compilar seu aplicativo no Red Hat Enterprise Linux (RHEL) 7.x se você estiver usando os [planos de serviço v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Se você estiver usando os [planos de serviço v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), deve-se compilar o aplicativo com o RHEL 6.5 com processadores Intel. Envie seu aplicativo para a instância de serviço novamente. É possível fazer download do [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se não tiver um ambiente de desenvolvimento compatível e estiver usando os planos de serviço v2. Ao usar os planos de serviços da v1, faça download do [{{site.data.keyword.streamsshort}} QSE
 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 {: tsResolve}
 

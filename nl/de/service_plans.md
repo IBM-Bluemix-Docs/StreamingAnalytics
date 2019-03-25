@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -92,8 +92,8 @@ Zugriff auf diese neue containerbasierte Infrastruktur besteht über die v2-Serv
 Die folgenden Features werden nur in den v1-Serviceplänen unterstützt:
 
 * [v1-REST-API](https://{DomainName}/apidocs/streaming-analytics-v1). In der v2-Infrastruktur müssen Sie die [{{site.data.keyword.streaminganalyticsshort}}-v2-REST-API](https://{DomainName}/apidocs/streaming-analytics-v2) verwenden.
-* Beispiel-Apps 'NYC Traffic' und 'Event Detection v1'. In [Beispielanwendungen](/docs/services/StreamingAnalytics/c_starterapps.html) finden Sie eine Liste der Apps, die Sie zum Einstieg in {{site.data.keyword.streaminganalyticsshort}} in der containerbasierten v2-Infrastruktur verwenden können.
-* Kompatibilität einiger Toolkits. In [Kompatible Toolkits](/docs/services/StreamingAnalytics/compatible_toolkits.html) finden Sie eine Liste der Toolkits, die mit der neuen containerbasierten Infrastruktur kompatibel sind.
+* Beispiel-Apps 'NYC Traffic' und 'Event Detection v1'. In [Beispielanwendungen](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps) finden Sie eine Liste der Apps, die Sie zum Einstieg in {{site.data.keyword.streaminganalyticsshort}} in der containerbasierten v2-Infrastruktur verwenden können.
+* Kompatibilität einiger Toolkits. In [Kompatible Toolkits](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits) finden Sie eine Liste der Toolkits, die mit der neuen containerbasierten Infrastruktur kompatibel sind.
 
 ## Umgebungsvariable VCAP_SERVICES für v1-Servicepläne
 {: #vcap_services}

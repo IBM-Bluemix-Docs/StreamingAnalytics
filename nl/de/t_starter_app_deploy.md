@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-24"
+  years: 2015, 2019
+lastupdated: "2019-02-04"
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustell
 
 * Nehmen Sie eine Registrierung für ein [{{site.data.keyword.Bluemix_notm}}-Konto ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration){:new_window} vor.
 * Erstellen Sie eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service in Ihrer {{site.data.keyword.Bluemix_notm}}-Organisation. Sie können Instanzen direkt über die [Seite mit Angebotsdetails zu **{{site.data.keyword.streaminganalyticsshort}}** im {{site.data.keyword.Bluemix_notm}}-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window} erstellen.  
-* [Installieren Sie die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+* [Installieren Sie die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
 
 
 
@@ -36,9 +36,9 @@ Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustell
 
 1. Erstellen Sie eine Anwendung in {{site.data.keyword.Bluemix_notm}}:
 
-    a. Rufen Sie **Menü**>**Cloud Foundry-Apps**>**Ressource erstellen** auf, um eine Ressource zu erstellen. 
+    a. Rufen Sie **Menü**>**Cloud Foundry-Apps**>**Ressource erstellen** auf, um eine Ressource zu erstellen.
 
-    b. Wählen Sie die {{site.data.keyword.sdk4node}}-Laufzeit für die Event Detection- oder Event Detection v2-Starter-Apps aus.
+    b. Wählen Sie die SDK-Laufzeit für die Event Detection- oder Event Detection v2-Starter-Apps aus. 
 
     Merken Sie sich den Namen, den Sie der Anwendung geben. Sie benötigen ihn zu einem späteren Zeitpunkt wieder.
 1. Stellen Sie eine Verbindung von der {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz zu Ihrer Anwendung her und führen Sie ein erneutes Staging für die Anwendung durch.
@@ -46,7 +46,7 @@ Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustell
 ## Schritt 2. Starteranwendung einrichten
 {: #setup_app}
 
-1. Wenn Sie die [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, laden Sie die Starter-App [Event Detection ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) herunter. Laden Sie die Starter-App [Event Detection v2 ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) herunter.
+1. Wenn Sie die [v1-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) verwenden, laden Sie die Starter-App [Event Detection ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) herunter. Laden Sie die Starter-App [Event Detection v2 ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) für [v2-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) herunter.
 
 1. Benennen Sie das Verzeichnis so um, dass es dem Namen entspricht, den Sie Ihrer Anwendung in {{site.data.keyword.Bluemix_notm}} gegeben haben.
 
@@ -66,7 +66,7 @@ Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustell
   {:pre}
 
 1. Navigieren Sie zur Seite mit den Anwendungsdetails, auf die Sie über das {{site.data.keyword.Bluemix_notm}}-Dashboard gelangen, und prüfen Sie, ob Ihre Anwendung erfolgreich gestartet wurde.
-1. Starten Sie Ihre Anwendung, sodass sie im Browser zu sehen ist. Die URL (oder "Route") zu Ihrer Anwendung finden Sie auf der Seite mit den Anwendungsdetails. 
+1. Starten Sie Ihre Anwendung, sodass sie im Browser zu sehen ist. Die URL (oder "Route") zu Ihrer Anwendung finden Sie auf der Seite mit den Anwendungsdetails.
 
 ## Weitere Schritte
 {: #next_steps}

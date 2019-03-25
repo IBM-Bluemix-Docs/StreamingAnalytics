@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-09-04"
 
 ---
@@ -50,7 +50,7 @@ Invii un'applicazione all'istanza del servizio, l'applicazione viene avviata ma 
 Non hai compilato l'applicazione con un sistema operativo RHEL 7.x o una versione CentOS equivalente.
 {: tsCauses}
 
-Devi compilare la tua applicazione in RHEL (Red Hat Enterprise Linux) 7.x se stai utilizzando i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html). Se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html), devi compilare la tua applicazione con RHEL 6.5 con i processori Intel. Invia nuovamente la tua applicazione all'istanza del servizio. Puoi scaricare [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se non hai un ambiente di sviluppo compatibile e stai utilizzando i piani di servizio v2. Se stai utilizzando i piani di servizio v1, scarica  [{{site.data.keyword.streamsshort}} QSE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+Devi compilare la tua applicazione in RHEL (Red Hat Enterprise Linux) 7.x se stai utilizzando i [piani di servizio v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), devi compilare la tua applicazione con RHEL 6.5 con i processori Intel. Invia nuovamente la tua applicazione all'istanza del servizio. Puoi scaricare [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) se non hai un ambiente di sviluppo compatibile e stai utilizzando i piani di servizio v2. Se stai utilizzando i piani di servizio v1, scarica  [{{site.data.keyword.streamsshort}} QSE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 {: tsResolve}
 
 ## La mia applicazione è in uno stato di "unhealthy" (non integro) dopo il suo riavvio

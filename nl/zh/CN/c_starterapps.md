@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -46,7 +46,7 @@ lastupdated: "2018-12-06"
     <th id="EventDetection2" colspan="3">“事件检测”V2 样本应用程序<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">“事件检测”V2 应用程序通过 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a> 运行时实现。此入门模板应用程序仅适用于 [V2 服务套餐。](/docs/services/StreamingAnalytics/service_plans.html)。
+    <td colspan="3" headers="EventDetection2">“事件检测”V2 应用程序通过 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a> 运行时实现。此入门模板应用程序仅适用于 [V2 服务套餐。](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)。
 该应用程序提供一个简单的 Web UI，以显示分析的状态和结果。
 Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。该应用程序通过 {{site.data.keyword.streaminganalyticsshort}} V2 REST API 控制该服务。
 <p>您可以运行入门模板应用程序，而不进行修改。
@@ -54,7 +54,7 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">部署应用程序</a><br></td>
+    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy#starterapps_deploy" target="_blank">部署应用程序</a><br></td>
     <td headers="EventDetection2"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">教程 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
     <td headers="EventDetection2"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetectionV2" target="_blank">下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
   </tr>
@@ -67,7 +67,7 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
     <th id="EventDetection1" colspan="3">事件检测样本应用程序<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">“事件检测”应用程序通过 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a> 运行时实现。此入门模板应用程序仅适用于 [V1 服务套餐。](/docs/services/StreamingAnalytics/service_plans.html)。
+    <td headers="EventDetection1" colspan="3">“事件检测”应用程序通过 <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a> 运行时实现。此入门模板应用程序仅适用于 [V1 服务套餐。](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)。
 该应用程序提供一个简单的 Web UI，以显示分析的状态和结果。
 Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。该应用程序通过 {{site.data.keyword.streaminganalyticsshort}} REST API 控制该服务。
 <p>您可以运行入门模板应用程序，而不进行修改。
@@ -75,7 +75,7 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">部署应用程序</a><br></td>
+    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy" target="_blank">部署应用程序</a><br></td>
     <td headers="EventDetection1"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">教程 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
     <td headers="EventDetection1"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
   </tr>
@@ -90,12 +90,12 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
   </tr>
   <tr>
     <td headers="NYCTraffic" colspan="3">“NYC 交通”入门模板应用程序是用 Liberty for Java 针对 {{site.data.keyword.Bluemix_short}} 编写的应用程序。它包含 {{site.data.keyword.streamsshort}} 应用程序，可从纽约城交通传感器检索公共数据、计算聚集统计信息，并将结果发送回 Liberty 应用程序。
-此入门模板应用程序仅适用于 [V1 服务套餐。](/docs/services/StreamingAnalytics/service_plans.html)。
+此入门模板应用程序仅适用于 [V1 服务套餐。](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)。
 <p>您可以运行入门模板应用程序，而不进行修改。如果您想要进一步尝试该服务，那么您可以修改代码并将更改推送回 {{site.data.keyword.Bluemix_short}} 环境。</p>
 </td>
   </tr>
   <tr>
-    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">部署应用程序</a><br></td>
+    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-starterapps_deploy" target="_blank">部署应用程序</a><br></td>
     <td headers="NYCTraffic"><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">教程 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
     <td headers="NYCTraffic"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")</a></td>
   </tr>
@@ -111,7 +111,7 @@ Node.js 应用程序绑定到 {{site.data.keyword.streaminganalyticsshort}} 服�
     <th id="TemperatureSample" colspan="3">TemperatureSample Beam 应用程序<br></th>
   </tr>
   <tr>
-    <td headers="TemperatureSample" colspan="3">此应用程序用于从多个设备获取温度读数。此入门模板应用程序仅适用于 [V2 服务套餐。](/docs/services/StreamingAnalytics/service_plans.html)。
+    <td headers="TemperatureSample" colspan="3">此应用程序用于从多个设备获取温度读数。此入门模板应用程序仅适用于 [V2 服务套餐。](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)。
 此应用程序基于特定的阈值，将读数划分为“良好”（有效）和“不良”（无效）读数。它会统计不良读数的计数，并为良好读数生成一些基本的统计信息，最后记录结果。可以从 Streaming Analytics 控制台下载 TemperatureSample 应用程序。
 </td>
   </tr>

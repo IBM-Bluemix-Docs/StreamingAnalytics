@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-12-06"
 Wenn Sie über eine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung verfügen, können Sie nun Beam-Anwendungen lokal in Ihrer Umgebung entwickeln und diese Apps anschließend an den {{site.data.keyword.streaminganalyticsshort}}-Service in {{site.data.keyword.Bluemix_notm}} übergeben. {{site.data.keyword.streamsshort}} Runner for Apache Beam führt Beam-Pipelines in einer {{site.data.keyword.streamsshort}}-Umgebung aus. Eine Beam-Anwendung, die mit Streams Runner gestartet wird, wird in eine Streams Application Bundle-Datei (SAB-Datei) umgesetzt, die Sie dann in {{site.data.keyword.streaminganalyticsshort}} bereitstellen und überwachen können.
 
 
-Als ersten Schritt verwenden Sie die [Beispielanwendungen](/docs/services/StreamingAnalytics/c_starterapps.html), um sich mit der Übergabe und Überwachung einer Beam-Anwendung im {{site.data.keyword.streaminganalyticsshort}}-Service vertraut zu machen. Sie können die Beispielanwendungen von der {{site.data.keyword.streaminganalyticsshort}}-Konsole herunterladen.
+Als ersten Schritt verwenden Sie die [Beispielanwendungen](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps), um sich mit der Übergabe und Überwachung einer Beam-Anwendung im {{site.data.keyword.streaminganalyticsshort}}-Service vertraut zu machen. Sie können die Beispielanwendungen von der {{site.data.keyword.streaminganalyticsshort}}-Konsole herunterladen.
 
 Lesen Sie die [{{site.data.keyword.streamsshort}} Runner for Apache Beam-Dokumentation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/){:new_window}. Hier finden Sie Tabellen, die die Kompatibilität von Streams Runner mit der [Beam-Funktionsmatrix](https://beam.apache.org/documentation/runners/capability-matrix/) veranschaulichen. [IBM Streams Runner for Apache Beam installieren ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://bit.ly/2zFDpPr){:new_window} enthält eine Anleitung zur Installation des `com.ibm.streams.beam`-Toolkits in Ihrer Streams-Umgebung für die Erstellung von Beam-Anwendungen zur Übergabe und Überwachung in {{site.data.keyword.streaminganalyticsshort}}.
 

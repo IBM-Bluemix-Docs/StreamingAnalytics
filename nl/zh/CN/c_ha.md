@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}} 使得您的应用程序具有高可用性。
 如果在其中一个应用程序节点（{{site.data.keyword.streamsshort}} 资源）上检测到问题，那么会自动替换该节点，且会迁移在该节点上运行的任何作业。
 仅当实例包含多个应用程序节点时，才会迁移和重新启动作业。
-对于 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，您可以使用[服务详细信息页面](/docs/services/StreamingAnalytics/r_service_dashboard.html)或 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 来调整实例的大小。对于 V2 服务套餐，请使用 [V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
+对于 [V1 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，您可以使用[服务详细信息页面](/docs/services/StreamingAnalytics?topic=dashboard)或 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 来调整实例的大小。对于 V2 服务套餐，请使用 [V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
 此视频展示如何使用服务详细信息页面来调整实例大小：

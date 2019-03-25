@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years:  2017
+  years:  2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -17,6 +17,7 @@ lastupdated: "2018-12-06"
 
 
 # Identity and Access Management 认证
+{: #iam}
 
 您帐户中用户对 {{site.data.keyword.streaminganalyticsshort}} 服务实例的访问权由 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 控制。要管理 {{site.data.keyword.streaminganalyticsshort}} 服务，必须使用认证令牌。
 
@@ -26,7 +27,7 @@ lastupdated: "2018-12-06"
 
 a. 您必须具有有效的 IBM 标识。
 
-b. 下载和安装 [{{site.data.keyword.Bluemix_notm}} CLI](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
+b. 下载和安装 [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli)。
 
 ### 步骤 1. 登录 {{site.data.keyword.Bluemix_notm}} CLI。
 

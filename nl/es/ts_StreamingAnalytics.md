@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-09-04"
 
 ---
@@ -49,7 +49,7 @@ Envía una aplicación a la instancia del servicio, la aplicación se inicia per
 No ha compilado la aplicación con un sistema operativo RHEL 7.x o una versión de CentOS equivalente.
 {: tsCauses}
 
-Debe compilar la aplicación en Red Hat Enterprise Linux (RHEL) 7.x si está utilizando los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html). Si está utilizando [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html), debe compilar su aplicación con RHEL 6.5 con procesadores Intel. Vuelva a enviar la aplicación a la instancia del servicio. Puede descargar [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si no tiene un entorno de desarrollo compatible y si está utilizando los planes de servicio de v2. Si está utilizando planes de servicio de v1, descargue [{{site.data.keyword.streamsshort}} QSE ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+Debe compilar la aplicación en Red Hat Enterprise Linux (RHEL) 7.x si está utilizando los [planes de servicio de v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Si está utilizando [planes de servicio de v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), debe compilar su aplicación con RHEL 6.5 con procesadores Intel. Vuelva a enviar la aplicación a la instancia del servicio. Puede descargar [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) si no tiene un entorno de desarrollo compatible y si está utilizando los planes de servicio de v2. Si está utilizando planes de servicio de v1, descargue [{{site.data.keyword.streamsshort}} QSE ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 {: tsResolve}
 
 ## Mi aplicación no funciona correctamente una vez reiniciada

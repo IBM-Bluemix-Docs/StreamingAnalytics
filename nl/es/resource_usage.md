@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}} cuenta con una serie de comportamientos y políticas para garantizar la asignación y el uso adecuado de los recursos.
 
 ## Visualización y edición de recursos de instancia
-Puede visualizar y editar el número de recursos autorizados a la instancia en la página de detalles del servicio o la API REST de v1 para los [planes de servicio de v1](/docs/services/StreamingAnalytics/service_plans.html). Debe utilizar la [API REST de {{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) para los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html).
+Puede visualizar y editar el número de recursos autorizados a la instancia en la página de detalles del servicio o la API REST de v1 para los [planes de servicio de v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Debe utilizar la [API REST de {{site.data.keyword.streaminganalyticsshort}} v2](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance) para los [planes de servicio de v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 
 ## Asignación de recursos
 - Los recursos se asignan a la instancia automáticamente cuando envía un trabajo que se ejecuta correctamente.

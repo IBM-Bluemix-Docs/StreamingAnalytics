@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -48,7 +48,7 @@ il codice e rimandare le tue modifiche all'ambiente {{site.data.keyword.Bluemix_
     <th id="EventDetection2" colspan="3">Applicazione di esempio Event Detection v2<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">L'applicazione Event Detection v2 è implementata con il runtime <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>. Questa applicazione starter è compatibile solo con i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html).
+    <td colspan="3" headers="EventDetection2">L'applicazione Event Detection v2 è implementata con il runtime <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>. Questa applicazione starter è compatibile solo con i [piani di servizio v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 L'applicazione
 fornisce una IU web di esempio per visualizzare lo stato e i risultati delle analisi.
 L'applicazione Node.js è associata a un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}. L'applicazione controlla il servizio tramite l'API REST {{site.data.keyword.streaminganalyticsshort}} v2.
@@ -57,7 +57,7 @@ Se vuoi provare con un altro servizio, puoi anche modificare il codice e rimanda
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DISTRIBUISCI L'APPLICAZIONE</a><br></td>
+    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy#starterapps_deploy" target="_blank">DISTRIBUISCI L'APPLICAZIONE</a><br></td>
     <td headers="EventDetection2"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">ESERCITAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
     <td headers="EventDetection2"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetectionV2" target="_blank">SCARICA ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
   </tr>
@@ -72,7 +72,7 @@ Se vuoi provare con un altro servizio, puoi anche modificare il codice e rimanda
   </tr>
   <tr>
     <td headers="EventDetection1" colspan="3">L'applicazione Event Detection è implementata con il runtime <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a>.
-Questa applicazione starter è compatibile solo con i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html). L'applicazione
+Questa applicazione starter è compatibile solo con i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). L'applicazione
 fornisce una IU web di esempio per visualizzare lo stato e i risultati delle analisi.
 L'applicazione Node.js è associata a un'istanza del servizio {{site.data.keyword.streaminganalyticsshort}}. L'applicazione controlla il servizio tramite l'API REST {{site.data.keyword.streaminganalyticsshort}}.
 <p>Puoi eseguire l'applicazione starter senza alcuna modifica.
@@ -80,7 +80,7 @@ Se vuoi provare con un altro servizio, puoi anche modificare il codice e rimanda
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DISTRIBUISCI L'APPLICAZIONE</a><br></td>
+    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy" target="_blank">DISTRIBUISCI L'APPLICAZIONE</a><br></td>
     <td headers="EventDetection1"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">ESERCITAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
     <td headers="EventDetection1"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">SCARICA ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
   </tr>
@@ -95,12 +95,12 @@ Se vuoi provare con un altro servizio, puoi anche modificare il codice e rimanda
   </tr>
   <tr>
     <td headers="NYCTraffic" colspan="3">L'applicazione starter NYC Traffic è un'applicazione per {{site.data.keyword.Bluemix_short}} scritta in Liberty for Java. Contiene un'applicazione {{site.data.keyword.streamsshort}} che richiama i dati pubblici dai sensori del traffico
-di New York City, calcola le statistiche aggregate e restituisce i risultati all'applicazione Liberty. Questa applicazione starter è compatibile solo con i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html).
+di New York City, calcola le statistiche aggregate e restituisce i risultati all'applicazione Liberty. Questa applicazione starter è compatibile solo con i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
 <p>Puoi eseguire l'applicazione starter senza alcuna modifica. Se vuoi provare con un altro servizio, puoi anche modificare il codice e rimandare le tue modifiche all'ambiente {{site.data.keyword.Bluemix_short}}.</p>
 </td>
   </tr>
   <tr>
-    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">DISTRIBUISCI L'APPLICAZIONE</a><br></td>
+    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-starterapps_deploy" target="_blank">DISTRIBUISCI L'APPLICAZIONE</a><br></td>
     <td headers="NYCTraffic"><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">ESERCITAZIONE ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
     <td headers="NYCTraffic"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">SCARICA ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")</a></td>
   </tr>
@@ -116,7 +116,7 @@ di New York City, calcola le statistiche aggregate e restituisce i risultati all
     <th id="TemperatureSample" colspan="3">Applicazione TemperatureSample Beam<br></th>
   </tr>
   <tr>
-    <td headers="TemperatureSample" colspan="3">Questa applicazione prende le letture della temperatura da più dispositivi. Questa applicazione starter è disponibile solo con i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html). L'applicazione divide le letture in “good” (valida) e “bad” (non valida) in base a una soglia specifica. Conta le letture non buone e genera alcune statistiche di base per le letture buone e infine registra i risultati. Puoi scaricare l'applicazione TemperatureSample dalla console Streaming Analytics.
+    <td headers="TemperatureSample" colspan="3">Questa applicazione prende le letture della temperatura da più dispositivi. Questa applicazione starter è disponibile solo con i [piani di servizio v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). L'applicazione divide le letture in “good” (valida) e “bad” (non valida) in base a una soglia specifica. Conta le letture non buone e genera alcune statistiche di base per le letture buone e infine registra i risultati. Puoi scaricare l'applicazione TemperatureSample dalla console Streaming Analytics.
 </td>
   </tr>
   <tr>

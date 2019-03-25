@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -43,7 +43,7 @@ Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit de
     <th id="EventDetection2" colspan="3">Beispiel-App 'Event Detection v2'<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">Die App 'Event Detection v2' wird über die Laufzeitumgebung von <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert. Diese Starter-App ist nur mit [v2-Serviceplänen](/docs/services/StreamingAnalytics/service_plans.html) kompatibel.
+    <td colspan="3" headers="EventDetection2">Die App 'Event Detection v2' wird über die Laufzeitumgebung von <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert. Diese Starter-App ist nur mit [v2-Serviceplänen](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) kompatibel.
 Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
 Die Node.js-App ist an eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service gebunden. Die App steuert den Service über die {{site.data.keyword.streaminganalyticsshort}}-v2-REST-API.
 <p>Sie können die Starteranwendung unverändert ausführen.
@@ -51,7 +51,7 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy#starterapps_deploy" target="_blank">APP BEREITSTELLEN</a><br></td>
     <td headers="EventDetection2"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">Lernprogramm ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
     <td headers="EventDetection2"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetectionV2" target="_blank">Download ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
@@ -63,14 +63,15 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
     <th id="EventDetection1" colspan="3">Beispiel-App 'Event Detection'<br></th>
   </tr>
   <tr>
-    <td headers="EventDetection1" colspan="3">Die App 'Event Detection' wird über die Laufzeitumgebung von <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert. Diese Starter-App ist nur mit [v1-Serviceplänen](/docs/services/StreamingAnalytics/service_plans.html) kompatibel. Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
+    <td headers="EventDetection1" colspan="3">Die App 'Event Detection' wird über die Laufzeitumgebung von <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a> implementiert.
+Diese Starter-App ist nur mit [v1-Serviceplänen](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) kompatibel. Die App bietet eine einfache Webbenutzerschnittstelle zum Anzeigen des Status und der Ergebnisse der Analyse.
 Die Node.js-App ist an eine Instanz des {{site.data.keyword.streaminganalyticsshort}}-Service gebunden. Die App steuert den Service über die {{site.data.keyword.streaminganalyticsshort}}-REST-API.
 <p>Sie können die Starteranwendung unverändert ausführen.
 Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen.</p>
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy" target="_blank">APP BEREITSTELLEN</a><br></td>
     <td headers="EventDetection1"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">Lernprogramm ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
     <td headers="EventDetection1"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">Download ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
@@ -83,12 +84,12 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
     <th id="NYCTraffic" colspan="3">Beispiel-App 'NYC Traffic'<br></th>
   </tr>
   <tr>
-    <td headers="NYCTraffic" colspan="3">Die Starter-App 'NYC Traffic' ist eine Anwendung für {{site.data.keyword.Bluemix_short}}, die in Liberty for Java geschrieben ist. Sie enthält eine {{site.data.keyword.streamsshort}}-Anwendung, die öffentliche Daten von Verkehrssensoren in New York City abruft, kumulierte Statistikdaten berechnet und die Ergebnisse an die Liberty-Anwendung zurücksendet. Diese Starter-App ist nur mit [v1-Serviceplänen](/docs/services/StreamingAnalytics/service_plans.html) kompatibel.
+    <td headers="NYCTraffic" colspan="3">Die Starter-App 'NYC Traffic' ist eine Anwendung für {{site.data.keyword.Bluemix_short}}, die in Liberty for Java geschrieben ist. Sie enthält eine {{site.data.keyword.streamsshort}}-Anwendung, die öffentliche Daten von Verkehrssensoren in New York City abruft, kumulierte Statistikdaten berechnet und die Ergebnisse an die Liberty-Anwendung zurücksendet. Diese Starter-App ist nur mit [v1-Serviceplänen](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) kompatibel.
 <p>Sie können die Starteranwendung unverändert ausführen. Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code modifizieren und Ihre Änderungen in die {{site.data.keyword.Bluemix_short}}-Umgebung zurückübertragen.</p>
 </td>
   </tr>
   <tr>
-    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/t_starter_app_deploy.html" target="_blank">APP BEREITSTELLEN</a><br></td>
+    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-starterapps_deploy" target="_blank">APP BEREITSTELLEN</a><br></td>
     <td headers="NYCTraffic"><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">Lernprogramm ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
     <td headers="NYCTraffic"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">Download ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")</a></td>
   </tr>
@@ -103,7 +104,7 @@ Wenn Sie weiter mit dem Service experimentieren wollen, können Sie den Code mod
     <th id="TemperatureSample" colspan="3">Beam-App 'TemperatureSample'<br></th>
   </tr>
   <tr>
-    <td headers="TemperatureSample" colspan="3">Diese Anwendung erfasst Temperaturmesswerte mehrerer Geräte. Diese Starter-App ist nur für [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verfügbar. Die Anwendung unterteilt die Messwerte in 'gut' (gültig) und 'schlecht' (ungültig) auf der Basis eines bestimmten Schwellenwerts. Die ungültigen Werte werden gezählt, für die gültigen Werte wird eine Basisstatistik generiert und die Ergebnisse werden schließlich protokolliert. Die App 'TemperatureSample' kann über die Streaming Analytics-Konsole heruntergeladen werden.
+    <td headers="TemperatureSample" colspan="3">Diese Anwendung erfasst Temperaturmesswerte mehrerer Geräte. Diese Starter-App ist nur für [v2-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) verfügbar. Die Anwendung unterteilt die Messwerte in 'gut' (gültig) und 'schlecht' (ungültig) auf der Basis eines bestimmten Schwellenwerts. Die ungültigen Werte werden gezählt, für die gültigen Werte wird eine Basisstatistik generiert und die Ergebnisse werden schließlich protokolliert. Die App 'TemperatureSample' kann über die Streaming Analytics-Konsole heruntergeladen werden.
 </td>
   </tr>
   <tr>

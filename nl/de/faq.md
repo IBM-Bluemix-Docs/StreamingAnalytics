@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -64,7 +64,7 @@ Der Service wird erstellt und von IBM vollständig gewartet. Jeder Service beste
 {: #streamsapp notoc}
 {: faq}
 
-Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) entwickeln, wenn Sie [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window} herunterladen.
+Sie müssen Streams-Anwendungen lokal mithilfe der kostenfreien [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) entwickeln, wenn Sie [v2-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) verwenden. Wenn Sie [v1-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) verwenden, können Sie das [{{site.data.keyword.streamsshort}} Quick Start Edition-VM-Image ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window} herunterladen.
 
 Falls Sie über eine lokale {{site.data.keyword.streamsshort}}-Installation verfügen, können Sie auch diese verwenden. Lokal entwickelte und kompilierte Anwendungen können dann nahtlos als Paket für einen Streams-Service in der Cloud bereitgestellt werden.
 
@@ -98,7 +98,7 @@ Einige der Features, die für den {{site.data.keyword.streaminganalyticsshort}}-
 
   - Administrative Aufgaben für eine Instanz, für die eine Domänenberechtigung erforderlich ist. Beispiel: Hinzufügen von benutzerdefinierten Host-Tags oder Erstellen einer Jobgruppe.
   - Konsistente Regionsprüfpunkte.
-  - Einige der Toolkitoperatoren werden nicht unterstützt. Weitere Informationen hierzu finden Sie in [Unterstützte Toolkits und Adapter](/docs/services/StreamingAnalytics/compatible_toolkits.html).
+  - Einige der Toolkitoperatoren werden nicht unterstützt. Weitere Informationen hierzu finden Sie in [Unterstützte Toolkits und Adapter](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits).
   - Die Streams-JMX-API.
 
 ## Wo finde ich weitere Informationen zum Streaming Analytics-Service?

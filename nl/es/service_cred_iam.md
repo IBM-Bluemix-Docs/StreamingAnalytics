@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years:  2017
+  years:  2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -17,6 +17,7 @@ lastupdated: "2018-12-06"
 
 
 # Autenticación de Identity and Access Management
+{: #iam}
 
 El acceso a las instancias de servicio de {{site.data.keyword.streaminganalyticsshort}} para los usuarios de su cuenta está controlado por {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM). Para gestionar el servicio de {{site.data.keyword.streaminganalyticsshort}}, debe utilizar una señal de autenticación.
 
@@ -26,7 +27,7 @@ El acceso a las instancias de servicio de {{site.data.keyword.streaminganalytics
 
 a. Debe tener un IBMid válido.
 
-b. Descargue e instale la [CLI de {{site.data.keyword.Bluemix_notm}}](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+b. Descargue e instale la [CLI de {{site.data.keyword.Bluemix_notm}}](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
 
 ### Paso 1. Iniciar sesión en la CLI de {{site.data.keyword.Bluemix_notm}}.
 

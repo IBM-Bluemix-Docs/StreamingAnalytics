@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -91,8 +91,8 @@ lastupdated: "2018-12-06"
 只有 V1 服务套餐支持以下功能：
 
 * [V1 REST API](https://{DomainName}/apidocs/streaming-analytics-v1)。在 V2 基础架构中，必须使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2)
-* “NYC 交通”和“事件检测”V1 样本应用程序。请参阅[样本应用程序](/docs/services/StreamingAnalytics/c_starterapps.html)列表，以了解在基于 V2 容器的基础架构中开始使用 {{site.data.keyword.streaminganalyticsshort}} 时可以使用哪些应用程序。
-* 部分工具箱的兼容性。请参阅[兼容的工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)列表，以了解哪些工具箱与基于容器的新基础架构兼容。
+* “NYC 交通”和“事件检测”V1 样本应用程序。请参阅[样本应用程序](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps)列表，以了解在基于 V2 容器的基础架构中开始使用 {{site.data.keyword.streaminganalyticsshort}} 时可以使用哪些应用程序。
+* 部分工具箱的兼容性。请参阅[兼容的工具箱](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)列表，以了解哪些工具箱与基于容器的新基础架构兼容。
 
 ## V1 服务套餐的 VCAP_SERVICES 环境变量
 {: #vcap_services}

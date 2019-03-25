@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-09-04"
 
 ---
@@ -49,7 +49,7 @@ Sie übergeben eine Anwendung an die Serviceinstanz, die Anwendung startet, schl
 Sie haben die Anwendung nicht mithilfe eines RHEL 7.x-Betriebssystems oder einer entsprechenden CentOS-Version kompiliert.
 {: tsCauses}
 
-Sie müssen die Anwendung in Red Hat Enterprise Linux (RHEL) 7.x kompilieren, wenn Sie die [v2-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden. Wenn Sie die [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) verwenden, müssen Sie die Anwendung mit RHEL 6.5 unter Verwendung von Intel-Prozessoren kompilieren. Übergeben Sie Ihre Anwendung erneut an die Serviceinstanz. Sie können die [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) herunterladen, wenn Sie nicht über eine kompatible Entwicklungsumgebung verfügen und wenn Sie die v2-Servicepläne verwenden. Wenn Sie die v1-Servicepläne verwenden, laden Sie die [{{site.data.keyword.streamsshort}} QSE ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+Sie müssen die Anwendung in Red Hat Enterprise Linux (RHEL) 7.x kompilieren, wenn Sie die [v2-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) verwenden. Wenn Sie die [v1-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) verwenden, müssen Sie die Anwendung mit RHEL 6.5 unter Verwendung von Intel-Prozessoren kompilieren. Übergeben Sie Ihre Anwendung erneut an die Serviceinstanz. Sie können die [{{site.data.keyword.streamsshort}} Quick Start Edition mit Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) herunterladen, wenn Sie nicht über eine kompatible Entwicklungsumgebung verfügen und wenn Sie die v2-Servicepläne verwenden. Wenn Sie die v1-Servicepläne verwenden, laden Sie die [{{site.data.keyword.streamsshort}} QSE ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 {: tsResolve}
 
 ## Meine Anwendung weist nach dem Neustart einen nicht einwandfreien Zustand auf

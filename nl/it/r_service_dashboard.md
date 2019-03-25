@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -31,4 +31,4 @@ quando non è in esecuzione alcun lavoro per un periodo prolungato.
 * Accedere alle credenziali del servizio.
 * Accedere alle esercitazioni per le applicazioni starter.
 * Accedere alla documentazione del servizio e ai forum utente.
-* Gestire gli endpoint del servizio. 
+* Gestire gli endpoint del servizio.

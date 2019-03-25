@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -64,7 +64,7 @@ Il servizio viene creato e completamente gestito da IBM. Ogni servizio è compos
 {: #streamsapp notoc}
 {: faq}
 
-Devi sviluppare le applicazioni Streams in locale utilizzando la [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) gratuita di Streams per i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html) o, se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics/service_plans.html), puoi scaricare l'[immagine della VM {{site.data.keyword.streamsshort}} Quick Start Edition ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+Devi sviluppare le applicazioni Streams in locale utilizzando la [{{site.data.keyword.streamsshort}} Quick Start Edition con Docker ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) gratuita di Streams per i [piani di servizio v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) o, se stai utilizzando i [piani di servizio v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), puoi scaricare l'[immagine della VM {{site.data.keyword.streamsshort}} Quick Start Edition ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
 
 Puoi anche utilizzare l'installazione di {{site.data.keyword.streamsshort}} in loco se ne disponi. Le applicazioni che sviluppi e compili localmente possono essere perfettamente distribuite come un bundle a un servizio Streams nel cloud.
 
@@ -98,7 +98,7 @@ Alcune delle funzioni che non sono supportate per il servizio {{site.data.keywor
 
   - Le attività di gestione di un'istanza che richiede l'autorità di dominio. Ad esempio, l'aggiunta di tag host personalizzate o la creazione di un gruppo di lavori.
   - I punti di controllo della regione congruente.
-  - Alcuni degli operatori del toolkit non sono supportati. Per ulteriori informazioni, vedi [Adattatori e toolkit supportati](/docs/services/StreamingAnalytics/compatible_toolkits.html).
+  - Alcuni degli operatori del toolkit non sono supportati. Per ulteriori informazioni, vedi [Adattatori e toolkit supportati](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits).
   - L'API Streams JMX.
 
 ## Dove posso trovare ulteriori informazioni sul servizio Streaming Analytics?

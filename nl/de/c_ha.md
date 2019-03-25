@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-12-06"
 # Streaming Analytics - Hochverfügbarkeit
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} ermöglicht eine hohe Verfügbarkeit Ihrer Anwendungen. Wenn bei einem Ihrer Anwendungsknoten ({{site.data.keyword.streamsshort}}-Ressourcen) ein Problem festgestellt wird, wird der Knoten automatisch ersetzt und alle auf dem Knoten ausgeführten Jobs werden migriert. Jobs werden nur dann migriert und neu gestartet, wenn die Instanz mehrere Anwendungsknoten aufweist. Sie können die Größe der Instanz mithilfe der [Servicedetailseite](/docs/services/StreamingAnalytics/r_service_dashboard.html) oder mithilfe der [{{site.data.keyword.streaminganalyticsshort}}-v1-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics/service_plans.html) ändern. Verwenden Sie für v2-Servicepläne die [v2-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}.
+{{site.data.keyword.streaminganalyticsshort}} ermöglicht eine hohe Verfügbarkeit Ihrer Anwendungen. Wenn bei einem Ihrer Anwendungsknoten ({{site.data.keyword.streamsshort}}-Ressourcen) ein Problem festgestellt wird, wird der Knoten automatisch ersetzt und alle auf dem Knoten ausgeführten Jobs werden migriert. Jobs werden nur dann migriert und neu gestartet, wenn die Instanz mehrere Anwendungsknoten aufweist. Sie können die Größe der Instanz mithilfe der [Servicedetailseite](/docs/services/StreamingAnalytics?topic=dashboard) oder mithilfe der [{{site.data.keyword.streaminganalyticsshort}}-v1-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} für [v1-Servicepläne](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) ändern. Verwenden Sie für v2-Servicepläne die [v2-REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}.
 {:shortdesc}
 
 Dieses Video veranschaulicht, wie Sie die Größe der Instanz mithilfe der Servicedetailseite ändern können:

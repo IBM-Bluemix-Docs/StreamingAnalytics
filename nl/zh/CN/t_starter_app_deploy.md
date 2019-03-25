@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-24"
+  years: 2015, 2019
+lastupdated: "2019-02-04"
 
 ---
 
@@ -27,7 +27,7 @@ Streaming Analytics 是完全受管的服务，可使您免于进行耗时的安
 
 * 注册 [{{site.data.keyword.Bluemix_notm}} 帐户 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/registration){:new_window}
 * 在 {{site.data.keyword.Bluemix_notm}} 组织中创建 {{site.data.keyword.streaminganalyticsshort}} 服务的实例。您可以直接通过 [{{site.data.keyword.Bluemix_notm}} 目录中的 **{{site.data.keyword.streaminganalyticsshort}}** 产品详细信息页面 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/services/streaming-analytics/){:new_window} 创建实例。  
-* [安装 {{site.data.keyword.Bluemix_notm}} CLI ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/docs/cli/reference/bluemix_cli/get_started.html#getting-started)。
+* [安装 {{site.data.keyword.Bluemix_notm}} CLI ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli)。
 
 
 
@@ -38,7 +38,7 @@ Streaming Analytics 是完全受管的服务，可使您免于进行耗时的安
 
     a. 转至**菜单**>**Cloud Foundry 应用程序**>**创建资源**以创建资源。
 
-    b. 为“事件检测”或“事件检测”V2 入门模板应用程序选择 {{site.data.keyword.sdk4node}} 运行时。
+    b. 为“事件检测”或“事件检测”V2 入门模板应用程序选择 SDK 运行时。
 
     请记住为应用程序指定的名称，稍后需要此名称。
 1. 将 {{site.data.keyword.streaminganalyticsshort}} 服务实例连接到应用程序并重新编译打包应用程序。
@@ -46,7 +46,7 @@ Streaming Analytics 是完全受管的服务，可使您免于进行耗时的安
 ## 步骤 2. 设置入门模板应用程序
 {: #setup_app}
 
-1. 如果使用 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，请下载[“事件检测”![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 入门模板应用程序。如果使用 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，请下载[“事件检测”V2 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) 入门模板应用程序。
+1. 如果使用 [V1 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，请下载[“事件检测”![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) 入门模板应用程序。如果使用 [V2 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，请下载[“事件检测”V2 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) 入门模板应用程序。
 
 1. 重命名目录以匹配在 {{site.data.keyword.Bluemix_notm}} 中为应用程序指定的名称。
 

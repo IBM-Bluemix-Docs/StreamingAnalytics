@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,10 +24,10 @@ Agora, é possível incluir um terminal interno para acessar e gerenciar sua ins
 ## Pré-requisitos
 {: #prereqs notoc}
 
-Assegure-se de atender aos requisitos a seguir: 
-- Crie a sua instância de serviço usando os [planos do contêiner da v2](/docs/services/StreamingAnalytics/service_plans.html) não Lite.
+Assegure-se de atender aos requisitos a seguir:
+- Crie a sua instância de serviço usando os [planos do contêiner da v2](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) não Lite.
 - Crie a sua instância de serviço nas regiões do Reino Unido (Londres) ou da Alemanha (Frankfurt) do {{site.data.keyword.Bluemix_short}}.
-- Ative o [Virtual Route Forwarding (VRF)](/docs/infrastructure/direct-link/vrf-on-ibm-cloud.html#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud) para a sua conta do {{site.data.keyword.Bluemix_short}}.
+- Ative o [Virtual Route Forwarding (VRF)](/docs/infrastructure/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud) para a sua conta do {{site.data.keyword.Bluemix_short}}.
 
 
 Para incluir um terminal interno:
@@ -37,4 +37,4 @@ Para incluir um terminal interno:
 3. **Opcional.** Use a alternância de terminal para ativar ou desativar os terminais, conforme necessário.
 
 
-Para obter mais informações sobre os terminais de serviço, consulte a [Documentação do {{site.data.keyword.Bluemix_short}}Service Endpoint ](/docs/services/service-endpoint/getting-started.html#about){:new_window}.
+Para obter mais informações sobre os terminais em serviço, consulte a [documentação do {{site.data.keyword.Bluemix_short}} Service Endpoint](/docs/services/service-endpoint?topic=about){:new_window}.

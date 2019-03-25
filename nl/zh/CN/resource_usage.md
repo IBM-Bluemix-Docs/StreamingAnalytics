@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsshort}} 使用一系列行为和策略来确保适当的资源分配和使用情况。
 
 ## 查看和编辑实例资源
-对于 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，您可以在服务详细信息页面或 V1 REST API 上查看和编辑实例的授权资源数。对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，您必须使用 [{{site.data.keyword.streaminganalyticsshort}}V2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance)。
+对于 [V1 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，您可以在服务详细信息页面或 V1 REST API 上查看和编辑实例的授权资源数。对于 [V2 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，您必须使用 [{{site.data.keyword.streaminganalyticsshort}}V2 REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance)。
 
 ## 资源分配
 - 当您提交成功运行的作业时，会将资源自动分配给实例。

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -26,22 +26,22 @@ lastupdated: "2018-12-06"
 
 **服务的交互和编程使用：**
 
-您可以通过 [{{site.data.keyword.streaminganalyticsshort}} 控制台](/docs/services/StreamingAnalytics/c_streams_console.html)以交互方式使用该服务；如果您使用的是 [V1 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，那么也可以通过 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 以编程方式使用该服务。对于 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html)，可以使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v2)。
+您可以通过 [{{site.data.keyword.streaminganalyticsshort}} 控制台](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-console#console)以交互方式使用该服务；如果您使用的是 [V1 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，那么也可以通过 [{{site.data.keyword.streaminganalyticsshort}} V1 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} 以编程方式使用该服务。对于 [V2 服务套餐](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans)，可以使用 [{{site.data.keyword.streaminganalyticsshort}} V2 REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/streaming-analytics-v2)。
 
 **部署和监视 SPL、Java、Scala 和 Python 应用程序：**
 
-您可以用 SPL、Java、Scala 和 Python 编写 {{site.data.keyword.streamsshort}} 应用程序。使用 {{site.data.keyword.streaminganalyticsshort}} 控制台[部署和监视这些应用程序](/docs/services/StreamingAnalytics/t_deploytocloud.html)。
+您可以用 SPL、Java、Scala 和 Python 编写 {{site.data.keyword.streamsshort}} 应用程序。使用 {{site.data.keyword.streaminganalyticsshort}} 控制台[部署和监视这些应用程序](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_deploytocloud)。
 
 如果要使用 SPL 编写应用程序，{{site.data.keyword.streamsfull}} Processing Language (SPL) 是用于创建流处理应用程序的编程语言。如果您想要进一步使用自己的 SPL 应用程序，可以获取 {{site.data.keyword.streamsshort}} 开发环境，而且必须使 SPL 应用程序处于云就绪状态。
 
-要在没有 {{site.data.keyword.streamsshort}} 开发环境的情况下创建和部署 Python 应用程序，请使用 {{site.data.keyword.DSX_short}} 中的服务配置页或 {{site.data.keyword.streamsshort}} Python API。有关更多信息，请参阅[开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序](/docs/services/StreamingAnalytics/t_develop_apps_python.html)。
+要在没有 {{site.data.keyword.streamsshort}} 开发环境的情况下创建和部署 Python 应用程序，请使用 {{site.data.keyword.DSX_short}} 中的服务配置页或 {{site.data.keyword.streamsshort}} Python API。有关更多信息，请参阅[开发针对 {{site.data.keyword.streaminganalyticsshort}} 的 Python 应用程序](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python)。
 
-您可以在本地开发环境中使用 Streams Runner 来开发 Beam 应用程序，然后在 {{site.data.keyword.streaminganalyticsshort}} 服务中进行部署和监视。有关使用 Streams Runner 的 Beam 应用程序的更多信息，请参阅 [{{site.data.keyword.streaminganalyticsshort}} 中的 IBM Streams Runner for Apache Beam](/docs/services/StreamingAnalytics/gs_beamrunner.html)。
+您可以在本地开发环境中使用 Streams Runner 来开发 Beam 应用程序，然后在 {{site.data.keyword.streaminganalyticsshort}} 服务中进行部署和监视。有关使用 Streams Runner 的 Beam 应用程序的更多信息，请参阅 [{{site.data.keyword.streaminganalyticsshort}} 中的 IBM Streams Runner for Apache Beam](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gs_beamrunner)。
 
 
 **与 {{site.data.keyword.streamsshort}} 操作程序的兼容性：**
 
-[{{site.data.keyword.streamsshort}} Processing Language (SPL) 标准工具箱](/docs/services/StreamingAnalytics/compatible_toolkits.html)中的 {{site.data.keyword.streamsshort}} 操作程序与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
+[{{site.data.keyword.streamsshort}} Processing Language (SPL) 标准工具箱](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits)中的 {{site.data.keyword.streamsshort}} 操作程序与 {{site.data.keyword.streaminganalyticsshort}} 兼容。
 
 ## Streaming Analytics 职责
 {: #responsibilities notoc}

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-12-06"
 # Alta disponibilidade do Streaming Analytics
 {: #c_ha}
 
-O {{site.data.keyword.streaminganalyticsshort}} permite alta disponibilidade para seus aplicativos. Se for detectado um problema em um de seus nós do aplicativo (recursos do {{site.data.keyword.streamsshort}}), o nó será substituído automaticamente e qualquer tarefa em execução nesse nó será migrada. As tarefas serão migradas e reiniciadas somente se a instância contiver múltiplos nós de aplicativo. É possível redimensionar a instância usando a [página de detalhes do serviço](/docs/services/StreamingAnalytics/r_service_dashboard.html) ou a [API de REST do {{site.data.keyword.streaminganalyticsshort}} v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} para os [planos de serviço da v1](/docs/services/StreamingAnalytics/service_plans.html). Para planos de serviços da v2, use a API de REST do [v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
+O {{site.data.keyword.streaminganalyticsshort}} permite alta disponibilidade para seus aplicativos. Se for detectado um problema em um de seus nós do aplicativo (recursos do {{site.data.keyword.streamsshort}}), o nó será substituído automaticamente e qualquer tarefa em execução nesse nó será migrada. As tarefas serão migradas e reiniciadas somente se a instância contiver múltiplos nós de aplicativo. É possível redimensionar a instância usando a [página de detalhes de serviço](/docs/services/StreamingAnalytics?topic=dashboard) ou a [API de REST do {{site.data.keyword.streaminganalyticsshort}} v1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} para os [planos de serviço da v1](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Para planos de serviços da v2, use a API de REST do [v2 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}
 {:shortdesc}
 
 Este vídeo mostra como redimensionar a instância usando a página de detalhes do serviço:

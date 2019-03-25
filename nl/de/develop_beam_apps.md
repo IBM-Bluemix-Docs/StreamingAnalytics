@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2018
+  years: 2015, 2019
 lastupdated: "2018-12-06"
 
 ---
@@ -24,7 +24,7 @@ Sie können jetzt Beam-Anwendungen in Ihrer lokalen {{site.data.keyword.streamss
 Um eine Beam-Anwendung an den {{site.data.keyword.streaminganalyticsshort}}-Service in {{site.data.keyword.Bluemix_notm}} zu übergeben, müssen Sie eine mit JSON formatierte VCAP-Datei erstellen, die Berechtigungsnachweise und weitere Informationen für den Service enthält.
 
 1. Navigieren Sie in der lokalen Streams-Umgebung zum Unterordner mit den Beispielen, in dem das Toolkit installiert wurde (`$STREAMS_BEAM_RUNNER/samples`), und kopieren Sie die Datei 'template.vcap' in eine neue Datei. Benennen Sie die Datei mit einem aussagekräftigen Dateinamen und der Dateierweiterung `.vcap`.
-1. [Kopieren Sie die Berechtigungsnachweise des {{site.data.keyword.streaminganalyticsshort}}-Service](/docs/services/StreamingAnalytics/service_plans.html#vcap_services) und fügen Sie sie in die erstellte VCAP-Datei ein, wobei Sie die folgende Zeile ersetzen:
+1. [Kopieren Sie die Berechtigungsnachweise des {{site.data.keyword.streaminganalyticsshort}}-Service](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services) und fügen Sie sie in die erstellte VCAP-Datei ein, wobei Sie die folgende Zeile ersetzen:
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```
