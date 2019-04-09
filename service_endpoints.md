@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-03-12"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -37,4 +39,4 @@ To add an internal endpoint:
 3. **Optional.** Use the endpoint toggle to enable or disable endpoints as needed.
 
 
-For more information about service endpoints, check out the [{{site.data.keyword.Bluemix_short}} Service Endpoint documentation](/docs/services/service-endpoint?topic=about){:new_window}.
+For more information about service endpoints, check out the [{{site.data.keyword.Bluemix_short}} Service Endpoint documentation](/docs/services/service-endpoint?topic=service-endpoint-about#about){:new_window}.
