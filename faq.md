@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -58,7 +60,7 @@ Security is fully managed by IBM. Credentials are generated for each service and
 {: #configure notoc}
 {: faq}
 
-The service is created and fully managed by IBM. Each service consists of a dedicated set of application nodes.
+The service is created and fully managed by IBM. Each service consists of a dedicated set of application resources.
 
 ## How do I develop Streams applications?
 {: #streamsapp notoc}

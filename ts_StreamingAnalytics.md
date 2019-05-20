@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-09-04"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 

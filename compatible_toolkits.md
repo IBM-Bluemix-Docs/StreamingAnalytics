@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -51,5 +53,5 @@ Other operators, including those toolkit operators that you developed for your o
 
 Toolkits must meet the following criteria to be compatible with {{site.data.keyword.streaminganalyticsshort}}:
 
-1. No additional software needs to be pre-installed on the application nodes of your service instance.
+1. No additional software needs to be pre-installed on the application resources of your service instance.
 2. Any configuration information that the toolkit requires can be included in the application bundle by using the toolkit.

@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -62,7 +64,7 @@ Client is responsible for:
 As part of {{site.data.keyword.streaminganalyticsfull}}, IBM will:
 
 * Provide and manage servers, storage, and networking infrastructure for the Customer instance.
-* Provide an initial configuration of the {{site.data.keyword.streamsshort}} on the number of nodes selected.
+* Provide an initial configuration of the {{site.data.keyword.streamsshort}} on the number of resources selected.
 * Provide and manage infrastructure for Internet facing and internal firewall for protection and isolation.
 * Monitor and manage the following components on {{site.data.keyword.streaminganalyticsshort}}:
 	* Network components
