@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -51,5 +53,5 @@ D'autres opérateurs, notamment les opérateurs des kits d'outils que vous avez 
 
 Les kits d'outils doivent répondre aux critères suivants pour être compatibles avec {{site.data.keyword.streaminganalyticsshort}} :
 
-1. Aucune préinstallation de logiciel supplémentaire n'est requise sur les noeuds d'application de votre instance de service.
+1. Aucune préinstallation de logiciel supplémentaire n'est requise sur les ressources d'application de votre instance de service.
 2. Toutes les informations de configuration requises par le kit d'outils peuvent être incluses dans le bundle d'applications à l'aide du kit d'outils.

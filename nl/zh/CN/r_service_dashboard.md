@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -25,7 +27,8 @@ lastupdated: "2018-12-06"
 * 停止和启动服务实例。
 * 访问 {{site.data.keyword.streaminganalyticsshort}} 控制台。
 
-* 如果实例按每小时使用情况收费，那么通过向服务实例添加应用程序节点或从中除去应用程序节点，来调整服务实例的大小。
+* 如果实例按每小时使用情况收费，那么通过向服务实例添加应用程序资源或从中除去应用程序资源，可调整服务实例的大小。此视频说明如何调整实例大小：
+<iframe width="560" height="315" title="调整实例大小" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>调整实例大小</iframe>
 
 * 指示在延长的时间段，如果没有任何作业运行，按小时使用情况收费的服务实例是否自动停止。
 

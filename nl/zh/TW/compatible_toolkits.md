@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -51,5 +53,5 @@ lastupdated: "2018-12-06"
 
 工具箱必須符合下列準則，才能與 {{site.data.keyword.streaminganalyticsshort}} 相容：
 
-1. 不需要在服務實例的應用程式節點上預先安裝額外的軟體。
+1. 不需要在服務實例的應用程式資源上預先安裝額外的軟體。
 2. 可以使用工具箱，在應用程式軟體組裡包含工具箱所需的任何配置資訊。

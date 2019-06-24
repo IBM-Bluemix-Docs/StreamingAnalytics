@@ -14,7 +14,6 @@ Streaming Analytics
         StreamingAnalytics.md
         c_streams_console.md
         r_service_dashboard.md
-        c_ha.md
 
     {: .topicgroup}
     Resource_usage.md c_starterapps.md
@@ -34,6 +33,7 @@ Streaming Analytics
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
+    c_ha.md
 
     {: .topicgroup}
     Implementando aplicativos na nuvem

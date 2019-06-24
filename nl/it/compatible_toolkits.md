@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -53,5 +55,5 @@ Gli altri operatori, inclusi gli operatori toolkit che hai sviluppato per le tue
 
 I toolkit devono rispettare i seguenti criteri per essere compatibili con {{site.data.keyword.streaminganalyticsshort}}:
 
-1. Nessun software aggiuntivo deve essere preinstallato sui nodi dell'applicazione della tua istanza del servizio.
+1. Nessun software aggiuntivo deve essere preinstallato sulle risorse dell'applicazione della tua istanza del servizio.
 2. Tutte le informazioni di configurazione che richiede il toolkit possono essere incluse nel bundle dell'applicazione utilizzando il toolkit.

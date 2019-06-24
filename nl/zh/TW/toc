@@ -14,7 +14,6 @@ Streaming Analytics
         StreamingAnalytics.md
         c_streams_console.md
         r_service_dashboard.md
-        c_ha.md
 
     {: .topicgroup}
     c_starterapps.md
@@ -27,7 +26,7 @@ Streaming Analytics
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-related_links.md
+    related_links.md
     [v1 REST API](https://ibm.co/2GdvrV4)
     [v2 REST API](https://ibm.co/2Gt9mB6)
     [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
@@ -35,6 +34,7 @@ related_links.md
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
+    c_ha.md
 
     {: .topicgroup}
     將應用程式部署至雲端

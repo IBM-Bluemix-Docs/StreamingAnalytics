@@ -10,11 +10,10 @@ Streaming Analytics
     service_plans.md
 
     {: .topicgroup}
-    詳細
+    概要
         StreamingAnalytics.md
         c_streams_console.md
         r_service_dashboard.md
-        c_ha.md
 
     {: .topicgroup}
     c_starterapps.md
@@ -35,6 +34,7 @@ Streaming Analytics
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
+    c_ha.md
 
     {: .topicgroup}
     クラウドへのアプリケーションのデプロイ

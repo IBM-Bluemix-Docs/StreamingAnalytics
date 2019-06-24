@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -58,7 +60,7 @@ IBM에서 고가용성(HA)을 관리합니다. {{site.data.keyword.streaminganal
 {: #configure notoc}
 {: faq}
 
-IBM에서 서비스를 작성하고 전체 관리합니다. 각 서비스는 애플리케이션 노드의 전용 세트로 구성되어 있습니다.
+IBM에서 서비스를 작성하고 전체 관리합니다. 각 서비스는 전용 애플리케이션 리소스 세트로 구성되어 있습니다.
 
 ## Streams 애플리케이션은 어떻게 개발합니까?
 {: #streamsapp notoc}

@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -24,7 +26,9 @@ lastupdated: "2018-12-06"
 * 查看 {{site.data.keyword.streaminganalyticsshort}} 服務的狀態。
 * 停止並啟動服務實例。
 * 存取 {{site.data.keyword.streaminganalyticsshort}} 主控台。
-* 如果服務實例是以每小時用量來收取費用，則可以在服務實例中新增或移除應用程式節點來調整服務實例大小。
+* 如果服務實例是以每小時用量來收取費用，則可以在服務實例中新增或移除應用程式資源來調整服務實例大小。此視訊顯示如何調整實例大小：
+<iframe width="560" height="315" title="調整實例大小" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>調整實例大小</iframe>
+
 * 指出長時間未執行任何工作時，是否自動停止服務實例（以每小時用量來收取費用）。
 * 存取服務認證。
 * 存取入門範本應用程式的指導教學。

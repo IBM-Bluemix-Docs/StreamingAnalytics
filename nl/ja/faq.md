@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -58,7 +60,7 @@ IBM は、インストール、ソフトウェア・アップグレード、ド�
 {: #configure notoc}
 {: faq}
 
-サービスは、IBM によって作成され、完全に管理されます。 各サービスは、専用の一連のアプリケーション・ノードで構成されています。
+サービスは、IBM によって作成され、完全に管理されます。 各サービスは、専用の一連のアプリケーション・リソースからなります。
 
 ## Streams アプリケーションはどのようにして開発しますか?
 {: #streamsapp notoc}

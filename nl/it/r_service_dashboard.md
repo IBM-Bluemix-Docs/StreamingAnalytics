@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -24,8 +26,9 @@ Dalla pagina dei dettagli del servizio puoi:
 * Visualizzare lo stato del tuo servizio {{site.data.keyword.streaminganalyticsshort}}.
 * Arrestare o avviare la tua istanza del servizio.
 * Accedere ala console {{site.data.keyword.streaminganalyticsshort}}.
-* Ridimensionare la tua istanza del servizio aggiungendo o rimuovendo nodi dell'applicazione dalla tua istanza del servizio
-se viene pagata per l'utilizzo orario.
+* Ridimensionare la tua istanza del servizio aggiungendo o rimuovendo risorse dell'applicazione dalla tua istanza del servizio se viene pagata per l'utilizzo orario. Questo video mostra come ridimensionare la tua istanza: 
+<iframe width="560" height="315" title="Ridimensiona istanza" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Ridimensiona istanza</iframe>
+
 * Indicare se la tua istanza del servizio, pagata per l'utilizzo orario, si arresta automaticamente
 quando non è in esecuzione alcun lavoro per un periodo prolungato.
 * Accedere alle credenziali del servizio.

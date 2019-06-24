@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -62,7 +64,7 @@ SPL에서 애플리케이션을 작성하려는 경우, {{site.data.keyword.stre
 {{site.data.keyword.streaminganalyticsfull}}의 일부로 IBM은 다음을 수행합니다.
 
 * 고객 인스턴스에 대한 서버, 스토리지 및 네트워킹 인프라의 제공 및 관리.
-* 노드의 수를 선택하고 해당 노드에서 {{site.data.keyword.streamsshort}}의 초기 구성 제공.
+* 선택한 리소스 수에 대한 {{site.data.keyword.streamsshort}}의 초기 구성 제공.
 * 보호 및 고립을 위해 인터넷 페이싱과 내부 방화벽을 위한 인프라 제공 및 관리.
 * {{site.data.keyword.streaminganalyticsshort}}에서 다음 컴포넌트의 모니터링 및 관리.
 	* 네트워크 컴포넌트

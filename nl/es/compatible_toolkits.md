@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -51,5 +53,5 @@ Otros operadores, incluidos aquellos operadores del kit de herramientas que ha d
 
 Los kits de herramientas deben cumplir los siguientes criterios para ser compatibles con {{site.data.keyword.streaminganalyticsshort}}:
 
-1. No es necesario instalar previamente software adicional en el nodo de aplicación de la instancia de servicio.
+1. No es necesario instalar previamente software adicional en los recursos de aplicación de la instancia de servicio.
 2. Cualquier información de configuración que requiera el kit de herramientas se puede incluir en el paquete de aplicación mediante el kit de herramientas.

@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -38,7 +40,7 @@ Sie müssen die folgenden Schritte ausführen, um die Starter-Apps bereitzustell
 
     a. Rufen Sie **Menü**>**Cloud Foundry-Apps**>**Ressource erstellen** auf, um eine Ressource zu erstellen.
 
-    b. Wählen Sie die SDK-Laufzeit für die Event Detection- oder Event Detection v2-Starter-Apps aus. 
+    b. Wählen Sie die SDK-Laufzeit für die Event Detection- oder Event Detection v2-Starter-Apps aus.
 
     Merken Sie sich den Namen, den Sie der Anwendung geben. Sie benötigen ihn zu einem späteren Zeitpunkt wieder.
 1. Stellen Sie eine Verbindung von der {{site.data.keyword.streaminganalyticsshort}}-Serviceinstanz zu Ihrer Anwendung her und führen Sie ein erneutes Staging für die Anwendung durch.

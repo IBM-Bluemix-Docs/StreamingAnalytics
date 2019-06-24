@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -69,7 +71,7 @@ lastupdated: "2018-12-06"
 作为 {{site.data.keyword.streaminganalyticsfull}} 的一部分，IBM 将：
 
 * 为客户实例提供和管理服务器、存储器和网络基础架构。
-* 在所选的节点数上，提供 {{site.data.keyword.streamsshort}} 的初始配置。
+* 根据所选的资源数，提供 {{site.data.keyword.streamsshort}} 的初始配置。
 * 为面向因特网的内部防火墙提供和管理基础架构，用于保护和隔离。
 
 * 在 {{site.data.keyword.streaminganalyticsshort}} 上监视和管理以下组件：

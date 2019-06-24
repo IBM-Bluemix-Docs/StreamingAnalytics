@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -62,7 +64,7 @@ lastupdated: "2018-12-06"
 {{site.data.keyword.streaminganalyticsfull}} の一部として、IBM は以下を行います。
 
 * お客様のインスタンスのサーバー、ストレージおよびネットワーキング・インフラストラクチャーの提供および管理。
-* 選択したノードの数の {{site.data.keyword.streamsshort}} の初期構成の提供。
+* 選択されたリソース数での {{site.data.keyword.streamsshort}} の初期構成の提供。
 * 保護および分離のための、インターネットに面している、内部ファイアウォールのインフラストラクチャーの提供および管理。
 * {{site.data.keyword.streaminganalyticsshort}} 上の以下のコンポーネントのモニターおよび管理。
 	* ネットワーク・コンポーネント

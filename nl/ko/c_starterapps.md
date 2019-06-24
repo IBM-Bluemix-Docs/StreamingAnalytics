@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -21,7 +23,7 @@ lastupdated: "2018-12-06"
 
 
 <table summary="이 표의 첫 번째 행에는 Stock Trades 스타터 애플리케이션에 대한 설명이 있습니다. 표의 두 번째 행에는 다음이 포함되어 있습니다.
-1. 첫 번째 열에는 Stock Trades 스타터 애플리케이션을 배치하는 방법에 대한 비디오 링크가 있습니다. 2. 두 번째 열에는 Stock Trades 스타터 애플리케이션을 직접 다운로드할 수 있는 링크가 있습니다.">
+1. 첫 번째 열에는 Stock Trades 스타터 애플리케이션을 배치하는 방법에 대한 동영상 링크가 있습니다. 2. 두 번째 열에는 Stock Trades 스타터 애플리케이션을 직접 다운로드할 수 있는 링크가 있습니다.">
   <tr>
     <th id="stocktrades" colspan="3">Stock Trades 샘플 앱<br></th>
   </tr>

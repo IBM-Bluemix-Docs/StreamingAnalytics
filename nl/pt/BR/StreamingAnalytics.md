@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -63,7 +65,7 @@ O cliente é responsável por:
 Como parte do {{site.data.keyword.streaminganalyticsfull}}, a IBM irá:
 
 * Fornecer e gerenciar servidores, armazenamento e infraestrutura de rede para a instância do Cliente.
-* Fornecer uma configuração inicial do {{site.data.keyword.streamsshort}} no número de nós selecionados.
+* Forneça uma configuração inicial do {{site.data.keyword.streamsshort}} no número de recursos selecionados.
 * Fornecer e gerenciar a infraestrutura da exposição dos produtos da Internet e do firewall interno quanto à proteção e ao isolamento.
 * Monitorar e gerenciar os componentes a seguir no {{site.data.keyword.streaminganalyticsshort}}:
 	* Componentes de Rede

@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -33,7 +35,7 @@ Sie können {{site.data.keyword.streamsshort}}-Anwendungen in SPL, Java, Scala u
 
 Wenn Sie Ihre Anwendungen in SPL schreiben möchten, sollten Sie wissen, dass {{site.data.keyword.streamsfull}} Processing Language (SPL) eine Programmiersprache ist, die zum Erstellen von Streamverarbeitungsanwendungen verwendet wird. Wenn Sie Ihre eigenen SPL-Anwendungen noch weitergehend einsetzen wollen, können Sie eine {{site.data.keyword.streamsshort}}-Entwicklungsumgebung einrichten und Sie müssen Ihre SPL-Apps für die Cloud vorbereiten.
 
-Wenn Sie Python-Anwendungen ohne {{site.data.keyword.streamsshort}}-Entwicklungsumgebung erstellen und bereitstellen möchten, verwenden Sie die Service-Notebooks in {{site.data.keyword.DSX_short}} oder die Python-API von {{site.data.keyword.streamsshort}}. Weitere Informationen finden Sie in [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python). 
+Wenn Sie Python-Anwendungen ohne {{site.data.keyword.streamsshort}}-Entwicklungsumgebung erstellen und bereitstellen möchten, verwenden Sie die Service-Notebooks in {{site.data.keyword.DSX_short}} oder die Python-API von {{site.data.keyword.streamsshort}}. Weitere Informationen finden Sie in [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python).
 
 Sie können Beam-Anwendungen mit einer Streams-Ausführungskomponente in der lokalen Entwicklungsumgebung entwickeln und dann mithilfe des {{site.data.keyword.streaminganalyticsshort}}-Service bereitstellen und überwachen. Weitere Informationen zu Beam-Anwendungen mit Streams Runner finden Sie in [IBM Streams Runner for Apache Beam in {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gs_beamrunner).
 
@@ -62,7 +64,7 @@ Der Kunde ist für Folgendes zuständig:
 Im Rahmen von {{site.data.keyword.streaminganalyticsfull}} ist IBM für Folgendes zuständig:
 
 * Für das Bereitstellen und Verwalten von Servern, Speicher und Netzinfrastruktur für die Kundeninstanz.
-* Für das Bereitstellen einer Erstkonfiguration von {{site.data.keyword.streamsshort}} auf Basis der Anzahl der ausgewählten Knoten.
+* Für das Bereitstellen einer Erstkonfiguration von {{site.data.keyword.streamsshort}} auf Basis der Anzahl der ausgewählten Ressourcen. 
 * Für das Bereitstellen und Verwalten einer Infrastruktur für Internet-Facing und einer internen Firewall zum Schutz und als Isolation.
 * Für das Überwachen und Verwalten der folgenden Komponenten in {{site.data.keyword.streaminganalyticsshort}}:
 	* Netzkomponenten

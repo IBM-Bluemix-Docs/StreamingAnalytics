@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -58,7 +60,7 @@ lastupdated: "2018-12-06"
 {: #configure notoc}
 {: faq}
 
-此服務是由 IBM 所建立及完全管理。每一個服務都會包含一組專用應用程式節點。
+此服務是由 IBM 所建立及完全管理。每一個服務都會包含一組專用應用程式資源。
 
 ## 如何開發 Streams 應用程式？
 {: #streamsapp notoc}

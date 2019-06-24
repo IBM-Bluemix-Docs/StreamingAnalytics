@@ -2,7 +2,9 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -25,7 +27,7 @@ lastupdated: "2018-12-06"
 
 ### 前提条件
 
-a. 有効な IBM ID を持っている必要があります。
+a. 有効な IBMid を持っている必要があります。
 
 b. [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli) をダウンロードして、インストールします。
 

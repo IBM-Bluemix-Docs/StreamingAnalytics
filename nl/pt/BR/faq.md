@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -58,7 +60,7 @@ A segurança é totalmente gerenciada pela IBM. As credenciais são geradas para
 {: #configure notoc}
 {: faq}
 
-O serviço é criado e totalmente gerenciado pela IBM. Cada serviço consiste em um conjunto dedicado de nós do aplicativo.
+O serviço é criado e totalmente gerenciado pela IBM. Cada serviço consiste em um conjunto dedicado de recursos de aplicativo.
 
 ## Como desenvolver aplicativos Streams?
 {: #streamsapp notoc}

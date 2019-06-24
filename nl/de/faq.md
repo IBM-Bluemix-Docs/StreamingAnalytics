@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -58,7 +60,7 @@ Die Sicherheit wird vollständig von IBM verwaltet. Für jeden Service werden Be
 {: #configure notoc}
 {: faq}
 
-Der Service wird erstellt und von IBM vollständig gewartet. Jeder Service besteht aus einem dedizierten Satz von Anwendungsknoten.
+Der Service wird erstellt und von IBM vollständig gewartet. Jeder Service besteht aus einem dedizierten Satz von Anwendungsressourcen. 
 
 ## Wie entwickle ich Streams-Anwendungen?
 {: #streamsapp notoc}

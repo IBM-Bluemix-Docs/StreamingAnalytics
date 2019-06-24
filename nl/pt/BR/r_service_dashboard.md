@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -24,8 +26,9 @@ Na página de detalhes do serviço, é possível:
 * Ver o status do serviço {{site.data.keyword.streaminganalyticsshort}}.
 * Parar e iniciar sua instância de serviço.
 * Acessar o console do {{site.data.keyword.streaminganalyticsshort}}.
-* Redimensionar a instância de serviço incluindo ou removendo nós de aplicativos da instância de
-serviço se a instância for faturada por hora de uso.
+* Redimensione a sua instância de serviço incluindo ou removendo recursos de aplicativo para ou da instância de serviço se ela for faturada para uso por hora. Este vídeo mostra como redimensionar sua instância:
+<iframe width="560" height="315" title="Redimensionar instância" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Redimensionar instância</iframe>
+
 * Indicar se a sua instância de serviço, que é faturada por hora de uso, irá parar automaticamente
 quando não houver tarefas em execução por um período estendido.
 * Acessar as credenciais de serviço.

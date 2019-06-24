@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -62,7 +64,7 @@ Le client est responsable des actions suivantes :
 Dans le cadre d'{{site.data.keyword.streaminganalyticsfull}}, IBM est responsable des actions suivantes :
 
 * Fournir et gérer une infrastructure de serveurs, de stockage et de mise en réseau pour l'instance client.
-* Fournir une configuration initiale d'{{site.data.keyword.streamsshort}} sur le nombre de noeuds sélectionnés.
+* Fournir une configuration initiale d'{{site.data.keyword.streamsshort}} sur le nombre de ressources sélectionnées.
 * Fournir et gérer une infrastructure pour Internet et un pare-feu interne pour la protection et l'isolation.
 * Surveiller et gérer les composants ci-après sur {{site.data.keyword.streaminganalyticsshort}} :
 	* Composants réseau

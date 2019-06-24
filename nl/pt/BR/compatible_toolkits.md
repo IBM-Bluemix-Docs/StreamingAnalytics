@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -52,5 +54,5 @@ Outros operadores, incluindo os operadores do kit de ferramentas, que você dese
 
 Os kits de ferramentas devem atender aos critérios a seguir para serem compatíveis com o {{site.data.keyword.streaminganalyticsshort}}:
 
-1. Nenhum software adicional precisa ser pré-instalado nos nós do aplicativo de sua instância de serviço.
+1. Nenhum software adicional precisa ser pré-instalado nos recursos de aplicativo de sua instância de serviço.
 2. Quaisquer informações de configuração que o kit de ferramentas requeira podem ser incluídas no pacote configurável do aplicativo usando o kit de ferramentas.

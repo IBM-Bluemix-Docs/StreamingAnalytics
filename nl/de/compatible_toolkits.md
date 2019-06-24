@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -51,5 +53,5 @@ Auch andere Operatoren einschließlich der Toolkitoperatoren, die Sie für Ihre 
 
 Toolkits müssen die folgenden Kriterien erfüllen, um mit {{site.data.keyword.streaminganalyticsshort}} kompatibel zu sein:
 
-1. Sie setzen keine zusätzlich vorinstallierte Software auf den Anwendungsknoten Ihrer Serviceinstanz voraus.
+1. Sie setzen keine zusätzlich vorinstallierte Software in den Anwendungsressourcen Ihrer Serviceinstanz voraus.
 2. Alle Konfigurationsinformationen, die für das Toolkit benötigt werden, können mithilfe des Toolkits in das Anwendungsbundle integriert werden.

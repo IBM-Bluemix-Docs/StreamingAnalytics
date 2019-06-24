@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -62,7 +64,7 @@ lastupdated: "2018-12-06"
 身為 {{site.data.keyword.streaminganalyticsfull}} 的一部分，IBM 將：
 
 * 提供與管理 Customer 實例的伺服器、儲存空間及網路基礎架構。
-* 對所選取的節點數，提供 {{site.data.keyword.streamsshort}} 起始配置。
+* 對所選取的資源數，提供 {{site.data.keyword.streamsshort}} 起始配置。
 * 提供與管理網際網路面向及內部防火牆的基礎架構，以進行保護和隔離。
 * 在 {{site.data.keyword.streaminganalyticsshort}} 上監視及管理下列元件：
 	* 網路元件

@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -64,7 +66,7 @@ sull'istanza.
 Come parte di {{site.data.keyword.streaminganalyticsfull}}, IBM provvederà a:
 
 * Fornire e gestire i server, l'archiviazione e l'infrastruttura di rete per l'istanza del cliente.
-* Fornire una configurazione iniziale di {{site.data.keyword.streamsshort}} sul numero di nodi selezionato.
+* Fornire una configurazione iniziale di {{site.data.keyword.streamsshort}} sul numero di risorse selezionato.
 * Fornire e gestire l'infrastruttura per il firewall interno e verso Internet per la protezione e
 l'isolamento.
 * Monitorare e gestire i seguenti componenti su {{site.data.keyword.streaminganalyticsshort}}:

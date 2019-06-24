@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-06"
+lastupdated: "2019-05-16"
+
+subcollection: StreamingAnalytics
 
 ---
 
@@ -54,4 +56,4 @@ Stellen Sie Ihre {{site.data.keyword.streamsshort}}-Python-Anwendungen für eine
 
 Mit der [{{site.data.keyword.streamsshort}}-Python-Anwendungs-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window}, die im 'streamsx'-Paket enthalten ist, können Sie Python-Anwendungen für den {{site.data.keyword.streaminganalyticsshort}}-Service bereitstellen. Im Lernprogramm [Entwicklung für den {{site.data.keyword.streaminganalyticsshort}}-Service ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} wird anhand eines Beispiels veranschaulicht, wie eine einfache Python-Anwendung für den {{site.data.keyword.streaminganalyticsshort}} erstellt und bereitgestellt werden kann.
 
-{{site.data.keyword.DSX_full}} unterstützt auch die Bereitstellung von Python-Anwendungen in interaktiven Jupyter-Notebooks. Weitere Informationen finden Sie in [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python). 
+{{site.data.keyword.DSX_full}} unterstützt auch die Bereitstellung von Python-Anwendungen in interaktiven Jupyter-Notebooks. Weitere Informationen finden Sie in [Entwicklung von Python-Anwendungen für {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python).
