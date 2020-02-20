@@ -56,4 +56,5 @@ Streaming Analytics
     {: .navgroup id="help"}
     ts_StreamingAnalytics.md
     faq.md
+    open_source.md
     {: .navgroup-end}
