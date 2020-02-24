@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 # Sample applications
 {: #starterapps}
 
-Deploy and modify the starter applications and quickly learn how to use the {{site.data.keyword.streaminganalyticsshort}} service. Note that the v2 service plans require to run Streams on RHEL 7. {{site.data.keyword.streaminganalyticsshort}} provides a [set of starter and sample applications](https://developer.ibm.com/streamsdev/docs/starter-sample-apps-v2-plans/) to quickly get you started with the v2 service plans. The EventDetection and NYCTraffic sample applications do not work with the v2 service plans.
+Deploy and modify the starter applications and quickly learn how to use the {{site.data.keyword.streaminganalyticsshort}} service. {{site.data.keyword.streaminganalyticsshort}} provides a [set of starter and sample applications](https://developer.ibm.com/streamsdev/docs/starter-sample-apps-v2-plans/) to quickly get you started. Note that the service plans require applications to run Streams on RHEL 7.
 {:shortdesc}
 
 
@@ -42,16 +42,15 @@ You can run the starter application without modification. If you want to experim
 *Table 1. Stock Trades sample app*
 
 
-<table summary="This table describes, in the first row, the Event Detection v2 sample application. The table includes on the second row:
-1. In the first column, a link to instructions on how to deploy the Event Detection v2 starter application. 2. In the second column, a link to tutorials on how to use the Event Detection starter application. 3. In the third column, a link to directly download the Event Detection starter application.
+<table summary="This table describes, in the first row, the Event Detection sample application. The table includes on the second row:
+1. In the first column, a link to instructions on how to deploy the Event Detection starter application. 2. In the second column, a link to tutorials on how to use the Event Detection starter application. 3. In the third column, a link to directly download the Event Detection starter application.
  ">
   <tr>
-    <th id="EventDetection2" colspan="3">Event Detection v2 sample app<br></th>
+    <th id="EventDetection2" colspan="3">Event Detection sample app<br></th>
   </tr>
   <tr>
-    <td colspan="3" headers="EventDetection2">The Event Detection v2 app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. This starter app is only compatible with [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
-The app provides a simple web UI to display status and results of the analysis.
-The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} v2 REST API.
+    <td colspan="3" headers="EventDetection2">The Event Detection app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. The app provides a simple web UI to display status and results of the analysis.
+The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} REST API.
 <p>You can run the starter application without modification.
 If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment.</p>
 </td>
@@ -63,48 +62,7 @@ If you want to experiment further with the service, you can also modify the code
   </tr>
 </table>
 
-*Table 2. Event Detection v2 sample app*
-<table summary="This table describes, in the first row, the Event Detection sample application. The table includes on the second row:
-1. In the first column, a link to instructions on how to deploy the Event Detection starter application. 2. In the second column, a link to tutorials on how to use the Event Detection starter application. 3. In the third column, a link to directly download the Event Detection starter application.
- ">
-  <tr>
-    <th id="EventDetection1" colspan="3">Event Detection sample app<br></th>
-  </tr>
-  <tr>
-    <td headers="EventDetection1" colspan="3">The Event Detection app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime.
-This starter app is only compatible with [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). The app provides a simple web UI to display status and results of the analysis.
-The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} REST API.
-<p>You can run the starter application without modification.
-If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment.</p>
-</td>
-  </tr>
-  <tr>
-    <td headers="EventDetection1"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy" target="_blank">DEPLOY THE APP</a><br></td>
-    <td headers="EventDetection1"><a href="https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/" target="_blank">TUTORIAL ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
-    <td headers="EventDetection1"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
-  </tr>
-</table>
-
 *Table 2. Event Detection sample app*
-
-<table summary="This table describes, in the first row, the New York traffic sample application. The table includes on the second row:
-1. In the first column, a link to instructions on how to deploy the New York traffic sample application. 2. In the second column, a link to tutorials on how to use the New York traffic sample application. 3. In the third column, a link to directly download the New York traffic sample application.">
-  <tr>
-    <th id="NYCTraffic" colspan="3">NYC Traffic sample app<br></th>
-  </tr>
-  <tr>
-    <td headers="NYCTraffic" colspan="3">The NYC Traffic starter app is an application for {{site.data.keyword.Bluemix_short}} that is written in Liberty for Java. It contains an {{site.data.keyword.streamsshort}} application that retrieves public data from New York City traffic sensors, calculates aggregate statistics, and sends the results back to the Liberty application. This starter app is only compatible with [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
-<p>You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment.</p>
-</td>
-  </tr>
-  <tr>
-    <td headers="NYCTraffic" deploylink><a href="/docs/services/StreamingAnalytics/?topic=StreamingAnalytics-starterapps_deploy" target="_blank">DEPLOY THE APP</a><br></td>
-    <td headers="NYCTraffic"><a href="https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/" target="_blank">TUTORIAL ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
-    <td headers="NYCTraffic"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/NYCTraffic" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
-  </tr>
-</table>
-
-*Table 3. NYC Traffic sample app*
 
 ## IBM Streams Runner for Apache Beam sample apps
 
@@ -114,7 +72,7 @@ If you want to experiment further with the service, you can also modify the code
     <th id="TemperatureSample" colspan="3">TemperatureSample Beam app<br></th>
   </tr>
   <tr>
-    <td headers="TemperatureSample" colspan="3">This application takes temperature readings from multiple devices. This starter app is only available for [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). The application splits the readings into “good” (valid) and “bad” (invalid) readings based on a specific threshold. It counts the bad readings and generates some basic statistics for the good readings, and finally logs the results. You can download the TemperatureSample app from the Streaming Analytics console.
+    <td headers="TemperatureSample" colspan="3">This application takes temperature readings from multiple devices. The application splits the readings into “good” (valid) and “bad” (invalid) readings based on a specific threshold. It counts the bad readings and generates some basic statistics for the good readings, and finally logs the results. You can download the TemperatureSample app from the Streaming Analytics console.
 </td>
   </tr>
   <tr>

@@ -40,7 +40,7 @@ You must follow these steps to deploy the starter apps:
 
     a. Go to **Menu**>**Cloud Foundry Apps**>**Create resource** to create a resource.
 
-    b. Select the SDK runtime for the Event Detection or Event Detection v2 starter apps.
+    b. Select the SDK runtime for the Event Detection starter app.
 
     Remember the name that you give your application; you need it later on.
 1. Connect the {{site.data.keyword.streaminganalyticsshort}} service instance to your application and restage the application.
@@ -48,7 +48,7 @@ You must follow these steps to deploy the starter apps:
 ## Step 2. Setting up the starter application
 {: #setup_app}
 
-1. If you're using the [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetection) starter app. Download the [Event Detection v2 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) starter app for [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
+1. Download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FBeta201801%2FEventDetectionV2) starter app.
 
 1. Rename the directory to match the name you gave your application in {{site.data.keyword.Bluemix_notm}}.
 

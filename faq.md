@@ -66,13 +66,13 @@ The service is created and fully managed by IBM. Each service consists of a dedi
 {: #streamsapp notoc}
 {: faq}
 
-You must develop Streams applications locally by using the free Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/) for [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) or if you are using [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans), you can download the [{{site.data.keyword.streamsshort}} Quick Start Edition VM image ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window}.
+You must develop Streams applications locally by using the free Streams [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-install-docker/).
 
 You can also use the on-premises {{site.data.keyword.streamsshort}} installation if you have one. Applications that you develop and compile locally can then be seamlessly deployed as a bundle to a Streams service in the cloud.
 
 But if you want to run your Python applications in the cloud, you don’t need to install {{site.data.keyword.streamsshort}} on-premises. Simply use the `STREAMING\_ANALYTICS\_SERVICE` context to submit your Python applications to the {{site.data.keyword.streaminganalyticsshort}} service. You can develop the applications in a standard Python development environment or in a Jupyter interactive notebook, but you must use Python 3.5.
 
-For more information on developing applications, see the [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/?p=16589&post_type=doc&preview=1&_ppp=7ad76a418b).
+For more information on developing applications, see the [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/).
 
 ## Can I sign in to a Streaming Analytics service host directly?
 {: #host notoc}  

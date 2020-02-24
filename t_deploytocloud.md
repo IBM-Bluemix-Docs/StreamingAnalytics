@@ -32,17 +32,17 @@ To deploy your {{site.data.keyword.streamsshort}} applications to the cloud:
 
 1. Set up your development environment to develop and test your application.
 
-	If you want to use an {{site.data.keyword.streamsshort}} environment, you can download the [{{site.data.keyword.streamsshort}} Quick Start Edition ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/qse-intro/){:new_window} for [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans). Use the [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window} for [v2 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
+	If you want to use an {{site.data.keyword.streamsshort}} environment, you can download the [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){:new_window}.
 
 2. Develop your streaming application in your development environment. In {{site.data.keyword.streamsshort}} development environment, you can use Streams Studio or the command-line tools to develop your application.
 
 3. Verify that your streaming application runs properly in your development environment.
-**Note:** You must compile your applications in Red Hat Enterprise Linux (RHEL) 7.x if you are using the v2 service plans or with RHEL 6.5 if you're using v1 service plans.
+**Note:** You must compile your applications in Red Hat Enterprise Linux (RHEL) 7.x.
 
 4. Submit the application bundle (.sab file) that is associated with your SPL, Java, Scala, or Python application to your service instance in the cloud by using one of these methods:
 	* Use the {{site.data.keyword.streaminganalyticsshort}} console to submit the application bundle.
 
-  * Create an application in {{site.data.keyword.Bluemix_notm}} and add the {{site.data.keyword.streamsshort}} application to it. Control it by using the [{{site.data.keyword.streaminganalyticsshort}} v1 REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v1){:new_window} for [v1 service plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans) or the [{{site.data.keyword.streaminganalyticsshort}} v2 REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window} for v2 service plans.
+  * Create an application in {{site.data.keyword.Bluemix_notm}} and add the {{site.data.keyword.streamsshort}} application to it. Control it by using the [{{site.data.keyword.streaminganalyticsshort}} REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}.
 
 Your application is now deployed in the cloud. You can monitor your application in the {{site.data.keyword.streaminganalyticsshort}} service. You can also submit more than one application (.sab files) to your service instance. As many as you want.
 
