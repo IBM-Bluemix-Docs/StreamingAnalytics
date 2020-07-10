@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 # High availability and disaster recovery
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} is highly available within an {{site.data.keyword.Bluemix_notm}} location (for example, Dallas, Washington DC, London, Frankfurt). However, recovering from potential disasters that affect an entire {{site.data.keyword.Bluemix_notm}} region requires planning and preparation.
+{{site.data.keyword.streaminganalyticsshort}} is highly available within an {{site.data.keyword.Bluemix_notm}} location (for example, Dallas, London, Frankfurt). However, recovering from potential disasters that affect an entire {{site.data.keyword.Bluemix_notm}} region requires planning and preparation.
 {:shortdesc}
 
 

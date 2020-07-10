@@ -34,8 +34,7 @@ b. Download and install the [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?t
 ### Step 1. Log into the {{site.data.keyword.Bluemix_notm}} CLI.
 
 ```
-bx api https://api.ng.bluemix.net
-bx login
+ibmcloud login
 <enter your credentials>
 
 <If you are part of multiple {{site.data.keyword.Bluemix_notm}} accounts, you'll be asked to choose an account for the current session. Also, you'll need to choose an organization and space in {{site.data.keyword.Bluemix_notm}}.>
@@ -44,7 +43,7 @@ bx login
 ### Step 2. Fetch the IAM access token.
 
 ```
-bx iam oauth-tokens
+ibmcloud iam oauth-tokens
 ```
 
-Two tokens are produced: one named `IAM token` and the other one named `UAA token`. Use `IAM token` for making REST API calls.
+Use `IAM token` for making REST API calls.

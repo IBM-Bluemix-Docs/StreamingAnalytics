@@ -38,4 +38,4 @@ To add an private endpoint:
 3. **Optional.** Use the endpoint toggle to enable or disable endpoints as needed.
 
 
-For more information about service endpoints, check out the [{{site.data.keyword.Bluemix_notm}} Service Endpoint documentation](/docs/services/service-endpoint?topic=service-endpoint-about#about){:new_window}.
+For more information about service endpoints, check out the [{{site.data.keyword.Bluemix_notm}} Service Endpoint documentation](/docs/account?topic=account-service-endpoints-overview){:new_window}.
