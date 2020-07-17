@@ -48,7 +48,7 @@ You must follow these steps to deploy the starter apps:
 ## Step 2. Setting up the starter application
 {: #setup_app}
 
-1. Download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart%2FEventDetectionV2) starter app.
+1. Download the [Event Detection ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetectionV2) starter app.
 
 1. Rename the directory to match the name you gave your application in {{site.data.keyword.Bluemix_notm}}.
 
