@@ -40,6 +40,7 @@ Streaming Analytics
         t_deploytocloud.md
         t_develop_apps_python.md
         develop_beam_apps.md
+        dev_guide.md
 
     {: .topicgroup}
     Security
