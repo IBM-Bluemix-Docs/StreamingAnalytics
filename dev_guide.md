@@ -226,8 +226,10 @@ The job is submitted to the {{site.data.keyword.streaminganalyticsshort}} instan
 
 At this point there is just one job running, TwitterStream, as shown in the Streams Graph view. The graph shows the operators and connections between them. When a new job is starting up some operators might be decorated with yellow triangles and the connections might be dashed lines, indicating that the job is not yet completely started and healthy. When the job is fully up and running the operators are decorated with green circles and the connection lines are solid, indicating that the job is fully healthy.
 
-</div>If you want to focus on a particular view, hover over the card title and a tool bar will appear. You can click on the Max icon to maximize that card within the dashboard. When maximized click the icon again to restore back the the tiled layout.<div>![Maximize card icon in Streams Console](images/dev_guide/ConsoleCardToolbarMax.png)</div></div>
+If you want to focus on a particular view in Streams Console, hover over the card title and a tool bar will appear. You can click on the Max icon to maximize that card within the dashboard. When maximized click the icon again to restore back the the tiled layout.
 {:tip .tip}
+<div style="text-align: center;">![Maximize card icon in Streams Console](images/dev_guide/ConsoleCardToolbarMax.png)</div>
+
 
 ### Monitoring Your Job
 {: #monitoring-job}
@@ -438,8 +440,9 @@ In addition to the HTTP 401 status code, the operator logged a warning message i
 If you want to change the trace level for all PEs in the job you can use the **Set Application Trace** action on the menu for the job.
 {:tip .tip}
 
-<div>If you need to see detailed trace messages when the PEs are initially starting, you can set the trace level on the job submission dialog.<div style="text-align: center;">![Set trace level when submitting job](images/dev_guide/TraceLevelSubmit.png)</div></div>
+If you need to see detailed trace messages when the PEs are initially starting, you can set the trace level on the job submission dialog.
 {:tip .tip}
+<div style="text-align: center;">![Set trace level when submitting job](images/dev_guide/TraceLevelSubmit.png)</div>
 
 #### Viewing Console Log Messages
 {: #viewing-console-messages}
