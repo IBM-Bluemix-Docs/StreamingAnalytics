@@ -33,6 +33,7 @@ Streaming Analytics
 
     {: .navgroup id="howto"}
     c_getting_app_bluemix.md
+    spl_cloud_ready.md
     c_ha.md
 
     {: .topicgroup}
