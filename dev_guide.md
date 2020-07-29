@@ -17,23 +17,25 @@ subcollection: StreamingAnalytics
 {:tip .tip}
 
 
-[//]: # (                                                                                        )
+[//]: # ()
 [//]: # (Eclipse Find/Replace regex for converting header html to markdown                       )
 [//]: # (    Find regex: <h3 id="(.*)">(.*)</h3>                                                 )
 [//]: # (    Replace regex: \n### $2\n{: #$1}                                                    )
 [//]: # (Changes this:                                                                           )
-[//]: # (    <h3 id="heading4-id">Heading4 Text</h3>                                             )
+[//]: # (    <h3 id="heading3-id">Heading3 Text</h3>                                             )
 [//]: # (to:                                                                                     )
-[//]: # (    ### Heading4 Text                                                                   )
-[//]: # (    {: #heading4-id}                                                                    )
-
+[//]: # (    ### Heading3 Text                                                                   )
+[//]: # (    {: #heading3-id}                                                                    )
+[//]: # ()
 [//]: # (Eclipse Find regex for converting list items. Assumes entire <li> is on a single line   )
 [//]: # (    Find regex: <li>(.*)</li>                                                           )
 [//]: # (    Replace regex for ordered lists: 1. $1                                              )
 [//]: # (    Replace regex for ordered lists: - $1                                               )
-
-
-
+[//]: # ()
+[//]: # ()
+[//]: # (Eclipse Find regex for converting image html tags to image markdown. Assumes specific formatting of img html tag )
+[//]: # (    Find regex: <img src="(.*)" alt="(.*)" width=".*" height=".*">                      )
+[//]: # (    Replace regex for ordered lists: \n![$2]($1)\n                                      )
 
 
 # {{site.data.keyword.streaminganalyticsshort}} Development Guide
@@ -89,12 +91,14 @@ The sample application used for illustration in this guide accesses Twitter to g
 The sample application is actually comprised of two SPL applications. The first application, **TwitterStream**, accesses the live Twitter feed and exports a stream of tweets for use by other SPL applications. In the following streams application graph the first operator reads from an HTTP stream, the second operator filters out any messages that are not Twitter statuses, the third operator adds a count to each tuple. The final operator exports the stream for use by other jobs in the streams instance.
 
 <div style="text-align: center;">
-    ![TwitterStream application graph](images/dev_guide/TwitterStreamGraph.png =603x245)
+    ![TwitterStream application graph](images/dev_guide/TwitterStreamGraph.png)
 </div>
 
 The second application, **Smackdown**, produces a score for each word in a list of words. At job submission time you specify a list of words participating in the smackdown. For each “opponent” word in the smackdown, the application calculates the number of Twitter statuses containing the search word. Every minute, the application produces a running score for the previous five minutes. In this application, the first operator imports the stream of tweets that is exported by the TwitterStream application. The second operator calculates a match score for each opponent in the smackdown. The third operator keeps a running aggregation of the number of matches for each opponent, producing a score every minute. The last operator prints the results to its standard output, also known as the process console messages which you will view later.
 
-<div style="text-align: center;"><img src="images/dev_guide/SmackdownGraph.png" alt="Smackdown application graph" width="618" height="244"></div>
+<div style="text-align: center;">
+    ![Smackdown application graph](images/dev_guide/SmackdownGraph.png)
+</div>
 
 Structuring this sample into two separate streams jobs using export and import allows us to use a single connection to the Twitter source while being able to run multiple smackdowns using the same stream of tweets. You will import the sample source into Streams Studio in order to compile the two applications.
 
@@ -124,11 +128,13 @@ Within your running IBM Quick Start Edition for Docker, start Streams Studio fro
 
 Studio will import the project into the workspace. By default, Studio rebuilds the workspace when files are created or modified. It might take a couple minutes for the applications to compile. You can see the status of the build in the lower right status bar of studio. When the build finishes, the project explorer should look like this.
 
-<div style="text-align: left;"><img src="images/dev_guide/ProjectAfterImport.png" alt="Project Explorer after import" width="261" height="255"></div>
+![Project Explorer after import](images/dev_guide/ProjectAfterImport.png)
 
 Expanding the Resources folder and subfolders as shown in the figure below reveals the compiled Streams Application Bundle (SAB) files. These bundles are now ready to submit to {{site.data.keyword.streaminganalyticsshort}} on IBM Cloud.
 
-<div style="text-align: left;"><img src="images/dev_guide/SmackdownCompiled.png" alt="Compiled applications in project explorer" width="336" height="628"></div>
+<div style="text-align: left;">
+![Compiled applications in project explorer](images/dev_guide/SmackdownCompiled.png)
+</div>
 
 For future reference the full path names for the two bundles are:
 
@@ -147,12 +153,12 @@ The TwitterStream SPL application uses a Twitter streaming API to get a live sam
 1. On the Application Management page, click the **Create New App** button.
 1. Enter a **Name** and **Description** for your application
 1. Enter a **Website** for your application. Twitter requires you to enter a valid HTTP url, for example, _https://www.mydomain.com/_
-<div><img src="images/dev_guide/TwitterAppSettings.png" alt="Twitter application details" width="520" height="370"></div>
+![Twitter application details](images/dev_guide/TwitterAppSettings.png)
 1. Click the **Yes, I agree** checkbox to accept the Twitter Developer Agreement.
 1. Click the **Create your Twitter application** button. After the application is created, the application details page is displayed.
 1. Switch to the **Keys and Access Tokens** tab.
 1. Click the **Create my access token** button.
-<div><img src="images/dev_guide/TwitterKeysAndAccessTokensCropped.png" alt="Twitter application access tokens" width="653" height="497"></div>
+![Twitter application access tokens](images/dev_guide/TwitterKeysAndAccessTokensCropped.png)
 1. Copy and paste the following values for later.
     - **Consumer Key (API Key)**
     - **Consumer Secret (API Secret)**
@@ -168,19 +174,20 @@ These four values will be used as submission-time parameters when submitting the
 
 If you have already created an instance of the {{site.data.keyword.streaminganalyticsshort}} service, you can skip this section. If you still need to create one, follow the steps below:
 
-1. Go to <a href="http://www.bluemix.net/?cm_mmc=developerWorks-_-dWdevcenter-_-streamsdev-_-lp&amp;cm_sp=dw-bluemix-_-streamsdev-_-devcenter" target="_blank" rel="noopener noreferrer">www.bluemix.net</a>.
+1. Go to <a href="http://cloud.ibm.com/" target="_blank" rel="noopener noreferrer">cloud.ibm.com</a>.
 1. Log in to your IBM Cloud account (or create an account).
-1. Open the **CATALOG** link.
+1. Open the **Catalog** link.
 1. Browse for and select the **{{site.data.keyword.streaminganalyticsshort}} service**.
-<div><a href="images/dev_guide/CatalogIcon.jpg"><img src="images/dev_guide/CatalogIcon.jpg" alt="" width="422" height="121"></a></div>
+![{{site.data.keyword.streaminganalyticsshort}} catalog icon](images/dev_guide/CatalogIcon.jpg)
 1. The {{site.data.keyword.streaminganalyticsshort}} Catalog page will be displayed
-<div><a href="images/dev_guide/CatalogPage.png"><img src="images/dev_guide/CatalogPage.png" alt="" width="950" height="618"></a></div>
+![Streaming Analytics catalog page](images/dev_guide/CatalogPage.png)
 1. Enter a **Service name**, or use the default name provided.
 1. Select one of the service plans
-<figure id="attachment_16620" style="width: 854px"><a href="images/dev_guide/V2PricePlansEdit.png"><img src="images/dev_guide/V2PricePlansEdit.png" alt="" width="854" height="530"></a><figcaption>Price plan section of the {{site.data.keyword.streaminganalyticsshort}} catalog displaying a partial list of the price plans.</figcaption></figure>
+![Service plans](images/dev_guide/V2PricePlansEdit.png)
+{: caption="Price plan section of the {{site.data.keyword.streaminganalyticsshort}} catalog displaying a partial list of the price plans." caption-side="bottom"}
 1. Click **Create** to create an instance of the service. This provides you with your own Streams instance, started and ready to run Streams applications.
 1. The {{site.data.keyword.streaminganalyticsshort}} service dashboard will be displayed.
-<div><a href="images/dev_guide/Dashboard.png"><img src="images/dev_guide/Dashboard.png" alt="" width="950" height="417"></a></div>
+![{{site.data.keyword.streaminganalyticsshort}} dashboard](images/dev_guide/Dashboard.png)
 
 
 You can use the **START** and **STOP** buttons on the service dashboard to start and stop the service. While started, you can submit jobs to the service using the Streams Console.
@@ -190,7 +197,8 @@ You can use the **START** and **STOP** buttons on the service dashboard to start
 
 On the {{site.data.keyword.streaminganalyticsshort}} service dashboard use the **LAUNCH** button to start the Streams Console, which will open in a new window or tab. The console will open displaying an Application Dashboard which allows you to submit, monitor and cancel your jobs in the {{site.data.keyword.streaminganalyticsshort}} service.
 
-<a href="images/dev_guide/ConsoleNoJobs.png"><img src="images/dev_guide/ConsoleNoJobs.png" alt="" width="1100" height="528"></a>
+
+![Streams Console](images/dev_guide/ConsoleNoJobs.png)
 
 Recall that the compiled application bundles were at these paths in the IBM Quick Start Edition for Docker:
     
@@ -202,23 +210,29 @@ Recall that the compiled application bundles were at these paths in the IBM Quic
 You will be submitting jobs using these bundles. The instructions here assume you are using Firefox within the QSE to submit the jobs. If you are using a browser on your host computer (e.g. Windows), you will need to transfer these bundle files from the QSE to your host computer before you continue.
 
 1. Click the **Submit Job** button in the console tool bar.
-<div style="text-align: center;"><img src="images/dev_guide/ConsoleSubmitJobIcon.png" alt="Submit Job icon" width="143" height="92"></div>
+<div style="text-align: center;">
+![Submit Job icon](images/dev_guide/ConsoleSubmitJobIcon.png)
+</div>
 1. In the Submit Job dialog the **Instance** is pre-selected for you. For the **Application bundle file** use the Browse button to navigate to and select the _sample.TwitterStream.sab_ file.
 1. Click the **Configure** button. 
-<div style="text-align: center;"><a href="images/dev_guide/SubmitJobTwitterStream.png"><img src="images/dev_guide/SubmitJobTwitterStream.png" alt="" width="950" height="479"></a></div>
+<div style="text-align: center;">
+![Submit TwitterStream job](images/dev_guide/SubmitJobTwitterStream.png)
+</div>
 1. The bundle file will be be uploaded and you will be prompted for additional options as shown in the image below.
 1. Take the default values for the options near the top of the dialog.
 1. For the **Submission-time parameters**, enter the four values for Twitter application credentials that you created earlier. The asterisk preceding the name of a submission-time parameter indicates there is no default value, so you are required to enter a value to continue.
 1. Click the **Submit** button.
-<div style="text-align: center;"><a href="images/dev_guide/SubmitParams.png"><img src="images/dev_guide/SubmitParams.png" alt="" width="950" height="484"></a></div>
+<div style="text-align: center;">
+![Submit job parameters](images/dev_guide/SubmitParams.png)
+</div>
 
 The job is submitted to the {{site.data.keyword.streaminganalyticsshort}} instance. You should see a couple of pop-up messages appear briefly showing the job submission status. The Streams Console refreshes automatically in the background. After a short period of time, the job will appear in the **Summary**, **Streams Tree**, and **Streams Graph** views along the top of the Application Dashboard. These views will stay updated to show the current status of the jobs running in your streams instance.
 
-<a href="images/dev_guide/ConsoleJob1.png"><img src="images/dev_guide/ConsoleJob1.png" alt="" width="1324" height="358"></a>
+![Streams Console with submitted job](images/dev_guide/ConsoleJob1.png)
 
 At this point there is just one job running, TwitterStream, as shown in the Streams Graph view. The graph shows the operators and connections between them. When a new job is starting up some operators might be decorated with yellow triangles and the connections might be dashed lines, indicating that the job is not yet completely started and healthy. When the job is fully up and running the operators are decorated with green circles and the connection lines are solid, indicating that the job is fully healthy.
 
-</div>If you want to focus on a particular view, hover over the card title and a tool bar will appear. You can click on the Max icon to maximize that card within the dashboard. When maximized click the icon again to restore back the the tiled layout.<div><img src="images/dev_guide/ConsoleCardToolbarMax.png" alt="Maximize card icon in Streams Console" width="431" height="37"></div></div>
+</div>If you want to focus on a particular view, hover over the card title and a tool bar will appear. You can click on the Max icon to maximize that card within the dashboard. When maximized click the icon again to restore back the the tiled layout.<div>![Maximize card icon in Streams Console](images/dev_guide/ConsoleCardToolbarMax.png)</div></div>
 {:tip .tip}
 
 ### Monitoring Your Job
@@ -229,7 +243,9 @@ At this point there is just one job running, TwitterStream, as shown in the Stre
 
 The number appearing in the connection line is the most recent number of tuples per second flowing between the two operators. If there are no numbers on the connections there have been no tuples flowing recently between the operators. If you hover the mouse over an object in the **Streams Graph** view, a pop-up will show details for that object and, in some cases, a menu of actions for that object.
 
-<div style="text-align: center;"><img src="images/dev_guide/ConsoleStreansGraph1.png" alt="Monitor tuples flowing bewtween operators" width="566" height="476"></div>
+<div style="text-align: center;">
+![Monitor tuples flowing between operators](images/dev_guide/ConsoleStreansGraph1.png)
+</div>
 
 In this case there were 62 tuples per second the last time metrics were refreshed. Twitter’s sample stream is a small subset of all Twitter statuses. The flow rate can vary but usually seems to be several dozen per second. The metrics shown at the bottom of the pop-up are the cumulative amounts.
 
@@ -240,11 +256,15 @@ At this point you just have the one job producing a stream of tuples. When the t
 
 It’s time to submit the second job, Smackdown, to consume the stream of tuples produced by the first job. Follow the job submission steps above again to submit the **sample.Smackdown.sab** file. When prompted for the **opponents** submission-time value enter _red,green,blue_ for three words competing in the smackdown. You can use three celebrities, band names, team names, etc.
 
-<div style="text-align: center;"><a href="images/dev_guide/SubmitJob2.png"><img src="images/dev_guide/SubmitJob2.png" alt="" width="950" height="487"></a></div>
+<div style="text-align: center;">
+![Submit Smackdown job](images/dev_guide/SubmitJob2.png)
+</div>
 
 In a few moments the second job will be started and the Streams Graph view will refresh to show the TweetsExport operator in the TwitterStream job being connected to the TweetsImport operator in the Smackdown application.
 
-<div style="text-align: center;"><img src="images/dev_guide/ConsoleCombinedGraph.png" alt="Streams graph showing two jobs" width="997" height="163"></div>
+<div style="text-align: center;">
+![Streams graph showing two jobs](images/dev_guide/ConsoleCombinedGraph.png)
+</div>
 
 #### Viewing Sample Data in a Dynamic View
 {: #viewing-sample-data}
@@ -253,16 +273,15 @@ You can create a view on the tuples flowing across any of the connections in the
 
 1. Hover over the connection between the **MatchAggregate** and **AggConsole** operators.
 1. Click **Create Dashboard View.**
-<div><img src="images/dev_guide/ConsoleConnection2.png" alt="Create view in Streams Console" width="517" height="301"></div>
+![Create view in Streams Console](images/dev_guide/ConsoleConnection2.png)
 1. Switch to the **Buffer** tab.
 1. Change **Tuples/sec Throttle** to 3. The MatchAggregate operator produces one tuple for each smackdown opponent every sixty seconds. Changing this throttle from 1 to 3 will include the most recent score for each entry in our word list.
 1. Click **OK** to create the new view.
-<div><img src="images/dev_guide/ConsoleCreateDataView1.png" alt="Buffer settings when creating view" width="552" height="550"></div>
-
+![Buffer settings when creating view](images/dev_guide/ConsoleCreateDataView1.png)
 
 A new data visualization view will be added to the Application Dashboard. This view definition will remain after you log out and log back in to the console.
 
-<div><img src="images/dev_guide/ConsoleMatchAggregateView.png" alt="Data visualization view" width="433" height="294"></div>
+![Data visualization view](images/dev_guide/ConsoleMatchAggregateView.png)
 
 The image above indicates At this point, “blue” is winning the smackdown. The **matches** column shows the number of tweets in the last five minutes that contain each of the smackdown opponent words.
 
@@ -272,33 +291,36 @@ The image above indicates At this point, “blue” is winning the smackdown. Th
 You can also create a line chart from a data visualization view.
 
 1. In the the data visualization view, click the **Create Time Series Chart** icon.
-<div><img src="images/dev_guide/ConsoleCreateChart11.png" alt="Create time series chart in Streams Console" width="510" height="259"></div>
+![Create time series line chart in Streams Console](images/dev_guide/ConsoleCreateChart11.png)
 1. On the **Chart** tab, increase the **Number of snapshots** to 30, so the chart shows an interesting number of points.
-<div><a href="images/dev_guide/NumberOfSnapshots-1.png"><img src="images/dev_guide/NumberOfSnapshots-1.png" alt="" width="667" height="443"></a></div>
+![Chart settings when creating time series chart](images/dev_guide/NumberOfSnapshots-1.png)
 1. Switch to the **Categories** tab.
 1. For **Choose line categories from**, select _Multiple attributes values_.
 1. For **Lines measured against this attribute**, select the _matches_ attribute.
 1. For **Plot lines for each unique value of**, select the _smackdownWords_ attribute.
 1. Click **OK** to create the chart.
-<div><img src="images/dev_guide/ConsoleCreateChart21.png" alt="Category settings when creating time series chart" width="666" height="489"></div>
-
+![Category settings when creating time series chart](images/dev_guide/ConsoleCreateChart21.png)
 
 A new line chart view will be added to the Application Dashboard. This view definition will remain after you log out and log back in to the console.
 
 If you hover over one of the lines in the chart, a status bar will display with the maximum, minimum and median values for that series.
 
-<div style="text-align: center;"><img src="images/dev_guide/ConsoleLineChart1.png" alt="Time series chart displayed as bar graph" width="511" height="257"></div>
+<div style="text-align: center;">
+![Time series chart displayed as line graph](images/dev_guide/ConsoleLineChart1.png)
+</div>
 
 ### Canceling Your Job
 {: #canceling-job}
 
 In the next section you will enhance the Smackdown application and resubmit the job. But first cancel the existing Smackdown job.
 
-<div style="text-align: center;"><img src="images/dev_guide/ConsoleCancelJobIcon1.png" alt="Cancel Job icon" width="185" height="83"></div>
+<div style="text-align: center;">
+![Cancel Job icon](images/dev_guide/ConsoleCancelJobIcon1.png)
+</div>
 
 1. Click the **Cancel Jobs** button in the console tool bar.
 1. In the Cancel Jobs dialog select the Smackdown application.
-<div><img src="images/dev_guide/ConsoleCancelJobDialog1.png" alt="Cancel Job dialog" width="455" height="430"></div>
+![Cancel Job dialog](images/dev_guide/ConsoleCancelJobDialog1.png)
 1. Click the **Cancel Jobs** button and then click **Yes** when prompted to confirm the job cancellation.
 
 If you have any open data visualization or chart views for a job, those views remain when the job is canceled. You probably want to close those views because no new data will be produced in those views after the job is canceled.
@@ -323,11 +345,11 @@ Returning to studio in the QSE, in the Project Explorer view:
 
 1. Drill down to the **sample::Smackdown** main composite operator.
 1. Right click on the operator and select **Open With**, and then **SPL Editor**.
-<div><img src="images/dev_guide/OpenWithSplEditor.png" alt="Open with SPL Editor in Streams Studio" width="547" height="331"></div>
+![Open with SPL Editor in Streams Studio](images/dev_guide/OpenWithSplEditor.png)
 1. Scroll down to the Aggregate operator.
 1. Add the new field to the output stream schema: <span style="color: #3366ff;"><code>int32 tuples</code></span>
 1. Add the new output assignment: <span style="color: #3366ff;"><code>tuples = Count()</code></span><br>Count() is an output assignment function provided by the Aggregate operator which returns the number of tuples currently in the window.
-<div><img src="images/dev_guide/AggregateModified.png" alt="Modify Aggregate operator invocation in SPL source " width="843" height="223"></div>
+![Modify Aggregate operator invocation in SPL source ](images/dev_guide/AggregateModified.png)
 
 Next, add the following two operator invocations at the end of the composite operator, right before the **config** clause.
 
@@ -365,21 +387,22 @@ With these changes made and compiled, submit the Smackdown application again fol
 
 With the new Smackdown job running you can see the two new operators, **Results** and **ResultsConsole**, in the Streams Graph view. Now open a data visualization view on the results with the calculated percentage.
 
-<div style="text-align: center;"><a href="images/dev_guide/ConsoleCombinedGraph2.png"><img src="images/dev_guide/ConsoleCombinedGraph2.png" alt="Combines streams graph with new operators" width="1115" height="233"></a></div>
+<div style="text-align: center;">
+![Combines streams graph with new operators](images/dev_guide/ConsoleCombinedGraph2.png)
+</div>
 
 1. Hover over the connection between the **Results** and **ResultsConsole** operators.
 1. Click **Create Dashboard View.**
 1. Switch to the **Attributes** tab. This tab allows you to select which tuple attributes to be included in the view.
 1. Deselect the **matches** and **tuples** attributes so only the **smackdownWords** and **percent** are selected.
-<div><img src="images/dev_guide/ConsoleCreateDataViewAttrs.png" alt="Modifying attrubutes when creating data visualization view" width="551" height="331"></div>
+![Modifying attrubutes when creating data visualization view](images/dev_guide/ConsoleCreateDataViewAttrs.png)
 1. Switch to the **Buffer** tab.
 1. Change **Tuples/sec Throttle** to 3.
 1. Click **OK** to create the new view.
 
-
 The new data visualization view displayed will show you the percent of tweets containing each of the smackdown words.
 
-<div><img src="images/dev_guide/ConsoleCreateChart3.png" alt="Data visualization view of new results in Streams Console" width="509" height="264"></div>
+![Data visualization view of new results in Streams Console](images/dev_guide/ConsoleCreateChart3.png)
 
 If you want you can now create a line graph chart with these results following the previous steps for creating a chart.
 
@@ -395,33 +418,33 @@ For troubleshooting you can see if the operators in your application are logging
 1. Expand the tree view for the **TwitterStream** job to find the PE that contains the **TwitterSource** operator.
 1. Switch to the **Application Trace** tab in the log viewer.
 1. Click **Load application traces**.
-<div><img src="images/dev_guide/ConsoleLoadTrace.png" alt="Load application trace messages in Streams Console" width="645" height="319"></div>
+![Load application trace messages in Streams Console](images/dev_guide/ConsoleLoadTrace.png)
 
 
 A current snapshot of the trace messages for the operator is loaded with the newest messages shown first. You can see that the operator is receiving an HTTP status code of 401 which means “Not authorized”.
 
-<div><img src="images/dev_guide/ConsoleTraceMessages.png" alt="Application trace messages displayed in Streams Console" width="1228" height="394"></div>
+![Application trace messages displayed in Streams Console](images/dev_guide/ConsoleTraceMessages.png)
 
 By default only error messages are included in the trace logs. If the error messages don’t seem to have enough detail you can investigate further by adjusting the level of detail being logged. There is a trace level setting for every PE in the job, so you can change the trace level for individual PEs as needed.
 
 1. Return to the tree view in the Log Viewer
 1. Hover over the “i” information icon for the operator (or PE)
 1. Click the **Set Application Trace Level** action
-<div><img src="images/dev_guide/ConsoleSetAppTrace.png" alt="Set Application Trace action in Streams Console" width="578" height="264"></div>
+![Set Application Trace action in Streams Console](images/dev_guide/ConsoleSetAppTrace.png)
 1. In the Set Application Trace Level dialog change the **Trace Output Level** to _Information_.
-<div><img src="images/dev_guide/ConsoleSetAppTraceDialog.png" alt="Set Application Trace Level dialog in Streams Console" width="511" height="375"></div>
+![Set Application Trace Level dialog in Streams Console](images/dev_guide/ConsoleSetAppTraceDialog.png)
 
 
 The log view does not automatically refresh its contents like the Application Dashboard. Wait a couple minutes for the operator to retry connecting to the server and click the **Reload** link above the log messages.
 
-<div><img src="images/dev_guide/ConsoleTraceInfoMessages.png" alt="Detailed application trace messages displayed in Streams Console" width="1232" height="317"></div>
+![Detailed application trace messages displayed in Streams Console](images/dev_guide/ConsoleTraceInfoMessages.png)
 
 In addition to the HTTP 401 status code, the operator logged a warning message indicating the error was due to an authentication error. In this case, canceling the job and resubmitting it making sure to correctly copy and paste the Twitter credentials fixed the problem.
 
 If you want to change the trace level for all PEs in the job you can use the **Set Application Trace** action on the menu for the job.
 {:tip .tip}
 
-<div>If you need to see detailed trace messages when the PEs are initially starting, you can set the trace level on the job submission dialog.<div style="text-align: center;"><a href="images/dev_guide/TraceLevelSubmit.png"><img src="images/dev_guide/TraceLevelSubmit.png" alt="" width="600" height="201"></a></div></div>
+<div>If you need to see detailed trace messages when the PEs are initially starting, you can set the trace level on the job submission dialog.<div style="text-align: center;">![Set trace level when submitting job](images/dev_guide/TraceLevelSubmit.png)</div></div>
 {:tip .tip}
 
 #### Viewing Console Log Messages
@@ -436,7 +459,9 @@ In addition to trace messages, operators can also write messages to the console 
 
 A current snapshot of the trace messages for the operator is loaded with the newest messages shown first. The console will contain the result messages that are printed every minute, one for each search term.
 
-<div style="text-align: center;"><img src="images/dev_guide/ConsoleConsoleMessages.png" alt="Console messages displayed in Streams Console" width="415" height="436"></div>
+<div style="text-align: center;">
+![Console messages displayed in Streams Console](images/dev_guide/ConsoleConsoleMessages.png)
+</div>
 
 #### Downloading All Logs For A Job
 {: #downloading-job-log}
@@ -447,7 +472,7 @@ You can capture a snapshot of all logs for a job to download to your computer. T
 1. Expand the tree view to the job for which you want to download logs.
 1. Hover over the “i” information icon for the job
 1. Click the **Download Job Logs** action
-<div><img src="images/dev_guide/ConsoleDownloadJobLogs1.png" alt="Download job logs action in Streams Console" width="778" height="381"></div>
+![Download job logs action in Streams Console](images/dev_guide/ConsoleDownloadJobLogs1.png)
 
 A pop-up window should appear showing that a request was made to collect the logs for the job. When the request is complete a gzipped tar file will be download through the browser.
 
