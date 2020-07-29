@@ -153,12 +153,12 @@ The TwitterStream SPL application uses a Twitter streaming API to get a live sam
 1. On the Application Management page, click the **Create New App** button.
 1. Enter a **Name** and **Description** for your application
 1. Enter a **Website** for your application. Twitter requires you to enter a valid HTTP url, for example, _https://www.mydomain.com/_
-![Twitter application details](images/dev_guide/TwitterAppSettings.png)
+<div>![Twitter application details](images/dev_guide/TwitterAppSettings.png)</div>
 1. Click the **Yes, I agree** checkbox to accept the Twitter Developer Agreement.
 1. Click the **Create your Twitter application** button. After the application is created, the application details page is displayed.
 1. Switch to the **Keys and Access Tokens** tab.
 1. Click the **Create my access token** button.
-![Twitter application access tokens](images/dev_guide/TwitterKeysAndAccessTokensCropped.png)
+<div>![Twitter application access tokens](images/dev_guide/TwitterKeysAndAccessTokensCropped.png)</div>
 1. Copy and paste the following values for later.
     - **Consumer Key (API Key)**
     - **Consumer Secret (API Secret)**
@@ -178,16 +178,16 @@ If you have already created an instance of the {{site.data.keyword.streaminganal
 1. Log in to your IBM Cloud account (or create an account).
 1. Open the **Catalog** link.
 1. Browse for and select the **{{site.data.keyword.streaminganalyticsshort}} service**.
-![{{site.data.keyword.streaminganalyticsshort}} catalog icon](images/dev_guide/CatalogIcon.jpg)
+<div>![{{site.data.keyword.streaminganalyticsshort}} catalog icon](images/dev_guide/CatalogIcon.png)</div>
 1. The {{site.data.keyword.streaminganalyticsshort}} Catalog page will be displayed
-![Streaming Analytics catalog page](images/dev_guide/CatalogPage.png)
+<div>![Streaming Analytics catalog page](images/dev_guide/CatalogPage.png)</div>
 1. Enter a **Service name**, or use the default name provided.
 1. Select one of the service plans
-![Service plans](images/dev_guide/V2PricePlansEdit.png)
+<div>![Service plans](images/dev_guide/V2PricePlansEdit.png)</div>
 {: caption="Price plan section of the {{site.data.keyword.streaminganalyticsshort}} catalog displaying a partial list of the price plans." caption-side="bottom"}
 1. Click **Create** to create an instance of the service. This provides you with your own Streams instance, started and ready to run Streams applications.
 1. The {{site.data.keyword.streaminganalyticsshort}} service dashboard will be displayed.
-![{{site.data.keyword.streaminganalyticsshort}} dashboard](images/dev_guide/Dashboard.png)
+<div>![{{site.data.keyword.streaminganalyticsshort}} dashboard](images/dev_guide/Dashboard.png)</div>
 
 
 You can use the **START** and **STOP** buttons on the service dashboard to start and stop the service. While started, you can submit jobs to the service using the Streams Console.
@@ -210,21 +210,15 @@ Recall that the compiled application bundles were at these paths in the IBM Quic
 You will be submitting jobs using these bundles. The instructions here assume you are using Firefox within the QSE to submit the jobs. If you are using a browser on your host computer (e.g. Windows), you will need to transfer these bundle files from the QSE to your host computer before you continue.
 
 1. Click the **Submit Job** button in the console tool bar.
-<div style="text-align: center;">
-![Submit Job icon](images/dev_guide/ConsoleSubmitJobIcon.png)
-</div>
+<div>![Submit Job icon](images/dev_guide/ConsoleSubmitJobIcon.png)</div>
 1. In the Submit Job dialog the **Instance** is pre-selected for you. For the **Application bundle file** use the Browse button to navigate to and select the _sample.TwitterStream.sab_ file.
 1. Click the **Configure** button. 
-<div style="text-align: center;">
-![Submit TwitterStream job](images/dev_guide/SubmitJobTwitterStream.png)
-</div>
+<div>![Submit TwitterStream job](images/dev_guide/SubmitJobTwitterStream.png)</div>
 1. The bundle file will be be uploaded and you will be prompted for additional options as shown in the image below.
 1. Take the default values for the options near the top of the dialog.
 1. For the **Submission-time parameters**, enter the four values for Twitter application credentials that you created earlier. The asterisk preceding the name of a submission-time parameter indicates there is no default value, so you are required to enter a value to continue.
+<div>![Submit job parameters](images/dev_guide/SubmitParams.png)</div>
 1. Click the **Submit** button.
-<div style="text-align: center;">
-![Submit job parameters](images/dev_guide/SubmitParams.png)
-</div>
 
 The job is submitted to the {{site.data.keyword.streaminganalyticsshort}} instance. You should see a couple of pop-up messages appear briefly showing the job submission status. The Streams Console refreshes automatically in the background. After a short period of time, the job will appear in the **Summary**, **Streams Tree**, and **Streams Graph** views along the top of the Application Dashboard. These views will stay updated to show the current status of the jobs running in your streams instance.
 
@@ -273,11 +267,11 @@ You can create a view on the tuples flowing across any of the connections in the
 
 1. Hover over the connection between the **MatchAggregate** and **AggConsole** operators.
 1. Click **Create Dashboard View.**
-![Create view in Streams Console](images/dev_guide/ConsoleConnection2.png)
+<div>![Create view in Streams Console](images/dev_guide/ConsoleConnection2.png)</div>
 1. Switch to the **Buffer** tab.
 1. Change **Tuples/sec Throttle** to 3. The MatchAggregate operator produces one tuple for each smackdown opponent every sixty seconds. Changing this throttle from 1 to 3 will include the most recent score for each entry in our word list.
 1. Click **OK** to create the new view.
-![Buffer settings when creating view](images/dev_guide/ConsoleCreateDataView1.png)
+<div>![Buffer settings when creating view](images/dev_guide/ConsoleCreateDataView1.png)</div>
 
 A new data visualization view will be added to the Application Dashboard. This view definition will remain after you log out and log back in to the console.
 
@@ -291,15 +285,15 @@ The image above indicates At this point, “blue” is winning the smackdown. Th
 You can also create a line chart from a data visualization view.
 
 1. In the the data visualization view, click the **Create Time Series Chart** icon.
-![Create time series line chart in Streams Console](images/dev_guide/ConsoleCreateChart11.png)
+<div>![Create time series line chart in Streams Console](images/dev_guide/ConsoleCreateChart11.png)</div>
 1. On the **Chart** tab, increase the **Number of snapshots** to 30, so the chart shows an interesting number of points.
-![Chart settings when creating time series chart](images/dev_guide/NumberOfSnapshots-1.png)
+<div>![Chart settings when creating time series chart](images/dev_guide/NumberOfSnapshots-1.png)</div>
 1. Switch to the **Categories** tab.
 1. For **Choose line categories from**, select _Multiple attributes values_.
 1. For **Lines measured against this attribute**, select the _matches_ attribute.
 1. For **Plot lines for each unique value of**, select the _smackdownWords_ attribute.
 1. Click **OK** to create the chart.
-![Category settings when creating time series chart](images/dev_guide/ConsoleCreateChart21.png)
+<div>![Category settings when creating time series chart](images/dev_guide/ConsoleCreateChart21.png)</div>
 
 A new line chart view will be added to the Application Dashboard. This view definition will remain after you log out and log back in to the console.
 
@@ -320,7 +314,7 @@ In the next section you will enhance the Smackdown application and resubmit the 
 
 1. Click the **Cancel Jobs** button in the console tool bar.
 1. In the Cancel Jobs dialog select the Smackdown application.
-![Cancel Job dialog](images/dev_guide/ConsoleCancelJobDialog1.png)
+<div>![Cancel Job dialog](images/dev_guide/ConsoleCancelJobDialog1.png)</div>
 1. Click the **Cancel Jobs** button and then click **Yes** when prompted to confirm the job cancellation.
 
 If you have any open data visualization or chart views for a job, those views remain when the job is canceled. You probably want to close those views because no new data will be produced in those views after the job is canceled.
@@ -345,11 +339,11 @@ Returning to studio in the QSE, in the Project Explorer view:
 
 1. Drill down to the **sample::Smackdown** main composite operator.
 1. Right click on the operator and select **Open With**, and then **SPL Editor**.
-![Open with SPL Editor in Streams Studio](images/dev_guide/OpenWithSplEditor.png)
+<div>![Open with SPL Editor in Streams Studio](images/dev_guide/OpenWithSplEditor.png)</div>
 1. Scroll down to the Aggregate operator.
 1. Add the new field to the output stream schema: <span style="color: #3366ff;"><code>int32 tuples</code></span>
 1. Add the new output assignment: <span style="color: #3366ff;"><code>tuples = Count()</code></span><br>Count() is an output assignment function provided by the Aggregate operator which returns the number of tuples currently in the window.
-![Modify Aggregate operator invocation in SPL source ](images/dev_guide/AggregateModified.png)
+<div>![Modify Aggregate operator invocation in SPL source ](images/dev_guide/AggregateModified.png)</div>
 
 Next, add the following two operator invocations at the end of the composite operator, right before the **config** clause.
 
@@ -395,7 +389,7 @@ With the new Smackdown job running you can see the two new operators, **Results*
 1. Click **Create Dashboard View.**
 1. Switch to the **Attributes** tab. This tab allows you to select which tuple attributes to be included in the view.
 1. Deselect the **matches** and **tuples** attributes so only the **smackdownWords** and **percent** are selected.
-![Modifying attrubutes when creating data visualization view](images/dev_guide/ConsoleCreateDataViewAttrs.png)
+<div>![Modifying attrubutes when creating data visualization view](images/dev_guide/ConsoleCreateDataViewAttrs.png)</div>
 1. Switch to the **Buffer** tab.
 1. Change **Tuples/sec Throttle** to 3.
 1. Click **OK** to create the new view.
@@ -418,7 +412,7 @@ For troubleshooting you can see if the operators in your application are logging
 1. Expand the tree view for the **TwitterStream** job to find the PE that contains the **TwitterSource** operator.
 1. Switch to the **Application Trace** tab in the log viewer.
 1. Click **Load application traces**.
-![Load application trace messages in Streams Console](images/dev_guide/ConsoleLoadTrace.png)
+<div>![Load application trace messages in Streams Console](images/dev_guide/ConsoleLoadTrace.png)</div>
 
 
 A current snapshot of the trace messages for the operator is loaded with the newest messages shown first. You can see that the operator is receiving an HTTP status code of 401 which means “Not authorized”.
@@ -430,9 +424,9 @@ By default only error messages are included in the trace logs. If the error mess
 1. Return to the tree view in the Log Viewer
 1. Hover over the “i” information icon for the operator (or PE)
 1. Click the **Set Application Trace Level** action
-![Set Application Trace action in Streams Console](images/dev_guide/ConsoleSetAppTrace.png)
+<div>![Set Application Trace action in Streams Console](images/dev_guide/ConsoleSetAppTrace.png)</div>
 1. In the Set Application Trace Level dialog change the **Trace Output Level** to _Information_.
-![Set Application Trace Level dialog in Streams Console](images/dev_guide/ConsoleSetAppTraceDialog.png)
+<div>![Set Application Trace Level dialog in Streams Console](images/dev_guide/ConsoleSetAppTraceDialog.png)</div>
 
 
 The log view does not automatically refresh its contents like the Application Dashboard. Wait a couple minutes for the operator to retry connecting to the server and click the **Reload** link above the log messages.
@@ -472,7 +466,7 @@ You can capture a snapshot of all logs for a job to download to your computer. T
 1. Expand the tree view to the job for which you want to download logs.
 1. Hover over the “i” information icon for the job
 1. Click the **Download Job Logs** action
-![Download job logs action in Streams Console](images/dev_guide/ConsoleDownloadJobLogs1.png)
+<div>![Download job logs action in Streams Console](images/dev_guide/ConsoleDownloadJobLogs1.png)</div>
 
 A pop-up window should appear showing that a request was made to collect the logs for the job. When the request is complete a gzipped tar file will be download through the browser.
 
