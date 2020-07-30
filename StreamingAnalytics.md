@@ -27,7 +27,7 @@ The {{site.data.keyword.streaminganalyticsshort}} service provides the following
 
 **Interactive and programmatic use of the service:**
 
-You can use the service interactively through the [{{site.data.keyword.streaminganalyticsshort}} console](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-console#console), or programmatically through the REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2).
+You can use the service interactively through the [{{site.data.keyword.streaminganalyticsshort}} console](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-console#console), or programmatically through the [{{site.data.keyword.streaminganalyticsshort}} REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2).
 
 **Deployment and monitoring of SPL, Java, Scala, and Python applications:**
 

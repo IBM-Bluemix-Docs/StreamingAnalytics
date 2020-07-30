@@ -35,13 +35,10 @@ You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is be
         <li>Lite</li>
         <li>Entry Container Hourly</li>
         <li>Entry Container Monthly</li>
-        <li>Entry Container Subscription</li>
         <li>Enhanced Container Hourly</li>
         <li>Enhanced Container Monthly</li>
-        <li>Enhanced Container Subscription</li>
         <li>Premium Container Hourly</li>
         <li>Premium Container Monthly</li>
-        <li>Premium Container Subscription</li>
       </ul>
     </td>
     <td>

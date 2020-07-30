@@ -22,7 +22,7 @@ subcollection: StreamingAnalytics
 {{site.data.keyword.streaminganalyticsshort}} has a series of behaviors and policies to ensure appropriate resource allocation and usage.
 
 ## Viewing and editing instance resources
-You can view and edit the number of resources entitled to the instance on the service details page or the [{{site.data.keyword.streaminganalyticsshort}} REST API](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance).
+You can view and edit the number of resources entitled to the instance on the service details page or the [{{site.data.keyword.streaminganalyticsshort}} REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2#get-a-streaming-analytics-instance).
 
 ## Resource allocation
 - Resources are automatically allocated to the instance when you submit a job that runs successfully.
