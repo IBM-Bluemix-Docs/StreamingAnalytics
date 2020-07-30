@@ -25,7 +25,7 @@ subcollection: StreamingAnalytics
 Use the IBM Streams Quick Start Edition (QSE) to build, submit and monitor a streaming analytics application using the {{site.data.keyword.streaminganalyticsshort}} service on IBM Cloud.
 {:shortdesc}
 
-### Before You Begin
+## Before You Begin
 {: #readmefirst}
 
 This development guide applies to Streams applications that are compiled in the Streams Studio IDE or compiled by you using the <code>sc</code> command. It does not apply to applications where the compilation is performed for you in the cloud by other development tools, such as:
@@ -37,7 +37,7 @@ This development guide applies to Streams applications that are compiled in the 
 
 _If you are using {{site.data.keyword.streaminganalyticsshort}} via one of the three development tools listed above, please refer to the documentation associated with those tools as your development guide._
 
-### Introduction
+## Introduction
 {: #introduction}
 
 {{site.data.keyword.streaminganalyticsshort}} is an IBM Cloud service built upon the IBM Streams technology. Streams is an advanced analytic platform allowing user-developed applications to quickly ingest, analyze, and correlate information as it arrives from a wide variety of real-time sources. The {{site.data.keyword.streaminganalyticsshort}} service gives you the ability to deploy Streams applications to run in the IBM Cloud.
@@ -48,7 +48,7 @@ This guide will help you download and setup the IBM Streams Quick Start Edition 
 
 If you have questions or difficulty following the steps in this guide, please add a comment at the bottom of the article so we can address your concerns. Also, if there are topics related to development that are not covered here, comments are welcome.
 
-### Setting Up Your Streams Development Environment
+## Setting Up Your Streams Development Environment
 {: #setting-up-streams}
 
 {{site.data.keyword.streaminganalyticsshort}} in IBM Cloud is running IBM Streams version 4.3 on CentOS 7.4.
@@ -57,14 +57,14 @@ In order to compile Streams applications to deploy to an instance in the cloud, 
 
 If you do not have a compatible installation of IBM Streams, you can set up the IBM Streams Quick Start Edition (QSE) and use it as your development environment for the cloud.
 
-#### IBM Streams Quick Start Edition (QSE) for Docker Setup
+### IBM Streams Quick Start Edition (QSE) for Docker Setup
 {: #setup-steps}
 
 Streams QSE is now available through dockerhub. To run the QSE in Docker, follow the <a href="https://hub.docker.com/r/ibmcom/streams-qse">IBM Streams QSE setup instructions</a> for the OS you are using for your development environment.
 
 (Alternatively, if you want to run the Streams QSE on Linux native (without Docker) visit the <a href="https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi" target="_blank">IBM Streams Quick Start Edition download site</a> for instructions and the set of available downloads.)
 
-### Introducing Our Sample Application
+## Introducing Our Sample Application
 {: #introducting-sample}
 
 The sample application used for illustration in this guide accesses Twitter to get a live sample feed of tweets.
@@ -83,7 +83,7 @@ The second application, **Smackdown**, produces a score for each word in a list 
 
 Structuring this sample into two separate streams jobs using export and import allows us to use a single connection to the Twitter source while being able to run multiple smackdowns using the same stream of tweets. You will import the sample source into Streams Studio in order to compile the two applications.
 
-### Downloading the Sample Application Source
+## Downloading the Sample Application Source
 {: #downloading-sample}
 
 **Please note:** The instructions assume you will be using Firefox within the IBM Quick Start Edition for Docker to download the zip file. If you download the source zip file directly to your host computer (e.g. Windows), you will need to copy it to the IBM Quick Start Edition for Docker.
@@ -92,7 +92,7 @@ Structuring this sample into two separate streams jobs using export and import a
 
 Unzip the downloaded file which will create a directory called Smackdown.
 
-### Compiling the Sample in Streams Studio
+## Compiling the Sample in Streams Studio
 {: #compiling-sample}
 
 IBM Streams applications are written in Streams Processing Language (SPL). SPL applications are compiled into a Streams Application Bundle (SAB) which can be submitted as a job using the {{site.data.keyword.streaminganalyticsshort}} service in IBM Cloud. You can use Streams Studio to edit and compile your applications. Streams Studio is an Eclipse-based development environment.
@@ -124,7 +124,7 @@ For future reference the full path names for the two bundles are:
 
 You’ll use those paths later to submit the jobs on IBM Cloud.
 
-### Creating Twitter Application Credentials
+## Creating Twitter Application Credentials
 {: #creating-twitter-app}
 
 The TwitterStream SPL application uses a Twitter streaming API to get a live sample stream of twitter updates. You need to create authorization credentials for the application to use to connect to the Twitter API.
@@ -150,7 +150,7 @@ The TwitterStream SPL application uses a Twitter streaming API to get a live sam
 
 These four values will be used as submission-time parameters when submitting the TwitterStream job to {{site.data.keyword.streaminganalyticsshort}} on IBM Cloud.
 
-### Creating a {{site.data.keyword.streaminganalyticsshort}} Service Instance on IBM Cloud
+## Creating a {{site.data.keyword.streaminganalyticsshort}} Service Instance on IBM Cloud
 {: #creating-streaming-service}
 
 If you have already created an instance of the {{site.data.keyword.streaminganalyticsshort}} service, you can skip this section. If you still need to create one, follow the steps below:
@@ -173,7 +173,7 @@ If you have already created an instance of the {{site.data.keyword.streaminganal
 
 You can use the **START** and **STOP** buttons on the service dashboard to start and stop the service. While started, you can submit jobs to the service using the Streams Console.
 
-### Submitting Your Jobs to {{site.data.keyword.streaminganalyticsshort}} on IBM Cloud
+## Submitting Your Jobs to {{site.data.keyword.streaminganalyticsshort}} on IBM Cloud
 {: #submitting-jobs"}
 
 On the {{site.data.keyword.streaminganalyticsshort}} service dashboard use the **LAUNCH** button to start the Streams Console, which will open in a new window or tab. The console will open displaying an Application Dashboard which allows you to submit, monitor and cancel your jobs in the {{site.data.keyword.streaminganalyticsshort}} service.
@@ -212,10 +212,10 @@ If you want to focus on a particular view in Streams Console, hover over the car
 <div style="text-align: center;">![Maximize card icon in Streams Console](images/dev_guide/ConsoleCardToolbarMax.png)</div>
 
 
-### Monitoring Your Job
+## Monitoring Your Job
 {: #monitoring-job}
 
-#### Monitoring Tuple Flows
+### Monitoring Tuple Flows
 {: #monitoring-tuple-flow}
 
 The number appearing in the connection line is the most recent number of tuples per second flowing between the two operators. If there are no numbers on the connections there have been no tuples flowing recently between the operators. If you hover the mouse over an object in the **Streams Graph** view, a pop-up will show details for that object and, in some cases, a menu of actions for that object.
@@ -226,7 +226,7 @@ The number appearing in the connection line is the most recent number of tuples 
 
 In this case there were 62 tuples per second the last time metrics were refreshed. Twitter’s sample stream is a small subset of all Twitter statuses. The flow rate can vary but usually seems to be several dozen per second. The metrics shown at the bottom of the pop-up are the cumulative amounts.
 
-#### Submitting the Smackdown Job
+### Submitting the Smackdown Job
 {: #submitting-smackdown-job}
 
 At this point you just have the one job producing a stream of tuples. When the tuples get to the TweetsExport operator they are discarded because there is no job connected to that stream. (If for some reason your job does not have any data flowing, the most likely problem is correctly specifying the Twitter authorization credentials in the submission-time parameters. The section on viewing trace messages below will explain how to investigate.)
@@ -243,7 +243,7 @@ In a few moments the second job will be started and the Streams Graph view will 
 ![Streams graph showing two jobs](images/dev_guide/ConsoleCombinedGraph.png)
 </div>
 
-#### Viewing Sample Data in a Dynamic View
+### Viewing Sample Data in a Dynamic View
 {: #viewing-sample-data}
 
 You can create a view on the tuples flowing across any of the connections in the streams graph to monitor a sample of the data that is flowing between two operators.
@@ -262,7 +262,7 @@ A new data visualization view will be added to the Application Dashboard. This v
 
 The image above indicates At this point, “blue” is winning the smackdown. The **matches** column shows the number of tweets in the last five minutes that contain each of the smackdown opponent words.
 
-#### Displaying a Line Chart of the Data
+### Displaying a Line Chart of the Data
 {: #displaying-line-chart}
 
 You can also create a line chart from a data visualization view.
@@ -286,7 +286,7 @@ If you hover over one of the lines in the chart, a status bar will display with 
 ![Time series chart displayed as line graph](images/dev_guide/ConsoleLineChart1.png)
 </div>
 
-### Canceling Your Job
+## Canceling Your Job
 {: #canceling-job}
 
 In the next section you will enhance the Smackdown application and resubmit the job. But first cancel the existing Smackdown job.
@@ -303,10 +303,10 @@ In the next section you will enhance the Smackdown application and resubmit the 
 If you have any open data visualization or chart views for a job, those views remain when the job is canceled. You probably want to close those views because no new data will be produced in those views after the job is canceled.
 {:tip .tip}
 
-### Enhancing the Sample Application
+## Enhancing the Sample Application
 {: #enhancing-application}
 
-#### Adding Additional Function
+### Adding Additional Function
 {: #adding-function}
 
 So far the sample application produces a simple aggregate of the number of tweets that contain our search words. Let’s modify the Smackdown application to calculate the percentage of the tweets containing the search words. To do this you need to:
@@ -359,7 +359,7 @@ Save the changes using **File -&gt; Save** or **Ctrl+S**. Streams Studio will au
 
 With these changes made and compiled, submit the Smackdown application again following the same steps used to submit the job before.
 
-#### Viewing the New Results
+### Viewing the New Results
 {: #viewing-new-results}
 
 With the new Smackdown job running you can see the two new operators, **Results** and **ResultsConsole**, in the Streams Graph view. Now open a data visualization view on the results with the calculated percentage.
@@ -383,10 +383,10 @@ The new data visualization view displayed will show you the percent of tweets co
 
 If you want you can now create a line graph chart with these results following the previous steps for creating a chart.
 
-### Troubleshooting
+## Troubleshooting
 {: #troubleshooting}
 
-#### Viewing Trace Messages
+### Viewing Trace Messages
 {: #viewing-trace-messages}
 
 For troubleshooting you can see if the operators in your application are logging any messages indicating failures. For example, I submitted the TwitterStream job and I can see that no tuples are flowing through the graph. The most likely explanation is that a source adapter operator is not connecting to its source.
@@ -425,7 +425,7 @@ If you need to see detailed trace messages when the PEs are initially starting, 
 {:tip .tip}
 <div style="text-align: center;">![Set trace level when submitting job](images/dev_guide/TraceLevelSubmit.png)</div>
 
-#### Viewing Console Log Messages
+### Viewing Console Log Messages
 {: #viewing-console-messages}
 
 In addition to trace messages, operators can also write messages to the console log, which is the standard output for the process. Unlike tracing, console logging has no levels of messages and the output is completely free-form. The Smackdown application uses a Custom operator to write result messages to the console.
@@ -441,7 +441,7 @@ A current snapshot of the trace messages for the operator is loaded with the new
 ![Console messages displayed in Streams Console](images/dev_guide/ConsoleConsoleMessages.png)
 </div>
 
-#### Downloading All Logs For A Job
+### Downloading All Logs For A Job
 {: #downloading-job-log}
 
 You can capture a snapshot of all logs for a job to download to your computer. This can be handy for searching across the logs for a large number operators in a job.
@@ -454,7 +454,7 @@ You can capture a snapshot of all logs for a job to download to your computer. T
 
 A pop-up window should appear showing that a request was made to collect the logs for the job. When the request is complete a gzipped tar file will be download through the browser.
 
-### Additional Resources
+## Additional Resources
 {: #additional-resources}
 
 - Read more about about some of the special considerations when developing your Streams application for the cloud in <a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/">Getting your SPL application ready for the cloud</a>.
