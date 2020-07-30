@@ -79,15 +79,15 @@ If your SPL application uses FileSink as the means for producing output data, th
     1. Remove the FileSink and use a view annotation or create a dynamic view in the Streams Console to see the data, or
     1. Replace the FileSink with a Custom operator that prints the data and then use the Streams Console to download the job log to view the data.
     
-    ```
-    () as trace1 = Custom(strFile) {
-        logic
-            onTuple strFile: {
-                printLn(strFile);
-            } 
-    }
-    ```
-    {: codeblock}
+        ```
+        () as trace1 = Custom(strFile) {
+            logic
+                onTuple strFile: {
+                    printLn(strFile);
+                } 
+        }
+        ```
+        {: codeblock}
 
 If you still decide to use FileSink instead of the alternatives listed above, please be aware that **you must control the size of your files using the closeMode parameter (and its associated parameters) on FileSink and use a static file name**. This will cause the file to be closed when it reaches its limit, and a new file with the same name will be created. Below are a couple of examples of a FileSink that controls the size of the file it creates:
 
