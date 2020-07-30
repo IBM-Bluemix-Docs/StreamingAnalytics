@@ -91,6 +91,7 @@ If your SPL application uses FileSink as the means for producing output data, th
 
 If you still decide to use FileSink instead of the alternatives listed above, please be aware that **you must control the size of your files using the closeMode parameter (and its associated parameters) on FileSink and use a static file name**. This will cause the file to be closed when it reaches its limit, and a new file with the same name will be created. Below are a couple of examples of a FileSink that controls the size of the file it creates:
 
+Limiting file size by number of bytes:
 ```
     () as MySink1 = FileSink(myTuple) {
         param
@@ -99,6 +100,10 @@ If you still decide to use FileSink instead of the alternatives listed above, pl
             bytesPerFile: (uint64)(128 * 1024);
             flush: 1u;
     }
+```
+
+Limiting file size by number of tuples:
+```
     () as MySink2 = FileSink(myTuple) {
         param 
             file: "MyFile2.dat"; 
