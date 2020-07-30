@@ -8,6 +8,8 @@ subcollection: StreamingAnalytics
 
 ---
 
+
+
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -15,27 +17,6 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 {:tip .tip}
-
-
-[//]: # ()
-[//]: # (Eclipse Find/Replace regex for converting header html to markdown                       )
-[//]: # (    Find regex: <h3 id="(.*)">(.*)</h3>                                                 )
-[//]: # (    Replace regex: \n### $2\n{: #$1}                                                    )
-[//]: # (Changes this:                                                                           )
-[//]: # (    <h3 id="heading3-id">Heading3 Text</h3>                                             )
-[//]: # (to:                                                                                     )
-[//]: # (    ### Heading3 Text                                                                   )
-[//]: # (    {: #heading3-id}                                                                    )
-[//]: # ()
-[//]: # (Eclipse Find regex for converting list items. Assumes entire <li> is on a single line   )
-[//]: # (    Find regex: <li>(.*)</li>                                                           )
-[//]: # (    Replace regex for ordered lists: 1. $1                                              )
-[//]: # (    Replace regex for ordered lists: - $1                                               )
-[//]: # ()
-[//]: # ()
-[//]: # (Eclipse Find regex for converting image html tags to image markdown. Assumes specific formatting of img html tag )
-[//]: # (    Find regex: <img src="(.*)" alt="(.*)" width=".*" height=".*">                      )
-[//]: # (    Replace regex for ordered lists: \n![$2]($1)\n                                      )
 
 
 # {{site.data.keyword.streaminganalyticsshort}} Development Guide
