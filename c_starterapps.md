@@ -31,12 +31,12 @@ Deploy and modify the starter applications and quickly learn how to use the {{si
  ">
   <tr>
     <td headers="stocktrades" colspan="3">This application analyzes a stream of stock quotes and produces a rolling average of the prices using the <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> operator.
-You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment. The full source for the starter application is <a href="https://github.com/IBMStreams/samples/tree/master/QuickStart/TradesApp">available on GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")</a>.</p>
+You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment. The full source for the starter application is <a href="https://github.com/IBMStreams/samples/tree/main/QuickStart/TradesApp">available on GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")</a>.</p>
 </td>
   </tr>
   <tr>
     <td headers="stocktrades"><a href="https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/" target="_blank">DEPLOY THE APP ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></td>
-    <td headers="stocktrades"><a href="https://github.com/IBMStreams/samples/raw/master/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
+    <td headers="stocktrades"><a href="https://github.com/IBMStreams/samples/raw/main/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
   </tr>
 </table>
 
