@@ -89,7 +89,7 @@ If your SPL application uses FileSink as the means for producing output data, th
         ```
         {: codeblock}
 
-If you still decide to use FileSink instead of the alternatives listed above, please be aware that **you must control the size of your files using the closeMode parameter (and its associated parameters) on FileSink and use a static file name**. This will cause the file to be closed when it reaches its limit, and a new file with the same name will be created. Below are a couple of examples of a FileSink that controls the size of the file it creates:
+If you still decide to use FileSink instead of the alternatives listed above, please be aware that **you must control the size of your files using the closeMode parameter (and its associated parameters) on FileSink and use a static file name**. This will cause the file to be closed when it reaches its limit, and a new file with the same name will be created. Below are a couple of examples of a FileSink that controls the size of the file it creates.
 
 Limiting file size by number of bytes:
 ```
