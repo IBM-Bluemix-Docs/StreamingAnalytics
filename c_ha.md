@@ -18,11 +18,11 @@ subcollection: StreamingAnalytics
 # High availability and disaster recovery
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} is highly available within an {{site.data.keyword.Bluemix_notm}} location (for example, Dallas, London, Frankfurt). However, recovering from potential disasters that affect an entire {{site.data.keyword.Bluemix_notm}} region requires planning and preparation.
+{{site.data.keyword.streaminganalyticsshort}} is highly available within an {{site.data.keyword.cloud_notm}} location (for example, Dallas, London, Frankfurt). However, recovering from potential disasters that affect an entire {{site.data.keyword.cloud_notm}} region requires planning and preparation.
 {:shortdesc}
 
 
-You are responsible for understanding your configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new {{site.data.keyword.Bluemix_notm}} location and to re-deploy your applications to that location. See [How do I ensure zero downtime?](/docs/services/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.Bluemix_notm}}. You can also find information about [Service Level Agreements](/docs/services/overview?topic=overview-zero-downtime#zero-downtime#SLAs).
+You are responsible for understanding your configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new {{site.data.keyword.cloud_notm}} location and to re-deploy your applications to that location. See [How do I ensure zero downtime?](/docs/services/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also find information about [Service Level Agreements](/docs/services/overview?topic=overview-zero-downtime#zero-downtime#SLAs).
 
 ## High availability
 
@@ -58,16 +58,16 @@ You can define the start of a Consistent Region with the `@consistent` annotatio
 Check out the [{{site.data.keyword.streamsshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) for more details about using Consistent Regions in Streams applications.
 
 ## Disaster recovery
-{{site.data.keyword.streaminganalyticsshort}} is a GA service that is offered in multiple {{site.data.keyword.Bluemix_notm}} regions. {{site.data.keyword.streaminganalyticsshort}} stores no user data on {{site.data.keyword.Bluemix_notm}}.
+{{site.data.keyword.streaminganalyticsshort}} is a GA service that is offered in multiple {{site.data.keyword.cloud_notm}} regions. {{site.data.keyword.streaminganalyticsshort}} stores no user data on {{site.data.keyword.cloud_notm}}.
 
 Based on your business requirements, select one of the following disaster recovery strategies:
 * If you require no interruption to your application:
-  1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.Bluemix_notm}} regions.
+  1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.cloud_notm}} regions.
   2. Submit your application to multiple regions.
 
 
 * If you require minimal interruption to your application:
-  1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.Bluemix_notm}} regions.
+  1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.cloud_notm}} regions.
   2. Monitor your application by using the [service REST API](https://ibm.co/2Gt9mB6) and dynamically shift your workload to a new region as needed.
 
-**Note**: Each consistent region is tied to {{site.data.keyword.Bluemix_notm}} region. In a disaster recovery scenario, Consistent Regions in an application do not have any role.
+**Note**: Each consistent region is tied to {{site.data.keyword.cloud_notm}} region. In a disaster recovery scenario, Consistent Regions in an application do not have any role.

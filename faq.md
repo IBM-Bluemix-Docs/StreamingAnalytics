@@ -23,7 +23,7 @@ subcollection: StreamingAnalytics
 {: #signup notoc}
 {: faq}  
 
-For more information about the {{site.data.keyword.streaminganalyticsshort}} service plans, see the [{{site.data.keyword.Bluemix_short}} catalog](https://{DomainName}/catalog/services/streaming-analytics).
+For more information about the {{site.data.keyword.streaminganalyticsshort}} service plans, see the [{{site.data.keyword.cloud}} catalog](https://{DomainName}/catalog/services/streaming-analytics).
 
 ## What version of Streaming Analytics service am I using?
 {: #version notoc}
@@ -72,7 +72,7 @@ You can also use the on-premises {{site.data.keyword.streamsshort}} installation
 
 But if you want to run your Python applications in the cloud, you don’t need to install {{site.data.keyword.streamsshort}} on-premises. Simply use the `STREAMING\_ANALYTICS\_SERVICE` context to submit your Python applications to the {{site.data.keyword.streaminganalyticsshort}} service. You can develop the applications in a standard Python development environment or in a Jupyter interactive notebook, but you must use Python 3.5.
 
-For more information on developing applications, see the [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/).
+For more information on developing applications, see the [{{site.data.keyword.cloud_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/).
 
 ## Can I sign in to a Streaming Analytics service host directly?
 {: #host notoc}  
@@ -91,7 +91,7 @@ Cloud-ready alternatives exist for solutions that need a mechanism for Streams t
 ## How can the Streaming Analytics service applications access my organization's enterprise data?
 {: #access notoc}  
 
-You can use the [{{site.data.keyword.Bluemix_notm}} Secure Gateway Service](https://{DomainName}/catalog/services/secure-gateway) to securely connect streams applications to your enterprise.
+You can use the [{{site.data.keyword.cloud_notm}} Secure Gateway Service](https://{DomainName}/catalog/services/secure-gateway) to securely connect streams applications to your enterprise.
 
 ## Are all the features for IBM Streams for on premises supported by the Streaming Analytics service in the cloud?
 {: #features notoc}
@@ -106,4 +106,4 @@ Some of the features that are not supported for {{site.data.keyword.streamingana
 ## Where can I learn more about the Streaming Analytics service?
 {: #roadmap notoc}
 
-The IBM developerWorks® article, [Roadmap for {{site.data.keyword.streaminganalyticsshort}} Service on {{site.data.keyword.Bluemix_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/roadmap-for-streaming-analytics-service-on-bluemix/), has guidance for learning about the service, plus links to informative blogs, demos, and articles.
+The IBM developerWorks® article, [Roadmap for {{site.data.keyword.streaminganalyticsshort}} Service on {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/roadmap-for-streaming-analytics-service-on-bluemix/), has guidance for learning about the service, plus links to informative blogs, demos, and articles.

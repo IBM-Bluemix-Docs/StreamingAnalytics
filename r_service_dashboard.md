@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 # Service details page
 {: #dashboard}
 
-You can access your {{site.data.keyword.streaminganalyticsshort}} service from the {{site.data.keyword.Bluemix_short}} dashboard.
+You can access your {{site.data.keyword.streaminganalyticsshort}} service from the {{site.data.keyword.cloud}} dashboard.
 {:shortdesc}
 
 From the service details page you can:

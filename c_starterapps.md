@@ -31,7 +31,7 @@ Deploy and modify the starter applications and quickly learn how to use the {{si
  ">
   <tr>
     <td headers="stocktrades" colspan="3">This application analyzes a stream of stock quotes and produces a rolling average of the prices using the <a href="https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$spl/op$spl.relational$Aggregate.html">Aggregate ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> operator.
-You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment. The full source for the starter application is <a href="https://github.com/IBMStreams/samples/tree/main/QuickStart/TradesApp">available on GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")</a>.</p>
+You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.cloud}} environment. The full source for the starter application is <a href="https://github.com/IBMStreams/samples/tree/main/QuickStart/TradesApp">available on GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")</a>.</p>
 </td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@ You can run the starter application without modification. If you want to experim
     <td colspan="3" headers="EventDetection2">The Event Detection app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. The app provides a simple web UI to display status and results of the analysis.
 The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} REST API.
 <p>You can run the starter application without modification.
-If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment.</p>
+If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.cloud}} environment.</p>
 </td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ If you want to experiment further with the service, you can also modify the code
 <table summary="This table describes, in the first row, the FileStreamSample sample application. The table includes on the second row a link to a tutorial how to deploy the FileStreamSample application.
  ">
   <tr>
-    <td headers="FilterStreamSample" colspan="3">You can use the IBM® Streams Runner for Apache Beam FileStreamSample sample application to learn how to use {{site.data.keyword.Bluemix_notm}} object storage for file input and output.
+    <td headers="FilterStreamSample" colspan="3">You can use the IBM® Streams Runner for Apache Beam FileStreamSample sample application to learn how to use {{site.data.keyword.cloud_notm}} object storage for file input and output.
 </td>
   </tr>
   <tr>

@@ -21,7 +21,7 @@ subcollection: StreamingAnalytics
 # Streaming Analytics troubleshooting
 {: #ts_StreamingAnalytics}
 
-You can find the answers to common questions about how to use {{site.data.keyword.streaminganalyticsshort}} on {{site.data.keyword.Bluemix_short}}.
+You can find the answers to common questions about how to use {{site.data.keyword.streaminganalyticsshort}} on {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 ## When I launch the service, I am prompted for credentials to log into the console
