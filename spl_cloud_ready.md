@@ -171,6 +171,6 @@ Some operators in the specialized toolkits that are provided with IBM Streams or
 
 If your application uses database adapters from the com.ibm.streams.db toolkit, consider using the [Streams JDBC toolkit](https://ibmstreams.github.io/streamsx.jdbc/) as an alternative.
 
-If your application uses unsupported data source or sink adapters, you can use a IBM Cloud application to access the data store, and then stream the data from your IBM Cloud Bluemix application to your SPL application using another type of supported adapter.
+If your application uses unsupported data source or sink adapters, you can use a {{site.data.keyword.cloud_notm}} application to access the data store, and then stream the data from your {{site.data.keyword.cloud_notm}} application to your SPL application using another type of supported adapter.
 
 If your SPL application uses analytics that are not currently supported, your only option is to replace that part of the processing with another analytic operator that is supported.

@@ -17,20 +17,20 @@ subcollection: StreamingAnalytics
 
 # Granting permissions to users
 
-With an {{site.data.keyword.Bluemix_notm}} account, you have administrative privileges in the organization or space under your account to perform all operations on {{site.data.keyword.streaminganalyticsshort}}. However, when you add other users to your account, you need to manage their permissions so that they have the required privileges to operate service instances under your account.
+With an {{site.data.keyword.cloud_notm}} account, you have administrative privileges in the organization or space under your account to perform all operations on {{site.data.keyword.streaminganalyticsshort}}. However, when you add other users to your account, you need to manage their permissions so that they have the required privileges to operate service instances under your account.
 
 In {{site.data.keyword.streaminganalyticsshort}}, access to service management operations is governed by the following permission levels:
 
-| Operation | Required {{site.data.keyword.Bluemix_notm}} permissions | Required IAM permissions |
+| Operation | Required {{site.data.keyword.cloud_notm}} permissions | Required IAM permissions |
 |-----------|------------------------------|--------------------------|
-| Create or delete a service | Developer role to the {{site.data.keyword.Bluemix_notm}} space | None |
-| View the service details page | Developer role to the {{site.data.keyword.Bluemix_notm}} space | Viewer and above |
-| Resize the service   | Developer role to the {{site.data.keyword.Bluemix_notm}} space | Editor and above |
-| Generate service keys by using the CF CLI or the {{site.data.keyword.Bluemix_notm}} UI | Developer role to the {{site.data.keyword.Bluemix_notm}} space | None |
+| Create or delete a service | Developer role to the {{site.data.keyword.cloud_notm}} space | None |
+| View the service details page | Developer role to the {{site.data.keyword.cloud_notm}} space | Viewer and above |
+| Resize the service   | Developer role to the {{site.data.keyword.cloud_notm}} space | Editor and above |
+| Generate service keys by using the CF CLI or the {{site.data.keyword.cloud_notm}} UI | Developer role to the {{site.data.keyword.cloud_notm}} space | None |
 
 To add new users to your account:
 
-1.	Log on to the [{{site.data.keyword.Bluemix_notm}} dashboard](https://{DomainName}).
+1.	Log on to the [{{site.data.keyword.cloud_notm}} dashboard](https://{DomainName}).
 
 2.	Click **Manage -> Access (IAM) -> Users**.
 

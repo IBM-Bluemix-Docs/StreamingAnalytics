@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 # About Streaming Analytics
 {: #about}
 
-You can perform real-time analysis on data in motion as part of your {{site.data.keyword.Bluemix_short}} applications by with {{site.data.keyword.streaminganalyticsfull}}.
+You can perform real-time analysis on data in motion as part of your {{site.data.keyword.cloud}} applications by with {{site.data.keyword.streaminganalyticsfull}}.
 {:shortdesc}
 
 New to {{site.data.keyword.streaminganalyticsshort}}? Get a [quick introduction to the service ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/){:new_window}.

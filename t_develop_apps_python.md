@@ -21,7 +21,7 @@ subcollection: StreamingAnalytics
 You can now develop Python applications in {{site.data.keyword.DSX_full}} or in your local Python development environment and deploy these applications in {{site.data.keyword.streaminganalyticsshort}}.
 {:shortdesc}
 
-Develop and deploy your Python applications to {{site.data.keyword.Bluemix_short}} with the {{site.data.keyword.streaminganalyticsshort}} service with one of these methods:
+Develop and deploy your Python applications to {{site.data.keyword.cloud}} with the {{site.data.keyword.streaminganalyticsshort}} service with one of these methods:
 
 
 ## Developing Streams Python applications in Watson Studio
