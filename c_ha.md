@@ -37,7 +37,7 @@ Therefore, when writing your applications, you must consider that containers can
 * Ensure that your application can tolerate the restarting of some or all of its processing elements (PEs), in any order.
 * Ensure that the source and sink operators in your Streams application are configured to reestablish connections when their PE restarts.
 
-Check out the [{{site.data.keyword.streaminganalyticsshort}} development guide](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/#troubleshooting) for examples on how to troubleshoot your application.
+Check out the [{{site.data.keyword.streaminganalyticsshort}} development guide](docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide#troubleshooting) for examples on how to troubleshoot your application.
 
 To implement high availability, Streams applications are enabled to guarantee processing of all tuples. To achieve guaranteed tuple processing, a checkpoint is periodically established for all the operators in a Consistent Region. Upon an application failure, all operators will be rolled back to the last successful checkpoint states.
 {{site.data.keyword.streaminganalyticsshort}} allows the use of Consistent Regions.

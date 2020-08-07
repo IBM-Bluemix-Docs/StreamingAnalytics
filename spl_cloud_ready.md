@@ -24,13 +24,16 @@ Use these techniques to make sure your existing SPL applications are ready to ru
 An SPL application that runs in a non-cloud, on-premises installation of Streams might require modification before it can run in the Streaming Analytics service in IBM Cloud. This article describes SPL application constructs and patterns that may not work or may function differently in the cloud, and provides advice on how to make SPL applications that use these techniques “cloud-ready.”
 
 ## Passing configuration information to an SPL operator as a file
+{: #passing-config}
 
 
 ### *_Issue_*
+{: #passing-config-issue}
 
 Several SPL operators have parameters that expect a file reference. One example is the RScript operator that uses a parameter to identify the file name containing an R script, i.e. `param rScriptFileName : "myScript";`. Users of the Streaming Analytics service in IBM Cloud do not have direct access to the file system of the hosts in the cloud, so a specific technique must be used to supply operator configuration files to the cloud.
 
 ### *_Cloud-ready technique_*
+{: #passing-config-technique}
 
 If you use SPL operators that require configuration files, there are a couple of alternatives for updating your application to make it cloud-ready:
 
@@ -39,8 +42,10 @@ If you use SPL operators that require configuration files, there are a couple of
 
 
 ## Use of FileSource and DirectoryScan to stream new data into an SPL Application
+{: #use-of-filesource}
 
 ### *_Issue_*
+{: #use-of-filesource-issue}
 
 A common pattern in SPL applications it to get data into the application via a FileSource. The FileSource operator will function correctly in the cloud, but the ability of the application to get new data into the application via a FileSource is limited as you do not have direct access to the file system on the streams application nodes.
 
@@ -49,6 +54,7 @@ The files accessed by a FileSource are in the local file system of a Streams hos
 The FileSource model will work correctly to get one-time input, configuration, initialization or other data into an SPL application, if the file is included in the streams application bundle.
 
 ### *_Cloud-ready technique_*
+{: #use-of-filesource-technique}
 
 If your SPL application uses FileSource as the means for obtaining new data, there are a few alternatives for modifying your application to make it cloudy-ready:
 
@@ -60,8 +66,10 @@ If your SPL application uses FileSource as the means for obtaining new data, the
 
 
 ## Use of FileSink to write output data
+{: #use-of-filesink}
 
 ### *_Issue_*
+{: #use-of-filesink-issue}
 
 A common pattern in SPL applications is to produce data and write it to files using a FileSink for consumption by other <span style="text-decoration: underline;">non-streams applications</span>. The FileSink operator will function correctly in the cloud, but since only the SPL application can access the file system on a Streams host in the cloud, writing data to files is of limited value (unless another Streams operator located on the same cloud host is accessing it.)
 
@@ -69,6 +77,7 @@ _**In addition, using FileSink can have some unpredictable side effects. Your PE
 
 
 ### *_Cloud-ready technique_*
+{: #use-of-filesink-technique}
 
 If your SPL application uses FileSink as the means for producing output data, there are a few alternatives for modifying your application to make it cloudy-ready.
 
@@ -116,13 +125,15 @@ Limiting file size by number of tuples:
 
 
 ## Logging and Tracing
-
+{: #logging-and-tracing}
 
 ### *_Issue_*
+{: #logging-and-tracing-issue}
 
 SPL applications can produce log and trace messages that get stored in a variety of locations, depending on the method of logging/tracing used.  Logging to Streams product logs from your application provides no benefit to you in the cloud, since the Streams product logs are not visible to you.  In addition, cloud applications that log to the Streams product logs can fill up and otherwise clutter the logs making them more difficult for IBM Cloud administrators to use.
 
 ### *_Cloud-ready technique_*
+{: #logging-and-tracing-technique}
 
 If your application uses the **appLog()** function from the SPL standard toolkit or the **SPLAPPLOG** macro, there are alternatives you can use that are more effective in the cloud.
 
@@ -133,15 +144,18 @@ If your application uses the **appLog()** function from the SPL standard toolkit
 
 
 ## Accessing on-premise data
+{: #accessing-on-premise-data}
 
 
 ### *_Issue_*
+{: #accessing-on-premise-data-issue}
 
 SPL applications often access on-premise data; that is, enterprise or other data that is not located in the cloud. When Streams is installed on-premise, accessing on-premise data is straightforward. When Streams in running in the cloud, additional work may be necessary to access on-premise data.
 
 In some rare cases, on-premise data might be publicly available, i.e. the data may be accessible via the public internet (with or without authentication.) But in most cases, on premise data is protected behind a firewall, preventing access from outside environments such as IBM Cloud.
 
 ### *_Cloud-ready technique_*
+{: #accessing-on-premise-data-technique}
 
 If your SPL application needs to access on-premise data, you have a couple of options for modifying your application to make it cloudy-ready.
 
@@ -150,14 +164,16 @@ If your SPL application needs to access on-premise data, you have a couple of op
 
 
 ## Using the com.ibm.streamsx.inet.rest operators (e.g. HTTPTupleView, HTTPTupleInjection, HTTPJSONInjection, etc.)
+{: #using-the-com-ibm-streamsx-inet-rest-operators}
 
 See <a href="https://developer.ibm.com/streamsdev/docs/connecting-streaming-analytics-ibm-cloud" target="_blank" rel="noopener">Connecting to Streaming Analytics in the IBM Cloud</a> to learn under what conditions these operators (and other operators that play a server role) can be used.
 
 
 ## Use of operators that are not compatible with Streaming Analytics
+{: #using-incompatible-operators}
 
 ### *_Issue_*
-{: #ii42} 
+{: #using-incompatible-operators-issue}
 
 Some operators in the specialized toolkits that are provided with IBM Streams or provided by the IBMStreams GitHub project are not compatible by the Streaming Analytics service. Here are some examples:
 
@@ -167,7 +183,7 @@ Some operators in the specialized toolkits that are provided with IBM Streams or
 **Please Note:** If the operators that you need for your SPL applications are not supported, we would like to hear from you! Post your operator needs to the [Streams Support Forums](https://www.ibm.com/mysupport/s/forumsproduct?name=Streams&id=0TO50000000IQN0GAO).
 
 ### *_Cloud-ready technique_*
-{: #ii43} 
+{: #using-incompatible-operators-technique}
 
 If your application uses database adapters from the com.ibm.streams.db toolkit, consider using the [Streams JDBC toolkit](https://ibmstreams.github.io/streamsx.jdbc/) as an alternative.
 
