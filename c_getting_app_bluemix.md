@@ -41,7 +41,7 @@ GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")<
         <li><a href="https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/" target="_blank">Streaming Analytics Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></li>
         <li><a href="https://www.ibm.com/blogs/bluemix/2017/02/connecting-to-streams/" target="_blank">Connecting to Streams: What you need to know ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted" target="_blank">Getting started with Streaming Analytics</a><br></li>
-        <li><a href="https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud" target="_blank">Getting your SPL application ready for the cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")</a><br></li>
+        <li>[Getting your SPL application ready for the cloud](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-getting-your-spl-application-ready-for-the-cloud)<br></li>
         <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python#t_develop_apps_python" target="_blank">Developing Python applications for Streaming Analytics</a><br></li>
         <li><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-develop_beam_apps" target="_blank">Developing Beam applications for Streaming Analytics</a><br></li>
       </ul>    

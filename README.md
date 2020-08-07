@@ -30,9 +30,9 @@ The following links to Streamsdev from Cloud Docs need to be resolved
 
 - [ ] c_getting_app_bluemix.md (2 matches)
   - [ ] https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/
-  - [ ] https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud
+  - [x] https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud
 - [ ] c_ha.md
-  - [ ] https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/#troubleshooting
+  - [x] https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/#troubleshooting
 - [ ] c_starterapps.md (3 matches)
   - [ ] https://developer.ibm.com/streamsdev/docs/starter-sample-apps-v2-plans/
   - [ ] https://developer.ibm.com/streamsdev/videos/getting-started-streaming-analytics-service-using-trades-starter-application/
