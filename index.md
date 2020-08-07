@@ -14,6 +14,7 @@ subcollection: StreamingAnalytics
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
+{:note .note}
 
 
 # Streaming Analytics overview
@@ -36,4 +37,5 @@ If you are not familiar with {{site.data.keyword.streamsshort}} application deve
 
 If you already have an SPL application that you run on premise, you must [get your application ready for the cloud.![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
 
-**Note:** You must compile your applications in Red Hat Enterprise Linux (RHEL) 7.x.
+You must compile your applications in Red Hat Enterprise Linux (RHEL) 7.x.
+{:note .note}

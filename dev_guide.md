@@ -17,6 +17,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 {:tip .tip}
+{:note .note}
 
 
 # {{site.data.keyword.streaminganalyticsshort}} Development Guide
@@ -86,7 +87,8 @@ Structuring this sample into two separate streams jobs using export and import a
 ## Downloading the Sample Application Source
 {: #downloading-sample}
 
-**Please note:** The instructions assume you will be using Firefox within the IBM Quick Start Edition for Docker to download the zip file. If you download the source zip file directly to your host computer (e.g. Windows), you will need to copy it to the IBM Quick Start Edition for Docker.
+The instructions assume you will be using Firefox within the IBM Quick Start Edition for Docker to download the zip file. If you download the source zip file directly to your host computer (e.g. Windows), you will need to copy it to the IBM Quick Start Edition for Docker.
+{:note .note}
 
 <a href="https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2019/09/SmackdownSource.zip"><span class="pn-btn">Download Sample Source Files</span></a>
 

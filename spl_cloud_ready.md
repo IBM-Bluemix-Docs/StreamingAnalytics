@@ -15,6 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 {:tip .tip}
+{:note .note}
 
 # Getting your SPL application ready for the cloud
 
@@ -180,7 +181,8 @@ Some operators in the specialized toolkits that are provided with IBM Streams or
 - None of the adapters in the com.ibm.streams.db toolkit are currently supported by the service.
 - The streamsx.opencv toolkit is not supported by the service because it pre-reqs open source packages that IBM cannot install on behalf of the customer.
 
-**Please Note:** If the operators that you need for your SPL applications are not supported, we would like to hear from you! Post your operator needs to the [Streams Support Forums](https://www.ibm.com/mysupport/s/forumsproduct?name=Streams&id=0TO50000000IQN0GAO).
+If the operators that you need for your SPL applications are not supported, we would like to hear from you! Post your operator needs to the [Streams Support Forums](https://www.ibm.com/mysupport/s/forumsproduct?name=Streams&id=0TO50000000IQN0GAO).
+{:note .note}
 
 ### *_Cloud-ready technique_*
 {: #using-incompatible-operators-technique}
