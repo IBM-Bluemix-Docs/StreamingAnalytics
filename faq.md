@@ -72,7 +72,7 @@ You can also use the on-premises {{site.data.keyword.streamsshort}} installation
 
 But if you want to run your Python applications in the cloud, you don’t need to install {{site.data.keyword.streamsshort}} on-premises. Simply use the `STREAMING\_ANALYTICS\_SERVICE` context to submit your Python applications to the {{site.data.keyword.streaminganalyticsshort}} service. You can develop the applications in a standard Python development environment or in a Jupyter interactive notebook, but you must use Python 3.5.
 
-For more information on developing applications, see the [{{site.data.keyword.cloud_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/).
+For more information on developing applications, see the [{{site.data.keyword.streaminganalyticsshort}} Development Guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide).
 
 ## Can I sign in to a Streaming Analytics service host directly?
 {: #host notoc}  

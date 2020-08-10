@@ -23,7 +23,7 @@ subcollection: StreamingAnalytics
 * [Introduction to {{site.data.keyword.streaminganalyticsshort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix){:new_window}
 * [{{site.data.keyword.streaminganalyticsshort}} SDK for Node.js™ Starter Application ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/developerworks/library/ba-bluemix-detect-complex-events-from-data-stream-trs/index.html){:new_window}
 * [Getting your SPL application ready for the cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud){:new_window}
-* [{{site.data.keyword.cloud_notm}} {{site.data.keyword.streaminganalyticsshort}} Development Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/){:new_window}
+* [{{site.data.keyword.streaminganalyticsshort}} Development Guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide)
 * [Developing for the {{site.data.keyword.streaminganalyticsshort}} service in Python ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)
 * [More tutorials](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-tutorials){:new_window}
 
