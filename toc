@@ -12,12 +12,14 @@ Streaming Analytics
     {: .topicgroup}
     About
         StreamingAnalytics.md
+        roadmap.md
         c_streams_console.md
         r_service_dashboard.md
 
     {: .topicgroup}
     c_starterapps.md
     resource_usage.md
+    event_detection.md
 
     {: .topicgroup}
     Python and Beam apps
