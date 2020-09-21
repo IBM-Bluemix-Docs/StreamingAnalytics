@@ -33,19 +33,15 @@ If you are new to Streams, please take some time to learn about the Streams tech
 
 **Video: Introduction to {{site.data.keyword.streaminganalyticsshort}} with IBM Streams**
 
-![Video title](https://www.youtube.com/embed/oQKeejV74lg){: video output="iframe" data-script="none" id="youtubeplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
+![Introduction to streaming analytics with IBM Streams](https://www.youtube.com/embed/oQKeejV74lg){: video output="iframe" data-script="none" id="youtubeplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 
 ## Developing Streams applications with Python
 
-You can create Streams applications using Streams Processing Language (SPL) or Python and the Streams Python API. These applications can also be deployed in the {{site.data.keyword.streaminganalyticsshort}} service.  
-_The remainder of this tutorial focuses on developing applications with Streams Processing Language (SPL)._  
-f you would like to develop applications using Python, [please follow the Python development guide](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/) to learn more about developing Python applications for the {{site.data.keyword.streaminganalyticsshort}} service.
-
-- [Streams Python development guide](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+You can create Streams applications using Streams Processing Language (SPL) or Python and the Streams Python API. These applications can also be deployed in the {{site.data.keyword.streaminganalyticsshort}} service.  _The remainder of this tutorial focuses on developing applications with Streams Processing Language (SPL)._  
+If you would like to develop applications using Python, [please follow the Python development guide](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/) to learn more about developing Python applications for the {{site.data.keyword.streaminganalyticsshort}} service.
 
 ## Learn more
 
-- [Video: Build Streaming Applications](https://developer.ibm.com/streamsdev/docs/build-streaming-applications/)
 - [IBM Streams Quick Start for SPL](https://ibmstreams.github.io/streamsx.documentation/docs/spl/quick-start/qs-0/)
 
 ## Step 2 – Learn about the {{site.data.keyword.streaminganalyticsshort}} service
