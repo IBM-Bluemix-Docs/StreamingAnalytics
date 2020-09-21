@@ -18,6 +18,8 @@ subcollection: StreamingAnalytics
 {:note .note}
 
 # Getting your SPL application ready for the cloud
+{: #spl_cloud_ready}
+
 
 Use these techniques to make sure your existing SPL applications are ready to run in the cloud.
 {:shortdesc}
@@ -167,7 +169,16 @@ If your SPL application needs to access on-premise data, you have a couple of op
 ## Using the com.ibm.streamsx.inet.rest operators (e.g. HTTPTupleView, HTTPTupleInjection, HTTPJSONInjection, etc.)
 {: #using-the-com-ibm-streamsx-inet-rest-operators}
 
-See <a href="https://developer.ibm.com/streamsdev/docs/connecting-streaming-analytics-ibm-cloud" target="_blank" rel="noopener">Connecting to Streaming Analytics in the IBM Cloud</a> to learn under what conditions these operators (and other operators that play a server role) can be used.
+Streaming Analytics supports a wide variety of connectors, enabling you to stream data into and out of your Streams applications. These connectors are provided in toolkits as “source” or “sink” operators. Source operators bring data into a Streams application. Sink operators send data out of a Streams application. The set of Streams toolkits that are built into Streams are documented in [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/toolkits/toolkits.html), and an additional set of toolkits can be downloaded from [The IBM Streams GitHub project](https://github.com/IBMStreams).
+
+There are some special considerations when connecting to Streams applications running in the IBM Cloud. 
+
+The connection rule for IBM Cloud instances is very simple:  _**Connections between Streams apps and data sources/sinks must be initiated by the Streams app.**_  This means that a Streams connector operator, whether it is a source or a sink, is playing the client role in the connection.  Conveniently, many Streams connector operators always run in client mode.  The subset of operators that also support running in the server role cannot be used in server mode in an IBM Cloud Streaming Analytics.  Running a connector operator in server mode is not possible in an IBM Cloud Streaming Analytics instance because instances do not externalize host names or IP addresses associated with the application containers used in the instance.
+
+### Related Information
+
+*   If you need to connect your Streams app to a data source/sink that is protected by an enterprise firewall, see [Connect Streaming Analytics to your Enterprise Data using Secure Gateway](https://developer.ibm.com/streamsdev/docs/connect-streaming-analytics-to-your-enterprise/)
+
 
 
 ## Use of operators that are not compatible with Streaming Analytics
