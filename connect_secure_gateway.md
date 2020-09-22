@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 {:note: .note}
 
 # Connect to Enterprise Data using Secure Gateway
-{. connect_secure_gateway}
+{: #connect_secure_gateway}
 
 _This tutorial requires a paid instance of the Secure Gateway service. If you don’t have a need for Secure Gateway beyond running this tutorial, you may just want to read the instructions below to understand the capabilities of Secure Gateway and the details of using it with the Streaming Analytics service._
 {:note .note}
@@ -34,14 +34,14 @@ _
 
 The diagram below depicts the general Secure Gateway use case.  An application (labeled “Bluemix Application”) is shown running in the IBM Cloud.  That application needs to access a data resource (labeled “On-prem Resource”) that is not in the cloud.  It is located on-premise, behind an enterprise firewall.  Secure Gateway componentry (service/client) shown in the diagram facilitates secure connections between the cloud application and the on-prem resource.  See the [Secure Gateway documentation](https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html?cm_sp=dw-bluemix-_-streamsdev-_-devcenter) for more details about how Secure Gateway accomplishes secure connections.
 
-[![Secure Gateway overview](images/secure_gateway/SecGateOverview.png)](images/secure_gateway/SecGateOverview.png)
+![Secure Gateway overview](images/secure_gateway/SecGateOverview.png)
 
 This tutorial provides a set of sample apps and instructions that allow you to run this general Secure Gateway use case.  The figure below provides more detail about the exact scenario you will run:
 
 - The cloud application you will run in this use case is a sample Streams Processing Language (SPL) application that you will run in the Streaming Analytics service in IBM Cloud.
 - The on-prem resource is a Java p#rogram that sends and receives data to/from the Streams application.
 
-[![](images/secure_gateway/SecGateAnnotated1.png)](images/secure_gateway/SecGateAnnotated1.png)
+![Secure Gateway overview](images/secure_gateway/SecGateAnnotated1.png)
 
 In the remainder of this article, the term **enterprise system** will be used to refer to the system within your on-premise network where you will run the sample Java application.
 {:note .note}
@@ -65,7 +65,7 @@ Run the Java app from the samples package in test mode to verify the ports you w
 
 By specifying “test” as the first argument, the application will run in a test mode where its uses the ports specified locally. This will verify that the ports are available on your system to use in this tutorial. If you see output similar to the image below, continuing for 10 dice rolls, ports 8080 and 8082 can be used for the tutorial. If these ports are not available, run the Java application in test mode using other ports until you find two available ports on your system.
 
-[![](images/secure_gateway/JavaTestMode.png)](images/secure_gateway/JavaTestMode.png)
+![Java Test Mode](images/secure_gateway/JavaTestMode.png)
 
 ### Step 4 – Create your Secure Gateway instance
 
@@ -84,7 +84,7 @@ After creating your Secure Gateway instance in the previous step, your browser w
 - Enter “TCPSockets” for the name of your gateway. (Leave all the other inputs as their default.)
 - Click on the “Add Gateway” button to complete this step.
 
-[![](images/secure_gateway/AddGateway.png)](images/secure_gateway/AddGateway.png)
+![Add gateway](images/secure_gateway/AddGateway.png)
 
 ### Step 6 – Add enterprise destinations
 
@@ -102,7 +102,7 @@ From your Secure Gateway dashboard, repeat the following steps to create two des
 - Change the “Resource Authentication” choice to “None”.
 - Click the “Add Destination” button at the very bottom of the dialog to create the destination.
 
-[![](images/secure_gateway/CreateDestination.png)](images/secure_gateway/CreateDestination.png)
+![Create destination](images/secure_gateway/CreateDestination.png)
 
 Verify that your Secure Gateway dashboard displays two destinations at the end of this step.
 
@@ -116,13 +116,13 @@ This tutorial chooses TCP and no resource authentication in the image displayed 
 - Select Docker in the upper portion of the window that pops up (shown below).
 - Copy the complete docker run command displayed in the window.
 
-[![](images/secure_gateway/ConnectClient.png)](images/secure_gateway/ConnectClient.png)
+![Connect client](images/secure_gateway/ConnectClient.png)
 
 - Paste the docker run command into the same command-line session where you installed the Secure Gateway client in step 1, but don’t run it yet.
 - Because our Java sample application is bound to localhost, you’ll need to add another option to the docker run command that you just pasted. Add **–net=”host”** to the command right after the word “run” (separated by a space).  See an example of the the modified command in the image below.
 - Verify that the output of the docker run command is similar to the output below, making sure “The Secure Gateway tunnel is connected” message is present.
 
-[![](images/secure_gateway/DockerRun.png)](images/secure_gateway/DockerRun.png)
+![Docker run](images/secure_gateway/DockerRun.png)
 
 ### Step 8 – Authorize your destinations to their target host and port
 
@@ -132,7 +132,7 @@ In this step, we authorize the Secure Gateway client to communicate to the two h
 - Run “acl allow SinkHost:8082”, substituting your actual enterprise host name (or IP address) and the second available port that you identified in step 3.
 - Run “show acl” to verify that the entries were added successfully.
 
-[![](images/secure_gateway/CreateACLs-2.png)](images/secure_gateway/CreateACLs-2.png)
+![Create ACLs](images/secure_gateway/CreateACLs-2.png)
 
 ### Step 9 – Note the generated host/ports from the destinations
 
@@ -144,7 +144,7 @@ Secure Gateway generates host and port combinations for each destination that yo
 - Click on the gear icon within your TCPSink destination to display its properties.
 - Copy the values displayed under the “Cloud Host:Port” heading for use in step 12
 
-[![](images/secure_gateway/DestProperties.png)](images/secure_gateway/DestProperties.png)
+![Destination properties](images/secure_gateway/DestProperties.png)
 
 ### Step 10 – Create your Streaming Analytics instance
 
@@ -160,7 +160,7 @@ To prepare to run the Streaming Analytics application that will connect to your 
 - Check the status of the instance. If the dashboard indicates that the instance is stopped, press the “Start” button.
 - Next, click the “Launch” button to launch the Streaming Analytics console.
 
-[![Streaming Analytics dashboard](images/secure_gateway/StreamingAnalyticsDashboard.png)](images/secure_gateway/StreamingAnalyticsDashboard.png)
+![Streaming Analytics dashboard](images/secure_gateway/StreamingAnalyticsDashboard.png)
 
 ### Step 12 – Run the sample Streams app that will connect to your enterprise data
 
@@ -172,7 +172,7 @@ In this step, you will run a sample Streaming Analytics application that will in
 - A dialog will appear prompting you for parameters required by the TcpClientSockets sample application. Fill in these 4 fields using the generated hosts and ports you copied in step 9\. Break apart each copied value into its host value and its port value, to fill in 2 parameters.
 - Click “OK” to submit the job.
 
-[![](images/secure_gateway/SubmitParams.png)](images/secure_gateway/SubmitParams.png)
+![Job submission parameters](images/secure_gateway/SubmitParams.png)
 
 Once the job is submitted and appears in the Streaming Analytics console, you can proceed to the next step.  After this job begins to run, you may see messages start to fly by in your Secure Gateway docker client.  These are attempts by the Streaming Analytics application (TCP client) to connect to the Java application (TCP server) that is not running yet.
 
@@ -189,7 +189,7 @@ From a command line in the **StreamsIntegrationSamples/TcpServerSockets/bin** di
 
 Once the Java app is started, you should see output similar to the image below.  Data from each of the numbered dice rolls is sent to the Streaming Analytics application for analysis.  The results of the analysis are sent back to the Java application and displayed in its output.
 
-[![](images/secure_gateway/)](images/secure_gateway/)
+![Java program output](images/secure_gateway/JavaOutput.png)
 
 In addition to the Java app output connection activity should be visible in the Secure Gateway client Docker session, and data flow should be visible in the Streams Console.
 
@@ -203,5 +203,5 @@ When you are finished running the tutorial, make sure that you cancel the sample
 ## Useful Links
 
 - Download the samples used in this tutorial [here](https://ibm.biz/StreamsIntegrationSamples).
-- [Secure Gateway: everything you ever wanted to know](https://www.ibm.com/blogs/bluemix/2017/03/secure-gateway-everything-ever-wanted-know/)
+- [Secure Gateway: everything you ever wanted to know](https://www.ibm.com/cloud/blog/secure-gateway-everything-ever-wanted-know)
 

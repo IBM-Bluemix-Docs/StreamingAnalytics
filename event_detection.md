@@ -28,7 +28,7 @@ Do you want to perform complex event detection on information from real-time dat
 
 This tutorial explains how to obtain, run, and extend this starter app, called EventDetection. Here’s a graphical overview of the solution components:
 
-[![Event detection application overview](images/event_detection/AppOverview.png)](images/event_detection/AppOverview.png)
+![Event detection application overview](images/event_detection/AppOverview.png)
 
 The EventDetection app is implemented via the SDK for Node.js runtime. The app provides a simple web UI to display status and results of the analysis. The Node.js app is bound to an instance of the Streaming Analytics service. The app controls the service via the Streaming Analytics REST API.
 
@@ -56,16 +56,18 @@ The web page is broken up into a few different sections:
 *   The **Event Types** section defines the types of events the application is detecting.
 *   The **Application Results** section displays the events as they are detected. It also displays the highest and lowest temperature currently reported.
 
-[![Sample application screen shot](images/event_detection/WebApp.png)](images/event_detection/WebApp.png)
+![Sample application screen shot](images/event_detection/WebApp.png)
 
 ### Step 3: Explore the Running Streams Application
 
-1.  In the IBM Cloud web portal, bring up the service dashboard for your Streaming Analytics service. The Streaming Analytics dashboard, shown here, offers tasks to control your instance and links to relevant information:[![Streaming Analytics dashboard](images/event_detection/DashboardEvent.png)](images/event_detection/DashboardEvent.png)
+1.  In the IBM Cloud web portal, bring up the service dashboard for your Streaming Analytics service. The Streaming Analytics dashboard, shown here, offers tasks to control your instance and links to relevant information: ![Streaming Analytics dashboard](images/event_detection/DashboardEvent.png)
 2.  Click the **LAUNCH** button on the dashboard to display the Streaming Analytics console. In the image below, the console shows one job running – the Streams application that’s performing the complex event detection:  
-    [![IBM Streams console](images/event_detection/Console.png)](images/event_detection/Console.png)
-3.  Maximize the Streams Graph pane in the upper right of the console to show the flow graph of the Streams application. The graph shows the live status of your Streams application as it runs. You can hover over the operators in the graph or the connections between them to get more-detailed information. In the following screenshot, hovering over a connection between the first two operators in the graph displays information about the status of that connection, including the current tuple rate and the total number of tuples that have flowed across the connection. [![Streams graph](images/event_detection/StreamsGraph.png)](images/event_detection/StreamsGraph.png)
+    ![IBM Streams console](images/event_detection/Console.png)
+3.  Maximize the Streams Graph pane in the upper right of the console to show the flow graph of the Streams application. The graph shows the live status of your Streams application as it runs. You can hover over the operators in the graph or the connections between them to get more-detailed information. In the following screenshot, hovering over a connection between the first two operators in the graph displays information about the status of that connection, including the current tuple rate and the total number of tuples that have flowed across the connection. ![Streams graph](images/event_detection/StreamsGraph.png)
 
-<div style="color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; box-sizing: border-box;">**Please Note:** This Streams application can show tuple rates of zero for long periods of time.  As mentioned earlier, the weather data stream is “bursty”.  There is a lot of data to process when the app is started, but after that new data becomes available infrequently, so no data is processed in some time periods. To consistently see nonzero tuple rates in the graph, restart your Node.js app and switch over to the Streams graph immediately. Once the job restarts, you’ll see nonzero tuple rates for at least a few minutes as the Streams application processes the initial burst of data.</div>
+
+This Streams application can show tuple rates of zero for long periods of time.  As mentioned earlier, the weather data stream is “bursty”.  There is a lot of data to process when the app is started, but after that new data becomes available infrequently, so no data is processed in some time periods. To consistently see nonzero tuple rates in the graph, restart your Node.js app and switch over to the Streams graph immediately. Once the job restarts, you’ll see nonzero tuple rates for at least a few minutes as the Streams application processes the initial burst of data.
+{:note .note}
 
 ### Step 4: Review the Node.js Code
 
@@ -89,10 +91,10 @@ The Streams application used is a complete Streams application that requires no 
 1.  Open the EventDetection.spl file (located in the project’s spl subdirectory). The source code for the application is written in SPL, a language oriented to data streams and operators that act upon them.
 2.  Skim the code to locate the operator declarations and compare them to the flow graph that you saw in the Streaming Analytics console. You’ll take a more detailed look at a couple of the operators in the remainder of this section.
 3.  Examine the code for one of the operators that detects a complex event. The code snippet below shows an operator called MatchRegex, which is used to detect patterns on a series of data tuples in a stream. The code comments describe the nature of the M-shape pattern that the operator will detect:  
-    [![MatchRegex operator code sample](images/event_detection/MatchRegex.png)](images/event_detection/MatchRegex.png)  
+    ![MatchRegex operator code sample](images/event_detection/MatchRegex.png)  
     The declaration of the operator defines the pattern that you’re trying to detect by using regular-expression syntax with a set of predicates that are also defined in the operator declaration. The operator looks for the M-shape of the temperature at a weather station based upon the set of values that have been reported by that weather station. This MatchRegex operator consumes the WeatherSummary stream defined earlier in the SPL code and produces a stream called TempMEvent. The operator partitions the weather station’s readings into separate groupings, by the weather station’s ID, and maintains the state necessary to detect the event for each weather station.
 4.  Next, examine a sequence of two operators used to send events back to the Node.js app:  
-    [![HTTPPost operator code sample](images/event_detection/PostEvent.png)](images/event_detection/PostEvent.png)  
+    ![HTTPPost operator code sample](images/event_detection/PostEvent.png)  
     The first operator in the preceding snippet converts a tuple in a stream into a JSON string. This operator consumes a stream called OutputEvents defined earlier in the SPL code and produces a stream called JSONOutput. The next operator, called HTTPPost, consumes the JSONOutput stream and sends the JSON string to the route for the Node.js app via an HTTP POST.
 
 ### Step 6: Customize or Extend the Sample
