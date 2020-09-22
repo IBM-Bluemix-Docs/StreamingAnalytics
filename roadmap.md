@@ -33,7 +33,7 @@ If you are new to Streams, please take some time to learn about the Streams tech
 
 **Video: Introduction to {{site.data.keyword.streaminganalyticsshort}} with IBM Streams**
 
-![Introduction to streaming analytics with IBM Streams](https://www.youtube.com/embed/oQKeejV74lg){: video output="iframe" data-script="none" id="youtubeplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
+![Introduction to streaming analytics with IBM Streams](https://www.youtube.com/embed/oQKeejV74lg){: video output="iframe" data-script="none" id="introplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 
 ## Developing Streams applications with Python
 
@@ -63,8 +63,7 @@ To try it, [download the application file from GitHub](https://github.com/IBMStr
 - See the actual data being processed by an application (02:13)
 - Look at the applications logs and any data printed to stdout/stderr (03:17)
 
-<iframe src="https://www.youtube.com/embed/aXAqAaijzWc" width="600" height="450" allowfullscreen="allowfullscreen"></iframe>
-
+![Getting Started with Streaming Analytics](https://www.youtube.com/embed/aXAqAaijzWc){: video output="iframe" data-script="none" id="getstartedplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 
 ### End-to-End Starter Application
 
