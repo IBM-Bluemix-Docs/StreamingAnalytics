@@ -19,7 +19,6 @@ Streaming Analytics
     {: .topicgroup}
     c_starterapps.md
     resource_usage.md
-    event_detection.md
 
     {: .topicgroup}
     Python and Beam apps
@@ -57,6 +56,7 @@ Streaming Analytics
         granting-permissions-to-users.md
 
     {: .topicgroup}
+    event_detection.md
     service_endpoints.md
     compatible_toolkits.md
     c_beta_tooling.md
