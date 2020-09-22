@@ -101,23 +101,13 @@ A variety of tutorials and resources are available to help you use the {{site.da
 
 ### Messaging
 
-[Getting Started with {{site.data.keyword.streaminganalyticsshort}} and Message Hub](https://www.ibm.com/blogs/bluemix/2018/04/get-started-streaming-analytics-message-hub/)
+[Getting Started with {{site.data.keyword.streaminganalyticsshort}} and Message Hub](https://www.ibm.com/cloud/blog/get-started-streaming-analytics-message-hub)
 
 ### Watson IoT / Internet of Things Platform
 
-Demo: [IoT Device Events to {{site.data.keyword.streaminganalyticsshort}} in 15 Minutes](https://www.ibm.com/blogs/bluemix/2016/10/iot-device-events-to-streaming-analytics-in-15-minutes/)
-
-Demo: [Using Apache Edgent, Watson IoT, and {{site.data.keyword.streaminganalyticsshort}} to Create a Smart Sprinkler](https://developer.ibm.com/bluemix/2016/06/01/better-analytics-with-apache-quarks/)
+Demo: [IoT Device Events to {{site.data.keyword.streaminganalyticsshort}} in 15 Minutes](https://www.ibm.com/blogs/cloud-archive/2016/10/iot-device-events-to-streaming-analytics-in-15-minutes/)
 
 Tutorial: [Watson IoT Recipe: Integrate IBM {{site.data.keyword.streaminganalyticsshort}} Service with Watson IoT Platform](https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/)
-
-Tutorial: [Connect Apache Edgent running on Raspberry Pi to the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/recipes/tutorials/connect-apache-edgent-to-the-streaming-analytics-service-using-the-watson-iot-platform/)
-
-### Hadoop
-
-[Integrating {{site.data.keyword.streaminganalyticsshort}} with HDFS on IBM Cloud](https://developer.ibm.com/bluemix/2016/02/26/streaming-analytics-and-biginsights-using-hdfs/)
-
-[Integrating {{site.data.keyword.streaminganalyticsshort}} Service with HBase on IBM Cloud](https://developer.ibm.com/streamsdev/docs/integrating-streams-biginsights-hbase-service-bluemix/)
 
 ### Database
 
