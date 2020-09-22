@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-07-28"
+lastupdated: "2020-09-22"
 
 subcollection: StreamingAnalytics
 
@@ -16,7 +16,6 @@ subcollection: StreamingAnalytics
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
-{:video: .video}
 
 # Detect Complex Events in Real-time
 

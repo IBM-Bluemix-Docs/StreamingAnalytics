@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-07-28"
+lastupdated: "2020-09-22"
 
 subcollection: StreamingAnalytics
 
@@ -76,19 +76,16 @@ The EventDetection starter application uses the SDK for Node.js runtime in the I
 
 [Article: {{site.data.keyword.streaminganalyticsshort}} Event Detection Starter Application](https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/)
 
-* * *
-
 ### Other Streams Application Samples
 
 Run additional Streams application samples to further explore Streams apps in the cloud. Use the link below to access a wide variety of sample applications. Click on the link and search for “Cloud” to find the samples that are can be deployed in the cloud.
 
 [IBMStreams/samples Github project](http://ibmstreams.github.io/samples/)
 
-* * *
 
 ## Step 4 – Learn More about Developing Streams Applications for the Cloud
 
-See the [{{site.data.keyword.streaminganalyticsshort}} Development Guide](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/) for a comprehensive description of how to develop and deploy applications to the {{site.data.keyword.streaminganalyticsshort}} service. The development guide features a sample Streams application that analyzes Twitter data and step-by-step instructions for completing tasks that are part of the application development life cycle.
+See the [{{site.data.keyword.streaminganalyticsshort}} Development Guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide) for a comprehensive description of how to develop and deploy applications to the {{site.data.keyword.streaminganalyticsshort}} service. The development guide features a sample Streams application that analyzes Twitter data and step-by-step instructions for completing tasks that are part of the application development life cycle.
 
 If you have an existing Streams application that you would like to deploy to the cloud, see [Getting your SPL application ready for the cloud.](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/)
 
