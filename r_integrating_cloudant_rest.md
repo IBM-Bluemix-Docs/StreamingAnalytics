@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-16"
+  years: 2015, 2020
+lastupdated: "2020-09-22"
 
 subcollection: StreamingAnalytics
 
@@ -28,7 +28,7 @@ The following table lists tutorials to help you integrate {{site.data.keyword.st
 | Tutorials | Description   |
 |----------|--------|
 | [Connecting to {{site.data.keyword.streamsshort}}: What you need to know ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/cloud-archive/2017/02/connecting-to-streams/) | Using {{site.data.keyword.streamsshort}} operators that listen for a connection in {{site.data.keyword.streaminganalyticsshort}}  |
-| [Integrating with {{site.data.keyword.cloudant}} and many other RESTful Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/) | Describes how to use {{site.data.keyword.streamsshort}} HTTP adapters to integrate SPL applications to {{site.data.keyword.cloudant}} and other RESTful, web-based services. |
+| [Integrating with {{site.data.keyword.cloudant}} and many other RESTful Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrating_cloudant) | Describes how to use {{site.data.keyword.streamsshort}} HTTP adapters to integrate SPL applications to {{site.data.keyword.cloudant}} and other RESTful, web-based services. |
 | [Support for SPSS Analytics Toolkit in {{site.data.keyword.streaminganalyticsshort}} service ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-analytics-service/) | Provides a few tips that are required to effectively use the SPSS Analytics Toolkit operators in the cloud environment. |
 | [Get started with {{site.data.keyword.streaminganalyticsshort}} + {{site.data.keyword.messagehub}} service ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/get-started-streaming-analytics-message-hub) |  Shows how to communicate with {{site.data.keyword.messagehub}} from the {{site.data.keyword.streaminganalyticsshort}} service with the messaging toolkit. |
 | [Using Apache Edgent, {{site.data.keyword.iot_short}}, and {{site.data.keyword.streaminganalyticsshort}} to Create a Smart Sprinkler ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/cloud-archive/2016/06/better-analytics-with-apache-quarks/)| Find out how to combine Apache Edgent, {{site.data.keyword.streaminganalyticsshort}}, the {{site.data.keyword.iot_short}}, and other {{site.data.keyword.cloud}} services to develop a water conservation solution. |

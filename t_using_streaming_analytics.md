@@ -16,9 +16,9 @@ subcollection: StreamingAnalytics
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
-{:tip .tip}
-{:note .note}
-{:video .video}
+{:tip: .tip}
+{:note: .note}
+{:video: .video}
 
 
 # Using the Streaming Analytics Service

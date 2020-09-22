@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-16"
+  years: 2015, 2020
+lastupdated: "2020-09-22"
 
 subcollection: StreamingAnalytics
 
@@ -14,7 +14,7 @@ subcollection: StreamingAnalytics
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
-{:note .note}
+{:note: .note}
 
 # Deploying Streams applications to the cloud
 {: #t_deploytocloud}

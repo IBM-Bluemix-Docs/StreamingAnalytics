@@ -47,6 +47,11 @@ Streaming Analytics
         dev_guide.md
 
     {: .topicgroup}
+    Connecting with other services
+        connect_secure_gateway.md
+        integrate_cloudant.md
+
+    {: .topicgroup}
     Security
         service_cred_iam.md
         granting-permissions-to-users.md
