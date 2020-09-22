@@ -87,7 +87,5 @@ Starter applications have been provided as working examples of how to use the St
 
 ## Additional Information
 
-- [Roadmap for Streaming Analytics Service](https://developer.ibm.com/streamsdev/docs/roadmap-for-streaming-analytics-service-on-bluemix/)
-- [IBM Cloud](http://www.bluemix.net/?cm_sp=dw-bluemix-_-streamsdev-_-devcenter)
-- Streaming Analytics Documentation: [Getting Started with Streaming Analytics](https://www.ng.bluemix.net/docs/services/StreamingAnalytics/index.html?cm_sp=dw-bluemix-_-streamsdev-_-devcenter)
+- [Roadmap for Streaming Analytics Service on IBM Cloud](/docs/StreamingAnalytics?topic=StreamingAnalytics-roadmap)
 
