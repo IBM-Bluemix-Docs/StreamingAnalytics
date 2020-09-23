@@ -50,6 +50,8 @@ Streaming Analytics
         connect_secure_gateway.md
         integrate_cloudant.md
 
+    using_streams_rest.md
+
     {: .topicgroup}
     Security
         service_cred_iam.md
