@@ -8,8 +8,6 @@ subcollection: StreamingAnalytics
 
 ---
 
-
-
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -24,7 +22,7 @@ Streams integrates with other technologies using adapters to popular protocols s
 
 
 ## Prerequisites
-{: #prereqs)
+{: #prereqs}
 
 The Streams plugins for Microsoft VS Code. Follow the steps under **install and set up** in [this guide](http://ibmstreams.github.io/streamsx.documentation/docs/spl/quick-start/qs-1b/).
 
@@ -35,9 +33,10 @@ Download the latest release of the [Inet Toolkit](https://github.com/IBMStreams
 Download the [Streams Integration Samples project](https://ibm.biz/StreamsIntegrationSamples) and add the CloudantGet and CloudantPost samples to your Visual Studio workspace.
 
 ## Setting up Cloudant
-{: #setup)
+{: #setup}
 
 ### Getting connection information
+{: #getting_connection_information}
 
 Create a Cloudant account on [cloudant.com](https://cloudant.com/), or create a [Cloudant service on IBM Cloud](https://cloud.ibm.com/catalog/services/cloudant). When creating the service on IBM Cloud,  make sure you scroll to the bottom to the **Authentication** section and select the dropdown option for **IAM and legacy credentials.**
 
@@ -58,6 +57,7 @@ To get credentials, open your instance of the Cloudant service from the IBM Clou
 * Note the “url”, “username”, and “password” fields.
 
 ### Creating a Cloudant database
+{: #create_cloudant_database}
 
 Navigate to the Cloudant dashboard by logging in to [cloudant.com](http://cloudant.com/) or pressing **Launch Cloudant Dashboard** from the **Manage** tab of the Cloudant service dashboard.
 
@@ -70,9 +70,10 @@ To view the contents of the database, click the database name link in the table 
 ![Cloudant database view](images/cloudant/cloudant-view-database.png)
 
 ## Using Cloudant’s REST API
-{: #cloudant)
+{: #use_cloudant_api}
 
 ### Putting documents into Cloudant
+{: #put_documents_in_cloudant}
 
 Import the `CloudantPost` sample application into your workspace and launch it using your Cloudant credentials. The URL is **https://[username].cloudant.com/test.**
 
@@ -106,6 +107,7 @@ You should see the document that you just created.
 Note that the CloudantPost sample application’s first operator is a Beacon that activates the HTTPPost and gives it the message body data. To change the frequency or number of requests, use the Beacon’s period or iterations parameters. However, the HTTPPost operator can connect with any stream carrying an rstring parameter named “message”.
 
 ### Listing all documents in Cloudant
+{: #list_documents_in_cloudant}
 
 Now that we can create documents, we want to access them from the REST API. Launch CloudantGet with the same values, except change the URL to **[username].cloudant.com/test/_all_docs** .
 
@@ -118,9 +120,10 @@ While CloudantGet is running, you can run CloudantPost at the same time and watc
 For more information on Cloudant’s REST API, see the [Cloudant API Reference](https://docs.cloudant.com/api.html).
 
 ## Using other REST APIs from SPL
-{: #other)
+{: #use_other_rest_apis}
 
 ### Making a GET request
+{: #make_get_request}
 
 Using REST APIs, streams applications can integrate with nearly any web-based RESTful service.  You may use the provided samples to work with other services.
 
@@ -138,6 +141,7 @@ Import the CloudantGet project into your workspace. Launch the application, and 
 If the request was successful, the result will be printed to the console. If unsuccessful, an exception will display instead (see [“Troubleshooting unsuccessful requests”](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrating-with-cloudant-and-many-other-restful-services#troubleshooting)).
 
 ### Making a POST request
+{: #make_post_request}
 
 Similarly, to send a post request to a RESTful service, you need to provide URL, username, and password of the service.
 
@@ -148,7 +152,7 @@ In Streams Studio, import CloudantPost project into the workspace.  Build and l
 You may need to modify some parameters of the sample’s HTTP operators in order to integrate with different services.
 
 ## Troubleshooting unsuccessful requests
-{: #troubleshooting)
+{: #troubleshooting}
 
 - Revisit the service’s REST API instructions. The service may expect information that wasn’t included in the request.
 - Some REST APIs require fields not supported by Streams operators. In this case, waiting for an appropriate toolkit update may be necessary
