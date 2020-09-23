@@ -8,8 +8,6 @@ subcollection: StreamingAnalytics
 
 ---
 
-
-
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -24,6 +22,7 @@ _This tutorial requires a paid instance of the Secure Gateway service. If you do
 {:note .note}
 
 ## Introduction
+{: #introduction}
 
 One of the key challenges in running analytic applications in the cloud is how to securely connect to on-premise data sources (and sinks) that are behind an enterprise firewall.  Real-time analytic applications running in the Streaming Analytics service in IBM Cloud may ingest data from sources all over the world, but when these data sources are behind an enterprise firewall, action must be taken to enable connectivity to these services, and to ensure that data is transferred securely across these connections.  In many cases, the Secure Gateway service can be used to address this challenge.  Secure Gateway will establish network tunnels through the respective firewalls to specific enterprise destinations, enabling Streaming Analytics sources and sinks to securely access on-premises data in real-time while maintaining enterprise security and data management practices.
 
@@ -31,6 +30,7 @@ One of the key challenges in running analytic applications in the cloud is how t
 _
 
 ## Overview
+{: #overview}
 
 The diagram below depicts the general Secure Gateway use case.  An application (labeled “Bluemix Application”) is shown running in the IBM Cloud.  That application needs to access a data resource (labeled “On-prem Resource”) that is not in the cloud.  It is located on-premise, behind an enterprise firewall.  Secure Gateway componentry (service/client) shown in the diagram facilitates secure connections between the cloud application and the on-prem resource.  See the [Secure Gateway documentation](https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html?cm_sp=dw-bluemix-_-streamsdev-_-devcenter) for more details about how Secure Gateway accomplishes secure connections.
 
@@ -47,6 +47,7 @@ In the remainder of this article, the term **enterprise system** will be used to
 {:note .note}
 
 ### Step 1 – Prepare your enterprise system
+{: #prepare_enterprise}
 
 There are two prerequisites for your enterprise system to run this tutorial:
 
@@ -54,10 +55,12 @@ There are two prerequisites for your enterprise system to run this tutorial:
 - Java 1.7 or later – If your system does not have Java installed, download and install it from [IBM developerWorks](https://www.ibm.com/developerworks/java/jdk/) or [Oracle](https://www.oracle.com/java/index.html)
 
 ### Step 2 – Download the sample apps package
+{: #download_samples}
 
 The samples package contains application code that you will run in on your enterprise system and in your Streaming Analytics instance in the cloud. Download [the samples package](https://ibm.biz/StreamsIntegrationSamples) and extract its contents.
 
 ### Step 3 – Verify the ports you will be using on your enterprise system
+{: #verify_ports}
 
 Run the Java app from the samples package in test mode to verify the ports you will be using for this tutorial. From a command line in the **StreamsIntegrationSamples/TcpServerSockets/bin** directory, run:
 
@@ -68,6 +71,7 @@ By specifying “test” as the first argument, the application will run in a te
 ![Java Test Mode](images/secure_gateway/JavaTestMode.png)
 
 ### Step 4 – Create your Secure Gateway instance
+{: #create_secure_gateway_instance}
 
 Log into the [IBM Cloud web portal](https://console.bluemix.net/?cm_sp=dw-bluemix-_-streamsdev-_-devcenter) and create an instance of the Secure Gateway service from the [Secure Gateway catalog page](https://console.bluemix.net/catalog/services/secure-gateway/?cm_sp=dw-bluemix-_-streamsdev-_-devcenter).  
 
@@ -77,6 +81,7 @@ Because this tutorial uses two gateway destinations, it requires that you select
 After selecting the Professional price plan, press the “Create” button to create your Secure gateway instance.
 
 ### Step 5 – Add a gateway
+{: #add_gateway}
 
 After creating your Secure Gateway instance in the previous step, your browser will display the Service Gateway Dashboard for your instance. Next,
 
@@ -87,6 +92,7 @@ After creating your Secure Gateway instance in the previous step, your browser w
 ![Add gateway](images/secure_gateway/AddGateway.png)
 
 ### Step 6 – Add enterprise destinations
+{: #add_enterprise_destinations}
 
 In this step you will create two destinations on your enterprise system that map to the on-prem data resources that you need to access from the cloud.  One destination is used for outbound traffic from your enterprise system, the other for inbound traffic.
 
@@ -110,6 +116,7 @@ This tutorial chooses TCP and no resource authentication in the image displayed 
 {:note .note}
 
 ### Step 7 – Start the Secure Gateway client on your enterprise system
+{: #start_secure_gateway}
 
 - Click on the “Clients” section on the lower portion of the dashboard.
 - Next, click on the “+” icon in the Connect Client box.
@@ -125,6 +132,7 @@ This tutorial chooses TCP and no resource authentication in the image displayed 
 ![Docker run](images/secure_gateway/DockerRun.png)
 
 ### Step 8 – Authorize your destinations to their target host and port
+{: #authorize_destinations}
 
 In this step, we authorize the Secure Gateway client to communicate to the two host and port combinations that the destinations target.  In the command-line session running the Secure Gateway client:
 
@@ -135,6 +143,7 @@ In this step, we authorize the Secure Gateway client to communicate to the two h
 ![Create ACLs](images/secure_gateway/CreateACLs-2.png)
 
 ### Step 9 – Note the generated host/ports from the destinations
+{: #generated_hosts_and_ports}
 
 Secure Gateway generates host and port combinations for each destination that you create. These host and port combinations are not the host names and ports that are behind your enterprise firewall. These generated hosts and ports are what services like Streaming Analytics in IBM Cloud use to establish connections into your enterprise via Secure Gateway. In this step, you will copy the generated host and port for each of the destinations that you have created.
 
@@ -147,12 +156,14 @@ Secure Gateway generates host and port combinations for each destination that yo
 ![Destination properties](images/secure_gateway/DestProperties.png)
 
 ### Step 10 – Create your Streaming Analytics instance
+{: #create_streaming_analytics_instance}
 
 If you already have a Streaming Analytics instance in IBM Cloud, then no further action is required to complete this step.
 
 If you don’t have a Streaming Analytics instance, Log into the [IBM Cloud web portal](https://console.bluemix.net/?cm_sp=dw-bluemix-_-streamsdev-_-devcenter) and create an instance of the Streaming Analytics service from the [Streaming Analytics catalog page](https://console.bluemix.net/catalog/services/streaming-analytics?cm_sp=dw-bluemix-_-streamsdev-_-devcenter). Any price plan, including Lite, is sufficient to run this tutorial.
 
-### Step 11 – Launch the Streaming Analytics console
+### Step 11 – Launch the Streams console
+{: #launch_streams_console}
 
 To prepare to run the Streaming Analytics application that will connect to your enterprise data:
 
@@ -163,6 +174,7 @@ To prepare to run the Streaming Analytics application that will connect to your 
 ![Streaming Analytics dashboard](images/secure_gateway/StreamingAnalyticsDashboard.png)
 
 ### Step 12 – Run the sample Streams app that will connect to your enterprise data
+{: #run_sample_streams_app}
 
 In this step, you will run a sample Streaming Analytics application that will initiate connections to you enterprise system via Secure Gateway.  Two connections will used, one which will receive data from the enterprise data source, the other that will send data back to the enterprise.
 
@@ -177,6 +189,7 @@ In this step, you will run a sample Streaming Analytics application that will in
 Once the job is submitted and appears in the Streaming Analytics console, you can proceed to the next step.  After this job begins to run, you may see messages start to fly by in your Secure Gateway docker client.  These are attempts by the Streaming Analytics application (TCP client) to connect to the Java application (TCP server) that is not running yet.
 
 ### Step 13 – Run the sample Java app to listen for connections
+{: #run_sample_java_app}
 
 In this step, you will again run the Java app from the samples package, but this run will not be in test mode. Instead, this run of the Java app will listen for remote connections from Streaming Analytics in the cloud.
 
@@ -194,6 +207,7 @@ Once the Java app is started, you should see output similar to the image below.�
 In addition to the Java app output connection activity should be visible in the Secure Gateway client Docker session, and data flow should be visible in the Streams Console.
 
 ### Step 14 – Wrapup
+{: #wrapup}
 
 Once the Java application TcpServerSockets reaches the specified number of rolls, the Source and Sink Sockets will be closed and the application ends.
 
@@ -201,6 +215,7 @@ When you are finished running the tutorial, make sure that you cancel the sample
 {:note .note}
 
 ## Useful Links
+{: #useful_links}
 
 - Download the samples used in this tutorial [here](https://ibm.biz/StreamsIntegrationSamples).
 - [Secure Gateway: everything you ever wanted to know](https://www.ibm.com/cloud/blog/secure-gateway-everything-ever-wanted-know)

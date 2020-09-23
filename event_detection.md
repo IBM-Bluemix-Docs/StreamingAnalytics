@@ -18,6 +18,7 @@ subcollection: StreamingAnalytics
 {:note: .note}
 
 # Detect Complex Events in Real-time
+{: #detect_events}
 
 Do you want to perform complex event detection on information from real-time data sources and act quickly when events are found? It’s easier than you might think when you use the Streaming Analytics in IBM Cloud. To show how easy, I built a starter app that:
 
@@ -41,13 +42,15 @@ When the Streams application detects events, they’re sent to the Node.js app f
 NOAA data is available for a certain number of past hours. The application analyzes this past data first and then picks up real-time data as it is published by NOAA. For this reason, the application detects a large number of events right away and then detects events more sporadically, as new data is posted. Most NOAA weather stations post new readings hourly, but some updates might come more frequently.
 {:note .note}
 
-### Step 1: Deploy the Sample
+## Step 1: Deploy the Sample
+{: #deploy_sample}
 
 To run the Event Detection sample, you need to access the [IBM Streams Samples Catalog](http://ibmstreams.github.io/samples/), and find the [EventDetectionV2](https://github.com/IBMStreams/samples/tree/master/QuickStart/EventDetectionV2) sample.
 
 After locating the sample, follow the step-by-step instructions in its README.md file to run the sample.
 
-### Step 2: View the Running Sample
+## Step 2: View the Running Sample
+{: #view_running_sample}
 
 The last step of the deployment instructions in the README.md file has you visiting the URL of the Node.js application in your web browser. When you bring up the web app in your browser, you will see a basic web page with the title: **Welcome to the Event Detection Sample Application!** as shown in the figure below.  
 The web page is broken up into a few different sections:
@@ -58,7 +61,8 @@ The web page is broken up into a few different sections:
 
 ![Sample application screen shot](images/event_detection/WebApp.png)
 
-### Step 3: Explore the Running Streams Application
+## Step 3: Explore the Running Streams Application
+{: #explore_streams_application}
 
 1.  In the IBM Cloud web portal, bring up the service dashboard for your Streaming Analytics service. The Streaming Analytics dashboard, shown here, offers tasks to control your instance and links to relevant information: ![Streaming Analytics dashboard](images/event_detection/DashboardEvent.png)
 2.  Click the **LAUNCH** button on the dashboard to display the Streaming Analytics console. In the image below, the console shows one job running – the Streams application that’s performing the complex event detection:  
@@ -69,7 +73,8 @@ The web page is broken up into a few different sections:
 This Streams application can show tuple rates of zero for long periods of time.  As mentioned earlier, the weather data stream is “bursty”.  There is a lot of data to process when the app is started, but after that new data becomes available infrequently, so no data is processed in some time periods. To consistently see nonzero tuple rates in the graph, restart your Node.js app and switch over to the Streams graph immediately. Once the job restarts, you’ll see nonzero tuple rates for at least a few minutes as the Streams application processes the initial burst of data.
 {:note .note}
 
-### Step 4: Review the Node.js Code
+## Step 4: Review the Node.js Code
+{: #review_nodejs_code}
 
 The EventDetection app is a complete yet simple application that requires no customization to run. To understand the app, examine its code:
 
@@ -84,7 +89,8 @@ The EventDetection app is a complete yet simple application that requires no cus
     *   Some of the steps involve calling the Streaming Analytics REST API, making this sample a good example of how to use the API from Node.js.
     *   Step 5 is implemented as a POST handler. The Streams application sends event messages to Node.js using an HTTPPost operator, and the POST handler in the Node.js app parses them and updates the web UI accordingly.
 
-### Step 5: Review the Streams Application Code
+## Step 5: Review the Streams Application Code
+{: #review_streams_graph}
 
 The Streams application used is a complete Streams application that requires no customization to run. The source code that you downloaded (or cloned or forked) contains the application’s source code as well as its prebuilt .sab file. To understand the Streams application, examine its code. Below, we look at the details behind two key pieces of the Streams app:
 
@@ -97,7 +103,8 @@ The Streams application used is a complete Streams application that requires no 
     ![HTTPPost operator code sample](images/event_detection/PostEvent.png)  
     The first operator in the preceding snippet converts a tuple in a stream into a JSON string. This operator consumes a stream called OutputEvents defined earlier in the SPL code and produces a stream called JSONOutput. The next operator, called HTTPPost, consumes the JSONOutput stream and sends the JSON string to the route for the Node.js app via an HTTP POST.
 
-### Step 6: Customize or Extend the Sample
+## Step 6: Customize or Extend the Sample
+{: #customize_sample}
 
 Now that you’re familiar with the starter app, you can modify the application’s source code to customize it or extend it in any of several interesting ways:
 
@@ -113,7 +120,8 @@ To modify the app:
 3.  If you have modified the SPL code, you must recompile it in a Streams development environment and replace the .sab file that you downloaded with this updated version. To learn how to develop and compile a Streams app, see the [Streaming Analytics Development Guide](https://developer.ibm.com/streamsdev/docs/development-guide-choice/)
 4.  Deploy (push) the modified Node.js application to the IBM Cloud.
 
-### Conclusion
+## Conclusion
+{: #conclusion}
 
 Complex event detection against a real-time data stream is possible using the Streaming Analytics service in the IBM Cloud. The application that you worked through in this tutorial will get you started. You can change to the data streams you want to analyze, define the events you want to detect, and act on those events to accomplish your goals.
 
