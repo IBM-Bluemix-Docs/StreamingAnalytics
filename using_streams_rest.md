@@ -19,7 +19,7 @@ subcollection: StreamingAnalytics
 # Using the Streams REST API
 {: #using_streams_rest_api}
 
-Do you want to gain a deeper understanding of your Streams apps running either on-premises or in the Streaming Analytics service on IBM Cloud? The Streams Console enables interactive monitoring of your IBM Streams installation. Moreover, the Streams REST API provides powerful programmatic access to detailed metrics for Streams instances, jobs, PEs, and more. The REST API is available wherever you can access the Streams Console. Note that the Streams REST API interacts with the underlying Streams infrastructure and is different than the Streaming Analytics REST API. To learn about Streaming Analytics REST API, see the [Streaming Analytics REST API reference](https://console.bluemix.net/apidocs/streaming-analytics-v2?cm_sp=dw-bluemix-_-streamsdev-_-devcenter).
+Do you want to gain a deeper understanding of your Streams apps running either on-premises or in the Streaming Analytics service on IBM Cloud? The Streams Console enables interactive monitoring of your IBM Streams installation. Moreover, the Streams REST API provides powerful programmatic access to detailed metrics for Streams instances, jobs, PEs, and more. The REST API is available wherever you can access the Streams Console. Note that the Streams REST API interacts with the underlying Streams infrastructure and is different than the Streaming Analytics REST API. To learn about Streaming Analytics REST API, see the [Streaming Analytics v2 - IBM Cloud API Docs](https://ibm.co/2Gt9mB6).
 
 This article is an introduction to the Streams REST API for both IBM Streams on-premise and Streaming Analytics in the cloud.
 

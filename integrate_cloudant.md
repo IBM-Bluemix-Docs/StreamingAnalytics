@@ -15,7 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:note: .note}
 
-# Integrating with Cloudant and many other RESTful Services
+# Integrating with Cloudant and other RESTful Services
 {: #integrate_cloudant}
 
 Streams integrates with other technologies using adapters to popular protocols such as TCP, ODBC, Kafka, JMS, MQTT and HDFS, just to name a few. REST is another established protocol that is gaining popularity because of its use in many cloud-based services. This article describes how to use Streams HTTP adapters to integrate SPL applications to Cloudant and other RESTful, web-based services.
@@ -92,7 +92,7 @@ If the request was not successful, a few things might have happened:
 
 - The console printed a JSON error response. You successfully connected to Cloudant, but some error occurred after that point. The “reason” field gives some hints about what went wrong.
 - If the console printed a non-JSON error or exception, you have not successfully connected to Cloudant. Double check the URL for accuracy.
-- See [“Troubleshooting unsuccessful requests”](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrating-with-cloudant-and-many-other-restful-services#troubleshooting)
+- See [“Troubleshooting unsuccessful requests”](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrate_cloudant#troubleshooting)
 
 Upon success, new documents have been added to Cloudant. Head back to the “All Documents” view to see them.
 
@@ -138,7 +138,7 @@ Import the CloudantGet project into your workspace. Launch the application, and 
 
 ![Other services submission time values for making GET requests](images/cloudant/other-services-rest-api-get.png)
 
-If the request was successful, the result will be printed to the console. If unsuccessful, an exception will display instead (see [“Troubleshooting unsuccessful requests”](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrating-with-cloudant-and-many-other-restful-services#troubleshooting)).
+If the request was successful, the result will be printed to the console. If unsuccessful, an exception will display instead (see [“Troubleshooting unsuccessful requests”](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrate_cloudant#troubleshooting)).
 
 ### Making a POST request
 {: #make_post_request}

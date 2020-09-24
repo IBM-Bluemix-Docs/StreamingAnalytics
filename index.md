@@ -35,7 +35,7 @@ If you want to go further with your own applications, you can get a {{site.data.
 
 If you are not familiar with {{site.data.keyword.streamsshort}} application development, there are resources to help you learn. For more information, see [{{site.data.keyword.streamsshort}} Knowledge Center ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.3.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
 
-If you already have an SPL application that you run on premise, you must [get your application ready for the cloud.![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/){:new_window}
+If you already have an SPL application that you run on premise, you must [get your application ready for the cloud.](/docs/StreamingAnalytics?topic=StreamingAnalytics-spl_cloud_ready)
 
 You must compile your applications in Red Hat Enterprise Linux (RHEL) 7.x.
 {:note .note}

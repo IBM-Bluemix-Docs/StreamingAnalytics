@@ -103,7 +103,3 @@ Some of the features that are not supported for {{site.data.keyword.streamingana
   - Some of the toolkit operators are not supported. For more information, see [Supported toolkits and adapters](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits).
   - The Streams JMX API.
 
-## Where can I learn more about the Streaming Analytics service?
-{: #roadmap notoc}
-
-The IBM developerWorks® article, [Roadmap for {{site.data.keyword.streaminganalyticsshort}} Service on {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/roadmap-for-streaming-analytics-service-on-bluemix/), has guidance for learning about the service, plus links to informative blogs, demos, and articles.

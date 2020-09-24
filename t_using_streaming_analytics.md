@@ -8,8 +8,6 @@ subcollection: StreamingAnalytics
 
 ---
 
-
-
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -19,7 +17,6 @@ subcollection: StreamingAnalytics
 {:tip: .tip}
 {:note: .note}
 {:video: .video}
-
 
 # Using the Streaming Analytics Service
 {: #using_streaming_analytics}
@@ -53,7 +50,7 @@ The Streams Console can be used to submit a Streams application to your instance
 
 ![Job submit icon](images/using/ConsoleSubmitJobIcon.png)
 
-When submitting a job, you are prompted to identify a Streams Application Bundle (.sab file) to upload and submit to your Streams instance.  Below, a .sab file is chosen for an application that was developed locally on a laptop using the Streams Quick Start Edition.  (The Streaming Analytics service requires you to develop your Streams application in a Streams environment.  If you don’t already have a Streams environment where you can develop and test applications, the Streams Quick Start Edition provides a full Streams environment, free-of-charge.  See the [Streaming Analytics Development Guide](https://developer.ibm.com/streamsdev/docs/development-guide-choice/) for instructions on downloading and setting up the Streams Quick Start Edition.)
+When submitting a job, you are prompted to identify a Streams Application Bundle (.sab file) to upload and submit to your Streams instance.  Below, a .sab file is chosen for an application that was developed locally on a laptop using the Streams Quick Start Edition.  (The Streaming Analytics service requires you to develop your Streams application in a Streams environment.  If you don’t already have a Streams environment where you can develop and test applications, the Streams Quick Start Edition provides a full Streams environment, free-of-charge.  See the [Streaming Analytics Development Guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide) for instructions on downloading and setting up the Streams Quick Start Edition.)
 
 ![Submit twitter stream job](images/using/SubmitJobTwitterStream.png)
 
@@ -72,10 +69,10 @@ In addition to submitting applications, the console can be used to explore and m
 
   This short video demonstrates the features and concepts just discussed.  You can follow along simply by downloading the sample application and submitting it to the service, no coding required!
 
-[Download the application](https://github.com/IBMStreams/samples/releases/download/20170322_release/StockTradesStarterApp.sab), and then watch the video. It shows how to:
+[Download the application](https://github.com/IBMStreams/samples/raw/main/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab), and then watch the video. It shows how to:
 
 - Create an instance of the Streaming Analytics Service (00:22)
-- Run the [starter application](https://github.com/IBMStreams/samples/releases/download/20170322_release/StockTradesStarterApp.sab) in the service (00:56)
+- Run the [starter application](https://github.com/IBMStreams/samples/raw/main/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab) in the service (00:56)
 - See the actual data being processed by an application  (02:13)
 - Look at the applications logs and any data printed to stdout/stderr  (03:17)
 
@@ -84,9 +81,9 @@ In addition to submitting applications, the console can be used to explore and m
 ### Programmatic Approach – Using the Streaming Analytics REST API
 {: #programmatic}
 
-The Streaming Analytics service provides a REST API to allow IBM Cloud applications to interact with a Streams instance programmatically.  The API provides several operations allowing an application to submit Streams application bundles, control the instance, query statuses, etc.  See the [Streaming Analytics documentation in IBM Cloud](https://www.ng.bluemix.net/docs/services/StreamingAnalytics/index.html#r_restapi?cm_sp=dw-bluemix-_-streamsdev-_-devcenter) to view detailed information about its REST API.
+The Streaming Analytics service provides a REST API to allow IBM Cloud applications to interact with a Streams instance programmatically.  The API provides several operations allowing an application to submit Streams application bundles, control the instance, query statuses, etc.  See the [Streaming Analytics v2 - IBM Cloud API Docs](https://ibm.co/2Gt9mB6) to view detailed information about its REST API.
 
-Starter applications have been provided as working examples of how to use the Streaming Analytics REST API.  See the [Event Detection starter application tutorial](https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/) for an exmaple of how to use the Streaming Analytics service programatically through its REST API.
+Starter applications have been provided as working examples of how to use the Streaming Analytics REST API.  See the [Event Detection starter application tutorial](/docs/StreamingAnalytics?topic=StreamingAnalytics-detect_events) for an exmaple of how to use the Streaming Analytics service programatically through its REST API.
 
 ## Related Information
 {: #related}

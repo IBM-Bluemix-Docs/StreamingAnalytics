@@ -162,7 +162,7 @@ In some rare cases, on-premise data might be publicly available, i.e. the data m
 
 If your SPL application needs to access on-premise data, you have a couple of options for modifying your application to make it cloudy-ready.
 
-- Use the Secure Gateway service in IBM Cloud to build a secure path for accessing your on-premises data. Then, access that on-premises data through a protocol that is compatible with Secure Gateway. See <a href="https://developer.ibm.com/streamsdev/docs/connect-streaming-analytics-to-your-enterprise/" target="_blank" rel="noopener">Connecting Streaming Analytics to Your Enterprise Data</a> for more information on this technique.
+- Use the Secure Gateway service in IBM Cloud to build a secure path for accessing your on-premises data. Then, access that on-premises data through a protocol that is compatible with Secure Gateway. See [Connect to Enterprise Data using {{site.data.keyword.SecureGateway}}](/docs/StreamingAnalytics?topic=StreamingAnalytics-connect_secure_gateway) for more information on this technique.
 - Open up ports on the on-premises firewall to allow a Streams adapter to access the data. This method works, but it is not recommended because it is not as secure as the previous technique.
 
 
@@ -177,7 +177,7 @@ The connection rule for IBM Cloud instances is very simple:  _**Connections bet
 
 ### Related Information
 
-*   If you need to connect your Streams app to a data source/sink that is protected by an enterprise firewall, see [Connect Streaming Analytics to your Enterprise Data using Secure Gateway](https://developer.ibm.com/streamsdev/docs/connect-streaming-analytics-to-your-enterprise/)
+*   If you need to connect your Streams app to a data source/sink that is protected by an enterprise firewall, see [Connect to Enterprise Data using {{site.data.keyword.SecureGateway}}](/docs/StreamingAnalytics?topic=StreamingAnalytics-connect_secure_gateway)
 
 
 
