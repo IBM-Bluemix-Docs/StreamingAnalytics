@@ -46,7 +46,7 @@ If you would like to develop applications using Python, [please follow the Pytho
 
 ## Step 2 – Learn about the {{site.data.keyword.streaminganalyticsshort}} service
 
-Please read this quick introduction to the [{{site.data.keyword.streaminganalyticsshort}} Service](https://developer.ibm.com/streamsdev/docs/streaming-analytics-now-available-bluemix-2/).
+Please read this quick introduction to [using the {{site.data.keyword.streaminganalyticsshort}} Service](/docs/StreamingAnalytics?topic=StreamingAnalytics-using_streaming_analytics).
 
 ## Step 3 – Run a Sample
 
@@ -56,10 +56,10 @@ There are a number of sample applications you can use to learn about the {{site.
 
 This is a simple application that is ready to be deployed to the {{site.data.keyword.streaminganalyticsshort}} service. You do not have to write any code or install any software.
 
-To try it, [download the application file from GitHub](https://github.com/IBMStreams/samples/releases/download/20170322_release/StockTradesStarterApp.sab), and then watch this video to see how to:
+To try it, [download the application file from GitHub](https://github.com/IBMStreams/samples/raw/main/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab), and then watch this video to see how to:
 
 - Create an instance of the {{site.data.keyword.streaminganalyticsshort}} Service (00:22)
-- Run the [starter application](https://github.com/IBMStreams/samples/releases/download/20170322_release/StockTradesStarterApp.sab) in the service (00:56)
+- Run the [starter application](https://github.com/IBMStreams/samples/raw/main/QuickStart/TradesApp/starterApp/StockTradesStarterApp.sab) in the service (00:56)
 - See the actual data being processed by an application (02:13)
 - Look at the applications logs and any data printed to stdout/stderr (03:17)
 
@@ -74,7 +74,7 @@ Deploy the end-to-end starter application to the cloud if you want to explore ho
 
 The EventDetection starter application uses the SDK for Node.js runtime in the IBM Cloud. EventDetection uses the {{site.data.keyword.streaminganalyticsshort}} service to detect simple and complex events in a Stream of real-time weather data.
 
-[Article: {{site.data.keyword.streaminganalyticsshort}} Event Detection Starter Application](https://developer.ibm.com/streamsdev/docs/detect-events-with-streams/)
+[Article: {{site.data.keyword.streaminganalyticsshort}} Event Detection Starter Application](/docs/StreamingAnalytics?topic=StreamingAnalytics-detect_events)
 
 ### Other Streams Application Samples
 
@@ -87,7 +87,7 @@ Run additional Streams application samples to further explore Streams apps in th
 
 See the [{{site.data.keyword.streaminganalyticsshort}} Development Guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide) for a comprehensive description of how to develop and deploy applications to the {{site.data.keyword.streaminganalyticsshort}} service. The development guide features a sample Streams application that analyzes Twitter data and step-by-step instructions for completing tasks that are part of the application development life cycle.
 
-If you have an existing Streams application that you would like to deploy to the cloud, see [Getting your SPL application ready for the cloud.](https://developer.ibm.com/streamsdev/docs/getting-spl-application-ready-cloud/)
+If you have an existing Streams application that you would like to deploy to the cloud, see [Getting your SPL application ready for the cloud.](/docs/StreamingAnalytics?topic=StreamingAnalytics-spl_cloud_ready)
 
 ## Step 5 – Learn about Integrating with other IBM Cloud Services
 
@@ -95,9 +95,9 @@ A variety of tutorials and resources are available to help you use the {{site.da
 
 ### General
 
-[Integrating with Cloudant and many other RESTful Services](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/)
+[Integrating with Cloudant and other RESTful Services](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrate_cloudant)
 
-[Connect {{site.data.keyword.streaminganalyticsshort}} to your Enterprise Data using Secure Gateway](https://developer.ibm.com/streamsdev/docs/connect-streaming-analytics-to-your-enterprise/)
+[Connect to Enterprise Data using {{site.data.keyword.SecureGateway}}](/docs/StreamingAnalytics?topic=StreamingAnalytics-connect_secure_gateway)
 
 ### Messaging
 
@@ -107,17 +107,15 @@ A variety of tutorials and resources are available to help you use the {{site.da
 
 Demo: [IoT Device Events to {{site.data.keyword.streaminganalyticsshort}} in 15 Minutes](https://www.ibm.com/blogs/cloud-archive/2016/10/iot-device-events-to-streaming-analytics-in-15-minutes/)
 
-Tutorial: [Watson IoT Recipe: Integrate IBM {{site.data.keyword.streaminganalyticsshort}} Service with Watson IoT Platform](https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/)
-
 ### Database
 
-[Using {{site.data.keyword.streaminganalyticsshort}} with JDBC-enabled Databases in IBM Cloud](https://developer.ibm.com/bluemix/2016/01/26/streaming-analytics-with-jdbc-enabled-databases/)
+[Connect to JDBC enabled databases from SPL and Python](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/connect-to-jdbc-enabled-databases-f?CommunityKey=c0c16ff2-10ef-4b50-ae4c-57d769937235&tab=librarydocuments)
 
-[Integrating with Cloudant and many other RESTful Services](https://developer.ibm.com/streamsdev/docs/integrating-with-cloudant-and-many-other-restful-services/)
+[Integrating with Cloudant and other RESTful Services](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrate_cloudant)
 
 ### Predictive Analytics
 
-[Support for SPSS Analytics Toolkit in the {{site.data.keyword.streaminganalyticsshort}} Service](https://developer.ibm.com/streamsdev/docs/spss-in-bluemix-streaming-analytics-service/)
+[Support for SPSS Analytics Toolkit in the {{site.data.keyword.streaminganalyticsshort}} Service](http://ibmstreams.github.io/streamsx.documentation/docs/spss/spss-analytics-cloud/)
 
 ### File-based Data Sources
 
@@ -125,7 +123,7 @@ The [Streams ObjectStorage Toolkit](https://ibmstreams.github.io/streamsx.object
 
 ## Step 6 – Taking Care of your Streams Application in the Cloud
 
-If you have a Streams application running in the {{site.data.keyword.streaminganalyticsshort}} service, it is most likely one that runs continuously – 24 hours a day and 7 days a week. But how can you make sure that your application is running normally? See [Monitoring Your Streams App in the IBM Cloud using the Streams REST API](https://developer.ibm.com/streamsdev/2018/12/07/dig-deeper-into-streaming-analytics-by-using-the-streams-rest-api/) to learn how you can programmatically assess whether your app is operating normally and extract valuable metrics about its execution.
+If you have a Streams application running in the {{site.data.keyword.streaminganalyticsshort}} service, it is most likely one that runs continuously – 24 hours a day and 7 days a week. But how can you make sure that your application is running normally? See [Using the Streams REST API](/docs/StreamingAnalytics?topic=StreamingAnalytics-using_streams_rest_api) to learn how you can programmatically assess whether your app is operating normally and extract valuable metrics about its execution.
 
 
 

@@ -117,7 +117,7 @@ To modify the app:
 
 1.  Plan your modifications.
 2.  Change the Node.js and/or SPL source code to reflect your desired customizations.
-3.  If you have modified the SPL code, you must recompile it in a Streams development environment and replace the .sab file that you downloaded with this updated version. To learn how to develop and compile a Streams app, see the [Streaming Analytics Development Guide](https://developer.ibm.com/streamsdev/docs/development-guide-choice/)
+3.  If you have modified the SPL code, you must recompile it in a Streams development environment and replace the .sab file that you downloaded with this updated version. To learn how to develop and compile a Streams app, see the [Streaming Analytics Development Guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide)
 4.  Deploy (push) the modified Node.js application to the IBM Cloud.
 
 ## Conclusion
