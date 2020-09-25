@@ -66,7 +66,7 @@ Let’s start by getting the URI to access the Streams URI, to then dig into oth
         <pre>{
           "role": "Manager",
           "jobs": "https://[host]/v2/streaming_analytics/[instanceId]/jobs",
-          "documentation": "https://[host]/docs/services/StreamingAnalytics/index.html",
+          "documentation": "https://[host]/docs/StreamingAnalytics",
           "enabled": true,
           "streams_self": "https://[streams_host]:[port]/streams/rest/instances/[instanceId]/",
           "job_count": 0,

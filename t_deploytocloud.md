@@ -22,7 +22,7 @@ subcollection: StreamingAnalytics
 You can deploy your {{site.data.keyword.streamsshort}} applications to a {{site.data.keyword.streaminganalyticsshort}} instance that is running in {{site.data.keyword.cloud}}.
 {:shortdesc}
 
-{{site.data.keyword.streamsshort}} applications are written in {{site.data.keyword.streamsshort}} Processing Language (SPL), SPL, Java, Scala, or Python in an {{site.data.keyword.streamsshort}} environment. You can now develop Streams Python applications without an {{site.data.keyword.streamsshort}} environment. See [Deploying {{site.data.keyword.streamsshort}} Python applications to the cloud](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_deploytocloud#t_deploypython)
+{{site.data.keyword.streamsshort}} applications are written in {{site.data.keyword.streamsshort}} Processing Language (SPL), SPL, Java, Scala, or Python in an {{site.data.keyword.streamsshort}} environment. You can now develop Streams Python applications without an {{site.data.keyword.streamsshort}} environment. See [Deploying {{site.data.keyword.streamsshort}} Python applications to the cloud](/docs/StreamingAnalytics?topic=StreamingAnalytics-t_deploytocloud#t_deploypython)
 
 
 {{site.data.keyword.streaminganalyticsshort}} doesn't include an {{site.data.keyword.streamsshort}} development environment in the cloud, but you can deploy the applications that you develop locally to the cloud.
@@ -59,4 +59,4 @@ Deploy your {{site.data.keyword.streamsshort}} Python applications to a {{site.d
 
 With the [{{site.data.keyword.streamsshort}} Python Application API ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/python/python-appapi-devguide/#50-api-features){:new_window}, which is included in the streamsx package, you can deploy Python applications to the {{site.data.keyword.streaminganalyticsshort}} service. Check out the [Developing for the {{site.data.keyword.streaminganalyticsshort}} service ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window} tutorial to get an example of how to create and deploy a simple Python application for the {{site.data.keyword.streaminganalyticsshort}} service.
 
-{{site.data.keyword.DSX_full}} also supports the submission of Python applications in Jupyter interactive notebooks. For more information, see [Developing Python applications for {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python).
+{{site.data.keyword.DSX_full}} also supports the submission of Python applications in Jupyter interactive notebooks. For more information, see [Developing Python applications for {{site.data.keyword.streaminganalyticsshort}}](/docs/StreamingAnalytics?topic=StreamingAnalytics-t_develop_apps_python).

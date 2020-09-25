@@ -117,7 +117,7 @@ This Streams application will output the contents of the Cloudant database every
 
 While CloudantGet is running, you can run CloudantPost at the same time and watch the database grow from CloudantGet’s console output.
 
-For more information on Cloudant’s REST API, see the [Cloudant API Reference](https://docs.cloudant.com/api.html).
+For more information on Cloudant’s REST API, see the [Cloudant API reference overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/Cloudant?topic=Cloudant-api-reference-overview).
 
 ## Using other REST APIs from SPL
 {: #use_other_rest_apis}

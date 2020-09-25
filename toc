@@ -49,6 +49,7 @@ Streaming Analytics
     Connecting with other services
         connect_secure_gateway.md
         integrate_cloudant.md
+        integrate_other.md
 
     using_streams_rest.md
 
@@ -62,7 +63,6 @@ Streaming Analytics
     service_endpoints.md
     compatible_toolkits.md
     c_beta_tooling.md
-    r_integrating_cloudant_rest.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

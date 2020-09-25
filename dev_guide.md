@@ -459,5 +459,5 @@ A pop-up window should appear showing that a request was made to collect the log
 ## Additional Resources
 {: #additional-resources}
 
-- Read more about about some of the special considerations when developing your Streams application for the cloud in [Getting your SPL application ready for the cloud](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-getting-your-spl-application-ready-for-the-cloud).
+- Read more about about some of the special considerations when developing your Streams application for the cloud in [Getting your SPL application ready for the cloud](/docs/StreamingAnalytics?topic=StreamingAnalytics-spl_cloud_ready).
 

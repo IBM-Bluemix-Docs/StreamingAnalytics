@@ -32,7 +32,7 @@ _
 ## Overview
 {: #overview}
 
-The diagram below depicts the general {{site.data.keyword.SecureGateway}} use case.  An application (labeled “Bluemix Application”) is shown running in the IBM Cloud.  That application needs to access a data resource (labeled “On-prem Resource”) that is not in the cloud.  It is located on-premise, behind an enterprise firewall.  {{site.data.keyword.SecureGateway}} componentry (service/client) shown in the diagram facilitates secure connections between the cloud application and the on-prem resource.  See the [{{site.data.keyword.SecureGateway}} documentation](https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html?cm_sp=dw-bluemix-_-streamsdev-_-devcenter) for more details about how {{site.data.keyword.SecureGateway}} accomplishes secure connections.
+The diagram below depicts the general {{site.data.keyword.SecureGateway}} use case.  An application (labeled “Bluemix Application”) is shown running in the IBM Cloud.  That application needs to access a data resource (labeled “On-prem Resource”) that is not in the cloud.  It is located on-premise, behind an enterprise firewall.  {{site.data.keyword.SecureGateway}} componentry (service/client) shown in the diagram facilitates secure connections between the cloud application and the on-prem resource.  See the [{{site.data.keyword.SecureGateway}} documentation](/docs/SecureGateway/secure_gateway.html) for more details about how {{site.data.keyword.SecureGateway}} accomplishes secure connections.
 
 ![{{site.data.keyword.SecureGateway}} overview](images/secure_gateway/SecGateOverview.png)
 

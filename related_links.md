@@ -20,7 +20,7 @@ subcollection: StreamingAnalytics
 
 ## Tutorials and Samples
 {: #samples notoc}
-* [Developing for the {{site.data.keyword.streaminganalyticsshort}} service in Python ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html)
+* [Developing for the {{site.data.keyword.streaminganalyticsshort}} service in Python ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/index.html){:new_window}
 
 
 ## API Reference
@@ -31,8 +31,8 @@ subcollection: StreamingAnalytics
 
 ## Compatible Runtimes
 {: #buildpacks notoc}
-* [Liberty for Java](/docs/runtimes/liberty?topic=liberty-getting-started#getting-started)
-* [SDK for Node.js](/docs/runtimes/nodejs?topic=Nodejs-getting-started#getting-started)
+* [Liberty for Java ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/cloud-foundry?topic=cloud-foundry-getting-started-liberty){:new_window}
+* [SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/cloud-foundry?topic=cloud-foundry-getting-started-node){:new_window}
 
 ## General Resources
 {: #general notoc}

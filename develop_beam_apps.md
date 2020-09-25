@@ -26,7 +26,7 @@ You can now develop Beam applications in your local {{site.data.keyword.streamss
 To submit a Beam application to your {{site.data.keyword.streaminganalyticsshort}} service on {{site.data.keyword.cloud_notm}}, you must create a JSON-formatted VCAP file that holds credentials and other information for the service.
 
 1. In your Streams local environment, navigate to the samples subfolder where you installed the toolkit (`$STREAMS_BEAM_RUNNER/samples`) and copy the template.vcap file to a new file. Give the file a meaningful name and a file extension of `.vcap.`
-1. [Copy the credentials of your {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services) and paste the credentials in the VCAP file you created, replacing the following line:
+1. [Copy the credentials of your {{site.data.keyword.streaminganalyticsshort}} service](/docs/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans#vcap_services) and paste the credentials in the VCAP file you created, replacing the following line:
 ```
  <REMOVE THIS LINE AND INSERT CREDENTIALS HERE>
  ```

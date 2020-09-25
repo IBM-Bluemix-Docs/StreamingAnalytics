@@ -29,7 +29,7 @@ Access to {{site.data.keyword.streaminganalyticsshort}} service instances for us
 
 a. You must have a valid IBMid.
 
-b. Download and install the [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
+b. Download and install the [{{site.data.keyword.cloud_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/cli?topic=cli-install-ibmcloud-cli#install-ibmcloud-cli){:new_window}.
 
 ### Step 1. Log into the {{site.data.keyword.cloud_notm}} CLI.
 
