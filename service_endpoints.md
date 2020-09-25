@@ -27,9 +27,8 @@ You can now add an private endpoint to access and manage your service instance.
 {: #prereqs notoc}
 
 Ensure that you meet the following requirements:
-- Create your service instance by using the non-Lite [v2 container plans](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
-- Enable [Virtual Route Forwarding (VRF)](/docs/infrastructure/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud) for your {{site.data.keyword.cloud_notm}} account.
-
+- Create your service instance by using the non-Lite [plan](/docs/StreamingAnalytics?topic=StreamingAnalytics-service_plans#service_plans).
+- Enable [virtual routing and forwarding (VRF)](/docs/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud#overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud) for your {{site.data.keyword.cloud_notm}} account.
 
 To add an private endpoint:
 

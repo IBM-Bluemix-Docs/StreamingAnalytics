@@ -23,7 +23,7 @@ subcollection: StreamingAnalytics
 {:shortdesc}
 
 
-You are responsible for understanding your configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new {{site.data.keyword.cloud_notm}} location and to re-deploy your applications to that location. See [How do I ensure zero downtime?](/docs/services/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also find information about [Service Level Agreements](/docs/services/overview?topic=overview-zero-downtime#zero-downtime#SLAs).
+You are responsible for understanding your configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new {{site.data.keyword.cloud_notm}} location and to re-deploy your applications to that location. See [How do I ensure zero downtime?](/docs/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also find information about [Service Level Agreements](/docs/overview?topic=overview-zero-downtime#zero-downtime#SLAs).
 
 ## High availability
 

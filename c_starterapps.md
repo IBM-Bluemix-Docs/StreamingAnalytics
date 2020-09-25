@@ -51,7 +51,7 @@ If you want to experiment further with the service, you can also modify the code
 </td>
   </tr>
   <tr>
-    <td headers="EventDetection2"><a href="/docs/services/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy#starterapps_deploy" target="_blank">DEPLOY THE APP</a><br></td>
+    <td headers="EventDetection2"><a href="/docs/StreamingAnalytics?topic=StreamingAnalytics-starterapps_deploy#starterapps_deploy" target="_blank">DEPLOY THE APP</a><br></td>
     <td headers="EventDetection2"><a href="/docs/StreamingAnalytics?topic=StreamingAnalytics-detect_events">TUTORIAL</a></td>
     <td headers="EventDetection2"><a href="https://streams-github-samples.mybluemix.net/?get=QuickStart/EventDetectionV2" target="_blank">DOWNLOAD ![External link icon](../../icons/launch-glyph.svg "External link icon")</a></td>
   </tr>
