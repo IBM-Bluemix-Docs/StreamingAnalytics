@@ -90,9 +90,9 @@ Structuring this sample into two separate streams jobs using export and import a
 The instructions assume you will be using Firefox within the IBM Quick Start Edition for Docker to download the zip file. If you download the source zip file directly to your host computer (e.g. Windows), you will need to copy it to the IBM Quick Start Edition for Docker.
 {:note .note}
 
-[Download Sample Source Files](images/dev_guide/SmackdownSource.zip)
+[Download Sample Source Files](https://streams-github-samples.mybluemix.net/?get=ReadAndStoreData%2FTwitterSmackdown)
 
-Unzip the downloaded file which will create a directory called Smackdown.
+Unzip the downloaded file which will create a directory called `TwitterSmackdown`.
 
 ## Compiling the Sample in Streams Studio
 {: #compiling-sample}
@@ -106,7 +106,9 @@ Within your running IBM Quick Start Edition for Docker, start Streams Studio fro
 1. Click **OK** to accept the default workspace name, <code>/home/streamsadmin/workspace</code>. When studio starts up there are no projects defined yet.
 1. To import the sample click **File-&gt;Import**.
 1. In the import dialog expand **IBM Streams Studio**, select **SPL Project**, and click **Next**.
-1. For the **Source** use the **Browse** button to navigate to the unzipped Smackdown folder. Select the Smackdown project in the list and click **Finish**.
+1. For the **Source** use the **Browse** button to navigate to the unzipped TwiterSmackdown folder. Select the TwitterSmackdown application in the list.
+1. In the **Project Name** column of the list, change the project name from **TwitterSmackdown** to **Smackdown**.
+1. Click **Finish** to complete the import operation.
 
 
 Studio will import the project into the workspace. By default, Studio rebuilds the workspace when files are created or modified. It might take a couple minutes for the applications to compile. You can see the status of the build in the lower right status bar of studio. When the build finishes, the project explorer should look like this.
@@ -121,8 +123,10 @@ Expanding the Resources folder and subfolders as shown in the figure below revea
 
 For future reference the full path names for the two bundles are:
 
-- <code>/home/streamsadmin/workspace/Smackdown/output/sample.Smackdown/Distributed/sample.Smackdown.sab</code>
-- <code>/home/streamsadmin/workspace/Smackdown/output/sample.TwitterStream/Distributed/sample.TwitterStream.sab</code>
+```
+/home/streamsadmin/workspace/Smackdown/output/sample.Smackdown/BuildConfig/sample.Smackdown.sab
+/home/streamsadmin/workspace/Smackdown/output/sample.TwitterStream/BuildConfig/sample.TwitterStream.sab
+```
 
 You’ll use those paths later to submit the jobs on IBM Cloud.
 
@@ -184,11 +188,11 @@ On the {{site.data.keyword.streaminganalyticsshort}} service dashboard use the *
 ![Streams Console](images/dev_guide/ConsoleNoJobs.png)
 
 Recall that the compiled application bundles were at these paths in the IBM Quick Start Edition for Docker:
-    
-    ```
-    /home/streamsadmin/workspace/Smackdown/output/sample.Smackdown/Distributed/sample.Smackdown.sab
-    /home/streamsadmin/workspace/Smackdown/output/sample.TwitterStream/Distributed/sample.TwitterStream.sab
-    ```
+
+```    
+/home/streamsadmin/workspace/Smackdown/output/sample.Smackdown/BuildConfig/sample.Smackdown.sab
+/home/streamsadmin/workspace/Smackdown/output/sample.TwitterStream/BuildConfig/sample.TwitterStream.sab
+```
 
 You will be submitting jobs using these bundles. The instructions here assume you are using Firefox within the QSE to submit the jobs. If you are using a browser on your host computer (e.g. Windows), you will need to transfer these bundle files from the QSE to your host computer before you continue.
 
