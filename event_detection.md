@@ -45,7 +45,7 @@ NOAA data is available for a certain number of past hours. The application analy
 ## Step 1: Deploy the Sample
 {: #deploy_sample}
 
-To run the Event Detection sample, you need to access the [IBM Streams Samples Catalog](http://ibmstreams.github.io/samples/), and find the [EventDetectionV2](https://github.com/IBMStreams/samples/tree/master/QuickStart/EventDetectionV2) sample.
+To run the Event Detection sample, you need to access the [IBM Streams Samples Catalog](http://ibmstreams.github.io/samples/), and find the [EventDetectionV2](https://github.com/IBMStreams/samples/tree/main/QuickStart/EventDetectionV2) sample.
 
 After locating the sample, follow the step-by-step instructions in its README.md file to run the sample.
 
