@@ -64,7 +64,7 @@ If you want to experiment further with the service, you can also modify the code
 
 <table summary="This table describes, in the first row, the TemperatureSample Beam application. The table includes on the second row a link to a tutorial how to deploy the TemperatureSample Beam application.">
   <tr>
-    <td headers="TemperatureSample" colspan="3">This application takes temperature readings from multiple devices. The application splits the readings into “good” (valid) and “bad” (invalid) readings based on a specific threshold. It counts the bad readings and generates some basic statistics for the good readings, and finally logs the results. You can download the TemperatureSample app from the Streaming Analytics console.
+    <td headers="TemperatureSample" colspan="3">This application takes temperature readings from multiple devices. The application splits the readings into “good” (valid) and “bad” (invalid) readings based on a specific threshold. It counts the bad readings and generates some basic statistics for the good readings, and finally logs the results. You can download the TemperatureSample app from the {{site.data.keyword.streaminganalyticsshort}} console.
 </td>
   </tr>
   <tr>

@@ -15,7 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:note: .note}
 
-# Integrating with Cloudant and other RESTful Services
+# Integrating with Cloudant and other RESTful services
 {: #integrate_cloudant}
 
 Streams integrates with other technologies using adapters to popular protocols such as TCP, ODBC, Kafka, JMS, MQTT and HDFS, just to name a few. REST is another established protocol that is gaining popularity because of its use in many cloud-based services. This article describes how to use Streams HTTP adapters to integrate SPL applications to Cloudant and other RESTful, web-based services.
@@ -63,11 +63,11 @@ Navigate to the Cloudant dashboard by logging in to [cloudant.com](http://cloud
 
 Click **Create Database** in the top right corner. Follow the prompts to name and create the database named “test”. An empty database will be created.
 
-![Create database](images/cloudant/Selection_893-1.png)
+![Create database](images/cloudant/Selection_893-1.png "Create database")
 
 To view the contents of the database, click the database name link in the table of the “Databases” tab, and select “All Documents”.
 
-![Cloudant database view](images/cloudant/cloudant-view-database.png)
+![Cloudant database view](images/cloudant/cloudant-view-database.png "Cloudant database view")
 
 ## Using Cloudant’s REST API
 {: #use_cloudant_api}
@@ -84,7 +84,7 @@ If you created the Cloudant database with IBM Cloud:
 
 For more information on Submission Time Values, see [this article.](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/submissionvalues.html)
 
-![Cloudant post submission time parameters](images/cloudant/putting-documents-into-cloudant1.png)
+![Cloudant post submission time parameters](images/cloudant/putting-documents-into-cloudant1.png "Cloudant post submission time parameters")
 
 This Streams application will create a new Cloudant document containing the string “Cloudant” every two seconds. For each document, the console will print “errorMessage: Created”, along with some other JSON metadata. Let the application run for a few seconds and then cancel the Streams job.
 
@@ -96,11 +96,11 @@ If the request was not successful, a few things might have happened:
 
 Upon success, new documents have been added to Cloudant. Head back to the “All Documents” view to see them.
 
-![Database view with document](images/cloudant/cloudant-view-filled-database.png)
+![Database view with document](images/cloudant/cloudant-view-filled-database.png "Database view with document")
 
 To view the data inside a document, select the “pencil” icon on the top-right corner of the dark-colored “document box”.
 
-![Cloudant document view](images/cloudant/cloudant-view-document.png)
+![Cloudant document view](images/cloudant/cloudant-view-document.png "Cloudant document view")
 
 You should see the document that you just created.
 
@@ -111,7 +111,7 @@ Note that the CloudantPost sample application’s first operator is a Beacon tha
 
 Now that we can create documents, we want to access them from the REST API. Launch CloudantGet with the same values, except change the URL to **[username].cloudant.com/test/_all_docs** .
 
-![Cloudant access submission time values](images/cloudant/cloudant-access-submission-time-values.png)
+![Cloudant access submission time values](images/cloudant/cloudant-access-submission-time-values.png "Cloudant access submission time values")
 
 This Streams application will output the contents of the Cloudant database every two seconds.
 
@@ -136,7 +136,7 @@ To make a GET request to any RESTful service, you need the following information
 
 Import the CloudantGet project into your workspace. Launch the application, and specify submission time values based on the information you have collected from the service.
 
-![Other services submission time values for making GET requests](images/cloudant/other-services-rest-api-get.png)
+![Other services submission time values for making GET requests](images/cloudant/other-services-rest-api-get.png "Other services submission time values for making GET requests")
 
 If the request was successful, the result will be printed to the console. If unsuccessful, an exception will display instead (see [“Troubleshooting unsuccessful requests”](/docs/StreamingAnalytics?topic=StreamingAnalytics-integrate_cloudant#troubleshooting)).
 
@@ -147,7 +147,7 @@ Similarly, to send a post request to a RESTful service, you need to provide URL,
 
 In Streams Studio, import CloudantPost project into the workspace.  Build and launch the application using the appropriate values for the service.
 
-![Other services submission time parameters for POST requests](images/cloudant/other-services-rest-api-post.png)
+![Other services submission time parameters for POST requests](images/cloudant/other-services-rest-api-post.png "Other services submission time parameters for POST requests")
 
 You may need to modify some parameters of the sample’s HTTP operators in order to integrate with different services.
 

@@ -19,22 +19,22 @@ subcollection: StreamingAnalytics
 # Using the Streams REST API
 {: #using_streams_rest_api}
 
-Do you want to gain a deeper understanding of your Streams apps running either on-premises or in the Streaming Analytics service on IBM Cloud? The Streams Console enables interactive monitoring of your IBM Streams installation. Moreover, the Streams REST API provides powerful programmatic access to detailed metrics for Streams instances, jobs, PEs, and more. The REST API is available wherever you can access the Streams Console. Note that the Streams REST API interacts with the underlying Streams infrastructure and is different than the Streaming Analytics REST API. To learn about Streaming Analytics REST API, see the [Streaming Analytics v2 - IBM Cloud API Docs](https://ibm.co/2Gt9mB6).
+Do you want to gain a deeper understanding of your Streams apps running either on-premises or in the {{site.data.keyword.streaminganalyticsshort}} service on IBM Cloud? The Streams Console enables interactive monitoring of your IBM Streams installation. Moreover, the Streams REST API provides powerful programmatic access to detailed metrics for Streams instances, jobs, PEs, and more. The REST API is available wherever you can access the Streams Console. Note that the Streams REST API interacts with the underlying Streams infrastructure and is different than the {{site.data.keyword.streaminganalyticsshort}} REST API. To learn about {{site.data.keyword.streaminganalyticsshort}} REST API, see the [{{site.data.keyword.streaminganalyticsshort}} v2 - IBM Cloud API Docs](https://ibm.co/2Gt9mB6).
 
-This article is an introduction to the Streams REST API for both IBM Streams on-premise and Streaming Analytics in the cloud.
+This article is an introduction to the Streams REST API for both IBM Streams on-premise and {{site.data.keyword.streaminganalyticsshort}} in the cloud.
 
 ## Prerequisites
 {: #prerequisites}
 
-To follow the steps described in this article, you must have an IBM Streams installation or a Streaming Analytics service on IBM Cloud:
+To follow the steps described in this article, you must have an IBM Streams installation or a {{site.data.keyword.streaminganalyticsshort}} service on IBM Cloud:
 
 - To get an IBM Streams on-premise installation, you can use the [IBM Streams Quick Start Edition (QSE)](http://ibmstreams.github.io/streamsx.documentation/docs/4.3/).
-- To get a Streaming Analytics service, go to [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/streaming-analytics) and create an instance.
+- To get a {{site.data.keyword.streaminganalyticsshort}} service, go to [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/streaming-analytics) and create an instance.
 
-If you use the Streaming Analytics service, follow these steps:
+If you use the {{site.data.keyword.streaminganalyticsshort}} service, follow these steps:
 
-1.  Add the Streaming Analytics service credentials:
-    1.  In the Streaming Analytics service dashboard, navigate to the **Service credentials** section and click **New credential**.
+1.  Add the {{site.data.keyword.streaminganalyticsshort}} service credentials:
+    1.  In the {{site.data.keyword.streaminganalyticsshort}} service dashboard, navigate to the **Service credentials** section and click **New credential**.
     2.  Name your service credential and click **Add**. The service credential is generated:
 
         <pre>{
@@ -49,7 +49,7 @@ If you use the Streaming Analytics service, follow these steps:
 
     3.  Copy the value of the `apikey` parameter.
 
-- Generate an [IBM Cloud IAM access token](https://cloud.ibm.com/docs/account?topic=account-iamtoken_from_apikey) using the value of the `apikey` parameter in the service credentials. To work with the Streams REST API, authenticate your Streaming Analytics service by including the IAM access token in the Authorization header of your API requests.
+- Generate an [IBM Cloud IAM access token](https://cloud.ibm.com/docs/account?topic=account-iamtoken_from_apikey) using the value of the `apikey` parameter in the service credentials. To work with the Streams REST API, authenticate your {{site.data.keyword.streaminganalyticsshort}} service by including the IAM access token in the Authorization header of your API requests.
 
 ## Getting the URI to access the Streams REST API
 {: #getting_urI}
@@ -60,8 +60,8 @@ Let’s start by getting the URI to access the Streams URI, to then dig into oth
     1.  Open the Streams Console located in the Desktop of the QSE host. The Streams Console opens in a URI with the following structure: `https://[host]/streams/domain/console[#anchor]`. The `[host]` variable might include a port number, and the [#anchor] variable might not be included.
     2.  Change this URI to `https://[host]/streams/rest/instances` and open it in a browser window to access the Streams REST API.
     3.  Enter your Streams username and password. The default for the Streams QSE is `streamsadmin / passw0rd`.
-- If you are using the Streaming Analytics service:
-    1.  Go to the service REST API URL by copying the value of the v2_rest_url parameter in a browser window. This parameter is part of the service credentials. The Streaming Analytics instance information is displays in a JavaScript Object Notation (JSON) payload.
+- If you are using the {{site.data.keyword.streaminganalyticsshort}} service:
+    1.  Go to the service REST API URL by copying the value of the v2_rest_url parameter in a browser window. This parameter is part of the service credentials. The {{site.data.keyword.streaminganalyticsshort}} instance information is displays in a JavaScript Object Notation (JSON) payload.
 
         <pre>{
           "role": "Manager",
@@ -164,9 +164,9 @@ The previous API call returns the following response:
 
 Now, let’s dig a little deeper and get information about all jobs in the instance. But first, make sure that you have jobs running in the instance:
 
-1.  Go to the IBM Streams Samples Catalog and search for “Streaming Analytics”.
+1.  Go to the IBM Streams Samples Catalog and search for “{{site.data.keyword.streaminganalyticsshort}}”.
 1.  Select and download a sample application.
-1.  Submit the application by using the Streaming Analytics console or the Streaming Analytics REST API.
+1.  Submit the application by using the {{site.data.keyword.streaminganalyticsshort}} console or the {{site.data.keyword.streaminganalyticsshort}} REST API.
 
 When you have jobs running in your instance, simply make the following API request:
 

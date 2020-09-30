@@ -17,7 +17,7 @@ subcollection: StreamingAnalytics
 {:note .note}
 
 
-# Streaming Analytics overview
+# {{site.data.keyword.streaminganalyticsshort}} overview
 {: #gettingstarted}
 
 {{site.data.keyword.streaminganalyticsfull}} is powered by {{site.data.keyword.streamsshort}}, an advanced analytic platform that you can use to ingest, analyze, and correlate information as it arrives from different types of data sources in real time. When you create an instance of the {{site.data.keyword.streaminganalyticsshort}} service, you get your own instance of {{site.data.keyword.streamsshort}} running in {{site.data.keyword.cloud}}, ready to run your {{site.data.keyword.streamsshort}} applications.
