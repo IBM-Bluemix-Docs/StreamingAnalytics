@@ -15,7 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 
-# About Streaming Analytics
+# About {{site.data.keyword.streaminganalyticsshort}}
 {: #about}
 
 You can perform real-time analysis on data in motion as part of your {{site.data.keyword.cloud}} applications by with {{site.data.keyword.streaminganalyticsfull}}.
@@ -44,7 +44,7 @@ You can develop Beam applications with Streams runner in your local development 
 
 The {{site.data.keyword.streamsshort}} operators in the [{{site.data.keyword.streamsshort}} Processing Language (SPL) standard toolkit are compatible](/docs/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits) with {{site.data.keyword.streaminganalyticsshort}}.
 
-## Streaming Analytics responsibilities
+## {{site.data.keyword.streaminganalyticsshort}} responsibilities
 {: #responsibilities notoc}
 
 ### Client responsibilities

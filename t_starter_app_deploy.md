@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 # Getting started tutorial
 {: #starterapps_deploy}
 
-Streaming Analytics is a fully managed service that frees you from time-consuming installation, administration, and management tasks, giving you more time to develop streaming applications. In this getting started tutorial, you push and deploy one of the {{site.data.keyword.streaminganalyticsshort}} starter applications to {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.streaminganalyticsshort}} is a fully managed service that frees you from time-consuming installation, administration, and management tasks, giving you more time to develop streaming applications. In this getting started tutorial, you push and deploy one of the {{site.data.keyword.streaminganalyticsshort}} starter applications to {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
 

@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 
-# Streaming Analytics troubleshooting
+# {{site.data.keyword.streaminganalyticsshort}} troubleshooting
 {: #ts_StreamingAnalytics}
 
 You can find the answers to common questions about how to use {{site.data.keyword.streaminganalyticsshort}} on {{site.data.keyword.cloud}}.

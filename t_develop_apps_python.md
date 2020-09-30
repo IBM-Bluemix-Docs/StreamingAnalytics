@@ -15,7 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 
-# Developing Python applications in Streaming Analytics
+# Developing Python applications
 {: #t_develop_apps_python}
 
 You can now develop Python applications in {{site.data.keyword.DSX_full}} or in your local Python development environment and deploy these applications in {{site.data.keyword.streaminganalyticsshort}}.

@@ -24,7 +24,7 @@ subcollection: StreamingAnalytics
 Use these techniques to make sure your existing SPL applications are ready to run in the cloud.
 {:shortdesc}
 
-An SPL application that runs in a non-cloud, on-premises installation of Streams might require modification before it can run in the Streaming Analytics service in IBM Cloud. This article describes SPL application constructs and patterns that may not work or may function differently in the cloud, and provides advice on how to make SPL applications that use these techniques “cloud-ready.”
+An SPL application that runs in a non-cloud, on-premises installation of Streams might require modification before it can run in the {{site.data.keyword.streaminganalyticsshort}} service in IBM Cloud. This article describes SPL application constructs and patterns that may not work or may function differently in the cloud, and provides advice on how to make SPL applications that use these techniques “cloud-ready.”
 
 ## Passing configuration information to an SPL operator as a file
 {: #passing-config}
@@ -33,7 +33,7 @@ An SPL application that runs in a non-cloud, on-premises installation of Streams
 ### *_Issue_*
 {: #passing-config-issue}
 
-Several SPL operators have parameters that expect a file reference. One example is the RScript operator that uses a parameter to identify the file name containing an R script, i.e. `param rScriptFileName : "myScript";`. Users of the Streaming Analytics service in IBM Cloud do not have direct access to the file system of the hosts in the cloud, so a specific technique must be used to supply operator configuration files to the cloud.
+Several SPL operators have parameters that expect a file reference. One example is the RScript operator that uses a parameter to identify the file name containing an R script, i.e. `param rScriptFileName : "myScript";`. Users of the {{site.data.keyword.streaminganalyticsshort}} service in IBM Cloud do not have direct access to the file system of the hosts in the cloud, so a specific technique must be used to supply operator configuration files to the cloud.
 
 ### *_Cloud-ready technique_*
 {: #passing-config-technique}
@@ -169,25 +169,25 @@ If your SPL application needs to access on-premise data, you have a couple of op
 ## Using the com.ibm.streamsx.inet.rest operators (e.g. HTTPTupleView, HTTPTupleInjection, HTTPJSONInjection, etc.)
 {: #using-the-com-ibm-streamsx-inet-rest-operators}
 
-Streaming Analytics supports a wide variety of connectors, enabling you to stream data into and out of your Streams applications. These connectors are provided in toolkits as “source” or “sink” operators. Source operators bring data into a Streams application. Sink operators send data out of a Streams application. The set of Streams toolkits that are built into Streams are documented in [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/toolkits/toolkits.html), and an additional set of toolkits can be downloaded from [The IBM Streams GitHub project](https://github.com/IBMStreams).
+{{site.data.keyword.streaminganalyticsshort}} supports a wide variety of connectors, enabling you to stream data into and out of your Streams applications. These connectors are provided in toolkits as “source” or “sink” operators. Source operators bring data into a Streams application. Sink operators send data out of a Streams application. The set of Streams toolkits that are built into Streams are documented in [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/toolkits/toolkits.html), and an additional set of toolkits can be downloaded from [The IBM Streams GitHub project](https://github.com/IBMStreams).
 
 There are some special considerations when connecting to Streams applications running in the IBM Cloud. 
 
-The connection rule for IBM Cloud instances is very simple:  _**Connections between Streams apps and data sources/sinks must be initiated by the Streams app.**_  This means that a Streams connector operator, whether it is a source or a sink, is playing the client role in the connection.  Conveniently, many Streams connector operators always run in client mode.  The subset of operators that also support running in the server role cannot be used in server mode in an IBM Cloud Streaming Analytics.  Running a connector operator in server mode is not possible in an IBM Cloud Streaming Analytics instance because instances do not externalize host names or IP addresses associated with the application containers used in the instance.
+The connection rule for IBM Cloud instances is very simple:  _**Connections between Streams apps and data sources/sinks must be initiated by the Streams app.**_  This means that a Streams connector operator, whether it is a source or a sink, is playing the client role in the connection.  Conveniently, many Streams connector operators always run in client mode.  The subset of operators that also support running in the server role cannot be used in server mode in an IBM Cloud {{site.data.keyword.streaminganalyticsshort}}.  Running a connector operator in server mode is not possible in an IBM Cloud {{site.data.keyword.streaminganalyticsshort}} instance because instances do not externalize host names or IP addresses associated with the application containers used in the instance.
 
 ### Related Information
 
-*   If you need to connect your Streams app to a data source/sink that is protected by an enterprise firewall, see [Connect to Enterprise Data using {{site.data.keyword.SecureGateway}}](/docs/StreamingAnalytics?topic=StreamingAnalytics-connect_secure_gateway)
+- If you need to connect your Streams app to a data source/sink that is protected by an enterprise firewall, see [Connect to Enterprise Data using {{site.data.keyword.SecureGateway}}](/docs/StreamingAnalytics?topic=StreamingAnalytics-connect_secure_gateway)
 
 
 
-## Use of operators that are not compatible with Streaming Analytics
+## Use of operators that are not compatible with {{site.data.keyword.streaminganalyticsshort}}
 {: #using-incompatible-operators}
 
 ### *_Issue_*
 {: #using-incompatible-operators-issue}
 
-Some operators in the specialized toolkits that are provided with IBM Streams or provided by the IBMStreams GitHub project are not compatible by the Streaming Analytics service. Here are some examples:
+Some operators in the specialized toolkits that are provided with IBM Streams or provided by the IBMStreams GitHub project are not compatible by the {{site.data.keyword.streaminganalyticsshort}} service. Here are some examples:
 
 - None of the adapters in the com.ibm.streams.db toolkit are currently supported by the service.
 - The streamsx.opencv toolkit is not supported by the service because it pre-reqs open source packages that IBM cannot install on behalf of the customer.

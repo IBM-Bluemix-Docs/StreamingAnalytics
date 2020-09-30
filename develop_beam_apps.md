@@ -15,7 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 
-# Deploying Beam applications in Streaming Analytics
+# Deploying Beam applications in {{site.data.keyword.streaminganalyticsshort}}
 {: #develop_beam_apps}
 
 You can now develop Beam applications in your local {{site.data.keyword.streamsshort}} development environment and deploy these applications in {{site.data.keyword.streaminganalyticsshort}}.

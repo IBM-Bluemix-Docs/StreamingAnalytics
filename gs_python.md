@@ -15,7 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 
-# Streams Python apps for Streaming Analytics
+# Streams Python applications
 {: #gettingstarted_py}
 
 You can now create Streams apps in a Python environment such as {{site.data.keyword.DSX_full}}, and submit these apps to the {{site.data.keyword.streaminganalyticsshort}} instance to be deployed in {{site.data.keyword.cloud_notm}}. You no longer need to install {{site.data.keyword.streamsshort}} locally to compile and deploy a Streams Python app.

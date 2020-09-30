@@ -15,7 +15,7 @@ subcollection: StreamingAnalytics
 {:screen: .screen}
 {:pre: .pre}
 
-# IBM Streams Runner for Apache Beam in Streaming Analytics
+# IBM Streams Runner for Apache Beam
 {: #gs_beamrunner}
 
 If you have an {{site.data.keyword.streamsshort}} development environment, you can now develop Beam applications locally in your environment and then submit these apps to the {{site.data.keyword.streaminganalyticsshort}} service in {{site.data.keyword.cloud_notm}}. {{site.data.keyword.streamsshort}} Runner for Apache Beam executes Beam pipelines in an {{site.data.keyword.streamsshort}} environment. A Beam application that is launched with Streams Runner is translated into a Streams Application Bundle (SAB) file that you can then deploy and monitor in {{site.data.keyword.streaminganalyticsshort}}.
