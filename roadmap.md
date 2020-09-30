@@ -69,8 +69,7 @@ To try it, [download the application file from GitHub](https://github.com/IBMStr
 
 Deploy the end-to-end starter application to the cloud if you want to explore how to use {{site.data.keyword.streaminganalyticsshort}} in the context of a larger IBM Cloud application.
 
-#### <span style="text-decoration: underline;">EventDetection Starter  
-</span>
+#### EventDetection Starter  
 
 The EventDetection starter application uses the SDK for Node.js runtime in the IBM Cloud. EventDetection uses the {{site.data.keyword.streaminganalyticsshort}} service to detect simple and complex events in a Stream of real-time weather data.
 
