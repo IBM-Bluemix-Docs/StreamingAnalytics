@@ -27,7 +27,7 @@ From the service details page you can:
 * Stop and start your service instance.
 * Access the {{site.data.keyword.streaminganalyticsshort}} console.
 * Resize your service instance by adding or removing application resources to or from your service instance if the instance is billed for hourly usage. This video shows how to resize your instance:
-<iframe width="560" height="315" title="Resize instance" src="https://www.youtube.com/embed/zbZ9am9UhPw?rel=0" frameborder="0" allowfullscreen>Resize instance</iframe>
+![Resize your instance](https://www.youtube.com/embed/zbZ9am9UhPw?rel=0){: video output="iframe" data-script="none" id="resizeplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 
 * Indicate whether your service instance, which is billed for hourly usage, automatically stops when no jobs are run for an extended period.
 * Access the service credentials.

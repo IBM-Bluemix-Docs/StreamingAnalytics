@@ -74,7 +74,7 @@ If your SPL application uses FileSource as the means for obtaining new data, the
 ### *_Issue_*
 {: #use-of-filesink-issue}
 
-A common pattern in SPL applications is to produce data and write it to files using a FileSink for consumption by other <span style="text-decoration: underline;">non-streams applications</span>. The FileSink operator will function correctly in the cloud, but since only the SPL application can access the file system on a Streams host in the cloud, writing data to files is of limited value (unless another Streams operator located on the same cloud host is accessing it.)
+A common pattern in SPL applications is to produce data and write it to files using a FileSink for consumption by other **non-streams applications**. The FileSink operator will function correctly in the cloud, but since only the SPL application can access the file system on a Streams host in the cloud, writing data to files is of limited value (unless another Streams operator located on the same cloud host is accessing it.)
 
 _**In addition, using FileSink can have some unpredictable side effects. Your PE using FileSink will crash when the available local disk space runs out, so if your application runs forever and keeps adding to the size of a file, it will eventually run out of space.**_
 
