@@ -27,7 +27,7 @@ subcollection: StreamingAnalytics
 {{site.data.keyword.streaminganalyticsshort}} is built upon the IBM Streams technology. Streams is an advanced analytic platform allowing user-developed applications to quickly ingest, analyze, and correlate information as it arrives from a wide variety of real-time sources. The {{site.data.keyword.streaminganalyticsshort}} service gives you the ability to deploy Streams applications to run in the IBM Cloud. This roadmap helps you get started and learn about the IBM {{site.data.keyword.streaminganalyticsshort}} Service.
 
 
-## Step 1 – Learn about Streams
+## Learn about Streams
 
 If you are new to Streams, please take some time to learn about the Streams technology. If you already have experience with Streams, please move to the next step.
 
@@ -44,11 +44,11 @@ If you would like to develop applications using Python, [please follow the Pytho
 
 - [IBM Streams Quick Start for SPL](https://ibmstreams.github.io/streamsx.documentation/docs/spl/quick-start/qs-0/)
 
-## Step 2 – Learn about the {{site.data.keyword.streaminganalyticsshort}} service
+## Learn about the {{site.data.keyword.streaminganalyticsshort}} service
 
 Please read this quick introduction to [using the {{site.data.keyword.streaminganalyticsshort}} Service](/docs/StreamingAnalytics?topic=StreamingAnalytics-using_streaming_analytics).
 
-## Step 3 – Run a Sample
+## Run a Sample
 
 There are a number of sample applications you can use to learn about the {{site.data.keyword.streaminganalyticsshort}} service. Please run one or more of the samples below that most closely match your intended use of the {{site.data.keyword.streaminganalyticsshort}} service.
 
@@ -82,13 +82,13 @@ Run additional Streams application samples to further explore Streams apps in th
 [IBMStreams/samples Github project](http://ibmstreams.github.io/samples/)
 
 
-## Step 4 – Learn More about Developing Streams Applications for the Cloud
+## Learn More about Developing Streams Applications for the Cloud
 
 See the [{{site.data.keyword.streaminganalyticsshort}} Development Guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide) for a comprehensive description of how to develop and deploy applications to the {{site.data.keyword.streaminganalyticsshort}} service. The development guide features a sample Streams application that analyzes Twitter data and step-by-step instructions for completing tasks that are part of the application development life cycle.
 
 If you have an existing Streams application that you would like to deploy to the cloud, see [Getting your SPL application ready for the cloud.](/docs/StreamingAnalytics?topic=StreamingAnalytics-spl_cloud_ready)
 
-## Step 5 – Learn about Integrating with other IBM Cloud Services
+## Learn about Integrating with other IBM Cloud Services
 
 A variety of tutorials and resources are available to help you use the {{site.data.keyword.streaminganalyticsshort}} service with other IBM Cloud services.
 
@@ -120,7 +120,7 @@ Demo: [IoT Device Events to {{site.data.keyword.streaminganalyticsshort}} in 15 
 
 The [Streams ObjectStorage Toolkit](https://ibmstreams.github.io/streamsx.objectstorage/) can be used to integrate your {{site.data.keyword.streaminganalyticsshort}} application with the Object Storage service in IBM Cloud.
 
-## Step 6 – Taking Care of your Streams Application in the Cloud
+## Taking Care of your Streams Application in the Cloud
 
 If you have a Streams application running in the {{site.data.keyword.streaminganalyticsshort}} service, it is most likely one that runs continuously – 24 hours a day and 7 days a week. But how can you make sure that your application is running normally? See [Using the Streams REST API](/docs/StreamingAnalytics?topic=StreamingAnalytics-using_streams_rest_api) to learn how you can programmatically assess whether your app is operating normally and extract valuable metrics about its execution.
 

@@ -331,7 +331,7 @@ Next, add the following two operator invocations at the end of the composite ope
 
 ```cpp
 /** Calculate percent matched */
-stream&lt;rstring smackdownWords, int32 matches, int32 tuples, float64 percent&gt; Results = Functor(MatchAggregate)
+stream<rstring smackdownWords, int32 matches, int32 tuples, float64 percent> Results = Functor(MatchAggregate)
 {
     output
         Results : percent = roundedPercent(matches, tuples);
@@ -355,7 +355,7 @@ In the output clause of the above Functor invocation is a call to the function r
 ```cpp
 /** Calculate percentage and round to four decimal places */
 float64 roundedPercent(int32 x, int32 y) {
-    return y &gt; 0 ? round(((float64)x * 100.0 / (float64)y ) * 10000.0) / 10000.0 : 0.0;
+    return y > 0 ? round(((float64)x * 100.0 / (float64)y ) * 10000.0) / 10000.0 : 0.0;
 }
 ```
 {: codeblock}
