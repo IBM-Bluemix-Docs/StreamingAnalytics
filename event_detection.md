@@ -77,18 +77,19 @@ This Streams application can show tuple rates of zero for long periods of time.Â
 ## Review the Node.js code
 {: #review_nodejs_code}
 
-The EventDetection app is a complete yet simple application that requires no customization to run. To understand the app, examine its code:
+The EventDetection app is a complete yet simple application that requires no customization to run. To understand the application, open the app.js file to view the application logic. The code is organized around six major steps.
 
-1.  Open the app.js file to view the application logic. The code in app.js is organized around six major steps:
-    1. Extract the environment information required to use the {{site.data.keyword.streaminganalyticsshort}} REST API.
-    2. Check if the Streams instance is running and start the instance if necessary via the {{site.data.keyword.streaminganalyticsshort}} REST API.
-    3. If the instance was already running, check if a Streams event-detection job is already running. If a job is running, cancel it.
-    4. Deploy a Streams Application Bundle to the {{site.data.keyword.streaminganalyticsshort}} service by using the {{site.data.keyword.streaminganalyticsshort}} REST API. The bundle contains a Streams application that analyzes weather data and performs event detection.
-    5. Process events detected by the Streams application, and display them on this web page.
-    6. Cancel the job corresponding to the Streams application after 1,500 events are processed.
-2.  Skim the code to identify where these steps above are performed.
-    *   Some of the steps involve calling the {{site.data.keyword.streaminganalyticsshort}} REST API, making this sample a good example of how to use the API from Node.js.
-    *   Step 5 above is implemented as a POST handler. The Streams application sends event messages to Node.js using an HTTPPost operator, and the POST handler in the Node.js app parses them and updates the web UI accordingly.
+1. Extract the environment information required to use the {{site.data.keyword.streaminganalyticsshort}} REST API.
+2. Check if the Streams instance is running and start the instance if necessary via the {{site.data.keyword.streaminganalyticsshort}} REST API.
+3. If the instance was already running, check if a Streams event-detection job is already running. If a job is running, cancel it.
+4. Deploy a Streams Application Bundle to the {{site.data.keyword.streaminganalyticsshort}} service by using the {{site.data.keyword.streaminganalyticsshort}} REST API. The bundle contains a Streams application that analyzes weather data and performs event detection.
+5. Process events detected by the Streams application, and display them on this web page.
+6. Cancel the job corresponding to the Streams application after 1,500 events are processed.
+    
+Skim the code to identify where these steps above are performed.
+
+- Some of the steps involve calling the {{site.data.keyword.streaminganalyticsshort}} REST API, making this sample a good example of how to use the API from Node.js.
+- Step 5 above is implemented as a POST handler. The Streams application sends event messages to Node.js using an HTTPPost operator, and the POST handler in the Node.js app parses them and updates the web UI accordingly.
 
 ## Review the Streams application code
 {: #review_streams_graph}

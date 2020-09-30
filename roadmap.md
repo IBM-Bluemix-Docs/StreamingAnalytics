@@ -40,7 +40,7 @@ If you are new to Streams, please take some time to learn about the Streams tech
 You can create Streams applications using Streams Processing Language (SPL) or Python and the Streams Python API. These applications can also be deployed in the {{site.data.keyword.streaminganalyticsshort}} service.  _The remainder of this tutorial focuses on developing applications with Streams Processing Language (SPL)._  
 If you would like to develop applications using Python, [please follow the Python development guide](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/) to learn more about developing Python applications for the {{site.data.keyword.streaminganalyticsshort}} service.
 
-## Learn more
+## Learn more about SPL
 
 - [IBM Streams Quick Start for SPL](https://ibmstreams.github.io/streamsx.documentation/docs/spl/quick-start/qs-0/)
 
