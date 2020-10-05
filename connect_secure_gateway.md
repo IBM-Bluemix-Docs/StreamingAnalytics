@@ -39,7 +39,7 @@ The diagram below depicts the general {{site.data.keyword.SecureGateway}} use ca
 This tutorial provides a set of sample apps and instructions that allow you to run this general {{site.data.keyword.SecureGateway}} use case.  The figure below provides more detail about the exact scenario you will run:
 
 - The cloud application you will run in this use case is a sample Streams Processing Language (SPL) application that you will run in the {{site.data.keyword.streaminganalyticsshort}} service in IBM Cloud.
-- The on-prem resource is a Java p#rogram that sends and receives data to/from the Streams application.
+- The on-prem resource is a Java program that sends and receives data to/from the Streams application.
 
 ![{{site.data.keyword.SecureGateway}} overview](images/secure_gateway/SecGateAnnotated1.png "{site.data.keyword.SecureGateway}} overview")
 
