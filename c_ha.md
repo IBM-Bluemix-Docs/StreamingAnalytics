@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-16"
+  years: 2015, 2020
+lastupdated: "2020-08-07"
 
 subcollection: StreamingAnalytics
 
@@ -14,15 +14,16 @@ subcollection: StreamingAnalytics
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
+{:note: .note}
 
 # High availability and disaster recovery
 {: #c_ha}
 
-{{site.data.keyword.streaminganalyticsshort}} is highly available within an {{site.data.keyword.Bluemix_notm}} location (for example, Dallas, London, Frankfurt). However, recovering from potential disasters that affect an entire {{site.data.keyword.Bluemix_notm}} region requires planning and preparation.
+{{site.data.keyword.streaminganalyticsshort}} is highly available within an {{site.data.keyword.cloud_notm}} location (for example, Dallas, London, Frankfurt). However, recovering from potential disasters that affect an entire {{site.data.keyword.cloud_notm}} region requires planning and preparation.
 {:shortdesc}
 
 
-You are responsible for understanding your configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new {{site.data.keyword.Bluemix_notm}} location and to re-deploy your applications to that location. See [How do I ensure zero downtime?](/docs/services/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.Bluemix_notm}}. You can also find information about [Service Level Agreements](/docs/services/overview?topic=overview-zero-downtime#zero-downtime#SLAs).
+You are responsible for understanding your configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new {{site.data.keyword.cloud_notm}} location and to re-deploy your applications to that location. See [How do I ensure zero downtime?](/docs/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also find information about [Service Level Agreements](/docs/overview?topic=overview-zero-downtime#zero-downtime#SLAs).
 
 ## High availability
 
@@ -37,12 +38,13 @@ Therefore, when writing your applications, you must consider that containers can
 * Ensure that your application can tolerate the restarting of some or all of its processing elements (PEs), in any order.
 * Ensure that the source and sink operators in your Streams application are configured to reestablish connections when their PE restarts.
 
-Check out the [{{site.data.keyword.streaminganalyticsshort}} development guide](https://developer.ibm.com/streamsdev/docs/streaming-analytics-dev-guide/#troubleshooting) for examples on how to troubleshoot your application.
+Check out the [{{site.data.keyword.streaminganalyticsshort}} development guide](/docs/StreamingAnalytics?topic=StreamingAnalytics-development_guide#troubleshooting) for examples on how to troubleshoot your application.
 
 To implement high availability, Streams applications are enabled to guarantee processing of all tuples. To achieve guaranteed tuple processing, a checkpoint is periodically established for all the operators in a Consistent Region. Upon an application failure, all operators will be rolled back to the last successful checkpoint states.
 {{site.data.keyword.streaminganalyticsshort}} allows the use of Consistent Regions.
 
 ### Guaranteed tuple processing
+
 Because of business requirements, some applications require that all tuples are processed at least once. {{site.data.keyword.streamsshort}} is enhanced with operators and annotations that allow the definition of a Region that does not lose tuples during streams processing. Tuples in a Consistent Region are processed at least once.
 
 If any application failure is detected within a Consistent Region, {{site.data.keyword.streaminganalyticsshort}} can set the application back to the last consistent state (a.k.a. checkpoint), and direct the application data sources to replay tuples from that point on.
@@ -58,16 +60,20 @@ You can define the start of a Consistent Region with the `@consistent` annotatio
 Check out the [{{site.data.keyword.streamsshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSCRJU_4.3.0/com.ibm.streams.dev.doc/doc/consistentregions.html) for more details about using Consistent Regions in Streams applications.
 
 ## Disaster recovery
-{{site.data.keyword.streaminganalyticsshort}} is a GA service that is offered in multiple {{site.data.keyword.Bluemix_notm}} regions. {{site.data.keyword.streaminganalyticsshort}} stores no user data on {{site.data.keyword.Bluemix_notm}}.
+
+{{site.data.keyword.streaminganalyticsshort}} is a GA service that is offered in multiple {{site.data.keyword.cloud_notm}} regions. {{site.data.keyword.streaminganalyticsshort}} stores no user data on {{site.data.keyword.cloud_notm}}.
 
 Based on your business requirements, select one of the following disaster recovery strategies:
+
 * If you require no interruption to your application:
-  1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.Bluemix_notm}} regions.
-  2. Submit your application to multiple regions.
+    1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.cloud_notm}} regions.
+    2. Submit your application to multiple regions.
 
 
 * If you require minimal interruption to your application:
-  1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.Bluemix_notm}} regions.
-  2. Monitor your application by using the [service REST API](https://ibm.co/2Gt9mB6) and dynamically shift your workload to a new region as needed.
+    1. Create instances of {{site.data.keyword.streaminganalyticsshort}} in multiple {{site.data.keyword.cloud_notm}} regions.
+    2. Monitor your application by using the [service REST API](https://ibm.co/2Gt9mB6) and dynamically shift your workload to a new region as needed.
 
-**Note**: Each consistent region is tied to {{site.data.keyword.Bluemix_notm}} region. In a disaster recovery scenario, Consistent Regions in an application do not have any role.
+Each consistent region is tied to {{site.data.keyword.cloud_notm}} region. In a disaster recovery scenario, Consistent Regions in an application do not have any role.
+{:note .note}
+

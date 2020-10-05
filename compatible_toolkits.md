@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-16"
+  years: 2015, 2020
+lastupdated: "2020-09-22"
 
 subcollection: StreamingAnalytics
 
@@ -14,6 +14,7 @@ subcollection: StreamingAnalytics
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
+{:note: .note}
 
 # Supported toolkits and adapters
 {: #compatible_toolkits}
@@ -28,15 +29,15 @@ These analytics toolkits and adapters are supported by {{site.data.keyword.strea
 | [HBase![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.hbase/)        | Enables Streams applications to connect to Apache HBase.	 	   |
 | [HDFS ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.hdfs/)          | Provides operators and functions that interact with Hadoop Distributed File System.	|
 | [Internet (Inet) ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.inet)|  Focuses on interacting with network hosted data.				       |
-| [IoT ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.iot/)            | Provides Internet of Things (IoT) integration with IBM Watson IoT Platform, either in {{site.data.keyword.Bluemix_notm}} or on-premise ({{site.data.keyword.streamsshort}}). |
+| [IoT ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.iot/)            | Provides Internet of Things (IoT) integration with IBM Watson IoT Platform, either in {{site.data.keyword.cloud_notm}} or on-premise ({{site.data.keyword.streamsshort}}). |
 | [JDBC ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.jdbc/)          | Enables Streams applications to work with databases via JDBC.		   |
 | [JSON ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.json/)          | Learn how to convert data from JSON to Streams tuples format, and conversely.   		|
 | [Kafka ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.kafka/)       | Enables Streams applications to easily integrate with Apache Kafka. 	 |
 | [MessageHub ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.messagehub/) | Enables Streams applications to work with MessageHub.			     |
-| [Messaging ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.messaging/)   |  	Focuses on interacting with popular messaging systems such as Kafka, MQTT, JMS, and XMS	<br>**Note**: To use JMSSource, JMSSink, XMSSource, XMSSink with WebSphere MQ, complete these steps in your development environment: <br>1. Go to [IBMStreams on GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/IBMStreams){:new_window} and download the Messaging Toolkit (com.ibm.streamsx.messaging) version 3.0.0 or later on your development environment.<br>2. Use version 5.1.0 or later version of the toolkit to build your application.<br>3. Put the required `.bindings` file in the `/etc` directory of your application to include it in the {{site.data.keyword.streamsshort}} application bundle.	    |
+| [Messaging ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.messaging/)   |  	Focuses on interacting with popular messaging systems such as Kafka, MQTT, JMS, and XMS	<br>To use JMSSource, JMSSink, XMSSource, XMSSink with WebSphere MQ, complete these steps in your development environment:{:note .note} <br>1. Go to [IBMStreams on GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/IBMStreams){:new_window} and download the Messaging Toolkit (com.ibm.streamsx.messaging) version 3.0.0 or later on your development environment.<br>2. Use version 5.1.0 or later version of the toolkit to build your application.<br>3. Put the required `.bindings` file in the `/etc` directory of your application to include it in the {{site.data.keyword.streamsshort}} application bundle.	    |
 | [RabbitMQ ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmstreams.github.io/streamsx.rabbitmq/)     |  Provides operators that allow your Streams application to read and send messages from Rabbit MQ.  |
 | [R-project ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.co/2rj2lKw)          	   	              |   Includes the RScript operator, which you can use to run R commands and apply complex data mining algorithms to detect patterns of interest in data streams.			     |
-| [Topology ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.topology/)      |  Learn how to build Python streaming applications for {{site.data.keyword.streaminganalyticsshort}} service on the {{site.data.keyword.Bluemix_notm}} platform and {{site.data.keyword.streamsshort}}.		     |
+| [Topology ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.topology/)      |  Learn how to build Python streaming applications for {{site.data.keyword.streaminganalyticsshort}} service on the {{site.data.keyword.cloud_notm}} platform and {{site.data.keyword.streamsshort}}.		     |
 | [DPS ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.dps/) |	 Enables multiple applications that are running processing elements (PEs) on one or more machines to share application-specific state information.<br>**Restriction:** Only REDIS is supported as database backend.	| 	 	 	
 | [Geospatial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.geospatial/tk$com.ibm.streams.geospatial.html) 	     |	Includes operators and functions that facilitate efficient processing and indexing of location data.<br>**Restriction:** Operators that use shared map mode are not supported (`MapStore`, `PointMapMatcher` in shared map mode).		 |
 | [TEDA ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSCRJU_4.3.0/com.ibm.streams.toolkits.doc/spldoc/dita/tk$com.ibm.streams.teda/tk$com.ibm.streams.teda.html)	   | 	Provides a set of generic operators that is used in telecommunications applications, and it also provides an application framework to set up new file-to-file applications. Get started by following the [TEDA tutorials ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibmstreams.github.io/streamsx.tutorial.teda/). All operators and functions of the toolkit are supported. <br>**Restriction:** The application framework is not supported.	 	 |

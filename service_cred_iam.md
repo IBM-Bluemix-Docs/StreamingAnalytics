@@ -21,7 +21,7 @@ subcollection: StreamingAnalytics
 # Identity and Access Management authentication
 {: #iam}
 
-Access to {{site.data.keyword.streaminganalyticsshort}} service instances for users in your account is controlled by {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM). To manage your {{site.data.keyword.streaminganalyticsshort}} service, you must use an authentication token.
+Access to {{site.data.keyword.streaminganalyticsshort}} service instances for users in your account is controlled by {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM). To manage your {{site.data.keyword.streaminganalyticsshort}} service, you must use an authentication token.
 
 ## Retrieving IAM access tokens
 
@@ -29,15 +29,15 @@ Access to {{site.data.keyword.streaminganalyticsshort}} service instances for us
 
 a. You must have a valid IBMid.
 
-b. Download and install the [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli#install-ibmcloud-cli).
+b. Download and install the [{{site.data.keyword.cloud_notm}} CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/cli?topic=cli-install-ibmcloud-cli#install-ibmcloud-cli){:new_window}.
 
-### Step 1. Log into the {{site.data.keyword.Bluemix_notm}} CLI.
+### Step 1. Log into the {{site.data.keyword.cloud_notm}} CLI.
 
 ```
 ibmcloud login
 <enter your credentials>
 
-<If you are part of multiple {{site.data.keyword.Bluemix_notm}} accounts, you'll be asked to choose an account for the current session. Also, you'll need to choose an organization and space in {{site.data.keyword.Bluemix_notm}}.>
+<If you are part of multiple {{site.data.keyword.cloud_notm}} accounts, you'll be asked to choose an account for the current session. Also, you'll need to choose an organization and space in {{site.data.keyword.cloud_notm}}.>
 ```
 
 ### Step 2. Fetch the IAM access token.

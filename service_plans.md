@@ -18,7 +18,7 @@ subcollection: StreamingAnalytics
 # Service plans
 {: #service_plans}
 
-{{site.data.keyword.streaminganalyticsshort}} is now running on a Kubernetes container-based infrastructure that provides security and availability advantages to the service.
+{{site.data.keyword.streaminganalyticsshort}} is runs on a Kubernetes container-based infrastructure that provides security and availability advantages to the service.
 {:shortdesc}
 
 You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is best suited for the work that you need to do:
@@ -32,21 +32,32 @@ You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is be
   <tr>
     <td width="40%">
       <ul>
-        <li>Lite</li>
-        <li>Entry Container Hourly</li>
-        <li>Entry Container Monthly</li>
-        <li>Entry Container Subscription</li>
-        <li>Enhanced Container Hourly</li>
-        <li>Enhanced Container Monthly</li>
-        <li>Enhanced Container Subscription</li>
-        <li>Premium Container Hourly</li>
-        <li>Premium Container Monthly</li>
-        <li>Premium Container Subscription</li>
+        <li>Lite
+        <br>Dedicated application resources with 1 core and 4GB RAM
+        </li>
+        <li>Entry Container Hourly
+        <br>Dedicated application resources with 1 core and 4GB RAM
+        </li>
+        <li>Entry Container Monthly
+        <br>Dedicated application resources with 1 core and 4GB RAM
+        </li>
+        <li>Enhanced Container Hourly
+        <br>Dedicated application resources with 4 cores and 12GB RAM
+        </li>
+        <li>Enhanced Container Monthly
+        <br>Dedicated application resources with 4 cores and 12GB RAM
+        </li>
+        <li>Premium Container Hourly
+        <br>Dedicated application resources with 16 cores and 128GB RAM
+        </li>
+        <li>Premium Container Monthly
+        <br>Dedicated application resources with 16 cores and 128GB RAM
+        </li>
       </ul>
     </td>
     <td>
     <ul>
-      <li>Requires that you compile your Streams application in an RHEL 7.x operating system or an equivalent CentOS version.</li>
+      <li>Requires that your Streams applications can run on a RHEL 7.4 or CentOS 7.4 x86_64 system.</li>
       <li>Runs on a container-based infrastructure.</li>
       <li>Supports REST APIs.<br></li>
       <li>Supports IAM authentication.</li>
@@ -57,7 +68,7 @@ You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is be
   </tr>
 </table>
 
-*Table 1. {{site.data.keyword.streaminganalyticsshort}} service plans*
+**Subscription Plan**: Subscription plan is available with [IBM Cloud Pak for Data as a Service ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/products/cloud-pak-for-data/as-a-service){:new_window}.
 
 ## VCAP_SERVICES environment variable
 {: #v2_vcap_services}

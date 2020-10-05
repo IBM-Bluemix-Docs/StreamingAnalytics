@@ -12,6 +12,7 @@ Streaming Analytics
     {: .topicgroup}
     About
         StreamingAnalytics.md
+        roadmap.md
         c_streams_console.md
         r_service_dashboard.md
 
@@ -25,14 +26,9 @@ Streaming Analytics
         gs_beamrunner.md
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
-    related_links.md
-    [REST API](https://ibm.co/2Gt9mB6)
-    [Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
-    {: .navgroup-end}
-
     {: .navgroup id="howto"}
-    c_getting_app_bluemix.md
+    t_using_streaming_analytics.md
+    spl_cloud_ready.md
     c_ha.md
 
     {: .topicgroup}
@@ -40,6 +36,15 @@ Streaming Analytics
         t_deploytocloud.md
         t_develop_apps_python.md
         develop_beam_apps.md
+        dev_guide.md
+
+    {: .topicgroup}
+    Connecting with other services
+        connect_secure_gateway.md
+        integrate_cloudant.md
+        integrate_other.md
+
+    using_streams_rest.md
 
     {: .topicgroup}
     Security
@@ -47,10 +52,18 @@ Streaming Analytics
         granting-permissions-to-users.md
 
     {: .topicgroup}
+    event_detection.md
     service_endpoints.md
     compatible_toolkits.md
     c_beta_tooling.md
-    r_integrating_cloudant_rest.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    API Reference
+        [Streaming Analytics Service REST API](https://ibm.co/2Gt9mB6)
+        [IBM Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
+    related_links.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
