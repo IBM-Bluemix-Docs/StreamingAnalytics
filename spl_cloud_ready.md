@@ -142,7 +142,7 @@ If your application uses the **appLog()** function from the SPL standard toolkit
 
 
 - If your application uses the **appLog()** function, change it to use the **appTrc()** function.  appTrc() messages are sent to PE logs that are visible to you, instead of being sent to the Streams product logs.
-- Similarly, if you’ve written your own primitive operators as part of your application and you use the **SPLAPPTRC** macro, use the **SPLAPPTRC** macro instead.
+- Similarly, if you’ve written your own primitive operators as part of your application and you use the **SPLAPPLOG** macro, use the **SPLAPPTRC** macro instead.
 
 
 
