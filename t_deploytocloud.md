@@ -39,7 +39,7 @@ To deploy your {{site.data.keyword.streamsshort}} applications to the cloud:
 
 3. Verify that your streaming application runs properly in your development environment.
 
-    You must compile your applications in Red Hat Enterprise Linux (RHEL) 7.x.
+    You must compile your applications on a RHEL 7.4 or CentOS 7.4 x86_64 system.
     {:note .note}
 
 4. Submit the application bundle (.sab file) that is associated with your SPL, Java, Scala, or Python application to your service instance in the cloud by using one of these methods:

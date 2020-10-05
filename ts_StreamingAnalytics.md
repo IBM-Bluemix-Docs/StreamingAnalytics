@@ -48,10 +48,10 @@ You can't run your application correctly and the health status is `unhealthy`.
 You submit an application to the service instance, the application starts but fails immediately, and the health status is `unhealthy`. The following error appears in the log file: `/lib64/libc.so.6: version GLIBC_2.14 not found`.
 {: tsSymptoms}
 
-You did not compile the application with an RHEL 7.x operating system or an equivalent CentOS version.
+You did not compile the application with a RHEL 7.4 or CentOS 7.4 x86_64 system.
 {: tsCauses}
 
-You must compile your application in Red Hat Enterprise Linux (RHEL) 7.x with Intel processors. Submit your application to the service instance again. You can download the [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) if you don't have a compatible development environment.{: tsResolve}
+You must compile your application on a RHEL 7.4 or CentOS 7.4 x86_64 system. Submit your application to the service instance again. You can download the [{{site.data.keyword.streamsshort}} Quick Start Edition with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) if you don't have a compatible development environment.{: tsResolve}
 
 ## My application is unhealthy after it restarted
 {: #app_restart}
