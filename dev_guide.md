@@ -54,7 +54,7 @@ If you have questions or difficulty following the steps in this guide, please ad
 
 {{site.data.keyword.streaminganalyticsshort}} in IBM Cloud is running IBM Streams version 4.3 on CentOS 7.4.
 
-In order to compile Streams applications to deploy to an instance in the cloud, you need IBM Streams version 4.0.x, 4.1.x, 4.2.x or 4.3.x installed on a RHEL or CentOS 7.4 x86_64 system. If you have a compatible installation of IBM Streams available to you, you can use that for your development environment and skip to the “Introducing Our Sample Application” section further down in this document.
+In order to compile Streams applications to deploy to an instance in the cloud, you need IBM Streams version 4.0.x, 4.1.x, 4.2.x or 4.3.x installed on a RHEL 7.4 or CentOS 7.4 x86_64 system. If you have a compatible installation of IBM Streams available to you, you can use that for your development environment and skip to the “Introducing Our Sample Application” section further down in this document.
 
 If you do not have a compatible installation of IBM Streams, you can set up the IBM Streams Quick Start Edition (QSE) and use it as your development environment for the cloud.
 

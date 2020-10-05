@@ -57,7 +57,7 @@ You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is be
     </td>
     <td>
     <ul>
-      <li>Requires that your Streams applications can run on a RHEL or CentOS 7.x x86_64 system.</li>
+      <li>Requires that your Streams applications can run on a RHEL 7.4 or CentOS 7.4 x86_64 system.</li>
       <li>Runs on a container-based infrastructure.</li>
       <li>Supports REST APIs.<br></li>
       <li>Supports IAM authentication.</li>

@@ -37,5 +37,5 @@ If you are not familiar with {{site.data.keyword.streamsshort}} application deve
 
 If you already have an SPL application that you run on premise, you must [get your application ready for the cloud.](/docs/StreamingAnalytics?topic=StreamingAnalytics-spl_cloud_ready)
 
-You must compile your applications in Red Hat Enterprise Linux (RHEL) 7.x.
+You must compile your applications a RHEL 7.4 or CentOS 7.4 x86_64 system.
 {:note .note}

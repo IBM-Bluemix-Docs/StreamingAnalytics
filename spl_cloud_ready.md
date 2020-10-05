@@ -24,7 +24,7 @@ subcollection: StreamingAnalytics
 Use these techniques to make sure your existing SPL applications are ready to run in the cloud.
 {:shortdesc}
 
-An SPL application that runs in a non-cloud, on-premises installation of Streams might require modification before it can run in the {{site.data.keyword.streaminganalyticsshort}} service in IBM Cloud. This article describes SPL application constructs and patterns that may not work or may function differently in the cloud, and provides advice on how to make SPL applications that use these techniques “cloud-ready.”
+An SPL application that runs in a non-cloud, on-premises installation of Streams might require modification before it can run in the {{site.data.keyword.streaminganalyticsshort}} service in IBM Cloud. This article describes SPL application constructs and patterns that may not work or may function differently in the cloud, and provides advice on how to create SPL applications that use these techniques “cloud-ready.”
 
 ## Passing configuration information to an SPL operator as a file
 {: #passing-config}
@@ -50,7 +50,7 @@ If you use SPL operators that require configuration files, there are a couple of
 ### *_Issue_*
 {: #use-of-filesource-issue}
 
-A common pattern in SPL applications it to get data into the application via a FileSource. The FileSource operator will function correctly in the cloud, but the ability of the application to get new data into the application via a FileSource is limited as you do not have direct access to the file system on the streams application nodes.
+A common pattern in SPL applications is to get data into the application via a FileSource. The FileSource operator will function correctly in the cloud, but the ability of the application to get new data into the application via a FileSource is limited as you do not have direct access to the file system on the streams application nodes.
 
 The files accessed by a FileSource are in the local file system of a Streams host in the cloud. An SPL application running in the cloud can access the local file system, but there is no way for an entity outside of Streams to populate a file with new data or put a new file into a directory that is being monitored by a DirectoryScan.
 
@@ -63,7 +63,7 @@ If your SPL application uses FileSource as the means for obtaining new data, the
 
 1. Store your data files using the Object Storage service in IBM Cloud and access them from your Streams application. This enables your solution to dynamically create new files or update existing files in Cloud Object Storage that your Streams application can access. See the [Streams Object Storage Toolkit](https://ibmstreams.github.io/streamsx.objectstorage/) for more information about using Object Storage in a Streams application.
 1. Serve your files through a web application server, and access them using the InetSource operator instead of FileSource.
-1. Use a IBM Cloud application to access the file-based data, and stream the data from your IBM Cloud application into your SPL application via another type of adapter.
+1. Use an IBM Cloud application to access the file-based data, and stream the data from your IBM Cloud application into your SPL application via another type of adapter.
 1. Move to a non file-based approach for input (e.g. MessageHub, Kafka, MQTT, MQ, HTTP, etc.)
 1. Create a new SPL application that includes the new file in the stream application bundle, then use a FileSource to read from the bundle and FileSink to write the file out to /tmp in the file system on the same streams application node. (See the next section about considerations around the use of FileSink)
 
@@ -142,7 +142,7 @@ If your application uses the **appLog()** function from the SPL standard toolkit
 
 
 - If your application uses the **appLog()** function, change it to use the **appTrc()** function.  appTrc() messages are sent to PE logs that are visible to you, instead of being sent to the Streams product logs.
-- Similarly, if you’ve written your own primitive operators as part of your application and you use the **SPLAPPTRC** macro, use the **SPLAPPTRC** macro instead.
+- Similarly, if you’ve written your own primitive operators as part of your application and you use the **SPLAPPLOG** macro, use the **SPLAPPTRC** macro instead.
 
 
 

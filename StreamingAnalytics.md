@@ -64,15 +64,17 @@ Client is responsible for:
 
 As part of {{site.data.keyword.streaminganalyticsfull}}, IBM will:
 
-* Provide and manage servers, storage, and networking infrastructure for the Customer instance.
-* Provide an initial configuration of the {{site.data.keyword.streamsshort}} on the number of resources selected.
-* Provide and manage infrastructure for Internet facing and internal firewall for protection and isolation.
-* Monitor and manage the following components on {{site.data.keyword.streaminganalyticsshort}}:
-	* Network components
-	* Servers and their local storage
-	* Infrastructure Operating Systems
-	* {{site.data.keyword.streamsshort}} management services
-	* {{site.data.keyword.streamsshort}} instances
-* Provide maintenance patches, including appropriate security patches for the infrastructure operating systems and {{site.data.keyword.streamsshort}}.
-* Perform regular maintenance that should not require any system downtime (“non-disruptive” maintenance) and maintenance that can require some system downtime and restarting (“disruptive” maintenance”), are performed at the scheduled times published at [https://cloud.ibm.com/status?selected=status ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/status?selected=status){:new_window}
-* Any changes to the scheduled maintenance times are posted with appropriate notice.
+- Provide and manage servers, storage, and networking infrastructure for the Customer instance.
+- Provide an initial configuration of the {{site.data.keyword.streamsshort}} on the number of resources selected.
+- Provide and manage infrastructure for Internet facing and internal firewall for protection and isolation.
+- Monitor and manage the following components on {{site.data.keyword.streaminganalyticsshort}}:
+    - Network components
+    - Servers and their local storage
+    - Infrastructure Operating Systems
+    - {{site.data.keyword.streamsshort}} management services
+    - {{site.data.keyword.streamsshort}} instances
+- Provide maintenance patches, including appropriate security patches for the infrastructure operating systems and {{site.data.keyword.streamsshort}}.
+    - Perform regular maintenance that should not require any system downtime (“non-disruptive” maintenance) 
+    - Less frequently, perform maintenance that can require some system downtime and restarting (“disruptive” maintenance”), 
+    - Maintenance is performed at the scheduled times published at [https://cloud.ibm.com/status?selected=status ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/status?selected=status){:new_window}
+    - Any changes to the scheduled maintenance times are posted with appropriate notice.

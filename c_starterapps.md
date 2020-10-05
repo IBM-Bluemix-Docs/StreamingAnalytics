@@ -44,7 +44,7 @@ You can run the starter application without modification. If you want to experim
 <table summary="This table describes, in the first row, the Event Detection sample application. The table includes on the second row:
 1. In the first column, a link to instructions on how to deploy the Event Detection starter application. 2. In the second column, a link to tutorials on how to use the Event Detection starter application. 3. In the third column, a link to directly download the Event Detection starter application.">
   <tr>
-    <td colspan="3" headers="EventDetection2">The Event Detection app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/?cm_mmc=dw-_-bluemix-_-ba-bluemix-detect-complex-events-from-data-stream-trs-_-article">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. The app provides a simple web UI to display status and results of the analysis.
+    <td colspan="3" headers="EventDetection2">The Event Detection app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. The app provides a simple web UI to display status and results of the analysis.
 The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} REST API.
 <p>You can run the starter application without modification.
 If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.cloud}} environment.</p>
