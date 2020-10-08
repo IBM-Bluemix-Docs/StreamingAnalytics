@@ -99,7 +99,6 @@ You can use the [{{site.data.keyword.cloud_notm}} Secure Gateway Service](https:
 Some of the features that are not supported for {{site.data.keyword.streaminganalyticsshort}} service include:
 
   - Administrative tasks for an instance that require domain authority. For example, adding custom host tags or creating a job group.
-  - Consistent region checkpoints.
   - Some of the toolkit operators are not supported. For more information, see [Supported toolkits and adapters](/docs/StreamingAnalytics?topic=StreamingAnalytics-compatible_toolkits).
   - The Streams JMX API.
 
