@@ -58,6 +58,7 @@ Client is responsible for:
 * Checking the following link periodically to be informed about a scheduled non-disruptive or disruptive downtime - [https://cloud.ibm.com/status?selected=status ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/status?selected=status){:new_window}  
 * Backing up all data, metadata, configuration files, and environment parameters as per business requirements to ensure continuity.
 * Restoring data, metadata, configuration files, and environment parameters from any backup to ensure continuity, in an eventuality of failure of any type. This includes but is not limited to data center or pod failure, server failure or hard disk failure, or software failures.
+* Streaming Analytics systems use the network time protocol (NTP) to keep clocks synchronized with an authoritative time server. Customers wishing to synchronize their systems with the Streaming Analytics service should also configure their systems to use an authoritative time server. For more information about setting up NTP, see the user documentation for your operating system.
 
 ### IBM Responsibilities
 {: #ibmresponsibilities notoc}
