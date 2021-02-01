@@ -31,7 +31,6 @@ Use the IBM Streams Quick Start Edition (QSE) to build, submit and monitor a str
 
 This development guide applies to Streams applications that are compiled in the Streams Studio IDE or compiled by you using the <code>sc</code> command. It does not apply to applications where the compilation is performed for you in the cloud by other development tools, such as:
 
-- Streams Flows (in Watson Studio)
 - IBM Streams Runner for Apache Beam
 - Python/DSX notebooks (without a local Streams install)
 
