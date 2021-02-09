@@ -46,8 +46,8 @@ You can run the starter application without modification. If you want to experim
   <tr>
     <td colspan="3" headers="EventDetection2">The Event Detection app is implemented via the <a href="https://{DomainName}/catalog/starters/sdk-for-nodejs/">SDK for Node.js ![External link icon](../../icons/launch-glyph.svg "External link icon")</a> runtime. The app provides a simple web UI to display status and results of the analysis.
 The Node.js app is bound to an instance of the {{site.data.keyword.streaminganalyticsshort}} service. The app controls the service via the {{site.data.keyword.streaminganalyticsshort}} REST API.
-<p>You can run the starter application without modification.
-If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.cloud}} environment.</p>
+You can run the starter application without modification.
+If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.cloud}} environment.
 </td>
   </tr>
   <tr>

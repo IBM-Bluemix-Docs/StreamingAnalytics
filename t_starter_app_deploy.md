@@ -56,16 +56,22 @@ You must follow these steps to deploy the starter apps:
 {: #deploy_app}
 
 1. Go to the starter application directory:
-  <pre><code>cd myapp</code></pre>
-  {:pre}
+   ```
+   cd myapp
+   ```
+   {:pre}
 
 1. Log in to {{site.data.keyword.cloud_notm}} and set your target organization when prompted:
-  <pre><code>bx login</code></pre>
-  {:pre}
+   ```
+   bx login
+   ```
+   {:pre}
 
 1. Push your application to {{site.data.keyword.cloud_notm}}:
-  <pre><code>bx app push myapp</code></pre>
-  {:pre}
+   ```
+   bx app push myapp
+   ```
+   {:pre}
 
 1. Go to your application details page, accessible from the {{site.data.keyword.cloud_notm}} dashboard to verify that your application started successfully.
 1. Launch your application to see it in your browser. You can find your application's URL (or "route") on the application details page.
