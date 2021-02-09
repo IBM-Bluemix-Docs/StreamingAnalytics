@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-08-07"
+  years: 2015, 2021
+lastupdated: "2021-02-09"
 
 subcollection: StreamingAnalytics
 
@@ -16,7 +16,7 @@ subcollection: StreamingAnalytics
 {:pre: .pre}
 {:note: .note}
 
-# High availability and disaster recovery
+# Understanding high availability and disaster recovery for {{site.data.keyword.streaminganalyticsshort}}
 {: #c_ha}
 
 {{site.data.keyword.streaminganalyticsshort}} is highly available within an {{site.data.keyword.cloud_notm}} location (for example, Dallas, London, Frankfurt). However, recovering from potential disasters that affect an entire {{site.data.keyword.cloud_notm}} region requires planning and preparation.
