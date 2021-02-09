@@ -29,7 +29,6 @@ Streaming Analytics
     {: .navgroup id="howto"}
     t_using_streaming_analytics.md
     spl_cloud_ready.md
-    c_ha.md
 
     {: .topicgroup}
     Deploying apps to the cloud
@@ -59,6 +58,8 @@ Streaming Analytics
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    c_ha.md
+    
     {: .topicgroup}
     API Reference
         [Streaming Analytics Service REST API](https://ibm.co/2Gt9mB6)
