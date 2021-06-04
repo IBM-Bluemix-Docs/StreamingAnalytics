@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="StreamingAnalytics" category="analytics" audience="service" href="/docs/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted" path="StreamingAnalytics"}
+{: .toc subcollection="StreamingAnalytics" category="analytics" audience="service" release-level="deprecated" href="/docs/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted" path="StreamingAnalytics"}
 Streaming Analytics
 
     {: .navgroup id="learn"}
@@ -64,6 +64,7 @@ Streaming Analytics
         [Streaming Analytics Service REST API](https://ibm.co/2Gt9mB6)
         [IBM Streams Python API](http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide/)
     related_links.md
+    end_of_market.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

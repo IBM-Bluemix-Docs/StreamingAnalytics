@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-07-28"
+  years: 2015, 2021
+lastupdated: "2021-06-07"
 
 subcollection: StreamingAnalytics
 
