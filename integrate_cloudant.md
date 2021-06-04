@@ -11,12 +11,19 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:note: .note}
 
 # Integrating with Cloudant and other RESTful services
 {: #integrate_cloudant}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 Streams integrates with other technologies using adapters to popular protocols such as TCP, ODBC, Kafka, JMS, MQTT and HDFS, just to name a few. REST is another established protocol that is gaining popularity because of its use in many cloud-based services. This article describes how to use Streams HTTP adapters to integrate SPL applications to Cloudant and other RESTful, web-based services.
 

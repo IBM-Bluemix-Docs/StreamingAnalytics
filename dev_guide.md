@@ -13,6 +13,7 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
@@ -22,6 +23,12 @@ subcollection: StreamingAnalytics
 
 # {{site.data.keyword.streaminganalyticsshort}} development guide
 {: #development_guide}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 Use the IBM Streams Quick Start Edition (QSE) to build, submit and monitor a streaming analytics application using the {{site.data.keyword.streaminganalyticsshort}} service on IBM Cloud.
 {:shortdesc}
