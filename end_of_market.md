@@ -24,7 +24,6 @@ subcollection: StreamingAnalytics
 {{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
 you can't create new instances, and access to free Lite instances will be removed. 
 Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
-For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
 {: deprecated}
 
 The *End of Market* for {{site.data.keyword.streaminganalyticsshort}} for all plans is July 30, 2021.
@@ -45,16 +44,16 @@ All existing instances will be stopped and deleted.
 
 ## Path Forward
 
-The path forward will be {{site.data.keyword.streamsshort}} on Cloud Pak for Data.
-The latest version of {{site.data.keyword.streamsshort}} is available on Cloud Pak for Data. 
+The path forward will be {{site.data.keyword.streamsshort}} on {{site.data.keyword.cpd_short}}.
+The latest version of {{site.data.keyword.streamsshort}} is available on {{site.data.keyword.cpd_short}}. 
 Moving from {{site.data.keyword.streaminganalyticsshort}} to {{site.data.keyword.streamsshort}} 
-for Cloud Pak for Data has many benefits including
+for {{site.data.keyword.cpd_short}} has many benefits including
  
 - Additional development tools
 - Simplified administration
 - Standardization on a secure, enterprise-ready container platform
 - Sharing of infrastructure with many additional capabilities
 
-To get started with {{site.data.keyword.streamsshort}} on Cloud Pak for Data 
-engage an IBM sales representative who can advise you on how to modernize to Cloud Pak for Data 
+To get started with {{site.data.keyword.streamsshort}} on {{site.data.keyword.cpd_short}} 
+engage an IBM sales representative who can advise you on how to modernize to {{site.data.keyword.cpd_short}} 
 and walk you through the license trade-up options.
