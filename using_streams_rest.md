@@ -11,6 +11,7 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:note: .note}
@@ -19,6 +20,12 @@ subcollection: StreamingAnalytics
 
 # Using the Streams REST API
 {: #using_streams_rest_api}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 Do you want to gain a deeper understanding of your Streams apps running either on-premises or in the {{site.data.keyword.streaminganalyticsshort}} service on IBM Cloud? The Streams Console enables interactive monitoring of your IBM Streams installation. Moreover, the Streams REST API provides powerful programmatic access to detailed metrics for Streams instances, jobs, PEs, and more. The REST API is available wherever you can access the Streams Console. Note that the Streams REST API interacts with the underlying Streams infrastructure and is different than the {{site.data.keyword.streaminganalyticsshort}} REST API. To learn about {{site.data.keyword.streaminganalyticsshort}} REST API, see the [{{site.data.keyword.streaminganalyticsshort}} v2 - IBM Cloud API Docs](https://ibm.co/2Gt9mB6).
 

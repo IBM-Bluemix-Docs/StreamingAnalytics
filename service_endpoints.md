@@ -11,12 +11,19 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
 # Managing service endpoints
 {: #manage_endpoints}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 By using a private endpoint, {{site.data.keyword.cloud}} Service Endpoint enables the connection to the {{site.data.keyword.streaminganalyticsshort}} service through the internal {{site.data.keyword.cloud_notm}} network.
 {:shortdesc}

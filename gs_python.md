@@ -11,12 +11,19 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
 # Streams Python applications
 {: #gettingstarted_py}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 You can now create Streams apps in a Python environment such as {{site.data.keyword.DSX_full}}, and submit these apps to the {{site.data.keyword.streaminganalyticsshort}} instance to be deployed in {{site.data.keyword.cloud_notm}}. You no longer need to install {{site.data.keyword.streamsshort}} locally to compile and deploy a Streams Python app.
 

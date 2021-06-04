@@ -14,12 +14,19 @@ subcollection: StreamingAnalytics
 {:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
 # {{site.data.keyword.streaminganalyticsshort}} troubleshooting
 {: #ts_StreamingAnalytics}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 You can find the answers to common questions about how to use {{site.data.keyword.streaminganalyticsshort}} on {{site.data.keyword.cloud}}.
 {:shortdesc}

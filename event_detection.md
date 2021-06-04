@@ -11,6 +11,7 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
@@ -19,6 +20,12 @@ subcollection: StreamingAnalytics
 
 # Detect Complex Events in Real-time
 {: #detect_events}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 Do you want to perform complex event detection on information from real-time data sources and act quickly when events are found? It’s easier than you might think when you use the {{site.data.keyword.streaminganalyticsshort}} in IBM Cloud. To show how easy, I built a starter app that:
 

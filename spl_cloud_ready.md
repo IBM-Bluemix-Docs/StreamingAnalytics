@@ -11,6 +11,7 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
@@ -20,6 +21,11 @@ subcollection: StreamingAnalytics
 # Getting your SPL application ready for the cloud
 {: #spl_cloud_ready}
 
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 Use these techniques to make sure your existing SPL applications are ready to run in the cloud.
 {:shortdesc}

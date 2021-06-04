@@ -18,11 +18,11 @@ subcollection: StreamingAnalytics
 {:note .note}
 
 
-# End of Market for {{site.data.keyword.streaminganalyticsfull}}
+# End of Market for {{site.data.keyword.streaminganalyticsshort}}
 {: #end_of_market}
 
 {{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
-you can't create new instances, and access to free instances will be removed. 
+you can't create new instances, and access to free Lite instances will be removed. 
 Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
 For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
 {: deprecated}
@@ -33,12 +33,13 @@ This change affects the Dallas, Frankfurt, and London regions.
 
 ## Timeline
 
-### End of Market – July 30, 2021
+### End of Market: July 30, 2021
 
 New instances of the service will no longer be provisioned from the IBM Cloud Catalog. 
-Existing instances of the service will remain active until the End of Support date.
+Existing instances using the free *Lite* plan will be stopped and deleted.
+Existing instances using a paid plan will remain active until the End of Support date.
 
-### End of Support - May 1, 2022
+### End of Support: May 1, 2022
 
 All existing instances will be stopped and deleted.
 
