@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-09-22"
+  years: 2015, 2021
+lastupdated: "2021-06-07"
 
 subcollection: StreamingAnalytics
 
@@ -13,6 +13,7 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
@@ -23,6 +24,12 @@ subcollection: StreamingAnalytics
 
 # Roadmap for {{site.data.keyword.streaminganalyticsshort}} on IBM Cloud
 {: #roadmap}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 {{site.data.keyword.streaminganalyticsshort}} is built upon the IBM Streams technology. Streams is an advanced analytic platform allowing user-developed applications to quickly ingest, analyze, and correlate information as it arrives from a wide variety of real-time sources. The {{site.data.keyword.streaminganalyticsshort}} service gives you the ability to deploy Streams applications to run in the IBM Cloud. This roadmap helps you get started and learn about the IBM {{site.data.keyword.streaminganalyticsshort}} Service.
 

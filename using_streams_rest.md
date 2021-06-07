@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-09-22"
+  years: 2015, 2021
+lastupdated: "2021-06-07"
 
 subcollection: StreamingAnalytics
 
@@ -11,13 +11,21 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:note: .note}
 {:tip: .tip}
+{:pre: .pre}
 
 # Using the Streams REST API
 {: #using_streams_rest_api}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 Do you want to gain a deeper understanding of your Streams apps running either on-premises or in the {{site.data.keyword.streaminganalyticsshort}} service on IBM Cloud? The Streams Console enables interactive monitoring of your IBM Streams installation. Moreover, the Streams REST API provides powerful programmatic access to detailed metrics for Streams instances, jobs, PEs, and more. The REST API is available wherever you can access the Streams Console. Note that the Streams REST API interacts with the underlying Streams infrastructure and is different than the {{site.data.keyword.streaminganalyticsshort}} REST API. To learn about {{site.data.keyword.streaminganalyticsshort}} REST API, see the [{{site.data.keyword.streaminganalyticsshort}} v2 - IBM Cloud API Docs](https://ibm.co/2Gt9mB6).
 
@@ -37,7 +45,8 @@ If you use the {{site.data.keyword.streaminganalyticsshort}} service, follow the
     1.  In the {{site.data.keyword.streaminganalyticsshort}} service dashboard, navigate to the **Service credentials** section and click **New credential**.
     2.  Name your service credential and click **Add**. The service credential is generated:
 
-        <pre>{
+        ```
+        {
           "apikey": "[your_api_key]",
           "iam_apikey_description": "Auto generated apikey during resource-key operation for Instance - crn:v1:staging:public:streaming-analytics:us-south:a/[instanceId]",
           "iam_apikey_name": "auto-generated-apikey-",
@@ -45,7 +54,8 @@ If you use the {{site.data.keyword.streaminganalyticsshort}} service, follow the
           "iam_serviceid_crn": "crn:v1:staging:public:iam-identity:[iam_identity]::serviceid:[serviceId]",
           "v2_rest_url": "https://[host]/v2/streaming_analytics/[instanceId]"
         }
-        </pre>
+        ```
+        {:pre}
 
     3.  Copy the value of the `apikey` parameter.
 
@@ -63,7 +73,8 @@ Let’s start by getting the URI to access the Streams URI, to then dig into oth
 - If you are using the {{site.data.keyword.streaminganalyticsshort}} service:
     1.  Go to the service REST API URL by copying the value of the v2_rest_url parameter in a browser window. This parameter is part of the service credentials. The {{site.data.keyword.streaminganalyticsshort}} instance information is displays in a JavaScript Object Notation (JSON) payload.
 
-        <pre>{
+        ```
+        {
           "role": "Manager",
           "jobs": "https://[host]/v2/streaming_analytics/[instanceId]/jobs",
           "documentation": "https://[host]/docs/StreamingAnalytics",
@@ -82,7 +93,8 @@ Let’s start by getting the URI to access the Streams URI, to then dig into oth
           "crn": "crn:v1:staging:public:streaming-analytics:us-south:a/[iam_identity]:[instanceId]",
           "status": "stopped"
         }
-        </pre>
+        ```
+        {:pre}
 
     2.  To access the Streams REST API, you must use the value of `streams_self` parameter corresponds to the URI that you can use to access the Streams REST API.
 

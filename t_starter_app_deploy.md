@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-16"
+  years: 2015, 2021
+lastupdated: "2021-06-07"
 
 subcollection: StreamingAnalytics
 
@@ -11,12 +11,19 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
 # Getting started tutorial
 {: #starterapps_deploy}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 {{site.data.keyword.streaminganalyticsshort}} is a fully managed service that frees you from time-consuming installation, administration, and management tasks, giving you more time to develop streaming applications. In this getting started tutorial, you push and deploy one of the {{site.data.keyword.streaminganalyticsshort}} starter applications to {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
@@ -56,16 +63,22 @@ You must follow these steps to deploy the starter apps:
 {: #deploy_app}
 
 1. Go to the starter application directory:
-  <pre><code>cd myapp</code></pre>
-  {:pre}
+   ```
+   cd myapp
+   ```
+   {:pre}
 
 1. Log in to {{site.data.keyword.cloud_notm}} and set your target organization when prompted:
-  <pre><code>bx login</code></pre>
-  {:pre}
+   ```
+   bx login
+   ```
+   {:pre}
 
 1. Push your application to {{site.data.keyword.cloud_notm}}:
-  <pre><code>bx app push myapp</code></pre>
-  {:pre}
+   ```
+   bx app push myapp
+   ```
+   {:pre}
 
 1. Go to your application details page, accessible from the {{site.data.keyword.cloud_notm}} dashboard to verify that your application started successfully.
 1. Launch your application to see it in your browser. You can find your application's URL (or "route") on the application details page.

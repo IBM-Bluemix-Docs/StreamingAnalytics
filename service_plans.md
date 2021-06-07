@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-16"
+  years: 2015, 2021
+lastupdated: "2021-06-07"
 
 subcollection: StreamingAnalytics
 
@@ -11,12 +11,19 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
 # Service plans
 {: #service_plans}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 {{site.data.keyword.streaminganalyticsshort}} is runs on a Kubernetes container-based infrastructure that provides security and availability advantages to the service.
 {:shortdesc}
@@ -78,7 +85,7 @@ The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_S
 
 The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_SERVICES environment variable include information as presented in the following example:
 
-<pre><code>
+```
     {
       "apikey": "aaaabbbbb1111222ABCDEFgh567appjurHKyY",
       "iam_apikey_description": "Auto generated apikey during resource-key operation for Instance - crn:v1:bluemix:public:streaming-analytics:us-south:a/aaabbbb120110ab123d456e78a0b78910:12e3456e-102f-47e0-9600-4313d496e07a::",
@@ -87,6 +94,7 @@ The {{site.data.keyword.streaminganalyticsshort}} service credentials and VCAP_S
       "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/b123bb45670ab123d123e12d0a12345::serviceid:ServiceId-a1234b5c-678d-9f6f-bdb4-16c23935efb5",
       "v2_rest_url": "{rest_url}/v2/streaming_analytics/a1234b5c-678d-9f6f-bdb4-16c23935efb5"
     }
-</code></pre>
+```
+{:pre}
 
 For more information about the REST API, see the  [REST API documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/streaming-analytics-v2){:new_window}.

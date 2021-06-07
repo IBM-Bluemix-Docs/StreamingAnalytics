@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-16"
+  years: 2015, 2021
+lastupdated: "2021-06-07"
 
 subcollection: StreamingAnalytics
 
@@ -11,12 +11,19 @@ subcollection: StreamingAnalytics
 <!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
 # IBM Streams Runner for Apache Beam
 {: #gs_beamrunner}
+
+{{site.data.keyword.streaminganalyticsfull}} is deprecated. As of July 30, 2021, 
+you can't create new instances, and access to free Lite instances will be removed. 
+Existing paid plan instances are supported until May 1, 2022. Any instance that still exist on that date will be stopped and deleted. 
+For more information, see [End of Market](/docs/StreamingAnalytics?topic=StreamingAnalytics-end_of_market).
+{: deprecated}
 
 If you have an {{site.data.keyword.streamsshort}} development environment, you can now develop Beam applications locally in your environment and then submit these apps to the {{site.data.keyword.streaminganalyticsshort}} service in {{site.data.keyword.cloud_notm}}. {{site.data.keyword.streamsshort}} Runner for Apache Beam executes Beam pipelines in an {{site.data.keyword.streamsshort}} environment. A Beam application that is launched with Streams Runner is translated into a Streams Application Bundle (SAB) file that you can then deploy and monitor in {{site.data.keyword.streaminganalyticsshort}}.
 
