@@ -44,16 +44,6 @@ All existing instances will be stopped and deleted.
 
 ## Path Forward
 
-The path forward will be {{site.data.keyword.streamsshort}} on {{site.data.keyword.cpd_short}}.
-The latest version of {{site.data.keyword.streamsshort}} is available on {{site.data.keyword.cpd_short}}. 
-Moving from {{site.data.keyword.streaminganalyticsshort}} to {{site.data.keyword.streamsshort}} 
-for {{site.data.keyword.cpd_short}} has many benefits including
- 
-- Additional development tools
-- Simplified administration
-- Standardization on a secure, enterprise-ready container platform
-- Sharing of infrastructure with many additional capabilities
-
-To get started with {{site.data.keyword.streamsshort}} on {{site.data.keyword.cpd_short}} 
-engage an IBM sales representative who can advise you on how to modernize to {{site.data.keyword.cpd_short}} 
-and walk you through the license trade-up options.
+The path forward will be Cloud Pak for Data. To get started with Cloud Pak for Data 
+engage an IBM sales representative who can advise you on how to modernize to 
+Cloud Pak for Data and walk you through the license trade-up options
